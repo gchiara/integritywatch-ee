@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.06.2019",
             "eesnimi": "Priit",
-            "isikukood": "37901235710",
+            "isikukood": null,
+            "isikukood_hash": "8a5df50f-f1e3-5637-990a-524a4fcacb2e",
             "kirje_id": 9000985012,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37901235710",
+            "isikukood_hash": "8a5df50f-f1e3-5637-990a-524a4fcacb2e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34904065716",
+            "isikukood_hash": "2d13c41d-fcdc-52cd-b728-caa9ebb351a9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -98,12 +101,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10256583",
-                "aadress_ads__adr_id": 3011579,
+                "aadress_ads__adob_id": "10833155",
+                "aadress_ads__adr_id": 3723894,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, J. Kuperjanovi tn 101e",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01647107",
-                "aadress_ads__koodaadress": "81855891800000SET0000B42000000000",
+                "aadress_ads__koodaadress": "81857891800000SET0000B42000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "21.02.2018",
                 "ehak": "8918",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Kuperjanovi tn 101e, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3652679,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Kuperjanovi tn 101e, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3439234,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Kuperjanovi tn 101e, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3163020,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Kuperjanovi tn 101e, Valga linn, Valga vald, Valga maakond, 68207",
                 "kirje_id": 2894484,
@@ -467,7 +506,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -565,22 +604,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000069184,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7663452"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000086648,
+                "kirje_id": 9000727586,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 7661260"
+                "sisu": "+372 5244622"
             }
         ],
         "staatus": "R",
@@ -598,23 +626,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "43222",
-                "emtak_tekstina": "Veetorustiku  ja sanitaarseadmete paigaldus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698965,
+                "algus_kpv": "28.05.2026",
+                "emtak_kood": "43221",
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105548,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698966,
+                "algus_kpv": "28.05.2026",
+                "emtak_kood": "43222",
+                "emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105549,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": false

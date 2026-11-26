@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kersti",
-            "isikukood": "45301080258",
+            "isikukood": null,
+            "isikukood_hash": "2f6a15ae-5364-545b-abc6-7ca1b3d962f2",
             "kirje_id": 9000770386,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kiur",
-            "isikukood": "38102240235",
+            "isikukood": null,
+            "isikukood_hash": "afc39363-e783-5d16-b457-a345880e0da7",
             "kirje_id": 9000770392,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45301080258",
+            "isikukood_hash": "2f6a15ae-5364-545b-abc6-7ca1b3d962f2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38102240235",
+            "isikukood_hash": "afc39363-e783-5d16-b457-a345880e0da7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Olevimägi 10-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10123",
+                "kirje_id": 3652291,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Olevimägi 10-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10123",
+                "kirje_id": 3433317,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Olevimägi 10-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10123",
+                "kirje_id": 3175462,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Olevimägi 10-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10123",
                 "kirje_id": 2788726,
@@ -423,7 +463,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -509,12 +549,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7664364,
+                "kande_nr": 10,
+                "kirje_id": 13996238,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kersti@lootusprojekt.ee"
+                "sisu": "info@lootusprojekt.ee"
             },
             {
                 "kaardi_nr": null,
@@ -532,33 +572,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000415906,
+                "kirje_id": 9000749990,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.lootusprojekt.ee"
+                "sisu": "http://www.lootusprojekt.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000632064,
+                "kirje_id": 9000749991,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5586986"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000632065,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6411578"
+                "sisu": "+372 56496984"
             }
         ],
         "staatus": "R",
@@ -576,15 +605,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2008",
+                "algus_kpv": "22.06.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000021596,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931295,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931296,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

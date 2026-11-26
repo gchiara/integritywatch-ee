@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.11.2019",
             "eesnimi": "Kalmar",
-            "isikukood": "37406206020",
+            "isikukood": null,
+            "isikukood_hash": "076fa83a-cc26-585e-8ae6-4879189aae4e",
             "kirje_id": 9001049960,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37406206020",
+            "isikukood_hash": "076fa83a-cc26-585e-8ae6-4879189aae4e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3832196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3562917,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3274795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 2996541,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 2996535,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lina tn 44, Viljandi linn, Viljandi maakond, 71008",
                 "kirje_id": 2482910,
@@ -298,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -405,12 +467,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.09.2021",
+                "algus_kpv": "14.10.2025",
                 "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000584150,
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001060199,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true

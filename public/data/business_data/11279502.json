@@ -7,6 +7,7 @@
             "algus_kpv": "25.10.2018",
             "eesnimi": "Stanislaw",
             "isikukood": null,
+            "isikukood_hash": "c15f2d11-0658-556a-b3ae-028588ea5836",
             "kirje_id": 9000820949,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Michniewicz",
             "synniaeg": null,
-            "valis_kood": "53050802450",
+            "valis_kood": null,
             "valis_kood_riik": "POL",
             "valis_kood_riik_tekstina": "Poola"
         }
@@ -34,20 +35,21 @@
             "aadress_riik": null,
             "aadress_riik_tekstina": null,
             "aadress_tanav_maja_korter": null,
-            "algus_kpv": "30.12.2021",
-            "eesnimi": "Eigo",
+            "algus_kpv": "06.10.2025",
+            "eesnimi": "Marijus",
             "email": null,
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38301166025",
+            "isikukood_hash": "dc16b648-70b1-56e0-ae62-bba1b6837b83",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
-            "kande_nr": 19,
-            "kirje_id": 9929374,
+            "kande_nr": 22,
+            "kirje_id": 13347969,
             "lopp_kpv": null,
-            "nimi_arinimi": "Siimu",
+            "nimi_arinimi": "Jankūnas",
             "osamaks": null,
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10471752",
+                "aadress_ads__adob_id": "10898847",
                 "aadress_ads__adr_id": 271887,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Rae küla, Graniidi tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Graniidi tee 1, Rae küla, Rae vald, Harju maakond, 75310",
+                "kirje_id": 3719296,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46491",
+                "tegevusala_emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.49",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Graniidi tee 1, Rae küla, Rae vald, Harju maakond, 75310",
+                "kirje_id": 3494293,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46491",
+                "tegevusala_emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.49",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Graniidi tee 1, Rae küla, Rae vald, Harju maakond, 75310",
+                "kirje_id": 3089533,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46491",
+                "tegevusala_emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.49",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Graniidi tee 1, Rae küla, Rae vald, Harju maakond, 75310",
                 "kirje_id": 2785344,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -422,45 +460,34 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 17,
-                "kirje_id": 7930402,
+                "kande_nr": 22,
+                "kirje_id": 13347970,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "oksana.b@sanitex.eu"
+                "sisu": "info@officeday.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000009260,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6580901"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000064014,
+                "kirje_id": 9000732740,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 6580900"
+                "sisu": "+372 6226399"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000108345,
+                "kirje_id": 9000732741,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.officeday.ee"
+                "sisu": "https://www.officeday.ee"
             }
         ],
         "staatus": "R",
@@ -478,26 +505,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064909,
-                "lopp_kpv": null,
-                "nace_kood": "46.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2009",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46491",
                 "emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064908,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991450,
                 "lopp_kpv": null,
                 "nace_kood": "46.49",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991451,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Veljo",
-            "isikukood": "36910220039",
+            "isikukood": null,
+            "isikukood_hash": "69d6cdcc-0908-5fab-86bc-427789910d45",
             "kirje_id": 9000791262,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36910220039",
+            "isikukood_hash": "69d6cdcc-0908-5fab-86bc-427789910d45",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Eekri, Koigi küla, Saaremaa vald, Saare maakond, 94515",
+                "kirje_id": 3670044,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eekri, Koigi küla, Saaremaa vald, Saare maakond, 94515",
+                "kirje_id": 3523846,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eekri, Koigi küla, Saaremaa vald, Saare maakond, 94515",
+                "kirje_id": 3086747,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eekri, Koigi küla, Saaremaa vald, Saare maakond, 94515",
                 "kirje_id": 2769463,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -263,23 +301,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.06.2022",
+                "algus_kpv": "07.06.2026",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000622616,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109571,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "03.06.2022",
+                "algus_kpv": "07.06.2026",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000622617,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109572,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": false

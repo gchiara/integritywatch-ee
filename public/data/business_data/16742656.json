@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.05.2023",
             "eesnimi": "Margus",
-            "isikukood": "37303095710",
+            "isikukood": null,
+            "isikukood_hash": "2aa364f4-fbec-5d1b-832a-2b5cf5d11f79",
             "kirje_id": 9001574760,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37303095710",
+            "isikukood_hash": "2aa364f4-fbec-5d1b-832a-2b5cf5d11f79",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8337403",
+                "aadress_ads__adob_id": "9485948",
                 "aadress_ads__adr_id": 2922625,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Kamali küla, Kahro",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03082916",
+                "aadress_ads__ads_oid": "EE00707767",
                 "aadress_ads__koodaadress": "687122631000000002WRB000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "22.05.2023",
@@ -102,6 +104,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kahro, Kamali küla, Saarde vald, Pärnu maakond, 86207",
+                "kirje_id": 3706525,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kahro, Kamali küla, Saarde vald, Pärnu maakond, 86207",
+                "kirje_id": 3540920,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kahro, Kamali küla, Saarde vald, Pärnu maakond, 86207",
+                "kirje_id": 3093557,
+                "majandusaasta_perioodi_algus_kpv": "22.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "22.05.2023",
@@ -117,7 +157,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -213,12 +253,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.05.2023",
+                "algus_kpv": "24.07.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000684847,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001036598,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true

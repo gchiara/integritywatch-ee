@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Delia",
-            "isikukood": "48208072729",
+            "isikukood": null,
+            "isikukood_hash": "e6557aa6-84b8-578f-b1d3-8411c139194d",
             "kirje_id": 9000757665,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48208072729",
+            "isikukood_hash": "e6557aa6-84b8-578f-b1d3-8411c139194d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 8, Rapla linn, Rapla vald, Rapla maakond, 79512",
+                "kirje_id": 3580136,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 8, Rapla linn, Rapla vald, Rapla maakond, 79512",
+                "kirje_id": 3452106,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "88911",
+                "tegevusala_emtak_tekstina": "Lapsehoiuteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.91",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 8, Rapla linn, Rapla vald, Rapla maakond, 79512",
+                "kirje_id": 3074631,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "88911",
+                "tegevusala_emtak_tekstina": "Lapsehoiuteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.91",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vahtra tn 8, Rapla linn, Rapla vald, Rapla maakond, 79512",
                 "kirje_id": 2892831,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,36 +372,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2018",
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949245,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000368079,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949246,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698738,
+                "algus_kpv": "26.01.2026",
+                "emtak_kood": "88991",
+                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001077931,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "25.05.2021",
-                "emtak_kood": "88911",
-                "emtak_tekstina": "Lapsehoiuteenus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000551270,
-                "lopp_kpv": null,
-                "nace_kood": "88.91",
+                "nace_kood": "88.99",
                 "on_pohitegevusala": true
             }
         ],

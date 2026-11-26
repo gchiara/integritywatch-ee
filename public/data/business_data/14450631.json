@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Silver",
-            "isikukood": "36910140221",
+            "isikukood": null,
+            "isikukood_hash": "7d4eb6a6-3989-5c61-a00c-923b1af49f15",
             "kirje_id": 9000664957,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36910140221",
+            "isikukood_hash": "7d4eb6a6-3989-5c61-a00c-923b1af49f15",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7591051",
-                "aadress_ads__adr_id": 2172752,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Pallasti tn 34c-61",
+                "aadress_ads__adob_id": "6615311",
+                "aadress_ads__adr_id": 2162812,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Majaka tn 48-7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01338290",
-                "aadress_ads__koodaadress": "377840387000003P5000037W83L5B0000",
+                "aadress_ads__ads_oid": "ER01286881",
+                "aadress_ads__koodaadress": "377840387000001LY0000365Y2IZB0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "18.03.2022",
+                "algus_kpv": "20.11.2025",
                 "ehak": "0387",
                 "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 10041594,
+                "kande_nr": 9,
+                "kirje_id": 13430157,
                 "lopp_kpv": null,
-                "postiindeks": "11416",
+                "postiindeks": "11412",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pallasti tn 34c-61"
+                "tanav_maja_korter": "Majaka tn 48-7"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Majaka tn 48-7, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3779807,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90399",
+                "tegevusala_emtak_tekstina": "Muud kunsti ja esituskunstide abitegevused, v.a lavatehnilised",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuulemäe tn 5, Lasnamäe linnaosa, Tallinn, Harju maakond, 11411",
+                "kirje_id": 3525515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90399",
+                "tegevusala_emtak_tekstina": "Muud kunsti ja esituskunstide abitegevused, v.a lavatehnilised",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3210788,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90021",
+                "tegevusala_emtak_tekstina": "Lavakunsti abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.02",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pallasti tn 34c-61, Lasnamäe linnaosa, Tallinn, Harju maakond, 11416",
                 "kirje_id": 2944361,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,14 +324,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.03.2018",
-                "emtak_kood": "90021",
-                "emtak_tekstina": "Lavakunsti abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000343161,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "49331",
+                "emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001132712,
                 "lopp_kpv": null,
-                "nace_kood": "90.02",
+                "nace_kood": "49.33",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "03.07.2025",
+                "emtak_kood": "90399",
+                "emtak_tekstina": "Muud kunsti ja esituskunstide abitegevused, v.a lavatehnilised",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001021782,
+                "lopp_kpv": null,
+                "nace_kood": "90.39",
                 "on_pohitegevusala": true
             }
         ],

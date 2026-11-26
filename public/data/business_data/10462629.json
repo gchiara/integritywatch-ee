@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Andi",
-            "isikukood": "38511172255",
+            "isikukood": null,
+            "isikukood_hash": "0c8001cc-2525-57bb-bff1-d8de4de2ef9c",
             "kirje_id": 9000831027,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Monica",
-            "isikukood": "47804080379",
+            "isikukood": null,
+            "isikukood_hash": "f19391ab-79c4-543d-bc33-e07eff142346",
             "kirje_id": 9000831029,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47804080379",
+            "isikukood_hash": "f19391ab-79c4-543d-bc33-e07eff142346",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10539592",
+                "aadress_ads__adob_id": "11494519",
                 "aadress_ads__adr_id": 3436686,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Telliskivi tn 60/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": "6 korrus",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2-6 korrus, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3746532,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2-6 korrus, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3472445,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2-6 korrus, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3224251,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarabüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 60/2-6 korrus, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2914020,
@@ -436,7 +475,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -568,12 +607,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2012",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "68311",
-                "emtak_tekstina": "Kinnisvarabüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000184200,
+                "emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000968947,
                 "lopp_kpv": null,
                 "nace_kood": "68.31",
                 "on_pohitegevusala": true

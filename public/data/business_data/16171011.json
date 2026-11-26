@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.07.2023",
             "eesnimi": "Egon",
-            "isikukood": "39304266012",
+            "isikukood": null,
+            "isikukood_hash": "be5062c5-364e-57cb-97ee-fd8662867861",
             "kirje_id": 9001600047,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39304266012",
+            "isikukood_hash": "be5062c5-364e-57cb-97ee-fd8662867861",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,18 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Niidu tn 4-3, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3116701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Niidu tn 4-3, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
                 "kirje_id": 2787207,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -143,7 +157,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -257,7 +271,7 @@
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000533012,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",

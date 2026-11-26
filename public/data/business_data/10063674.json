@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.05.2023",
             "eesnimi": "GUNNAR",
-            "isikukood": "36403160286",
+            "isikukood": null,
+            "isikukood_hash": "d9e0b4e2-ad93-53d3-931b-7e01a84ec310",
             "kirje_id": 9001574308,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.05.2023",
             "eesnimi": "Märt",
-            "isikukood": "36607030241",
+            "isikukood": null,
+            "isikukood_hash": "42d71dac-a2e9-5f58-a259-d905396d2579",
             "kirje_id": 9001574307,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37811060277",
+            "isikukood_hash": "afcbe8f0-08d3-5728-b896-ed90faa6b69a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50050",
+                "kirje_id": 3657755,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50050",
+                "kirje_id": 3487239,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50050",
+                "kirje_id": 3082662,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50050",
                 "kirje_id": 2816584,
@@ -472,7 +511,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -627,12 +666,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.06.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47711",
                 "emtak_tekstina": "Rõivaste jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000553929,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984431,
                 "lopp_kpv": null,
                 "nace_kood": "47.71",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2020",
             "eesnimi": "Urmas",
-            "isikukood": "37912060230",
+            "isikukood": null,
+            "isikukood_hash": "6faca619-b324-5f71-8a9a-c76dd7f13b6e",
             "kirje_id": 9001181068,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912060230",
+            "isikukood_hash": "6faca619-b324-5f71-8a9a-c76dd7f13b6e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,12 +63,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10376435",
-                "aadress_ads__adr_id": 3611720,
+                "aadress_ads__adob_id": "11041449",
+                "aadress_ads__adr_id": 3781644,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Põhja-Pärnumaa vald, Võidula küla, Võidula tn 2/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01141474",
-                "aadress_ads__koodaadress": "68638952400000KDE0000CRJK00000000",
+                "aadress_ads__koodaadress": "68637952400000KDE0000CRJK00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.11.2021",
                 "ehak": "9524",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võidula tn 2/1, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 3552499,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võidula tn 2/1, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 3280087,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võidula tn 2/1, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 2994449,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võidula tn 2/1, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
                 "kirje_id": 2744338,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,12 +515,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "29.08.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000031682,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048519,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2018",
             "eesnimi": "Anna",
-            "isikukood": "48702102214",
+            "isikukood": null,
+            "isikukood_hash": "bdf4cf30-f11f-558f-b766-cf4e091e0bed",
             "kirje_id": 9000785215,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35210202247",
+            "isikukood_hash": "6d6551f6-48fe-5278-a88f-d3918b0922ac",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ravi tn 10, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30322",
+                "kirje_id": 3767503,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "9630",
+                "tegevusala_emtak_tekstina": "Matuseteenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.30",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ravi tn 10, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30322",
+                "kirje_id": 3420738,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "9630",
+                "tegevusala_emtak_tekstina": "Matuseteenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.30",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ravi tn 10, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30322",
+                "kirje_id": 3150459,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9603",
+                "tegevusala_emtak_tekstina": "Matuseteenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.03",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ravi tn 10, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30322",
                 "kirje_id": 2928895,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -586,14 +624,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.07.2012",
-                "emtak_kood": "9603",
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "9630",
                 "emtak_tekstina": "Matuseteenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000199829,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000919283,
                 "lopp_kpv": null,
-                "nace_kood": "96.03",
+                "nace_kood": "96.30",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Fred",
-            "isikukood": "37504290399",
+            "isikukood": null,
+            "isikukood_hash": "455a267b-4f96-5421-8df1-d0fcfca4895a",
             "kirje_id": 9000769477,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37504290399",
+            "isikukood_hash": "455a267b-4f96-5421-8df1-d0fcfca4895a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47301256028",
+            "isikukood_hash": "de27ab3c-9d6b-5b13-b4c7-c4411734babb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Siduri tn 3-25, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3617488,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "35301",
+                "tegevusala_emtak_tekstina": "Auru ja konditsioneeritud õhuga varustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Siduri tn 3-25, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3349023,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "35301",
+                "tegevusala_emtak_tekstina": "Auru ja konditsioneeritud õhuga varustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.30",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Siduri tn 3-25, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3281342,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "35301",
+                "tegevusala_emtak_tekstina": "Auru ja konditsioneeritud õhuga varustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.30",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Siduri tn 3-25, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2833133,
@@ -408,7 +447,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -539,12 +578,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2017",
+                "algus_kpv": "02.04.2025",
                 "emtak_kood": "35301",
                 "emtak_tekstina": "Auru ja konditsioneeritud õhuga varustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000300045,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000845851,
                 "lopp_kpv": null,
                 "nace_kood": "35.30",
                 "on_pohitegevusala": true

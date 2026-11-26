@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Heiki",
-            "isikukood": "35904040327",
+            "isikukood": null,
+            "isikukood_hash": "d85e051f-87f4-5b8b-9ccf-d55f78f2d500",
             "kirje_id": 9000815921,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Tarvo",
-            "isikukood": "37312270275",
+            "isikukood": null,
+            "isikukood_hash": "890366df-217b-57f7-af2d-c7fd5f182c11",
             "kirje_id": 9000815924,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35904040327",
+            "isikukood_hash": "d85e051f-87f4-5b8b-9ccf-d55f78f2d500",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37312270275",
+            "isikukood_hash": "890366df-217b-57f7-af2d-c7fd5f182c11",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10173037",
+                "aadress_ads__adob_id": "10897616",
                 "aadress_ads__adr_id": 3549204,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Märjamaa vald, Märjamaa alev, Pärnu mnt 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3628323,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3319693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3046343,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
                 "kirje_id": 2762250,
@@ -233,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -340,12 +380,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.04.2019",
+                "algus_kpv": "23.01.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000411300,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000813564,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

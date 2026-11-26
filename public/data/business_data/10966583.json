@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2020",
             "eesnimi": "Martin",
-            "isikukood": "37712244918",
+            "isikukood": null,
+            "isikukood_hash": "2c083f64-f8ee-518d-b08c-bf835ac57218",
             "kirje_id": 9001185565,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45401204913",
+            "isikukood_hash": "2174cc4e-4a2d-5a94-9846-14473b043276",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712244918",
+            "isikukood_hash": "2c083f64-f8ee-518d-b08c-bf835ac57218",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 62a, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3695536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 62a, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3443813,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 62a, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3188580,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna tn 62a, Türi linn, Türi vald, Järva maakond, 72213",
                 "kirje_id": 2967755,
@@ -383,7 +422,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -435,6 +474,30 @@
                 "kirje_id": 9006498,
                 "lopp_kpv": null,
                 "sisu": "24.03.2020.a. on tehtud jagunemiskanne jaguneva ühingu HOMELINE OÜ (registrikood 10137964) registrikaardile, millega loetakse jagunemine toimunuks.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "10.12.2024",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 13,
+                "kirje_id": 12841289,
+                "lopp_kpv": null,
+                "sisu": "Osaühing Turgel Ehitus Grupp jaguneb eraldumise teel. Osaühing Turgel Ehitus Grupp on jagunev ühing ja Turgel Finance OÜ (registrikood 16440735, asukoht Järva maakond, Türi vald, Türi linn, Tallinna tn 62a, 72213) on omandav ühing. Osaühing Turgel Ehitus Grupp annab jagunemisel osa oma varast üle omandavale ühingule. Jagunemisleping on sõlmitud 11.10.2024.a, jagunemine on heaks kiidetud 28.10.2024.a.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "10.12.2024",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 14,
+                "kirje_id": 12841290,
+                "lopp_kpv": null,
+                "sisu": "10.12.2024.a. on tehtud jagunemiskanne jaguneva ühingu Osaühing Turgel Ehitus Grupp (registrikood 10966583) registrikaardile, millega loetakse jagunemine toimunuks.",
                 "tyyp": "JAGUN",
                 "tyyp_tekstina": "Jagunemine tekstina"
             }
@@ -527,48 +590,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2021",
-                "emtak_kood": "08121",
-                "emtak_tekstina": "Kruusa- ja liivakarjääride tegevus; savi ja kaoliini kaevandamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000559384,
-                "lopp_kpv": null,
-                "nace_kood": "08.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.10.2020",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000507596,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "19.07.2022",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000643624,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "13.09.2011",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000153161,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941310,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941311,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

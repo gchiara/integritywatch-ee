@@ -37,13 +37,10 @@
         "docType2": "default",
         "filename": "award_9c2df209-0794-4dc8-923f-ded8107ddd67_0.json",
         "flags": [
-            "Tenders received low",
-            "Nominees as company board members or beneficial owners"
+            "Tenders received low"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 48602250214",
-            "Nominees as company board members: 48602250214"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "9c2df209-0794-4dc8-923f-ded8107ddd67",
         "notice_items": [
@@ -55,7 +52,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "2080.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -70,7 +69,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Toitlustamine Rapla maakonnas 07.09.-08.09.2023",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -91,13 +90,10 @@
         "filename": "award_0de12a65-f5c0-4263-b81b-1448a05a6887_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 48602250214",
-            "Nominees as company board members: 48602250214"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "0de12a65-f5c0-4263-b81b-1448a05a6887",
         "notice_items": [
@@ -107,6 +103,61 @@
         ],
         "refnum": "269645",
         "total_amount": "2080.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-12-20"
+                ],
+                "award_value": "300000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11916877",
+                        "contractor_name": "Oü Artur ja Catering",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Rapla Gümnaasiumi toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "70007340",
+                "name": "Riigi Tugiteenuste Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11916877"
+        ],
+        "cpv": "55524000",
+        "date_dispatch_notice": "2023-12-20",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_22c33b7d-7ef9-4265-ac1a-5aba6f8a175f_0.json",
+        "flags": [
+            "Tenders received low"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "22c33b7d-7ef9-4265-ac1a-5aba6f8a175f",
+        "notice_items": [
+            {
+                "endDate": "2027-06-13"
+            }
+        ],
+        "refnum": "270065",
+        "total_amount": "300000.00",
         "total_amount_curr": "EUR"
     }
 ]

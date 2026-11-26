@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "38208225228",
+            "isikukood": null,
+            "isikukood_hash": "5316d360-3bb9-52cc-9266-597046cccd80",
             "kirje_id": 9000810921,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Triinu",
-            "isikukood": "48801086054",
+            "isikukood": null,
+            "isikukood_hash": "31751e59-56e7-5725-958a-12e9aec72e1e",
             "kirje_id": 9000810917,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38208225228",
+            "isikukood_hash": "5316d360-3bb9-52cc-9266-597046cccd80",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -120,6 +123,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda, Sae küla, Vinni vald, Lääne-Viru maakond, 46712",
+                "kirje_id": 3779115,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda, Sae küla, Vinni vald, Lääne-Viru maakond, 46712",
+                "kirje_id": 3533932,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda, Sae küla, Vinni vald, Lääne-Viru maakond, 46712",
+                "kirje_id": 3256792,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda, Sae küla, Vinni vald, Lääne-Viru maakond, 46712",
+                "kirje_id": 2994771,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võidu tn 73, Rakvere linn, Lääne-Viru maakond, 44312",
                 "kirje_id": 2736805,
@@ -268,7 +319,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -375,14 +426,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.09.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000089424,
+                "algus_kpv": "11.07.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001029811,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

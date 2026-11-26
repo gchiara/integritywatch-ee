@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Olev",
-            "isikukood": "35202186574",
+            "isikukood": null,
+            "isikukood_hash": "3e091147-8401-5cc8-8259-bbc84b8c6c4c",
             "kirje_id": 9000761527,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35202186574",
+            "isikukood_hash": "3e091147-8401-5cc8-8259-bbc84b8c6c4c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8630534",
-                "aadress_ads__adr_id": 3031611,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Haage küla, Võilille tee 11a-16",
+                "aadress_ads__adob_id": "11047211",
+                "aadress_ads__adr_id": 3554665,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Nõmmiku tn 21",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01895170",
-                "aadress_ads__koodaadress": "79793168100000KUH00005KZOBEQ00000",
+                "aadress_ads__ads_oid": "EE01170337",
+                "aadress_ads__koodaadress": "37725745300000RWC0000AX6700000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
-                "ehak": "1681",
-                "ehak_nimetus": "Haage küla, Tartu linn, Tartu maakond",
+                "algus_kpv": "09.04.2024",
+                "ehak": "7453",
+                "ehak_nimetus": "Saue linn, Saue vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 13,
-                "kirje_id": 7359228,
+                "kande_nr": 16,
+                "kirje_id": 12430318,
                 "lopp_kpv": null,
-                "postiindeks": "61402",
+                "postiindeks": "76506",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Võilille tee 11a-16"
+                "tanav_maja_korter": "Nõmmiku tn 21"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nõmmiku tn 21, Saue linn, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3828697,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nõmmiku tn 21, Saue linn, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3361225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võilille tee 11a-16, Haage küla, Tartu linn, Tartu maakond, 61402",
+                "kirje_id": 3079738,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võilille tee 11a-16, Haage küla, Tartu linn, Tartu maakond, 61402",
                 "kirje_id": 2905023,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -402,13 +440,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "04.09.2013",
+                "algus_kpv": "09.04.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kinnitamise_kpv": "03.09.2013",
-                "kirje_id": 4962655,
+                "kande_nr": 16,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12430319,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -443,22 +481,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000148289,
+                "kirje_id": 9000705015,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.palmpro.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000148290,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7352929"
+                "sisu": "https://www.palmpro.ee"
             }
         ],
         "staatus": "R",
@@ -476,12 +503,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2017",
+                "algus_kpv": "25.04.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000301704,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858792,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

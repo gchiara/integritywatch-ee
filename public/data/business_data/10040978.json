@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Riho",
-            "isikukood": "36508040304",
+            "isikukood": null,
+            "isikukood_hash": "fe0e5065-af87-5ac5-8019-6f3cbb0899c6",
             "kirje_id": 9000741499,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36508040304",
+            "isikukood_hash": "fe0e5065-af87-5ac5-8019-6f3cbb0899c6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Vilmsi tn 53g, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3763369,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Vilmsi tn 53g, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3496806,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Vilmsi tn 53g, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3296480,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Vilmsi tn 53g, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
                 "kirje_id": 2892214,
@@ -442,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -586,23 +624,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "59111",
                 "emtak_tekstina": "Kinofilmide ja videote tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000187312,
-                "lopp_kpv": null,
-                "nace_kood": "59.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "22.06.2012",
-                "emtak_kood": "59112",
-                "emtak_tekstina": "Telesaadete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000187311,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000993989,
                 "lopp_kpv": null,
                 "nace_kood": "59.11",
                 "on_pohitegevusala": true

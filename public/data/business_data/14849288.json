@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.11.2019",
             "eesnimi": "Tarmo",
-            "isikukood": "37806062749",
+            "isikukood": null,
+            "isikukood_hash": "b73ba5a5-7529-50b9-971b-87e3f44165cc",
             "kirje_id": 9001049797,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2021",
             "eesnimi": "Riho",
-            "isikukood": "38409280306",
+            "isikukood": null,
+            "isikukood_hash": "62e6a511-3fbb-575f-9480-2bddff1b5aa6",
             "kirje_id": 9001298906,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38409280306",
+            "isikukood_hash": "62e6a511-3fbb-575f-9480-2bddff1b5aa6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37806062749",
+            "isikukood_hash": "b73ba5a5-7529-50b9-971b-87e3f44165cc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -150,13 +154,49 @@
                 "sisu": "Koduandur OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "15.11.2019",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 50, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3774926,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 50, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3480803,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 50, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3211920,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62091",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.09",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Merivälja tee 50, Pirita linnaosa, Tallinn, Harju maakond, 11911",
                 "kirje_id": 2916663,
@@ -209,7 +249,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -301,14 +341,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.11.2019",
-                "emtak_kood": "62091",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62901",
                 "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000453182,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977289,
                 "lopp_kpv": null,
-                "nace_kood": "62.09",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
             }
         ],

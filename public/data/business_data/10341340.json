@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Kalmar",
-            "isikukood": "35805140382",
+            "isikukood": null,
+            "isikukood_hash": "afa0fcce-e89f-58db-81c0-d520ca775558",
             "kirje_id": 9000694713,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Silver",
-            "isikukood": "36402130358",
+            "isikukood": null,
+            "isikukood_hash": "02a9ddef-98cc-5a59-9eef-0b8c2ce68afd",
             "kirje_id": 9000721818,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35805140382",
+            "isikukood_hash": "afa0fcce-e89f-58db-81c0-d520ca775558",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36402130358",
+            "isikukood_hash": "02a9ddef-98cc-5a59-9eef-0b8c2ce68afd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 20a, Kohila alev, Kohila vald, Rapla maakond, 79805",
+                "kirje_id": 3650560,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 20a, Kohila alev, Kohila vald, Rapla maakond, 79805",
+                "kirje_id": 3365837,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 20a, Kohila alev, Kohila vald, Rapla maakond, 79805",
+                "kirje_id": 3126089,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vabaduse tn 20a, Kohila alev, Kohila vald, Rapla maakond, 79805",
                 "kirje_id": 2821115,
@@ -460,7 +500,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -546,12 +586,12 @@
                 "kaardi_nr": 4,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7794975,
+                "kande_nr": 8,
+                "kirje_id": 12564161,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kohilameedik@hot.ee"
+                "sisu": "kohilameedik@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -580,23 +620,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.06.2011",
-                "emtak_kood": "32501",
-                "emtak_tekstina": "Ortopeediliste abivahendite ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000122254,
-                "lopp_kpv": null,
-                "nace_kood": "32.50",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "02.05.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000005389,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000863548,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

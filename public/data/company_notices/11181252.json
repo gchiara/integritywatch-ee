@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-22",
+                "award_date_conclusion_contract": [
+                    "2023-08-22"
+                ],
                 "award_value": "170000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kleebiste, valguskastide ja valgustähtede ost",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -39,15 +41,10 @@
         "docType2": "",
         "filename": "award_378da149-30de-4af6-a7cf-c9d6278fad01_0.json",
         "flags": [
-            "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Tenders received low"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Possible shell company: 12501345",
-            "Nominees as company beneficial owners: 38402010277",
-            "Nominees as company board members: 38402010277"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "378da149-30de-4af6-a7cf-c9d6278fad01",
         "notice_items": [
@@ -61,5 +58,78 @@
         "refnum": "262500",
         "total_amount": "300000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-01-29",
+                    "2024-02-02",
+                    "2024-01-29"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11147025",
+                        "contractor_name": "Osaühing Joon",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10248356",
+                        "contractor_name": "aktsiaselts Pajo",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12205925",
+                        "contractor_name": "Trage OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "6"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Trükiteenuste ja reklaamkleebiste hange",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10312960",
+                "name": "Aktsiaselts Tallinna Linnatransport",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11181252",
+            "12205925",
+            "10699567",
+            "16436550",
+            "10823748",
+            "11147025",
+            "10248356"
+        ],
+        "cpv": "22459100",
+        "date_dispatch_notice": "2024-02-14",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_a363bd1c-79ed-4e0d-bf33-159aebcb0770_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 11147025",
+            "Nominees as company beneficial owners: Andres_Ojasu_05.09.2018"
+        ],
+        "noticeUid": "a363bd1c-79ed-4e0d-bf33-159aebcb0770",
+        "notice_items": [
+            {},
+            {},
+            {}
+        ],
+        "refnum": "271471"
     }
 ]

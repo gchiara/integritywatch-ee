@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.02.2020",
             "eesnimi": "Kalle",
-            "isikukood": "36402290242",
+            "isikukood": null,
+            "isikukood_hash": "db9a813b-4511-5a8c-a1c6-f10d5e55b9f9",
             "kirje_id": 9001081408,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36402290242",
+            "isikukood_hash": "db9a813b-4511-5a8c-a1c6-f10d5e55b9f9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -104,6 +106,42 @@
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
             {
+                "ettevotja_aadress_aruandes": "Koskla tn 16, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3270602,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "87202",
+                "tegevusala_emtak_tekstina": "Ainesõltlaste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.20",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koskla tn 16, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3040464,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "87202",
+                "tegevusala_emtak_tekstina": "Ainesõltlaste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.20",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koskla tn 16, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3038596,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "87202",
+                "tegevusala_emtak_tekstina": "Ainesõltlaste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.20",
+                "tootajate_arv": "5"
+            },
+            {
                 "ettevotja_aadress_aruandes": "Tiskrevälja tn 37, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
                 "kirje_id": 2716381,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2020",
@@ -153,7 +191,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -251,7 +289,7 @@
                 "emtak_kood": "87202",
                 "emtak_tekstina": "Ainesõltlaste hoolekandeasutuste tegevus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000263842,
                 "lopp_kpv": null,
                 "nace_kood": "87.20",

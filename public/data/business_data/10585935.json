@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Ago",
-            "isikukood": "36705090298",
+            "isikukood": null,
+            "isikukood_hash": "012d44b9-0074-5b12-9a94-6f1eeee83aee",
             "kirje_id": 9000850766,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Ago",
-            "isikukood": "36603100228",
+            "isikukood": null,
+            "isikukood_hash": "0b414f6c-a0ea-5a0c-8388-25887034d73e",
             "kirje_id": 9000850748,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36705090298",
+            "isikukood_hash": "012d44b9-0074-5b12-9a94-6f1eeee83aee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36603100228",
+            "isikukood_hash": "0b414f6c-a0ea-5a0c-8388-25887034d73e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -115,7 +119,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10307132",
+                "aadress_ads__adob_id": "10735941",
                 "aadress_ads__adr_id": 2990448,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Elva vald, Kaarlijärve küla, Kaarlijärve meierei",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaarlijärve meierei, Kaarlijärve küla, Elva vald, Tartu maakond, 61104",
+                "kirje_id": 3755029,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10512",
+                "tegevusala_emtak_tekstina": "Juustu ja kohupiima tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.51",
+                "tootajate_arv": "168"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarlijärve meierei, Kaarlijärve küla, Elva vald, Tartu maakond, 61104",
+                "kirje_id": 3481217,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10512",
+                "tegevusala_emtak_tekstina": "Juustu ja kohupiima tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.51",
+                "tootajate_arv": "164"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarlijärve meierei, Kaarlijärve küla, Elva vald, Tartu maakond, 61104",
+                "kirje_id": 3216890,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10512",
+                "tegevusala_emtak_tekstina": "Juustu- ja kohupiimatootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.51",
+                "tootajate_arv": "161"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaarlijärve meierei, Kaarlijärve küla, Elva vald, Tartu maakond, 61104",
                 "kirje_id": 2919293,
@@ -460,7 +500,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -620,26 +660,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000053912,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "10512",
-                "emtak_tekstina": "Juustu- ja kohupiimatootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000007981,
+                "emtak_tekstina": "Juustu ja kohupiima tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977786,
                 "lopp_kpv": null,
                 "nace_kood": "10.51",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47921",
+                "emtak_tekstina": "Spetsialiseeritud jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977787,
+                "lopp_kpv": null,
+                "nace_kood": "47.92",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

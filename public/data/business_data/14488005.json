@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 14488005,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "14.08.2025",
+            "eesnimi": "Mairo",
+            "isikukood": null,
+            "isikukood_hash": "ff66fd62-c4b4-5bb3-8a83-b6129c5251e3",
+            "kirje_id": 9003470248,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Matsin",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39412286826",
+            "isikukood_hash": "ff66fd62-c4b4-5bb3-8a83-b6129c5251e3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 2a, Räpina linn, Räpina vald, Põlva maakond, 64503",
+                "kirje_id": 3743307,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 2a, Räpina linn, Räpina vald, Põlva maakond, 64503",
+                "kirje_id": 3460676,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 2a, Räpina linn, Räpina vald, Põlva maakond, 64503",
+                "kirje_id": 3207691,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalevi tn 2a, Räpina linn, Räpina vald, Põlva maakond, 64503",
                 "kirje_id": 2939846,
@@ -161,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -279,12 +335,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2021",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000570274,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000957622,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true

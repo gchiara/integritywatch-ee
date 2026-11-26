@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-15",
+                "award_date_conclusion_contract": [
+                    "2023-08-15"
+                ],
                 "award_value": "90000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Tallinna Linnamuuseumi remonttööde raamhange",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -39,13 +41,10 @@
         "docType2": "",
         "filename": "award_1b741828-142a-43ef-9145-1d933b246585_0.json",
         "flags": [
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38405212744",
-            "Nominees as company board members: 38405212744"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "1b741828-142a-43ef-9145-1d933b246585",
         "notice_items": [
@@ -59,5 +58,82 @@
         "refnum": "266209",
         "total_amount": "180000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-07",
+                    "2026-07-07",
+                    "2026-07-07",
+                    "2026-07-07"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14804570",
+                        "contractor_name": "OÜ divitiae",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10409262",
+                        "contractor_name": "Osaühing Baltic Building Technology",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11445194",
+                        "contractor_name": "PROFFIABI OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10943033",
+                        "contractor_name": "Spaik OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tallinna Linnamuuseumi remonttööde raamhange 2026-2028",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75016183",
+                "name": "Tallinna Linnamuuseum",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14804570",
+            "10409262",
+            "11445194",
+            "10943033"
+        ],
+        "cpv": "45210000",
+        "date_dispatch_notice": "2026-07-07",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e819880e-1da0-474d-ad0b-a1c964845ce7_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14804570",
+            "Nominees as company beneficial owners: Erika_Scholler_16.09.2019",
+            "Nominees as company board members: Erika_Scholler_16.09.2019",
+            "Possible shell company: 11445194",
+            "Nominees as company beneficial owners: Andrei_Jevas_25.09.2018"
+        ],
+        "noticeUid": "e819880e-1da0-474d-ad0b-a1c964845ce7",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "309150-0000"
     }
 ]

@@ -2,18 +2,19 @@
     "ariregistri_kood": 10022238,
     "beneficial_owners": [
         {
-            "aadress_riik": "CHN",
-            "aadress_riik_tekstina": "Hiina",
-            "algus_kpv": "30.10.2020",
-            "eesnimi": "Zongnian",
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "20.05.2025",
+            "eesnimi": "Yangzhong",
             "isikukood": null,
-            "kirje_id": 9001191113,
+            "isikukood_hash": "c6ffaac4-cd94-5744-965a-4abcd426fb0a",
+            "kirje_id": 9003447013,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Chen",
-            "synniaeg": "05.12.1965",
+            "nimi": "Hu",
+            "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": "CHN",
             "valis_kood_riik_tekstina": "Hiina"
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38409110462",
+            "isikukood_hash": "6ba4885d-f545-505a-b173-3bbb4635159b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,6 +79,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -142,7 +145,43 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Järveotsa tee 50c, Haabersti linnaosa, Tallinn, Harju maakond, 13520",
-                "kirje_id": 2838328,
+                "kirje_id": 3634223,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "32"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa tee 50c, Haabersti linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 3374128,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa tee 50c, Haabersti linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 3132515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa tee 50c, Haabersti linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 2998541,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
                 "tegevusala_emtak_kood": "46521",
@@ -492,7 +531,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -530,6 +569,19 @@
                 "kirje_id": 10872830,
                 "lopp_kpv": null,
                 "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "25.04.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 25,
+                "kirje_id": 13080766,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud ÄRS § 54 lg 5 alusel.",
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
@@ -592,12 +644,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 20,
-                "kirje_id": 10392607,
+                "kande_nr": 24,
+                "kirje_id": 12749431,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "erik@bkeesti.ee"
+                "sisu": "andrius@bkgrupe.lt"
             },
             {
                 "kaardi_nr": null,
@@ -626,26 +678,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2021",
-                "emtak_kood": "46749",
-                "emtak_tekstina": "Tööriistade jm rauakaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000563271,
+                "algus_kpv": "15.05.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000872245,
                 "lopp_kpv": null,
-                "nace_kood": "46.74",
-                "on_pohitegevusala": false
+                "nace_kood": "46.50",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "23.04.2010",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000013552,
+                "algus_kpv": "15.05.2025",
+                "emtak_kood": "46151",
+                "emtak_tekstina": "Mööbli, kodutarvete ja rauakaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000872246,
                 "lopp_kpv": null,
-                "nace_kood": "46.52",
-                "on_pohitegevusala": true
+                "nace_kood": "46.15",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

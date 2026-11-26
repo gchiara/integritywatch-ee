@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Janar",
-            "isikukood": "38111054718",
+            "isikukood": null,
+            "isikukood_hash": "1c751bf3-e9a2-5464-ae18-256a6ac41cfa",
             "kirje_id": 9000760647,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38111054718",
+            "isikukood_hash": "1c751bf3-e9a2-5464-ae18-256a6ac41cfa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3734092,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3493257,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3190214,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata veondust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2925687,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -372,15 +410,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.07.2019",
-                "emtak_kood": "52299",
-                "emtak_tekstina": "Mujal liigitamata veondust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000434461,
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001123483,
                 "lopp_kpv": null,
-                "nace_kood": "52.29",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001123484,
+                "lopp_kpv": null,
+                "nace_kood": "47.81",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

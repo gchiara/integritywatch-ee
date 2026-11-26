@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Valdis",
-            "isikukood": "37601030311",
+            "isikukood": null,
+            "isikukood_hash": "fc03ed8a-797e-5634-99b6-6791dd3315e0",
             "kirje_id": 9000761904,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37601030311",
+            "isikukood_hash": "fc03ed8a-797e-5634-99b6-6791dd3315e0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Retla tee 5-5, Oisu alevik, Türi vald, Järva maakond, 72301",
+                "kirje_id": 3759238,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6832",
+                "tegevusala_emtak_tekstina": "Muu kinnisvaraalane tegevus tasu eest või lepingu alusel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Retla tee 5-5, Oisu alevik, Türi vald, Järva maakond, 72301",
+                "kirje_id": 3514226,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Retla tee 5-5, Oisu alevik, Türi vald, Järva maakond, 72301",
+                "kirje_id": 3206027,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Retla tee 5-5, Oisu alevik, Türi vald, Järva maakond, 72301",
                 "kirje_id": 2847058,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -445,26 +483,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2018",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "6832",
+                "emtak_tekstina": "Muu kinnisvaraalane tegevus tasu eest või lepingu alusel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128559,
+                "lopp_kpv": null,
+                "nace_kood": "68.32",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2026",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000365607,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128560,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.05.2017",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000291363,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Silver",
-            "isikukood": "37605280247",
+            "isikukood": null,
+            "isikukood_hash": "e507b52b-13df-560a-b06a-3c1bc2f97a97",
             "kirje_id": 9000682990,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37605280247",
+            "isikukood_hash": "e507b52b-13df-560a-b06a-3c1bc2f97a97",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 53, Kristiine linnaosa, Tallinn, Harju maakond, 13415",
+                "kirje_id": 3784436,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 53, Kristiine linnaosa, Tallinn, Harju maakond, 13415",
+                "kirje_id": 3401455,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 53, Kristiine linnaosa, Tallinn, Harju maakond, 13415",
+                "kirje_id": 3213237,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45111",
+                "tegevusala_emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.11",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 53, Kristiine linnaosa, Tallinn, Harju maakond, 13415",
+                "kirje_id": 3002040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "45111",
+                "tegevusala_emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.11",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 53, Kristiine linnaosa, Tallinn, Harju maakond, 13415",
                 "kirje_id": 2763271,
@@ -406,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -531,12 +581,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7934893,
+                "kande_nr": 17,
+                "kirje_id": 12626390,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@mobile.ee"
+                "sisu": "info@mobileautokeskus.ee"
             },
             {
                 "kaardi_nr": null,
@@ -565,11 +615,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000503328,
+                "kirje_id": 9000711750,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.mobile.ee"
+                "sisu": "https://www.mobileautokeskus.ee/"
             }
         ],
         "staatus": "R",
@@ -587,14 +637,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000046427,
+                "algus_kpv": "08.06.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899139,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
+                "nace_kood": "47.81",
                 "on_pohitegevusala": true
             }
         ],

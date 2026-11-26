@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Kertu",
-            "isikukood": "45801090367",
+            "isikukood": null,
+            "isikukood_hash": "a72c8b59-cf9f-50ff-8232-44627e7c851e",
             "kirje_id": 9000832338,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Raul",
-            "isikukood": "35701280215",
+            "isikukood": null,
+            "isikukood_hash": "e81f1b8d-0bc7-5887-abad-8974fb04bd1e",
             "kirje_id": 9000832345,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45801090367",
+            "isikukood_hash": "a72c8b59-cf9f-50ff-8232-44627e7c851e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35701280215",
+            "isikukood_hash": "e81f1b8d-0bc7-5887-abad-8974fb04bd1e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ilvese tn 4, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
+                "kirje_id": 3682900,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93199",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sporditegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.19",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilvese tn 4, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
+                "kirje_id": 3402722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93199",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sporditegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.19",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilvese tn 4, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
+                "kirje_id": 3116611,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93199",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sporditegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.19",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ilvese tn 4, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
                 "kirje_id": 2813745,
@@ -305,7 +345,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -391,12 +431,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7725506,
+                "kande_nr": 6,
+                "kirje_id": 12510991,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "ladeco@hot.ee"
+                "sisu": "info@iceconcept.ee"
             },
             {
                 "kaardi_nr": null,
@@ -425,12 +465,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2013",
+                "algus_kpv": "09.06.2025",
                 "emtak_kood": "93199",
                 "emtak_tekstina": "Mujal liigitamata sporditegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000040116,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900346,
                 "lopp_kpv": null,
                 "nace_kood": "93.19",
                 "on_pohitegevusala": true

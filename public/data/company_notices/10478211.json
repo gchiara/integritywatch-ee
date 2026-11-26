@@ -361,7 +361,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-05",
+                "award_date_conclusion_contract": [
+                    "2023-07-05"
+                ],
                 "award_value": "123550.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -376,7 +378,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Sonaritöödeks sobiva roolimajaga tööpaadi/aluse ja haagise ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -415,7 +417,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-12",
+                "award_date_conclusion_contract": [
+                    "2023-07-12"
+                ],
                 "award_value": "59900.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -430,7 +434,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "C-kategooria alumiiniumist mootorpaadi ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -461,6 +465,60 @@
         ],
         "refnum": "265635",
         "total_amount": "59900.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-06-09"
+                ],
+                "award_value": "20440.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10478211",
+                        "contractor_name": "Osaühing JMK Marine",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Mootorpaat koos lisavarustuse ja haagisega",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70004459",
+                "name": "Riigimetsa Majandamise Keskus",
+                "town": "Haljala vald"
+            }
+        ],
+        "contractors": [
+            "10478211"
+        ],
+        "cpv": "34520000",
+        "date_dispatch_notice": "2024-06-11",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_46aca18c-0d62-4535-a449-661a41f2d7e4_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "46aca18c-0d62-4535-a449-661a41f2d7e4",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "279226",
+        "total_amount": "20440.00",
         "total_amount_curr": "EUR"
     }
 ]

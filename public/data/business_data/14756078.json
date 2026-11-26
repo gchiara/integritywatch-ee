@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2019",
             "eesnimi": "Heiki",
-            "isikukood": "36502220239",
+            "isikukood": null,
+            "isikukood_hash": "29b529ae-11a9-5157-af31-d5c723e1378a",
             "kirje_id": 9000993592,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2019",
             "eesnimi": "Villem",
-            "isikukood": "36509080239",
+            "isikukood": null,
+            "isikukood_hash": "d2837aea-616c-5e9d-99d3-396e5d72ca92",
             "kirje_id": 9000993593,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36502220239",
+            "isikukood_hash": "29b529ae-11a9-5157-af31-d5c723e1378a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36509080239",
+            "isikukood_hash": "d2837aea-616c-5e9d-99d3-396e5d72ca92",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7332623",
+                "aadress_ads__adob_id": "10987722",
                 "aadress_ads__adr_id": 2120740,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Mõisa tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3711448,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3317902,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3031780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7410",
+                "tegevusala_emtak_tekstina": "Disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.10",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
                 "kirje_id": 2811616,
@@ -209,7 +249,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -330,12 +370,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2019",
-                "emtak_kood": "74101",
+                "algus_kpv": "08.01.2024",
+                "emtak_kood": "7410",
                 "emtak_tekstina": "Disainerite tegevus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000435356,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000734922,
                 "lopp_kpv": null,
                 "nace_kood": "74.10",
                 "on_pohitegevusala": true

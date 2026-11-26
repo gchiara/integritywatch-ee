@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.06.2020",
             "eesnimi": "Irina",
-            "isikukood": "49305193714",
+            "isikukood": null,
+            "isikukood_hash": "252394cf-79e7-5e89-8876-7f725e22c0c9",
             "kirje_id": 9001132148,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49305193714",
+            "isikukood_hash": "252394cf-79e7-5e89-8876-7f725e22c0c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Kangelaste prospekt 12a-12, Narva linn, Ida-Viru maakond, 20603",
+                "kirje_id": 3661569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 12a-12, Narva linn, Ida-Viru maakond, 20603",
+                "kirje_id": 3518453,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 12a-12, Narva linn, Ida-Viru maakond, 20603",
+                "kirje_id": 3179814,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 12a-12, Narva linn, Ida-Viru maakond, 20603",
                 "kirje_id": 2837095,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -263,37 +301,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2021",
-                "emtak_kood": "46342",
-                "emtak_tekstina": "Muude jookide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000563688,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "47271",
+                "emtak_tekstina": "Muude toidukaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015222,
                 "lopp_kpv": null,
-                "nace_kood": "46.34",
+                "nace_kood": "47.27",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "05.06.2023",
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "47221",
+                "emtak_tekstina": "Liha ja lihatoodete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015223,
+                "lopp_kpv": null,
+                "nace_kood": "47.22",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "47251",
+                "emtak_tekstina": "Jookide jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015224,
+                "lopp_kpv": null,
+                "nace_kood": "47.25",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "46331",
                 "emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688678,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015221,
                 "lopp_kpv": null,
                 "nace_kood": "46.33",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "05.06.2023",
-                "emtak_kood": "47111",
-                "emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688679,
-                "lopp_kpv": null,
-                "nace_kood": "47.11",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

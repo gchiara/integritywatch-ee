@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Lana",
-            "isikukood": "46602020221",
+            "isikukood": null,
+            "isikukood_hash": "d88b183d-f0d9-5c9e-9e45-f7b45ea9a009",
             "kirje_id": 9000760375,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.01.2021",
             "eesnimi": "Kait",
-            "isikukood": "38904250308",
+            "isikukood": null,
+            "isikukood_hash": "7495ce40-496a-5324-95ec-46698c794853",
             "kirje_id": 9001227696,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38904250308",
+            "isikukood_hash": "7495ce40-496a-5324-95ec-46698c794853",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46602020221",
+            "isikukood_hash": "d88b183d-f0d9-5c9e-9e45-f7b45ea9a009",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10c, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3676451,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10c, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3434884,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10c, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3175804,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Türi tn 10c, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2876211,
@@ -317,7 +357,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -448,15 +488,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2012",
+                "algus_kpv": "23.06.2025",
                 "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000191034,
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000932708,
                 "lopp_kpv": null,
                 "nace_kood": "46.18",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "10.06.2026",
+                "emtak_kood": "8559",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001111141,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

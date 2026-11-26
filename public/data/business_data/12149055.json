@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.04.2019",
             "eesnimi": "Jaan",
-            "isikukood": "39104250254",
+            "isikukood": null,
+            "isikukood_hash": "e183e50c-679a-597d-af15-2effe0357959",
             "kirje_id": 9000957084,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39104250254",
+            "isikukood_hash": "e183e50c-679a-597d-af15-2effe0357959",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Estermanni, Tiduvere küla, Märjamaa vald, Rapla maakond, 78031",
+                "kirje_id": 3792378,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estermanni, Tiduvere küla, Märjamaa vald, Rapla maakond, 78031",
+                "kirje_id": 3321381,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estermanni, Tiduvere küla, Märjamaa vald, Rapla maakond, 78031",
+                "kirje_id": 3244178,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Estermanni, Tiduvere küla, Märjamaa vald, Rapla maakond, 78031",
                 "kirje_id": 2781883,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,25 +396,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "0142",
+                "algus_kpv": "28.01.2025",
+                "emtak_kood": "01421",
                 "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000566235,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000815432,
                 "lopp_kpv": null,
                 "nace_kood": "01.42",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "0162",
-                "emtak_tekstina": "Loomakasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000566236,
+                "algus_kpv": "02.07.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135490,
                 "lopp_kpv": null,
-                "nace_kood": "01.62",
+                "nace_kood": "01.61",
                 "on_pohitegevusala": false
             }
         ],

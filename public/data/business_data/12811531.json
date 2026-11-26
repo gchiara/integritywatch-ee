@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.06.2019",
             "eesnimi": "Rauno",
-            "isikukood": "39010196511",
+            "isikukood": null,
+            "isikukood_hash": "bba5ae9c-9a0b-5416-88ec-d34a19a004af",
             "kirje_id": 9000988309,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39010196511",
+            "isikukood_hash": "bba5ae9c-9a0b-5416-88ec-d34a19a004af",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kriguli, Matsi küla, Rõuge vald, Võru maakond, 66105",
+                "kirje_id": 3755912,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kriguli, Matsi küla, Rõuge vald, Võru maakond, 66105",
+                "kirje_id": 3398990,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kriguli, Matsi küla, Rõuge vald, Võru maakond, 66105",
+                "kirje_id": 3159193,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kriguli, Matsi küla, Rõuge vald, Võru maakond, 66105",
                 "kirje_id": 2789979,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,37 +360,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.03.2023",
+                "algus_kpv": "05.06.2025",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000676685,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896796,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "29.09.2020",
+                "algus_kpv": "05.06.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000503557,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896795,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.09.2020",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000503558,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

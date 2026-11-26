@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Madis",
-            "isikukood": "36709060231",
+            "isikukood": null,
+            "isikukood_hash": "d8f9f45b-f863-57e1-ab47-fd9e31df81da",
             "kirje_id": 9000794455,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36802100273",
+            "isikukood_hash": "4d9f9990-6345-5728-948b-7aaca78d0ca5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laeva tn 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3212843,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laeva tn 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2985368,
@@ -411,6 +425,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "04.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 12776386,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 31.10.2024 määrusega (2-24-15751) nimetati ajutine pankrotihaldur.\n\n",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -449,6 +476,20 @@
                 "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
+            }
+        ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "21.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 13,
+                "kirje_id": 12805539,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 21.11.2024.a.kohtumäärusega tsiviilasjas 2-24-15751 on välja kuulutatut Identity OÜ.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
             }
         ],
         "sidevahendid": [
@@ -497,8 +538,8 @@
                 "sisu": "www.identity.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "24.01.2002",
@@ -508,6 +549,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "21.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 13,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -516,7 +566,7 @@
                 "emtak_kood": "73111",
                 "emtak_tekstina": "Reklaamiagentuurid",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000236611,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
@@ -524,6 +574,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

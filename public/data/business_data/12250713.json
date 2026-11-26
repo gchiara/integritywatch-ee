@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Aldor",
-            "isikukood": "38101210253",
+            "isikukood": null,
+            "isikukood_hash": "bac1fbdf-8d69-5b94-9126-328b21407a5a",
             "kirje_id": 9000824420,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38101210253",
+            "isikukood_hash": "bac1fbdf-8d69-5b94-9126-328b21407a5a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karsti tn 12, Kose-Uuemõisa alevik, Kose vald, Harju maakond, 75102",
+                "kirje_id": 3283645,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karsti tn 12, Kose-Uuemõisa alevik, Kose vald, Harju maakond, 75102",
+                "kirje_id": 3009466,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karsti tn 12, Kose-Uuemõisa alevik, Kose vald, Harju maakond, 75102",
+                "kirje_id": 3009353,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karsti tn 12, Kose-Uuemõisa alevik, Kose vald, Harju maakond, 75102",
+                "kirje_id": 3009216,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2020",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2020",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karsti tn 12, Kose-Uuemõisa alevik, Kose vald, Harju maakond, 75102",
                 "kirje_id": 2146279,
@@ -215,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -353,11 +403,22 @@
                 "emtak_kood": "43299",
                 "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000024690,
                 "lopp_kpv": null,
                 "nace_kood": "43.29",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "08.11.2023",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000727565,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

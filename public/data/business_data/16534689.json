@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.07.2022",
             "eesnimi": "Aleksandr",
-            "isikukood": "38801223718",
+            "isikukood": null,
+            "isikukood_hash": "fc37db0c-1cfc-5835-b05a-5329bf7b15f1",
             "kirje_id": 9001454796,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38801223718",
+            "isikukood_hash": "fc37db0c-1cfc-5835-b05a-5329bf7b15f1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,18 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Kangelaste prospekt 49-42, Narva linn, Ida-Viru maakond, 20604",
+                "kirje_id": 3052648,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43111",
+                "tegevusala_emtak_tekstina": "Lammutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 49-42, Narva linn, Ida-Viru maakond, 20604",
                 "kirje_id": 2775499,
                 "majandusaasta_perioodi_algus_kpv": "13.07.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -131,7 +145,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -238,15 +252,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.03.2023",
+                "algus_kpv": "14.02.2024",
+                "emtak_kood": "43111",
+                "emtak_tekstina": "Lammutamine",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000741527,
+                "lopp_kpv": null,
+                "nace_kood": "43.11",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "14.02.2024",
                 "emtak_kood": "4120",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000672043,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000741528,
                 "lopp_kpv": null,
                 "nace_kood": "41.20",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

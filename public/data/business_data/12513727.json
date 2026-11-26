@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Kadi",
-            "isikukood": "48509146518",
+            "isikukood": null,
+            "isikukood_hash": "1781d488-beee-55c0-954d-94cfc9627e33",
             "kirje_id": 9000754449,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48509146518",
+            "isikukood_hash": "1781d488-beee-55c0-954d-94cfc9627e33",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tamme tee 4, Aaspere küla, Haljala vald, Lääne-Viru maakond, 45302",
+                "kirje_id": 3246861,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tamme tee 4, Aaspere küla, Haljala vald, Lääne-Viru maakond, 45302",
                 "kirje_id": 2783938,
@@ -227,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -295,6 +309,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "21.08.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 12650436,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 26.07.2024 kohtumäärusega tsiviilasjas nr 2-24-4461 kuulutati välja Kvaliteetuks OÜ (registrikood 12513727) pankrot 26.07.2024 kell 14.30.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -319,8 +347,8 @@
                 "sisu": "+372 6198888"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "01.08.2013",
@@ -330,6 +358,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "21.08.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -338,36 +375,14 @@
                 "emtak_kood": "46191",
                 "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000674919,
                 "lopp_kpv": null,
                 "nace_kood": "46.19",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "22.03.2023",
-                "emtak_kood": "46732",
-                "emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674920,
-                "lopp_kpv": null,
-                "nace_kood": "46.73",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "22.03.2023",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674921,
-                "lopp_kpv": null,
-                "nace_kood": "46.18",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

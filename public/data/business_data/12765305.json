@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Endo",
-            "isikukood": "37406084255",
+            "isikukood": null,
+            "isikukood_hash": "6df4c9ad-6c0e-5ca2-b002-34898819c404",
             "kirje_id": 9000663648,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38602280016",
+            "isikukood_hash": "3716caa8-1f6e-5501-949f-cb55fd268895",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3750582,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3477893,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3299878,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "28"
+            },
             {
                 "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2914254,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -306,6 +344,30 @@
                 "sisu": "Gonsiori 11 OÜ (ühendatav ühing, registrikood 14229640, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 2, 10145), OÜ Tartu mnt 56 (ühendatav ühing, registrikood 12468145, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 2, 10145), Gonsiori Residents OÜ (ühendatav ühing, registrikood 12835448, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 2, 10145) ja OÜ Metropoli Ehitus (ühendav ühing, registrikood 12765305, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 2, 10145) ühinevad. Ühinemisleping on sõlmitud 04.04.2022 a. Ühinemisotsus on vastu võetud 06.04.2022 a. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "16.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 17,
+                "kirje_id": 13475774,
+                "lopp_kpv": null,
+                "sisu": "OÜ Metropoli Ehitus (ühendav ühing), M7 OÜ (ühendatav ühing, registrikood 14979401, aadress Tallinn, Maakri 19/1) ja Rocca A OÜ (ühendatav ühing, registrikood 14260957, aadress Tallinn, Maakri 19/1) ühinevad 09.10.2025 sõlmitud ühinemislepingu alusel. Ühinemisotsus võeti vastu 27.10.2025. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "20.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 18,
+                "kirje_id": 13478711,
+                "lopp_kpv": null,
+                "sisu": "OÜ Metropoli Ehitus (ühendav ühing, registrikood 12765305, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Maakri tn 19/1, 10145), Galerii Loftid OÜ (ühendatav ühing, registrikood 16122840, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Maakri tn 19/1, 10145) ühinevad 24.10.2025.a. sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 11.11.2025 (OÜ Metropoli Ehitus) ja 11.11.2025.a. (Galerii Loftid OÜ). ",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -374,25 +436,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "68101",
-                "emtak_tekstina": "Enda kinnisvara ost ja müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000702381,
-                "lopp_kpv": null,
-                "nace_kood": "68.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.12.2014",
-                "emtak_kood": "41201",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000149194,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974159,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

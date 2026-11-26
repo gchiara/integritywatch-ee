@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "37003106510",
+            "isikukood": null,
+            "isikukood_hash": "6095d895-2eac-537e-908a-86ccca477202",
             "kirje_id": 9000778012,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Meelis",
-            "isikukood": "37609070368",
+            "isikukood": null,
+            "isikukood_hash": "4d868356-ba72-5cfe-8d4e-1023260b7a73",
             "kirje_id": 9000778002,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003106510",
+            "isikukood_hash": "6095d895-2eac-537e-908a-86ccca477202",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37609070368",
+            "isikukood_hash": "4d868356-ba72-5cfe-8d4e-1023260b7a73",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 5-PK 12, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3670435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 5-PK 12, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3488270,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 5-PK 12, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3162641,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaluri tee 5-PK 12, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2834145,
@@ -365,7 +405,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -483,15 +523,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000065678,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000985428,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000985429,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Raido",
-            "isikukood": "37707290365",
+            "isikukood": null,
+            "isikukood_hash": "f8da407c-a173-589e-a103-c372a3f448a2",
             "kirje_id": 9000766785,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37707290365",
+            "isikukood_hash": "f8da407c-a173-589e-a103-c372a3f448a2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10325939",
+                "aadress_ads__adob_id": "11148395",
                 "aadress_ads__adr_id": 283028,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Jõelähtme vald, Loo alevik, Saha tee 27",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 27, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3704360,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "2920",
+                "tegevusala_emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 27, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3513590,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "2920",
+                "tegevusala_emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 27, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3254409,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2920",
+                "tegevusala_emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Saha tee 27, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
                 "kirje_id": 2940355,
@@ -394,7 +432,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -534,47 +572,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.10.2020",
-                "emtak_kood": "4519",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000505330,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2018",
-                "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000373661,
-                "lopp_kpv": null,
-                "nace_kood": "33.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "2920",
                 "emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000707130,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010514,
                 "lopp_kpv": null,
                 "nace_kood": "29.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "01.07.2023",
-                "emtak_kood": "45311",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000707131,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010516,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010515,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
                 "on_pohitegevusala": false
             }
         ],

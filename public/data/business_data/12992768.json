@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2018",
             "eesnimi": "Ruve",
-            "isikukood": "37505296516",
+            "isikukood": null,
+            "isikukood_hash": "95b6fac0-64e1-5bce-a156-1d36f11b2c2c",
             "kirje_id": 9000783622,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -19,45 +20,7 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "09.02.2016",
-            "eesnimi": "Ruve",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "37505296516",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 5,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 5849682,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Moor",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "Rumirex OÜ",
     "yldandmed": {
         "aadressid": [
@@ -103,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 6a, Vastseliina alevik, Võru vald, Võru maakond, 65201",
+                "kirje_id": 3686921,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 6a, Vastseliina alevik, Võru vald, Võru maakond, 65201",
+                "kirje_id": 3509689,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 6a, Vastseliina alevik, Võru vald, Võru maakond, 65201",
+                "kirje_id": 3184612,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võru tn 6a, Vastseliina alevik, Võru vald, Võru maakond, 65201",
                 "kirje_id": 2889673,
@@ -203,7 +202,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,47 +309,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
+                "algus_kpv": "15.06.2026",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698144,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113561,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698145,
+                "algus_kpv": "15.06.2026",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113562,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "43.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698146,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2020",
+                "algus_kpv": "15.06.2026",
                 "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000485689,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113563,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "15.06.2026",
+                "emtak_kood": "5221",
+                "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113564,
+                "lopp_kpv": null,
+                "nace_kood": "52.21",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.11.2018",
             "eesnimi": "Valeri",
-            "isikukood": "38701090293",
+            "isikukood": null,
+            "isikukood_hash": "a18224f5-7fcf-598e-952b-0afdc3eec955",
             "kirje_id": 9000894754,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38701090293",
+            "isikukood_hash": "a18224f5-7fcf-598e-952b-0afdc3eec955",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3826768,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "23159",
+                "tegevusala_emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.15",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3574898,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "23159",
+                "tegevusala_emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.15",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3293887,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "23199",
+                "tegevusala_emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3049069,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "23199",
+                "tegevusala_emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.19",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3049068,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "23199",
+                "tegevusala_emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.19",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesk-Sõjamäe tn 3e, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2807042,
@@ -203,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -323,14 +385,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.07.2014",
-                "emtak_kood": "23199",
+                "algus_kpv": "07.01.2026",
+                "emtak_kood": "23159",
                 "emtak_tekstina": "Muude klaastoodete ja tehnilise klaasi tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000135193,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074568,
                 "lopp_kpv": null,
-                "nace_kood": "23.19",
+                "nace_kood": "23.15",
                 "on_pohitegevusala": true
             }
         ],

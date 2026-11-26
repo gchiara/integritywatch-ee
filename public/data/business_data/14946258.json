@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.04.2020",
             "eesnimi": "Margus",
-            "isikukood": "37511150321",
+            "isikukood": null,
+            "isikukood_hash": "4f32e70d-d0aa-5059-8465-ab701cbcc019",
             "kirje_id": 9001105323,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39403190846",
+            "isikukood_hash": "d23e6944-19e6-516a-b70f-eea90fc59be7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39301064947",
+            "isikukood_hash": "8420a372-1a05-53d7-93ed-55365250db84",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -141,6 +144,42 @@
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
             {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 15, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3834334,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 15, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3501449,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 15, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3190582,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "2"
+            },
+            {
                 "ettevotja_aadress_aruandes": "Valdeku tn 132/3, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
                 "kirje_id": 2867913,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
@@ -192,7 +231,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -265,23 +304,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9014943,
+                "kande_nr": 7,
+                "kirje_id": 12601299,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@gearstation.eu"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000639185,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 59104087"
+                "sisu": "info@gsn.ee"
             },
             {
                 "kaardi_nr": null,
@@ -348,6 +376,17 @@
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
                 "sisu": "https://valgustehnika.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000710964,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
+                "lopp_kpv": null,
+                "sisu": "+372 56997759"
             }
         ],
         "staatus": "R",
@@ -365,14 +404,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.04.2020",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000470313,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000998614,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.12",
                 "on_pohitegevusala": true
             }
         ],

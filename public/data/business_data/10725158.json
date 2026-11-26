@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.03.2023",
             "eesnimi": "Igor",
-            "isikukood": "36308262710",
+            "isikukood": null,
+            "isikukood_hash": "bfb6af20-8ea1-5dc6-ac97-d7f96450df97",
             "kirje_id": 9001545839,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36308262710",
+            "isikukood_hash": "bfb6af20-8ea1-5dc6-ac97-d7f96450df97",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rõõmu tee 23/8, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3813722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rõõmu tee 23/8, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3385798,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rõõmu tee 23/8, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3187761,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rõõmu tee 23/8, Tartu linn, Tartu linn, Tartu maakond, 50605",
                 "kirje_id": 2854825,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -480,14 +518,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2010",
-                "emtak_kood": "41201",
+                "algus_kpv": "29.05.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000045119,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000884365,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

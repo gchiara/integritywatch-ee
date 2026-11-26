@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Kert",
-            "isikukood": "37708080264",
+            "isikukood": null,
+            "isikukood_hash": "0833bde9-10e9-56c2-9cd1-b360f3674fd7",
             "kirje_id": 9000802988,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37708080264",
+            "isikukood_hash": "0833bde9-10e9-56c2-9cd1-b360f3674fd7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6940556",
+                "aadress_ads__adob_id": "10706518",
                 "aadress_ads__adr_id": 2298081,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, F. Kuhlbarsi tn 6-4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "F. Kuhlbarsi tn 6-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
+                "kirje_id": 3514234,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. Kuhlbarsi tn 6-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
+                "kirje_id": 3291555,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47191",
+                "tegevusala_emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.19",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "F. Kuhlbarsi tn 6-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
                 "kirje_id": 2940265,
@@ -251,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -371,25 +397,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.09.2016",
-                "emtak_kood": "47911",
-                "emtak_tekstina": "Jaemüük posti või Interneti teel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000258612,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001011201,
                 "lopp_kpv": null,
-                "nace_kood": "47.91",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.09.2016",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000258611,
-                "lopp_kpv": null,
-                "nace_kood": "46.90",
+                "nace_kood": "47.12",
                 "on_pohitegevusala": true
             }
         ],

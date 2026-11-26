@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.03.2019",
             "eesnimi": "Atko",
-            "isikukood": "37403010345",
+            "isikukood": null,
+            "isikukood_hash": "4a37fff7-935b-59f1-b8b4-e729c8cf2b03",
             "kirje_id": 9000948709,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37403010345",
+            "isikukood_hash": "4a37fff7-935b-59f1-b8b4-e729c8cf2b03",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 69, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3500620,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 69, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3246027,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 69, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
                 "kirje_id": 2887774,
@@ -370,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -490,26 +516,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2020",
-                "emtak_kood": "58141",
-                "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000489318,
-                "lopp_kpv": null,
-                "nace_kood": "58.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000489317,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997834,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "58131",
+                "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997835,
+                "lopp_kpv": null,
+                "nace_kood": "58.13",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

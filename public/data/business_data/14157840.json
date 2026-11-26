@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.04.2023",
             "eesnimi": "Ago",
-            "isikukood": "36601130010",
+            "isikukood": null,
+            "isikukood_hash": "120602b1-863c-5ee9-b0ee-c9a68fde1ead",
             "kirje_id": 9001560322,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.05.2023",
             "eesnimi": "Indrek",
-            "isikukood": "36708170010",
+            "isikukood": null,
+            "isikukood_hash": "d973842d-af85-5a77-8f3e-71ebf9d759ef",
             "kirje_id": 9001568232,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36601130010",
+            "isikukood_hash": "120602b1-863c-5ee9-b0ee-c9a68fde1ead",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 62b, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3732139,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 62b, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3552262,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 62b, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3207030,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 62b, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3005861,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pikk tn 62b, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
                 "kirje_id": 2727498,
@@ -196,7 +247,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,6 +337,17 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5027424"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000744722,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://oselprojekt.ee/"
             }
         ],
         "staatus": "R",
@@ -303,23 +365,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.11.2016",
-                "emtak_kood": "41201",
+                "algus_kpv": "28.08.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000267379,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048262,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.09.2022",
-                "emtak_kood": "43993",
-                "emtak_tekstina": "Tellingute ja tööplatvormide püstitus ja demonteerimine.Ehitus- ja tõsteseadmete rentimine koos operaatoriga",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000651154,
+                "algus_kpv": "28.08.2025",
+                "emtak_kood": "43991",
+                "emtak_tekstina": "Tellingute püstitamine ja demonteerimine, ehitus- ja tõsteseadmete rentimine koos operaatoriga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048263,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Jaanis",
-            "isikukood": "37310284227",
+            "isikukood": null,
+            "isikukood_hash": "c382d6d9-d9e1-524e-8725-cfe45ea27224",
             "kirje_id": 9000769231,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Vadim",
-            "isikukood": "37206272717",
+            "isikukood": null,
+            "isikukood_hash": "17497fd6-4f17-5695-bfcd-79b4b81e63a7",
             "kirje_id": 9000769219,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37310284227",
+            "isikukood_hash": "c382d6d9-d9e1-524e-8725-cfe45ea27224",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206272717",
+            "isikukood_hash": "17497fd6-4f17-5695-bfcd-79b4b81e63a7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 131f, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3716795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 131f, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3498477,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 131f, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3188391,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tähe tn 131f, Tartu linn, Tartu linn, Tartu maakond, 50107",
                 "kirje_id": 2840331,
@@ -365,7 +405,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -494,26 +534,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.06.2023",
-                "emtak_kood": "46732",
-                "emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000689318,
-                "lopp_kpv": null,
-                "nace_kood": "46.73",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "07.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000689319,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995653,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

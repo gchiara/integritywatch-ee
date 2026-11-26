@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Künter",
-            "isikukood": "39209263519",
+            "isikukood": null,
+            "isikukood_hash": "8ac8f574-85c3-5049-9a9b-7c5723904e26",
             "kirje_id": 9000845634,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39209263519",
+            "isikukood_hash": "8ac8f574-85c3-5049-9a9b-7c5723904e26",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku, Punikvere küla, Peipsiääre vald, Tartu maakond, 49415",
+                "kirje_id": 3715847,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku, Punikvere küla, Peipsiääre vald, Tartu maakond, 49415",
+                "kirje_id": 3453328,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku, Punikvere küla, Peipsiääre vald, Tartu maakond, 49415",
+                "kirje_id": 3171990,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ööbiku, Punikvere küla, Peipsiääre vald, Tartu maakond, 49415",
                 "kirje_id": 2873455,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,48 +384,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.10.2020",
-                "emtak_kood": "96041",
-                "emtak_tekstina": "Saunade, solaariumite ja massaažisalongide tegevus jm füüsilise heaoluga seotud teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000512103,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "02101",
+                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950413,
                 "lopp_kpv": null,
-                "nace_kood": "96.04",
+                "nace_kood": "02.10",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "96231",
+                "emtak_tekstina": "Päevaspaa, massaažisalongide ja saunade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950415,
+                "lopp_kpv": null,
+                "nace_kood": "96.23",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "19.07.2021",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000574956,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950416,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.07.2022",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000643494,
-                "lopp_kpv": null,
-                "nace_kood": "02.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.07.2014",
-                "emtak_kood": "02202",
-                "emtak_tekstina": "Küttepuude tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000133583,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Juri",
-            "isikukood": "36310302214",
+            "isikukood": null,
+            "isikukood_hash": "f962426f-90b5-5be1-b369-42208ea6e91c",
             "kirje_id": 9000742607,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Tatjana",
-            "isikukood": "47802032219",
+            "isikukood": null,
+            "isikukood_hash": "b794d702-b6e6-5469-91aa-e0aeed4304c4",
             "kirje_id": 9000742604,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36310302214",
+            "isikukood_hash": "f962426f-90b5-5be1-b369-42208ea6e91c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47802032219",
+            "isikukood_hash": "b794d702-b6e6-5469-91aa-e0aeed4304c4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9220604",
-                "aadress_ads__adr_id": 3307884,
+                "aadress_ads__adob_id": "11164147",
+                "aadress_ads__adr_id": 3807455,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Narva mnt 19-1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "MR01265628",
-                "aadress_ads__koodaadress": "4525122700000009A000029IH22HY0000",
+                "aadress_ads__koodaadress": "4525022700000009A000029IH22HY0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "16.02.2018",
                 "ehak": "2270",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 19-1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41535",
+                "kirje_id": 3573090,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 19-1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41535",
+                "kirje_id": 3314717,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 19-1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41535",
+                "kirje_id": 3028259,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 19-1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41535",
                 "kirje_id": 2751366,
@@ -461,7 +501,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -605,12 +645,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.11.2009",
+                "algus_kpv": "30.12.2025",
                 "emtak_kood": "69201",
                 "emtak_tekstina": "Auditeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000010352,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001073197,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": true

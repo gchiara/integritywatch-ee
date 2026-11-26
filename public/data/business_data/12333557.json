@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Aivar",
-            "isikukood": "37610190249",
+            "isikukood": null,
+            "isikukood_hash": "53f9f75b-ee63-5a88-a15f-3a179ee5a8af",
             "kirje_id": 9000821887,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Indrek",
-            "isikukood": "37708150249",
+            "isikukood": null,
+            "isikukood_hash": "ed20e5b2-7772-50e3-8a37-e625a230ed81",
             "kirje_id": 9000821890,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.12.2019",
             "eesnimi": "Lauri",
-            "isikukood": "38906070288",
+            "isikukood": null,
+            "isikukood_hash": "39b233d2-96b8-5ea9-b891-2df23965030a",
             "kirje_id": 9001063405,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37708150249",
+            "isikukood_hash": "ed20e5b2-7772-50e3-8a37-e625a230ed81",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38906070288",
+            "isikukood_hash": "39b233d2-96b8-5ea9-b891-2df23965030a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -174,6 +179,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kangru tee 17, Vaela küla, Kiili vald, Harju maakond, 75413",
+                "kirje_id": 3406606,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangru tee 17, Vaela küla, Kiili vald, Harju maakond, 75413",
+                "kirje_id": 3237212,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "24"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kangru tee 17, Vaela küla, Kiili vald, Harju maakond, 75413",
                 "kirje_id": 2963456,
@@ -310,7 +339,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -391,6 +420,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "17.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 13477424,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 23.09.2025. a kohtumäärusega tsiviilasjas nr 2-25-10044 kuulutati välja ühingu pankrot 23.09.2025. a kell 14:30.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -415,8 +458,8 @@
                 "sisu": "+372 5063971"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "24.08.2012",
@@ -426,22 +469,31 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "17.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.04.2016",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000222917,
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "31001",
+                "emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000904064,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

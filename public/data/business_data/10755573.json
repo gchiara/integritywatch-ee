@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Vitali",
-            "isikukood": "35307230338",
+            "isikukood": null,
+            "isikukood_hash": "3a7b6b19-7c5f-55d3-8d7d-4ea23c116143",
             "kirje_id": 9000818170,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38807070409",
+            "isikukood_hash": "20e9f95f-e12a-5ce1-a22c-fd85bb13663e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35307230338",
+            "isikukood_hash": "3a7b6b19-7c5f-55d3-8d7d-4ea23c116143",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 110-9, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3719579,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95211",
+                "tegevusala_emtak_tekstina": "Tarbeelektroonika parandus ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 110-9, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3458269,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 110-9, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3133870,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "95211",
+                "tegevusala_emtak_tekstina": "Tarbeelektroonika parandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.21",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 110-9, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2827105,
@@ -419,7 +458,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -539,26 +578,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.07.2021",
+                "algus_kpv": "26.06.2026",
                 "emtak_kood": "95211",
-                "emtak_tekstina": "Tarbeelektroonika parandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000572920,
+                "emtak_tekstina": "Tarbeelektroonika parandus ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001120414,
                 "lopp_kpv": null,
                 "nace_kood": "95.21",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "08.07.2021",
-                "emtak_kood": "26401",
-                "emtak_tekstina": "Tarbeelektroonika tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000572921,
-                "lopp_kpv": null,
-                "nace_kood": "26.40",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

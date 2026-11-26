@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Piret",
-            "isikukood": "47801155715",
+            "isikukood": null,
+            "isikukood_hash": "50147d49-8388-5247-8956-deaf1744617f",
             "kirje_id": 9000689909,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47801155715",
+            "isikukood_hash": "50147d49-8388-5247-8956-deaf1744617f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -96,13 +98,49 @@
                 "sisu": "Vertland OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "31.07.2013",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raudkivi tee 4-19, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3667831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudkivi tee 4-19, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3431504,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudkivi tee 4-19, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3172767,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raudkivi tee 4-19, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2925867,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,26 +372,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000704401,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929694,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "71111",
+                "emtak_tekstina": "Arhitektitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929695,
+                "lopp_kpv": null,
+                "nace_kood": "71.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "29.07.2013",
-                "emtak_kood": "71111",
-                "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000080140,
+                "algus_kpv": "05.06.2026",
+                "emtak_kood": "55204",
+                "emtak_tekstina": "Külaliskorterid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109100,
                 "lopp_kpv": null,
-                "nace_kood": "71.11",
-                "on_pohitegevusala": true
+                "nace_kood": "55.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

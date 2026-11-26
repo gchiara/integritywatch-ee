@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.11.2018",
             "eesnimi": "Elmer",
-            "isikukood": "38505164911",
+            "isikukood": null,
+            "isikukood_hash": "ad7afb6d-89c3-5c84-b3fa-0f4b1c3acc7d",
             "kirje_id": 9000888184,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38505164911",
+            "isikukood_hash": "ad7afb6d-89c3-5c84-b3fa-0f4b1c3acc7d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lääne tn 1-81, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3655974,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "7739",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lääne tn 1-81, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3415496,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "7739",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lääne tn 1-81, Tartu linn, Tartu linn, Tartu maakond, 50605",
+                "kirje_id": 3273578,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lääne tn 1-81, Tartu linn, Tartu linn, Tartu maakond, 50605",
                 "kirje_id": 2860428,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -381,26 +419,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.10.2022",
-                "emtak_kood": "4799",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000654490,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.10.2022",
-                "emtak_kood": "77399",
-                "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000654489,
+                "algus_kpv": "15.06.2025",
+                "emtak_kood": "7739",
+                "emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000914250,
                 "lopp_kpv": null,
                 "nace_kood": "77.39",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "15.06.2025",
+                "emtak_kood": "47691",
+                "emtak_tekstina": "Mujal liigitamata kultuuri- ja vaba aja kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000914251,
+                "lopp_kpv": null,
+                "nace_kood": "47.69",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

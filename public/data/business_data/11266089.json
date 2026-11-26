@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Toomas",
-            "isikukood": "35911290210",
+            "isikukood": null,
+            "isikukood_hash": "d5c3b73c-cbbf-53a7-83b7-3ee693db5f66",
             "kirje_id": 9000674010,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,6 +41,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "ccf81f39-a1cc-532b-bf16-9282be181ab0",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -52,7 +54,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "15.02.1987",
-            "valis_kood": "3150287C040PB8",
+            "valis_kood": null,
             "valis_kood_riik": "BLR",
             "valis_kood_riik_tekstina": "Valgevene",
             "volituste_loppemise_kpv": ""
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35911290210",
+            "isikukood_hash": "d5c3b73c-cbbf-53a7-83b7-3ee693db5f66",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Muru tn 8, Nõmme linnaosa, Tallinn, Harju maakond, 11614",
+                "kirje_id": 3706039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46891",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.89",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Muru tn 8, Nõmme linnaosa, Tallinn, Harju maakond, 11614",
+                "kirje_id": 3384289,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46891",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.89",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Muru tn 8, Nõmme linnaosa, Tallinn, Harju maakond, 11614",
+                "kirje_id": 3117061,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4676",
+                "tegevusala_emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.76",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Muru tn 8, Nõmme linnaosa, Tallinn, Harju maakond, 11614",
                 "kirje_id": 2838842,
@@ -360,7 +399,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -491,14 +530,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.06.2023",
-                "emtak_kood": "4676",
-                "emtak_tekstina": "Muude vahetoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000689047,
+                "algus_kpv": "28.05.2025",
+                "emtak_kood": "46891",
+                "emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000882825,
                 "lopp_kpv": null,
-                "nace_kood": "46.76",
+                "nace_kood": "46.89",
                 "on_pohitegevusala": true
             }
         ],

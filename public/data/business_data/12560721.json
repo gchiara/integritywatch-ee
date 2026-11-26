@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "38612030290",
+            "isikukood": null,
+            "isikukood_hash": "b96ae8dc-e053-56c4-ab40-06f1733c2861",
             "kirje_id": 9000771148,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.05.2023",
             "eesnimi": "Toivo",
-            "isikukood": "34106240247",
+            "isikukood": null,
+            "isikukood_hash": "a90bd06f-db15-5fe9-939b-ecfc505d4d75",
             "kirje_id": 9001573701,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38612030290",
+            "isikukood_hash": "b96ae8dc-e053-56c4-ab40-06f1733c2861",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,26 +82,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10376644",
-                "aadress_ads__adr_id": 268239,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Maardu linn, Fosforiidi tn 4",
+                "aadress_ads__adob_id": "7590292",
+                "aadress_ads__adr_id": 2192582,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Rotermanni tn 5-32",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01086817",
-                "aadress_ads__koodaadress": "374460000000000WZ00000OD300000000",
+                "aadress_ads__ads_oid": "ER01452045",
+                "aadress_ads__koodaadress": "377840298000009YY00000UAZ5X600000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.12.2017",
-                "ehak": "0446",
-                "ehak_nimetus": "Maardu linn, Harju maakond",
+                "algus_kpv": "13.01.2025",
+                "ehak": "0298",
+                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7308103,
+                "kande_nr": 11,
+                "kirje_id": 12900445,
                 "lopp_kpv": null,
-                "postiindeks": "74114",
+                "postiindeks": "10111",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Fosforiidi tn 4"
+                "tanav_maja_korter": "Rotermanni tn 5-32"
             }
         ],
         "arinimed": [
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 5-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3770738,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 5-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3400200,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Fosforiidi tn 4, Maardu linn, Harju maakond, 74114",
+                "kirje_id": 3293828,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46759",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.75",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Fosforiidi tn 4, Maardu linn, Harju maakond, 74114",
                 "kirje_id": 2932956,
@@ -244,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -313,13 +352,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "01.09.2016",
+                "algus_kpv": "13.01.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kinnitamise_kpv": "15.08.2016",
-                "kirje_id": 6114286,
+                "kande_nr": 11,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12900446,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -331,12 +370,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7758401,
+                "kande_nr": 11,
+                "kirje_id": 12900447,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@roxtrade.ee"
+                "sisu": "info@roxtrade.eu"
             },
             {
                 "kaardi_nr": null,
@@ -365,26 +404,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.10.2013",
-                "emtak_kood": "46759",
+                "algus_kpv": "06.06.2025",
+                "emtak_kood": "46859",
                 "emtak_tekstina": "Muude keemiatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000089166,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000898013,
                 "lopp_kpv": null,
-                "nace_kood": "46.75",
+                "nace_kood": "46.85",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.07.2019",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000432732,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

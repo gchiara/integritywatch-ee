@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Kalev",
-            "isikukood": "36609186012",
+            "isikukood": null,
+            "isikukood_hash": "1b626e22-748f-5fb6-8785-430e3913361c",
             "kirje_id": 9000874520,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Taavi",
-            "isikukood": "38901136027",
+            "isikukood": null,
+            "isikukood_hash": "d3f398c8-666a-58ac-932a-b39fc9aa88a1",
             "kirje_id": 9000874519,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36609186012",
+            "isikukood_hash": "1b626e22-748f-5fb6-8785-430e3913361c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38901136027",
+            "isikukood_hash": "d3f398c8-666a-58ac-932a-b39fc9aa88a1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10357723",
+                "aadress_ads__adob_id": "10714547",
                 "aadress_ads__adr_id": 3607748,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Kolga-Jaani alevik, W. Reimani tn 29",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "W. Reimani tn 29, Kolga-Jaani alevik, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3785646,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "W. Reimani tn 29, Kolga-Jaani alevik, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3513577,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "W. Reimani tn 29, Kolga-Jaani alevik, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3221797,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "W. Reimani tn 29, Kolga-Jaani alevik, Viljandi vald, Viljandi maakond, 70301",
                 "kirje_id": 2900512,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -354,12 +394,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7764034,
+                "kande_nr": 7,
+                "kirje_id": 12572717,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tavpai@hot.ee"
+                "sisu": "tavpaj@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -399,12 +439,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2023",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001133918,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699979,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010500,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true

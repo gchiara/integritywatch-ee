@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Erki",
-            "isikukood": "36805302718",
+            "isikukood": null,
+            "isikukood_hash": "898084a2-1f2f-533c-8eea-a69cbd647a0b",
             "kirje_id": 9000674476,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36805302718",
+            "isikukood_hash": "898084a2-1f2f-533c-8eea-a69cbd647a0b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8762415",
-                "aadress_ads__adr_id": 3048512,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Turu tn 30",
+                "aadress_ads__adob_id": "9681165",
+                "aadress_ads__adr_id": 3438997,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Laki põik 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00752690",
-                "aadress_ads__koodaadress": "79793815100000SZP0000B9F200000000",
+                "aadress_ads__ads_oid": "ME03406073",
+                "aadress_ads__koodaadress": "37784048200000TWR0000C2D900000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.12.2017",
-                "ehak": "8151",
-                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
+                "algus_kpv": "28.03.2024",
+                "ehak": "0482",
+                "ehak_nimetus": "Mustamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7456977,
+                "kande_nr": 8,
+                "kirje_id": 12412618,
                 "lopp_kpv": null,
-                "postiindeks": "51014",
+                "postiindeks": "12919",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Turu tn 30"
+                "tanav_maja_korter": "Laki põik 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki põik 4, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3772124,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki põik 4, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3427606,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki põik 4, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3164489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Turu tn 30, Tartu linn, Tartu linn, Tartu maakond, 51014",
                 "kirje_id": 2885978,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -296,13 +334,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.02.2015",
+                "algus_kpv": "28.03.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kinnitamise_kpv": "15.12.2014",
-                "kirje_id": 5444832,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12412619,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -348,14 +386,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.03.2019",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000403550,
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000925886,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.12",
                 "on_pohitegevusala": true
             }
         ],

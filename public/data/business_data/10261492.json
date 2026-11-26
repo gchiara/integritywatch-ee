@@ -7,6 +7,7 @@
             "algus_kpv": "19.10.2018",
             "eesnimi": "Jari",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000767109,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -24,6 +25,7 @@
             "algus_kpv": "10.01.2019",
             "eesnimi": "Aino-Kylliki",
             "isikukood": null,
+            "isikukood_hash": "10915c09-3151-556d-87fe-52286c614a6f",
             "kirje_id": 9000918328,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Rantala",
             "synniaeg": null,
-            "valis_kood": "16.04.1941",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         },
@@ -41,6 +43,7 @@
             "algus_kpv": "10.01.2019",
             "eesnimi": "Pertti",
             "isikukood": null,
+            "isikukood_hash": "1368902a-e1d7-577f-a1d6-b47045899a76",
             "kirje_id": 9000918329,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -48,7 +51,7 @@
             "lopp_kpv": null,
             "nimi": "Rantala",
             "synniaeg": null,
-            "valis_kood": "07.05.1942",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         }
@@ -73,7 +76,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36310100404",
+            "isikukood_hash": "1fbb364b-c44f-5f68-93db-0c4e427f4832",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -110,7 +114,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36804300218",
+            "isikukood_hash": "ae3d0832-4184-5dd2-acf2-1708698328ff",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -173,6 +178,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 62, Mustamäe linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3696426,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 62, Mustamäe linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3439905,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 62, Mustamäe linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3110287,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 62, Mustamäe linnaosa, Tallinn, Harju maakond, 12916",
                 "kirje_id": 2830405,
@@ -525,7 +566,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -656,14 +697,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000027217,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937570,
                 "lopp_kpv": null,
-                "nace_kood": "46.52",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": true
             }
         ],

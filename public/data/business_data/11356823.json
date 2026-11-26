@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.09.2018",
             "eesnimi": "Kaupo",
-            "isikukood": "37510024212",
+            "isikukood": null,
+            "isikukood_hash": "24fc7be9-e4ad-5b65-82fd-c08146f54506",
             "kirje_id": 9000692526,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.09.2018",
             "eesnimi": "Marek",
-            "isikukood": "37204230217",
+            "isikukood": null,
+            "isikukood_hash": "54866d38-f767-54a3-a83d-6c0418a39706",
             "kirje_id": 9000692525,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37510024212",
+            "isikukood_hash": "24fc7be9-e4ad-5b65-82fd-c08146f54506",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37204230217",
+            "isikukood_hash": "54866d38-f767-54a3-a83d-6c0418a39706",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõime tn 19-422, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10312",
+                "kirje_id": 3646232,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõime tn 19-422, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10312",
+                "kirje_id": 3443786,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõime tn 19-422, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10312",
+                "kirje_id": 3225959,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62091",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.09",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõime tn 19-422, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10312",
                 "kirje_id": 2948340,
@@ -365,7 +405,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -393,6 +433,32 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "07.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 14,
+                "kirje_id": 12783321,
+                "lopp_kpv": null,
+                "sisu": "Connected OÜ (jagunev äriühing) jagunes eraldumise teel, andes osa oma varast üle jagunemise käigus asutatavale osaühingule CodeLink OÜ (registrikood 17109391, asukoht ja aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lõime tn 19-422, 10312). Jagunemiskava (notari ametitegevuse raamatu registri nr 1921) koostati 17.07.2024. a, jagunemisotsus võeti vastu 19.08.2024. a",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "10.04.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "kirje_id": 13668693,
+                "lopp_kpv": null,
+                "sisu": "Connected OÜ (ühendav ühing, registrikood 11356823, aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lõime tn 19-422, 10312), Dentas OÜ (ühendatav ühing, registrikood 14229218, aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lõime tn 19-422, 10413), Dentas Hambaravitarkvara OÜ (ühendatav ühing, registrikood 16427278, aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lõime tn 19-422, 10312), Dentas Software OÜ (ühendatav ühing, registrikood 14667794, aadress Tartu maakond, Tartu linn, Tartu linn, Vaksali tn 17a, 50410) ja eKliinik OÜ (ühendatav ühing, registrikood 12153944, aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lõime tn 19-422, 10312) ühinevad 02.04.2026 sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei olnud nõutav. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -494,14 +560,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.04.2022",
-                "emtak_kood": "62031",
-                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000613069,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62901",
+                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941291,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
             }
         ],

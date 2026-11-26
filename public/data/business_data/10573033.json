@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Ago-Mart",
-            "isikukood": "36211104928",
+            "isikukood": null,
+            "isikukood_hash": "8afdc424-817e-5b61-a846-f050ffe78ae1",
             "kirje_id": 9000815956,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Madis",
-            "isikukood": "36206114912",
+            "isikukood": null,
+            "isikukood_hash": "e4b4a425-5c48-5a9a-86f4-1092dc2bb1c1",
             "kirje_id": 9000815960,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36211104928",
+            "isikukood_hash": "8afdc424-817e-5b61-a846-f050ffe78ae1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10444611",
+                "aadress_ads__adob_id": "10978569",
                 "aadress_ads__adr_id": 3527520,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Türi linn, Kaare tn 25",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3777159,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3526371,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3248290,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72213",
                 "kirje_id": 2851052,
@@ -411,7 +450,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -540,14 +579,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "41201",
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000005723,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022568,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

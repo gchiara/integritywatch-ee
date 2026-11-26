@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 11141198,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "23.07.2024",
+            "eesnimi": "Toomas",
+            "isikukood": null,
+            "isikukood_hash": "4fd7611f-2fe9-5dfd-869a-ca158e520b1a",
+            "kirje_id": 9001728267,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Soolo",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37106056012",
+            "isikukood_hash": "4fd7611f-2fe9-5dfd-869a-ca158e520b1a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -84,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männiku-4, Iia küla, Põhja-Sakala vald, Viljandi maakond, 71211",
+                "kirje_id": 3761750,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku-4, Iia küla, Põhja-Sakala vald, Viljandi maakond, 71211",
+                "kirje_id": 3530803,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku-4, Iia küla, Põhja-Sakala vald, Viljandi maakond, 71211",
+                "kirje_id": 3166786,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiku-4, Iia küla, Põhja-Sakala vald, Viljandi maakond, 71211",
                 "kirje_id": 2975312,
@@ -316,7 +372,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -462,12 +518,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.07.2013",
+                "algus_kpv": "08.07.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000079277,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001026777,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true

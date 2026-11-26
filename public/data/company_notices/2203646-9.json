@@ -291,15 +291,11 @@
             "Tenders received low",
             "Tenders received info missing",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Seller is a large political donor",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 11332521",
-            "Political donations from beneficial owner of a contractor company: Margus Linnamäe. Company: MAGNUM MEDICAL OÜ(11332521). AMT: 50000",
-            "Nominees as company beneficial owners: 36401052714"
+            "Possible shell company: 11332521"
         ],
         "noticeUid": "dba2f5af-c69a-4af0-96f9-6a117fccdb2e",
         "notice_items": [
@@ -390,22 +386,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
             "Nominees as company board members or beneficial owners",
-            "Seller is a large political donor"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14979890",
-            "Nominees as company beneficial owners: 35611210222",
-            "Political donations from beneficial owner of a contractor company: Alvar Kaur. Company: OÜ Weissmed(14979890). AMT: 1000",
-            "Nominees as company beneficial owners: 35805140379",
-            "Nominees as company beneficial owners: 39007045722",
-            "Nominees as company beneficial owners: 38312310263",
-            "Nominees as company board members: 35805140379",
-            "Nominees as company board members: 39007045722",
-            "Nominees as company board members: 38312310263",
-            "Nominees as company board members: 35611210222"
+            "Nominees as company beneficial owners: Armen_Grigorjan_31.10.2018",
+            "Possible shell company: 14979890"
         ],
         "noticeUid": "7d39674a-3ed5-4d43-b949-154c179ec549",
         "notice_items": [
@@ -419,7 +406,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-21",
+                "award_date_conclusion_contract": [
+                    "2023-08-21"
+                ],
                 "award_value": "12000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -434,7 +423,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Meeleelundite ravimid (S-grupp) ja oftalmoloogilised lahused",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -473,10 +462,12 @@
         "filename": "award_e9afce9e-135b-45c8-80ae-5aa86e822a33_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Nominees as company beneficial owners: Armen_Grigorjan_31.10.2018"
         ],
         "noticeUid": "e9afce9e-135b-45c8-80ae-5aa86e822a33",
         "notice_items": [
@@ -598,5 +589,178 @@
         "refnum": "263661",
         "total_amount": "1305500.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "contractors": [],
+                "result": "clos-nw",
+                "tenders_received": "0"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Meeleelundkonna ravimid (S-grupp) ja oftalmoloogilised lahused",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822068",
+                "name": "Aktsiaselts Ida-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            },
+            {
+                "id": "10220275",
+                "name": "Aktsiaselts Järvamaa Haigla",
+                "town": "Paide linn"
+            },
+            {
+                "id": "90004059",
+                "name": "Kuressaare Haigla Sihtasutus",
+                "town": "Saaremaa vald"
+            }
+        ],
+        "contractors": [
+            "11332521",
+            "10173188",
+            "12590461",
+            "11941125",
+            "10097006",
+            "11124024",
+            "40003348336",
+            "2203646-9",
+            "10802215",
+            "11003467"
+        ],
+        "cpv": "33600000",
+        "date_dispatch_notice": "2025-10-09",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_9890217c-bf13-4c21-891e-41707b360b1e_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "9890217c-bf13-4c21-891e-41707b360b1e",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "297313-0000"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "contractors": [],
+                "result": "clos-nw",
+                "tenders_received": "0"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Silmahaiguste ravis kasutatavad ravimid, lahused ja diagnostilised vahendid",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "11332521",
+            "10173188",
+            "303317197",
+            "12590461",
+            "10164808",
+            "11124024",
+            "303304004",
+            "40003348336",
+            "2203646-9"
+        ],
+        "cpv": "33692000",
+        "date_dispatch_notice": "2025-12-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_19502ac2-1d68-410c-81cb-0c2205ee6e8b_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "19502ac2-1d68-410c-81cb-0c2205ee6e8b",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "298660-0000"
     }
 ]

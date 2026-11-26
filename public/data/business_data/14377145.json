@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Oliver",
-            "isikukood": "38705070375",
+            "isikukood": null,
+            "isikukood_hash": "bfa027fc-faa0-5f53-add8-24b44653f079",
             "kirje_id": 9000829041,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -19,50 +20,12 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "23.11.2017",
-            "eesnimi": "Oliver",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "38705070375",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 5,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 7179207,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Kalda",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "OÜ Öö pikk",
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6660646",
+                "aadress_ads__adob_id": "11219310",
                 "aadress_ads__adr_id": 2109167,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Liiva tn 37",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +66,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liiva tn 37, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
+                "kirje_id": 3409942,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liiva tn 37, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
+                "kirje_id": 3031773,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liiva tn 37, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
                 "kirje_id": 2798994,
@@ -179,7 +166,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -247,6 +234,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "01.09.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "kirje_id": 13950208,
+                "lopp_kpv": null,
+                "sisu": "Osanikud otsustasid 26.08.2026 lõpetada äriühingu tegevuse.",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -271,8 +272,8 @@
                 "sisu": "+372 55582998"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "23.11.2017",
@@ -282,22 +283,31 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "01.09.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.07.2021",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000574723,
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000908913,
                 "lopp_kpv": null,
-                "nace_kood": "72.19",
+                "nace_kood": "72.10",
                 "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

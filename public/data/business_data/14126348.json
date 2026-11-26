@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Rein",
-            "isikukood": "38009245230",
+            "isikukood": null,
+            "isikukood_hash": "4412f889-d6af-5d95-b807-522723d3a996",
             "kirje_id": 9000689623,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38009245230",
+            "isikukood_hash": "4412f889-d6af-5d95-b807-522723d3a996",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10306059",
+                "aadress_ads__adob_id": "10795867",
                 "aadress_ads__adr_id": 3517517,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Kadrina vald, Kihlevere küla, Kuremäe-Tuuleveski",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kuremäe-Tuuleveski, Kihlevere küla, Kadrina vald, Lääne-Viru maakond, 45215",
+                "kirje_id": 3490459,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "2511",
+                "tegevusala_emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuremäe-Tuuleveski, Kihlevere küla, Kadrina vald, Lääne-Viru maakond, 45215",
+                "kirje_id": 3147897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2511",
+                "tegevusala_emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kuremäe-Tuuleveski, Kihlevere küla, Kadrina vald, Lääne-Viru maakond, 45215",
                 "kirje_id": 2927907,
@@ -203,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,26 +336,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "2511",
                 "emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000704818,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987581,
                 "lopp_kpv": null,
                 "nace_kood": "25.11",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "25611",
-                "emtak_tekstina": "Metallitöötlus ja metallpindade katmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000704819,
-                "lopp_kpv": null,
-                "nace_kood": "25.61",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

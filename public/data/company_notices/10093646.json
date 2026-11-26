@@ -112,14 +112,11 @@
         "flags": [
             "Tenders received low",
             "Tenders received info missing",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10093646",
-            "Nominees as company beneficial owners: 35907230259",
-            "Nominees as company board members: 35907230259"
+            "Possible shell company: 10093646"
         ],
         "noticeUid": "8782fe27-f8d3-493a-b369-97b4e7fccc07",
         "notice_items": [
@@ -133,5 +130,64 @@
         ],
         "notice_items_num": 7,
         "refnum": "237362"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-01-02"
+                ],
+                "award_value": "350000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10303753",
+                        "contractor_name": "OÜ Lupree",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "4"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Prillid ja prilliklaasid",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10125659",
+            "10093646",
+            "10366883",
+            "10303753"
+        ],
+        "cpv": "33734000",
+        "date_dispatch_notice": "2024-01-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_1a76e663-accc-49f3-ae02-d2fee40b3a26_0.json",
+        "flags": [
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10303753"
+        ],
+        "noticeUid": "1a76e663-accc-49f3-ae02-d2fee40b3a26",
+        "notice_items": [
+            {
+                "duration": "48 MONTH"
+            }
+        ],
+        "refnum": "271309",
+        "total_amount": "350000.00",
+        "total_amount_curr": "EUR"
     }
 ]

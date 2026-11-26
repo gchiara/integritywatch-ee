@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Alar",
-            "isikukood": "37803310211",
+            "isikukood": null,
+            "isikukood_hash": "08747ef4-4e45-57ee-96a8-6b9d86e2d269",
             "kirje_id": 9000708090,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Margo",
-            "isikukood": "37702230211",
+            "isikukood": null,
+            "isikukood_hash": "1c3b20a8-a946-5575-b792-b952d058a9ee",
             "kirje_id": 9000708089,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37702230211",
+            "isikukood_hash": "1c3b20a8-a946-5575-b792-b952d058a9ee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lepa tn 2, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3802747,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepa tn 2, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3553873,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepa tn 2, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3245512,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lepa tn 2, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
                 "kirje_id": 2921690,
@@ -328,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -435,23 +474,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2022",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000633223,
-                "lopp_kpv": null,
-                "nace_kood": "42.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2022",
+                "algus_kpv": "03.09.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000633222,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001050016,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true

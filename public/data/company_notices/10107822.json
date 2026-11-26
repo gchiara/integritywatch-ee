@@ -60,19 +60,12 @@
         "flags": [
             "Too few evaluation criteria",
             "Possible shell company",
-            "Nominees as company board members or beneficial owners",
-            "Seller is a large political donor"
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10158736",
-            "Nominees as company beneficial owners: 46005210321",
-            "Nominees as company beneficial owners: 36211205212",
-            "Nominees as company board members: 37709262239",
-            "Nominees as company board members: 36211205212",
-            "Political donations from beneficial owner of a contractor company: Neeme-Jaak Paap. Company: Osaühing N-JAAP(10107822). AMT: 2825",
-            "Nominees as company beneficial owners: 37604035213",
-            "Nominees as company board members: 37604035213"
+            "Nominees as company beneficial owners: EPP_KIVIAED_19.10.2018"
         ],
         "noticeUid": "644df141-a80a-495d-a2ee-5392f969aa87",
         "notice_items": [
@@ -121,12 +114,10 @@
         "filename": "award_d90d9927-ec54-4ec5-bda6-ced9b11dc61b_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Seller is a large political donor"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Political donations from beneficial owner of a contractor company: Neeme-Jaak Paap. Company: Osaühing N-JAAP(10107822). AMT: 2865"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "d90d9927-ec54-4ec5-bda6-ced9b11dc61b",
         "notice_items": [
@@ -138,7 +129,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-09-18",
+                "award_date_conclusion_contract": [
+                    "2023-09-18"
+                ],
                 "award_value": "9000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -153,7 +146,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Vallimägi vabaõhukeskuse hooldusteenus",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -189,6 +182,113 @@
         ],
         "refnum": "262524",
         "total_amount": "59985.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-12-09"
+                ],
+                "award_value": "25907.04",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10107822",
+                        "contractor_name": "Osaühing N-JAAP",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "MUNITSIPAALELAMU LENNUKI TN 10, RAKVERE LINN, HALDUS-JA HOOLDUSTEENUS",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75025064",
+                "name": "Rakvere Linnavalitsus",
+                "town": "Rakvere linn"
+            }
+        ],
+        "contractors": [
+            "10107822"
+        ],
+        "cpv": "70331000",
+        "date_dispatch_notice": "2025-12-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_dcc9dc99-67d6-48a6-8a61-513f7e46eb52_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "dcc9dc99-67d6-48a6-8a61-513f7e46eb52",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "301849-0000",
+        "total_amount": "25907.04",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-09-22"
+                ],
+                "award_value": "1990.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10107822",
+                        "contractor_name": "Osaühing N-JAAP",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Avalike tualettide koristamisteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75025064",
+                "name": "Rakvere Linnavalitsus",
+                "town": "Rakvere linn"
+            }
+        ],
+        "contractors": [
+            "10107822"
+        ],
+        "cpv": "90900000",
+        "date_dispatch_notice": "2026-09-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_8efc65a5-ff51-4b58-8656-4ed5857a7dc7_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "8efc65a5-ff51-4b58-8656-4ed5857a7dc7",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "313947-0000",
+        "total_amount": "1990.00",
         "total_amount_curr": "EUR"
     }
 ]

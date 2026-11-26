@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Raili",
-            "isikukood": "45609264238",
+            "isikukood": null,
+            "isikukood_hash": "ad162ecf-24cc-5eb4-b10f-d1bd668dcb03",
             "kirje_id": 9000657052,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45609264238",
+            "isikukood_hash": "ad162ecf-24cc-5eb4-b10f-d1bd668dcb03",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3589998,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3326431,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3051492,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
                 "kirje_id": 2768489,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -348,23 +386,34 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7801403,
+                "kande_nr": 10,
+                "kirje_id": 12376588,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "raili60@hot.ee"
+                "sisu": "railikoiksoon@gmail.com"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000212995,
+                "kirje_id": 9000701543,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 4420127"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000703612,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 56155025"
             }
         ],
         "staatus": "R",
@@ -382,12 +431,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.11.2009",
+                "algus_kpv": "12.02.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000019067,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000821138,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

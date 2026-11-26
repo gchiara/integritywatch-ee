@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Aarne",
-            "isikukood": "35706185731",
+            "isikukood": null,
+            "isikukood_hash": "9fcf2f43-e685-5cd3-ba0b-dd2cddf089c7",
             "kirje_id": 9000841893,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35706185731",
+            "isikukood_hash": "9fcf2f43-e685-5cd3-ba0b-dd2cddf089c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Annimatsi, Sihva küla, Otepää vald, Valga maakond, 67301",
+                "kirje_id": 3666163,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Annimatsi, Sihva küla, Otepää vald, Valga maakond, 67301",
+                "kirje_id": 3403276,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Annimatsi, Sihva küla, Otepää vald, Valga maakond, 67301",
+                "kirje_id": 3136984,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkeküla ja puhkelaager",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Annimatsi, Sihva küla, Otepää vald, Valga maakond, 67301",
                 "kirje_id": 2827255,
@@ -430,7 +468,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -572,37 +610,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.05.2023",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686815,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2017",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000306170,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2021",
+                "algus_kpv": "09.06.2025",
                 "emtak_kood": "55203",
-                "emtak_tekstina": "Puhkeküla ja puhkelaager",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000561011,
+                "emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900899,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "56301",
+                "emtak_tekstina": "Jookide serveerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900900,
+                "lopp_kpv": null,
+                "nace_kood": "56.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "55301",
+                "emtak_tekstina": "Laagriplatsid ning vagunelamute ja haagissuvilate parkimisplatsid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900901,
+                "lopp_kpv": null,
+                "nace_kood": "55.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900902,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

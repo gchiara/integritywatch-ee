@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "37506156019",
+            "isikukood": null,
+            "isikukood_hash": "b248c772-b4c6-5f6b-8bea-21d359e3276e",
             "kirje_id": 9000843577,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Raivo",
-            "isikukood": "37610116012",
+            "isikukood": null,
+            "isikukood_hash": "b84ce245-0573-5c07-9a78-23978612e9aa",
             "kirje_id": 9000843575,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37506156019",
+            "isikukood_hash": "b248c772-b4c6-5f6b-8bea-21d359e3276e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37610116012",
+            "isikukood_hash": "b84ce245-0573-5c07-9a78-23978612e9aa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84a, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3784840,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84a, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3514624,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84a, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3150192,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "29"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 84a, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2936391,
@@ -423,7 +463,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -576,26 +616,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "71111",
-                "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706356,
-                "lopp_kpv": null,
-                "nace_kood": "71.11",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706357,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001011584,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "71111",
+                "emtak_tekstina": "Arhitektitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001011583,
+                "lopp_kpv": null,
+                "nace_kood": "71.11",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

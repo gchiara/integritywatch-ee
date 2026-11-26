@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Eha",
-            "isikukood": "45012314215",
+            "isikukood": null,
+            "isikukood_hash": "feec44af-481c-55bb-a111-93222d011b57",
             "kirje_id": 9000714926,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Kaidi",
-            "isikukood": "47105224223",
+            "isikukood": null,
+            "isikukood_hash": "cae120ed-747a-5e83-a664-bbde890f57ea",
             "kirje_id": 9000714925,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45012314215",
+            "isikukood_hash": "feec44af-481c-55bb-a111-93222d011b57",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47105224223",
+            "isikukood_hash": "cae120ed-747a-5e83-a664-bbde890f57ea",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80029",
+                "kirje_id": 3780693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "79111",
+                "tegevusala_emtak_tekstina": "Reisibüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80029",
+                "kirje_id": 3500471,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "79111",
+                "tegevusala_emtak_tekstina": "Reisibüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80029",
+                "kirje_id": 3229038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7911",
+                "tegevusala_emtak_tekstina": "Reisibüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.11",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesk tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80029",
                 "kirje_id": 2936177,
@@ -413,7 +453,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -486,34 +526,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7743283,
+                "kande_nr": 9,
+                "kirje_id": 13708496,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "ehareis@uninet.ee"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7743284,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "info@parnureisiburoo.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000063504,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5287474"
+                "sisu": "kaidi@parnureisiburoo.ee"
             },
             {
                 "kaardi_nr": null,
@@ -553,12 +571,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "7911",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "79111",
                 "emtak_tekstina": "Reisibüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000638096,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997699,
                 "lopp_kpv": null,
                 "nace_kood": "79.11",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Sven",
-            "isikukood": "36303190358",
+            "isikukood": null,
+            "isikukood_hash": "189a75d4-1eba-5a26-9de4-37f9ccf99c60",
             "kirje_id": 9000661397,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36303190358",
+            "isikukood_hash": "189a75d4-1eba-5a26-9de4-37f9ccf99c60",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -63,11 +65,11 @@
         "aadressid": [
             {
                 "aadress_ads__adob_id": "10612144",
-                "aadress_ads__adr_id": 2807658,
+                "aadress_ads__adr_id": 3659293,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Narva-Jõesuu linn, Tõrvajõe küla, Ella",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00687877",
-                "aadress_ads__koodaadress": "455148530000000000MKX000000000000",
+                "aadress_ads__koodaadress": "455158530000000000MKX000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "21.12.2017",
                 "ehak": "8530",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ella, Tõrvajõe küla, Narva-Jõesuu linn, Ida-Viru maakond, 40117",
+                "kirje_id": 3693458,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ella, Tõrvajõe küla, Narva-Jõesuu linn, Ida-Viru maakond, 40117",
+                "kirje_id": 3340450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ella, Tõrvajõe küla, Narva-Jõesuu linn, Ida-Viru maakond, 40117",
+                "kirje_id": 3157916,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ella, Tõrvajõe küla, Narva-Jõesuu linn, Ida-Viru maakond, 40117",
                 "kirje_id": 2801785,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,14 +372,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.04.2014",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000104889,
+                "algus_kpv": "18.03.2025",
+                "emtak_kood": "72201",
+                "emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000836728,
                 "lopp_kpv": null,
-                "nace_kood": "81.30",
+                "nace_kood": "72.20",
                 "on_pohitegevusala": true
             }
         ],

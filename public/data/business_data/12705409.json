@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "38010010324",
+            "isikukood": null,
+            "isikukood_hash": "f21b5591-5a78-54cd-8085-0b2ca9f1f533",
             "kirje_id": 9000762588,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38010010324",
+            "isikukood_hash": "f21b5591-5a78-54cd-8085-0b2ca9f1f533",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10665647",
+                "aadress_ads__adob_id": "10967934",
                 "aadress_ads__adr_id": 2560280,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Põikva küla, Kuusiku",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kuusiku, Põikva küla, Türi vald, Järva maakond, 72244",
+                "kirje_id": 3712948,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuusiku, Põikva küla, Türi vald, Järva maakond, 72244",
+                "kirje_id": 3495578,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuusiku, Põikva küla, Türi vald, Järva maakond, 72244",
+                "kirje_id": 3225310,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kuusiku, Põikva küla, Türi vald, Järva maakond, 72244",
                 "kirje_id": 2936385,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,25 +360,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.08.2014",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000138593,
+                "algus_kpv": "25.06.2026",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001119040,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "46.90",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "15.07.2022",
-                "emtak_kood": "46161",
-                "emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000643034,
+                "algus_kpv": "25.06.2026",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001119041,
                 "lopp_kpv": null,
-                "nace_kood": "46.16",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": false
             }
         ],

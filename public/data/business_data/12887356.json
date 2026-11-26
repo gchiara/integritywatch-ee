@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Ants",
-            "isikukood": "36001035712",
+            "isikukood": null,
+            "isikukood_hash": "03fb0b8e-26a0-53dd-8532-89bfd9475ce3",
             "kirje_id": 9000830308,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36001035712",
+            "isikukood_hash": "03fb0b8e-26a0-53dd-8532-89bfd9475ce3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9626801",
-                "aadress_ads__adr_id": 2997406,
+                "aadress_ads__adob_id": "10857184",
+                "aadress_ads__adr_id": 3731243,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Käärikmäe küla, Järve-Tollari",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "CU03362141",
-                "aadress_ads__koodaadress": "81855395100000000DUOF000000000000",
+                "aadress_ads__koodaadress": "81857395100000000DUOF000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "27.03.2018",
                 "ehak": "3951",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järve-Tollari, Käärikmäe küla, Valga vald, Valga maakond, 68108",
+                "kirje_id": 3279261,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55103",
+                "tegevusala_emtak_tekstina": "Külalistemajad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järve-Tollari, Käärikmäe küla, Valga vald, Valga maakond, 68108",
+                "kirje_id": 3061087,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "55103",
+                "tegevusala_emtak_tekstina": "Külalistemajad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järve-Tollari, Käärikmäe küla, Valga vald, Valga maakond, 68108",
+                "kirje_id": 3044291,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järve-Tollari, Käärikmäe küla, Valga vald, Valga maakond, 68108",
                 "kirje_id": 2737168,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,14 +324,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.07.2015",
-                "emtak_kood": "01501",
-                "emtak_tekstina": "Segapõllumajandus",
+                "algus_kpv": "28.02.2024",
+                "emtak_kood": "55103",
+                "emtak_tekstina": "Külalistemajad",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000193481,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000743911,
                 "lopp_kpv": null,
-                "nace_kood": "01.50",
+                "nace_kood": "55.10",
                 "on_pohitegevusala": true
             }
         ],

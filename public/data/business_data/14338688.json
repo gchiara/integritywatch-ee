@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Kaido",
-            "isikukood": "37811126513",
+            "isikukood": null,
+            "isikukood_hash": "3f126e21-8f8a-52aa-87cc-91c53b4e6c60",
             "kirje_id": 9000790538,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.04.2020",
             "eesnimi": "Arvi",
-            "isikukood": "37103146528",
+            "isikukood": null,
+            "isikukood_hash": "260ecfa3-fdcf-5d7d-8c8b-d9f66afcf3dd",
             "kirje_id": 9001114651,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37103146528",
+            "isikukood_hash": "260ecfa3-fdcf-5d7d-8c8b-d9f66afcf3dd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37811126513",
+            "isikukood_hash": "3f126e21-8f8a-52aa-87cc-91c53b4e6c60",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tooma, Põdra küla, Rõuge vald, Võru maakond, 66270",
+                "kirje_id": 3732267,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tooma, Põdra küla, Rõuge vald, Võru maakond, 66270",
+                "kirje_id": 3340532,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tooma, Põdra küla, Rõuge vald, Võru maakond, 66270",
+                "kirje_id": 3084092,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tooma, Põdra küla, Rõuge vald, Võru maakond, 66270",
                 "kirje_id": 2839722,
@@ -233,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -329,12 +369,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.09.2017",
+                "algus_kpv": "18.03.2025",
                 "emtak_kood": "4321",
                 "emtak_tekstina": "Elektriinstallatsioon",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000323951,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000836811,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true

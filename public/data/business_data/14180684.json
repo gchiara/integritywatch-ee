@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.02.2021",
             "eesnimi": "Lauri",
-            "isikukood": "38705176036",
+            "isikukood": null,
+            "isikukood_hash": "fbd16ae2-e051-596d-b5f5-9af67d29d850",
             "kirje_id": 9001235047,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38705176036",
+            "isikukood_hash": "fbd16ae2-e051-596d-b5f5-9af67d29d850",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 4a, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3693637,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 4a, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3443733,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lina tn 4a, Viljandi linn, Viljandi maakond, 71008",
+                "kirje_id": 3234456,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43122",
+                "tegevusala_emtak_tekstina": "Maakuivendus- ja maaparandustööd, k.a metsa- ja põllumaade kuivendus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lina tn 4a, Viljandi linn, Viljandi maakond, 71008",
                 "kirje_id": 2823596,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,14 +336,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.01.2017",
-                "emtak_kood": "43122",
-                "emtak_tekstina": "Maakuivendus- ja maaparandustööd, k.a metsa- ja põllumaade kuivendus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000270956,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941251,
                 "lopp_kpv": null,
-                "nace_kood": "43.12",
+                "nace_kood": "02.40",
                 "on_pohitegevusala": true
             }
         ],

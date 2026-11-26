@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Ago",
-            "isikukood": "36107150290",
+            "isikukood": null,
+            "isikukood_hash": "85185725-8604-5fd6-95f1-df5bb7c1f031",
             "kirje_id": 9000691553,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Anne",
-            "isikukood": "46312150308",
+            "isikukood": null,
+            "isikukood_hash": "b2fc156a-7928-593e-abe7-a7cfc4145831",
             "kirje_id": 9000691551,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36107150290",
+            "isikukood_hash": "85185725-8604-5fd6-95f1-df5bb7c1f031",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46312150308",
+            "isikukood_hash": "b2fc156a-7928-593e-abe7-a7cfc4145831",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -114,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10567574",
+                "aadress_ads__adob_id": "10985940",
                 "aadress_ads__adr_id": 3652784,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Kabala küla, Nooruse tee 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nooruse tee 8, Kabala küla, Rapla vald, Rapla maakond, 78403",
+                "kirje_id": 3764135,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse tee 8, Kabala küla, Rapla vald, Rapla maakond, 78403",
+                "kirje_id": 3447157,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse tee 8, Kabala küla, Rapla vald, Rapla maakond, 78403",
+                "kirje_id": 3246406,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4941",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nooruse tee 8, Kabala küla, Rapla vald, Rapla maakond, 78403",
                 "kirje_id": 2923258,
@@ -471,7 +511,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -600,12 +640,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000009792,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000944504,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.03.2021",
             "eesnimi": "Telle",
-            "isikukood": "48201266012",
+            "isikukood": null,
+            "isikukood_hash": "104d072d-9af6-5ada-9c30-1aaccb6c9d10",
             "kirje_id": 9001255559,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48201266012",
+            "isikukood_hash": "104d072d-9af6-5ada-9c30-1aaccb6c9d10",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7168221",
+                "aadress_ads__adob_id": "10874169",
                 "aadress_ads__adr_id": 2264346,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tornimäe tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tornimäe tn 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3773582,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tornimäe tn 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3400631,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tornimäe tn 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3308188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4939",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tornimäe tn 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3008007,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "4939",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tornimäe tn 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2629149,
@@ -227,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -347,12 +397,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.06.2022",
-                "emtak_kood": "4939",
+                "algus_kpv": "06.06.2025",
+                "emtak_kood": "49391",
                 "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623138,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000898412,
                 "lopp_kpv": null,
                 "nace_kood": "49.39",
                 "on_pohitegevusala": true

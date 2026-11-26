@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.06.2019",
             "eesnimi": "Kristel",
-            "isikukood": "49105112721",
+            "isikukood": null,
+            "isikukood_hash": "067911e1-ca9c-5f63-a349-18514f0c9236",
             "kirje_id": 9000988222,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Orusalu",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "26.05.2025",
+            "eesnimi": "Mati",
+            "isikukood": null,
+            "isikukood_hash": "47091328-ae81-5331-9cfb-1d9abf35ba4d",
+            "kirje_id": 9003448727,
+            "kontrolli_teostamise_viis": "K",
+            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Maasik",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49105112721",
+            "isikukood_hash": "067911e1-ca9c-5f63-a349-18514f0c9236",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10394160",
+                "aadress_ads__adob_id": "11193323",
                 "aadress_ads__adr_id": 3093126,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Kastani tn 42",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
+                "kirje_id": 3685235,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
+                "kirje_id": 3378090,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
+                "kirje_id": 3040225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
                 "kirje_id": 2829917,
@@ -251,7 +307,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -369,14 +425,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.02.2012",
-                "emtak_kood": "62011",
+                "algus_kpv": "21.05.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000165387,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876690,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

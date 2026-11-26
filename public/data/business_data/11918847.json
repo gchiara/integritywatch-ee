@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Tanel",
-            "isikukood": "37008220300",
+            "isikukood": null,
+            "isikukood_hash": "5e1041f7-3497-5522-8fdb-dc3e5eba8f2b",
             "kirje_id": 9000762329,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37008220300",
+            "isikukood_hash": "5e1041f7-3497-5522-8fdb-dc3e5eba8f2b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuisu tee 2, Kulli küla, Raasiku vald, Harju maakond, 75205",
+                "kirje_id": 3622660,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuisu tee 2, Kulli küla, Raasiku vald, Harju maakond, 75205",
+                "kirje_id": 3367856,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuisu tee 2, Kulli küla, Raasiku vald, Harju maakond, 75205",
+                "kirje_id": 3090692,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuisu tee 2, Kulli küla, Raasiku vald, Harju maakond, 75205",
                 "kirje_id": 2884544,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -382,23 +420,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.06.2012",
+                "algus_kpv": "06.05.2025",
                 "emtak_kood": "46621",
                 "emtak_tekstina": "Tööpinkide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000180308,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000865752,
                 "lopp_kpv": null,
                 "nace_kood": "46.62",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "01.06.2012",
+                "algus_kpv": "06.05.2025",
                 "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000180309,
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000865753,
                 "lopp_kpv": null,
                 "nace_kood": "33.12",
                 "on_pohitegevusala": false

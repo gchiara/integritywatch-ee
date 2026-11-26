@@ -159,7 +159,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-17",
+                "award_date_conclusion_contract": [
+                    "2023-07-17"
+                ],
                 "award_value": "10000000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -174,7 +176,7 @@
                 "tenders_received": "5"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Autokütuse ostmine jaemüügi korras üle Eesti",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -199,20 +201,11 @@
         "filename": "award_7e6f20f6-2929-4653-89ab-6ee90872f4e5_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10613270",
-            "Nominees as company beneficial owners: 36612070215",
-            "Nominees as company beneficial owners: 37305310217",
-            "Nominees as company beneficial owners: 36812122720",
-            "Nominees as company beneficial owners: 36610050268",
-            "Nominees as company beneficial owners: 37810150017",
-            "Nominees as company board members: 36812122720",
-            "Nominees as company board members: 37305310217",
-            "Nominees as company board members: 37810150017"
+            "Possible shell company: 10613270"
         ],
         "noticeUid": "7e6f20f6-2929-4653-89ab-6ee90872f4e5",
         "notice_items": [
@@ -223,5 +216,105 @@
         "refnum": "262223",
         "total_amount": "10000000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-13",
+                    "2026-07-13",
+                    "2026-07-13",
+                    "2026-07-13",
+                    "2026-07-13"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10171518",
+                        "contractor_name": "AS Terminal",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10015238",
+                        "contractor_name": "AS Alexela",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10180925",
+                        "contractor_name": "Circle K Eesti Aktsiaselts",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10167511",
+                        "contractor_name": "Neste Eesti Aktsiaselts",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10613270",
+                        "contractor_name": "AKTSIASELTS JETOIL",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10017303",
+                        "contractor_name": "Aktsiaselts KROONING",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10060753",
+                        "contractor_name": "osaühing HEPA",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Autokütuse ostmine jaemüügi korras",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70000562",
+                "name": "Siseministeerium",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10171518",
+            "10015238",
+            "10180925",
+            "10167511",
+            "10613270",
+            "10017303",
+            "10060753"
+        ],
+        "cpv": "09130000",
+        "date_dispatch_notice": "2026-07-14",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ff5c7720-84da-411e-a852-54d2716ce6ba_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10171518",
+            "Nominees as company beneficial owners: Malle_Raudsepp_07.09.2018",
+            "Possible shell company: 10015238",
+            "Possible shell company: 10180925",
+            "Possible shell company: 10167511",
+            "Possible shell company: 10613270",
+            "Possible shell company: 10017303",
+            "Nominees as company beneficial owners: Riho_Rõuk_30.10.2018",
+            "Nominees as company beneficial owners: Tiivi_Kass_30.10.2018"
+        ],
+        "noticeUid": "ff5c7720-84da-411e-a852-54d2716ce6ba",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "310009-0000"
     }
 ]

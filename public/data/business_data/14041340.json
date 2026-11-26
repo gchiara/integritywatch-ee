@@ -5,25 +5,9 @@
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2019",
-            "eesnimi": "Margus",
-            "isikukood": "38707270255",
-            "kirje_id": 9001032983,
-            "kontrolli_teostamise_viis": "O",
-            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
-            "lahknevusteade_esitatud": null,
-            "lopp_kpv": null,
-            "nimi": "Koiduste",
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null
-        },
-        {
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "08.10.2019",
             "eesnimi": "Mari",
-            "isikukood": "48304180383",
+            "isikukood": null,
+            "isikukood_hash": "3104333d-ff39-5d9c-8db8-b8ef7e9bf1f0",
             "kirje_id": 9001032982,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48304180383",
+            "isikukood_hash": "3104333d-ff39-5d9c-8db8-b8ef7e9bf1f0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6950058",
+                "aadress_ads__adob_id": "11092250",
                 "aadress_ads__adr_id": 2236589,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Koidu tn 122-64",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 122-64, Kesklinna linnaosa, Tallinn, Harju maakond, 10139",
+                "kirje_id": 3803242,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 122-64, Kesklinna linnaosa, Tallinn, Harju maakond, 10139",
+                "kirje_id": 3557758,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 122-64, Kesklinna linnaosa, Tallinn, Harju maakond, 10139",
+                "kirje_id": 3266531,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4799",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koidu tn 122-64, Kesklinna linnaosa, Tallinn, Harju maakond, 10139",
                 "kirje_id": 2838452,
@@ -220,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -316,26 +337,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.10.2020",
-                "emtak_kood": "4799",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000505321,
+                "algus_kpv": "19.09.2025",
+                "emtak_kood": "47711",
+                "emtak_tekstina": "Rõivaste jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001054194,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.71",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "07.10.2020",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000505322,
-                "lopp_kpv": null,
-                "nace_kood": "62.01",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

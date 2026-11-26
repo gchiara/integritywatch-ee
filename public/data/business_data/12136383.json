@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2018",
             "eesnimi": "Marek",
-            "isikukood": "38703316530",
+            "isikukood": null,
+            "isikukood_hash": "07870daa-df79-5ad8-9f20-0d3b9dd3e219",
             "kirje_id": 9000884035,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38703316530",
+            "isikukood_hash": "07870daa-df79-5ad8-9f20-0d3b9dd3e219",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10437998",
+                "aadress_ads__adob_id": "10804249",
                 "aadress_ads__adr_id": 3134630,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Kanepi vald, Põlgaste küla, Roosi tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Roosi tee 1, Põlgaste küla, Kanepi vald, Põlva maakond, 63102",
+                "kirje_id": 3622014,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tee 1, Põlgaste küla, Kanepi vald, Põlva maakond, 63102",
+                "kirje_id": 3353148,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tee 1, Põlgaste küla, Kanepi vald, Põlva maakond, 63102",
+                "kirje_id": 3117361,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Roosi tee 1, Põlgaste küla, Kanepi vald, Põlva maakond, 63102",
                 "kirje_id": 2866704,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,48 +396,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.06.2021",
-                "emtak_kood": "0111",
+                "algus_kpv": "10.04.2025",
+                "emtak_kood": "01111",
                 "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000555711,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850367,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "09.05.2017",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000291790,
+                "algus_kpv": "10.04.2025",
+                "emtak_kood": "01411",
+                "emtak_tekstina": "Piimakarjakasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850366,
+                "lopp_kpv": null,
+                "nace_kood": "01.41",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "10.04.2025",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850369,
                 "lopp_kpv": null,
                 "nace_kood": "01.19",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.08.2016",
+                "algus_kpv": "10.04.2025",
                 "emtak_kood": "01621",
                 "emtak_tekstina": "Loomakasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000254280,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850368,
                 "lopp_kpv": null,
                 "nace_kood": "01.62",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.08.2016",
-                "emtak_kood": "01411",
-                "emtak_tekstina": "Piimakarjakasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000254279,
-                "lopp_kpv": null,
-                "nace_kood": "01.41",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

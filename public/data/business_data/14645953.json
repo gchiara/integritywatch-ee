@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.12.2019",
             "eesnimi": "Andry",
-            "isikukood": "36809132235",
+            "isikukood": null,
+            "isikukood_hash": "3aa450fd-4a8d-579e-839d-a7f9d486fdaa",
             "kirje_id": 9001064368,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.12.2019",
             "eesnimi": "Silver",
-            "isikukood": "39101080215",
+            "isikukood": null,
+            "isikukood_hash": "15761292-d22c-51c6-9263-6f129c1930c2",
             "kirje_id": 9001064369,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39101080215",
+            "isikukood_hash": "15761292-d22c-51c6-9263-6f129c1930c2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -122,6 +125,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3710770,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3418009,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3212797,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "42911"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tule tn 33, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2902820,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -184,7 +223,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -236,6 +275,18 @@
                 "kirje_id": 8517743,
                 "lopp_kpv": null,
                 "sisu": "Jagunemine jõustus 09.04.2019. a, mil tehti jagunemiskanne jaguneva ühingu registrikaardile.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "11.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "kirje_id": 12788405,
+                "lopp_kpv": null,
+                "sisu": "Top Marine Infra OÜ (jagunev ühing) jaguneb eraldumise teel, mille käigus asutati Top Marine Group OÜ (jagunemise\nkäigus asutatud ühing, registrikood 17111850, aadress Lääne-Viru maakond, Rakvere vald, Näpi alevik, Keki tn 9). Jagunemiskava on notariaalselt tõestatud 30.08.2024.a. Jagunemisotsus on vastu võetud 20.09.2024.a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
                 "tyyp": "JAGUN",
                 "tyyp_tekstina": "Jagunemine tekstina"
             }
@@ -306,12 +357,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.01.2019",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "42911",
                 "emtak_tekstina": "Vesiehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000397916,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916701,
                 "lopp_kpv": null,
                 "nace_kood": "42.91",
                 "on_pohitegevusala": true

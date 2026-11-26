@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.04.2021",
             "eesnimi": "Thea",
-            "isikukood": "46812180246",
+            "isikukood": null,
+            "isikukood_hash": "ebfa32b2-a68e-52c0-8909-5f0c80c13d9f",
             "kirje_id": 9001265122,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46812180246",
+            "isikukood_hash": "ebfa32b2-a68e-52c0-8909-5f0c80c13d9f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10539335",
+                "aadress_ads__adob_id": "10714016",
                 "aadress_ads__adr_id": 2331439,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Poordi tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Poordi tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10156",
+                "kirje_id": 3762216,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Poordi tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10156",
+                "kirje_id": 3491826,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Poordi tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10156",
+                "kirje_id": 3157500,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, akna sisekatted jm eesriided",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Poordi tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10156",
                 "kirje_id": 2927639,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,23 +312,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2021",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000559001,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "74141",
+                "emtak_tekstina": "Muu disainerite tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000988959,
                 "lopp_kpv": null,
-                "nace_kood": "74.10",
+                "nace_kood": "74.14",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.06.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "13921",
-                "emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, aknasisekatted jm eesriided",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000559000,
+                "emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000988958,
                 "lopp_kpv": null,
                 "nace_kood": "13.92",
                 "on_pohitegevusala": true

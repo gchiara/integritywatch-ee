@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Indrek",
-            "isikukood": "38206232746",
+            "isikukood": null,
+            "isikukood_hash": "48477645-0a7f-59b6-b3ec-19a4bea0bc80",
             "kirje_id": 9000653508,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "38103290220",
+            "isikukood": null,
+            "isikukood_hash": "6a660dcc-b589-5a4f-946d-a9bb41ddf440",
             "kirje_id": 9000653509,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38103290220",
+            "isikukood_hash": "6a660dcc-b589-5a4f-946d-a9bb41ddf440",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10120277",
+                "aadress_ads__adob_id": "10879136",
                 "aadress_ads__adr_id": 2312004,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Purje tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Purje tn 1, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3819585,
+                "majandusaasta_perioodi_algus_kpv": "01.03.2025",
+                "majandusaasta_perioodi_lopp_kpv": "28.02.2026",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Purje tn 1, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3544280,
+                "majandusaasta_perioodi_algus_kpv": "01.03.2024",
+                "majandusaasta_perioodi_lopp_kpv": "28.02.2025",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Purje tn 1, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3281385,
+                "majandusaasta_perioodi_algus_kpv": "01.03.2023",
+                "majandusaasta_perioodi_lopp_kpv": "29.02.2024",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Purje tn 1, Pirita linnaosa, Tallinn, Harju maakond, 11911",
                 "kirje_id": 2809693,
@@ -244,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -364,14 +403,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.02.2014",
-                "emtak_kood": "62021",
+                "algus_kpv": "31.07.2025",
+                "emtak_kood": "62201",
                 "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000098480,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001039736,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

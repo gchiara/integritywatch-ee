@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-26",
+                "award_date_conclusion_contract": [
+                    "2023-06-26"
+                ],
                 "award_value": "91399.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Väike-Maarja ja Kunda Päästekomandode statsionaarsed generaatorid",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -45,12 +47,11 @@
         "filename": "award_6ce6baaf-0da4-4c17-a914-3bedb807e694_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38310292754",
-            "Nominees as company board members: 38310292754"
+            "Possible shell company: 12942138"
         ],
         "noticeUid": "6ce6baaf-0da4-4c17-a914-3bedb807e694",
         "notice_items": [
@@ -64,5 +65,66 @@
         "refnum": "262319",
         "total_amount": "177814.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-06-07"
+                ],
+                "award_value": "86415.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "12679577",
+                        "contractor_name": "Vamerin OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "14072718",
+                        "contractor_name": "Omega Holding OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Väike-Maarja ja Kunda Päästekomandode statsionaarsed generaatorid",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10788733",
+                "name": "Riigi Kinnisvara Aktsiaselts",
+                "town": "Tallinn"
+            },
+            {
+                "id": "70000585",
+                "name": "Päästeamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "12679577",
+            "14072718"
+        ],
+        "cpv": "45311000",
+        "date_dispatch_notice": "2024-04-12",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b039f471-8576-4c5f-ac40-327848448074_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "b039f471-8576-4c5f-ac40-327848448074",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "262319"
     }
 ]

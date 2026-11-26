@@ -194,7 +194,9 @@
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 36703220273"
+            "Nominees as company beneficial owners: Alar_Hussar_05.04.2021",
+            "Nominees as company board members: Alar_Hussar_05.04.2021",
+            "Nominees as company beneficial owners: Tiit_Hindpere_24.10.2018"
         ],
         "noticeUid": "645cf9f0-3a84-4323-ab3b-73819513a668",
         "notice_items": [
@@ -243,15 +245,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 36309220236",
-            "Nominees as company beneficial owners: 37511150321",
-            "Nominees as company beneficial owners: 38005210262",
-            "Nominees as company board members: 37511150321",
-            "Nominees as company board members: 38005210262"
+            "Possible shell company: 10933589"
         ],
         "noticeUid": "30fb4711-6bc5-4b0c-b816-83de1e1fa85c",
         "notice_items": [
@@ -300,16 +298,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 11373684",
-            "Nominees as company beneficial owners: 38008160226",
-            "Nominees as company beneficial owners: 38112160214",
-            "Nominees as company board members: 38008160226",
-            "Nominees as company board members: 38112160214"
+            "Possible shell company: 11373684"
         ],
         "noticeUid": "abe59779-5854-4d0f-b3e6-4f67edc73242",
         "notice_items": [
@@ -358,12 +351,14 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38611190256",
-            "Nominees as company board members: 38611190256"
+            "Possible shell company: 16178473",
+            "Nominees as company beneficial owners: Henri_Lind_08.03.2021",
+            "Nominees as company board members: Henri_Lind_08.03.2021"
         ],
         "noticeUid": "fc80453a-1748-4e4c-8c34-78eeaaee6279",
         "notice_items": [
@@ -373,7 +368,6 @@
         "refnum": "254248"
     },
     {
-        "changes_doc": true,
         "contract_title": "Radiaatorite vahetus Hopneri majas",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -411,7 +405,7 @@
                 "result": "clos-nw"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Radiaatorite vahetus Hopneri majas",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -442,5 +436,94 @@
             }
         ],
         "refnum": "269689"
+    },
+    {
+        "contract_title": "Muinasjutuhoovide heli- ja valgustehnika",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75038569",
+                "name": "Kesklinna Vaba Aja Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "cpv": "98110000",
+        "date_dispatch_notice": "2023-11-15",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_cd5663d4-ed6a-48a2-bd7c-0a934c5e30ff_0.json",
+        "flags": [
+            "Short notice period",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Short notice period: 8 days."
+        ],
+        "noticeUid": "cd5663d4-ed6a-48a2-bd7c-0a934c5e30ff",
+        "notice_items": [
+            {
+                "endDate": "2024-01-06"
+            }
+        ],
+        "refnum": "272477"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-12-21"
+                ],
+                "award_value": "6500.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10938109",
+                        "contractor_name": "Global Media Systems osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Muinasjutuhoovide heli- ja valgustehnika",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75038569",
+                "name": "Kesklinna Vaba Aja Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10938109"
+        ],
+        "cpv": "98110000",
+        "date_dispatch_notice": "2024-01-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_9fa8b482-d783-480c-a731-bbca2f08e934_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10938109"
+        ],
+        "noticeUid": "9fa8b482-d783-480c-a731-bbca2f08e934",
+        "notice_items": [
+            {
+                "endDate": "2024-01-06"
+            }
+        ],
+        "refnum": "272477",
+        "total_amount": "6500.00",
+        "total_amount_curr": "EUR"
     }
 ]

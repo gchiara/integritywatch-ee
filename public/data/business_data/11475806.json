@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Merle",
-            "isikukood": "47301190331",
+            "isikukood": null,
+            "isikukood_hash": "6ee54630-224c-52d0-b0c7-4240aaeffba6",
             "kirje_id": 9000717523,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47301190331",
+            "isikukood_hash": "6ee54630-224c-52d0-b0c7-4240aaeffba6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50703",
+                "kirje_id": 3651941,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50703",
+                "kirje_id": 3354444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50703",
+                "kirje_id": 3103603,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 2, Tartu linn, Tartu linn, Tartu maakond, 50703",
                 "kirje_id": 2834677,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -395,36 +433,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.05.2018",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000352122,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.06.2023",
-                "emtak_kood": "02202",
-                "emtak_tekstina": "Küttepuude tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688198,
+                "algus_kpv": "13.04.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000851703,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "03.06.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688199,
+                "algus_kpv": "13.04.2025",
+                "emtak_kood": "96999",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000851704,
                 "lopp_kpv": null,
-                "nace_kood": "02.20",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
             }
         ],

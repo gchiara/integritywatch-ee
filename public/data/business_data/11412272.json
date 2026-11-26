@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Enar",
-            "isikukood": "38601080283",
+            "isikukood": null,
+            "isikukood_hash": "187b92d4-456d-52a3-8e7c-110870edab44",
             "kirje_id": 9000761829,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38601080283",
+            "isikukood_hash": "187b92d4-456d-52a3-8e7c-110870edab44",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10537911",
+                "aadress_ads__adob_id": "11213410",
                 "aadress_ads__adr_id": 3624273,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Kehtna vald, Käbiküla, Vahemetsa",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vahemetsa, Käbiküla, Kehtna vald, Rapla maakond, 79062",
+                "kirje_id": 3781893,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahemetsa, Käbiküla, Kehtna vald, Rapla maakond, 79062",
+                "kirje_id": 3534144,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahemetsa, Käbiküla, Kehtna vald, Rapla maakond, 79062",
+                "kirje_id": 3240531,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96099",
+                "tegevusala_emtak_tekstina": "Muu teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vahemetsa, Käbiküla, Kehtna vald, Rapla maakond, 79062",
                 "kirje_id": 2891981,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -420,15 +458,70 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.04.2018",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000349744,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001133136,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "43.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001133137,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001133138,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "35151",
+                "emtak_tekstina": "Elektrienergia müük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001133139,
+                "lopp_kpv": null,
+                "nace_kood": "35.15",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.07.2025",
+                "emtak_kood": "0220",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001030004,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.07.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001030005,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

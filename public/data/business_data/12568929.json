@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Gert",
-            "isikukood": "38605144933",
+            "isikukood": null,
+            "isikukood_hash": "4d38ab75-44a0-5292-b145-3de73853fd26",
             "kirje_id": 9000842036,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38605144933",
+            "isikukood_hash": "4d38ab75-44a0-5292-b145-3de73853fd26",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peravälja, Laiksaare küla, Saarde vald, Pärnu maakond, 86103",
+                "kirje_id": 3705711,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peravälja, Laiksaare küla, Saarde vald, Pärnu maakond, 86103",
+                "kirje_id": 3450722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peravälja, Laiksaare küla, Saarde vald, Pärnu maakond, 86103",
+                "kirje_id": 3205036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peravälja, Laiksaare küla, Saarde vald, Pärnu maakond, 86103",
                 "kirje_id": 2934520,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,11 +372,22 @@
         ],
         "teatatud_tegevusalad": [
             {
+                "algus_kpv": "28.06.2024",
+                "emtak_kood": "01421",
+                "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000775973,
+                "lopp_kpv": null,
+                "nace_kood": "01.42",
+                "on_pohitegevusala": false
+            },
+            {
                 "algus_kpv": "12.11.2013",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000090421,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",

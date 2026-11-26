@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Eda",
-            "isikukood": "46212170363",
+            "isikukood": null,
+            "isikukood_hash": "ae4f2253-311d-501c-a603-3930ef90e7cd",
             "kirje_id": 9000657084,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46212170363",
+            "isikukood_hash": "ae4f2253-311d-501c-a603-3930ef90e7cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6507161",
+                "aadress_ads__adob_id": "10872471",
                 "aadress_ads__adr_id": 2272414,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Halla tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Halla tn 10, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3769989,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "8559",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Halla tn 10, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3521470,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "8559",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Halla tn 10, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3244097,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Halla tn 10, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
                 "kirje_id": 2980346,
@@ -514,14 +552,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.11.2021",
-                "emtak_kood": "8899",
-                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne  majutuseta",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000589407,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "88991",
+                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130681,
                 "lopp_kpv": null,
                 "nace_kood": "88.99",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "8559",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018019,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
                 "on_pohitegevusala": true
             }
         ],

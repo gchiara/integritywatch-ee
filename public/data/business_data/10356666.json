@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Jevgeni",
-            "isikukood": "38109284210",
+            "isikukood": null,
+            "isikukood_hash": "e40686a0-673c-5ec4-8a21-a4197ebde6e7",
             "kirje_id": 9000857162,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Viktor",
-            "isikukood": "35909124234",
+            "isikukood": null,
+            "isikukood_hash": "813b1eb4-ccce-529f-926b-c0fb43bd607b",
             "kirje_id": 9000857152,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109284210",
+            "isikukood_hash": "e40686a0-673c-5ec4-8a21-a4197ebde6e7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35909124234",
+            "isikukood_hash": "813b1eb4-ccce-529f-926b-c0fb43bd607b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8703842",
+                "aadress_ads__adob_id": "10684106",
                 "aadress_ads__adr_id": 3082860,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Allika tn 2a/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 2a/2, Pärnu linn, Pärnu linn, Pärnu maakond, 80036",
+                "kirje_id": 3769187,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 2a/2, Pärnu linn, Pärnu linn, Pärnu maakond, 80036",
+                "kirje_id": 3549069,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 2a/2, Pärnu linn, Pärnu linn, Pärnu maakond, 80036",
+                "kirje_id": 3283176,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Allika tn 2a/2, Pärnu linn, Pärnu linn, Pärnu maakond, 80036",
                 "kirje_id": 2901682,
@@ -473,7 +513,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -615,36 +655,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.09.2013",
-                "emtak_kood": "42211",
-                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000086505,
-                "lopp_kpv": null,
-                "nace_kood": "42.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.09.2013",
+                "algus_kpv": "15.08.2025",
                 "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000086504,
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001044819,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "28.10.2020",
-                "emtak_kood": "4322",
-                "emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000510872,
+                "algus_kpv": "15.08.2025",
+                "emtak_kood": "43222",
+                "emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001044820,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "15.08.2025",
+                "emtak_kood": "42211",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001044821,
+                "lopp_kpv": null,
+                "nace_kood": "42.21",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Risto",
-            "isikukood": "37705116515",
+            "isikukood": null,
+            "isikukood_hash": "6f07f3d4-e1dc-598a-95ee-0a6b8fccf96d",
             "kirje_id": 9000842323,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37705116515",
+            "isikukood_hash": "6f07f3d4-e1dc-598a-95ee-0a6b8fccf96d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rändrahnu, Heinasoo küla, Võru vald, Võru maakond, 65205",
+                "kirje_id": 3553632,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rändrahnu, Heinasoo küla, Võru vald, Võru maakond, 65205",
+                "kirje_id": 3197931,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rändrahnu, Heinasoo küla, Võru vald, Võru maakond, 65205",
                 "kirje_id": 2930846,
@@ -215,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,26 +348,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.01.2020",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000461023,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2016",
+                "algus_kpv": "02.09.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000239574,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049761,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.09.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049762,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.09.2025",
+                "emtak_kood": "7739",
+                "emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049763,
+                "lopp_kpv": null,
+                "nace_kood": "77.39",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.09.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049764,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.09.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049765,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

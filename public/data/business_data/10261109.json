@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Heiti",
-            "isikukood": "36305100240",
+            "isikukood": null,
+            "isikukood_hash": "69503975-33bf-5b9d-9b6d-d3159773e132",
             "kirje_id": 9000690648,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37810020320",
+            "isikukood_hash": "6c94edd8-dd6c-5b4e-b0b2-ce0b9054ae40",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rae tn 4, Paldiski linn, Lääne-Harju vald, Harju maakond, 76805",
+                "kirje_id": 3754766,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "100"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rae tn 4, Paldiski linn, Lääne-Harju vald, Harju maakond, 76805",
+                "kirje_id": 3483708,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rae tn 4, Paldiski linn, Lääne-Harju vald, Harju maakond, 76805",
+                "kirje_id": 3217576,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "84"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rae tn 4, Paldiski linn, Lääne-Harju vald, Harju maakond, 76805",
                 "kirje_id": 2918909,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -471,6 +509,20 @@
                 "tyyp": "EVREG",
                 "tyyp_tekstina": "Viide eelkäijale",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "04.09.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 28,
+                "kirje_id": 12674693,
+                "lopp_kpv": null,
+                "sisu": "Aktsiaselts Bestnet (ühendav ühing, registrikood 10261109) ja Aktsiaselts KOHIMO (ühendatav ühing, registrikood 10048137, aadress Harju maakond, Tallinn, Lasnamäe linnaosa, Punane tn 24/3, 13619) ühinevad 13.06.2024. aastal sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 15.07.2024. aastal. Ühinemine jõustub käesoleva kande tegemisega, misjärel ühendatav ühing kustutatakse. ",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -572,37 +624,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "46721",
-                "emtak_tekstina": "Metallide ja metallimaakide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565673,
-                "lopp_kpv": null,
-                "nace_kood": "46.72",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "25119",
-                "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000065976,
-                "lopp_kpv": null,
-                "nace_kood": "25.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "29202",
                 "emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000050904,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980647,
                 "lopp_kpv": null,
                 "nace_kood": "29.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "25119",
+                "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980648,
+                "lopp_kpv": null,
+                "nace_kood": "25.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

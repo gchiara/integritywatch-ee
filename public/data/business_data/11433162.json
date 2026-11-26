@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2019",
             "eesnimi": "Juhan",
-            "isikukood": "38503252710",
+            "isikukood": null,
+            "isikukood_hash": "29dad22d-763a-5740-a22f-ca865bc0072f",
             "kirje_id": 9001030717,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38503252710",
+            "isikukood_hash": "29dad22d-763a-5740-a22f-ca865bc0072f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku tn 27, Tartu linn, Tartu linn, Tartu maakond, 50404",
+                "kirje_id": 3757057,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku tn 27, Tartu linn, Tartu linn, Tartu maakond, 50404",
+                "kirje_id": 3497344,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku tn 27, Tartu linn, Tartu linn, Tartu maakond, 50404",
+                "kirje_id": 3248801,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ööbiku tn 27, Tartu linn, Tartu linn, Tartu maakond, 50404",
                 "kirje_id": 2893165,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -419,12 +457,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.02.2016",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "01111",
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128095,
+                "lopp_kpv": null,
+                "nace_kood": "01.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000213722,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000994546,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": true

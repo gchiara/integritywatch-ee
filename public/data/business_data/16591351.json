@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2022",
             "eesnimi": "Martti",
-            "isikukood": "38106020000",
+            "isikukood": null,
+            "isikukood_hash": "4a788681-9dcc-527a-9bbe-4655eec3df18",
             "kirje_id": 9001485737,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38106020000",
+            "isikukood_hash": "4a788681-9dcc-527a-9bbe-4655eec3df18",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -102,6 +104,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hundi tee 30, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3788903,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4755",
+                "tegevusala_emtak_tekstina": "Mööbli, valgustite, lauanõude ja muude kodutarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.55",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hundi tee 30, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3500210,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4755",
+                "tegevusala_emtak_tekstina": "Mööbli, valgustite, lauanõude ja muude kodutarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.55",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hundi tee 30, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3226893,
+                "majandusaasta_perioodi_algus_kpv": "11.10.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4759",
+                "tegevusala_emtak_tekstina": "Mööbli, valgustite ja muude kodutarvete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.59",
+                "tootajate_arv": "0"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "11.10.2022",
@@ -117,7 +157,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -213,14 +253,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.10.2022",
-                "emtak_kood": "4759",
-                "emtak_tekstina": "Mööbli, valgustite ja muude kodutarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653937,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "4755",
+                "emtak_tekstina": "Mööbli, valgustite, lauanõude ja muude kodutarvete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997431,
                 "lopp_kpv": null,
-                "nace_kood": "47.59",
+                "nace_kood": "47.55",
                 "on_pohitegevusala": true
             }
         ],

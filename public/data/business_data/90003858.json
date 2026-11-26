@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 90003858,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "04.08.2026",
+            "eesnimi": "Märt",
+            "isikukood": null,
+            "isikukood_hash": "dc44e8d4-1451-583a-ae96-cb315969ae26",
+            "kirje_id": 9003572683,
+            "kontrolli_teostamise_viis": "Z",
+            "kontrolli_teostamise_viis_tekstina": "Asutajaõiguste teostaja, nõukogu liige, juhatuse liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Meos",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36803300246",
+            "isikukood_hash": "dc44e8d4-1451-583a-ae96-cb315969ae26",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -44,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10129730",
+                "aadress_ads__adob_id": "11450792",
                 "aadress_ads__adr_id": 2847997,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Narva linn, Linda tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -193,12 +213,48 @@
                 "sisu": "Sihtasutuse eesmärgid on:"
             }
         ],
-        "esitab_kasusaajad": false,
+        "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "01.06.2010",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Linda tn 2, Narva linn, Ida-Viru maakond, 20309",
+                "kirje_id": 3815992,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "9020",
+                "tegevusala_emtak_tekstina": "Esituskunstid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.20",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linda tn 2, Narva linn, Ida-Viru maakond, 20309",
+                "kirje_id": 3523055,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "9020",
+                "tegevusala_emtak_tekstina": "Esituskunstid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.20",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linda tn 2, Narva linn, Ida-Viru maakond, 20309",
+                "kirje_id": 3189723,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90011",
+                "tegevusala_emtak_tekstina": "Teatri- ja tantsuetenduste lavastamine ja esitamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.01",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Linda tn 2, Narva linn, Ida-Viru maakond, 20309",
                 "kirje_id": 2864029,
@@ -357,7 +413,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -449,14 +505,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.02.2013",
-                "emtak_kood": "90011",
-                "emtak_tekstina": "Teatri ja tantsuetenduste lavastamine ja esitamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000015899,
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "9020",
+                "emtak_tekstina": "Esituskunstid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001019460,
                 "lopp_kpv": null,
-                "nace_kood": "90.01",
+                "nace_kood": "90.20",
                 "on_pohitegevusala": true
             }
         ],

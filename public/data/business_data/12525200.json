@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2018",
             "eesnimi": "Meelis",
-            "isikukood": "37104284934",
+            "isikukood": null,
+            "isikukood_hash": "f35c4188-34d2-5938-9b46-e287e3ce407b",
             "kirje_id": 9000739978,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37104284934",
+            "isikukood_hash": "f35c4188-34d2-5938-9b46-e287e3ce407b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 18, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3646026,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 18, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3385759,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 18, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3061419,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nurme tn 18, Tartu linn, Tartu linn, Tartu maakond, 50303",
                 "kirje_id": 2808346,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -323,14 +361,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2019",
-                "emtak_kood": "62021",
+                "algus_kpv": "29.05.2025",
+                "emtak_kood": "62201",
                 "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000422384,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000884335,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

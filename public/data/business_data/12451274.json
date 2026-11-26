@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.07.2019",
             "eesnimi": "Ruslan",
-            "isikukood": "37309294213",
+            "isikukood": null,
+            "isikukood_hash": "9d060b52-d912-5612-a37e-e087bf191d0f",
             "kirje_id": 9000997069,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37309294213",
+            "isikukood_hash": "9d060b52-d912-5612-a37e-e087bf191d0f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toome tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3620521,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4681",
+                "tegevusala_emtak_tekstina": "Tahke-, vedel- ja gaaskütuse jms toodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.81",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toome tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3398347,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4681",
+                "tegevusala_emtak_tekstina": "Tahke-, vedel- ja gaaskütuse jms toodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.81",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toome tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3186257,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4671",
+                "tegevusala_emtak_tekstina": "Tahke-, vedel- ja gaaskütuse jms toodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.71",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Toome tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
                 "kirje_id": 2843291,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,14 +384,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.04.2013",
-                "emtak_kood": "4671",
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "4681",
                 "emtak_tekstina": "Tahke-, vedel- ja gaaskütuse jms toodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000022278,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896174,
                 "lopp_kpv": null,
-                "nace_kood": "46.71",
+                "nace_kood": "46.81",
                 "on_pohitegevusala": true
             }
         ],

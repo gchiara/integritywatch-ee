@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Rivo",
-            "isikukood": "35511080223",
+            "isikukood": null,
+            "isikukood_hash": "da93e2a9-9f00-5a60-b288-8b818828f5a8",
             "kirje_id": 9000772461,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35511080223",
+            "isikukood_hash": "da93e2a9-9f00-5a60-b288-8b818828f5a8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10282982",
+                "aadress_ads__adob_id": "10976389",
                 "aadress_ads__adr_id": 2553546,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Lagedi alevik, Vahtra tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 7, Lagedi alevik, Rae vald, Harju maakond, 75303",
+                "kirje_id": 3756172,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 7, Lagedi alevik, Rae vald, Harju maakond, 75303",
+                "kirje_id": 3484083,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra tn 7, Lagedi alevik, Rae vald, Harju maakond, 75303",
+                "kirje_id": 3217957,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vahtra tn 7, Lagedi alevik, Rae vald, Harju maakond, 75303",
                 "kirje_id": 2919350,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -587,25 +625,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2015",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000174036,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981058,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "06.06.2010",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000026704,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981057,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
             }
         ],

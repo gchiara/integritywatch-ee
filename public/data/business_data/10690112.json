@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Avo",
-            "isikukood": "36811244250",
+            "isikukood": null,
+            "isikukood_hash": "67ad33f8-96c6-5620-8dd7-be4b4df362e7",
             "kirje_id": 9000843484,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36811244250",
+            "isikukood_hash": "67ad33f8-96c6-5620-8dd7-be4b4df362e7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": null,
-                "aadress_ads__adr_id": 2908402,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Kärsu küla",
+                "aadress_ads__adob_id": "8435125",
+                "aadress_ads__adr_id": 2926944,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Kärsu küla, Kutsiku",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": null,
-                "aadress_ads__koodaadress": "687123928000000000000000000000000",
+                "aadress_ads__ads_oid": "EE01652001",
+                "aadress_ads__koodaadress": "68712392800000000EZJ7000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.02.2018",
+                "algus_kpv": "24.11.2023",
                 "ehak": "3928",
                 "ehak_nimetus": "Kärsu küla, Saarde vald, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7905778,
+                "kande_nr": 11,
+                "kirje_id": 12161330,
                 "lopp_kpv": null,
-                "postiindeks": "86201",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": null
+                "postiindeks": "86208",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Kutsiku"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kutsiku, Kärsu küla, Saarde vald, Pärnu maakond, 86208",
+                "kirje_id": 3584440,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kutsiku, Kärsu küla, Saarde vald, Pärnu maakond, 86208",
+                "kirje_id": 3320355,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kutsiku, Kärsu küla, Saarde vald, Pärnu maakond, 86208",
+                "kirje_id": 3042540,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16101",
+                "tegevusala_emtak_tekstina": "Saematerjali tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.10",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kärsu küla, Saarde vald, Pärnu maakond, 86201",
                 "kirje_id": 2757219,
@@ -395,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -481,12 +519,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7742700,
+                "kande_nr": 11,
+                "kirje_id": 12161331,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "vasperg@hot.ee"
+                "sisu": "avo689@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -498,17 +536,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5184144"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000072326,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4457553"
             }
         ],
         "staatus": "R",
@@ -526,14 +553,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "16101",
-                "emtak_tekstina": "Saematerjali tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000009087,
+                "algus_kpv": "25.01.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814291,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "02.40",
                 "on_pohitegevusala": true
             }
         ],

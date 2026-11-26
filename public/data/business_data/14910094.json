@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.02.2020",
             "eesnimi": "Henry",
-            "isikukood": "50102094221",
+            "isikukood": null,
+            "isikukood_hash": "5d5cbfa8-d363-5c4a-b8bd-62016bae4e32",
             "kirje_id": 9001085498,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "50102094221",
+            "isikukood_hash": "5d5cbfa8-d363-5c4a-b8bd-62016bae4e32",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,7 +107,55 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
-                "kirje_id": 2570568,
+                "kirje_id": 3553790,
+                "majandusaasta_perioodi_algus_kpv": "28.02.2024",
+                "majandusaasta_perioodi_lopp_kpv": "27.02.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3290581,
+                "majandusaasta_perioodi_algus_kpv": "28.02.2023",
+                "majandusaasta_perioodi_lopp_kpv": "27.02.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3002736,
+                "majandusaasta_perioodi_algus_kpv": "28.02.2022",
+                "majandusaasta_perioodi_lopp_kpv": "27.02.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3002731,
+                "majandusaasta_perioodi_algus_kpv": "28.02.2021",
+                "majandusaasta_perioodi_lopp_kpv": "27.02.2022",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3002722,
                 "majandusaasta_perioodi_algus_kpv": "12.02.2020",
                 "majandusaasta_perioodi_lopp_kpv": "27.02.2021",
                 "tegevusala_emtak_kood": "81301",
@@ -113,7 +163,7 @@
                 "tegevusala_emtak_versioon": "EMTAK 2008",
                 "tegevusala_emtak_versioon_tekstina": null,
                 "tegevusala_nace_kood": "81.30",
-                "tootajate_arv": "0"
+                "tootajate_arv": "1"
             },
             {
                 "ettevotja_aadress_aruandes": "Audru tee 7, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
@@ -143,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -261,12 +311,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.02.2020",
+                "algus_kpv": "02.09.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000463132,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049898,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Märt",
-            "isikukood": "36306115716",
+            "isikukood": null,
+            "isikukood_hash": "f219d621-9432-50fa-badc-8943dcbcc5b5",
             "kirje_id": 9000762131,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36306115716",
+            "isikukood_hash": "f219d621-9432-50fa-badc-8943dcbcc5b5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10408163",
-                "aadress_ads__adr_id": 3621181,
+                "aadress_ads__adob_id": "10826711",
+                "aadress_ads__adr_id": 3721226,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Männi tn 17",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01937409",
-                "aadress_ads__koodaadress": "81855891800000SAZ0000CTWL00000000",
+                "aadress_ads__koodaadress": "81857891800000SAZ0000CTWL00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "03.12.2021",
                 "ehak": "8918",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männi tn 17, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3649379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "08121",
+                "tegevusala_emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "08.12",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männi tn 17, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3357460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "08121",
+                "tegevusala_emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "08.12",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männi tn 17, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3138576,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "08121",
+                "tegevusala_emtak_tekstina": "Kruusa- ja liivakarjääride tegevus; savi ja kaoliini kaevandamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "08.12",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männi tn 17, Valga linn, Valga vald, Valga maakond, 68208",
                 "kirje_id": 2825703,
@@ -431,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -562,37 +600,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.05.2023",
-                "emtak_kood": "08121",
-                "emtak_tekstina": "Kruusa- ja liivakarjääride tegevus; savi ja kaoliini kaevandamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686486,
-                "lopp_kpv": null,
-                "nace_kood": "08.12",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.05.2023",
+                "algus_kpv": "20.04.2025",
                 "emtak_kood": "23631",
                 "emtak_tekstina": "Valmis betoonisegu tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686487,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854882,
                 "lopp_kpv": null,
                 "nace_kood": "23.63",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "05.04.2010",
+                "algus_kpv": "20.04.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000010179,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854881,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.04.2025",
+                "emtak_kood": "08121",
+                "emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854880,
+                "lopp_kpv": null,
+                "nace_kood": "08.12",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

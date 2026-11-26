@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Janne",
-            "isikukood": "47410170306",
+            "isikukood": null,
+            "isikukood_hash": "a5e13235-8951-5804-91de-48be6450b2bb",
             "kirje_id": 9000806174,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47410170306",
+            "isikukood_hash": "a5e13235-8951-5804-91de-48be6450b2bb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 53, Rapla linn, Rapla vald, Rapla maakond, 79511",
+                "kirje_id": 3672445,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "88911",
+                "tegevusala_emtak_tekstina": "Lapsehoiuteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.91",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 53, Rapla linn, Rapla vald, Rapla maakond, 79511",
+                "kirje_id": 3320821,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "88911",
+                "tegevusala_emtak_tekstina": "Lapsehoiuteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.91",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 53, Rapla linn, Rapla vald, Rapla maakond, 79511",
+                "kirje_id": 3101820,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "88911",
+                "tegevusala_emtak_tekstina": "Lapsehoiuteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.91",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Viljandi mnt 53, Rapla linn, Rapla vald, Rapla maakond, 79511",
                 "kirje_id": 2782319,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -451,34 +489,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.03.2023",
+                "algus_kpv": "27.01.2025",
                 "emtak_kood": "88911",
                 "emtak_tekstina": "Lapsehoiuteenus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674394,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814817,
                 "lopp_kpv": null,
                 "nace_kood": "88.91",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "20.03.2023",
-                "emtak_kood": "88991",
-                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674395,
-                "lopp_kpv": null,
-                "nace_kood": "88.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.05.2021",
+                "algus_kpv": "27.01.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000546346,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814818,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": false

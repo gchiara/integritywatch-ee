@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36504282743",
+            "isikukood": null,
+            "isikukood_hash": "73348f30-5391-5ab5-96dd-b75df12de62c",
             "kirje_id": 9000668023,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.06.2020",
             "eesnimi": "Marcel",
-            "isikukood": "36501172715",
+            "isikukood": null,
+            "isikukood_hash": "0868ba6c-2399-53b8-b52b-96ddbc2ceb1a",
             "kirje_id": 9001132170,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37909040402",
+            "isikukood_hash": "b343d528-5def-551a-afd5-a4e32d69825c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3751007,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55401",
+                "tegevusala_emtak_tekstina": "Majutusega seotud vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.40",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3492844,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55401",
+                "tegevusala_emtak_tekstina": "Majutusega seotud vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.40",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3197167,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Toompuiestee 37/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
                 "kirje_id": 2927269,
@@ -352,7 +391,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,45 +516,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 16,
-                "kirje_id": 7671072,
+                "kande_nr": 20,
+                "kirje_id": 13132603,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@go.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000238393,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6310101"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000238395,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.gohotels.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000437183,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6310102"
+                "sisu": "hotel@go.ee"
             },
             {
                 "kaardi_nr": null,
@@ -527,6 +533,17 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6310100"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000726440,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://gohotels.ee/"
             }
         ],
         "staatus": "R",
@@ -544,14 +561,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "55101",
-                "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000036979,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "55401",
+                "emtak_tekstina": "Majutusega seotud vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000989996,
                 "lopp_kpv": null,
-                "nace_kood": "55.10",
+                "nace_kood": "55.40",
                 "on_pohitegevusala": true
             }
         ],

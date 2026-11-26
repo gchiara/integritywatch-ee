@@ -7,6 +7,7 @@
             "algus_kpv": "12.09.2018",
             "eesnimi": "Christian",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000685889,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36609230340",
+            "isikukood_hash": "c5c359f0-3423-5aed-a60d-c02ed83b1dc6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -55,50 +57,13 @@
             "valis_kood_riik": null,
             "valis_kood_riik_tekstina": null,
             "volituste_loppemise_kpv": ""
-        },
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "09.06.2015",
-            "eesnimi": "Petra",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "45905270104",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 5,
-            "kaardi_tyyp": "R",
-            "kande_nr": 17,
-            "kirje_id": 5575994,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Brinkmeier",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
         }
     ],
     "nimi": "OÜ Balti Spoon",
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9947305",
+                "aadress_ads__adob_id": "10918101",
                 "aadress_ads__adr_id": 2440446,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Kuusalu vald, Kupu küla, Balti Spoon",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -139,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Balti Spoon, Kupu küla, Kuusalu vald, Harju maakond, 74610",
+                "kirje_id": 3826036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "1621",
+                "tegevusala_emtak_tekstina": "Spooni ja puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "214"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Balti Spoon, Kupu küla, Kuusalu vald, Harju maakond, 74610",
+                "kirje_id": 3525021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "1621",
+                "tegevusala_emtak_tekstina": "Spooni ja puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "214"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Balti Spoon, Kupu küla, Kuusalu vald, Harju maakond, 74610",
+                "kirje_id": 3135623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "1621",
+                "tegevusala_emtak_tekstina": "Spooni ja puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "212"
+            },
             {
                 "ettevotja_aadress_aruandes": "Balti Spoon, Kupu küla, Kuusalu vald, Harju maakond, 74610",
                 "kirje_id": 2829130,
@@ -455,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -611,26 +612,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.09.2010",
+                "algus_kpv": "03.07.2025",
                 "emtak_kood": "1621",
                 "emtak_tekstina": "Spooni ja puitplaatide tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000088280,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001021336,
                 "lopp_kpv": null,
                 "nace_kood": "16.21",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "03.09.2010",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000088281,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

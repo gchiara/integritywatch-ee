@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Kuido",
-            "isikukood": "37803020233",
+            "isikukood": null,
+            "isikukood_hash": "0a7a5ae5-05fc-5a20-9002-5bed5a374a3d",
             "kirje_id": 9000861930,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37803020233",
+            "isikukood_hash": "0a7a5ae5-05fc-5a20-9002-5bed5a374a3d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Padriku tee 11/4-4, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3539507,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43111",
+                "tegevusala_emtak_tekstina": "Lammutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Padriku tee 11/4-4, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3292131,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43111",
+                "tegevusala_emtak_tekstina": "Lammutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Padriku tee 11/4-4, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 2996184,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43111",
+                "tegevusala_emtak_tekstina": "Lammutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Padriku tee 11/4-4, Pirita linnaosa, Tallinn, Harju maakond, 11912",
                 "kirje_id": 2733513,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2021",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,36 +300,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.10.2022",
-                "emtak_kood": "4311",
+                "algus_kpv": "22.07.2025",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035236,
+                "lopp_kpv": null,
+                "nace_kood": "77.32",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.07.2025",
+                "emtak_kood": "43111",
                 "emtak_tekstina": "Lammutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653613,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035234,
                 "lopp_kpv": null,
                 "nace_kood": "43.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "09.10.2022",
-                "emtak_kood": "0220",
+                "algus_kpv": "22.07.2025",
+                "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653614,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035235,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.10.2022",
-                "emtak_kood": "7732",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653615,
-                "lopp_kpv": null,
-                "nace_kood": "77.32",
                 "on_pohitegevusala": false
             }
         ],

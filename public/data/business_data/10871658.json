@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.11.2018",
             "eesnimi": "Madis",
-            "isikukood": "37708152243",
+            "isikukood": null,
+            "isikukood_hash": "cab87b11-4122-5b2f-a4d6-5cf8b0b07142",
             "kirje_id": 9000891518,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37708152243",
+            "isikukood_hash": "cab87b11-4122-5b2f-a4d6-5cf8b0b07142",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tee 10, Erra alevik, Lüganuse vald, Ida-Viru maakond, 43131",
+                "kirje_id": 3734836,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16111",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.11",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tee 10, Erra alevik, Lüganuse vald, Ida-Viru maakond, 43131",
+                "kirje_id": 3522206,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16111",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.11",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tee 10, Erra alevik, Lüganuse vald, Ida-Viru maakond, 43131",
+                "kirje_id": 3174363,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16109",
+                "tegevusala_emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.10",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisa tee 10, Erra alevik, Lüganuse vald, Ida-Viru maakond, 43131",
                 "kirje_id": 2856195,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -528,25 +566,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2023",
-                "emtak_kood": "47411",
-                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000692287,
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018714,
                 "lopp_kpv": null,
-                "nace_kood": "47.41",
+                "nace_kood": "77.32",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "13.06.2019",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000420969,
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018715,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "16111",
+                "emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018713,
+                "lopp_kpv": null,
+                "nace_kood": "16.11",
                 "on_pohitegevusala": true
             }
         ],

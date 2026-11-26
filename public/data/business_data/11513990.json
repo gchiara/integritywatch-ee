@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "36612210273",
+            "isikukood": null,
+            "isikukood_hash": "c91f2ae1-9dc9-52a3-9320-fef07f8acc8e",
             "kirje_id": 9000753865,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36612210273",
+            "isikukood_hash": "c91f2ae1-9dc9-52a3-9320-fef07f8acc8e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaarli pst 9-1a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3763776,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarli pst 9-1a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3489455,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarli pst 9-1a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3203433,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaarli pst 9-1a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
                 "kirje_id": 2876912,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -407,26 +445,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.11.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000515072,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000986564,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.11.2020",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000515073,
-                "lopp_kpv": null,
-                "nace_kood": "72.19",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

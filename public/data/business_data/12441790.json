@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2018",
             "eesnimi": "Kalev",
-            "isikukood": "37212194224",
+            "isikukood": null,
+            "isikukood_hash": "5308424a-63b8-5156-9c84-b5c676d176a6",
             "kirje_id": 9000733490,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37212194224",
+            "isikukood_hash": "5308424a-63b8-5156-9c84-b5c676d176a6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10472620",
-                "aadress_ads__adr_id": 3390289,
+                "aadress_ads__adob_id": "11125646",
+                "aadress_ads__adr_id": 3761687,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Oore küla, Vainu",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01045700",
-                "aadress_ads__koodaadress": "688095698000000004EQW000000000000",
+                "aadress_ads__koodaadress": "688065698000000004EQW000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "5698",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vainu, Oore küla, Tori vald, Pärnu maakond, 86812",
+                "kirje_id": 3685397,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vainu, Oore küla, Tori vald, Pärnu maakond, 86812",
+                "kirje_id": 3376776,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vainu, Oore küla, Tori vald, Pärnu maakond, 86812",
+                "kirje_id": 3090899,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vainu, Oore küla, Tori vald, Pärnu maakond, 86812",
                 "kirje_id": 2793450,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,26 +384,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.03.2013",
+                "algus_kpv": "20.05.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000020005,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875363,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "07.05.2021",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000547151,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

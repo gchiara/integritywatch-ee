@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Eike",
-            "isikukood": "45712280334",
+            "isikukood": null,
+            "isikukood_hash": "d64093c8-30fc-5b50-a098-8a06e5fa8c11",
             "kirje_id": 9000789264,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45712280334",
+            "isikukood_hash": "d64093c8-30fc-5b50-a098-8a06e5fa8c11",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 69a-22, Nõmme linnaosa, Tallinn, Harju maakond, 10911",
+                "kirje_id": 3665657,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 69a-22, Nõmme linnaosa, Tallinn, Harju maakond, 10911",
+                "kirje_id": 3381182,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 69a-22, Nõmme linnaosa, Tallinn, Harju maakond, 10911",
+                "kirje_id": 3124656,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vanemuise tn 69a-22, Nõmme linnaosa, Tallinn, Harju maakond, 10911",
                 "kirje_id": 2849149,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -443,23 +481,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.07.2020",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000492674,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "25.05.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000049125,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000879688,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

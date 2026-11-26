@@ -102,17 +102,13 @@
         "flags": [
             "Tenders received low",
             "Possible shell company",
-            "Nominees as company board members or beneficial owners",
             "Special purpose company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12751154",
-            "Nominees as company beneficial owners: 37403100290",
             "Company Ice Steel OÜ(14634760) was first registered on 03.01.2019, 187 days before the notice dispatch.",
-            "Nominees as company beneficial owners: 37005200294",
-            "Nominees as company board members: 37005200294",
-            "Nominees as company board members: 37403100290"
+            "Possible shell company: 14634760"
         ],
         "noticeUid": "7e08a033-2b75-4c45-91eb-3d21c73282c6",
         "notice_items": [
@@ -123,5 +119,86 @@
         ],
         "notice_items_num": 4,
         "refnum": "207282"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-11-15"
+                ],
+                "award_value": "500000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14634760",
+                        "contractor_name": "Ice Steel OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "16735488",
+                        "contractor_name": "Trade Steel OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lukksepa ja keevituse toormaterjalide ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14634760",
+            "16735488"
+        ],
+        "cpv": "44200000",
+        "date_dispatch_notice": "2023-11-17",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b539d5de-e625-4493-9f95-a645479e0d4b_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Special purpose company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14634760",
+            "Company Trade Steel OÜ(16735488) was first registered on 10.05.2023, 191 days before the notice dispatch.",
+            "Possible shell company: 16735488",
+            "Nominees as company beneficial owners: Igor_Montik_10.05.2023",
+            "Nominees as company beneficial owners: Sergei_Gavriljuk_10.05.2023",
+            "Nominees as company board members: Igor_Montik_10.05.2023",
+            "Nominees as company board members: Sergei_Gavriljuk_10.05.2023"
+        ],
+        "noticeUid": "b539d5de-e625-4493-9f95-a645479e0d4b",
+        "notice_items": [
+            {
+                "duration": "48 MONTH"
+            },
+            {
+                "duration": "48 MONTH"
+            },
+            {
+                "duration": "48 MONTH"
+            },
+            {
+                "duration": "48 MONTH"
+            }
+        ],
+        "refnum": "269769",
+        "total_amount": "5000000.00",
+        "total_amount_curr": "EUR"
     }
 ]

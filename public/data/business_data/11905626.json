@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.12.2019",
             "eesnimi": "Krister",
-            "isikukood": "37712035722",
+            "isikukood": null,
+            "isikukood_hash": "a3bc22f0-d389-576d-a423-1fcbb77c0030",
             "kirje_id": 9001065605,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.12.2019",
             "eesnimi": "Siret",
-            "isikukood": "47604125725",
+            "isikukood": null,
+            "isikukood_hash": "15465747-a32d-583b-b9fb-350b6d035a35",
             "kirje_id": 9001065606,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712035722",
+            "isikukood_hash": "a3bc22f0-d389-576d-a423-1fcbb77c0030",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47604125725",
+            "isikukood_hash": "15465747-a32d-583b-b9fb-350b6d035a35",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9948593",
-                "aadress_ads__adr_id": 3010293,
+                "aadress_ads__adob_id": "10862968",
+                "aadress_ads__adr_id": 3714151,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Nurme tn 24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME02589820",
-                "aadress_ads__koodaadress": "81855891800000S9E0000B3HS00000000",
+                "aadress_ads__koodaadress": "81857891800000S9E0000B3HS00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.02.2018",
                 "ehak": "8918",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 24, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3788834,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 24, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3528410,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 24, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3122169,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nurme tn 24, Valga linn, Valga vald, Valga maakond, 68207",
                 "kirje_id": 2848152,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -451,12 +491,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.03.2011",
+                "algus_kpv": "07.07.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000107857,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001024485,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Enar",
-            "isikukood": "38203026537",
+            "isikukood": null,
+            "isikukood_hash": "460cd6f0-3803-5611-9e85-c040735cb80e",
             "kirje_id": 9000759157,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38203026537",
+            "isikukood_hash": "460cd6f0-3803-5611-9e85-c040735cb80e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36501186569",
+            "isikukood_hash": "22938ecc-e105-5c1e-8ed4-82d85b92f183",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tee 3/1, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3689685,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tee 3/1, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3431929,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tee 3/1, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3138029,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tehnika tee 3/1, Mammaste küla, Põlva vald, Põlva maakond, 63211",
                 "kirje_id": 2826525,
@@ -455,7 +494,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,37 +627,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.05.2023",
-                "emtak_kood": "78201",
-                "emtak_tekstina": "Ajutise tööjõu rent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686670,
-                "lopp_kpv": null,
-                "nace_kood": "78.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2018",
+                "algus_kpv": "21.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000365064,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930085,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.06.2022",
-                "emtak_kood": "4532",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000621950,
-                "lopp_kpv": null,
-                "nace_kood": "45.32",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

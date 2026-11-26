@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Terje",
-            "isikukood": "46607086518",
+            "isikukood": null,
+            "isikukood_hash": "23523aef-508f-523e-91c2-7fd290b5774e",
             "kirje_id": 9000686577,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46607086518",
+            "isikukood_hash": "23523aef-508f-523e-91c2-7fd290b5774e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9006291",
+                "aadress_ads__adob_id": "10751999",
                 "aadress_ads__adr_id": 3172832,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Rosma küla, Paes",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paes, Rosma küla, Põlva vald, Põlva maakond, 63221",
+                "kirje_id": 3716736,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paes, Rosma küla, Põlva vald, Põlva maakond, 63221",
+                "kirje_id": 3439348,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paes, Rosma küla, Põlva vald, Põlva maakond, 63221",
+                "kirje_id": 3264011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paes, Rosma küla, Põlva vald, Põlva maakond, 63221",
                 "kirje_id": 2964904,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,26 +456,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.07.2017",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000312613,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "02.07.2017",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000312614,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937026,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "85599",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937025,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

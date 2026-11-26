@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Boris",
-            "isikukood": "36107110327",
+            "isikukood": null,
+            "isikukood_hash": "99ab3141-bb76-5f7a-abcf-7a17c093ba1a",
             "kirje_id": 9000808017,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "MIHHAIL",
-            "isikukood": "39008150221",
+            "isikukood": null,
+            "isikukood_hash": "6dd2f253-94ba-5c9e-b263-d0d0835f09b5",
             "kirje_id": 9000808012,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36107110327",
+            "isikukood_hash": "99ab3141-bb76-5f7a-abcf-7a17c093ba1a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3645818,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "17211",
+                "tegevusala_emtak_tekstina": "Lainepaberi ja -papi ning paber- ja papptaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.21",
+                "tootajate_arv": "65"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3400133,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "17211",
+                "tegevusala_emtak_tekstina": "Lainepaberi ja -papi ning paber- ja papptaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.21",
+                "tootajate_arv": "58"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3115497,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "17211",
+                "tegevusala_emtak_tekstina": "Lainepaberi ja -papi ning paber- ja papptaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.21",
+                "tootajate_arv": "57"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuuliku tee 4c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2826149,
@@ -232,7 +271,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,26 +402,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.07.2020",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000492846,
-                "lopp_kpv": null,
-                "nace_kood": "46.18",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.04.2015",
+                "algus_kpv": "06.06.2025",
                 "emtak_kood": "17211",
                 "emtak_tekstina": "Lainepaberi ja -papi ning paber- ja papptaara tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000164430,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000897954,
                 "lopp_kpv": null,
                 "nace_kood": "17.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "06.06.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000897955,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

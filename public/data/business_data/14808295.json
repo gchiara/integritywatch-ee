@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2019",
             "eesnimi": "Guido",
-            "isikukood": "37910034928",
+            "isikukood": null,
+            "isikukood_hash": "de40630d-7f9a-5842-8cf9-9d21355e560e",
             "kirje_id": 9001024848,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2019",
             "eesnimi": "Merike",
-            "isikukood": "48407194940",
+            "isikukood": null,
+            "isikukood_hash": "33e1afe3-56e2-52a4-9024-e27d29072c53",
             "kirje_id": 9001024849,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37910034928",
+            "isikukood_hash": "de40630d-7f9a-5842-8cf9-9d21355e560e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48407194940",
+            "isikukood_hash": "33e1afe3-56e2-52a4-9024-e27d29072c53",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -159,6 +163,30 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Puusliku, Abaja küla, Järva vald, Järva maakond, 73025",
+                "kirje_id": 3469835,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puusliku, Abaja küla, Järva vald, Järva maakond, 73025",
+                "kirje_id": 3243070,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puusliku, Abaja küla, Järva vald, Järva maakond, 73025",
                 "kirje_id": 2912462,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -209,7 +237,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -316,12 +344,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.09.2019",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000446280,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000966537,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": true

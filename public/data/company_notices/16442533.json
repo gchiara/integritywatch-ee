@@ -88,12 +88,16 @@
         "flags": [
             "Too few evaluation criteria",
             "Possible shell company",
-            "Special purpose company"
+            "Special purpose company",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12206221",
-            "Company Majaja OÜ(16442533) was first registered on 14.02.2022, 221 days before the notice dispatch."
+            "Company Majaja OÜ(16442533) was first registered on 14.02.2022, 221 days before the notice dispatch.",
+            "Possible shell company: 16442533",
+            "Nominees as company beneficial owners: Triin_Vallner_14.02.2022",
+            "Nominees as company board members: Triin_Vallner_14.02.2022"
         ],
         "noticeUid": "50b17f44-d760-41be-9ca9-97037b52a170",
         "notice_items": [
@@ -105,6 +109,7 @@
     {
         "award_items": [
             {
+                "award_date_conclusion_contract": [],
                 "contract_awarded": true,
                 "contractors": [
                     {
@@ -117,7 +122,7 @@
                 "tenders_received": "6"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Rahvusraamatukogu Tõnismägi 2 väliala arhitektuurivõistlus",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -154,5 +159,124 @@
             {}
         ],
         "refnum": "261758"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12744510",
+                        "contractor_name": "ABMA OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "5"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kallaste linnakeskuse avaliku ruumi arhitektuurivõistlus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "77000192",
+                "name": "Peipsiääre Vallavalitsus",
+                "town": "Peipsiääre vald"
+            }
+        ],
+        "contractors": [
+            "12190098",
+            "16442533",
+            "10872824",
+            "12744510"
+        ],
+        "cpv": "71240000",
+        "date_dispatch_notice": "2023-10-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b2e7967b-c146-4cce-9414-fef0b497a5d7_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Succesful procedure without contracting"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "b2e7967b-c146-4cce-9414-fef0b497a5d7",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "267202"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10872824",
+                        "contractor_name": "OÜ STUUDIO TALLINN",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12310987",
+                        "contractor_name": "Arhitekt Must OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "16442533",
+                        "contractor_name": "Majaja OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "16467604",
+                        "contractor_name": "OÜ Stuudio TÄNA",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "16376782",
+                        "contractor_name": "FUTU OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "7"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Maardu linnakeskuse avaliku ruumi arhitektuurivõistlus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75011470",
+                "name": "Maardu Linnavalitsus",
+                "town": "Maardu linn"
+            }
+        ],
+        "contractors": [
+            "10872824",
+            "12310987",
+            "16442533",
+            "16467604",
+            "16376782"
+        ],
+        "cpv": "71240000",
+        "date_dispatch_notice": "2024-11-22",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d2260e2e-d881-4f00-a1bb-01269615a11b_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Succesful procedure without contracting"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "d2260e2e-d881-4f00-a1bb-01269615a11b",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "279221"
     }
 ]

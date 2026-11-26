@@ -58,11 +58,9 @@
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 39009180018",
-            "Nominees as company board members: 39009180018",
-            "Possible shell company: 10358694",
-            "Nominees as company beneficial owners: 47006040021",
-            "Nominees as company board members: 47006040021"
+            "Nominees as company beneficial owners: Geidi_Lõuk_25.10.2018",
+            "Nominees as company beneficial owners: Johan_Lõuk_25.10.2018",
+            "Possible shell company: 10358694"
         ],
         "noticeUid": "4829d12d-8d82-4e36-aa7f-9b9150fcc7ce",
         "notice_items": [
@@ -74,7 +72,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-02-19",
+                "award_date_conclusion_contract": [
+                    "2023-02-19"
+                ],
                 "award_value": "500000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -89,7 +89,7 @@
                 "tenders_received": "116"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Majutamise teenuse osutamine Sotsiaalkindlustusametile",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -151,5 +151,58 @@
         "refnum": "254967",
         "total_amount": "150000000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-09-24"
+                ],
+                "award_value": "300000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10358694",
+                        "contractor_name": "Osaühing Arensburg",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Toitlustusteenuse kordushange",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "70008747",
+                "name": "Politsei- ja Piirivalveamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10358694"
+        ],
+        "cpv": "55520000",
+        "date_dispatch_notice": "2024-09-28",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_177bbe40-2e2a-435a-bd60-1258929a5110_0.json",
+        "flags": [
+            "Tenders received low",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10358694"
+        ],
+        "noticeUid": "177bbe40-2e2a-435a-bd60-1258929a5110",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "282971"
     }
 ]

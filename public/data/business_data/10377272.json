@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Egon",
-            "isikukood": "35403020315",
+            "isikukood": null,
+            "isikukood_hash": "7a3e30c4-fa6a-52ed-9a71-292cd43b327c",
             "kirje_id": 9000773772,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37509050220",
+            "isikukood_hash": "a9f1a36a-8d00-5aa7-8ac1-62a287c119fc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3830053,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16231",
+                "tegevusala_emtak_tekstina": "Kokkupandavate puitehitiste ja nende elementide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.23",
+                "tootajate_arv": "76"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3542217,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "1628",
+                "tegevusala_emtak_tekstina": "Muude puittoodete ning korgist, õlest vm punumismaterjalist toodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.28",
+                "tootajate_arv": "93"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3073914,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16232",
+                "tegevusala_emtak_tekstina": "Kokkupandavate puitehitiste (saunad, suvilad, majad) ja nende elementide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.23",
+                "tootajate_arv": "115"
+            },
             {
                 "ettevotja_aadress_aruandes": "Turba tn 27, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
                 "kirje_id": 2812900,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -499,13 +537,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "25.04.2022",
+                "algus_kpv": "26.01.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 20,
-                "kinnitamise_kpv": "18.04.2022",
-                "kirje_id": 10089611,
+                "kande_nr": 21,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12267309,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -562,26 +600,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2010",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000041020,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "16232",
-                "emtak_tekstina": "Kokkupandavate puitehitiste (saunad, suvilad, majad) ja nende elementide tootmine ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000047076,
+                "algus_kpv": "08.09.2026",
+                "emtak_kood": "16231",
+                "emtak_tekstina": "Kokkupandavate puitehitiste ja nende elementide tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001149343,
                 "lopp_kpv": null,
                 "nace_kood": "16.23",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "08.09.2026",
+                "emtak_kood": "68311",
+                "emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001149344,
+                "lopp_kpv": null,
+                "nace_kood": "68.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

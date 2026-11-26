@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Eldur",
-            "isikukood": "36808240260",
+            "isikukood": null,
+            "isikukood_hash": "c7edadee-abe2-5b42-a815-78ed16e4e91b",
             "kirje_id": 9000671640,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Kristel",
-            "isikukood": "47304020279",
+            "isikukood": null,
+            "isikukood_hash": "e9b50d5e-4484-59dd-bbe2-1d399ddb8b3e",
             "kirje_id": 9000671641,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36808240260",
+            "isikukood_hash": "c7edadee-abe2-5b42-a815-78ed16e4e91b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2c/1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3593221,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2c/1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3348007,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2c/1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3044572,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 2c/1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2765945,
@@ -351,7 +390,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -502,12 +541,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "01.04.2025",
                 "emtak_kood": "25119",
                 "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000039156,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844735,
                 "lopp_kpv": null,
                 "nace_kood": "25.11",
                 "on_pohitegevusala": true

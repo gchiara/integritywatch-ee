@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Liivi",
-            "isikukood": "45202036545",
+            "isikukood": null,
+            "isikukood_hash": "47d042a3-0513-5a99-b27a-e8a13a7d915a",
             "kirje_id": 9000820462,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -19,44 +20,7 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": "0619",
-            "aadress_ehak_tekstina": "Põlva vald, Põlva maakond",
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "aadress_tanav_maja_korter": "",
-            "algus_kpv": "13.10.1998",
-            "eesnimi": "Liivi",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "45202036545",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 2,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 2437455,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Maran",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "OÜ Malial",
     "yldandmed": {
         "aadressid": [
@@ -102,6 +66,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku tee 4, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3421100,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ööbiku tee 4, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3154849,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ööbiku tee 4, Mammaste küla, Põlva vald, Põlva maakond, 63211",
                 "kirje_id": 2823444,
@@ -406,7 +394,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -487,6 +475,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "19.06.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 13170854,
+                "lopp_kpv": null,
+                "sisu": "Osanikud otsustasid 17.06.2025 lõpetada äriühingu tegevuse.",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -511,8 +513,8 @@
                 "sisu": "+372 7998412"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "13.10.1998",
@@ -522,6 +524,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "19.06.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
@@ -530,7 +541,7 @@
                 "emtak_kood": "86221",
                 "emtak_tekstina": "Eriarstiabi osutamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000008083,
                 "lopp_kpv": null,
                 "nace_kood": "86.22",
@@ -538,6 +549,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

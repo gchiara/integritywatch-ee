@@ -7,6 +7,7 @@
             "algus_kpv": "16.12.2019",
             "eesnimi": "Marie Christine",
             "isikukood": null,
+            "isikukood_hash": "0f934d05-0e96-508b-84a4-4b577454cc52",
             "kirje_id": 9001062157,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Wollmann",
             "synniaeg": null,
-            "valis_kood": "271192-274W",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "16.12.2019",
             "eesnimi": "Merike",
             "isikukood": null,
+            "isikukood_hash": "96bb6bf7-3ddf-5bcc-9c84-186e6b01247c",
             "kirje_id": 9001062189,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Wollmann",
             "synniaeg": null,
-            "valis_kood": "260962-208R",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         }
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "0f934d05-0e96-508b-84a4-4b577454cc52",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -69,7 +72,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "27.11.1992",
-            "valis_kood": "271192-274W",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome",
             "volituste_loppemise_kpv": ""
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36801106522",
+            "isikukood_hash": "77c64313-3012-5149-b498-a02ad9a0f7ab",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Roosikrantsi tn 10a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3777423,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosikrantsi tn 10a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3465730,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosikrantsi tn 10a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3226873,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Roosikrantsi tn 10a, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
                 "kirje_id": 2949339,
@@ -509,7 +549,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -651,12 +691,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
+                "algus_kpv": "28.06.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000063148,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000962424,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true

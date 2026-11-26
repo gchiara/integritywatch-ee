@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Allan",
-            "isikukood": "37709134217",
+            "isikukood": null,
+            "isikukood_hash": "77069762-6475-5f81-9290-c4a3cc4e1d2c",
             "kirje_id": 9000790815,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37709134217",
+            "isikukood_hash": "77069762-6475-5f81-9290-c4a3cc4e1d2c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9948212",
+                "aadress_ads__adob_id": "11442804",
                 "aadress_ads__adr_id": 3020630,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Silla küla, Jõekalda tee 103",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME02337572",
+                "aadress_ads__ads_oid": "ME00697885",
                 "aadress_ads__koodaadress": "68624759100000OPC00008Y3300000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "16.08.2018",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda tee 103, Silla küla, Pärnu linn, Pärnu maakond, 86604",
+                "kirje_id": 3663500,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16219",
+                "tegevusala_emtak_tekstina": "Muude puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda tee 103, Silla küla, Pärnu linn, Pärnu maakond, 86604",
+                "kirje_id": 3551934,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16219",
+                "tegevusala_emtak_tekstina": "Muude puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõekalda tee 103, Silla küla, Pärnu linn, Pärnu maakond, 86604",
+                "kirje_id": 3283265,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16219",
+                "tegevusala_emtak_tekstina": "Muude puitplaatide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.21",
+                "tootajate_arv": "31"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jõekalda tee 103, Silla küla, Pärnu linn, Pärnu maakond, 86604",
                 "kirje_id": 2925719,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,26 +384,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.04.2019",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000410680,
-                "lopp_kpv": null,
-                "nace_kood": "31.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2014",
+                "algus_kpv": "27.08.2025",
                 "emtak_kood": "16219",
                 "emtak_tekstina": "Muude puitplaatide tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000131215,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001047910,
                 "lopp_kpv": null,
                 "nace_kood": "16.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.08.2025",
+                "emtak_kood": "3100",
+                "emtak_tekstina": "Mööblitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001047911,
+                "lopp_kpv": null,
+                "nace_kood": "31.00",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -74,7 +74,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-14",
+                "award_date_conclusion_contract": [
+                    "2023-08-14"
+                ],
                 "award_value": "99012.75",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -89,7 +91,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Otepää Kopli 6b kinnistule päikesepargi ehitus",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -110,17 +112,11 @@
         "filename": "award_0a9420ec-f594-4e0a-a773-5310caaf5620_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 12916046",
-            "Nominees as company beneficial owners: 39304280814",
-            "Nominees as company beneficial owners: 37805226024",
-            "Nominees as company beneficial owners: 38301056045",
-            "Nominees as company board members: 37805226024",
-            "Nominees as company board members: 38301056045"
+            "Possible shell company: 12916046"
         ],
         "noticeUid": "0a9420ec-f594-4e0a-a773-5310caaf5620",
         "notice_items": [
@@ -135,7 +131,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-24",
+                "award_date_conclusion_contract": [
+                    "2023-07-24"
+                ],
                 "award_value": "316615.80",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -150,7 +148,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "PV-elektrijaama rajamine KBFI Akadeemia tee 23 hoone katusele",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -171,17 +169,11 @@
         "filename": "award_10a24f78-9c07-4864-97ad-1a87487529f4_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 12916046",
-            "Nominees as company beneficial owners: 39304280814",
-            "Nominees as company beneficial owners: 37805226024",
-            "Nominees as company beneficial owners: 38301056045",
-            "Nominees as company board members: 37805226024",
-            "Nominees as company board members: 38301056045"
+            "Possible shell company: 12916046"
         ],
         "noticeUid": "10a24f78-9c07-4864-97ad-1a87487529f4",
         "notice_items": [
@@ -191,6 +183,88 @@
         ],
         "refnum": "264563",
         "total_amount": "316615.80",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "HANGE täisautomaatse koosteliini ostuks / Tender for the purchase of fully automated assembly line",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12916046",
+                "name": "Solarstone OÜ",
+                "town": "Viljandi linn"
+            }
+        ],
+        "cpv": "42900000",
+        "date_dispatch_notice": "2023-09-29",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_3df5e54f-fc82-4b16-b69d-fc25e4b75821_0.json",
+        "flags": [],
+        "flagsNotes": [],
+        "noticeUid": "3df5e54f-fc82-4b16-b69d-fc25e4b75821",
+        "notice_items": [
+            {
+                "endDate": "2024-12-13"
+            }
+        ],
+        "refnum": "270635"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-02-22"
+                ],
+                "award_value": "384054.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14234517",
+                        "contractor_name": "Demek CNC OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "4"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "HANGE täisautomaatse koosteliini ostuks / Tender for the purchase of fully automated assembly line",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12916046",
+                "name": "Solarstone OÜ",
+                "town": "Viljandi linn"
+            }
+        ],
+        "contractors": [
+            "14234517"
+        ],
+        "cpv": "42900000",
+        "date_dispatch_notice": "2024-04-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e7458e50-11ee-4c93-b89b-e80fd8e0f607_0.json",
+        "flags": [
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14234517",
+            "Nominees as company beneficial owners: Aarne_Kildemaa_28.10.2018"
+        ],
+        "noticeUid": "e7458e50-11ee-4c93-b89b-e80fd8e0f607",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "270635",
+        "total_amount": "384054.00",
         "total_amount_curr": "EUR"
     }
 ]

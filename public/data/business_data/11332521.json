@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "36401052714",
+            "isikukood": null,
+            "isikukood_hash": "9aa671d3-84a6-5513-8432-63b86be0f663",
             "kirje_id": 9000694468,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38910274719",
+            "isikukood_hash": "fd06f0be-d6f4-5fc1-b2f1-eb341d99b782",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3565247,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2025",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3305321,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2024",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3006229,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2023",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "28"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
                 "kirje_id": 2738453,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -451,26 +489,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2010",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000043559,
-                "lopp_kpv": null,
-                "nace_kood": "46.18",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.10.2025",
                 "emtak_kood": "46461",
                 "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000033728,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063088,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063089,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

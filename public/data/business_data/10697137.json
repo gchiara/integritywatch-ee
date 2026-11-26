@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Virgo",
-            "isikukood": "37403286529",
+            "isikukood": null,
+            "isikukood_hash": "63755623-32c8-5cf9-93bf-2f624cce67bb",
             "kirje_id": 9000854852,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37403286529",
+            "isikukood_hash": "63755623-32c8-5cf9-93bf-2f624cce67bb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 35, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3672951,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 35, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3449790,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 35, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3159560,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raudtee tn 35, Võru linn, Võru maakond, 65603",
                 "kirje_id": 2908010,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -489,37 +527,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.05.2013",
-                "emtak_kood": "77321",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000030633,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000947025,
                 "lopp_kpv": null,
-                "nace_kood": "77.32",
-                "on_pohitegevusala": false
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "28.06.2018",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000366081,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000947026,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "28.06.2018",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000366080,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000947027,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
+                "nace_kood": "33.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

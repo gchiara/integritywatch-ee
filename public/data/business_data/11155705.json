@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Kristjan",
-            "isikukood": "37610010211",
+            "isikukood": null,
+            "isikukood_hash": "043e3e33-3e5c-548b-a29a-17f4a0a9fbf2",
             "kirje_id": 9000679885,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Martin",
-            "isikukood": "37806240274",
+            "isikukood": null,
+            "isikukood_hash": "1a392113-0600-5fb4-804b-ac0664b94886",
             "kirje_id": 9000679883,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37610010211",
+            "isikukood_hash": "043e3e33-3e5c-548b-a29a-17f4a0a9fbf2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37806240274",
+            "isikukood_hash": "1a392113-0600-5fb4-804b-ac0664b94886",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pilliroo põik 3, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3804927,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "44"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pilliroo põik 3, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3545246,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "48"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pilliroo põik 3, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3217849,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, akna sisekatted jm eesriided",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "46"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pilliroo põik 3, Laagri alevik, Saue vald, Harju maakond, 76401",
                 "kirje_id": 2946044,
@@ -375,7 +415,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -403,6 +443,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "26.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 13767145,
+                "lopp_kpv": null,
+                "sisu": "Avaeksperdid osaühing (jagunev ühing, registrikood 11155705, aadress Harju maakond, Saue vald, Laagri alevik, Pilliroo põik 3, 76401) jaguneb eraldumise teel andes osa oma varast omandavale ühingule Avakinnisvara OÜ (registrikood 17436888, aadress Harju maakond, Tallinn, Nõmme linnaosa, Kalda tn 9a, 11625). Jagunemisleping on sõlmitud 17.03.2026. Jagunemisotsused võeti vastu 02.04.2026. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -448,12 +502,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7673407,
+                "kande_nr": 9,
+                "kirje_id": 12733246,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@avaeksperdid.ee"
+                "sisu": "kristjan@avaeksperdid.ee"
             },
             {
                 "kaardi_nr": null,
@@ -471,17 +525,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000200190,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.avaeksperdid.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 3000200191,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
@@ -493,11 +536,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000200192,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000714944,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 6520868"
+                "sisu": "http://www.avaeksperdid.ee"
             }
         ],
         "staatus": "R",
@@ -515,12 +558,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "04.08.2025",
                 "emtak_kood": "13921",
-                "emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, aknasisekatted jm eesriided",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000036754,
+                "emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001040756,
                 "lopp_kpv": null,
                 "nace_kood": "13.92",
                 "on_pohitegevusala": true

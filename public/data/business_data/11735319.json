@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.06.2019",
             "eesnimi": "Tiia",
-            "isikukood": "47810100292",
+            "isikukood": null,
+            "isikukood_hash": "aba23b3c-cf1d-5194-9e9d-0619f8a2495e",
             "kirje_id": 9000980826,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47810100292",
+            "isikukood_hash": "aba23b3c-cf1d-5194-9e9d-0619f8a2495e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9646868",
+                "aadress_ads__adob_id": "11193414",
                 "aadress_ads__adr_id": 3433114,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Kohila vald, Aespa alevik, Sõbra tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõbra tn 7, Aespa alevik, Kohila vald, Rapla maakond, 79701",
+                "kirje_id": 3673252,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõbra tn 7, Aespa alevik, Kohila vald, Rapla maakond, 79701",
+                "kirje_id": 3409782,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46322",
+                "tegevusala_emtak_tekstina": "Kala ja kalatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.32",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõbra tn 7, Aespa alevik, Kohila vald, Rapla maakond, 79701",
+                "kirje_id": 3105835,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46389",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toidukaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.38",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõbra tn 7, Aespa alevik, Kohila vald, Rapla maakond, 79701",
                 "kirje_id": 2823031,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -421,15 +459,70 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2011",
-                "emtak_kood": "46389",
-                "emtak_tekstina": "Mujal liigitamata toidukaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000126566,
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "46311",
+                "emtak_tekstina": "Puu- ja köögivilja hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000908744,
                 "lopp_kpv": null,
-                "nace_kood": "46.38",
+                "nace_kood": "46.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "46371",
+                "emtak_tekstina": "Kohvi, tee, kakao ja maitseainete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000908745,
+                "lopp_kpv": null,
+                "nace_kood": "46.37",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "46321",
+                "emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000908742,
+                "lopp_kpv": null,
+                "nace_kood": "46.32",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000908746,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2026",
+                "emtak_kood": "46331",
+                "emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001110375,
+                "lopp_kpv": null,
+                "nace_kood": "46.33",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.06.2026",
+                "emtak_kood": "46322",
+                "emtak_tekstina": "Kala ja kalatoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001110376,
+                "lopp_kpv": null,
+                "nace_kood": "46.32",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

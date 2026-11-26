@@ -1,6 +1,43 @@
 {
     "ariregistri_kood": 14650960,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "10.02.2025",
+            "eesnimi": "Arpad Joosep",
+            "isikukood": null,
+            "isikukood_hash": "ce368a3a-3532-5ee4-a614-1b1b8f8f4075",
+            "kirje_id": 9003419155,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Kääramees",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "10.02.2025",
+            "eesnimi": "Davor",
+            "isikukood": null,
+            "isikukood_hash": "59ad14de-c181-5e80-9c40-b7f94cba5dd9",
+            "kirje_id": 9003419154,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Tamm",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39808231419",
+            "isikukood_hash": "ce368a3a-3532-5ee4-a614-1b1b8f8f4075",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -59,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39710080276",
+            "isikukood_hash": "59ad14de-c181-5e80-9c40-b7f94cba5dd9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -124,6 +163,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Kanali tee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3736049,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kanali tee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3365759,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kanali tee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3174764,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4799",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kanali tee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2928924,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -186,7 +261,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -304,14 +379,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2020",
-                "emtak_kood": "4799",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484454,
+                "algus_kpv": "02.05.2025",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000863465,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.78",
                 "on_pohitegevusala": true
             }
         ],

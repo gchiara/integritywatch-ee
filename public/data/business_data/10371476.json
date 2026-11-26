@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Mati",
-            "isikukood": "36409245216",
+            "isikukood": null,
+            "isikukood_hash": "9387f794-fa74-5605-bf10-c8380589d8ba",
             "kirje_id": 9000764195,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36409245216",
+            "isikukood_hash": "9387f794-fa74-5605-bf10-c8380589d8ba",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -68,16 +70,16 @@
                 "aadress_ads__ads_oid": "ER01410868",
                 "aadress_ads__koodaadress": "609286775000006YR000031LY54230000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
+                "algus_kpv": "02.10.2024",
                 "ehak": "6775",
                 "ehak_nimetus": "Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7365141,
+                "kande_nr": 8,
+                "kirje_id": 12720250,
                 "lopp_kpv": null,
-                "postiindeks": "46301",
+                "postiindeks": "46303",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
                 "tanav_maja_korter": "Oru tn 6-24"
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 6-24, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46303",
+                "kirje_id": 3607100,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 6-24, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3101425,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 6-24, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3101098,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Oru tn 6-24, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
                 "kirje_id": 2713672,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -479,12 +517,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7748794,
+                "kande_nr": 8,
+                "kirje_id": 12720251,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mutionu58@hot.ee"
+                "sisu": "mutionu58@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -513,12 +551,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.06.2010",
+                "algus_kpv": "24.03.2026",
                 "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000026572,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001090300,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
                 "on_pohitegevusala": true

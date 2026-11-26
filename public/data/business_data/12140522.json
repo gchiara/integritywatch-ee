@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Anneli",
-            "isikukood": "46612062715",
+            "isikukood": null,
+            "isikukood_hash": "fa9cbc43-9411-53ce-9e45-7e4cd477b41f",
             "kirje_id": 9000745858,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46612062715",
+            "isikukood_hash": "fa9cbc43-9411-53ce-9e45-7e4cd477b41f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ringtee 2-33, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3608290,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee 2-33, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3352168,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee 2-33, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3089489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ringtee 2-33, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
                 "kirje_id": 2795208,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -324,19 +362,19 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7714579,
+                "kande_nr": 6,
+                "kirje_id": 12410363,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "ann@torvandi.ee"
+                "sisu": "anneli.palo1@gmail.com"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000197470,
+                "kirje_id": 9000705416,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
@@ -358,37 +396,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.07.2011",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000148471,
-                "lopp_kpv": null,
-                "nace_kood": "72.19",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "12.04.2023",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000678505,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.05.2020",
+                "algus_kpv": "08.04.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000475313,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000849270,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.04.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000849269,
+                "lopp_kpv": null,
+                "nace_kood": "72.10",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

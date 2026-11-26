@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Roman",
-            "isikukood": "38612030283",
+            "isikukood": null,
+            "isikukood_hash": "53e23e41-f71b-58ad-bb94-007962fbff71",
             "kirje_id": 9000731484,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.06.2023",
             "eesnimi": "Tatjana",
-            "isikukood": "48810010316",
+            "isikukood": null,
+            "isikukood_hash": "d3054820-9341-5a91-a63a-6e29f85ace54",
             "kirje_id": 9001579268,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38612030283",
+            "isikukood_hash": "53e23e41-f71b-58ad-bb94-007962fbff71",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48810010316",
+            "isikukood_hash": "d3054820-9341-5a91-a63a-6e29f85ace54",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Loitsu tn 1-177, Lasnamäe linnaosa, Tallinn, Harju maakond, 13622",
+                "kirje_id": 3776878,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loitsu tn 1-177, Lasnamäe linnaosa, Tallinn, Harju maakond, 13622",
+                "kirje_id": 3333782,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loitsu tn 1-177, Lasnamäe linnaosa, Tallinn, Harju maakond, 13622",
+                "kirje_id": 3105248,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Loitsu tn 1-177, Lasnamäe linnaosa, Tallinn, Harju maakond, 13622",
                 "kirje_id": 2832439,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,6 +362,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "29.06.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "kirje_id": 13839782,
+                "lopp_kpv": null,
+                "sisu": "Kanne tehtud 26. juuni 2026 Harju Maakohtu määruse nr 2-26-10339 alusel",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 3
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -412,12 +465,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.02.2016",
+                "algus_kpv": "03.03.2025",
                 "emtak_kood": "85591",
                 "emtak_tekstina": "Keeleõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000211934,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000829229,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

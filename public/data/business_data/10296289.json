@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Geidi",
-            "isikukood": "46210050028",
+            "isikukood": null,
+            "isikukood_hash": "d244f14d-02fc-5a03-a681-85dcbda2e9ba",
             "kirje_id": 9000822563,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Johan",
-            "isikukood": "39009180018",
+            "isikukood": null,
+            "isikukood_hash": "1923ba96-cada-5997-b60b-2c5d2f55d06f",
             "kirje_id": 9000822566,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39009180018",
+            "isikukood_hash": "1923ba96-cada-5997-b60b-2c5d2f55d06f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 13, Kuressaare linn, Saaremaa vald, Saare maakond, 93813",
+                "kirje_id": 3703390,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 13, Kuressaare linn, Saaremaa vald, Saare maakond, 93813",
+                "kirje_id": 3498182,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 13, Kuressaare linn, Saaremaa vald, Saare maakond, 93813",
+                "kirje_id": 3265215,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "49"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kauba tn 13, Kuressaare linn, Saaremaa vald, Saare maakond, 93813",
                 "kirje_id": 2764622,
@@ -460,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -545,28 +584,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000004890,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4533036"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000004891,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5091712"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 8000170496,
                 "liik": "FAX",
                 "liik_tekstina": "Faks",
@@ -578,11 +595,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000211498,
+                "kirje_id": 9000709940,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 4540000"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000709941,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.johan.ee"
+                "sisu": "http://www.johan.ee"
             }
         ],
         "staatus": "R",
@@ -600,48 +628,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.07.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000643166,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995375,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.07.2010",
-                "emtak_kood": "96021",
-                "emtak_tekstina": "Juuksuri- ja muu iluteenindus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000076536,
-                "lopp_kpv": null,
-                "nace_kood": "96.02",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.07.2010",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000076535,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "55101",
-                "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000009679,
-                "lopp_kpv": null,
-                "nace_kood": "55.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47911",
+                "emtak_tekstina": "Spetsialiseerimata jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995376,
+                "lopp_kpv": null,
+                "nace_kood": "47.91",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

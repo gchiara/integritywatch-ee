@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Sivar",
-            "isikukood": "36802266019",
+            "isikukood": null,
+            "isikukood_hash": "e74040b2-82de-5c02-ba43-089bb6056199",
             "kirje_id": 9000807418,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36802266019",
+            "isikukood_hash": "e74040b2-82de-5c02-ba43-089bb6056199",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vambola tn 2-2, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71502",
+                "kirje_id": 3710995,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vambola tn 2-2, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71502",
+                "kirje_id": 3440159,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vambola tn 2-2, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71502",
+                "kirje_id": 3066090,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81291",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vambola tn 2-2, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71502",
                 "kirje_id": 2885399,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -491,12 +529,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7780492,
+                "kande_nr": 8,
+                "kirje_id": 12352713,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "anneli@sjg.edu.ee"
+                "sisu": "sivar.joandi@mail.ee"
             },
             {
                 "kaardi_nr": null,
@@ -525,36 +563,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.06.2020",
-                "emtak_kood": "4931",
-                "emtak_tekstina": "Sõitjate asulasisene ja linnalähitransport",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484637,
-                "lopp_kpv": null,
-                "nace_kood": "49.31",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.04.2021",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000540557,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937839,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "06.04.2021",
-                "emtak_kood": "81291",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "81231",
                 "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000540558,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937840,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             }
         ],

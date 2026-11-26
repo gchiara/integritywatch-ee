@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/oswald.css">
-  <link rel="stylesheet" href="static/organizations.css?v=7">
+  <link rel="stylesheet" href="static/organizations.css?v=11">
 </head>
 <body>
     <div id="app" class="organizations-page">   
@@ -29,12 +29,21 @@
             <div class="top-description-text">
               <h1>Juriidilised isikud ja erakondade rahastus</h1>
               <h2>See on kasutajasõbralik interaktiivne andmebaas, mis pakub ainulaadset ülevaadet hanketeadetes esinevatest hankijatest ja hangetes osalevatest ettevõtetest.</h2>
+              <p>Klõpsa allpool olevale graafikule või tabelile, et juriidilisi isikuid järjestada, sorteerida ja filtreerida.</p>
               <a class="read-more-btn" href="./about.php?section=4">Loe lisaks</a>
               <button class="social-share-btn twitter-btn" @click="share('twitter')"><img src="./images/twitter-nobg.png" />Jaga Twitteris/X-s</button>
               <button class="social-share-btn  facebook-btn" @click="share('facebook')"><img src="./images/facebook-nobg.png" />Jaga Facebookis</button>
-              <p>Klõpsa allpool olevale graafikule või tabelile, et juriidilisi isikuid järjestada, sorteerida ja filtreerida.</p>
             </div>
             <i class="material-icons close-btn" @click="showInfo = false">close</i>
+          </div>
+        </div>
+      </div>
+      <!-- Disclaimer -->
+      <div class="top-description-disclaimer" v-if="showInfo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 top-description-disclaimer-text">Alates 10. juulist 2026 võivad Eesti äriregistri tegelike kasusaajate andmetele kehtida uued juurdepääsupiirangud. Seetõttu ei pruugi Integrity Watch Estonia platvormil (Ausa Riigi Valvur) olla enam juurdepääsu täielikele tegelike kasusaajate andmetele, mida on seni kasutatud mõnede korruptsiooniriski indikaatorite arvutamisel. Sellest tulenevalt võivad tegelike kasusaajate andmetel põhinevad indikaatorid olla mittetäielikud või mitte enam täielikult ajakohased. MTÜ Korruptsioonivaba Eesti ei saa tagada selliste indikaatorite jätkuvat täpsust ega täielikkust seoses ametlike lähteandmete kättesaadavuse muutumisega.</div>
+            <div class="col-md-6 top-description-disclaimer-text">From 10 July 2026, access to beneficial ownership information in the Estonian Business Register may be subject to new legal restrictions. As a result, Integrity Watch Estonia may no longer have access to the complete beneficial ownership data previously used to calculate certain risk indicators. Indicators and analyses that rely on beneficial ownership information may therefore be incomplete or no longer fully up to date. Transparency International Estonia cannot guarantee the continued accuracy or completeness of such indicators where this is a consequence of changes to the availability of official source data.</div>
           </div>
         </div>
       </div>
@@ -143,7 +152,7 @@
             </div>
             <!-- Modal body -->
             <div class="modal-body">
-              <div class="container">
+              <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="details-line"><span class="details-line-title">Registrikood:</span> {{ selectedEl.id }}</div>
@@ -189,7 +198,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js?v=1"></script>
 
-    <script src="static/organizations.js?v=7"></script>
+    <script src="static/organizations.js?v=11"></script>
 
  
 </body>

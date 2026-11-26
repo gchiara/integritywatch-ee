@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Aleksandr",
-            "isikukood": "35909240266",
+            "isikukood": null,
+            "isikukood_hash": "3120615e-6992-57b6-91ec-338c3643779b",
             "kirje_id": 9000781229,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35909240266",
+            "isikukood_hash": "3120615e-6992-57b6-91ec-338c3643779b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 91, Lasnamäe linnaosa, Tallinn, Harju maakond, 13911",
+                "kirje_id": 3732328,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 91, Lasnamäe linnaosa, Tallinn, Harju maakond, 13911",
+                "kirje_id": 3415510,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 91, Lasnamäe linnaosa, Tallinn, Harju maakond, 13911",
+                "kirje_id": 3185309,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Linnamäe tee 91, Lasnamäe linnaosa, Tallinn, Harju maakond, 13911",
                 "kirje_id": 2876678,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -492,56 +530,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7660418,
+                "kande_nr": 9,
+                "kirje_id": 13837356,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mallev2@hotmail.com"
+                "sisu": "info@taldrik.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000053462,
+                "kirje_id": 9000745731,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5111426"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000053463,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6054308"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000119629,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6054308"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000036041,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6366190"
+                "sisu": "+372 5501500"
             }
         ],
         "staatus": "R",
@@ -559,14 +564,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.05.2011",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000113229,
+                "algus_kpv": "15.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000914266,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
             }
         ],

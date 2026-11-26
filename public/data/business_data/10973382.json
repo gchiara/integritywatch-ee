@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Anneli",
-            "isikukood": "47504030215",
+            "isikukood": null,
+            "isikukood_hash": "a3f6be83-8014-5096-934e-0eb9493ff1ed",
             "kirje_id": 9000844162,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Ero",
-            "isikukood": "36603030210",
+            "isikukood": null,
+            "isikukood_hash": "77c9a655-3d8d-5912-b488-782fa853c798",
             "kirje_id": 9000844160,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47504030215",
+            "isikukood_hash": "a3f6be83-8014-5096-934e-0eb9493ff1ed",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36603030210",
+            "isikukood_hash": "77c9a655-3d8d-5912-b488-782fa853c798",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 13-17, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3662375,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74141",
+                "tegevusala_emtak_tekstina": "Muu disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.14",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 13-17, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3377368,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74141",
+                "tegevusala_emtak_tekstina": "Muu disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.14",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 13-17, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3129094,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74101",
+                "tegevusala_emtak_tekstina": "Disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.10",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 13-17, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
                 "kirje_id": 2852326,
@@ -399,7 +439,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -508,14 +548,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2022",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000628855,
+                "algus_kpv": "20.05.2025",
+                "emtak_kood": "74141",
+                "emtak_tekstina": "Muu disainerite tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875964,
                 "lopp_kpv": null,
-                "nace_kood": "74.10",
+                "nace_kood": "74.14",
                 "on_pohitegevusala": true
             }
         ],

@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2022-11-01",
+                "award_date_conclusion_contract": [
+                    "2022-11-01"
+                ],
                 "award_value": "1000000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "not published"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Lennuvälja maandumis- ja navigatsioonisüsteemi TACAN uuendus ja elutsükli tagamine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -52,5 +54,58 @@
             }
         ],
         "refnum": "244001"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-09-27"
+                ],
+                "award_value": "1639760.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "05712031003",
+                        "contractor_name": "Thales Italia S.P.A.",
+                        "country": "ITA"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "WAM katteala laiendamine (Lennuliiklusteenindus)",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70007340",
+                "name": "Riigi Tugiteenuste Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "05712031003"
+        ],
+        "cpv": "34968100",
+        "date_dispatch_notice": "2024-10-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_761f45b6-b770-42c7-9685-e15b42023db0_0.json",
+        "flags": [
+            "Tenders received low"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "761f45b6-b770-42c7-9685-e15b42023db0",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "280380",
+        "total_amount": "1639760.00",
+        "total_amount_curr": "EUR"
     }
 ]

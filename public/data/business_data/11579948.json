@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Taavi",
-            "isikukood": "38009256027",
+            "isikukood": null,
+            "isikukood_hash": "a459bb5a-a1c4-5180-9f7c-9e31d5e28073",
             "kirje_id": 9000682957,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38009256027",
+            "isikukood_hash": "a459bb5a-a1c4-5180-9f7c-9e31d5e28073",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10272450",
+                "aadress_ads__adob_id": "11101678",
                 "aadress_ads__adr_id": 3591076,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Männiku tee 104/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 104/1, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3760600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 104/1, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3527656,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 104/1, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3272678,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu teimimine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiku tee 104/1, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
                 "kirje_id": 2950332,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -407,37 +445,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.07.2022",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "43212",
+                "emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128795,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "43351",
+                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128796,
+                "lopp_kpv": null,
+                "nace_kood": "43.35",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "06.07.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000641416,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001023702,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "07.07.2022",
+                "algus_kpv": "06.07.2025",
                 "emtak_kood": "71209",
-                "emtak_tekstina": "Muu teimimine ja analüüs",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000641417,
+                "emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001023701,
                 "lopp_kpv": null,
                 "nace_kood": "71.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.07.2022",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000641418,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

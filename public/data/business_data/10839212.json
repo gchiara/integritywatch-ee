@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.10.2022",
             "eesnimi": "Kert",
-            "isikukood": "38105120227",
+            "isikukood": null,
+            "isikukood_hash": "0d0d8c52-bbee-500a-a02d-14a9079565bf",
             "kirje_id": 9001486241,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38105120227",
+            "isikukood_hash": "0d0d8c52-bbee-500a-a02d-14a9079565bf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9874843",
-                "aadress_ads__adr_id": 2556046,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Vääna tn 11/3",
+                "aadress_ads__adob_id": "10956917",
+                "aadress_ads__adr_id": 3591779,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Telliskivi tn 57b/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE03655715",
-                "aadress_ads__koodaadress": "377840524000003Q90000AQTK00000000",
+                "aadress_ads__ads_oid": "ME01098464",
+                "aadress_ads__koodaadress": "3778406140000047I0000COHY00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.04.2020",
-                "ehak": "0524",
-                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "30.06.2025",
+                "ehak": "0614",
+                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 9020781,
+                "kande_nr": 25,
+                "kirje_id": 13185848,
                 "lopp_kpv": null,
-                "postiindeks": "11612",
+                "postiindeks": "10412",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vääna tn 11/3"
+                "tanav_maja_korter": "Telliskivi tn 57b/1"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 57b/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3775734,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58291",
+                "tegevusala_emtak_tekstina": "Muu tarkvara kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.29",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 57b/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3502458,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vääna tn 11/3-18, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3213600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vääna tn 11/3, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
                 "kirje_id": 2952212,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -444,12 +482,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7667565,
+                "kande_nr": 26,
+                "kirje_id": 13842792,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@webware.ee"
+                "sisu": "info@webware.eu"
             },
             {
                 "kaardi_nr": null,
@@ -467,11 +505,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000689025,
+                "kirje_id": 9000745918,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "https://webware.ee"
+                "sisu": "https://webware.eu"
             }
         ],
         "staatus": "R",
@@ -489,14 +527,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.08.2012",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000210215,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "58291",
+                "emtak_tekstina": "Muu tarkvara kirjastamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001131881,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "58.29",
                 "on_pohitegevusala": true
             }
         ],

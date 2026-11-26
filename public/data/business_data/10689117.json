@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2018",
             "eesnimi": "Ago",
-            "isikukood": "36604286026",
+            "isikukood": null,
+            "isikukood_hash": "6199631c-267b-56c2-aa3c-e3f5767b903d",
             "kirje_id": 9000883486,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36604286026",
+            "isikukood_hash": "6199631c-267b-56c2-aa3c-e3f5767b903d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9203030",
+                "aadress_ads__adob_id": "11129521",
                 "aadress_ads__adr_id": 3297108,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Võhma linn, Koidu tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 7, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70602",
+                "kirje_id": 3750134,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "28302",
+                "tegevusala_emtak_tekstina": "Metsamajandusmasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.30",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 7, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70602",
+                "kirje_id": 3479558,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46711",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.71",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tn 7, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70602",
+                "kirje_id": 3216942,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "33"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koidu tn 7, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70602",
                 "kirje_id": 2918421,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -478,36 +516,80 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.02.2016",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000214850,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "28302",
+                "emtak_tekstina": "Metsamajandusmasinate tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126775,
                 "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "24.06.2019",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000423960,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
+                "nace_kood": "28.30",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "24.06.2019",
+                "algus_kpv": "30.06.2026",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000423961,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126776,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "29101",
+                "emtak_tekstina": "Mootorsõidukite tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126777,
+                "lopp_kpv": null,
+                "nace_kood": "29.10",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "46831",
+                "emtak_tekstina": "Puidu ja puidu esmatöötlustoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126778,
+                "lopp_kpv": null,
+                "nace_kood": "46.83",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975953,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975954,
+                "lopp_kpv": null,
+                "nace_kood": "01.19",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975952,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
                 "on_pohitegevusala": false
             }
         ],

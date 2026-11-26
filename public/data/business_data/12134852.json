@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 12134852,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "05.09.2024",
+            "eesnimi": "Mart",
+            "isikukood": null,
+            "isikukood_hash": "4e04ed8e-c1cd-55b4-a41e-75c58b9c3eac",
+            "kirje_id": 9001739798,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Vahtel",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37307100274",
+            "isikukood_hash": "4e04ed8e-c1cd-55b4-a41e-75c58b9c3eac",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -85,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Puhke, Dirhami küla / Derhamn, Lääne-Nigula vald, Lääne maakond, 91214",
+                "kirje_id": 3655225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10201",
+                "tegevusala_emtak_tekstina": "Kala, koorikloomade ja molluskite töötlemine ja säilitamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.20",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puhke, Dirhami küla / Derhamn, Lääne-Nigula vald, Lääne maakond, 91214",
+                "kirje_id": 3313234,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10201",
+                "tegevusala_emtak_tekstina": "Kala, vähilaadsete ja limuste töötlemine ja säilitamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puhke, Dirhami küla / Derhamn, Lääne-Nigula vald, Lääne maakond, 91214",
                 "kirje_id": 2965695,
@@ -233,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -325,45 +369,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.10.2020",
-                "emtak_kood": "03111",
-                "emtak_tekstina": "Merekalapüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000512995,
-                "lopp_kpv": null,
-                "nace_kood": "03.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.07.2016",
+                "algus_kpv": "29.05.2026",
                 "emtak_kood": "10201",
-                "emtak_tekstina": "Kala, vähilaadsete ja limuste töötlemine ja säilitamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000250369,
+                "emtak_tekstina": "Kala, koorikloomade ja molluskite töötlemine ja säilitamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106253,
                 "lopp_kpv": null,
                 "nace_kood": "10.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "07.07.2016",
-                "emtak_kood": "77399",
-                "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000250370,
-                "lopp_kpv": null,
-                "nace_kood": "77.39",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.07.2015",
+                "algus_kpv": "29.05.2026",
                 "emtak_kood": "55901",
                 "emtak_tekstina": "Muu majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000189157,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106254,
                 "lopp_kpv": null,
                 "nace_kood": "55.90",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Valev-Heiki",
-            "isikukood": "36611234215",
+            "isikukood": null,
+            "isikukood_hash": "cfbe5dbb-9928-52b7-b24a-e168c65e82bd",
             "kirje_id": 9000756839,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36611234215",
+            "isikukood_hash": "cfbe5dbb-9928-52b7-b24a-e168c65e82bd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10550270",
+                "aadress_ads__adob_id": "11121672",
                 "aadress_ads__adr_id": 3061063,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Savi tn 36c",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Savi tn 36c, Pärnu linn, Pärnu linn, Pärnu maakond, 80041",
+                "kirje_id": 3660036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "44"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Savi tn 36c, Pärnu linn, Pärnu linn, Pärnu maakond, 80041",
+                "kirje_id": 3429586,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "42"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Savi tn 36c, Pärnu linn, Pärnu linn, Pärnu maakond, 80041",
+                "kirje_id": 3120839,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "42"
+            },
             {
                 "ettevotja_aadress_aruandes": "Savi tn 36c, Pärnu linn, Pärnu linn, Pärnu maakond, 80041",
                 "kirje_id": 2803413,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -522,15 +560,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.06.2016",
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "25991",
                 "emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000233522,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927860,
                 "lopp_kpv": null,
                 "nace_kood": "25.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.06.2026",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107299,
+                "lopp_kpv": null,
+                "nace_kood": "46.64",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

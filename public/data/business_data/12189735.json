@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Sirje",
-            "isikukood": "47407114218",
+            "isikukood": null,
+            "isikukood_hash": "dca108ad-b653-5bd4-b729-bc5641bf4a00",
             "kirje_id": 9000760668,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47407114218",
+            "isikukood_hash": "dca108ad-b653-5bd4-b729-bc5641bf4a00",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8376993",
-                "aadress_ads__adr_id": 2922661,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Jäärja küla, Kiisa",
+                "aadress_ads__adob_id": "8431208",
+                "aadress_ads__adr_id": 2909689,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Jäärja küla, Jäärja mõis",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00707771",
-                "aadress_ads__koodaadress": "687122370000000002WOJ000000000000",
+                "aadress_ads__ads_oid": "EE01867329",
+                "aadress_ads__koodaadress": "68712237000000000C5CQ000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.03.2022",
+                "algus_kpv": "18.02.2026",
                 "ehak": "2370",
                 "ehak_nimetus": "Jäärja küla, Saarde vald, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10019875,
+                "kande_nr": 8,
+                "kirje_id": 13578160,
                 "lopp_kpv": null,
                 "postiindeks": "86205",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kiisa"
+                "tanav_maja_korter": "Jäärja mõis"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jäärja mõis, Jäärja küla, Saarde vald, Pärnu maakond, 86205",
+                "kirje_id": 3731306,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiisa, Jäärja küla, Saarde vald, Pärnu maakond, 86205",
+                "kirje_id": 3492916,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiisa, Jäärja küla, Saarde vald, Pärnu maakond, 86205",
+                "kirje_id": 3195289,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiisa, Jäärja küla, Saarde vald, Pärnu maakond, 86205",
                 "kirje_id": 2858715,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -306,13 +344,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.03.2022",
+                "algus_kpv": "18.02.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "01.03.2022",
-                "kirje_id": 10019876,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13578161,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -358,12 +396,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.11.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000090106,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990073,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true

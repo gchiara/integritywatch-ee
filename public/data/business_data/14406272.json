@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Erki",
-            "isikukood": "37106104915",
+            "isikukood": null,
+            "isikukood_hash": "b7fd829a-fd79-5cd8-aa31-f601ac1f387a",
             "kirje_id": 9000740228,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37106104915",
+            "isikukood_hash": "b7fd829a-fd79-5cd8-aa31-f601ac1f387a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9442611",
-                "aadress_ads__adr_id": 3392665,
+                "aadress_ads__adob_id": "11034331",
+                "aadress_ads__adr_id": 3778950,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Vainu küla, Lagle tee 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01116765",
-                "aadress_ads__koodaadress": "68809888500000K4500003W1T00000000",
+                "aadress_ads__koodaadress": "68806888500000K4500003W1T00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "11.01.2018",
                 "ehak": "8885",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lagle tee 6, Vainu küla, Tori vald, Pärnu maakond, 85011",
+                "kirje_id": 3602380,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lagle tee 6, Vainu küla, Tori vald, Pärnu maakond, 85011",
+                "kirje_id": 3361192,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lagle tee 6, Vainu küla, Tori vald, Pärnu maakond, 85011",
+                "kirje_id": 3093870,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lagle tee 6, Vainu küla, Tori vald, Pärnu maakond, 85011",
                 "kirje_id": 2781618,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,12 +324,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.01.2018",
+                "algus_kpv": "25.04.2025",
                 "emtak_kood": "46611",
                 "emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000335143,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858761,
                 "lopp_kpv": null,
                 "nace_kood": "46.61",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Ergo",
-            "isikukood": "37406030221",
+            "isikukood": null,
+            "isikukood_hash": "2a44a802-9091-5ee8-a652-0d44bdbf38e6",
             "kirje_id": 9000804483,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37406030221",
+            "isikukood_hash": "2a44a802-9091-5ee8-a652-0d44bdbf38e6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10135567",
+                "aadress_ads__adob_id": "10954424",
                 "aadress_ads__adr_id": 3540518,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Uusaru põik 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Uusaru põik 4, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3761535,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uusaru põik 4, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3410621,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uusaru põik 4, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3191194,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Uusaru põik 4, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2843174,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -347,12 +385,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2014",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000116136,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909593,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": true

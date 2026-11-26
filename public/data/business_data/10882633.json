@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Timo",
-            "isikukood": "38209152725",
+            "isikukood": null,
+            "isikukood_hash": "bf43f3c0-bae4-5a57-8243-a1e773decd95",
             "kirje_id": 9000764006,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38209152725",
+            "isikukood_hash": "bf43f3c0-bae4-5a57-8243-a1e773decd95",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Neeruti küla, Otepää vald, Valga maakond, 67505",
+                "kirje_id": 3831115,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55103",
+                "tegevusala_emtak_tekstina": "Külalistemajad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Neeruti küla, Otepää vald, Valga maakond, 67505",
+                "kirje_id": 3552529,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90121",
+                "tegevusala_emtak_tekstina": "Visuaalkunstiloome",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Neeruti küla, Otepää vald, Valga maakond, 67505",
+                "kirje_id": 3074104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90031",
+                "tegevusala_emtak_tekstina": "Kunstialane loometegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.03",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Neeruti küla, Otepää vald, Valga maakond, 67505",
+                "kirje_id": 2995390,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "90031",
+                "tegevusala_emtak_tekstina": "Kunstialane loometegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.03",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ojaveere, Neeruti küla, Otepää vald, Valga maakond, 67505",
                 "kirje_id": 2497195,
@@ -334,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -443,15 +493,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2012",
-                "emtak_kood": "90031",
-                "emtak_tekstina": "Kunstialane loometegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000202224,
+                "algus_kpv": "11.09.2026",
+                "emtak_kood": "55103",
+                "emtak_tekstina": "Külalistemajad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001149920,
                 "lopp_kpv": null,
-                "nace_kood": "90.03",
+                "nace_kood": "55.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "11.09.2026",
+                "emtak_kood": "90121",
+                "emtak_tekstina": "Visuaalkunstiloome",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001149921,
+                "lopp_kpv": null,
+                "nace_kood": "90.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

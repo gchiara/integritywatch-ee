@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kaupo",
-            "isikukood": "37512140243",
+            "isikukood": null,
+            "isikukood_hash": "65b977ea-078c-5973-9c87-55906f5d9df4",
             "kirje_id": 9000774877,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37512140243",
+            "isikukood_hash": "65b977ea-078c-5973-9c87-55906f5d9df4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10501044",
-                "aadress_ads__adr_id": 2262129,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Toompuiestee 4",
+                "aadress_ads__adob_id": "9628231",
+                "aadress_ads__adr_id": 2268585,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Saku tn 6a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01657853",
-                "aadress_ads__koodaadress": "377840298000003XL00001EWB00000000",
+                "aadress_ads__ads_oid": "ME00638133",
+                "aadress_ads__koodaadress": "3778402980000040P00000OJX00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "14.08.2018",
+                "algus_kpv": "05.09.2025",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8198711,
+                "kande_nr": 3,
+                "kirje_id": 13295287,
                 "lopp_kpv": null,
-                "postiindeks": "10142",
+                "postiindeks": "11314",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Toompuiestee 4"
+                "tanav_maja_korter": "Saku tn 6a"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saku tn 6a, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3676449,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3352615,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3184219,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Toompuiestee 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
                 "kirje_id": 2850731,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -275,14 +313,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.08.2018",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000379537,
+                "algus_kpv": "09.04.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000849778,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": true
             }
         ],

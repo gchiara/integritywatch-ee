@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Helen",
-            "isikukood": "47508170356",
+            "isikukood": null,
+            "isikukood_hash": "b3e1bf16-d445-5767-aba5-63a4e884278b",
             "kirje_id": 9000657975,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Jonne",
-            "isikukood": "37206072716",
+            "isikukood": null,
+            "isikukood_hash": "5003de0f-211e-5c33-82c8-37b40b778529",
             "kirje_id": 9000657976,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47508170356",
+            "isikukood_hash": "b3e1bf16-d445-5767-aba5-63a4e884278b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206072716",
+            "isikukood_hash": "5003de0f-211e-5c33-82c8-37b40b778529",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kummeli tee 20, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3515040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "8559",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kummeli tee 20, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3210965,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kummeli tee 20, Pirita linnaosa, Tallinn, Harju maakond, 11912",
                 "kirje_id": 2757435,
@@ -281,7 +309,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -367,12 +395,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7811053,
+                "kande_nr": 7,
+                "kirje_id": 12415431,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "helen.orav@sea.ee"
+                "sisu": "helen.oravkotta@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -401,26 +429,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.05.2018",
-                "emtak_kood": "74901",
-                "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000352899,
-                "lopp_kpv": null,
-                "nace_kood": "74.90",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "15.02.2020",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000463610,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "8559",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012037,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

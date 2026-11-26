@@ -1,6 +1,43 @@
 {
     "ariregistri_kood": 80234545,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "01.03.2025",
+            "eesnimi": "Elinor",
+            "isikukood": null,
+            "isikukood_hash": "a34c90ca-3030-5041-9a54-6d205cbf4939",
+            "kirje_id": 9003424995,
+            "kontrolli_teostamise_viis": "C",
+            "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Kimmel-Rikk",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "01.03.2025",
+            "eesnimi": "Raul",
+            "isikukood": null,
+            "isikukood_hash": "c164c39c-f5ec-55a7-b490-1f85b9a0d37f",
+            "kirje_id": 9003424994,
+            "kontrolli_teostamise_viis": "C",
+            "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Rink",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48102282726",
+            "isikukood_hash": "a34c90ca-3030-5041-9a54-6d205cbf4939",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -57,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36501140221",
+            "isikukood_hash": "c164c39c-f5ec-55a7-b490-1f85b9a0d37f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -120,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sadama tee 11, Rohuneeme küla, Viimsi vald, Harju maakond, 74012",
+                "kirje_id": 3723323,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tee 11, Rohuneeme küla, Viimsi vald, Harju maakond, 74012",
+                "kirje_id": 3411970,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tee 11, Rohuneeme küla, Viimsi vald, Harju maakond, 74012",
+                "kirje_id": 3136471,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sadama tee 11, Rohuneeme küla, Viimsi vald, Harju maakond, 74012",
                 "kirje_id": 2886453,
@@ -290,7 +365,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -417,14 +492,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "93121",
-                "emtak_tekstina": "Spordiklubide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565294,
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000910859,
                 "lopp_kpv": null,
-                "nace_kood": "93.12",
+                "nace_kood": "93.29",
                 "on_pohitegevusala": true
             }
         ],

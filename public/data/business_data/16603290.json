@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2022",
             "eesnimi": "Bo Mikael Mathias",
-            "isikukood": "36307090350",
+            "isikukood": null,
+            "isikukood_hash": "0fc23aba-a054-57c5-be15-c7b02d10ef11",
             "kirje_id": 9001492733,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.11.2022",
             "eesnimi": "Rait",
-            "isikukood": "36905026019",
+            "isikukood": null,
+            "isikukood_hash": "2ed0b2f3-04ff-509f-8fec-d91cf96dd0c9",
             "kirje_id": 9001501452,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47201100333",
+            "isikukood_hash": "f539e37f-28c5-5d5f-93c4-85ed15afa176",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36905026019",
+            "isikukood_hash": "2ed0b2f3-04ff-509f-8fec-d91cf96dd0c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -156,6 +160,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare pst 35, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3827124,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "61"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare pst 35, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3547524,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "64"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare pst 35, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3279095,
+                "majandusaasta_perioodi_algus_kpv": "28.10.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "67"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "28.10.2022",
@@ -171,7 +213,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,6 +292,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@hestiahotels.com"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000696596,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.hestiahotels.com/strand/"
             }
         ],
         "staatus": "R",
@@ -267,15 +320,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.10.2022",
+                "algus_kpv": "11.08.2025",
                 "emtak_kood": "55101",
                 "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000655770,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001043130,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "11.08.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001043131,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "11.08.2025",
+                "emtak_kood": "96999",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001043132,
+                "lopp_kpv": null,
+                "nace_kood": "96.99",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "11.08.2025",
+                "emtak_kood": "93111",
+                "emtak_tekstina": "Spordiehitiste käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001043133,
+                "lopp_kpv": null,
+                "nace_kood": "93.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

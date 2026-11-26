@@ -82,13 +82,10 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37405216534",
-            "Nominees as company board members: 37405216534",
             "Possible shell company: 12537797"
         ],
         "noticeUid": "a1a7cf4d-200e-4515-808e-ad8e66c27644",
@@ -169,14 +166,11 @@
         "filename": "award_edf7dea5-2df6-40fa-b73b-b699f7795618_0.json",
         "flags": [
             "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10117045",
-            "Nominees as company beneficial owners: 37405216534",
-            "Nominees as company board members: 37405216534"
+            "Possible shell company: 10117045"
         ],
         "noticeUid": "edf7dea5-2df6-40fa-b73b-b699f7795618",
         "notice_items": [
@@ -425,26 +419,17 @@
             "Tenders received info missing",
             "Too few evaluation criteria",
             "Possible shell company",
-            "Nominees as company board members or beneficial owners",
-            "Seller is a large political donor"
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10234070",
-            "Nominees as company beneficial owners: 36801100286",
-            "Nominees as company beneficial owners: 36611272728",
-            "Nominees as company board members: 36801100286",
-            "Nominees as company board members: 36611272728",
+            "Nominees as company beneficial owners: Ivar_Lindla_28.09.2018",
+            "Nominees as company beneficial owners: Marko_Kalle_28.09.2018",
             "Possible shell company: 10951954",
             "Possible shell company: 10078457",
-            "Political donations from beneficial owner of a contractor company: Margus Linnamäe. Company: aktsiaselts SEMETRON(10078457). AMT: 50000",
-            "Nominees as company beneficial owners: 36401052714",
-            "Nominees as company board members: 37907190299",
-            "Nominees as company beneficial owners: 37405216534",
-            "Nominees as company board members: 37405216534",
-            "Possible shell company: 14671131",
-            "Nominees as company beneficial owners: 36910140210",
-            "Nominees as company board members: 36910140210"
+            "Nominees as company beneficial owners: Margus_Linnamäe_19.10.2018",
+            "Possible shell company: 14671131"
         ],
         "noticeUid": "5f54bfdb-59df-42a0-b52d-e16aa2a1f948",
         "notice_items": [
@@ -472,7 +457,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-20",
+                "award_date_conclusion_contract": [
+                    "2023-08-20"
+                ],
                 "award_value": "20990.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -487,7 +474,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Autoklaavide ostmine paigalduse ja hooldusega",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -510,14 +497,11 @@
         "flags": [
             "Tenders received low",
             "Term of contract (long or indefinite)",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Long duration: 63 MONTH",
-            "Nominees as company beneficial owners: 37405216534",
-            "Nominees as company board members: 37405216534"
+            "Long duration: 63 MONTH"
         ],
         "noticeUid": "a8ae087b-79ca-4e2f-84b8-35a99230b25b",
         "notice_items": [
@@ -531,5 +515,172 @@
         "refnum": "266923",
         "total_amount": "58834.90",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-11-07"
+                ],
+                "award_value": "19365.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11317734",
+                        "contractor_name": "OÜ Getama",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Siibripesumasinate ja hambaravi desinfektori ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822269",
+                "name": "Aktsiaselts Lääne-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "12537797",
+            "11317734"
+        ],
+        "cpv": "33191000",
+        "date_dispatch_notice": "2023-11-08",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ba752b30-0f3c-4a63-a727-70b59dece4da_0.json",
+        "flags": [
+            "Tenders received low",
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Long duration: 84 MONTH"
+        ],
+        "noticeUid": "ba752b30-0f3c-4a63-a727-70b59dece4da",
+        "notice_items": [
+            {
+                "duration": "84 MONTH"
+            },
+            {
+                "duration": "84 MONTH"
+            }
+        ],
+        "refnum": "267606",
+        "total_amount": "76465.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-04-21"
+                ],
+                "award_value": "20800.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11317734",
+                        "contractor_name": "OÜ Getama",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Hambaravi tarvikute ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822269",
+                "name": "Aktsiaselts Lääne-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11317734"
+        ],
+        "cpv": "33141800",
+        "date_dispatch_notice": "2026-07-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_f90bbe4e-694d-4974-9544-8f708e7ea674_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "f90bbe4e-694d-4974-9544-8f708e7ea674",
+        "notice_items": [
+            {},
+            {},
+            {}
+        ],
+        "refnum": "302786-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-04-20"
+                ],
+                "award_value": "1897.60",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11317734",
+                        "contractor_name": "OÜ Getama",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Meditsiiniliste instrumentide desinfektsiooni vahendite ostmine KORDUSHANGE",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822269",
+                "name": "Aktsiaselts Lääne-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11317734"
+        ],
+        "cpv": "24455000",
+        "date_dispatch_notice": "2026-07-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_dd5604fd-d851-423a-a17b-6c6f1a3cab77_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "dd5604fd-d851-423a-a17b-6c6f1a3cab77",
+        "notice_items": [
+            {},
+            {}
+        ],
+        "refnum": "305277-0000"
     }
 ]

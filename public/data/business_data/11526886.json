@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.11.2018",
             "eesnimi": "Danel",
-            "isikukood": "37901054224",
+            "isikukood": null,
+            "isikukood_hash": "74b499be-0130-50fa-87e2-b8354c79512f",
             "kirje_id": 9000887224,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37901054224",
+            "isikukood_hash": "74b499be-0130-50fa-87e2-b8354c79512f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Põldeotsa, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3567800,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põldeotsa, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3314564,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põldeotsa, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
+                "kirje_id": 3017696,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Põldeotsa, Jõõpre küla, Pärnu linn, Pärnu maakond, 88303",
                 "kirje_id": 2729479,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -407,48 +445,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.09.2022",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000651969,
-                "lopp_kpv": null,
-                "nace_kood": "02.40",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.11.2017",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000329949,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.11.2015",
-                "emtak_kood": "77311",
-                "emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000204063,
-                "lopp_kpv": null,
-                "nace_kood": "77.31",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.01.2014",
+                "algus_kpv": "18.11.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000094572,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066665,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "18.11.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066666,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.11.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066667,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.11.2025",
+                "emtak_kood": "66191",
+                "emtak_tekstina": "Finantsnõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066668,
+                "lopp_kpv": null,
+                "nace_kood": "66.19",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

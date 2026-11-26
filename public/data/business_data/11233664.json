@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "38903015728",
+            "isikukood": null,
+            "isikukood_hash": "c4865e34-73c9-52d3-bc89-42a07b4982dd",
             "kirje_id": 9000787871,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38903015728",
+            "isikukood_hash": "c4865e34-73c9-52d3-bc89-42a07b4982dd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8507664",
-                "aadress_ads__adr_id": 2976937,
+                "aadress_ads__adob_id": "10854537",
+                "aadress_ads__adr_id": 3715614,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Karula küla, Männimetsa",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00945824",
-                "aadress_ads__koodaadress": "818552775000000000GRR000000000000",
+                "aadress_ads__koodaadress": "818572775000000000GRR000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "14.02.2018",
                 "ehak": "2775",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männimetsa, Karula küla, Valga vald, Valga maakond, 68101",
+                "kirje_id": 3786722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männimetsa, Karula küla, Valga vald, Valga maakond, 68101",
+                "kirje_id": 3505397,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männimetsa, Karula küla, Valga vald, Valga maakond, 68101",
+                "kirje_id": 3219270,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "0111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männimetsa, Karula küla, Valga vald, Valga maakond, 68101",
                 "kirje_id": 2935659,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -430,47 +468,69 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706226,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002538,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706227,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706228,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002539,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706229,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002542,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "5221",
+                "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002541,
+                "lopp_kpv": null,
+                "nace_kood": "52.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002543,
+                "lopp_kpv": null,
+                "nace_kood": "02.40",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134209,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
                 "on_pohitegevusala": false
             }
         ],

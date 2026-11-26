@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "38809206539",
+            "isikukood": null,
+            "isikukood_hash": "a7ca2992-5b60-5308-95f2-d952a4eb8cf8",
             "kirje_id": 9000790674,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38809206539",
+            "isikukood_hash": "a7ca2992-5b60-5308-95f2-d952a4eb8cf8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9398365",
-                "aadress_ads__adr_id": 3377672,
+                "aadress_ads__adob_id": "10744480",
+                "aadress_ads__adr_id": 3700102,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Setomaa vald, Värska alevik, Järvesuu tn 3-6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01574401",
-                "aadress_ads__koodaadress": "8773296720000023C00005PBH8DOZ0000",
+                "aadress_ads__koodaadress": "87732967100000VPG0000D50WLJMJ0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "09.05.2022",
-                "ehak": "9672",
+                "ehak": "9671",
                 "ehak_nimetus": "Värska alevik, Setomaa vald, Võru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järvesuu tn 3-6, Värska alevik, Setomaa vald, Võru maakond, 64001",
+                "kirje_id": 3722082,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvesuu tn 3-6, Värska alevik, Setomaa vald, Võru maakond, 64001",
+                "kirje_id": 3531785,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvesuu tn 3-6, Värska alevik, Setomaa vald, Võru maakond, 64001",
+                "kirje_id": 3247440,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järvesuu tn 3-6, Värska alevik, Setomaa vald, Võru maakond, 64001",
                 "kirje_id": 2956617,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,12 +396,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.06.2021",
+                "algus_kpv": "09.07.2025",
                 "emtak_kood": "01131",
-                "emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000556264,
+                "emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001027731,
                 "lopp_kpv": null,
                 "nace_kood": "01.13",
                 "on_pohitegevusala": true

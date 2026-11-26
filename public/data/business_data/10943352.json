@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Aivar",
-            "isikukood": "37702212769",
+            "isikukood": null,
+            "isikukood_hash": "8ed095ab-cd24-5488-b7ed-3a3519c90688",
             "kirje_id": 9000759749,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Raivi",
-            "isikukood": "37510115720",
+            "isikukood": null,
+            "isikukood_hash": "5dc172fd-1964-563d-90f0-a26e159cc809",
             "kirje_id": 9000759758,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37702212769",
+            "isikukood_hash": "8ed095ab-cd24-5488-b7ed-3a3519c90688",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37510115720",
+            "isikukood_hash": "5dc172fd-1964-563d-90f0-a26e159cc809",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48307",
+                "kirje_id": 3685303,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48307",
+                "kirje_id": 3401192,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48307",
+                "kirje_id": 3133016,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4520",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Piiri tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48307",
                 "kirje_id": 2930366,
@@ -413,7 +453,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -520,14 +560,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.04.2021",
-                "emtak_kood": "4520",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000544832,
+                "algus_kpv": "07.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000898917,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

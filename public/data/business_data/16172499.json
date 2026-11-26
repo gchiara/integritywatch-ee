@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.03.2021",
             "eesnimi": "Egert",
-            "isikukood": "38503040327",
+            "isikukood": null,
+            "isikukood_hash": "0a451285-4c2c-599e-a60a-1329c74e2a2f",
             "kirje_id": 9001242461,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.03.2021",
             "eesnimi": "Tõnis",
-            "isikukood": "38510050334",
+            "isikukood": null,
+            "isikukood_hash": "c51b9681-3e36-5716-bf50-fea221d2a1e2",
             "kirje_id": 9001242462,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38503040327",
+            "isikukood_hash": "0a451285-4c2c-599e-a60a-1329c74e2a2f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38510050334",
+            "isikukood_hash": "c51b9681-3e36-5716-bf50-fea221d2a1e2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -150,13 +154,49 @@
                 "sisu": "Hundred99 OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "01.03.2021",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laulu tn 3-2, Nõmme linnaosa, Tallinn, Harju maakond, 10918",
+                "kirje_id": 3627747,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laulu tn 3-2, Nõmme linnaosa, Tallinn, Harju maakond, 10918",
+                "kirje_id": 3350893,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laulu tn 3-2, Nõmme linnaosa, Tallinn, Harju maakond, 10918",
+                "kirje_id": 3116769,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laulu tn 3-2, Nõmme linnaosa, Tallinn, Harju maakond, 10918",
                 "kirje_id": 2786589,
@@ -197,7 +237,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -270,12 +310,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 9481336,
+                "kande_nr": 4,
+                "kirje_id": 12377220,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "hello@hundred99.com"
+                "sisu": "hello@hundredagency.eu"
             },
             {
                 "kaardi_nr": null,
@@ -293,11 +333,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000621260,
+                "kirje_id": 9000703628,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "hundred99.com"
+                "sisu": "https://hundredagency.eu"
             }
         ],
         "staatus": "R",
@@ -315,14 +355,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.09.2022",
-                "emtak_kood": "82991",
-                "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000650549,
+                "algus_kpv": "07.04.2025",
+                "emtak_kood": "73111",
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000847876,
                 "lopp_kpv": null,
-                "nace_kood": "82.99",
+                "nace_kood": "73.11",
                 "on_pohitegevusala": true
             }
         ],

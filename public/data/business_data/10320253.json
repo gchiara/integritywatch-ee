@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Aavo",
-            "isikukood": "35501112715",
+            "isikukood": null,
+            "isikukood_hash": "200c520d-1dd3-59bd-958c-18f57f1b2758",
             "kirje_id": 9000773452,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Ülle",
-            "isikukood": "45205242732",
+            "isikukood": null,
+            "isikukood_hash": "e4a3374e-9585-5b95-bd35-5b907ed4adb5",
             "kirje_id": 9000773469,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35501112715",
+            "isikukood_hash": "200c520d-1dd3-59bd-958c-18f57f1b2758",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45205242732",
+            "isikukood_hash": "e4a3374e-9585-5b95-bd35-5b907ed4adb5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 15b, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3654074,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58112",
+                "tegevusala_emtak_tekstina": "Õpikute, sõnaraamatute jm teatmeteoste kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.11",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 15b, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3386972,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "58112",
+                "tegevusala_emtak_tekstina": "Õpikute, sõnaraamatute jm teatmeteoste kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.11",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 15b, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3137211,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "58112",
+                "tegevusala_emtak_tekstina": "Õpikute, sõnaraamatute jm teatmeteoste kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.11",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Riia tn 15b, Tartu linn, Tartu linn, Tartu maakond, 51010",
                 "kirje_id": 2827573,
@@ -483,7 +523,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -569,12 +609,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7775603,
+                "kande_nr": 9,
+                "kirje_id": 13776363,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "raamatupidamine@studium.ee"
+                "sisu": "ylle@studium.ee"
             },
             {
                 "kaardi_nr": null,
@@ -603,22 +643,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000106339,
+                "kirje_id": 9000744310,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.studium.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000106340,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7343735"
+                "sisu": "http://www.studium.ee"
             }
         ],
         "staatus": "R",
@@ -636,34 +665,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.03.2015",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000159772,
-                "lopp_kpv": null,
-                "nace_kood": "63.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.03.2010",
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "58111",
-                "emtak_tekstina": "Raamatukirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006265,
+                "emtak_tekstina": "Raamatute, brošüüride jms väljaannete kirjastamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000885509,
                 "lopp_kpv": null,
                 "nace_kood": "58.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "58112",
                 "emtak_tekstina": "Õpikute, sõnaraamatute jm teatmeteoste kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000007586,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000885508,
                 "lopp_kpv": null,
                 "nace_kood": "58.11",
                 "on_pohitegevusala": true

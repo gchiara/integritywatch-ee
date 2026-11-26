@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.12.2018",
             "eesnimi": "Margus",
-            "isikukood": "36401052714",
+            "isikukood": null,
+            "isikukood_hash": "9aa671d3-84a6-5513-8432-63b86be0f663",
             "kirje_id": 9000902845,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37407246510",
+            "isikukood_hash": "536ce7f1-4819-5abd-8f3d-b327fccb38cc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10562890",
+                "aadress_ads__adob_id": "11111590",
                 "aadress_ads__adr_id": 2307661,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 80",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3565243,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2025",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3305395,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2024",
+                "tegevusala_emtak_kood": "63121",
+                "tegevusala_emtak_tekstina": "Veebiportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3006216,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2023",
+                "tegevusala_emtak_kood": "63121",
+                "tegevusala_emtak_tekstina": "Veebiportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.12",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2738447,
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -251,26 +289,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.10.2020",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000512290,
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "68329",
+                "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063080,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
+                "nace_kood": "68.32",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.11.2018",
-                "emtak_kood": "63121",
-                "emtak_tekstina": "Veebiportaalide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000393393,
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "63911",
+                "emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063081,
                 "lopp_kpv": null,
-                "nace_kood": "63.12",
-                "on_pohitegevusala": true
+                "nace_kood": "63.91",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

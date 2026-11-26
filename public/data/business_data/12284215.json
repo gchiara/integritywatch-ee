@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Siim",
-            "isikukood": "38605276518",
+            "isikukood": null,
+            "isikukood_hash": "b37389c1-c60c-5a23-bc8a-1fa215b4e6ee",
             "kirje_id": 9000669925,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38605276518",
+            "isikukood_hash": "b37389c1-c60c-5a23-bc8a-1fa215b4e6ee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jaani, Mõniste küla, Rõuge vald, Võru maakond, 66002",
+                "kirje_id": 3811530,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaani, Mõniste küla, Rõuge vald, Võru maakond, 66002",
+                "kirje_id": 3552393,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaani, Mõniste küla, Rõuge vald, Võru maakond, 66002",
+                "kirje_id": 3256964,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaani, Mõniste küla, Rõuge vald, Võru maakond, 66002",
+                "kirje_id": 3061391,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jaani, Mõniste küla, Rõuge vald, Võru maakond, 66002",
                 "kirje_id": 2689548,
@@ -239,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -335,25 +385,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "43911",
+                "algus_kpv": "28.08.2025",
+                "emtak_kood": "43411",
                 "emtak_tekstina": "Katusetööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310208,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048406,
                 "lopp_kpv": null,
-                "nace_kood": "43.91",
+                "nace_kood": "43.41",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.06.2015",
-                "emtak_kood": "4673",
+                "algus_kpv": "28.08.2025",
+                "emtak_kood": "4683",
                 "emtak_tekstina": "Puidu, ehitusmaterjalide ja sanitaarseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000181317,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048407,
                 "lopp_kpv": null,
-                "nace_kood": "46.73",
+                "nace_kood": "46.83",
                 "on_pohitegevusala": false
             }
         ],

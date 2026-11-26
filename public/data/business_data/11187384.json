@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Paal",
-            "isikukood": "37001062711",
+            "isikukood": null,
+            "isikukood_hash": "a0ccea32-12fe-584f-8e53-191c8b54fbae",
             "kirje_id": 9000760645,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -19,44 +20,7 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": "0303",
-            "aadress_ehak_tekstina": "Kihnu vald, Pärnu maakond",
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "aadress_tanav_maja_korter": "",
-            "algus_kpv": "17.01.2006",
-            "eesnimi": "Paal",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "37001062711",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 3,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 3169769,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Põlluste",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "Kihnu Majanduse Osaühing",
     "yldandmed": {
         "aadressid": [
@@ -102,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rahvamaja, Linaküla, Kihnu vald, Pärnu maakond, 88003",
+                "kirje_id": 3636242,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahvamaja, Linaküla, Kihnu vald, Pärnu maakond, 88003",
+                "kirje_id": 3455429,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahvamaja, Linaküla, Kihnu vald, Pärnu maakond, 88003",
+                "kirje_id": 3202919,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rahvamaja, Linaküla, Kihnu vald, Pärnu maakond, 88003",
                 "kirje_id": 2941537,
@@ -322,7 +322,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,6 +363,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "04.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 17,
+                "kirje_id": 12772299,
+                "lopp_kpv": null,
+                "sisu": "andmed muudetud ÄRS § 53 alusel",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 7
             }
         ],
         "oigusjargsused": [
@@ -417,6 +430,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "22.06.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 19,
+                "kirje_id": 13828893,
+                "lopp_kpv": null,
+                "sisu": "Osanikud otsustasid 02.05.2026 lõpetada äriühingu tegevuse.",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -441,8 +468,8 @@
                 "sisu": "+372 5039333"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "17.01.2006",
@@ -452,77 +479,75 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "22.06.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 19,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "52101",
-                "emtak_tekstina": "Kaubaladude töö",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310313,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952595,
                 "lopp_kpv": null,
-                "nace_kood": "52.10",
-                "on_pohitegevusala": false
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2017",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310311,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952596,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310312,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "22.06.2010",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "47301",
-                "emtak_tekstina": "Mootorikütuse jaemüük, sh tanklate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000041412,
+                "emtak_tekstina": "Mootorikütuse jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952599,
                 "lopp_kpv": null,
                 "nace_kood": "47.30",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "20.06.2013",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000037420,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "5210",
+                "emtak_tekstina": "Laondus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952598,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
+                "nace_kood": "52.10",
+                "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.07.2023",
-                "emtak_kood": "46771",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "46871",
                 "emtak_tekstina": "Jäätmete ja jääkide hulgikaubandus, taara ja pakendite kokkuost",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000707342,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952597,
                 "lopp_kpv": null,
-                "nace_kood": "46.77",
+                "nace_kood": "46.87",
                 "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

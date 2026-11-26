@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 11521831,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "12.03.2024",
+            "eesnimi": "Meelis",
+            "isikukood": null,
+            "isikukood_hash": "35433a76-4b62-5c26-9e0a-de649e75ce36",
+            "kirje_id": 9001689093,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Parijõgi",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37305215239",
+            "isikukood_hash": "35433a76-4b62-5c26-9e0a-de649e75ce36",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Töömaa, Kutsala küla, Viru-Nigula vald, Lääne-Viru maakond, 44011",
+                "kirje_id": 3771548,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16261",
+                "tegevusala_emtak_tekstina": "Taimsest biomassist tahkekütuste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.26",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töömaa, Kutsala küla, Viru-Nigula vald, Lääne-Viru maakond, 44011",
+                "kirje_id": 3571077,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01192",
+                "tegevusala_emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.19",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töömaa, Kutsala küla, Viru-Nigula vald, Lääne-Viru maakond, 44011",
+                "kirje_id": 3237180,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01199",
+                "tegevusala_emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.19",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Töömaa, Kutsala küla, Viru-Nigula vald, Lääne-Viru maakond, 44011",
                 "kirje_id": 2952434,
@@ -269,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -450,36 +506,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.02.2020",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000465000,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001131036,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "01.19",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "19.07.2021",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000574833,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "16261",
+                "emtak_tekstina": "Taimsest biomassist tahkekütuste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001131035,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "16.26",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.07.2021",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000574834,
+                "algus_kpv": "13.12.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001070846,
                 "lopp_kpv": null,
-                "nace_kood": "01.19",
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "13.12.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001070847,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             }
         ],

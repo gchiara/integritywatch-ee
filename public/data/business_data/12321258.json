@@ -7,6 +7,7 @@
             "algus_kpv": "02.11.2018",
             "eesnimi": "Johann Friedrich Marcus",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000879437,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,6 +41,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10325716",
+                "aadress_ads__adob_id": "10961424",
                 "aadress_ads__adr_id": 227960,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Maardu linn, Vana-Narva mnt 30/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE02747725",
+                "aadress_ads__ads_oid": "ME01135177",
                 "aadress_ads__koodaadress": "374460000000000ZH00000V5200000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "10.12.2019",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vana-Narva mnt 30/1, Maardu linn, Harju maakond, 74114",
+                "kirje_id": 3709887,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33181",
+                "tegevusala_emtak_tekstina": "Militaarveokite, -laevade, -paatide, -õhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.18",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Narva mnt 30/1, Maardu linn, Harju maakond, 74114",
+                "kirje_id": 3402797,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33181",
+                "tegevusala_emtak_tekstina": "Militaarveokite, -laevade, -paatide, -õhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.18",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Narva mnt 30/1, Maardu linn, Harju maakond, 74114",
+                "kirje_id": 3173869,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "32"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana-Narva mnt 30/1, Maardu linn, Harju maakond, 74114",
                 "kirje_id": 2917736,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,36 +398,69 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.09.2020",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000500015,
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "46721",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900431,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "08.09.2020",
-                "emtak_kood": "78201",
-                "emtak_tekstina": "Ajutise tööjõu rent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000500016,
-                "lopp_kpv": null,
-                "nace_kood": "78.20",
+                "nace_kood": "46.72",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "07.06.2022",
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900433,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900432,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623761,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900434,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "33181",
+                "emtak_tekstina": "Militaarveokite, -laevade, -paatide, -õhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900429,
+                "lopp_kpv": null,
+                "nace_kood": "33.18",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "78201",
+                "emtak_tekstina": "Tööjõurent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900430,
+                "lopp_kpv": null,
+                "nace_kood": "78.20",
                 "on_pohitegevusala": false
             }
         ],

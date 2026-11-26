@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Heino",
-            "isikukood": "35310170222",
+            "isikukood": null,
+            "isikukood_hash": "3684b9ae-f91c-5f96-855d-dfe5ac8115f9",
             "kirje_id": 9000762200,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "38510080344",
+            "isikukood": null,
+            "isikukood_hash": "8542ffa0-9a47-5c19-8464-2afe3eb7ebae",
             "kirje_id": 9000762187,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35310170222",
+            "isikukood_hash": "3684b9ae-f91c-5f96-855d-dfe5ac8115f9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38510080344",
+            "isikukood_hash": "8542ffa0-9a47-5c19-8464-2afe3eb7ebae",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "M. Metsanurga tn 43, Nõmme linnaosa, Tallinn, Harju maakond, 11617",
+                "kirje_id": 3754032,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "M. Metsanurga tn 43, Nõmme linnaosa, Tallinn, Harju maakond, 11617",
+                "kirje_id": 3565081,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "M. Metsanurga tn 43, Nõmme linnaosa, Tallinn, Harju maakond, 11617",
+                "kirje_id": 3140637,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "M. Metsanurga tn 43, Nõmme linnaosa, Tallinn, Harju maakond, 11617",
                 "kirje_id": 2859322,
@@ -350,20 +390,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "02.02.2017",
+                "algus_kpv": "11.11.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kapitali_suurus": "4500.00",
+                "kande_nr": 16,
+                "kapitali_suurus": "25000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 6774337,
+                "kirje_id": 12786476,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -431,13 +471,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.10.2018",
+                "algus_kpv": "11.11.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 13,
-                "kinnitamise_kpv": "12.09.2018",
-                "kirje_id": 8250146,
+                "kande_nr": 16,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12786477,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -455,17 +495,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "heino@nordarm.com"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000350461,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6461016"
             },
             {
                 "kaardi_nr": null,
@@ -494,11 +523,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000108260,
+                "kirje_id": 9000739031,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.nordarm.com"
+                "sisu": "http://.nordarm.com"
             }
         ],
         "staatus": "R",
@@ -516,14 +545,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2009",
-                "emtak_kood": "25621",
-                "emtak_tekstina": "Mehaaniline metallitöötlus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000061018,
+                "algus_kpv": "27.08.2025",
+                "emtak_kood": "25991",
+                "emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048055,
                 "lopp_kpv": null,
-                "nace_kood": "25.62",
+                "nace_kood": "25.99",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000902776,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
                 "on_pohitegevusala": true
             }
         ],

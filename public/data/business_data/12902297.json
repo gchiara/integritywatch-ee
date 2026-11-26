@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Georgi",
-            "isikukood": "38812180252",
+            "isikukood": null,
+            "isikukood_hash": "ee6bbe99-7d73-5020-a596-97fd31bd4111",
             "kirje_id": 9000829626,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Gleb",
-            "isikukood": "38707200283",
+            "isikukood": null,
+            "isikukood_hash": "833bdfcc-409a-5b65-9309-2da29a58c9bf",
             "kirje_id": 9000829627,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38812180252",
+            "isikukood_hash": "ee6bbe99-7d73-5020-a596-97fd31bd4111",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38707200283",
+            "isikukood_hash": "833bdfcc-409a-5b65-9309-2da29a58c9bf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 7b, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3682085,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 7b, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3317540,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "74141",
+                "tegevusala_emtak_tekstina": "Muu disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.14",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 7b, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3003888,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järvevana tee 7b, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2739220,
@@ -257,7 +297,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,6 +400,17 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 56451798"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000733155,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.pineparks.ee"
             }
         ],
         "staatus": "R",
@@ -377,14 +428,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.11.2020",
-                "emtak_kood": "62011",
+                "algus_kpv": "13.06.2026",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000519250,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112433,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

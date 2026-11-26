@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.06.2019",
             "eesnimi": "Dagnar",
-            "isikukood": "38810124915",
+            "isikukood": null,
+            "isikukood_hash": "cd65f753-28ec-5d9d-9574-0ac571551e31",
             "kirje_id": 9000981724,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38810124915",
+            "isikukood_hash": "cd65f753-28ec-5d9d-9574-0ac571551e31",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,13 +98,49 @@
                 "sisu": "D&A Tehnika OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "25.11.2016",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 76-8, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3676935,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "52219",
+                "tegevusala_emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 76-8, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3356443,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 76-8, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3068934,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81291",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.29",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 76-8, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
                 "kirje_id": 2784206,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,26 +336,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.03.2023",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000675049,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "17.01.2023",
-                "emtak_kood": "0161",
+                "algus_kpv": "16.04.2025",
+                "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664904,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000853898,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.06.2026",
+                "emtak_kood": "52219",
+                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001111255,
+                "lopp_kpv": null,
+                "nace_kood": "52.21",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

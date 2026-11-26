@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Andrei",
-            "isikukood": "37506120212",
+            "isikukood": null,
+            "isikukood_hash": "e6957d90-8762-5ec6-a7e8-9d234ecd9042",
             "kirje_id": 9000827833,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "37901152715",
+            "isikukood": null,
+            "isikukood_hash": "ae629cc8-6509-56db-869c-6d9ad0a5e09c",
             "kirje_id": 9000827832,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37506120212",
+            "isikukood_hash": "e6957d90-8762-5ec6-a7e8-9d234ecd9042",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37901152715",
+            "isikukood_hash": "ae629cc8-6509-56db-869c-6d9ad0a5e09c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10415704",
+                "aadress_ads__adob_id": "10874159",
                 "aadress_ads__adr_id": 2107287,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Sõle tn 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 16, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3617458,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47741",
+                "tegevusala_emtak_tekstina": "Meditsiini- ja ortopeediakaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.74",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 16, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3356394,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47741",
+                "tegevusala_emtak_tekstina": "Meditsiini- ja ortopeediakaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.74",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 16, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3070788,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47741",
+                "tegevusala_emtak_tekstina": "Meditsiini- ja ortopeediakaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.74",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõle tn 16, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
                 "kirje_id": 2812557,
@@ -401,7 +441,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -519,14 +559,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.05.2023",
-                "emtak_kood": "32501",
-                "emtak_tekstina": "Ortopeediliste abivahendite ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683293,
+                "algus_kpv": "16.04.2025",
+                "emtak_kood": "47741",
+                "emtak_tekstina": "Meditsiini- ja ortopeediakaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000853852,
                 "lopp_kpv": null,
-                "nace_kood": "32.50",
+                "nace_kood": "47.74",
                 "on_pohitegevusala": true
             }
         ],

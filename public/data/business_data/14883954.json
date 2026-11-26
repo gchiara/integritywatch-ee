@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.01.2020",
             "eesnimi": "Juri",
-            "isikukood": "38701260240",
+            "isikukood": null,
+            "isikukood_hash": "a6a44e9e-e7ed-5622-aedd-e404ba79fa70",
             "kirje_id": 9001070282,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.01.2020",
             "eesnimi": "Yevgenii",
-            "isikukood": "38707290225",
+            "isikukood": null,
+            "isikukood_hash": "9a15677d-7058-5a62-afb6-c23b801c45df",
             "kirje_id": 9001070283,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38701260240",
+            "isikukood_hash": "a6a44e9e-e7ed-5622-aedd-e404ba79fa70",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38707290225",
+            "isikukood_hash": "9a15677d-7058-5a62-afb6-c23b801c45df",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -158,6 +162,42 @@
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
             {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3775750,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33151",
+                "tegevusala_emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.15",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3379284,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33151",
+                "tegevusala_emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.15",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3164238,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33151",
+                "tegevusala_emtak_tekstina": "Laevade ja paatide remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.15",
+                "tootajate_arv": "2"
+            },
+            {
                 "ettevotja_aadress_aruandes": "Soo tn 28-7, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10414",
                 "kirje_id": 2818816,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
@@ -209,7 +249,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -299,6 +339,17 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 56680787"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000728558,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.adretec.com"
             }
         ],
         "staatus": "R",
@@ -316,12 +367,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.03.2021",
+                "algus_kpv": "22.05.2025",
                 "emtak_kood": "33151",
-                "emtak_tekstina": "Laevade ja paatide remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000536246,
+                "emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000877824,
                 "lopp_kpv": null,
                 "nace_kood": "33.15",
                 "on_pohitegevusala": true

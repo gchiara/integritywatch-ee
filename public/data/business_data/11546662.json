@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Erik",
-            "isikukood": "37410290253",
+            "isikukood": null,
+            "isikukood_hash": "1120c5bb-577b-56f0-8b5f-588793f675e6",
             "kirje_id": 9000808452,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37410290253",
+            "isikukood_hash": "1120c5bb-577b-56f0-8b5f-588793f675e6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 96g, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3831982,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 96g, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3521669,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 96g, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3271511,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiku tee 96g, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
                 "kirje_id": 2947338,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -440,15 +478,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.10.2008",
+                "algus_kpv": "02.07.2025",
                 "emtak_kood": "71122",
-                "emtak_tekstina": "Ehitusgeoloogilised ja -geodeetilised uurimistööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000024247,
+                "emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018217,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018218,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

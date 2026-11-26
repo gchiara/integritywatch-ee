@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2018",
             "eesnimi": "Peeter",
-            "isikukood": "37102030396",
+            "isikukood": null,
+            "isikukood_hash": "5257b523-8d71-599a-aafd-1e4fd4678d05",
             "kirje_id": 9000699437,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37102030396",
+            "isikukood_hash": "5257b523-8d71-599a-aafd-1e4fd4678d05",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9421732",
+                "aadress_ads__adob_id": "10910606",
                 "aadress_ads__adr_id": 3383400,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Jõgeva maakond, Põltsamaa vald, Põltsamaa linn, Paala tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paala tn 10, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3745315,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paala tn 10, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3520363,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paala tn 10, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3122570,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paala tn 10, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
                 "kirje_id": 2796935,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -406,47 +444,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.04.2023",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679017,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016991,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
+                "nace_kood": "02.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "15.04.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679018,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "02101",
+                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016992,
                 "lopp_kpv": null,
-                "nace_kood": "02.20",
+                "nace_kood": "02.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "15.04.2023",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679019,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016994,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "06.07.2022",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000641120,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "16111",
+                "emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016993,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "16.11",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Mikk",
-            "isikukood": "38410114232",
+            "isikukood": null,
+            "isikukood_hash": "fac46d0a-0e8f-5d27-bddb-f551ae95757f",
             "kirje_id": 9000770484,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38410114232",
+            "isikukood_hash": "fac46d0a-0e8f-5d27-bddb-f551ae95757f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10481533",
+                "aadress_ads__adob_id": "10923080",
                 "aadress_ads__adr_id": 2125909,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt 388",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 388, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3687525,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 388, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3420064,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 388, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3195310,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 388, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
                 "kirje_id": 2885215,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -371,36 +409,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2021",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000564574,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000918611,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2021",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000564573,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "28.06.2022",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000631429,
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000918612,
                 "lopp_kpv": null,
-                "nace_kood": "46.18",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": false
             }
         ],

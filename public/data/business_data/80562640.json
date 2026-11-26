@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.03.2019",
             "eesnimi": "Rasmus",
-            "isikukood": "39101065711",
+            "isikukood": null,
+            "isikukood_hash": "d7b19e84-55ea-5e29-8d9b-fc934a606c3f",
             "kirje_id": 9000942756,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.03.2019",
             "eesnimi": "Ülla",
-            "isikukood": "49111075710",
+            "isikukood": null,
+            "isikukood_hash": "32734231-3712-5285-be44-4b0c92b366e4",
             "kirje_id": 9000942757,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39101065711",
+            "isikukood_hash": "d7b19e84-55ea-5e29-8d9b-fc934a606c3f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49111075710",
+            "isikukood_hash": "32734231-3712-5285-be44-4b0c92b366e4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8549265",
-                "aadress_ads__adr_id": 2976896,
+                "aadress_ads__adob_id": "11453854",
+                "aadress_ads__adr_id": 3717692,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Hargla küla, Liiva",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00937240",
-                "aadress_ads__koodaadress": "8185517660000000045GE000000000000",
+                "aadress_ads__koodaadress": "8185717660000000045GE000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "07.03.2019",
                 "ehak": "1766",
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liiva, Hargla küla, Valga vald, Valga maakond, 68014",
+                "kirje_id": 3494905,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liiva, Hargla küla, Valga vald, Valga maakond, 68014",
+                "kirje_id": 3228278,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liiva, Hargla küla, Valga vald, Valga maakond, 68014",
                 "kirje_id": 2939576,
@@ -207,7 +235,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -312,12 +340,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.03.2019",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "94992",
-                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000403657,
+                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000992107,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Gery",
-            "isikukood": "37602190364",
+            "isikukood": null,
+            "isikukood_hash": "aa487e4d-1b20-5ea8-8842-070f7f8e6262",
             "kirje_id": 9000667059,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Lauri",
-            "isikukood": "38501284715",
+            "isikukood": null,
+            "isikukood_hash": "90445219-ae76-55f2-93a9-e948c22db7a0",
             "kirje_id": 9000667058,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -36,50 +38,12 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "29.12.2015",
-            "eesnimi": "Gery",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "37602190364",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 5,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 5786635,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Einberg",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "GECC LP OÜ",
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7264932",
+                "aadress_ads__adob_id": "10764534",
                 "aadress_ads__adr_id": 2298973,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Paldiski mnt 29",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +84,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3205139,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
                 "kirje_id": 2867555,
@@ -220,7 +196,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -248,6 +224,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "08.10.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 12731376,
+                "lopp_kpv": null,
+                "sisu": "Kanne Harju Maakohtu 07.10.2024.a. kohtumääruse 2-24-12374 alusel, millega keelati võlgnikul ilma ajutise pankrotihalduri nõusolekuta vara käsutada.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 7
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -288,32 +277,35 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "15.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12796884,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 14.11.2024.a.kohtumäärusega tsiviilasjas 2-24-12374 on välja kuulutatud ühingu pankrot.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7796135,
+                "kande_nr": 9,
+                "kirje_id": 12692679,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@gecc.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000323101,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5040153"
+                "sisu": "info@artingconsult.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "29.12.2015",
@@ -323,6 +315,24 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "16.09.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
+            },
+            {
+                "algus_kpv": "15.11.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -331,7 +341,7 @@
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000208178,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
@@ -339,6 +349,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

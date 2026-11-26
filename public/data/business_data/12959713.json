@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Martin",
-            "isikukood": "38210234714",
+            "isikukood": null,
+            "isikukood_hash": "b2120e75-89f2-5c40-8325-1c13eb371f62",
             "kirje_id": 9000694139,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Paul",
-            "isikukood": "37603046027",
+            "isikukood": null,
+            "isikukood_hash": "51f08a73-fe0f-5416-8e10-fb1ea4d17df2",
             "kirje_id": 9000694140,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37603046027",
+            "isikukood_hash": "51f08a73-fe0f-5416-8e10-fb1ea4d17df2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pullapää, Nõmme küla, Haapsalu linn, Lääne maakond, 90439",
+                "kirje_id": 3761400,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pullapää, Nõmme küla, Haapsalu linn, Lääne maakond, 90439",
+                "kirje_id": 3567450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pullapää, Nõmme küla, Haapsalu linn, Lääne maakond, 90439",
+                "kirje_id": 3233888,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96099",
+                "tegevusala_emtak_tekstina": "Muu teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pullapää, Nõmme küla, Haapsalu linn, Lääne maakond, 90439",
                 "kirje_id": 2986103,
@@ -220,7 +259,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -330,26 +369,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.10.2022",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000655116,
+                "algus_kpv": "14.11.2025",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066116,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
+                "nace_kood": "46.90",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "01.07.2017",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000312293,
+                "algus_kpv": "14.11.2025",
+                "emtak_kood": "95401",
+                "emtak_tekstina": "Arvutite, tarbeesemete ja kodutarvete ning mootorsõidukite ja mootorrataste paranduse ja hoolduse vahendamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001066117,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
-                "on_pohitegevusala": true
+                "nace_kood": "95.40",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

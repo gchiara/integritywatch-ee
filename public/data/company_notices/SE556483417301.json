@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-16",
+                "award_date_conclusion_contract": [
+                    "2023-06-16"
+                ],
                 "award_value": "250000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Proteeside valmistamise materjalid ja tarvikud",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -52,5 +54,60 @@
         "refnum": "263125",
         "total_amount": "250000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-04-23",
+                    "2026-04-23"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "01741411",
+                        "contractor_name": "ALPS SOUTH EUROPE s.r.o.",
+                        "country": "CZE"
+                    },
+                    {
+                        "contractor_id": "SE556483417301",
+                        "contractor_name": "Össur Nordic",
+                        "country": "SWE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Proteeside valmistamise materjalid ja tarvikud",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822068",
+                "name": "Aktsiaselts Ida-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "01741411",
+            "SE556483417301"
+        ],
+        "cpv": "33180000",
+        "date_dispatch_notice": "2026-04-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_6672022d-019f-456f-a3b7-f1554ce127a9_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "6672022d-019f-456f-a3b7-f1554ce127a9",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "303554-0000"
     }
 ]

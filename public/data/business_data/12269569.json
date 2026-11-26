@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.09.2019",
             "eesnimi": "Veiko",
-            "isikukood": "38101166024",
+            "isikukood": null,
+            "isikukood_hash": "723534ce-cdf5-582c-b1cd-7e1f8363ad2b",
             "kirje_id": 9001028576,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48206196019",
+            "isikukood_hash": "b3655173-70b0-5163-bfb5-c0272ba5b52c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38101166024",
+            "isikukood_hash": "723534ce-cdf5-582c-b1cd-7e1f8363ad2b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -99,26 +102,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6557769",
-                "aadress_ads__adr_id": 2176811,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Telliskivi tn 44-11",
+                "aadress_ads__adob_id": "10238642",
+                "aadress_ads__adr_id": 3225003,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Kabila küla, Polli",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "MR01321394",
-                "aadress_ads__koodaadress": "3778406140000047I000019XI38FC0000",
+                "aadress_ads__ads_oid": "EE00997474",
+                "aadress_ads__koodaadress": "846152456000000003PLG000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.12.2017",
-                "ehak": "0614",
-                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "23.03.2026",
+                "ehak": "2456",
+                "ehak_nimetus": "Kabila küla, Põhja-Sakala vald, Viljandi maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7236397,
+                "kande_nr": 7,
+                "kirje_id": 13634638,
                 "lopp_kpv": null,
-                "postiindeks": "10611",
+                "postiindeks": "71404",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Telliskivi tn 44-11"
+                "tanav_maja_korter": "Polli"
             }
         ],
         "arinimed": [
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Polli, Kabila küla, Põhja-Sakala vald, Viljandi maakond, 71404",
+                "kirje_id": 3616699,
+                "majandusaasta_perioodi_algus_kpv": "18.04.2024",
+                "majandusaasta_perioodi_lopp_kpv": "17.04.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 44-11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3309005,
+                "majandusaasta_perioodi_algus_kpv": "18.04.2023",
+                "majandusaasta_perioodi_lopp_kpv": "17.04.2024",
+                "tegevusala_emtak_kood": "8121",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 44-11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3003947,
+                "majandusaasta_perioodi_algus_kpv": "18.04.2022",
+                "majandusaasta_perioodi_lopp_kpv": "17.04.2023",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 44-11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
                 "kirje_id": 2819386,
@@ -288,7 +327,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -356,13 +395,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "19.04.2012",
+                "algus_kpv": "23.03.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "18.04.2012",
-                "kirje_id": 4456923,
+                "kande_nr": 7,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13634639,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -419,23 +458,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.05.2023",
-                "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000685051,
-                "lopp_kpv": null,
-                "nace_kood": "46.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2022",
+                "algus_kpv": "27.11.2024",
                 "emtak_kood": "8121",
                 "emtak_tekstina": "Hoonete üldpuhastus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000640882,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000804332,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Rein",
-            "isikukood": "35511150350",
+            "isikukood": null,
+            "isikukood_hash": "0dcbeee6-038b-5da3-9c38-034d6532d74a",
             "kirje_id": 9000845918,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Tarvi",
-            "isikukood": "37506020363",
+            "isikukood": null,
+            "isikukood_hash": "10eac768-6143-5e82-a553-b39e5e4b875b",
             "kirje_id": 9000845915,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Ülle",
-            "isikukood": "45008030370",
+            "isikukood": null,
+            "isikukood_hash": "8539a31a-a982-5f08-a737-7446bd3eac9f",
             "kirje_id": 9000845914,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37506020363",
+            "isikukood_hash": "10eac768-6143-5e82-a553-b39e5e4b875b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -137,6 +141,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pae tn 8, Lasnamäe linnaosa, Tallinn, Harju maakond, 11414",
+                "kirje_id": 3533290,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "20411",
+                "tegevusala_emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.41",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pae tn 8, Lasnamäe linnaosa, Tallinn, Harju maakond, 11414",
+                "kirje_id": 3291915,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "20411",
+                "tegevusala_emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.41",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pae tn 8, Lasnamäe linnaosa, Tallinn, Harju maakond, 11414",
                 "kirje_id": 2961178,
@@ -405,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -547,12 +575,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "11.07.2025",
                 "emtak_kood": "20411",
                 "emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000048971,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001029194,
                 "lopp_kpv": null,
                 "nace_kood": "20.41",
                 "on_pohitegevusala": true

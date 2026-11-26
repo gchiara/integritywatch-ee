@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.08.2019",
             "eesnimi": "Andres",
-            "isikukood": "37403142747",
+            "isikukood": null,
+            "isikukood_hash": "469a559e-b21a-5026-a2e5-139aa52e042f",
             "kirje_id": 9001010302,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.08.2019",
             "eesnimi": "Karl",
-            "isikukood": "37206160427",
+            "isikukood": null,
+            "isikukood_hash": "5fc3b7b4-220a-5f7c-b572-c48ed21241c3",
             "kirje_id": 9001010304,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206160427",
+            "isikukood_hash": "5fc3b7b4-220a-5f7c-b572-c48ed21241c3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,11 +82,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7451361",
+                "aadress_ads__adob_id": "10486391",
                 "aadress_ads__adr_id": 2123848,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Kadaka tee 72a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01658081",
+                "aadress_ads__ads_oid": "ME03226325",
                 "aadress_ads__koodaadress": "377840482000003MQ00001RRO00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "30.11.2017",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 72a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3591176,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2025",
+                "tegevusala_emtak_kood": "43241",
+                "tegevusala_emtak_tekstina": "Muud ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.24",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 72a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3307043,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2024",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 72a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3027532,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2023",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 72a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2943255,
@@ -304,7 +343,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -457,14 +496,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.10.2008",
-                "emtak_kood": "43299",
-                "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000024497,
+                "algus_kpv": "20.02.2026",
+                "emtak_kood": "43241",
+                "emtak_tekstina": "Muud ehituspaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001083596,
                 "lopp_kpv": null,
-                "nace_kood": "43.29",
+                "nace_kood": "43.24",
                 "on_pohitegevusala": true
             }
         ],

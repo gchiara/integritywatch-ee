@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Riina",
-            "isikukood": "46901270337",
+            "isikukood": null,
+            "isikukood_hash": "dc48e96b-6691-53d9-b793-c75f7fbe8b2a",
             "kirje_id": 9000793109,
             "kontrolli_teostamise_viis": "S",
             "kontrolli_teostamise_viis_tekstina": "soodustatud isik",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46901270337",
+            "isikukood_hash": "dc48e96b-6691-53d9-b793-c75f7fbe8b2a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10460473",
+                "aadress_ads__adob_id": "10914877",
                 "aadress_ads__adr_id": 2961405,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Hiiu maakond, Hiiumaa vald, Kärdla linn, Rahu tn 2b",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -127,6 +129,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 2b, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3600312,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "61"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 2b, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3347145,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "63"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 2b, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3065674,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaraviteenused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "62"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rahu tn 2b, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
                 "kirje_id": 2786909,
@@ -201,7 +239,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -329,12 +367,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.04.2019",
+                "algus_kpv": "31.03.2025",
                 "emtak_kood": "86101",
-                "emtak_tekstina": "Haiglaraviteenus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000411912,
+                "emtak_tekstina": "Haiglaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000843857,
                 "lopp_kpv": null,
                 "nace_kood": "86.10",
                 "on_pohitegevusala": true

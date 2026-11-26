@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "35103112713",
+            "isikukood": null,
+            "isikukood_hash": "1f843bbb-dbcb-528d-b85b-4866869a8597",
             "kirje_id": 9000848376,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35103112713",
+            "isikukood_hash": "1f843bbb-dbcb-528d-b85b-4866869a8597",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 65, Tartu linn, Tartu linn, Tartu maakond, 50103",
+                "kirje_id": 3788771,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 65, Tartu linn, Tartu linn, Tartu maakond, 50103",
+                "kirje_id": 3486678,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 65, Tartu linn, Tartu linn, Tartu maakond, 50103",
+                "kirje_id": 3248184,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalevi tn 65, Tartu linn, Tartu linn, Tartu maakond, 50103",
                 "kirje_id": 2956979,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -500,37 +538,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.07.2023",
-                "emtak_kood": "74901",
-                "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710481,
-                "lopp_kpv": null,
-                "nace_kood": "74.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.04.2012",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000171834,
-                "lopp_kpv": null,
-                "nace_kood": "81.30",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008258,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983866,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983867,
+                "lopp_kpv": null,
+                "nace_kood": "81.30",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

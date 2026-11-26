@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-25",
+                "award_date_conclusion_contract": [
+                    "2023-08-25"
+                ],
                 "award_value": "203000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Meretoorme labori konteinerhoone ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -39,14 +41,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14187048",
-            "Nominees as company beneficial owners: 37910220368",
-            "Nominees as company board members: 37910220368"
+            "Possible shell company: 14187048"
         ],
         "noticeUid": "5a95db66-cad3-43fd-9468-5ff09d8862e1",
         "notice_items": [
@@ -56,6 +55,64 @@
         ],
         "refnum": "266394",
         "total_amount": "203000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-09-28"
+                ],
+                "award_value": "512940.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14187048",
+                        "contractor_name": "SSR Baltic OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lasteaia moodulmaja projekteerimine ja ehitus",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "77000306",
+                "name": "Saaremaa Vallavalitsus",
+                "town": "Saaremaa vald"
+            }
+        ],
+        "contractors": [
+            "14187048"
+        ],
+        "cpv": "45214100",
+        "date_dispatch_notice": "2023-09-29",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_427a9a1b-4e81-454a-9640-b30c381d019a_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14187048"
+        ],
+        "noticeUid": "427a9a1b-4e81-454a-9640-b30c381d019a",
+        "notice_items": [
+            {
+                "endDate": "2024-04-12"
+            }
+        ],
+        "refnum": "267768",
+        "total_amount": "512940.00",
         "total_amount_curr": "EUR"
     }
 ]

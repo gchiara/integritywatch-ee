@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 12205279,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "25.06.2024",
+            "eesnimi": "Paavo",
+            "isikukood": null,
+            "isikukood_hash": "a800a2d9-7b5a-5606-8107-329ff6ec2174",
+            "kirje_id": 9001720423,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Metsla",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36610104216",
+            "isikukood_hash": "a800a2d9-7b5a-5606-8107-329ff6ec2174",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -44,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8476979",
-                "aadress_ads__adr_id": 2943328,
+                "aadress_ads__adob_id": "11125241",
+                "aadress_ads__adr_id": 3769303,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Põhja-Pärnumaa vald, Vändra alev, Kraavi tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00722147",
-                "aadress_ads__koodaadress": "686389663000001XI00003YI700000000",
+                "aadress_ads__koodaadress": "686379663000001XI00003YI700000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "11.05.2022",
                 "ehak": "9663",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kraavi tn 3, Vändra alev, Põhja-Pärnumaa vald, Pärnu maakond, 87701",
+                "kirje_id": 3632344,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kraavi tn 3, Vändra alev, Põhja-Pärnumaa vald, Pärnu maakond, 87701",
+                "kirje_id": 3380016,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kraavi tn 3, Vändra alev, Põhja-Pärnumaa vald, Pärnu maakond, 87701",
+                "kirje_id": 3221157,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kraavi tn 3, Vändra alev, Põhja-Pärnumaa vald, Pärnu maakond, 87701",
                 "kirje_id": 2901390,
@@ -233,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -340,12 +396,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.07.2018",
+                "algus_kpv": "23.05.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000373693,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000878590,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

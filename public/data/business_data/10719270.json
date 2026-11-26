@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "36501236028",
+            "isikukood": null,
+            "isikukood_hash": "bc6f8034-5c42-51eb-9607-ae995b62d6c7",
             "kirje_id": 9000864712,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36501236028",
+            "isikukood_hash": "bc6f8034-5c42-51eb-9607-ae995b62d6c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 8, Paistu küla, Viljandi vald, Viljandi maakond, 69601",
+                "kirje_id": 3708995,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 8, Paistu küla, Viljandi vald, Viljandi maakond, 69601",
+                "kirje_id": 3438578,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01621",
+                "tegevusala_emtak_tekstina": "Loomakasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.62",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 8, Paistu küla, Viljandi vald, Viljandi maakond, 69601",
+                "kirje_id": 3136444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01621",
+                "tegevusala_emtak_tekstina": "Loomakasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.62",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiriku tee 8, Paistu küla, Viljandi vald, Viljandi maakond, 69601",
                 "kirje_id": 2836311,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -468,12 +506,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7771595,
+                "kande_nr": 8,
+                "kirje_id": 12662639,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "andres.kahu@mail.ee"
+                "sisu": "arved.argenta@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -502,37 +540,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2021",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000551183,
-                "lopp_kpv": null,
-                "nace_kood": "01.61",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "13.07.2010",
-                "emtak_kood": "01621",
-                "emtak_tekstina": "Loomakasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000078591,
-                "lopp_kpv": null,
-                "nace_kood": "01.62",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "13.07.2010",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "01411",
                 "emtak_tekstina": "Piimakarjakasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000078613,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000936258,
                 "lopp_kpv": null,
                 "nace_kood": "01.41",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "24.06.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001118182,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

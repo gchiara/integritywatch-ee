@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.03.2022",
             "eesnimi": "Kristjan",
-            "isikukood": "37208080445",
+            "isikukood": null,
+            "isikukood_hash": "a4255b69-a41f-511f-94ba-b339fb12a0e0",
             "kirje_id": 9001413178,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.03.2022",
             "eesnimi": "Priit",
-            "isikukood": "37409150289",
+            "isikukood": null,
+            "isikukood_hash": "f2203305-4514-57f4-884e-1df61bbb760f",
             "kirje_id": 9001413179,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38207104718",
+            "isikukood_hash": "0483a36e-fd9a-5a5d-8713-35e17bfa8bb5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7605096",
+                "aadress_ads__adob_id": "11461594",
                 "aadress_ads__adr_id": 2117116,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Endla tn 15",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
+                "kirje_id": 3747490,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
+                "kirje_id": 3479163,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "53"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
+                "kirje_id": 3214191,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "52"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
                 "kirje_id": 2924157,
@@ -364,7 +403,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -482,12 +521,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "52211",
                 "emtak_tekstina": "Parklate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000566919,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975527,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": true

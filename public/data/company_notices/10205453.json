@@ -45,13 +45,10 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 36909220265",
-            "Nominees as company board members: 36909220265",
             "Possible shell company: 10205453"
         ],
         "noticeUid": "9068e633-376b-46ba-8b12-81d7786274a0",
@@ -262,12 +259,9 @@
         "filename": "award_9068e633-376b-46ba-8b12-81d7786274a0_1.json",
         "flags": [
             "Tenders received info missing",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
-            "Nominees as company beneficial owners: 36909220265",
-            "Nominees as company board members: 36909220265",
             "Possible shell company: 10205453"
         ],
         "modifications_contract": true,
@@ -1070,15 +1064,14 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
-            "Possible shell company"
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37011142729",
-            "Nominees as company beneficial owners: 37110236529",
-            "Nominees as company board members: 37011142729",
-            "Nominees as company board members: 37110236529",
+            "Possible shell company: 11135476",
+            "Nominees as company beneficial owners: Kaido_Hinto_20.10.2018",
+            "Nominees as company beneficial owners: Tarmo_Hinto_20.10.2018",
             "Possible shell company: 10205453"
         ],
         "noticeUid": "6bc15173-06d6-45e6-b0f7-359708c6260b",
@@ -1249,16 +1242,12 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10205453",
-            "Possible shell company: 12820091",
-            "Nominees as company beneficial owners: 36409210232",
-            "Nominees as company beneficial owners: 37611210030",
-            "Nominees as company board members: 36705164717"
+            "Possible shell company: 12820091"
         ],
         "noticeUid": "f99d4289-9fd3-4d3e-b425-96cd00ea17b4",
         "notice_items": [
@@ -1533,7 +1522,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-12",
+                "award_date_conclusion_contract": [
+                    "2023-06-12"
+                ],
                 "award_value": "119875.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -1548,7 +1539,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Viljandi Hoolekandekeskuse lifti vahetus",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -1589,7 +1580,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-20",
+                "award_date_conclusion_contract": [
+                    "2023-06-20"
+                ],
                 "award_value": "179504.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -1604,7 +1597,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Turvasüsteemid 5- liftide korrashoiuteenuse ostmine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -1646,7 +1639,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-09-06",
+                "award_date_conclusion_contract": [
+                    "2023-09-06"
+                ],
                 "award_value": "223954.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -1661,7 +1656,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Lõuna-Eesti Haigla transpordiliftide uuendamine",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -1696,6 +1691,1365 @@
         ],
         "refnum": "266968",
         "total_amount": "223954.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-10-26"
+                ],
+                "award_value": "500000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10040302",
+                        "contractor_name": "Aktsiaselts Elif",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide hoolduse ja remonttööde raamhange",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75023757",
+                "name": "Tallinna Linnavaraamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10055798",
+            "10205453",
+            "10040302"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2023-10-27",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_7a0e8b7a-fd9c-4e74-b8c1-b783dfcbf888_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10040302"
+        ],
+        "noticeUid": "7a0e8b7a-fd9c-4e74-b8c1-b783dfcbf888",
+        "notice_items": [
+            {
+                "duration": "48 MONTH"
+            }
+        ],
+        "refnum": "267807",
+        "total_amount": "500000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2022-10-31"
+                ],
+                "award_value": "250000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide, eskalaatorite ja iseliikuvate teede korrashoiutööd 2022-2025",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10137319",
+                "name": "aktsiaselts TALLINNA SADAM",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2023-12-07",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_a7d15377-59ef-4202-a297-1620029b2585_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "a7d15377-59ef-4202-a297-1620029b2585",
+        "notice_items": [
+            {
+                "duration": "36 MONTH"
+            }
+        ],
+        "refnum": "251730"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-01-08"
+                ],
+                "award_value": "450.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10055798",
+                        "contractor_name": "Aktsiaselts EESTI OTIS",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide hooldusteenuse tellimine",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10822269",
+                "name": "Aktsiaselts Lääne-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10055798",
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2024-01-24",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d9838d3e-8df5-4dd7-bda5-fcd456573447_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10055798"
+        ],
+        "noticeUid": "d9838d3e-8df5-4dd7-bda5-fcd456573447",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "271937",
+        "total_amount": "30312.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-01-30"
+                ],
+                "award_value": "198000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Eesti Maaülikooli F. R. Kreutzwaldi 52 ja F. Tuglase 7 ühiselamu hoonetele lifti ost ja paigaldus",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "74001086",
+                "name": "Eesti Maaülikool",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "42416100",
+        "date_dispatch_notice": "2024-02-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ee042206-b28b-4e30-9971-b21f5fca45b6_0.json",
+        "flags": [
+            "Tenders received low",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "ee042206-b28b-4e30-9971-b21f5fca45b6",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "271887",
+        "total_amount": "198000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-04-18"
+                ],
+                "award_value": "55300.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kotzebue tn 10 lifti ehitustööd",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "74000624",
+                "name": "Eesti Kunstiakadeemia",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2024-04-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_42887a96-4b6f-4ea3-a11f-e203b26fd526_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "42887a96-4b6f-4ea3-a11f-e203b26fd526",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "278248",
+        "total_amount": "55300.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-05-24"
+                ],
+                "award_value": "427999.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide ja eskalaatorite hooldus ja remont",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10349560",
+                "name": "Aktsiaselts Tallinna Lennujaam",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2024-05-24",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_84d6bd21-1718-4a8d-8df3-8100d58c302f_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "84d6bd21-1718-4a8d-8df3-8100d58c302f",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "277542"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-07-15"
+                ],
+                "award_value": "78345.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lifti ostmine koos paigaldusega",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "16776116",
+                "name": "AS Koeru Hooldekeskus",
+                "town": "Järva vald"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "42416100",
+        "date_dispatch_notice": "2024-07-16",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_33afdc32-527c-4b59-9d36-15595daac5cd_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "33afdc32-527c-4b59-9d36-15595daac5cd",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "280887",
+        "total_amount": "78345.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-06-10"
+                ],
+                "award_value": "38990.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kadrioru kunstimuuseumi lifti vahetus",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90013414",
+                "name": "Sihtasutus Eesti Kunstimuuseum",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313000",
+        "date_dispatch_notice": "2024-07-17",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_dac0812b-77b9-489c-8817-d602392b2f26_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "dac0812b-77b9-489c-8817-d602392b2f26",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "278452",
+        "total_amount": "38990.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-08-14"
+                ],
+                "award_value": "101610.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tartu Vangla liftide rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10788733",
+                "name": "Riigi Kinnisvara Aktsiaselts",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2024-09-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_22631442-4efb-4f58-8b9e-23605672a609_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "22631442-4efb-4f58-8b9e-23605672a609",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "281478",
+        "total_amount": "101610.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-11-28"
+                ],
+                "award_value": "102000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Sõle 23 B korpuse sõidulifti rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10822269",
+                "name": "Aktsiaselts Lääne-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2024-11-28",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_4d02dc64-7ab4-4c6d-b29a-db4623dd12f3_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "4d02dc64-7ab4-4c6d-b29a-db4623dd12f3",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "284366",
+        "total_amount": "102000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-02-28"
+                ],
+                "award_value": "8064.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10055798",
+                        "contractor_name": "Aktsiaselts EESTI OTIS",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide hooldus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "90006399",
+                "name": "sihtasutus Põhja-Eesti Regionaalhaigla",
+                "town": "Tallinn"
+            },
+            {
+                "id": "90013058",
+                "name": "sihtasutus Läänemaa Haigla",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [
+            "10205453",
+            "10055798"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2025-03-04",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_1f05fb58-5d2f-4203-84a2-9bc82d2e8e2a_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10055798"
+        ],
+        "noticeUid": "1f05fb58-5d2f-4203-84a2-9bc82d2e8e2a",
+        "notice_items": [
+            {},
+            {}
+        ],
+        "refnum": "286297",
+        "total_amount": "66758.40",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-05"
+                ],
+                "award_value": "101770.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lifti vahetus (A korpus)",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90003433",
+                "name": "Sihtasutus Ida-Viru Keskhaigla",
+                "town": "Kohtla-Järve linn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-05-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_dd462c9e-228d-40f5-8462-796ccc55c84e_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "dd462c9e-228d-40f5-8462-796ccc55c84e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292295-0000",
+        "total_amount": "101770.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-09"
+                ],
+                "award_value": "187150.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide paigaldamine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10822068",
+                "name": "Aktsiaselts Ida-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-05-09",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_df9de70c-ddef-4e97-b3ca-dcea35eacc89_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "df9de70c-ddef-4e97-b3ca-dcea35eacc89",
+        "notice_items": [
+            {},
+            {}
+        ],
+        "refnum": "293093-0000",
+        "total_amount": "338645.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-12"
+                ],
+                "award_value": "300000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide, eskalaatorite ja iseliikuvate teede korrashoiutööd 2025-2028",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10137319",
+                "name": "aktsiaselts TALLINNA SADAM",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2025-05-13",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_79c26f38-dd1a-4442-88e7-862623529e85_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "79c26f38-dd1a-4442-88e7-862623529e85",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292049-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-28"
+                ],
+                "award_value": "77355.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Eesti Muusika- ja Teatriakadeemia reisijatelifti vahetamine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "74000547",
+                "name": "Eesti Muusika- ja Teatriakadeemia",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-06-25",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_14b58e4d-e58c-4d41-84e2-506bf2f997ea_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "14b58e4d-e58c-4d41-84e2-506bf2f997ea",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293190-0000",
+        "total_amount": "77355.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-25"
+                ],
+                "award_value": "58994.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lifti ostmine/asendamine Juhkentali 58a, Tallinn",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2025-06-25",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_bff444a8-0b3a-49ad-b14c-a437e10e6b7e_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "bff444a8-0b3a-49ad-b14c-a437e10e6b7e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "295845-0000",
+        "total_amount": "58994.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-26"
+                ],
+                "award_value": "41950.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Haabneeme kooli juurdeehitusele lifti paigaldamine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75021250",
+                "name": "Viimsi Vallavalitsus",
+                "town": "Viimsi vald"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-07-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2e9ba480-a554-46af-b997-c96233c98ae9_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "2e9ba480-a554-46af-b997-c96233c98ae9",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "295690-0000",
+        "total_amount": "41950.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-08-27"
+                ],
+                "award_value": "122993.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Jõhvi Hooldekeskuse vana lifti demonteerimine ja uuega asendamine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75033483",
+                "name": "Jõhvi Vallavalitsus",
+                "town": "Jõhvi vald"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-09-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d47ed633-f4ff-4824-853f-84215c1aa41a_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "d47ed633-f4ff-4824-853f-84215c1aa41a",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "298024-0000",
+        "total_amount": "122993.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-08-27"
+                ],
+                "award_value": "184745.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Valga Haigla A korpuse lifti renoveerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10351752",
+                "name": "aktsiaselts Valga Haigla",
+                "town": "Valga vald"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-09-22",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_497b79de-3d48-4428-ae11-522cdc749c84_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "497b79de-3d48-4428-ae11-522cdc749c84",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293620-0000",
+        "total_amount": "184745.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-10-07"
+                ],
+                "award_value": "104000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftišahti rekonstrueerimine ja lifti ehitus",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90013058",
+                "name": "sihtasutus Läänemaa Haigla",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45313100",
+        "date_dispatch_notice": "2025-10-07",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_f0d4d018-f6a7-4b0c-82c3-e3019f029ae8_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "f0d4d018-f6a7-4b0c-82c3-e3019f029ae8",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "300191-0000",
+        "total_amount": "104000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-11-25"
+                ],
+                "award_value": "340566.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Liftide remonttööd",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "90006399",
+                "name": "sihtasutus Põhja-Eesti Regionaalhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50700000",
+        "date_dispatch_notice": "2025-12-08",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_a9b0ad62-2642-4476-8ee8-46c524a5c42e_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "a9b0ad62-2642-4476-8ee8-46c524a5c42e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292620-0000",
+        "total_amount": "340566.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-06-08"
+                ],
+                "award_value": "80498.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lifti uuendamine H-korpuses",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90003433",
+                "name": "Sihtasutus Ida-Viru Keskhaigla",
+                "town": "Kohtla-Järve linn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-06-08",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_67453896-f676-45b7-9829-c816832ccaef_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "67453896-f676-45b7-9829-c816832ccaef",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "308094-0000",
+        "total_amount": "80498.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-06-10"
+                ],
+                "award_value": "57581.10",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "SA Viljandi Haigla liftide ja tõsteseadmete hooldustööd 2026-2029",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "90004585",
+                "name": "Sihtasutus Viljandi Haigla",
+                "town": "Viljandi linn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "50750000",
+        "date_dispatch_notice": "2026-06-22",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_06a3c10e-ec54-4af4-bac1-a95f7ac777bb_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "06a3c10e-ec54-4af4-bac1-a95f7ac777bb",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "307033-0000",
+        "total_amount": "57581.10",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-03"
+                ],
+                "award_value": "129700.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10205453",
+                        "contractor_name": "AS KONE",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kaubalifti vahetus",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90006101",
+                "name": "Riigiside Sihtasutus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10205453"
+        ],
+        "cpv": "42416120",
+        "date_dispatch_notice": "2026-07-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_943008e9-182b-4cfd-9f1e-27fa69914d67_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10205453"
+        ],
+        "noticeUid": "943008e9-182b-4cfd-9f1e-27fa69914d67",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "307350-0000",
+        "total_amount": "129700.00",
         "total_amount_curr": "EUR"
     }
 ]

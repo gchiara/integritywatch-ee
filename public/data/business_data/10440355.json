@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "37009282722",
+            "isikukood": null,
+            "isikukood_hash": "aa622dd0-71a5-52ed-9995-0b626450e46d",
             "kirje_id": 9000796782,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37009282722",
+            "isikukood_hash": "aa622dd0-71a5-52ed-9995-0b626450e46d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8718948",
+                "aadress_ads__adob_id": "11208117",
                 "aadress_ads__adr_id": 3076223,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Puiestee tn 13b",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3718052,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "13991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tekstiilitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.99",
+                "tootajate_arv": "44"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3450960,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "13991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tekstiilitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.99",
+                "tootajate_arv": "42"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3190039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "13991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tekstiilitootmine, sh kaunistusnööri-, tülli-, pitsi-, paela- ja tikanditootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.99",
+                "tootajate_arv": "45"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
                 "kirje_id": 2893080,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -536,12 +574,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2012",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "13991",
-                "emtak_tekstina": "Mujal liigitamata tekstiilitootmine, sh kaunistusnööri-, tülli-, pitsi-, paela- ja tikanditootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000188033,
+                "emtak_tekstina": "Mujal liigitamata tekstiilitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000948112,
                 "lopp_kpv": null,
                 "nace_kood": "13.99",
                 "on_pohitegevusala": true

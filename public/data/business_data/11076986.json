@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Kai",
-            "isikukood": "48206050221",
+            "isikukood": null,
+            "isikukood_hash": "1c6bb794-4ef1-5640-a86b-32d06b34edac",
             "kirje_id": 9000790396,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Pille",
-            "isikukood": "48304064710",
+            "isikukood": null,
+            "isikukood_hash": "d5983972-bf3d-58ef-b405-28c19c0f5998",
             "kirje_id": 9000790397,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48304064710",
+            "isikukood_hash": "d5983972-bf3d-58ef-b405-28c19c0f5998",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tulika tn 64-46, Kristiine linnaosa, Tallinn, Harju maakond, 13426",
+                "kirje_id": 3576928,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tulika tn 64-46, Kristiine linnaosa, Tallinn, Harju maakond, 13426",
+                "kirje_id": 3516063,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tulika tn 64-46, Kristiine linnaosa, Tallinn, Harju maakond, 13426",
+                "kirje_id": 3063217,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tulika tn 64-46, Kristiine linnaosa, Tallinn, Harju maakond, 13426",
                 "kirje_id": 2768628,
@@ -352,7 +391,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -448,26 +487,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.02.2023",
-                "emtak_kood": "62011",
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000669769,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001013032,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "16.02.2023",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000669770,
-                "lopp_kpv": null,
-                "nace_kood": "62.02",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

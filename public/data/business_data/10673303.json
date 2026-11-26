@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Kaido",
-            "isikukood": "36301300341",
+            "isikukood": null,
+            "isikukood_hash": "5cf49bdc-2555-5e12-affc-6262fc3c159b",
             "kirje_id": 9000656213,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36301300341",
+            "isikukood_hash": "5cf49bdc-2555-5e12-affc-6262fc3c159b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 18, Kõrgessaare alevik, Hiiumaa vald, Hiiu maakond, 92201",
+                "kirje_id": 3749051,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 18, Kõrgessaare alevik, Hiiumaa vald, Hiiu maakond, 92201",
+                "kirje_id": 3481348,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 18, Kõrgessaare alevik, Hiiumaa vald, Hiiu maakond, 92201",
+                "kirje_id": 3215296,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tee 18, Kõrgessaare alevik, Hiiumaa vald, Hiiu maakond, 92201",
                 "kirje_id": 2914298,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -562,47 +600,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000702386,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "77321",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565479,
-                "lopp_kpv": null,
-                "nace_kood": "77.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2017",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000308322,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977920,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2014",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000127319,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977921,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "16111",
+                "emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977922,
+                "lopp_kpv": null,
+                "nace_kood": "16.11",
                 "on_pohitegevusala": false
             }
         ],

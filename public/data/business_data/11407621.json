@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.03.2021",
             "eesnimi": "Tõnu",
-            "isikukood": "37407096043",
+            "isikukood": null,
+            "isikukood_hash": "5caaf5a1-3ed5-5d82-8528-756c4a2e43c7",
             "kirje_id": 9001252496,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37407096043",
+            "isikukood_hash": "5caaf5a1-3ed5-5d82-8528-756c4a2e43c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10256454",
-                "aadress_ads__adr_id": 3009342,
+                "aadress_ads__adob_id": "10853767",
+                "aadress_ads__adr_id": 3716548,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Võru tn 78",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00933962",
-                "aadress_ads__koodaadress": "81855891800000SAV0000B2ZT00000000",
+                "aadress_ads__koodaadress": "81857891800000SAV0000B2ZT00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "08.10.2021",
                 "ehak": "8918",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 78, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3817863,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 78, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3555605,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90391",
+                "tegevusala_emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 78, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3256016,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93299",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 78, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 2997221,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "93299",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võru tn 78, Valga linn, Valga vald, Valga maakond, 68205",
                 "kirje_id": 2727014,
@@ -287,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -394,12 +444,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.12.2010",
-                "emtak_kood": "93299",
-                "emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000098566,
+                "algus_kpv": "03.08.2026",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001143614,
                 "lopp_kpv": null,
                 "nace_kood": "93.29",
                 "on_pohitegevusala": true

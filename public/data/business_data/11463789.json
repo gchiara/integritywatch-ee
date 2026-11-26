@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2018",
             "eesnimi": "Helga",
-            "isikukood": "45905134222",
+            "isikukood": null,
+            "isikukood_hash": "5ddee321-4857-55f8-83f7-4875793a1947",
             "kirje_id": 9000784262,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45905134222",
+            "isikukood_hash": "5ddee321-4857-55f8-83f7-4875793a1947",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mätiku, Oidrema küla, Lääneranna vald, Pärnu maakond, 88404",
+                "kirje_id": 3642711,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mätiku, Oidrema küla, Lääneranna vald, Pärnu maakond, 88404",
+                "kirje_id": 3444196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mätiku, Oidrema küla, Lääneranna vald, Pärnu maakond, 88404",
+                "kirje_id": 3177182,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mätiku, Oidrema küla, Lääneranna vald, Pärnu maakond, 88404",
                 "kirje_id": 2786337,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -385,22 +423,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000164359,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4457669"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000164361,
+                "kirje_id": 9000740110,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 56564976"
+                "sisu": "+372 56497658"
             }
         ],
         "staatus": "R",
@@ -418,48 +445,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2022",
-                "emtak_kood": "78201",
-                "emtak_tekstina": "Ajutise tööjõu rent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634235,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941645,
                 "lopp_kpv": null,
-                "nace_kood": "78.20",
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "27.03.2023",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000675650,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.07.2018",
-                "emtak_kood": "01501",
-                "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000375021,
-                "lopp_kpv": null,
-                "nace_kood": "01.50",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.03.2015",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "01411",
                 "emtak_tekstina": "Piimakarjakasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000157641,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941643,
                 "lopp_kpv": null,
                 "nace_kood": "01.41",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "01501",
+                "emtak_tekstina": "Segapõllumajandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941644,
+                "lopp_kpv": null,
+                "nace_kood": "01.50",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Lilia",
-            "isikukood": "46609290360",
+            "isikukood": null,
+            "isikukood_hash": "77eb0124-bac7-5de0-93e9-b31d7594b9e9",
             "kirje_id": 9000716080,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36401250242",
+            "isikukood_hash": "2737c1eb-03b8-552e-8231-b3b9c053d14c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -75,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46609290360",
+            "isikukood_hash": "77eb0124-bac7-5de0-93e9-b31d7594b9e9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -138,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hargi tn 7-2, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3745968,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hargi tn 7-2, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3442968,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hargi tn 7-2, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3203955,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hargi tn 7-2, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
                 "kirje_id": 2898331,
@@ -358,7 +397,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -489,37 +528,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "74301",
-                "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064481,
-                "lopp_kpv": null,
-                "nace_kood": "74.30",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.06.2016",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000242188,
-                "lopp_kpv": null,
-                "nace_kood": "49.39",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2022",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000628305,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000940496,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "74301",
+                "emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000940495,
+                "lopp_kpv": null,
+                "nace_kood": "74.30",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

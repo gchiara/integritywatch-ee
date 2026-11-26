@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Tarvo",
-            "isikukood": "39104100257",
+            "isikukood": null,
+            "isikukood_hash": "24928661-31ad-5ef5-b5f0-7d821e8c3b1b",
             "kirje_id": 9000752875,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -34,20 +35,21 @@
             "aadress_riik": null,
             "aadress_riik_tekstina": null,
             "aadress_tanav_maja_korter": null,
-            "algus_kpv": "16.08.2013",
-            "eesnimi": "Tarvo",
+            "algus_kpv": "19.03.2024",
+            "eesnimi": "Kristopher",
             "email": null,
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39104100257",
+            "isikukood_hash": "7de26370-27d7-56a1-9fa3-9a8810ac956e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
-            "kaardi_piirkond": 1,
+            "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 4944067,
+            "kande_nr": 7,
+            "kirje_id": 12383079,
             "lopp_kpv": null,
-            "nimi_arinimi": "Lilleorg",
+            "nimi_arinimi": "Kuusk",
             "osamaks": null,
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6421031",
+                "aadress_ads__adob_id": "11504200",
                 "aadress_ads__adr_id": 2125740,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Endla tn 88",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 88, Kristiine linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3815203,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 88, Kristiine linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3328733,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 88, Kristiine linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3290197,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 88, Kristiine linnaosa, Tallinn, Harju maakond, 10614",
                 "kirje_id": 2971544,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -336,26 +374,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.09.2022",
+                "algus_kpv": "18.02.2025",
+                "emtak_kood": "6220",
+                "emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000823681,
+                "lopp_kpv": null,
+                "nace_kood": "62.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "18.02.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000650321,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000823682,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "12.09.2022",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000650320,
-                "lopp_kpv": null,
-                "nace_kood": "62.02",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

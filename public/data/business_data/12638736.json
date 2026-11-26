@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Liisi",
-            "isikukood": "48902284711",
+            "isikukood": null,
+            "isikukood_hash": "9578c965-edf6-5ede-990d-ae0256f3a9bb",
             "kirje_id": 9000798774,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48902284711",
+            "isikukood_hash": "9578c965-edf6-5ede-990d-ae0256f3a9bb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vana tee 9, Kirbla küla, Lääneranna vald, Pärnu maakond, 90201",
+                "kirje_id": 3706034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana tee 9, Kirbla küla, Lääneranna vald, Pärnu maakond, 90201",
+                "kirje_id": 3440529,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana tee 9, Kirbla küla, Lääneranna vald, Pärnu maakond, 90201",
+                "kirje_id": 3244586,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana tee 9, Kirbla küla, Lääneranna vald, Pärnu maakond, 90201",
                 "kirje_id": 2945496,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -308,48 +346,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2017",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000295757,
-                "lopp_kpv": null,
-                "nace_kood": "01.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000568740,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2020",
+                "algus_kpv": "13.06.2025",
                 "emtak_kood": "01621",
                 "emtak_tekstina": "Loomakasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000488456,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911561,
                 "lopp_kpv": null,
                 "nace_kood": "01.62",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "22.06.2016",
+                "algus_kpv": "13.06.2025",
                 "emtak_kood": "01421",
                 "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000236866,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911559,
                 "lopp_kpv": null,
                 "nace_kood": "01.42",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911560,
+                "lopp_kpv": null,
+                "nace_kood": "01.19",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911562,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

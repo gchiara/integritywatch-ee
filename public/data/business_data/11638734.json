@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Katrin",
-            "isikukood": "47906054936",
+            "isikukood": null,
+            "isikukood_hash": "447a8b83-c37a-5065-a1c0-1c9260dee114",
             "kirje_id": 9000655589,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47906054936",
+            "isikukood_hash": "447a8b83-c37a-5065-a1c0-1c9260dee114",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7875281",
-                "aadress_ads__adr_id": 2669792,
+                "aadress_ads__adob_id": "10948939",
+                "aadress_ads__adr_id": 3750422,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Ristiku tn 3-18",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01591044",
-                "aadress_ads__koodaadress": "52567586000000RRI0000AWQVHCIG0000",
+                "aadress_ads__koodaadress": "52567586100000W2O0000DA9ULTIH0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 3-18, Paide linn, Paide linn, Järva maakond, 72715",
+                "kirje_id": 3706106,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5611",
+                "tegevusala_emtak_tekstina": "Restoranitegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 3-18, Paide linn, Paide linn, Järva maakond, 72715",
+                "kirje_id": 3520880,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 3-18, Paide linn, Paide linn, Järva maakond, 72715",
+                "kirje_id": 3246765,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ristiku tn 3-18, Paide linn, Paide linn, Järva maakond, 72715",
                 "kirje_id": 2943928,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -420,14 +458,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000069486,
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "5611",
+                "emtak_tekstina": "Restoranitegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117622,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": true
             }
         ],

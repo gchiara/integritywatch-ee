@@ -178,11 +178,10 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 11261471",
+            "Nominees as company beneficial owners: Juho_Salus_18.09.2018",
             "Possible shell company: 10085032",
-            "Nominees as company beneficial owners: 36501172715",
-            "Nominees as company beneficial owners: 36504282743",
-            "Nominees as company board members: 36004164724",
-            "Nominees as company board members: 36801040281"
+            "Nominees as company beneficial owners: Marcel_Vichmann_05.09.2018",
+            "Nominees as company beneficial owners: Tiit_Pruuli_05.09.2018"
         ],
         "noticeUid": "1b49a66a-f082-47d7-b9c5-4928ad8175e0",
         "notice_items": [
@@ -469,7 +468,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-19",
+                "award_date_conclusion_contract": [
+                    "2023-08-19"
+                ],
                 "award_value": "80000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -484,7 +485,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Bussitransporditeenuse tellimine Kambja valla haridusasutustele 2023/2024 ja 2024/2025.õa.",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -527,6 +528,62 @@
         ],
         "refnum": "265978",
         "total_amount": "140000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-12-15"
+                ],
+                "award_value": "1.19",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12774340",
+                        "contractor_name": "AGRIS OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kambja valla kooli- ja liinibussi transporditeenus 2024.-2026.aastal",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "77000275",
+                "name": "Kambja Vallavalitsus",
+                "town": "Kambja vald"
+            }
+        ],
+        "contractors": [
+            "12774340"
+        ],
+        "cpv": "60100000",
+        "date_dispatch_notice": "2023-12-21",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_0ae0b3a8-2039-4743-89fa-06864834c86f_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "0ae0b3a8-2039-4743-89fa-06864834c86f",
+        "notice_items": [
+            {
+                "endDate": "2026-12-31"
+            }
+        ],
+        "refnum": "270193",
+        "total_amount": "1.19",
         "total_amount_curr": "EUR"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Toonio",
-            "isikukood": "36504230279",
+            "isikukood": null,
+            "isikukood_hash": "f0a31092-628c-5258-916d-d310abd608a1",
             "kirje_id": 9000878662,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36504230279",
+            "isikukood_hash": "f0a31092-628c-5258-916d-d310abd608a1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 17-3, Nõmme linnaosa, Tallinn, Harju maakond, 11621",
+                "kirje_id": 3669347,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "61901",
+                "tegevusala_emtak_tekstina": "Muud elektroonilise side teenused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "61.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 17-3, Nõmme linnaosa, Tallinn, Harju maakond, 11621",
+                "kirje_id": 3473002,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46501",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 17-3, Nõmme linnaosa, Tallinn, Harju maakond, 11621",
+                "kirje_id": 3246456,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46511",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.51",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valdeku tn 17-3, Nõmme linnaosa, Tallinn, Harju maakond, 11621",
                 "kirje_id": 2950554,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -552,25 +590,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2023",
-                "emtak_kood": "6120",
-                "emtak_tekstina": "Elektroonilise side teenused traadita sidevõrgus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709109,
+                "algus_kpv": "06.06.2026",
+                "emtak_kood": "61901",
+                "emtak_tekstina": "Muud elektroonilise side teenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109427,
                 "lopp_kpv": null,
-                "nace_kood": "61.20",
+                "nace_kood": "61.90",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "04.07.2023",
-                "emtak_kood": "46511",
+                "algus_kpv": "06.06.2026",
+                "emtak_kood": "46501",
                 "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709110,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109428,
                 "lopp_kpv": null,
-                "nace_kood": "46.51",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": false
             }
         ],

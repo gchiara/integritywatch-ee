@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "37607020236",
+            "isikukood": null,
+            "isikukood_hash": "7fa8947f-e62a-5bd2-b82d-2ea3847510f7",
             "kirje_id": 9000855760,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Ott",
-            "isikukood": "37605090297",
+            "isikukood": null,
+            "isikukood_hash": "120a676e-737b-57ae-8f77-c13310f79075",
             "kirje_id": 9000855751,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37607020236",
+            "isikukood_hash": "7fa8947f-e62a-5bd2-b82d-2ea3847510f7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37605090297",
+            "isikukood_hash": "120a676e-737b-57ae-8f77-c13310f79075",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3616701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3427104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3088477,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2963091,
@@ -317,7 +357,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -450,12 +490,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.11.2010",
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000096792,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000925410,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true

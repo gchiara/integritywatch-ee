@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Markko",
-            "isikukood": "37705170226",
+            "isikukood": null,
+            "isikukood_hash": "150380cb-169c-5801-aa82-c2e18bd93bf7",
             "kirje_id": 9000874688,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37705170226",
+            "isikukood_hash": "150380cb-169c-5801-aa82-c2e18bd93bf7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,6 +81,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3490282,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3252914,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2986790,
@@ -383,12 +409,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.08.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "4321",
                 "emtak_tekstina": "Elektriinstallatsioon",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000256876,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987405,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true

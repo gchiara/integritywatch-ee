@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.09.2018",
             "eesnimi": "Oliver",
-            "isikukood": "37408170232",
+            "isikukood": null,
+            "isikukood_hash": "2da6b1d7-be3f-5967-9704-edd757585625",
             "kirje_id": 9000700731,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37408170232",
+            "isikukood_hash": "2da6b1d7-be3f-5967-9704-edd757585625",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metsa, Kolga küla, Hiiumaa vald, Hiiu maakond, 92612",
+                "kirje_id": 3540995,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47401",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsa, Kolga küla, Hiiumaa vald, Hiiu maakond, 92612",
+                "kirje_id": 3287150,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47411",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.41",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsa, Kolga küla, Hiiumaa vald, Hiiu maakond, 92612",
+                "kirje_id": 3011688,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "47411",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.41",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metsa, Kolga küla, Hiiumaa vald, Hiiu maakond, 92612",
                 "kirje_id": 2724912,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -287,26 +325,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.09.2019",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000447557,
+                "algus_kpv": "24.07.2025",
+                "emtak_kood": "47401",
+                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001036671,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
-                "on_pohitegevusala": false
+                "nace_kood": "47.40",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "11.09.2019",
-                "emtak_kood": "47411",
-                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000445222,
+                "algus_kpv": "24.07.2025",
+                "emtak_kood": "62201",
+                "emtak_tekstina": "Arvutialased konsultatsioonid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001036672,
                 "lopp_kpv": null,
-                "nace_kood": "47.41",
-                "on_pohitegevusala": true
+                "nace_kood": "62.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

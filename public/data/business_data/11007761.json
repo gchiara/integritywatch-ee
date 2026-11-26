@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37504222747",
+            "isikukood": null,
+            "isikukood_hash": "c24b0f28-5542-5d91-8822-1301682708b4",
             "kirje_id": 9000761193,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37504222747",
+            "isikukood_hash": "c24b0f28-5542-5d91-8822-1301682708b4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8174278",
+                "aadress_ads__adob_id": "10881679",
                 "aadress_ads__adr_id": 2839759,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Ülenurme alevik, Mõisniku tn 90",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisniku tn 90, Ülenurme alevik, Kambja vald, Tartu maakond, 60714",
+                "kirje_id": 3574799,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "47529",
+                "tegevusala_emtak_tekstina": "Muude ehitusmaterjalide ja -tarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.52",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisniku tn 90, Ülenurme alevik, Kambja vald, Tartu maakond, 60714",
+                "kirje_id": 3296880,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisniku tn 90, Ülenurme alevik, Kambja vald, Tartu maakond, 60714",
+                "kirje_id": 3020057,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisniku tn 90, Ülenurme alevik, Kambja vald, Tartu maakond, 60714",
                 "kirje_id": 2719652,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -443,26 +481,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.09.2020",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000499867,
+                "algus_kpv": "07.01.2026",
+                "emtak_kood": "47529",
+                "emtak_tekstina": "Muude ehitusmaterjalide ja -tarvete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074508,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.52",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "07.09.2020",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000499868,
-                "lopp_kpv": null,
-                "nace_kood": "02.40",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

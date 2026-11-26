@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Urmas",
-            "isikukood": "38303060019",
+            "isikukood": null,
+            "isikukood_hash": "23ae9991-0e55-53e7-83a4-46e9d0a865bc",
             "kirje_id": 9000842158,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38303060019",
+            "isikukood_hash": "23ae9991-0e55-53e7-83a4-46e9d0a865bc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10402128",
-                "aadress_ads__adr_id": 2601916,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Pihtla küla, Simmu",
+                "aadress_ads__adob_id": "10931689",
+                "aadress_ads__adr_id": 2613418,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kudjape alevik, Tööstuse tn 25",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE03453297",
-                "aadress_ads__koodaadress": "7471461530000000056GV000000000000",
+                "aadress_ads__ads_oid": "ME01045968",
+                "aadress_ads__koodaadress": "7471435190000086300001JSC00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "28.03.2018",
-                "ehak": "6153",
-                "ehak_nimetus": "Pihtla küla, Saaremaa vald, Saare maakond",
+                "algus_kpv": "12.12.2024",
+                "ehak": "3519",
+                "ehak_nimetus": "Kudjape alevik, Saaremaa vald, Saare maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 8013232,
+                "kande_nr": 6,
+                "kirje_id": 12846453,
                 "lopp_kpv": null,
-                "postiindeks": "94101",
+                "postiindeks": "93851",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Simmu"
+                "tanav_maja_korter": "Tööstuse tn 25"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 25, Kudjape alevik, Saaremaa vald, Saare maakond, 93851",
+                "kirje_id": 3720327,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 25, Kudjape alevik, Saaremaa vald, Saare maakond, 93851",
+                "kirje_id": 3509461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16121",
+                "tegevusala_emtak_tekstina": "Puidu töötlemine ja viimistlemine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Simmu, Pihtla küla, Saaremaa vald, Saare maakond, 94101",
+                "kirje_id": 3102277,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Simmu, Pihtla küla, Saaremaa vald, Saare maakond, 94101",
                 "kirje_id": 2963661,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -394,36 +432,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "43299",
-                "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000309807,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001006497,
                 "lopp_kpv": null,
-                "nace_kood": "43.29",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.06.2018",
-                "emtak_kood": "03111",
-                "emtak_tekstina": "Merekalapüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000367197,
-                "lopp_kpv": null,
-                "nace_kood": "03.11",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "04.12.2022",
+                "algus_kpv": "26.06.2026",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000659816,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001120583,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "26.06.2026",
+                "emtak_kood": "16121",
+                "emtak_tekstina": "Puidu töötlemine ja viimistlemine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001120584,
+                "lopp_kpv": null,
+                "nace_kood": "16.12",
                 "on_pohitegevusala": false
             }
         ],

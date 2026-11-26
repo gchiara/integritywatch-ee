@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2018",
             "eesnimi": "Ivo",
-            "isikukood": "38006216017",
+            "isikukood": null,
+            "isikukood_hash": "dc492f24-25c4-528b-97ef-babca9f02911",
             "kirje_id": 9000698503,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38006216017",
+            "isikukood_hash": "dc492f24-25c4-528b-97ef-babca9f02911",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6678553",
-                "aadress_ads__adr_id": 2305378,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tatari tn 28-1",
+                "aadress_ads__adob_id": "10695563",
+                "aadress_ads__adr_id": 2119724,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Lai tn 2 // Nunne tn 2 // Pikk tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01314581",
-                "aadress_ads__koodaadress": "3778402980000060A00003KWT33B60000",
+                "aadress_ads__ads_oid": "EE00658009",
+                "aadress_ads__koodaadress": "3778402980000049U00000VE100000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.11.2017",
+                "algus_kpv": "05.02.2024",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7192347,
+                "kande_nr": 10,
+                "kirje_id": 12292833,
                 "lopp_kpv": null,
-                "postiindeks": "10116",
+                "postiindeks": "10133",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tatari tn 28-1"
+                "tanav_maja_korter": "Lai tn 2 // Nunne tn 2 // Pikk tn 1"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Nunne tn 2 // Pikk tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3704106,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Nunne tn 2 // Pikk tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3439927,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Nunne tn 2 // Pikk tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3138782,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tatari tn 28-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10116",
                 "kirje_id": 2857083,
@@ -310,7 +348,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -430,33 +468,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000129649,
+                "kirje_id": 9000701027,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.guruprojekt.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000333977,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6444416"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000333978,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6444413"
+                "sisu": "http://www.guruprojekt.ee"
             }
         ],
         "staatus": "R",
@@ -474,12 +490,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000036333,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937590,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true

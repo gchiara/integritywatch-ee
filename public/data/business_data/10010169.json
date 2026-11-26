@@ -2,21 +2,22 @@
     "ariregistri_kood": 10010169,
     "beneficial_owners": [
         {
-            "aadress_riik": "SWE",
-            "aadress_riik_tekstina": "Rootsi",
-            "algus_kpv": "24.03.2021",
-            "eesnimi": "Mats Olof Mikael",
+            "aadress_riik": "FIN",
+            "aadress_riik_tekstina": "Soome",
+            "algus_kpv": "01.07.2024",
+            "eesnimi": "Ville Simo Anton",
             "isikukood": null,
-            "kirje_id": 9001253486,
+            "isikukood_hash": "33250745-d322-5f84-acd8-6bb4d7f800e7",
+            "kirje_id": 9001722437,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Paulsson",
+            "nimi": "Tamminen",
             "synniaeg": null,
-            "valis_kood": "580528-4337",
-            "valis_kood_riik": "SWE",
-            "valis_kood_riik_tekstina": "Rootsi"
+            "valis_kood": null,
+            "valis_kood_riik": "FIN",
+            "valis_kood_riik_tekstina": "Soome"
         }
     ],
     "board_members": [
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38302210330",
+            "isikukood_hash": "5e7dc057-9768-57c2-98e9-08d2668e7b41",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9700719",
+                "aadress_ads__adob_id": "10809612",
                 "aadress_ads__adr_id": 2109391,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Mustamäe tee 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 16, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3765039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 16, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3498327,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 16, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3203244,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "49"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 16, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
                 "kirje_id": 2959247,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -623,45 +661,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.07.2023",
-                "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710901,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "81101",
+                "emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995508,
                 "lopp_kpv": null,
-                "nace_kood": "33.12",
+                "nace_kood": "81.10",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "43221",
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995507,
+                "lopp_kpv": null,
+                "nace_kood": "43.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "11.07.2023",
-                "emtak_kood": "33141",
-                "emtak_tekstina": "Elektriseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710902,
-                "lopp_kpv": null,
-                "nace_kood": "33.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.07.2023",
-                "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710903,
-                "lopp_kpv": null,
-                "nace_kood": "43.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.07.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710904,
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995510,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": false

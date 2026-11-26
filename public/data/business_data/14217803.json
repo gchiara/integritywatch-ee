@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Märten",
-            "isikukood": "38802150028",
+            "isikukood": null,
+            "isikukood_hash": "66b25813-8a50-5b88-bd50-191ddbc020f9",
             "kirje_id": 9000675236,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38802150028",
+            "isikukood_hash": "66b25813-8a50-5b88-bd50-191ddbc020f9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7280015",
-                "aadress_ads__adr_id": 2157422,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, J. Köleri tn 30-1",
+                "aadress_ads__adob_id": "7810521",
+                "aadress_ads__adr_id": 2603113,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Vanalõve küla, Lõve",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01277476",
-                "aadress_ads__koodaadress": "377840298000005WN00002H7P2BWO0000",
+                "aadress_ads__ads_oid": "ME01874816",
+                "aadress_ads__koodaadress": "74714901800000000210I000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.05.2022",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "17.12.2025",
+                "ehak": "9018",
+                "ehak_nimetus": "Vanalõve küla, Saaremaa vald, Saare maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10102366,
+                "kande_nr": 9,
+                "kirje_id": 13475899,
                 "lopp_kpv": null,
-                "postiindeks": "10150",
+                "postiindeks": "94318",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "J. Köleri tn 30-1"
+                "tanav_maja_korter": "Lõve"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõve, Vanalõve küla, Saaremaa vald, Saare maakond, 94318",
+                "kirje_id": 3789746,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 5, Kuressaare linn, Saaremaa vald, Saare maakond, 93819",
+                "kirje_id": 3493036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 5, Kuressaare linn, Saaremaa vald, Saare maakond, 93819",
+                "kirje_id": 3157003,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Köleri tn 30-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10150",
                 "kirje_id": 2870132,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -246,13 +284,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "04.05.2022",
+                "algus_kpv": "11.01.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "02.05.2022",
-                "kirje_id": 10102367,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12238318,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -287,14 +325,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.09.2018",
-                "emtak_kood": "62011",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000382812,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990191,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

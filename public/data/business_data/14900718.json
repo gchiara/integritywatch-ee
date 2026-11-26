@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.02.2020",
             "eesnimi": "Jaanus",
-            "isikukood": "37012042739",
+            "isikukood": null,
+            "isikukood_hash": "65e6f4f2-9fef-5d57-a885-9ad67c447dbe",
             "kirje_id": 9001081333,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.02.2020",
             "eesnimi": "Tõnis",
-            "isikukood": "37601292751",
+            "isikukood": null,
+            "isikukood_hash": "b868118d-c844-5083-9fc2-8247485a19b5",
             "kirje_id": 9001081334,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37012042739",
+            "isikukood_hash": "65e6f4f2-9fef-5d57-a885-9ad67c447dbe",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37601292751",
+            "isikukood_hash": "b868118d-c844-5083-9fc2-8247485a19b5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10485619",
+                "aadress_ads__adob_id": "11132674",
                 "aadress_ads__adr_id": 3025941,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Põhara küla, Jaanuse",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jaanuse, Põhara küla, Pärnu linn, Pärnu maakond, 88318",
+                "kirje_id": 3631071,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaanuse, Põhara küla, Pärnu linn, Pärnu maakond, 88318",
+                "kirje_id": 3411620,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaanuse, Põhara küla, Pärnu linn, Pärnu maakond, 88318",
+                "kirje_id": 3164356,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jaanuse, Põhara küla, Pärnu linn, Pärnu maakond, 88318",
                 "kirje_id": 2988581,
@@ -316,12 +356,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.01.2020",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "46611",
                 "emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000461231,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000910553,
                 "lopp_kpv": null,
                 "nace_kood": "46.61",
                 "on_pohitegevusala": true

@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 11019050,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "25.02.2026",
+            "eesnimi": "Alexander",
+            "isikukood": null,
+            "isikukood_hash": "279ae423-bc67-5bf1-be1d-cdd35c5bc347",
+            "kirje_id": 9003527517,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Bogretsov",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35705070325",
+            "isikukood_hash": "279ae423-bc67-5bf1-be1d-cdd35c5bc347",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -58,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38912260319",
+            "isikukood_hash": "8dadfdf0-b540-5a4f-ae59-b0015290a230",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -95,7 +116,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48111220058",
+            "isikukood_hash": "c5370432-fd33-508e-9ea6-5442ebcba20c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -158,6 +180,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ehte tn 2-90, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10318",
+                "kirje_id": 3807575,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehte tn 2-90, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10318",
+                "kirje_id": 3555956,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehte tn 2-90, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10318",
+                "kirje_id": 3270557,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ehte tn 2-90, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10318",
                 "kirje_id": 2949534,
@@ -402,7 +460,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -522,23 +580,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "11.09.2025",
                 "emtak_kood": "87101",
                 "emtak_tekstina": "Hooldusraviasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708941,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001052208,
                 "lopp_kpv": null,
                 "nace_kood": "87.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "11.09.2025",
                 "emtak_kood": "43311",
                 "emtak_tekstina": "Krohvimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708942,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001052209,
                 "lopp_kpv": null,
                 "nace_kood": "43.31",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Vadim",
-            "isikukood": "36308200283",
+            "isikukood": null,
+            "isikukood_hash": "d0f56025-ce28-5e24-b613-6cee0d87b46d",
             "kirje_id": 9000664407,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36308200283",
+            "isikukood_hash": "d0f56025-ce28-5e24-b613-6cee0d87b46d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 50-9, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3767701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "52261",
+                "tegevusala_emtak_tekstina": "Saadetiste organiseerimine ja ekspedeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.26",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 50-9, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3441142,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "52261",
+                "tegevusala_emtak_tekstina": "Saadetiste organiseerimine ja ekspedeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.26",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 50-9, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3188936,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52291",
+                "tegevusala_emtak_tekstina": "Veoste ekspedeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.29",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 50-9, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
                 "kirje_id": 2881778,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -573,36 +611,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "52262",
+                "emtak_tekstina": "Tollimaaklerite tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938773,
+                "lopp_kpv": null,
+                "nace_kood": "52.26",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "77111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000055784,
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938774,
                 "lopp_kpv": null,
                 "nace_kood": "77.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "52293",
-                "emtak_tekstina": "Tollimaaklerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000055785,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "52261",
+                "emtak_tekstina": "Saadetiste organiseerimine ja ekspedeerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938772,
                 "lopp_kpv": null,
-                "nace_kood": "52.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "52291",
-                "emtak_tekstina": "Veoste ekspedeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000028105,
-                "lopp_kpv": null,
-                "nace_kood": "52.29",
+                "nace_kood": "52.26",
                 "on_pohitegevusala": true
             }
         ],

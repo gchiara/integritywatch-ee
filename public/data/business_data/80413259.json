@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.02.2020",
             "eesnimi": "Mihkel",
-            "isikukood": "37910032215",
+            "isikukood": null,
+            "isikukood_hash": "9204b21e-90e9-5e83-b074-38d62c984d03",
             "kirje_id": 9001088742,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37910032215",
+            "isikukood_hash": "9204b21e-90e9-5e83-b074-38d62c984d03",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9598169",
-                "aadress_ads__adr_id": 3307677,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Edise küla, Aiandi keskus 5",
+                "aadress_ads__adob_id": "9628411",
+                "aadress_ads__adr_id": 3232274,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Lüganuse vald, Erra alevik, Mõisa tee 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00663047",
-                "aadress_ads__koodaadress": "4525115242DC5000000009WNC00000000",
+                "aadress_ads__ads_oid": "ME00688522",
+                "aadress_ads__koodaadress": "45442163100000B910000819B00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.12.2017",
-                "ehak": "1524",
-                "ehak_nimetus": "Edise küla, Jõhvi vald, Ida-Viru maakond",
+                "algus_kpv": "23.12.2025",
+                "ehak": "1631",
+                "ehak_nimetus": "Erra alevik, Lüganuse vald, Ida-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 6,
-                "kirje_id": 7389234,
+                "kande_nr": 9,
+                "kirje_id": 13485004,
                 "lopp_kpv": null,
-                "postiindeks": "41558",
+                "postiindeks": "43131",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Aiandi keskus 5"
+                "tanav_maja_korter": "Mõisa tee 10"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tee 10, Erra alevik, Lüganuse vald, Ida-Viru maakond, 43131",
+                "kirje_id": 3716559,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aiandi keskus 5, Edise küla, Jõhvi vald, Ida-Viru maakond, 41558",
+                "kirje_id": 3530227,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aiandi keskus 5, Edise küla, Jõhvi vald, Ida-Viru maakond, 41558",
+                "kirje_id": 3202480,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aiandi keskus 5, Edise küla, Jõhvi vald, Ida-Viru maakond, 41558",
                 "kirje_id": 2812702,
@@ -177,7 +215,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -230,13 +268,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "23.08.2017",
+                "algus_kpv": "23.12.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 5,
-                "kinnitamise_kpv": "04.07.2017",
-                "kirje_id": 7024637,
+                "kande_nr": 9,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13485005,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -248,23 +286,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 8,
-                "kirje_id": 10488472,
+                "kande_nr": 9,
+                "kirje_id": 13485006,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "struugamtu@gmail.com"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000428475,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5025205"
+                "sisu": "mihkelolt@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -293,12 +320,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.05.2020",
+                "algus_kpv": "08.07.2025",
                 "emtak_kood": "01421",
                 "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000478148,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001026232,
                 "lopp_kpv": null,
                 "nace_kood": "01.42",
                 "on_pohitegevusala": true

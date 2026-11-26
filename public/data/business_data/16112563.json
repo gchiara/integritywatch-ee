@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.12.2020",
             "eesnimi": "Matis",
-            "isikukood": "38302104718",
+            "isikukood": null,
+            "isikukood_hash": "5483dc13-78ec-52ec-9a59-9f9f623b9a5d",
             "kirje_id": 9001205338,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38302104718",
+            "isikukood_hash": "5483dc13-78ec-52ec-9a59-9f9f623b9a5d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8650708",
+                "aadress_ads__adob_id": "11510569",
                 "aadress_ads__adr_id": 3031740,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Audru alevik, Nooruse põik 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Nooruse põik 8, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3657935,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse põik 8, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3377039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse põik 8, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3087354,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse põik 8, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
                 "kirje_id": 2884872,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,26 +288,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
+                "algus_kpv": "20.05.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875623,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.05.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697362,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875625,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "20.05.2022",
-                "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000619595,
+                "algus_kpv": "20.05.2025",
+                "emtak_kood": "77311",
+                "emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875624,
                 "lopp_kpv": null,
-                "nace_kood": "33.12",
-                "on_pohitegevusala": true
+                "nace_kood": "77.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

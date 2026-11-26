@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kaspar",
-            "isikukood": "38208032722",
+            "isikukood": null,
+            "isikukood_hash": "1e077e8a-cde7-5c4d-a2db-d69fad6f529f",
             "kirje_id": 9000778057,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Rein",
-            "isikukood": "35303082738",
+            "isikukood": null,
+            "isikukood_hash": "f7bb7431-6ea9-53af-9aaa-bdf6d5057ad3",
             "kirje_id": 9000780650,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37810030232",
+            "isikukood_hash": "c6f49611-81f3-508d-b458-840e87e847f1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9708363",
+                "aadress_ads__adob_id": "11124202",
                 "aadress_ads__adr_id": 3314321,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Kihnu vald, Sääre küla, Kurase",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kurase, Sääre küla, Kihnu vald, Pärnu maakond, 88005",
+                "kirje_id": 3763310,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "50101",
+                "tegevusala_emtak_tekstina": "Sõitjate liinivedu merel ja rannavetes",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "50.10",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kurase, Sääre küla, Kihnu vald, Pärnu maakond, 88005",
+                "kirje_id": 3480619,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "50101",
+                "tegevusala_emtak_tekstina": "Sõitjate liinivedu merel ja rannavetes",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "50.10",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kurase, Sääre küla, Kihnu vald, Pärnu maakond, 88005",
+                "kirje_id": 3213302,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "50101",
+                "tegevusala_emtak_tekstina": "Sõitjatevedu merel ja rannavetes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "50.10",
+                "tootajate_arv": "50"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kurase, Sääre küla, Kihnu vald, Pärnu maakond, 88005",
                 "kirje_id": 2915795,
@@ -388,7 +427,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -483,17 +522,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000009654,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 53070594"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 3000271436,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
@@ -505,11 +533,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000109553,
+                "kirje_id": 9000711752,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.veeteed.com"
+                "sisu": "http://www.veeteed.com"
             }
         ],
         "staatus": "R",
@@ -527,23 +555,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2011",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47811",
-                "emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete jaemüük kioskites ja turgudel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000124366,
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977079,
                 "lopp_kpv": null,
                 "nace_kood": "47.81",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "50101",
-                "emtak_tekstina": "Sõitjatevedu merel ja rannavetes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000008699,
+                "emtak_tekstina": "Sõitjate liinivedu merel ja rannavetes",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977078,
                 "lopp_kpv": null,
                 "nace_kood": "50.10",
                 "on_pohitegevusala": true

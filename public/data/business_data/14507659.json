@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.09.2018",
             "eesnimi": "Andres",
-            "isikukood": "37504160012",
+            "isikukood": null,
+            "isikukood_hash": "573b442b-2b3d-5e16-9eae-7723404a516f",
             "kirje_id": 9000705355,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.11.2020",
             "eesnimi": "Gunnar",
-            "isikukood": "37211200218",
+            "isikukood": null,
+            "isikukood_hash": "2e54b516-77bf-51c4-a77d-cf7f7c9f3e75",
             "kirje_id": 9001199570,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37504160012",
+            "isikukood_hash": "573b442b-2b3d-5e16-9eae-7723404a516f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37211200218",
+            "isikukood_hash": "2e54b516-77bf-51c4-a77d-cf7f7c9f3e75",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 23, Kuressaare linn, Saaremaa vald, Saare maakond, 93811",
+                "kirje_id": 3633390,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 23, Kuressaare linn, Saaremaa vald, Saare maakond, 93811",
+                "kirje_id": 3451336,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 23, Kuressaare linn, Saaremaa vald, Saare maakond, 93811",
+                "kirje_id": 3195502,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna tn 23, Kuressaare linn, Saaremaa vald, Saare maakond, 93811",
                 "kirje_id": 2930463,
@@ -233,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -329,12 +369,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.06.2018",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "55201",
                 "emtak_tekstina": "Hostelid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000358980,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000948511,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": true

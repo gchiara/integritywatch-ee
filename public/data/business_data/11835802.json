@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Mario",
-            "isikukood": "38306180010",
+            "isikukood": null,
+            "isikukood_hash": "65bd88c7-f0cc-5992-931a-83af03051645",
             "kirje_id": 9000787735,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48312300017",
+            "isikukood_hash": "501be087-4430-53d7-9436-d5aa96c9d7c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38306180010",
+            "isikukood_hash": "65bd88c7-f0cc-5992-931a-83af03051645",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -99,7 +102,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10436674",
+                "aadress_ads__adob_id": "10673759",
                 "aadress_ads__adr_id": 2609286,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Arju küla, Arju laut",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Arju laut, Arju küla, Saaremaa vald, Saare maakond, 94622",
+                "kirje_id": 3746975,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Arju laut, Arju küla, Saaremaa vald, Saare maakond, 94622",
+                "kirje_id": 3515015,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Arju laut, Arju küla, Saaremaa vald, Saare maakond, 94622",
+                "kirje_id": 3191650,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Arju laut, Arju küla, Saaremaa vald, Saare maakond, 94622",
                 "kirje_id": 2967315,
@@ -312,7 +351,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -432,23 +471,45 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2019",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012004,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01621",
                 "emtak_tekstina": "Loomakasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000431678,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012005,
                 "lopp_kpv": null,
                 "nace_kood": "01.62",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2019",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012006,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000431677,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012003,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
                 "on_pohitegevusala": true

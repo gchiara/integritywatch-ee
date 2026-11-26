@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.02.2020",
             "eesnimi": "Margus",
-            "isikukood": "37405170348",
+            "isikukood": null,
+            "isikukood_hash": "7686ec94-0c98-53a8-9751-f97c085f6c07",
             "kirje_id": 9001083549,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37405170348",
+            "isikukood_hash": "7686ec94-0c98-53a8-9751-f97c085f6c07",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9011243",
-                "aadress_ads__adr_id": 3192272,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Nõmme küla, Nõmmekõrtsi",
+                "aadress_ads__adob_id": "9007274",
+                "aadress_ads__adr_id": 3211379,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Alu alevik, Keskuse tee 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00925895",
-                "aadress_ads__koodaadress": "716685520000000001M7E000000000000",
+                "aadress_ads__ads_oid": "ME00927325",
+                "aadress_ads__koodaadress": "716681230000002JZ00005QCD00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.03.2019",
-                "ehak": "5520",
-                "ehak_nimetus": "Nõmme küla, Rapla vald, Rapla maakond",
+                "algus_kpv": "16.07.2026",
+                "ehak": "1230",
+                "ehak_nimetus": "Alu alevik, Rapla vald, Rapla maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8466773,
+                "kande_nr": 5,
+                "kirje_id": 13872891,
                 "lopp_kpv": null,
-                "postiindeks": "79642",
+                "postiindeks": "79601",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Nõmmekõrtsi"
+                "tanav_maja_korter": "Keskuse tee 3"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nõmmekõrtsi, Nõmme küla, Rapla vald, Rapla maakond, 79642",
+                "kirje_id": 3736305,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nõmmekõrtsi, Nõmme küla, Rapla vald, Rapla maakond, 79642",
+                "kirje_id": 3506392,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nõmmekõrtsi, Nõmme küla, Rapla vald, Rapla maakond, 79642",
+                "kirje_id": 3243083,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nõmmekõrtsi, Nõmme küla, Rapla vald, Rapla maakond, 79642",
                 "kirje_id": 2928761,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,26 +312,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.08.2021",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001003503,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "5520",
-                "emtak_tekstina": "Puhkemajutus ja muu lühiajaline majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000577000,
+                "emtak_tekstina": "Puhkuse- ja muu lühiajaline majutus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001003504,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.08.2021",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000576999,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

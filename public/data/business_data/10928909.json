@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Sergey",
-            "isikukood": "36111052230",
+            "isikukood": null,
+            "isikukood_hash": "dd01a770-b823-587a-aac6-b5750a0be0bc",
             "kirje_id": 9000730899,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36111052230",
+            "isikukood_hash": "dd01a770-b823-587a-aac6-b5750a0be0bc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -63,11 +65,11 @@
         "aadressid": [
             {
                 "aadress_ads__adob_id": "10619320",
-                "aadress_ads__adr_id": 2764775,
+                "aadress_ads__adr_id": 3670118,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Sillamäe linn, Kalda tn 43",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00683629",
-                "aadress_ads__koodaadress": "457350000000003EO00000NY400000000",
+                "aadress_ads__koodaadress": "45736000000000VIX0000D11000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "0736",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 43, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3641513,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46321",
+                "tegevusala_emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.32",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 43, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3353294,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46321",
+                "tegevusala_emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.32",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 43, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3145296,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46321",
+                "tegevusala_emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.32",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalda tn 43, Sillamäe linn, Ida-Viru maakond, 40231",
                 "kirje_id": 2812457,
@@ -359,7 +397,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -432,34 +470,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7752633,
+                "kande_nr": 8,
+                "kirje_id": 13976705,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "genateja@gmail.com"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7752634,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "ksusha.kh@list.ru"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7752635,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "tamaragenateja@hot.ee"
+                "sisu": "ksnikasil@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -471,39 +487,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 55675972"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000038379,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 3973481"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000038380,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 3973481"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000083652,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 3924358"
             }
         ],
         "staatus": "R",
@@ -521,12 +504,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2014",
+                "algus_kpv": "10.04.2025",
                 "emtak_kood": "46321",
                 "emtak_tekstina": "Liha ja lihatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000121399,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850534,
                 "lopp_kpv": null,
                 "nace_kood": "46.32",
                 "on_pohitegevusala": true

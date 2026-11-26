@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2018",
             "eesnimi": "Teet",
-            "isikukood": "36909272729",
+            "isikukood": null,
+            "isikukood_hash": "4212039d-eaa3-5890-8f0e-925c1314c0d3",
             "kirje_id": 9000784421,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36909272729",
+            "isikukood_hash": "4212039d-eaa3-5890-8f0e-925c1314c0d3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8768847",
+                "aadress_ads__adob_id": "11149848",
                 "aadress_ads__adr_id": 3046666,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Riia tn 24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 24, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3781200,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "38"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 24, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3387537,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "37"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 24, Tartu linn, Tartu linn, Tartu maakond, 51010",
+                "kirje_id": 3232087,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "34"
+            },
             {
                 "ettevotja_aadress_aruandes": "Riia tn 24, Tartu linn, Tartu linn, Tartu maakond, 51010",
                 "kirje_id": 2816249,
@@ -442,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -586,14 +624,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "62011",
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000018721,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886094,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

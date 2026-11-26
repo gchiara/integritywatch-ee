@@ -7,6 +7,7 @@
             "algus_kpv": "27.04.2022",
             "eesnimi": "John",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001424690,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38309255224",
+            "isikukood_hash": "35ec265e-fd9d-568c-9bb1-15401a8d5f87",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7449021",
+                "aadress_ads__adob_id": "10880132",
                 "aadress_ads__adr_id": 2444618,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Jõelähtme vald, Iru küla, Saha-Loo tee 14",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saha-Loo tee 14, Iru küla, Jõelähtme vald, Harju maakond, 74206",
+                "kirje_id": 3619930,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2025",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha-Loo tee 14, Iru küla, Jõelähtme vald, Harju maakond, 74206",
+                "kirje_id": 3334774,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2024",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha-Loo tee 14, Iru küla, Jõelähtme vald, Harju maakond, 74206",
+                "kirje_id": 3100561,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2023",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Saha-Loo tee 14, Iru küla, Jõelähtme vald, Harju maakond, 74206",
                 "kirje_id": 2803702,
@@ -395,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -535,48 +573,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.03.2010",
+                "algus_kpv": "05.03.2025",
                 "emtak_kood": "77121",
                 "emtak_tekstina": "Veokite rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000008287,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830363,
                 "lopp_kpv": null,
                 "nace_kood": "77.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "22.03.2010",
-                "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000008286,
-                "lopp_kpv": null,
-                "nace_kood": "33.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2013",
-                "emtak_kood": "46691",
-                "emtak_tekstina": "Tõste- ja teisaldusseadmete ja -masinate ning nende varuosade hulgimüük,         (k.a konteinerid)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000049271,
-                "lopp_kpv": null,
-                "nace_kood": "46.69",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2013",
+                "algus_kpv": "05.03.2025",
                 "emtak_kood": "46631",
                 "emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000049270,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830360,
                 "lopp_kpv": null,
                 "nace_kood": "46.63",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "05.03.2025",
+                "emtak_kood": "46642",
+                "emtak_tekstina": "Tõste- ja teisaldusseadmete ja -masinate ning nende varuosade, k.a konteinerite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830361,
+                "lopp_kpv": null,
+                "nace_kood": "46.64",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "05.03.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830362,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

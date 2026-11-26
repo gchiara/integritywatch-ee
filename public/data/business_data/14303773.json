@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Boris",
-            "isikukood": "37908220011",
+            "isikukood": null,
+            "isikukood_hash": "715aeff2-ed45-51a2-8f5e-1c7df48a2046",
             "kirje_id": 9000819652,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Kristiina",
-            "isikukood": "48409230011",
+            "isikukood": null,
+            "isikukood_hash": "924db7c4-e7d5-5a6f-b901-94bb9a9beb60",
             "kirje_id": 9000819648,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37908220011",
+            "isikukood_hash": "715aeff2-ed45-51a2-8f5e-1c7df48a2046",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48409230011",
+            "isikukood_hash": "924db7c4-e7d5-5a6f-b901-94bb9a9beb60",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7800829",
+                "aadress_ads__adob_id": "11496918",
                 "aadress_ads__adr_id": 2604673,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kaubi küla, Kirsivälja",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kirsivälja, Kaubi küla, Saaremaa vald, Saare maakond, 93882",
+                "kirje_id": 3711586,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kirsivälja, Kaubi küla, Saaremaa vald, Saare maakond, 93882",
+                "kirje_id": 3377515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kirsivälja, Kaubi küla, Saaremaa vald, Saare maakond, 93882",
+                "kirje_id": 3159179,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kirsivälja, Kaubi küla, Saaremaa vald, Saare maakond, 93882",
                 "kirje_id": 2856661,
@@ -233,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -340,12 +380,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.04.2019",
+                "algus_kpv": "20.05.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000408447,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876104,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

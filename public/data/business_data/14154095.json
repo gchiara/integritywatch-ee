@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2021",
             "eesnimi": "Eduard",
-            "isikukood": "37511142221",
+            "isikukood": null,
+            "isikukood_hash": "a5df4226-2f53-5286-a74b-516cd72d1910",
             "kirje_id": 9001341901,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37511142221",
+            "isikukood_hash": "a5df4226-2f53-5286-a74b-516cd72d1910",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6490629",
-                "aadress_ads__adr_id": 2157711,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Aia tn 5b-5",
+                "aadress_ads__adob_id": "10536716",
+                "aadress_ads__adr_id": 2266489,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Rävala pst 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01278324",
-                "aadress_ads__koodaadress": "377840298000001M800001DER2CJ40000",
+                "aadress_ads__ads_oid": "ME01086309",
+                "aadress_ads__koodaadress": "377840298000005YA00000WFC00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "12.12.2017",
+                "algus_kpv": "03.06.2025",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7381010,
+                "kande_nr": 7,
+                "kirje_id": 13141815,
                 "lopp_kpv": null,
-                "postiindeks": "10111",
+                "postiindeks": "10145",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Aia tn 5b-5"
+                "tanav_maja_korter": "Rävala pst 2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rävala pst 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3726517,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 5b-5, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3377636,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 5b-5, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3158119,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 5b-5, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2838701,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -249,12 +287,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7852626,
+                "kande_nr": 6,
+                "kirje_id": 12520288,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "maron@ut.ee"
+                "sisu": "maroneduard@gmail.com"
             }
         ],
         "staatus": "R",
@@ -272,14 +310,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.11.2016",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000266787,
+                "algus_kpv": "21.05.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876226,
                 "lopp_kpv": null,
-                "nace_kood": "72.19",
+                "nace_kood": "72.10",
                 "on_pohitegevusala": true
             }
         ],

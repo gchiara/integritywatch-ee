@@ -2,12 +2,24 @@
     {
         "contract_title": "Veoautode varuosade ostmine",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "Päästeamet",
+        "contracting_bodies": [
+            {
+                "id": "70000585",
+                "name": "Päästeamet",
+                "town": "Tallinn"
+            },
+            {
+                "id": "70008747",
+                "name": "Politsei- ja Piirivalveamet",
+                "town": "Tallinn"
+            }
+        ],
         "date_dispatch_notice": "2019-01-02",
         "filename": "award_f3cdf1dc-948b-4ab5-a9d3-3dab9cb29b5d_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Nominees as company board members or beneficial owners"
         ]
     }
 ]

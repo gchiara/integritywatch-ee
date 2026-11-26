@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Anu",
-            "isikukood": "46705292729",
+            "isikukood": null,
+            "isikukood_hash": "fde603ec-2ca6-5b94-a0e4-a8250bfea811",
             "kirje_id": 9000819680,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46705292729",
+            "isikukood_hash": "fde603ec-2ca6-5b94-a0e4-a8250bfea811",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 24, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3830123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 24, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3496105,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 24, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3165356,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merivälja tee 24, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3002901,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Merivälja tee 24, Pirita linnaosa, Tallinn, Harju maakond, 11911",
                 "kirje_id": 2724104,
@@ -371,7 +421,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -412,6 +462,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "19.05.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 13117175,
+                "lopp_kpv": null,
+                "sisu": "osaühing Pirita Hambaravi (ühendav ühing, registrikood 10750765) ja InDent OÜ  (ühendatav ühing, registrikood 12253717, aadress Lääne maakond, Haapsalu linn, Haapsalu linn, Jaama tn 15, 90507) ühinevad 24.03.2025 aastal sõlmitud ühinemislepingu alusel. Ühinemisotsuse vastuvõtmine ja ühinemislepingu heakskiitmine ei olnud nõutav. Ühinemine jõustub käesoleva kande tegemisega, misjärel ühendatav ühing kustutatakse.  ",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -491,12 +555,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000048311,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000993291,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

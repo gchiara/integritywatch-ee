@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.06.2023",
             "eesnimi": "Deniss",
-            "isikukood": "38305233730",
+            "isikukood": null,
+            "isikukood_hash": "a1f51322-8b34-569d-82da-1b7e6a5a8fb3",
             "kirje_id": 9001579910,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38305233730",
+            "isikukood_hash": "a1f51322-8b34-569d-82da-1b7e6a5a8fb3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kreenholmi tn 4-36, Narva linn, Ida-Viru maakond, 21008",
+                "kirje_id": 3554401,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kreenholmi tn 4-36, Narva linn, Ida-Viru maakond, 21008",
+                "kirje_id": 3280243,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kreenholmi tn 4-36, Narva linn, Ida-Viru maakond, 21008",
+                "kirje_id": 3013140,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kreenholmi tn 4-36, Narva linn, Ida-Viru maakond, 21008",
                 "kirje_id": 2874238,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,14 +360,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.03.2014",
-                "emtak_kood": "41201",
+                "algus_kpv": "04.09.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000100419,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001050549,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

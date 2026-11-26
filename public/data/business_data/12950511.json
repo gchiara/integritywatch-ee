@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Kristi",
-            "isikukood": "48001302745",
+            "isikukood": null,
+            "isikukood_hash": "c68b4f46-9d09-5018-b1e3-d5cde3cb1cb6",
             "kirje_id": 9000873506,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48001302745",
+            "isikukood_hash": "c68b4f46-9d09-5018-b1e3-d5cde3cb1cb6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
+                "kirje_id": 3655780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
+                "kirje_id": 3634720,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
+                "kirje_id": 3074355,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
+                "kirje_id": 3057130,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
+                "kirje_id": 3055572,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lauri tee 8, Jõgeva alevik, Jõgeva vald, Jõgeva maakond, 48309",
                 "kirje_id": 2397259,
@@ -179,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,14 +348,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.11.2015",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000205054,
+                "algus_kpv": "07.05.2026",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001100180,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
             }
         ],

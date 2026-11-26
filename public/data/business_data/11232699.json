@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "37009082765",
+            "isikukood": null,
+            "isikukood_hash": "84eab58c-02e1-5c66-b693-a557898a53b0",
             "kirje_id": 9000776909,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37009082765",
+            "isikukood_hash": "84eab58c-02e1-5c66-b693-a557898a53b0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lasteaia tn 2-18, Ülenurme alevik, Kambja vald, Tartu maakond, 61714",
+                "kirje_id": 3594422,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74991",
+                "tegevusala_emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lasteaia tn 2-18, Ülenurme alevik, Kambja vald, Tartu maakond, 61714",
+                "kirje_id": 3325442,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74991",
+                "tegevusala_emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lasteaia tn 2-18, Ülenurme alevik, Kambja vald, Tartu maakond, 61714",
+                "kirje_id": 3055040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74901",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.90",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lasteaia tn 2-18, Ülenurme alevik, Kambja vald, Tartu maakond, 61714",
                 "kirje_id": 2755266,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -429,25 +467,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.01.2023",
-                "emtak_kood": "46491",
-                "emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664683,
+                "algus_kpv": "27.02.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001084903,
                 "lopp_kpv": null,
-                "nace_kood": "46.49",
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.02.2025",
+                "emtak_kood": "74991",
+                "emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819914,
+                "lopp_kpv": null,
+                "nace_kood": "74.99",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "16.01.2023",
-                "emtak_kood": "74901",
-                "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664684,
+                "algus_kpv": "09.02.2025",
+                "emtak_kood": "46491",
+                "emtak_tekstina": "Paberi, kirjatarvete, raamatute ja ajakirjandusväljaannete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819915,
                 "lopp_kpv": null,
-                "nace_kood": "74.90",
+                "nace_kood": "46.49",
                 "on_pohitegevusala": false
             }
         ],

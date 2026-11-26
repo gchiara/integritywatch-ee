@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.09.2018",
             "eesnimi": "Andres",
-            "isikukood": "37001052781",
+            "isikukood": null,
+            "isikukood_hash": "55792f1a-056d-5aeb-ae28-081b21e8393e",
             "kirje_id": 9000692787,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37001052781",
+            "isikukood_hash": "55792f1a-056d-5aeb-ae28-081b21e8393e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur tn 89c, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3714490,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71201",
+                "tegevusala_emtak_tekstina": "Autode tehniline ülevaatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur tn 89c, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3444894,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71201",
+                "tegevusala_emtak_tekstina": "Autode tehniline ülevaatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur tn 89c, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3137240,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71201",
+                "tegevusala_emtak_tekstina": "Autode tehniline ülevaatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur tn 89c, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
                 "kirje_id": 2874789,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,26 +384,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.07.2020",
-                "emtak_kood": "45202",
-                "emtak_tekstina": "Autopesu jms teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000494967,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.06.2013",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "71201",
                 "emtak_tekstina": "Autode tehniline ülevaatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000031981,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000942316,
                 "lopp_kpv": null,
                 "nace_kood": "71.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000942317,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

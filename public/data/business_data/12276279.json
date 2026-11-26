@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Mart",
-            "isikukood": "37602040334",
+            "isikukood": null,
+            "isikukood_hash": "1252f855-58dc-572f-82e2-f6c2954fc3a0",
             "kirje_id": 9000755161,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37602040334",
+            "isikukood_hash": "1252f855-58dc-572f-82e2-f6c2954fc3a0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/3, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3660429,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/3, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3398772,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/3, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3093916,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäealuse tn 2/3, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2795654,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -371,14 +409,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.05.2013",
-                "emtak_kood": "62021",
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "62201",
                 "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000028164,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896608,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

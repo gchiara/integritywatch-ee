@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Rando",
-            "isikukood": "36908305738",
+            "isikukood": null,
+            "isikukood_hash": "6e8e8443-e942-5525-84fa-de49dd31d26a",
             "kirje_id": 9000767348,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36908305738",
+            "isikukood_hash": "6e8e8443-e942-5525-84fa-de49dd31d26a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli tee 3-17, Ilmatsalu alevik, Tartu linn, Tartu maakond, 61401",
+                "kirje_id": 3684593,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tee 3-17, Ilmatsalu alevik, Tartu linn, Tartu maakond, 61401",
+                "kirje_id": 3466203,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tee 3-17, Ilmatsalu alevik, Tartu linn, Tartu maakond, 61401",
+                "kirje_id": 3271995,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kooli tee 3-17, Ilmatsalu alevik, Tartu linn, Tartu maakond, 61401",
                 "kirje_id": 2901912,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -530,7 +568,7 @@
                 "emtak_kood": "70221",
                 "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000567828,
                 "lopp_kpv": null,
                 "nace_kood": "70.22",

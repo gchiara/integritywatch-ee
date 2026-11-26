@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Aave",
-            "isikukood": "47306110342",
+            "isikukood": null,
+            "isikukood_hash": "e0190bf0-d3f2-51b9-ad30-a1685aad9787",
             "kirje_id": 9000779277,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47306110342",
+            "isikukood_hash": "e0190bf0-d3f2-51b9-ad30-a1685aad9787",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3646838,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3432197,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3202122,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "3109",
+                "tegevusala_emtak_tekstina": "Muu mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sinilille tee 6, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2968328,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -338,17 +376,6 @@
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
                 "kande_nr": 8,
-                "kirje_id": 7767194,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "aave.volmer@extery.ee"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 8,
                 "kirje_id": 7767195,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
@@ -382,14 +409,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2012",
-                "emtak_kood": "3109",
-                "emtak_tekstina": "Muu mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000185930,
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "31001",
+                "emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930297,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

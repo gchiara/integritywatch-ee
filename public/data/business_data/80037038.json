@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.10.2018",
             "eesnimi": "Indrek",
-            "isikukood": "36901212735",
+            "isikukood": null,
+            "isikukood_hash": "b43e8074-6def-5f74-9b01-1c90d3854631",
             "kirje_id": 9000746946,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36901212735",
+            "isikukood_hash": "b43e8074-6def-5f74-9b01-1c90d3854631",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laulupeo pst 25, Tartu linn, Tartu linn, Tartu maakond",
+                "kirje_id": 3630256,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2025",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laulupeo pst 25, Tartu linn, Tartu linn, Tartu maakond",
+                "kirje_id": 3364138,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2024",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laulupeo pst 25, Tartu linn, Tartu linn, Tartu maakond",
+                "kirje_id": 3099833,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2023",
+                "tegevusala_emtak_kood": "93191",
+                "tegevusala_emtak_tekstina": "Spordi alaliitude, spordiliitude ja spordiühenduste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.19",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laulupeo pst 25, Tartu linn, Tartu linn, Tartu maakond",
                 "kirje_id": 2805049,
@@ -272,7 +310,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -400,14 +438,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.04.2023",
-                "emtak_kood": "93191",
-                "emtak_tekstina": "Spordi alaliitude, spordiliitude ja spordiühenduste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000681287,
+                "algus_kpv": "30.04.2025",
+                "emtak_kood": "93121",
+                "emtak_tekstina": "Spordiklubide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000861825,
                 "lopp_kpv": null,
-                "nace_kood": "93.19",
+                "nace_kood": "93.12",
                 "on_pohitegevusala": true
             }
         ],

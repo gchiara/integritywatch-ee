@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Raigo",
-            "isikukood": "37807094213",
+            "isikukood": null,
+            "isikukood_hash": "ddc0bdca-06f7-5429-8805-97f6b07ec920",
             "kirje_id": 9000679514,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.03.2022",
             "eesnimi": "Kersti",
-            "isikukood": "48004214243",
+            "isikukood": null,
+            "isikukood_hash": "8795b696-2d16-5199-a753-f2b8c90c16f0",
             "kirje_id": 9001412234,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37807094213",
+            "isikukood_hash": "ddc0bdca-06f7-5429-8805-97f6b07ec920",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kurna tee 14, Kiili alev, Kiili vald, Harju maakond, 75401",
+                "kirje_id": 3756249,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22261",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.26",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kurna tee 14, Kiili alev, Kiili vald, Harju maakond, 75401",
+                "kirje_id": 3484776,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22261",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.26",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kurna tee 14, Kiili alev, Kiili vald, Harju maakond, 75401",
+                "kirje_id": 3217940,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22291",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.29",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kurna tee 14, Kiili alev, Kiili vald, Harju maakond, 75401",
                 "kirje_id": 2919239,
@@ -292,7 +331,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -399,33 +438,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000005200,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7997084"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000215981,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7997081"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000688366,
+                "kirje_id": 9000721102,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.nordicplast.ee"
+                "sisu": "https://www.nordicplast.ee"
             }
         ],
         "staatus": "R",
@@ -443,26 +460,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.06.2012",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "22261",
+                "emtak_tekstina": "Muude plasttoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981806,
+                "lopp_kpv": null,
+                "nace_kood": "22.26",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "38211",
-                "emtak_tekstina": "Tavajäätmete töötlus ja kõrvaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000182730,
+                "emtak_tekstina": "Materjalide taaskasutusele võtmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981807,
                 "lopp_kpv": null,
                 "nace_kood": "38.21",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.01.2010",
-                "emtak_kood": "22291",
-                "emtak_tekstina": "Muude plasttoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000081227,
-                "lopp_kpv": null,
-                "nace_kood": "22.29",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

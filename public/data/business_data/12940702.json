@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Jussi Matias",
-            "isikukood": "38109120098",
+            "isikukood": null,
+            "isikukood_hash": "c28713a9-c372-50b4-8f55-d99eb87bce71",
             "kirje_id": 9000792172,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Tatsiana",
-            "isikukood": "49401250020",
+            "isikukood": null,
+            "isikukood_hash": "2533a8f2-6568-5f54-9b68-388d9b6e143b",
             "kirje_id": 9000792178,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109120098",
+            "isikukood_hash": "c28713a9-c372-50b4-8f55-d99eb87bce71",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49401250020",
+            "isikukood_hash": "2533a8f2-6568-5f54-9b68-388d9b6e143b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10464213",
+                "aadress_ads__adob_id": "10712658",
                 "aadress_ads__adr_id": 3424200,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 31-66",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 31-66, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3600285,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 31-66, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3600088,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 31-66, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3301577,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74901",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.90",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 31-66, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
                 "kirje_id": 2943766,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
@@ -377,7 +417,7 @@
                 "emtak_kood": "74901",
                 "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000203392,
                 "lopp_kpv": null,
                 "nace_kood": "74.90",

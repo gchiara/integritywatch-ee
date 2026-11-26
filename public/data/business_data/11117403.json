@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.01.2019",
             "eesnimi": "Veljo",
-            "isikukood": "37810174915",
+            "isikukood": null,
+            "isikukood_hash": "8021aba4-be1d-5987-ba50-ba5e25b5c82b",
             "kirje_id": 9000924919,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37511164240",
+            "isikukood_hash": "8e424f43-4c19-5b82-a881-337242cbc3c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37309010222",
+            "isikukood_hash": "ee93b4ff-1277-5193-8a2a-ec975ae5ecb5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -113,7 +116,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37810174915",
+            "isikukood_hash": "8021aba4-be1d-5987-ba50-ba5e25b5c82b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -176,6 +180,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sära tee 8, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3787167,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25531",
+                "tegevusala_emtak_tekstina": "Mehaaniline metallitöötlus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.53",
+                "tootajate_arv": "72"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sära tee 8, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3501471,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25531",
+                "tegevusala_emtak_tekstina": "Mehaaniline metallitöötlus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.53",
+                "tootajate_arv": "72"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sära tee 8, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3188102,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25621",
+                "tegevusala_emtak_tekstina": "Mehaaniline metallitöötlus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.62",
+                "tootajate_arv": "73"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sära tee 8, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2924388,
@@ -408,7 +448,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -540,14 +580,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.06.2010",
-                "emtak_kood": "25621",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "25531",
                 "emtak_tekstina": "Mehaaniline metallitöötlus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000028525,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000998635,
                 "lopp_kpv": null,
-                "nace_kood": "25.62",
+                "nace_kood": "25.53",
                 "on_pohitegevusala": true
             }
         ],

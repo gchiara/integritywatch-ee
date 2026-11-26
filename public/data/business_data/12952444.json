@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "37906174247",
+            "isikukood": null,
+            "isikukood_hash": "c4798fcd-1bfd-56d6-8cb6-e052934679f1",
             "kirje_id": 9000800554,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37906174247",
+            "isikukood_hash": "c4798fcd-1bfd-56d6-8cb6-e052934679f1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10044412",
-                "aadress_ads__adr_id": 2706657,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Võidu tn 70-59",
+                "aadress_ads__adob_id": "10469169",
+                "aadress_ads__adr_id": 2691240,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Kuldnoka tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01428662",
-                "aadress_ads__koodaadress": "606630000000003BI00002J7L5GUJ0000",
+                "aadress_ads__ads_oid": "EE03868013",
+                "aadress_ads__koodaadress": "606630000000002CV00005PYK00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
+                "algus_kpv": "29.01.2024",
                 "ehak": "0663",
                 "ehak_nimetus": "Rakvere linn, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7351703,
+                "kande_nr": 6,
+                "kirje_id": 12273338,
                 "lopp_kpv": null,
-                "postiindeks": "44313",
+                "postiindeks": "44315",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Võidu tn 70-59"
+                "tanav_maja_korter": "Kuldnoka tn 7"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 7, Rakvere linn, Lääne-Viru maakond, 44315",
+                "kirje_id": 3724548,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 7, Rakvere linn, Lääne-Viru maakond, 44315",
+                "kirje_id": 3429830,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 7, Rakvere linn, Lääne-Viru maakond, 44315",
+                "kirje_id": 3223337,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võidu tn 70-59, Rakvere linn, Lääne-Viru maakond, 44313",
                 "kirje_id": 2852832,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,48 +348,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2017",
-                "emtak_kood": "43222",
-                "emtak_tekstina": "Veetorustiku  ja sanitaarseadmete paigaldus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000305244,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928109,
                 "lopp_kpv": null,
-                "nace_kood": "43.22",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "24.06.2019",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000424084,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.06.2023",
-                "emtak_kood": "68101",
-                "emtak_tekstina": "Enda kinnisvara ost ja müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000691712,
-                "lopp_kpv": null,
-                "nace_kood": "68.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.06.2023",
-                "emtak_kood": "9604",
-                "emtak_tekstina": "Füüsilise heaoluga seotud teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000691713,
-                "lopp_kpv": null,
-                "nace_kood": "96.04",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

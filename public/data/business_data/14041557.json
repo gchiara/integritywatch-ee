@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Kadri",
-            "isikukood": "47901205711",
+            "isikukood": null,
+            "isikukood_hash": "dacbb7f4-fbd5-5cc7-8e4e-6ee0513c1e1f",
             "kirje_id": 9000864849,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47901205711",
+            "isikukood_hash": "dacbb7f4-fbd5-5cc7-8e4e-6ee0513c1e1f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Papiniidu tn 58-50/51, Pärnu linn, Pärnu linn, Pärnu maakond, 80022",
+                "kirje_id": 3753870,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Papiniidu tn 58-50/51, Pärnu linn, Pärnu linn, Pärnu maakond, 80022",
+                "kirje_id": 3482608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Papiniidu tn 58-50/51, Pärnu linn, Pärnu linn, Pärnu maakond, 80022",
+                "kirje_id": 3215695,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Papiniidu tn 58-50/51, Pärnu linn, Pärnu linn, Pärnu maakond, 80022",
                 "kirje_id": 2917066,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -323,26 +361,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635100,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.05.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000224704,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979357,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979358,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

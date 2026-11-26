@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Aleksander",
-            "isikukood": "36305270218",
+            "isikukood": null,
+            "isikukood_hash": "4d29c7d5-7263-5ea1-a811-5ec642946046",
             "kirje_id": 9000819084,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36305270218",
+            "isikukood_hash": "4d29c7d5-7263-5ea1-a811-5ec642946046",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7176832",
-                "aadress_ads__adr_id": 2104876,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Laki tn 19",
+                "aadress_ads__adob_id": "7382480",
+                "aadress_ads__adr_id": 2483300,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Liimi tn 1c",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01656786",
-                "aadress_ads__koodaadress": "377840482000003MA00001SVN00000000",
+                "aadress_ads__ads_oid": "ME01172117",
+                "aadress_ads__koodaadress": "377840339000003M20000AECD00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "03.03.2022",
-                "ehak": "0482",
-                "ehak_nimetus": "Mustamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "08.02.2024",
+                "ehak": "0339",
+                "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 10020824,
+                "kande_nr": 11,
+                "kirje_id": 12300783,
                 "lopp_kpv": null,
-                "postiindeks": "12915",
+                "postiindeks": "10621",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Laki tn 19"
+                "tanav_maja_korter": "Liimi tn 1c"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 1c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3706850,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 1c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3503912,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 1c, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3175602,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laki tn 19, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2941653,
@@ -442,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -573,12 +611,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000044134,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001001087,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

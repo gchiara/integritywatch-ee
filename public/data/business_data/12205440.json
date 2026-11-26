@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Ülari",
-            "isikukood": "37301024218",
+            "isikukood": null,
+            "isikukood_hash": "56bef938-4375-53fc-bda0-51fdfd600c6c",
             "kirje_id": 9000659656,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -24,12 +25,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9455090",
-                "aadress_ads__adr_id": 3399758,
+                "aadress_ads__adob_id": "10995986",
+                "aadress_ads__adr_id": 3762133,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sindi linn, Roheline tn 6a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00716102",
-                "aadress_ads__koodaadress": "68809760700000TIJ0000BTMX00000000",
+                "aadress_ads__koodaadress": "68806760700000TIJ0000BTMX00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "06.12.2017",
                 "ehak": "7607",
@@ -65,6 +66,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Roheline tn 6a, Sindi linn, Tori vald, Pärnu maakond, 86704",
+                "kirje_id": 3031167,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Roheline tn 6a, Sindi linn, Tori vald, Pärnu maakond, 86704",
                 "kirje_id": 2801185,
@@ -213,7 +226,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -347,7 +360,7 @@
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000676508,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",

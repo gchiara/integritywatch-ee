@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 14040730,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "08.10.2025",
+            "eesnimi": "Annes",
+            "isikukood": null,
+            "isikukood_hash": "5a5057b2-36b8-54b9-a4c1-617d76dbbcbd",
+            "kirje_id": 9003486013,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Tori",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35511290373",
+            "isikukood_hash": "5a5057b2-36b8-54b9-a4c1-617d76dbbcbd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metsapunkti tee 7, Sutlema küla, Kohila vald, Rapla maakond, 79710",
+                "kirje_id": 3758437,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsapunkti tee 7, Sutlema küla, Kohila vald, Rapla maakond, 79710",
+                "kirje_id": 3433525,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsapunkti tee 7, Sutlema küla, Kohila vald, Rapla maakond, 79710",
+                "kirje_id": 3147475,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4211",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metsapunkti tee 7, Sutlema küla, Kohila vald, Rapla maakond, 79710",
                 "kirje_id": 2864776,
@@ -185,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -292,12 +348,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2021",
-                "emtak_kood": "4211",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558548,
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "42111",
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931464,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true

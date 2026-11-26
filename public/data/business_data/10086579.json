@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Mati",
-            "isikukood": "35611092750",
+            "isikukood": null,
+            "isikukood_hash": "25d745c5-5c2c-5c19-b0f8-de9178f8fbf1",
             "kirje_id": 9000795185,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -65,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ilmatsalu tee 74, Rahinge küla, Tartu linn, Tartu maakond, 61408",
+                "kirje_id": 3606080,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43122",
+                "tegevusala_emtak_tekstina": "Maakuivendus- ja maaparandustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilmatsalu tee 74, Rahinge küla, Tartu linn, Tartu maakond, 61408",
+                "kirje_id": 3339646,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43122",
+                "tegevusala_emtak_tekstina": "Maakuivendus- ja maaparandustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilmatsalu tee 74, Rahinge küla, Tartu linn, Tartu maakond, 61408",
+                "kirje_id": 3075684,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43122",
+                "tegevusala_emtak_tekstina": "Maakuivendus- ja maaparandustööd, k.a metsa- ja põllumaade kuivendus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ilmatsalu tee 74, Rahinge küla, Tartu linn, Tartu maakond, 61408",
                 "kirje_id": 2785930,
@@ -405,7 +442,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -508,17 +545,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5510238"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000094819,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7499373"
             }
         ],
         "staatus": "R",
@@ -536,12 +562,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "23.03.2026",
+                "emtak_kood": "42911",
+                "emtak_tekstina": "Vesiehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001089910,
+                "lopp_kpv": null,
+                "nace_kood": "42.91",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "23.03.2026",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001089911,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "17.03.2025",
                 "emtak_kood": "43122",
-                "emtak_tekstina": "Maakuivendus- ja maaparandustööd, k.a metsa- ja põllumaade kuivendus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000013522,
+                "emtak_tekstina": "Maakuivendus- ja maaparandustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000835784,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true

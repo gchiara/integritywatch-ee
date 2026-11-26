@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Viljar",
-            "isikukood": "38608282737",
+            "isikukood": null,
+            "isikukood_hash": "801835c8-3e75-5ab0-9248-409383f78974",
             "kirje_id": 9000839680,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38608282737",
+            "isikukood_hash": "801835c8-3e75-5ab0-9248-409383f78974",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8728535",
-                "aadress_ads__adr_id": 3042080,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Tähe tn 114",
+                "aadress_ads__adob_id": "8658538",
+                "aadress_ads__adr_id": 3044416,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Ringtee tn 25",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00751432",
-                "aadress_ads__koodaadress": "79793815100000SVA0000B6NC00000000",
+                "aadress_ads__ads_oid": "ME00751718",
+                "aadress_ads__koodaadress": "79793815100000SHM0000B7L400000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.12.2017",
+                "algus_kpv": "23.10.2025",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7454525,
+                "kande_nr": 11,
+                "kirje_id": 13381130,
                 "lopp_kpv": null,
-                "postiindeks": "51013",
+                "postiindeks": "50105",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tähe tn 114"
+                "tanav_maja_korter": "Ringtee tn 25"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3692907,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4322",
+                "tegevusala_emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 114, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3411054,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4322",
+                "tegevusala_emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 114, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3062018,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4221",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tähe tn 114, Tartu linn, Tartu linn, Tartu maakond, 51013",
                 "kirje_id": 2762141,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -467,11 +505,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000132394,
+                "kirje_id": 9000733622,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.foolix.ee"
+                "sisu": "http://www.foolix.ee"
             }
         ],
         "staatus": "R",
@@ -489,34 +527,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.03.2022",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "4221",
                 "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000608106,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909998,
                 "lopp_kpv": null,
                 "nace_kood": "42.21",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "22.03.2022",
-                "emtak_kood": "4322",
-                "emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000608108,
-                "lopp_kpv": null,
-                "nace_kood": "43.22",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "22.03.2022",
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "4322",
+                "emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909996,
+                "lopp_kpv": null,
+                "nace_kood": "43.22",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "4399",
                 "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000608107,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909997,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": false

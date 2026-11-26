@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "38202040292",
+            "isikukood": null,
+            "isikukood_hash": "2ecdc821-0ede-55aa-9cc8-f9e46c63296b",
             "kirje_id": 9000846310,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38412040270",
+            "isikukood_hash": "e9d66731-11b4-546a-82cc-ef0a7e725c15",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38202040292",
+            "isikukood_hash": "2ecdc821-0ede-55aa-9cc8-f9e46c63296b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Niinemäe tee 17, Väljataguse küla, Rapla vald, Rapla maakond, 79543",
+                "kirje_id": 3683325,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Niinemäe tee 17, Väljataguse küla, Rapla vald, Rapla maakond, 79543",
+                "kirje_id": 3359797,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Niinemäe tee 17, Väljataguse küla, Rapla vald, Rapla maakond, 79543",
+                "kirje_id": 3226423,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Niinemäe tee 17, Väljataguse küla, Rapla vald, Rapla maakond, 79543",
                 "kirje_id": 2817048,
@@ -336,7 +375,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -435,12 +474,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7798556,
+                "kande_nr": 7,
+                "kirje_id": 13605215,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "walgaautopesula@hotmail.com"
+                "sisu": "raamatupidamine@wapteenused.ee"
             },
             {
                 "kaardi_nr": null,
@@ -469,15 +508,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
+                "algus_kpv": "14.06.2026",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112672,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "14.06.2026",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000138994,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112673,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

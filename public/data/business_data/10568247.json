@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Andi",
-            "isikukood": "37711240217",
+            "isikukood": null,
+            "isikukood_hash": "36659f8a-5b10-5def-acc8-537423e6afc6",
             "kirje_id": 9000767157,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Raido",
-            "isikukood": "37601240232",
+            "isikukood": null,
+            "isikukood_hash": "21cbb1b4-a724-58d3-960a-0ddf1461dc15",
             "kirje_id": 9000767152,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37711240217",
+            "isikukood_hash": "36659f8a-5b10-5def-acc8-537423e6afc6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37601240232",
+            "isikukood_hash": "21cbb1b4-a724-58d3-960a-0ddf1461dc15",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 4, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3714175,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46842",
+                "tegevusala_emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.84",
+                "tootajate_arv": "41"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 4, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3468072,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46842",
+                "tegevusala_emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.84",
+                "tootajate_arv": "38"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 4, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3213106,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46749",
+                "tegevusala_emtak_tekstina": "Tööriistade jm rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.74",
+                "tootajate_arv": "33"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vae tn 4, Laagri alevik, Saue vald, Harju maakond, 76401",
                 "kirje_id": 2777474,
@@ -459,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -613,14 +653,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2017",
-                "emtak_kood": "46749",
-                "emtak_tekstina": "Tööriistade jm rauakaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000305500,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "46842",
+                "emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000964758,
                 "lopp_kpv": null,
-                "nace_kood": "46.74",
+                "nace_kood": "46.84",
                 "on_pohitegevusala": true
             }
         ],

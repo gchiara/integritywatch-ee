@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-16",
+                "award_date_conclusion_contract": [
+                    "2023-06-16"
+                ],
                 "award_value": "105440.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Keemiatööstuse mahutipargi mahutite puhastamisteenuse ostmine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -38,13 +40,11 @@
         "filename": "award_c1b9aba0-5743-4ca3-9f30-f3f8dde717f1_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14127106",
-            "Nominees as company beneficial owners: 48207290037"
+            "Possible shell company: 14127106"
         ],
         "noticeUid": "c1b9aba0-5743-4ca3-9f30-f3f8dde717f1",
         "notice_items": [
@@ -54,6 +54,61 @@
         ],
         "refnum": "264259",
         "total_amount": "105440.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-04-01"
+                ],
+                "award_value": "420000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14127106",
+                        "contractor_name": "survepesu24/7 OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Statsionaarsete mahutite puhastamine",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10579981",
+                "name": "Enefit Power AS",
+                "town": "Narva-Jõesuu linn"
+            }
+        ],
+        "contractors": [
+            "14127106"
+        ],
+        "cpv": "90522400",
+        "date_dispatch_notice": "2024-04-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e3748363-81eb-4c31-bedb-f38bc47fb66e_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14127106"
+        ],
+        "noticeUid": "e3748363-81eb-4c31-bedb-f38bc47fb66e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "276213",
+        "total_amount": "420000.00",
         "total_amount_curr": "EUR"
     }
 ]

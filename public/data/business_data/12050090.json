@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Riho",
-            "isikukood": "37406060297",
+            "isikukood": null,
+            "isikukood_hash": "35bd6c98-07a9-5b85-91cd-f3f2d39311f5",
             "kirje_id": 9000767541,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37406060297",
+            "isikukood_hash": "35bd6c98-07a9-5b85-91cd-f3f2d39311f5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -96,13 +98,49 @@
                 "sisu": "Birdtech OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "28.01.2011",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aruvälja, Lõpemetsa küla, Rapla vald, Rapla maakond, 78419",
+                "kirje_id": 3628239,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aruvälja, Lõpemetsa küla, Rapla vald, Rapla maakond, 78419",
+                "kirje_id": 3355318,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aruvälja, Lõpemetsa küla, Rapla vald, Rapla maakond, 78419",
+                "kirje_id": 3076899,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aruvälja, Lõpemetsa küla, Rapla vald, Rapla maakond, 78419",
                 "kirje_id": 2799739,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -336,23 +374,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7717192,
+                "kande_nr": 6,
+                "kirje_id": 13012657,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "riho.arro@eesti.ee"
+                "sisu": "riho@birdtech.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000148440,
+                "kirje_id": 9000722872,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 4865576"
+                "sisu": "+372 56619711"
             }
         ],
         "staatus": "R",
@@ -370,14 +408,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2013",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000039651,
+                "algus_kpv": "15.04.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000852702,
                 "lopp_kpv": null,
-                "nace_kood": "72.19",
+                "nace_kood": "72.10",
                 "on_pohitegevusala": true
             }
         ],

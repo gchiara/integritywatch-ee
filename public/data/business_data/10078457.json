@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "36401052714",
+            "isikukood": null,
+            "isikukood_hash": "9aa671d3-84a6-5513-8432-63b86be0f663",
             "kirje_id": 9000774413,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37907190299",
+            "isikukood_hash": "f028bf6e-4bb3-501c-9567-05f72ed8ef62",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38403166021",
+            "isikukood_hash": "ab2bbe3d-0598-59d2-9fe1-75dc77071fbc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3565539,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "56"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3306210,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "55"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3009255,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2739516,
@@ -480,7 +519,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -733,26 +772,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2010",
-                "emtak_kood": "33131",
-                "emtak_tekstina": "Elektroonika- ja optikaseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000034222,
-                "lopp_kpv": null,
-                "nace_kood": "33.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "31.10.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000007842,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063450,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "31.10.2025",
+                "emtak_kood": "33131",
+                "emtak_tekstina": "Elektroonika- ja optikaseadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063451,
+                "lopp_kpv": null,
+                "nace_kood": "33.13",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

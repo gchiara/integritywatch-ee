@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kersti",
-            "isikukood": "46301092217",
+            "isikukood": null,
+            "isikukood_hash": "7c3aeb11-c8f3-58b6-bed4-d9434d5afc48",
             "kirje_id": 9000780001,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46301092217",
+            "isikukood_hash": "7c3aeb11-c8f3-58b6-bed4-d9434d5afc48",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -61,12 +63,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9255794",
-                "aadress_ads__adr_id": 3311861,
+                "aadress_ads__adob_id": "11173042",
+                "aadress_ads__adr_id": 3806316,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Kooli tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME02000918",
-                "aadress_ads__koodaadress": "452512270000000AI00003VK700000000",
+                "aadress_ads__koodaadress": "452502270000000AI00003VK700000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "2270",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 7, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41533",
+                "kirje_id": 3621404,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 7, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41533",
+                "kirje_id": 3396842,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 7, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41533",
+                "kirje_id": 3128240,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kooli tn 7, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41533",
                 "kirje_id": 2843278,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -523,23 +561,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.03.2010",
+                "algus_kpv": "04.06.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000009808,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000894798,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "31.03.2010",
+                "algus_kpv": "04.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000009810,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000894799,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.03.2021",
             "eesnimi": "Kaspar",
-            "isikukood": "39108160264",
+            "isikukood": null,
+            "isikukood_hash": "8a160894-b1eb-5bf6-871d-076e73547aa4",
             "kirje_id": 9001256353,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.03.2021",
             "eesnimi": "Kaur",
-            "isikukood": "39012075221",
+            "isikukood": null,
+            "isikukood_hash": "b8eabcdf-0a33-5714-8a94-8afe357f6afc",
             "kirje_id": 9001256352,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39108160264",
+            "isikukood_hash": "8a160894-b1eb-5bf6-871d-076e73547aa4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39012075221",
+            "isikukood_hash": "b8eabcdf-0a33-5714-8a94-8afe357f6afc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -159,6 +163,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Lai tn 2 // Tallinna tn 14, Rakvere linn, Lääne-Viru maakond, 44308",
+                "kirje_id": 3602668,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Tallinna tn 14, Rakvere linn, Lääne-Viru maakond, 44308",
+                "kirje_id": 3358161,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Tallinna tn 14, Rakvere linn, Lääne-Viru maakond, 44308",
+                "kirje_id": 3111012,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 2 // Tallinna tn 14, Rakvere linn, Lääne-Viru maakond, 44308",
                 "kirje_id": 2841365,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -197,7 +237,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -304,14 +344,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.03.2021",
-                "emtak_kood": "62011",
+                "algus_kpv": "21.04.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000539320,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855671,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

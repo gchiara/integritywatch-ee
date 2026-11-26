@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Urmas",
-            "isikukood": "36605254713",
+            "isikukood": null,
+            "isikukood_hash": "f95ee529-6121-51f5-8423-f44c482cb3b8",
             "kirje_id": 9000852986,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36605254713",
+            "isikukood_hash": "f95ee529-6121-51f5-8423-f44c482cb3b8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 1, Virtsu alevik, Lääneranna vald, Pärnu maakond, 90101",
+                "kirje_id": 3786954,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 1, Virtsu alevik, Lääneranna vald, Pärnu maakond, 90101",
+                "kirje_id": 3499450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 1, Virtsu alevik, Lääneranna vald, Pärnu maakond, 90101",
+                "kirje_id": 3207120,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4941",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pargi tn 1, Virtsu alevik, Lääneranna vald, Pärnu maakond, 90101",
                 "kirje_id": 2928713,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -468,12 +506,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7784291,
+                "kande_nr": 8,
+                "kirje_id": 12720046,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "urmaspikla@hot.ee"
+                "sisu": "urmaspikla@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -513,36 +551,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.07.2022",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000639979,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2021",
-                "emtak_kood": "4941",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000570656,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996623,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "01.07.2021",
-                "emtak_kood": "4799",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000570657,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996624,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "46.90",
                 "on_pohitegevusala": false
             }
         ],

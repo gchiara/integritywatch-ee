@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Vahur",
-            "isikukood": "36912270258",
+            "isikukood": null,
+            "isikukood_hash": "c47cc782-0aa3-5ecd-9d6a-11d92cd8677f",
             "kirje_id": 9000722245,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36912270258",
+            "isikukood_hash": "c47cc782-0aa3-5ecd-9d6a-11d92cd8677f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "R. Tobiase tn 11-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10152",
+                "kirje_id": 3240108,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuleviku tee 10, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2865910,
@@ -167,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -263,36 +277,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.10.2020",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000513983,
-                "lopp_kpv": null,
-                "nace_kood": "46.90",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "20.06.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694049,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.06.2023",
+                "algus_kpv": "01.07.2024",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694050,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000782086,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.07.2024",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000782087,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Jevgeni",
-            "isikukood": "38002040264",
+            "isikukood": null,
+            "isikukood_hash": "b02dcc35-a309-5469-916e-eb57998d92cf",
             "kirje_id": 9000763728,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38002040264",
+            "isikukood_hash": "b02dcc35-a309-5469-916e-eb57998d92cf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3644641,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3391506,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3133877,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
                 "kirje_id": 2854439,
@@ -394,7 +432,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -525,36 +563,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2017",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000302617,
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "43211",
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103415,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "25.06.2017",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000302618,
-                "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "43.21",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "14.06.2023",
-                "emtak_kood": "46692",
-                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000692006,
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889757,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "47529",
+                "emtak_tekstina": "Muude ehitusmaterjalide ja -tarvete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889758,
+                "lopp_kpv": null,
+                "nace_kood": "47.52",
                 "on_pohitegevusala": false
             }
         ],

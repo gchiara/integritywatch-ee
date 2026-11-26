@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.01.2020",
             "eesnimi": "Mart",
-            "isikukood": "38703082235",
+            "isikukood": null,
+            "isikukood_hash": "fcdc3ad6-72ce-56bb-9a19-de536270306a",
             "kirje_id": 9001067503,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38703082235",
+            "isikukood_hash": "fcdc3ad6-72ce-56bb-9a19-de536270306a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Kaare tn 12a, Uniküla, Lüganuse vald, Ida-Viru maakond, 42322",
+                "kirje_id": 3805991,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "77321",
+                "tegevusala_emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.32",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 12a, Uniküla, Lüganuse vald, Ida-Viru maakond, 42322",
+                "kirje_id": 3428245,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77321",
+                "tegevusala_emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.32",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 12a, Uniküla, Lüganuse vald, Ida-Viru maakond, 42322",
+                "kirje_id": 3180552,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77321",
+                "tegevusala_emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.32",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 12a, Uniküla, Lüganuse vald, Ida-Viru maakond, 42322",
                 "kirje_id": 2771290,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,26 +300,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.06.2022",
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926514,
+                "lopp_kpv": null,
+                "nace_kood": "77.32",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623932,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926515,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.01.2020",
-                "emtak_kood": "77321",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000457556,
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926516,
                 "lopp_kpv": null,
-                "nace_kood": "77.32",
-                "on_pohitegevusala": true
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926517,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

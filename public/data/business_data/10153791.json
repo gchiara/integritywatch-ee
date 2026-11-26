@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Tiit",
-            "isikukood": "37305124222",
+            "isikukood": null,
+            "isikukood_hash": "acfe8c1d-74f2-5b2e-b3bd-a96d7e0cd44d",
             "kirje_id": 9000666303,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37305124222",
+            "isikukood_hash": "acfe8c1d-74f2-5b2e-b3bd-a96d7e0cd44d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946730",
+                "aadress_ads__adob_id": "10731158",
                 "aadress_ads__adr_id": 3045600,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Merimetsa tn 36",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Merimetsa tn 36, Pärnu linn, Pärnu linn, Pärnu maakond, 80023",
+                "kirje_id": 3763312,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "2830",
+                "tegevusala_emtak_tekstina": "Põllu- ja metsamajandusmasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merimetsa tn 36, Pärnu linn, Pärnu linn, Pärnu maakond, 80023",
+                "kirje_id": 3499188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "2830",
+                "tegevusala_emtak_tekstina": "Põllu- ja metsamajandusmasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merimetsa tn 36, Pärnu linn, Pärnu linn, Pärnu maakond, 80023",
+                "kirje_id": 3169101,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2830",
+                "tegevusala_emtak_tekstina": "Põllu- ja metsamajandusmasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Merimetsa tn 36, Pärnu linn, Pärnu linn, Pärnu maakond, 80023",
                 "kirje_id": 2980420,
@@ -536,37 +574,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2022",
-                "emtak_kood": "2830",
-                "emtak_tekstina": "Põllu- ja metsamajandusmasinate tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630142,
-                "lopp_kpv": null,
-                "nace_kood": "28.30",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "27.06.2022",
-                "emtak_kood": "43129",
-                "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630143,
-                "lopp_kpv": null,
-                "nace_kood": "43.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.05.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "61901",
-                "emtak_tekstina": "Elektroonilise side muud teenused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000019020,
+                "emtak_tekstina": "Muud elektroonilise side teenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996336,
                 "lopp_kpv": null,
                 "nace_kood": "61.90",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "2830",
+                "emtak_tekstina": "Põllu- ja metsamajandusmasinate tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996335,
+                "lopp_kpv": null,
+                "nace_kood": "28.30",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

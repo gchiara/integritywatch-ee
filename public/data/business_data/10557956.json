@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Leho",
-            "isikukood": "36307270337",
+            "isikukood": null,
+            "isikukood_hash": "09bf0888-a687-5b59-9c2c-c2661f99c89f",
             "kirje_id": 9000849778,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46607110212",
+            "isikukood_hash": "4c130de9-3234-5358-bd29-2e85eeb58f8a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6558180",
+                "aadress_ads__adob_id": "11046397",
                 "aadress_ads__adr_id": 2338808,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Suur-Patarei tn 9-19",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur-Patarei tn 9-19, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3612077,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Patarei tn 9-19, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3351461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Patarei tn 9-19, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3157189,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur-Patarei tn 9-19, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
                 "kirje_id": 2855875,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -493,12 +531,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 10588235,
+                "kande_nr": 14,
+                "kirje_id": 13825286,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "erakapitali@yahoo.com"
+                "sisu": "event.byroo@gmail.com"
             }
         ],
         "staatus": "R",
@@ -516,26 +554,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2023",
+                "algus_kpv": "07.04.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000692243,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000848470,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "15.06.2023",
-                "emtak_kood": "52219",
-                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000692244,
-                "lopp_kpv": null,
-                "nace_kood": "52.21",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

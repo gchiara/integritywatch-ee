@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Dagmar",
-            "isikukood": "46912212723",
+            "isikukood": null,
+            "isikukood_hash": "329816ef-7065-55f5-a41e-6b886b79fba1",
             "kirje_id": 9000788569,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Dmitri",
-            "isikukood": "36804092736",
+            "isikukood": null,
+            "isikukood_hash": "3f90b191-4571-5a76-a967-ff4a1a3db526",
             "kirje_id": 9000788568,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46912212723",
+            "isikukood_hash": "329816ef-7065-55f5-a41e-6b886b79fba1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36804092736",
+            "isikukood_hash": "3f90b191-4571-5a76-a967-ff4a1a3db526",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sepa, Voika küla, Nõo vald, Tartu maakond, 61622",
+                "kirje_id": 3825751,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepa, Voika küla, Nõo vald, Tartu maakond, 61622",
+                "kirje_id": 3543150,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepa, Voika küla, Nõo vald, Tartu maakond, 61622",
+                "kirje_id": 3258750,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sepa, Voika küla, Nõo vald, Tartu maakond, 61622",
                 "kirje_id": 2948859,
@@ -411,7 +451,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -529,14 +569,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.07.2019",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000434252,
+                "algus_kpv": "29.07.2025",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001038658,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

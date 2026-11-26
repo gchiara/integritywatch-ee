@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "37508100263",
+            "isikukood": null,
+            "isikukood_hash": "93f92d08-2dba-5912-a9d0-5d1416bd1777",
             "kirje_id": 9000760631,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37508100263",
+            "isikukood_hash": "93f92d08-2dba-5912-a9d0-5d1416bd1777",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tamme tee 4, Pringi küla, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3690570,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tamme tee 4, Pringi küla, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3412460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tamme tee 4, Pringi küla, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3141185,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tamme tee 4, Pringi küla, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2936132,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -511,14 +549,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000030405,
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "31001",
+                "emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911364,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

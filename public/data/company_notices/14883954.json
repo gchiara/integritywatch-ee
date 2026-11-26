@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-26",
+                "award_date_conclusion_contract": [
+                    "2023-06-26"
+                ],
                 "award_value": "200000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Generaatorite hooldus ja remont",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -41,14 +43,11 @@
         "filename": "award_9fb5748b-bb5d-4b7a-b935-9cee6506265a_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 11682155",
-            "Nominees as company beneficial owners: 36311060325",
-            "Nominees as company board members: 36311060325"
+            "Possible shell company: 11682155"
         ],
         "noticeUid": "9fb5748b-bb5d-4b7a-b935-9cee6506265a",
         "notice_items": [
@@ -58,6 +57,73 @@
         ],
         "refnum": "264910",
         "total_amount": "200000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-11-14"
+                ],
+                "award_value": "179900.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14356108",
+                        "contractor_name": "Powergen OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "14883954",
+                        "contractor_name": "ADRETEC ESTONIA OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "6"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Generaatori hankimine Tartu Vanglasse",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10788733",
+                "name": "Riigi Kinnisvara Aktsiaselts",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14356108",
+            "14883954"
+        ],
+        "cpv": "31120000",
+        "date_dispatch_notice": "2024-11-14",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_97fc1947-0f7e-42ca-acb2-62a80fc23456_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14356108",
+            "Nominees as company beneficial owners: Juri_Gontar_22.10.2018",
+            "Nominees as company board members: Juri_Gontar_10.02.2021",
+            "Possible shell company: 14883954",
+            "Nominees as company beneficial owners: Yevgenii_Sepityi_09.01.2020",
+            "Nominees as company board members: Yevgenii_Sepityi_09.01.2020"
+        ],
+        "noticeUid": "97fc1947-0f7e-42ca-acb2-62a80fc23456",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "279172",
+        "total_amount": "179900.00",
         "total_amount_curr": "EUR"
     }
 ]

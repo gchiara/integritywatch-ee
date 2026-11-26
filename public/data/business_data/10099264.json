@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2020",
             "eesnimi": "Rain",
-            "isikukood": "37111060016",
+            "isikukood": null,
+            "isikukood_hash": "c70552d4-6d62-54ac-93ce-455d9737a64c",
             "kirje_id": 9001195046,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2020",
             "eesnimi": "Veiko",
-            "isikukood": "37311062757",
+            "isikukood": null,
+            "isikukood_hash": "2ca82369-2d29-58a3-82a9-638643cb7ced",
             "kirje_id": 9001195044,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47805044921",
+            "isikukood_hash": "e467c177-e6a7-5064-970c-2d43f6654d20",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37311062757",
+            "isikukood_hash": "2ca82369-2d29-58a3-82a9-638643cb7ced",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10691707",
+                "aadress_ads__adob_id": "10978815",
                 "aadress_ads__adr_id": 3580518,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Türi linn, Tööstuse tn 14",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 14, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3757743,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "106"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 14, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3429687,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "108"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 14, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3118820,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "102"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tn 14, Türi linn, Türi vald, Järva maakond, 72213",
                 "kirje_id": 2831449,
@@ -509,7 +549,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -676,34 +716,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.04.2019",
-                "emtak_kood": "25621",
-                "emtak_tekstina": "Mehaaniline metallitöötlus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000410413,
-                "lopp_kpv": null,
-                "nace_kood": "25.62",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.04.2019",
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "25119",
                 "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000410412,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927954,
                 "lopp_kpv": null,
                 "nace_kood": "25.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "16.06.2009",
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "25531",
+                "emtak_tekstina": "Mehaaniline metallitöötlus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927955,
+                "lopp_kpv": null,
+                "nace_kood": "25.53",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "35131",
-                "emtak_tekstina": "Elektrienergia jaotus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000015177,
+                "emtak_tekstina": "Elektrienergia ülekanne",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927956,
                 "lopp_kpv": null,
                 "nace_kood": "35.13",
                 "on_pohitegevusala": false

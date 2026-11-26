@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.06.2019",
             "eesnimi": "Margus",
-            "isikukood": "37302172716",
+            "isikukood": null,
+            "isikukood_hash": "6460aac1-0c6d-5c0d-b23a-c7b32264ac96",
             "kirje_id": 9000982631,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37302172716",
+            "isikukood_hash": "6460aac1-0c6d-5c0d-b23a-c7b32264ac96",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8759739",
-                "aadress_ads__adr_id": 3116911,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Vallikraavi tn 12-15",
+                "aadress_ads__adob_id": "8703831",
+                "aadress_ads__adr_id": 3082852,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Pargi tn 17-7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01419216",
-                "aadress_ads__koodaadress": "79793815100000STD0000BJK2IZ1L0000",
+                "aadress_ads__ads_oid": "ER03641073",
+                "aadress_ads__koodaadress": "79793815100000SWX0000BICTIDG60000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "19.12.2017",
+                "algus_kpv": "06.07.2026",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7431597,
+                "kande_nr": 8,
+                "kirje_id": 13850621,
                 "lopp_kpv": null,
-                "postiindeks": "51003",
+                "postiindeks": "50103",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vallikraavi tn 12-15"
+                "tanav_maja_korter": "Pargi tn 17-7"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vallikraavi tn 12-15, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3740140,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vallikraavi tn 12-15, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3460721,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vallikraavi tn 12-15, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3208707,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vallikraavi tn 12-15, Tartu linn, Tartu linn, Tartu maakond, 51003",
                 "kirje_id": 2890528,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,12 +398,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7743147,
+                "kande_nr": 8,
+                "kirje_id": 13850622,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mpuusepp@hot.ee"
+                "sisu": "margus.puusepp@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -394,12 +432,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2014",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000120857,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000957663,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

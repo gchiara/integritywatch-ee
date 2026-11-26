@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Svetlana",
-            "isikukood": "45510312226",
+            "isikukood": null,
+            "isikukood_hash": "6875be64-3a54-5ce7-96d1-966eaba7b11b",
             "kirje_id": 9000853621,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45510312226",
+            "isikukood_hash": "6875be64-3a54-5ce7-96d1-966eaba7b11b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "MTÜ",
@@ -61,12 +63,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9272648",
-                "aadress_ads__adr_id": 3326732,
+                "aadress_ads__adob_id": "11181932",
+                "aadress_ads__adr_id": 3804309,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Salme tn 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00689832",
-                "aadress_ads__koodaadress": "452512270000000B10000306N00000000",
+                "aadress_ads__koodaadress": "452502270000000B10000306N00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "2270",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Salme tn 8, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41536",
+                "kirje_id": 3653055,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Salme tn 8, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41536",
+                "kirje_id": 3353716,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Salme tn 8, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41536",
+                "kirje_id": 3036754,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Salme tn 8, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41536",
                 "kirje_id": 2770632,
@@ -272,7 +310,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -378,12 +416,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2017",
+                "algus_kpv": "11.04.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000300206,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850986,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

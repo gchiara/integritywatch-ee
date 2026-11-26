@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Raivo",
-            "isikukood": "36405010320",
+            "isikukood": null,
+            "isikukood_hash": "02a47312-7406-5d0f-aa8d-680cc93075b8",
             "kirje_id": 9000878676,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36405010320",
+            "isikukood_hash": "02a47312-7406-5d0f-aa8d-680cc93075b8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 19, Raasiku alevik, Raasiku vald, Harju maakond, 75203",
+                "kirje_id": 3774120,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 19, Raasiku alevik, Raasiku vald, Harju maakond, 75203",
+                "kirje_id": 3443634,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 19, Raasiku alevik, Raasiku vald, Harju maakond, 75203",
+                "kirje_id": 3122598,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna mnt 19, Raasiku alevik, Raasiku vald, Harju maakond, 75203",
                 "kirje_id": 2840215,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -419,23 +457,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7670134,
+                "kande_nr": 7,
+                "kirje_id": 13177476,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "marinatuutma@hot.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000111400,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6082203"
+                "sisu": "marinatuutma@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -464,12 +491,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000033345,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941160,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

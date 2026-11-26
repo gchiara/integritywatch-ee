@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Lauri",
-            "isikukood": "37308280253",
+            "isikukood": null,
+            "isikukood_hash": "86a4b8b3-c03f-5971-8f7f-439194b2bb50",
             "kirje_id": 9000749904,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37308280253",
+            "isikukood_hash": "86a4b8b3-c03f-5971-8f7f-439194b2bb50",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 9, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3806548,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "61"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 9, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3495010,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "58"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 9, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3293802,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "52"
+            },
             {
                 "ettevotja_aadress_aruandes": "Loomäe tee 9, Lehmja küla, Rae vald, Harju maakond, 75306",
                 "kirje_id": 2862536,
@@ -419,7 +457,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -509,6 +547,18 @@
                 "kirje_id": 5797159,
                 "lopp_kpv": null,
                 "sisu": "OÜ Volume Kinnisvara (10760210), aadress Saku 6a, Tallinn,Harju maakond (ühendatav ühing)ühineb Volume Design OÜ-ga (10463528), aadress Reti tee 5, Peetri alevik, Rae vald, Harju maakond (ühendav ühing). Ühinemisleping on sõlmitud 11.09.2015, heaks kiidetud ühinemisotsusega 12.10.2015. Ühinemine jõustub käesoleva ühinemiskandega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "18.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 18,
+                "kirje_id": 13737860,
+                "lopp_kpv": null,
+                "sisu": "Volume Design OÜ (ühendav ühing), Volume Capital OÜ (ühendatav ühing, registrikood 12724683, aadress Harju maakond, Rae vald, Lehmja küla, Loomäe tee 9) ühinevad 15.12.2025 sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 11.02.2026. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -612,26 +662,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2021",
-                "emtak_kood": "38321",
-                "emtak_tekstina": "Sorteeritud materjali taaskasutusele võtmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000560321,
-                "lopp_kpv": null,
-                "nace_kood": "38.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.04.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "25991",
                 "emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000542504,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000992222,
                 "lopp_kpv": null,
                 "nace_kood": "25.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "38321",
+                "emtak_tekstina": "Prügilasse ladestamine või püsiv ladustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000992223,
+                "lopp_kpv": null,
+                "nace_kood": "38.32",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

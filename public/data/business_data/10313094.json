@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Ervin",
-            "isikukood": "36709116010",
+            "isikukood": null,
+            "isikukood_hash": "4d4ba518-d38b-5bdd-be7d-e788b36aaf94",
             "kirje_id": 9000865095,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36709116010",
+            "isikukood_hash": "4d4ba518-d38b-5bdd-be7d-e788b36aaf94",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur-Kaare tn 69, Viljandi linn, Viljandi maakond, 71015",
+                "kirje_id": 3795234,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "40"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Kaare tn 69, Viljandi linn, Viljandi maakond, 71015",
+                "kirje_id": 3344683,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "42"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Kaare tn 69, Viljandi linn, Viljandi maakond, 71015",
+                "kirje_id": 3116907,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "42"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur-Kaare tn 69, Viljandi linn, Viljandi maakond, 71015",
                 "kirje_id": 2821821,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -598,25 +636,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.05.2021",
-                "emtak_kood": "4511",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000550253,
+                "algus_kpv": "26.03.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000841271,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.05.2021",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000550252,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 11375832,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "24.05.2024",
+            "eesnimi": "Heiki",
+            "isikukood": null,
+            "isikukood_hash": "8141cbbf-3531-5216-b4bb-16e77d99a995",
+            "kirje_id": 9001711868,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Laas",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35912016522",
+            "isikukood_hash": "8141cbbf-3531-5216-b4bb-16e77d99a995",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metsavahi, Valgjärve küla, Kanepi vald, Põlva maakond, 63419",
+                "kirje_id": 3680234,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsavahi, Valgjärve küla, Kanepi vald, Põlva maakond, 63419",
+                "kirje_id": 3362561,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsavahi, Valgjärve küla, Kanepi vald, Põlva maakond, 63419",
+                "kirje_id": 3097843,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metsavahi, Valgjärve küla, Kanepi vald, Põlva maakond, 63419",
                 "kirje_id": 2822708,
@@ -293,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -400,26 +456,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2022",
+                "algus_kpv": "28.04.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630743,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860242,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "18.06.2010",
+                "algus_kpv": "28.04.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000036493,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860243,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

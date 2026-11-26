@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Patrik",
-            "isikukood": "38411280314",
+            "isikukood": null,
+            "isikukood_hash": "9093d94b-d1a3-5404-a4f2-f6f4d96b11ee",
             "kirje_id": 9000657512,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38411280314",
+            "isikukood_hash": "9093d94b-d1a3-5404-a4f2-f6f4d96b11ee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9589233",
-                "aadress_ads__adr_id": 2105257,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Tulika tn 19",
+                "aadress_ads__adob_id": "7398422",
+                "aadress_ads__adr_id": 2119023,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Reha tn 35",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00645661",
-                "aadress_ads__koodaadress": "3778403390000062F00001QUX00000000",
+                "aadress_ads__ads_oid": "EE03351322",
+                "aadress_ads__koodaadress": "377840176000004JB00001DMF00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.12.2017",
-                "ehak": "0339",
-                "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "02.10.2023",
+                "ehak": "0176",
+                "ehak_nimetus": "Haabersti linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7320147,
+                "kande_nr": 7,
+                "kirje_id": 12055585,
                 "lopp_kpv": null,
-                "postiindeks": "10613",
+                "postiindeks": "13516",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tulika tn 19"
+                "tanav_maja_korter": "Reha tn 35"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Reha tn 35, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3611442,
+                "majandusaasta_perioodi_algus_kpv": "01.10.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.09.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reha tn 35, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3346870,
+                "majandusaasta_perioodi_algus_kpv": "01.10.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.09.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reha tn 35, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3082560,
+                "majandusaasta_perioodi_algus_kpv": "01.10.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.09.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tulika tn 19, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
                 "kirje_id": 2787636,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,12 +372,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.03.2014",
+                "algus_kpv": "31.03.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000100988,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000843596,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Indrek",
-            "isikukood": "38003212243",
+            "isikukood": null,
+            "isikukood_hash": "a5f5942b-2ccc-5ff1-aeff-463e89abbc40",
             "kirje_id": 9000728229,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -24,6 +25,7 @@
             "algus_kpv": "03.10.2018",
             "eesnimi": "Lars Elof",
             "isikukood": null,
+            "isikukood_hash": "a2918724-6b79-5680-8b4a-7e4bb0e2904a",
             "kirje_id": 9000728231,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Åstbom",
             "synniaeg": null,
-            "valis_kood": "721228-6277",
+            "valis_kood": null,
             "valis_kood_riik": "SWE",
             "valis_kood_riik_tekstina": "Rootsi"
         }
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38003212243",
+            "isikukood_hash": "a5f5942b-2ccc-5ff1-aeff-463e89abbc40",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37212280083",
+            "isikukood_hash": "ab772a87-7e51-50ac-821b-f651bde6ffd4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10012594",
+                "aadress_ads__adob_id": "11487140",
                 "aadress_ads__adr_id": 3512818,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Jõgeva maakond, Mustvee vald, Vilusi küla, Tehnopargi/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tehnopargi/1, Vilusi küla, Mustvee vald, Jõgeva maakond, 42007",
+                "kirje_id": 3584127,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnopargi/1, Vilusi küla, Mustvee vald, Jõgeva maakond, 42007",
+                "kirje_id": 3322649,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnopargi/1, Vilusi küla, Mustvee vald, Jõgeva maakond, 42007",
+                "kirje_id": 3048346,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tehnopargi/1, Vilusi küla, Mustvee vald, Jõgeva maakond, 42007",
                 "kirje_id": 2765633,
@@ -305,19 +345,19 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "30.09.2011",
+                "algus_kpv": "20.01.2026",
                 "kaardi_nr": 2,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 4212599,
+                "kande_nr": 12,
+                "kirje_id": 13524322,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.01",
-                "maj_aasta_lopp": "31.12"
+                "maj_aasta_algus": "01.07",
+                "maj_aasta_lopp": "30.06"
             }
         ],
         "markused_kaardil": [
@@ -387,13 +427,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "08.10.2018",
+                "algus_kpv": "20.01.2026",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kinnitamise_kpv": "05.09.2018",
-                "kirje_id": 8274491,
+                "kande_nr": 12,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13524321,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -428,47 +468,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2015",
+                "algus_kpv": "31.01.2025",
                 "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000180799,
+                "emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816816,
                 "lopp_kpv": null,
                 "nace_kood": "46.19",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.06.2015",
-                "emtak_kood": "45321",
+                "algus_kpv": "31.01.2025",
+                "emtak_kood": "47821",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000180800,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816817,
                 "lopp_kpv": null,
-                "nace_kood": "45.32",
+                "nace_kood": "47.82",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "09.02.2023",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000668642,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.06.2014",
+                "algus_kpv": "31.01.2025",
                 "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000112324,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816818,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "31.01.2025",
+                "emtak_kood": "01131",
+                "emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816819,
+                "lopp_kpv": null,
+                "nace_kood": "01.13",
                 "on_pohitegevusala": false
             }
         ],

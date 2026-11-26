@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Igor",
-            "isikukood": "35308130241",
+            "isikukood": null,
+            "isikukood_hash": "7cb14f39-8684-5473-b856-4060bb69219c",
             "kirje_id": 9000796331,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35308130241",
+            "isikukood_hash": "7cb14f39-8684-5473-b856-4060bb69219c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 28, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3716219,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 28, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3507068,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 28, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3175803,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Nõupidamiste ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pirita tee 28, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
                 "kirje_id": 2901238,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -534,6 +572,18 @@
                 "sisu": "Eesti Näituste Aktsiaselts on 04.08.2023 otsusega ümberkujundatud osaühinguks ärinimega Eesti Näituste Osaühing",
                 "tyyp": "YMB",
                 "tyyp_tekstina": "Ümberkujundamine tekstina"
+            },
+            {
+                "algus_kpv": "13.08.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 18,
+                "kirje_id": 12639626,
+                "lopp_kpv": null,
+                "sisu": "Eesti Näituste Osaühing (ühendav ühing) on ühendanud endaga Näituste Investeeringud OÜ (ühendatav ühing, registrikood 11965539, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Pirita tee 28, 12011) 19.06.2024 sõlmitud ühinemislepingu alusel. Ühinemisotsused on vastu võetud 04.07.2024. ",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -635,12 +685,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "82301",
-                "emtak_tekstina": "Nõupidamiste ja messide korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000025393,
+                "emtak_tekstina": "Konverentside ja messide korraldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001004143,
                 "lopp_kpv": null,
                 "nace_kood": "82.30",
                 "on_pohitegevusala": true

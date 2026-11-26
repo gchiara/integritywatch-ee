@@ -205,14 +205,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12766718",
-            "Possible shell company: 10006038",
-            "Nominees as company beneficial owners: 35510180224"
+            "Possible shell company: 10279539",
+            "Possible shell company: 10006038"
         ],
         "noticeUid": "778b35b8-9e1d-4bf5-a4e7-e2311e90fe56",
         "notice_items": [
@@ -270,15 +269,13 @@
         "filename": "award_123670ff-e6c2-4b15-82dd-1966a6042127_0.json",
         "flags": [
             "Tenders received low",
-            "Seller is a large political donor",
             "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Political donations from beneficial owner of a contractor company: Elmar Bergmann. Company: DEFREM OÜ(16141725). AMT: 4060",
-            "Nominees as company beneficial owners: 38704014218",
-            "Nominees as company board members: 38704014218",
+            "Nominees as company beneficial owners: Elmar_Bergmann_18.01.2021",
+            "Nominees as company board members: Elmar_Bergmann_18.01.2021",
             "Possible shell company: 12766718"
         ],
         "noticeUid": "123670ff-e6c2-4b15-82dd-1966a6042127",
@@ -287,5 +284,88 @@
         ],
         "notice_items_num": 1,
         "refnum": "252356"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-08-01"
+                ],
+                "award_value": "100000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12766718",
+                        "contractor_name": "Inter Cars Eesti OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Auto lisatarvikute ostu raamleping",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10421629",
+                "name": "Eesti Energia AS",
+                "town": "Tallinn"
+            },
+            {
+                "id": "10549419",
+                "name": "Aktsiaselts NARVA SOOJUSVÕRK",
+                "town": "Narva linn"
+            },
+            {
+                "id": "11050857",
+                "name": "Elektrilevi OÜ",
+                "town": "Tallinn"
+            },
+            {
+                "id": "16130213",
+                "name": "Enefit AS",
+                "town": "Tallinn"
+            },
+            {
+                "id": "11184032",
+                "name": "Enefit Green AS",
+                "town": "Tallinn"
+            },
+            {
+                "id": "10579981",
+                "name": "Enefit Power AS",
+                "town": "Narva-Jõesuu linn"
+            },
+            {
+                "id": "10633284",
+                "name": "Enefit Solutions AS",
+                "town": "Jõhvi vald"
+            }
+        ],
+        "contractors": [
+            "12766718"
+        ],
+        "cpv": "34300000",
+        "date_dispatch_notice": "2024-08-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_37b9b4e8-6140-434d-ad1c-849a13551c0d_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 12766718"
+        ],
+        "noticeUid": "37b9b4e8-6140-434d-ad1c-849a13551c0d",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "281978"
     }
 ]

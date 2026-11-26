@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-05-24",
+                "award_date_conclusion_contract": [
+                    "2023-05-24"
+                ],
                 "award_value": "26040.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Ühekordse kasutusega riietus",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -78,5 +80,59 @@
         "refnum": "256860",
         "total_amount": "973461.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-05-06"
+                ],
+                "award_value": "50000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "302603046",
+                        "contractor_name": "Saugos gidas UAB",
+                        "country": "LTU"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Isikukaitsevahendite soetamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10328799",
+                "name": "Aktsiaselts Eesti Post",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11916096",
+            "302603046"
+        ],
+        "cpv": "18800000",
+        "date_dispatch_notice": "2026-05-07",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_09e0c5bb-5032-4ad4-a67e-31e394994d94_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "09e0c5bb-5032-4ad4-a67e-31e394994d94",
+        "notice_items": [
+            {},
+            {},
+            {}
+        ],
+        "refnum": "305686-0000"
     }
 ]

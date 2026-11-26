@@ -39,12 +39,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37702082762",
-            "Nominees as company board members: 37702082762"
+            "Possible shell company: 10050909",
+            "Nominees as company beneficial owners: Mart_Meeru_11.09.2018"
         ],
         "noticeUid": "3dfd8e1d-70ad-4100-9a69-b952ce9aade8",
         "notice_items": [
@@ -104,10 +105,9 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10860962",
-            "Nominees as company beneficial owners: 38107222218",
-            "Nominees as company board members: 38107222218",
-            "Nominees as company beneficial owners: 37702082762",
-            "Nominees as company board members: 37702082762"
+            "Nominees as company beneficial owners: Kaupo_Nõmmemees_27.09.2018",
+            "Possible shell company: 10050909",
+            "Nominees as company beneficial owners: Mart_Meeru_11.09.2018"
         ],
         "noticeUid": "a41f032b-c06f-4480-9f07-a06a2dfa3dab",
         "notice_items": [
@@ -210,23 +210,17 @@
         "flags": [
             "Too few evaluation criteria",
             "Possible shell company",
-            "Seller is a large political donor",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10348945",
-            "Political donations from beneficial owner of a contractor company: Andrus Ilumets. Company: HMPK OÜ(10348945). AMT: 2420",
-            "Nominees as company beneficial owners: 36809032729",
-            "Nominees as company beneficial owners: 38307080293",
-            "Nominees as company beneficial owners: 37809010294",
-            "Nominees as company board members: 36809032729",
-            "Nominees as company board members: 38307080293",
+            "Nominees as company beneficial owners: Andrus_Ilumets_26.10.2018",
+            "Nominees as company board members: Andrus_Ilumets_02.01.2006",
             "Possible shell company: 10860962",
-            "Nominees as company beneficial owners: 38107222218",
-            "Nominees as company board members: 38107222218",
-            "Nominees as company beneficial owners: 37702082762",
-            "Nominees as company board members: 37702082762"
+            "Nominees as company beneficial owners: Kaupo_Nõmmemees_27.09.2018",
+            "Possible shell company: 10050909",
+            "Nominees as company beneficial owners: Mart_Meeru_11.09.2018"
         ],
         "noticeUid": "709ec2e3-4043-4b7b-a1f8-d7d777b4c60e",
         "notice_items": [
@@ -234,5 +228,81 @@
         ],
         "notice_items_num": 1,
         "refnum": "229229"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-01-02",
+                    "2026-01-02",
+                    "2026-01-02"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10597223",
+                        "contractor_name": "Laikum OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10860962",
+                        "contractor_name": "Osaühing VIKINGMODUM",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10050909",
+                        "contractor_name": "Töörõõm Osaühing",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10210046",
+                        "contractor_name": "Iriscorp Transport OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "14"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Harvendusraie- ja kokkuveoteenuste tellimine Kagu regioonis Jõgeva piirkonnas 2025-5",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "70004459",
+                "name": "Riigimetsa Majandamise Keskus",
+                "town": "Haljala vald"
+            }
+        ],
+        "contractors": [
+            "10597223",
+            "10860962",
+            "10050909",
+            "10210046"
+        ],
+        "cpv": "77210000",
+        "date_dispatch_notice": "2026-01-13",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_20ec6a55-f065-4e03-a51d-06289c1a0e42_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10860962",
+            "Nominees as company beneficial owners: Kaupo_Nõmmemees_27.09.2018",
+            "Possible shell company: 10050909",
+            "Nominees as company beneficial owners: Mart_Meeru_11.09.2018",
+            "Possible shell company: 10210046"
+        ],
+        "noticeUid": "20ec6a55-f065-4e03-a51d-06289c1a0e42",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "300967-0000"
     }
 ]

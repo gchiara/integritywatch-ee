@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Kristjan",
-            "isikukood": "37208080445",
+            "isikukood": null,
+            "isikukood_hash": "a4255b69-a41f-511f-94ba-b339fb12a0e0",
             "kirje_id": 9000852289,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37208080445",
+            "isikukood_hash": "a4255b69-a41f-511f-94ba-b339fb12a0e0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37409150289",
+            "isikukood_hash": "f2203305-4514-57f4-884e-1df61bbb760f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -114,7 +117,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36909060270",
+            "isikukood_hash": "aeb2b250-88f2-5084-8973-a72f035e6526",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -177,6 +181,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3796549,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "64211",
+                "tegevusala_emtak_tekstina": "Valdusfirmade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.21",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3508659,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "64211",
+                "tegevusala_emtak_tekstina": "Valdusfirmade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.21",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3213038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "64201",
+                "tegevusala_emtak_tekstina": "Valdusfirmade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.20",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Maakri tn 19/1, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2913547,
@@ -313,7 +353,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -434,14 +474,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.05.2013",
-                "emtak_kood": "64201",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "64211",
                 "emtak_tekstina": "Valdusfirmade tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000025872,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005703,
                 "lopp_kpv": null,
-                "nace_kood": "64.20",
+                "nace_kood": "64.21",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Vjatšeslav",
-            "isikukood": "37809010278",
+            "isikukood": null,
+            "isikukood_hash": "90d2156e-2d73-552e-882c-e99403127ed3",
             "kirje_id": 9000723333,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37809010278",
+            "isikukood_hash": "90d2156e-2d73-552e-882c-e99403127ed3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "5364874",
-                "aadress_ads__adr_id": 282957,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Jõelähtme vald, Ülgase küla, Vanatoa",
+                "aadress_ads__adob_id": "11508722",
+                "aadress_ads__adr_id": 2116701,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Virbi tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01036950",
-                "aadress_ads__koodaadress": "3724598380000000078OX000000000000",
+                "aadress_ads__ads_oid": "EE00639257",
+                "aadress_ads__koodaadress": "377840387000004C0000035F200000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "05.01.2022",
-                "ehak": "9838",
-                "ehak_nimetus": "Ülgase küla, Jõelähtme vald, Harju maakond",
+                "algus_kpv": "09.10.2024",
+                "ehak": "0387",
+                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 9944872,
+                "kande_nr": 10,
+                "kirje_id": 12731405,
                 "lopp_kpv": null,
-                "postiindeks": "74220",
+                "postiindeks": "13629",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vanatoa"
+                "tanav_maja_korter": "Virbi tn 2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Virbi tn 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 13629",
+                "kirje_id": 3657105,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Virbi tn 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 13629",
+                "kirje_id": 3552938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vanatoa, Ülgase küla, Jõelähtme vald, Harju maakond, 74220",
+                "kirje_id": 3281597,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77321",
+                "tegevusala_emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.32",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vanatoa, Ülgase küla, Jõelähtme vald, Harju maakond, 74220",
                 "kirje_id": 2857320,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -391,13 +429,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "05.01.2022",
+                "algus_kpv": "09.10.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kinnitamise_kpv": "04.01.2022",
-                "kirje_id": 9944873,
+                "kande_nr": 10,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12731406,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -443,26 +481,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.06.2020",
+                "algus_kpv": "31.08.2025",
                 "emtak_kood": "42211",
                 "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000480088,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048953,
                 "lopp_kpv": null,
                 "nace_kood": "42.21",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.06.2020",
-                "emtak_kood": "77321",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000480089,
-                "lopp_kpv": null,
-                "nace_kood": "77.32",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

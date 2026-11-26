@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.11.2020",
             "eesnimi": "Georg-Renee",
-            "isikukood": "38809150281",
+            "isikukood": null,
+            "isikukood_hash": "25776f45-0141-5869-9e28-706101876a53",
             "kirje_id": 9001203001,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38809150281",
+            "isikukood_hash": "25776f45-0141-5869-9e28-706101876a53",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6683610",
-                "aadress_ads__adr_id": 2173154,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Vana-Lõuna tn 39-97",
+                "aadress_ads__adob_id": "10153935",
+                "aadress_ads__adr_id": 3554710,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Pärnasalu tn 22",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01366829",
-                "aadress_ads__koodaadress": "3778402980000040A00002JVE47QY0000",
+                "aadress_ads__ads_oid": "EE01173684",
+                "aadress_ads__koodaadress": "37725745300000RYY0000AY2F00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "26.08.2022",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "22.02.2024",
+                "ehak": "7453",
+                "ehak_nimetus": "Saue linn, Saue vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10239781,
+                "kande_nr": 8,
+                "kirje_id": 12324109,
                 "lopp_kpv": null,
-                "postiindeks": "10134",
+                "postiindeks": "76505",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vana-Lõuna tn 39-97"
+                "tanav_maja_korter": "Pärnasalu tn 22"
             }
         ],
         "arinimed": [
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnasalu tn 22, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3285294,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39-97, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3017417,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "64301",
+                "tegevusala_emtak_tekstina": "Usaldusfondide, investeerimisfondide ja sarnaste finantsüksuste investeerimine võlakirjadesse, väärtpaberitesse jms finantsvahenditesse",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.30",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39-97, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
                 "kirje_id": 2750703,
@@ -191,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -246,13 +272,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "19.02.2016",
+                "algus_kpv": "22.02.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "15.02.2016",
-                "kirje_id": 5861032,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12324110,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -302,7 +328,7 @@
                 "emtak_kood": "64301",
                 "emtak_tekstina": "Usaldusfondide, investeerimisfondide ja sarnaste finantsüksuste investeerimine võlakirjadesse, väärtpaberitesse jms finantsvahenditesse",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000213246,
                 "lopp_kpv": null,
                 "nace_kood": "64.30",

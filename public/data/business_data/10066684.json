@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Aarne",
-            "isikukood": "36403140217",
+            "isikukood": null,
+            "isikukood_hash": "a3229f92-b845-5df7-ac63-475e8ecff874",
             "kirje_id": 9000659241,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Jaan",
-            "isikukood": "36506210242",
+            "isikukood": null,
+            "isikukood_hash": "3dd6b6c1-6789-5974-8e76-aa21e155080c",
             "kirje_id": 9000659239,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36403140217",
+            "isikukood_hash": "a3229f92-b845-5df7-ac63-475e8ecff874",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36506210242",
+            "isikukood_hash": "3dd6b6c1-6789-5974-8e76-aa21e155080c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kiisa tn 8, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3730714,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiisa tn 8, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3453474,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiisa tn 8, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3205515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiisa tn 8, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2916042,
@@ -507,7 +547,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -662,14 +702,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000026080,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950586,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

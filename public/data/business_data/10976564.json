@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Ivar",
-            "isikukood": "36105140262",
+            "isikukood": null,
+            "isikukood_hash": "15c03bbc-ea18-5254-b820-76207653fd79",
             "kirje_id": 9000715002,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36105140262",
+            "isikukood_hash": "15c03bbc-ea18-5254-b820-76207653fd79",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7280025",
-                "aadress_ads__adr_id": 1868836,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Vaskjala küla, Rebase tn 30/1-4",
+                "aadress_ads__adob_id": "6168736",
+                "aadress_ads__adr_id": 1767308,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Peetri alevik, Reti tee 12-6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01508104",
-                "aadress_ads__koodaadress": "37653910800000PE200009HQ4DTFI0000",
+                "aadress_ads__ads_oid": "MR01544031",
+                "aadress_ads__koodaadress": "376536086000008RK00002GDO7R4F0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2017",
-                "ehak": "9108",
-                "ehak_nimetus": "Vaskjala küla, Rae vald, Harju maakond",
+                "algus_kpv": "05.12.2024",
+                "ehak": "6086",
+                "ehak_nimetus": "Peetri alevik, Rae vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7150682,
+                "kande_nr": 13,
+                "kirje_id": 12829018,
                 "lopp_kpv": null,
-                "postiindeks": "75301",
+                "postiindeks": "75312",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Rebase tn 30/1-4"
+                "tanav_maja_korter": "Reti tee 12-6"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Reti tee 12-6, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3768034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reti tee 12-6, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3526466,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46442",
+                "tegevusala_emtak_tekstina": "Puhastusvahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.44",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rebase tn 30/1-4, Vaskjala küla, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3197169,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46442",
+                "tegevusala_emtak_tekstina": "Puhastusvahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.44",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rebase tn 30/1-4, Vaskjala küla, Rae vald, Harju maakond, 75301",
                 "kirje_id": 2927685,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -386,6 +424,18 @@
                 "kirje_id": 4573692,
                 "lopp_kpv": null,
                 "sisu": "OÜ PesuMati, kui ühendav ühing ja PesuMati Trade OÜ, kui ühendatav ühing (registrikood 12155096, asukoht Peterburi tee 2f, Tallinn) ühinevad 06.07.2012.a sõlmitud ühinemislepingu alusel.  Ühinemisotsus võeti vastu 21.07.2012. a. Ühinemine jõustub käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "05.02.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 14,
+                "kirje_id": 12942956,
+                "lopp_kpv": null,
+                "sisu": "PesuMati Trade OÜ (ühendav äriühing) ja NN Estonia OÜ (ühendatav äriühing, registrikood 11333779, asukoht ja aadress Harju maakond, Tallinn, Mustamäe linnaosa, Kadaka tee 70a, 12618) ühinevad. Ühinemisleping (notari ametitegevuse raamatu registri nr 6534) sõlmiti 18.11.2024, ühinemisotsuse vastuvõtmine ei olnud nõutav. Ühinemine jõustub käesoleva ühinemiskande tegemisega, misjärel NN Estonia OÜ kustutatakse äriregistrist.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -441,17 +491,6 @@
                 "sisu": "pesumati@pesumati.ee"
             },
             {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 7668074,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "ivar007@hot.ee"
-            },
-            {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
@@ -478,15 +517,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2018",
-                "emtak_kood": "46442",
-                "emtak_tekstina": "Puhastusvahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000368732,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130285,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "46441",
+                "emtak_tekstina": "Portselani ja klaastoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130286,
                 "lopp_kpv": null,
                 "nace_kood": "46.44",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "77399",
+                "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130287,
+                "lopp_kpv": null,
+                "nace_kood": "77.39",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.02.2023",
             "eesnimi": "Toomas",
-            "isikukood": "37508040219",
+            "isikukood": null,
+            "isikukood_hash": "cc9f3d29-b752-5997-88b4-d2031fa68af4",
             "kirje_id": 9001535066,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37508040219",
+            "isikukood_hash": "cc9f3d29-b752-5997-88b4-d2031fa68af4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/6, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3828457,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/6, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3504940,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/6, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3274689,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7219",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Akadeemia tee 21/6, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2901264,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -287,37 +325,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "7219",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000700119,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002101,
                 "lopp_kpv": null,
-                "nace_kood": "72.19",
+                "nace_kood": "72.10",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "7739",
-                "emtak_tekstina": "Mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000700120,
-                "lopp_kpv": null,
-                "nace_kood": "77.39",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "71129",
-                "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000700121,
-                "lopp_kpv": null,
-                "nace_kood": "71.12",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

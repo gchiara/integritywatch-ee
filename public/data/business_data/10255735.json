@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.05.2019",
             "eesnimi": "Raul",
-            "isikukood": "36407276518",
+            "isikukood": null,
+            "isikukood_hash": "e6957c5f-f8d6-5055-85e8-02f8705c8f81",
             "kirje_id": 9000964371,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36407276518",
+            "isikukood_hash": "e6957c5f-f8d6-5055-85e8-02f8705c8f81",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10123488",
+                "aadress_ads__adob_id": "11103403",
                 "aadress_ads__adr_id": 3181267,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Energia tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Energia tn 5, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3621784,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4322",
+                "tegevusala_emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Energia tn 5, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3356376,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Energia tn 5, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3152109,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "25"
+            },
             {
                 "ettevotja_aadress_aruandes": "Energia tn 5, Põlva linn, Põlva vald, Põlva maakond, 63308",
                 "kirje_id": 2842777,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -587,36 +625,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "47522",
-                "emtak_tekstina": "Veevarustus- ja sanitaarseadmete ning nende koosteosade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000052465,
-                "lopp_kpv": null,
-                "nace_kood": "47.52",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "16.09.2014",
-                "emtak_kood": "43222",
-                "emtak_tekstina": "Veetorustiku  ja sanitaarseadmete paigaldus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000141461,
+                "algus_kpv": "17.04.2026",
+                "emtak_kood": "4322",
+                "emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095884,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "06.08.2020",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000495688,
+                "algus_kpv": "16.04.2025",
+                "emtak_kood": "47522",
+                "emtak_tekstina": "Veevarustus- ja sanitaarseadmete ning nende koosteosade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000853829,
                 "lopp_kpv": null,
-                "nace_kood": "68.20",
+                "nace_kood": "47.52",
                 "on_pohitegevusala": false
             }
         ],

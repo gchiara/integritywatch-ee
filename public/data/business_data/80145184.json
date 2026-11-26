@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 80145184,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "22.01.2024",
+            "eesnimi": "Vladimir",
+            "isikukood": null,
+            "isikukood_hash": "f03336ae-d616-5ae6-9b7d-dc6e7ceefae1",
+            "kirje_id": 9001674272,
+            "kontrolli_teostamise_viis": "C",
+            "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Naumov",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36802263725",
+            "isikukood_hash": "f03336ae-d616-5ae6-9b7d-dc6e7ceefae1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "MTÜ",
@@ -84,6 +104,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
+                "kirje_id": 3834590,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
+                "kirje_id": 3564626,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
+                "kirje_id": 3267948,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
+                "kirje_id": 3050952,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
+                "kirje_id": 3049248,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koidula tn 4-15, Narva linn, Ida-Viru maakond, 20307",
                 "kirje_id": 2484999,
@@ -230,7 +310,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -302,12 +382,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 7,
-                "kirje_id": 10481697,
+                "kande_nr": 8,
+                "kirje_id": 12258516,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "newbridge@mail.ru"
+                "sisu": "newbridge.narva@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -336,12 +416,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.02.2012",
+                "algus_kpv": "27.10.2025",
                 "emtak_kood": "88991",
-                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne majutuseta",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000166326,
+                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001062354,
                 "lopp_kpv": null,
                 "nace_kood": "88.99",
                 "on_pohitegevusala": true

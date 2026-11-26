@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Ando",
-            "isikukood": "37604035213",
+            "isikukood": null,
+            "isikukood_hash": "e6a37e80-1979-50df-b6d3-b7f7595755c3",
             "kirje_id": 9000830751,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Seidi",
-            "isikukood": "47909155257",
+            "isikukood": null,
+            "isikukood_hash": "56aa835d-4ff4-57a1-8a6b-e5c6a61a2b24",
             "kirje_id": 9000830752,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37604035213",
+            "isikukood_hash": "e6a37e80-1979-50df-b6d3-b7f7595755c3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 10, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3715200,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 10, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3436839,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ristiku tn 10, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3152974,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ristiku tn 10, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
                 "kirje_id": 2851210,
@@ -244,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -373,37 +412,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.09.2020",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000503627,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.06.2018",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000359835,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.05.2016",
+                "algus_kpv": "24.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000226043,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934514,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "24.06.2025",
+                "emtak_kood": "9699",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934516,
+                "lopp_kpv": null,
+                "nace_kood": "96.99",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "24.06.2025",
+                "emtak_kood": "47911",
+                "emtak_tekstina": "Spetsialiseerimata jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934515,
+                "lopp_kpv": null,
+                "nace_kood": "47.91",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Rainer",
-            "isikukood": "38101224912",
+            "isikukood": null,
+            "isikukood_hash": "283b4dbc-4d85-5d14-aac6-41e3a9c6c3b6",
             "kirje_id": 9000834012,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.12.2022",
             "eesnimi": "Tarmo",
-            "isikukood": "38208084217",
+            "isikukood": null,
+            "isikukood_hash": "15357b89-7840-5d3d-a00c-382a5219a796",
             "kirje_id": 9001512746,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48409076532",
+            "isikukood_hash": "9293d798-54c0-5915-90c0-b738b9d53ba5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38208084217",
+            "isikukood_hash": "15357b89-7840-5d3d-a00c-382a5219a796",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kõivu tee 17/10, Pirita linnaosa, Tallinn, Harju maakond, 12113",
+                "kirje_id": 3752034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõivu tee 17/10, Pirita linnaosa, Tallinn, Harju maakond, 12113",
+                "kirje_id": 3409684,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõivu tee 17/10, Pirita linnaosa, Tallinn, Harju maakond, 12113",
+                "kirje_id": 3107509,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62091",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.09",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kõivu tee 17/10, Pirita linnaosa, Tallinn, Harju maakond, 12113",
                 "kirje_id": 2754115,
@@ -341,7 +381,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -461,14 +501,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.01.2023",
-                "emtak_kood": "62091",
-                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664147,
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "62101",
+                "emtak_tekstina": "Programmeerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000906955,
                 "lopp_kpv": null,
-                "nace_kood": "62.09",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

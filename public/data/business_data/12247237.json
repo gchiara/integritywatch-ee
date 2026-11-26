@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Marko",
-            "isikukood": "39001082729",
+            "isikukood": null,
+            "isikukood_hash": "6e58e72d-e42d-59ab-8d1f-ac648f4fa69e",
             "kirje_id": 9000779386,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39001082729",
+            "isikukood_hash": "6e58e72d-e42d-59ab-8d1f-ac648f4fa69e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Piirimäe, Helme alevik, Tõrva vald, Valga maakond, 68608",
+                "kirje_id": 3703771,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piirimäe, Helme alevik, Tõrva vald, Valga maakond, 68608",
+                "kirje_id": 3478389,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piirimäe, Helme alevik, Tõrva vald, Valga maakond, 68608",
+                "kirje_id": 3220787,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Piirimäe, Helme alevik, Tõrva vald, Valga maakond, 68608",
                 "kirje_id": 2904508,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,36 +396,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2019",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000430314,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "96221",
+                "emtak_tekstina": "Kosmeetiku iluhooldusteenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974708,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2019",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000430315,
-                "lopp_kpv": null,
-                "nace_kood": "81.30",
+                "nace_kood": "96.22",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "27.06.2014",
-                "emtak_kood": "96021",
-                "emtak_tekstina": "Juuksuri- ja muu iluteenindus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000122730,
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117125,
                 "lopp_kpv": null,
-                "nace_kood": "96.02",
+                "nace_kood": "95.31",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117126,
+                "lopp_kpv": null,
+                "nace_kood": "81.30",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.03.2020",
             "eesnimi": "Margo",
-            "isikukood": "37007012717",
+            "isikukood": null,
+            "isikukood_hash": "98d1e2ab-919f-565b-bdea-62b189fb9ca4",
             "kirje_id": 9001099764,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.03.2020",
             "eesnimi": "Tõnu",
-            "isikukood": "37611085215",
+            "isikukood": null,
+            "isikukood_hash": "6d16fddd-0c5f-582e-a471-8d2b7d474d11",
             "kirje_id": 9001099766,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.03.2020",
             "eesnimi": "Veikko",
-            "isikukood": "37504274214",
+            "isikukood": null,
+            "isikukood_hash": "e74f594b-08c9-5518-9841-05666b1baef4",
             "kirje_id": 9001099765,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37007012717",
+            "isikukood_hash": "98d1e2ab-919f-565b-bdea-62b189fb9ca4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,7 +100,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946604",
+                "aadress_ads__adob_id": "10890034",
                 "aadress_ads__adr_id": 2351544,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Peterburi tee 81",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -137,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3814019,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3482754,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3212342,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "58141",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.14",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
                 "kirje_id": 2961561,
@@ -213,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,14 +362,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.09.2017",
-                "emtak_kood": "58141",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "58131",
                 "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000323886,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979526,
                 "lopp_kpv": null,
-                "nace_kood": "58.14",
+                "nace_kood": "58.13",
                 "on_pohitegevusala": true
             }
         ],

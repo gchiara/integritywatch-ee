@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.03.2019",
             "eesnimi": "Ants",
-            "isikukood": "37307200247",
+            "isikukood": null,
+            "isikukood_hash": "8c0d5ac3-f41d-56f2-a53b-0b78113c0b54",
             "kirje_id": 9000942229,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.03.2019",
             "eesnimi": "Viktor",
-            "isikukood": "36611160329",
+            "isikukood": null,
+            "isikukood_hash": "79a70914-f60c-51d1-8c8c-8f133f55f8a9",
             "kirje_id": 9000942230,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36611160329",
+            "isikukood_hash": "79a70914-f60c-51d1-8c8c-8f133f55f8a9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Plasti tee 8, Uusküla, Jõelähtme vald, Harju maakond, 74120",
+                "kirje_id": 3712207,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Plasti tee 8, Uusküla, Jõelähtme vald, Harju maakond, 74120",
+                "kirje_id": 3410502,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Plasti tee 8, Uusküla, Jõelähtme vald, Harju maakond, 74120",
+                "kirje_id": 3163473,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana-Muuga põik 8, Uusküla, Jõelähtme vald, Harju maakond, 74120",
                 "kirje_id": 2895435,
@@ -328,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -401,12 +440,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7690965,
+                "kande_nr": 11,
+                "kirje_id": 12832155,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "vkm.trading@mail.ee"
+                "sisu": "info@starplast.ee"
             },
             {
                 "kaardi_nr": null,
@@ -446,26 +485,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "46761",
-                "emtak_tekstina": "Muude vahetoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000137969,
-                "lopp_kpv": null,
-                "nace_kood": "46.76",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2011",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "22221",
                 "emtak_tekstina": "Plasttaara tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000137968,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909464,
                 "lopp_kpv": null,
                 "nace_kood": "22.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "46861",
+                "emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909465,
+                "lopp_kpv": null,
+                "nace_kood": "46.86",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

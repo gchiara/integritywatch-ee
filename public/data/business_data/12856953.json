@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.05.2023",
             "eesnimi": "Roman",
-            "isikukood": "38202200265",
+            "isikukood": null,
+            "isikukood_hash": "9994301b-49b6-581e-9cbb-ad2eac258468",
             "kirje_id": 9001573196,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Reiner-Latõšev",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "14.04.2026",
+            "eesnimi": "Jarmo",
+            "isikukood": null,
+            "isikukood_hash": "f7956234-fcf7-55fc-95f6-95859cddb639",
+            "kirje_id": 9003541303,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Luht",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38202200265",
+            "isikukood_hash": "9994301b-49b6-581e-9cbb-ad2eac258468",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +82,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6763338",
-                "aadress_ads__adr_id": 2267611,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 160f",
+                "aadress_ads__adob_id": "11148186",
+                "aadress_ads__adr_id": 2113897,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Suur-Sõjamäe tn 46",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01169367",
-                "aadress_ads__koodaadress": "377840298000001L900002Y4O00000000",
+                "aadress_ads__ads_oid": "ME00642075",
+                "aadress_ads__koodaadress": "377840387000001MD00001T3E00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "10.12.2017",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "25.06.2026",
+                "ehak": "0387",
+                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7342991,
+                "kande_nr": 10,
+                "kirje_id": 13833900,
                 "lopp_kpv": null,
-                "postiindeks": "11317",
+                "postiindeks": "11415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pärnu mnt 160f"
+                "tanav_maja_korter": "Suur-Sõjamäe tn 46"
             }
         ],
         "arinimed": [
@@ -103,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 46, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3781634,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4399",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 160f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3532344,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4399",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 160f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3191523,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4399",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 160f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2968528,
@@ -215,7 +271,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -305,6 +361,39 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5015596"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000699834,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://uretek.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000699835,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.youtube.com/@uretekbalticeesti"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000699836,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.linkedin.com/company/uretek-eesti/?viewAsMember=true"
             }
         ],
         "staatus": "R",
@@ -322,12 +411,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2016",
+                "algus_kpv": "10.07.2025",
                 "emtak_kood": "4399",
                 "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000247263,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028273,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": true

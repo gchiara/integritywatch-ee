@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Heikki",
-            "isikukood": "37202150302",
+            "isikukood": null,
+            "isikukood_hash": "f4579bce-6f1c-5f20-a357-c9ac387850dd",
             "kirje_id": 9000743507,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37202150302",
+            "isikukood_hash": "f4579bce-6f1c-5f20-a357-c9ac387850dd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 52, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3762117,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 52, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3486036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vanemuise tn 52, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3212000,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vanemuise tn 52, Tartu linn, Tartu linn, Tartu maakond, 51003",
                 "kirje_id": 2913464,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -465,48 +503,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "71121",
-                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000702223,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001129080,
                 "lopp_kpv": null,
-                "nace_kood": "71.12",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635362,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "47.81",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "7732",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000569998,
-                "lopp_kpv": null,
-                "nace_kood": "77.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.07.2009",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000019508,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983175,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983174,
+                "lopp_kpv": null,
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983172,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

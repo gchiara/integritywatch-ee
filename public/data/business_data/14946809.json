@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.04.2023",
             "eesnimi": "Viktor",
-            "isikukood": "35703220347",
+            "isikukood": null,
+            "isikukood_hash": "68ba1ba7-c665-579b-a3f9-85183a50eb8a",
             "kirje_id": 9001562826,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35703220347",
+            "isikukood_hash": "68ba1ba7-c665-579b-a3f9-85183a50eb8a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7097739",
+                "aadress_ads__adob_id": "10885585",
                 "aadress_ads__adr_id": 2306331,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Randvere tee 115",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Randvere tee 115, Pirita linnaosa, Tallinn, Harju maakond, 11913",
+                "kirje_id": 3163673,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Randvere tee 115, Pirita linnaosa, Tallinn, Harju maakond, 11913",
                 "kirje_id": 2949615,
@@ -155,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -251,14 +265,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.04.2020",
-                "emtak_kood": "5510",
-                "emtak_tekstina": "Hotellid ja muu sarnane majutus",
+                "algus_kpv": "20.06.2024",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000470439,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000769292,
                 "lopp_kpv": null,
-                "nace_kood": "55.10",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": true
             }
         ],

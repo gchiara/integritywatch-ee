@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Imbi",
-            "isikukood": "46903242767",
+            "isikukood": null,
+            "isikukood_hash": "622469d9-90c0-5316-8c86-8863a96cbf5a",
             "kirje_id": 9000698279,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46903242767",
+            "isikukood_hash": "622469d9-90c0-5316-8c86-8863a96cbf5a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3260823,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "8623",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3042792,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aida tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
                 "kirje_id": 2701709,
@@ -191,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,12 +324,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.09.2015",
-                "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
+                "algus_kpv": "11.07.2024",
+                "emtak_kood": "8623",
+                "emtak_tekstina": "Hambaravi",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000198503,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000786240,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

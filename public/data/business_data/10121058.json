@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.04.2019",
             "eesnimi": "Mihkel",
-            "isikukood": "35711160036",
+            "isikukood": null,
+            "isikukood_hash": "2a6ace00-2d2a-56f3-8f37-d6896e4e91dc",
             "kirje_id": 9000955034,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38111160024",
+            "isikukood_hash": "87338923-f7d6-5e99-896a-057fa1810007",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35711160036",
+            "isikukood_hash": "2a6ace00-2d2a-56f3-8f37-d6896e4e91dc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuule tn 1a, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3751168,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuule tn 1a, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3482505,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuule tn 1a, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3113730,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuule tn 1a, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
                 "kirje_id": 2917430,
@@ -468,7 +507,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -575,12 +614,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "03111",
                 "emtak_tekstina": "Merekalapüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000007973,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979225,
                 "lopp_kpv": null,
                 "nace_kood": "03.11",
                 "on_pohitegevusala": true

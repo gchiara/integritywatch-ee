@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-02",
+                "award_date_conclusion_contract": [
+                    "2023-08-02"
+                ],
                 "award_value": "3556660.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Tallinna Linnateatri IX kvartali lavatehnika hankimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -49,5 +51,55 @@
         "refnum": "258873",
         "total_amount": "3556660.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-08-02"
+                ],
+                "award_value": "3556660.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "40103206272",
+                        "contractor_name": "SIA Rock Distribution",
+                        "country": "LVA"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tallinna Linnateatri IX kvartali lavatehnika hankimine",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75016094",
+                "name": "Tallinna Linnateater",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "40103206272"
+        ],
+        "cpv": "71330000",
+        "date_dispatch_notice": "2024-09-16",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2f7d5aee-b03a-4dee-bb41-eb14e9354143_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "2f7d5aee-b03a-4dee-bb41-eb14e9354143",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "258873"
     }
 ]

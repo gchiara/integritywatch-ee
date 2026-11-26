@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.11.2018",
             "eesnimi": "Veljo",
-            "isikukood": "35811072720",
+            "isikukood": null,
+            "isikukood_hash": "c3de5338-e3f6-5b07-85c6-6fe0d096c168",
             "kirje_id": 9000893910,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49502192763",
+            "isikukood_hash": "ed26f8db-3736-516b-9ea9-1a1fb0fe0e78",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10554160",
+                "aadress_ads__adob_id": "11426943",
                 "aadress_ads__adr_id": 3071591,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Aruküla tee 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aruküla tee 3, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3646061,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aruküla tee 3, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3418826,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aruküla tee 3, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3293426,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aruküla tee 3, Tartu linn, Tartu linn, Tartu maakond, 51013",
                 "kirje_id": 2851989,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -441,12 +479,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.06.2010",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000024626,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917410,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true

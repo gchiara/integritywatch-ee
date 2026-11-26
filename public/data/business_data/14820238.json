@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.10.2019",
             "eesnimi": "Natalja",
-            "isikukood": "46007285713",
+            "isikukood": null,
+            "isikukood_hash": "13b5136b-bfb6-5e25-b267-640e0bfc5b89",
             "kirje_id": 9001031926,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46007285713",
+            "isikukood_hash": "13b5136b-bfb6-5e25-b267-640e0bfc5b89",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8598595",
-                "aadress_ads__adr_id": 3007560,
+                "aadress_ads__adob_id": "10814009",
+                "aadress_ads__adr_id": 3713263,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Vahe tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00926637",
-                "aadress_ads__koodaadress": "81855891800000S9H0000B21200000000",
+                "aadress_ads__koodaadress": "81857891800000S9H0000B21200000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.03.2021",
                 "ehak": "8918",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vahe tn 1, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3588708,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahe tn 1, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3339693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahe tn 1, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3043056,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vahe tn 1, Valga linn, Valga vald, Valga maakond, 68205",
                 "kirje_id": 2780483,
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,12 +300,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.02.2021",
+                "algus_kpv": "17.03.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000530245,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000835845,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

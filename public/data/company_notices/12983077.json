@@ -38,12 +38,11 @@
         "filename": "award_0650579d-9cb1-4920-a392-635b81a897cd_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37607184936",
-            "Nominees as company board members: 37607184936"
+            "Possible shell company: 12983077"
         ],
         "noticeUid": "0650579d-9cb1-4920-a392-635b81a897cd",
         "notice_items": [
@@ -92,12 +91,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37607184936",
-            "Nominees as company board members: 37607184936"
+            "Possible shell company: 12983077"
         ],
         "noticeUid": "1d8bd1da-d4f6-4210-8d50-df945ca2233b",
         "notice_items": [
@@ -105,5 +103,90 @@
         ],
         "notice_items_num": 1,
         "refnum": "224835"
+    },
+    {
+        "contract_title": "Plasti survevalu liini soetamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12983077",
+                "name": "Neular OÜ",
+                "town": "Paide linn"
+            }
+        ],
+        "cpv": "42994000",
+        "date_dispatch_notice": "2024-08-30",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_1198aef2-0118-4f64-84e2-b0af0c8372e7_0.json",
+        "flags": [
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Start date present but end date missing."
+        ],
+        "noticeUid": "1198aef2-0118-4f64-84e2-b0af0c8372e7",
+        "notice_items": [
+            {
+                "duration": "7 MONTH"
+            }
+        ],
+        "refnum": "278710"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-11-21"
+                ],
+                "award_value": "429750.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "501583726",
+                        "contractor_name": "PERIPLAST, LDA",
+                        "country": "PRT"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Plasti survevalu liini soetamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12983077",
+                "name": "Neular OÜ",
+                "town": "Paide linn"
+            }
+        ],
+        "contractors": [
+            "501583726"
+        ],
+        "cpv": "42994000",
+        "date_dispatch_notice": "2024-11-26",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_7edbe267-73d2-4a63-9be9-96c793e82f7f_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "7edbe267-73d2-4a63-9be9-96c793e82f7f",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "278710",
+        "total_amount": "429750.00",
+        "total_amount_curr": "EUR"
     }
 ]

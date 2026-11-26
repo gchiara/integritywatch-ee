@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Erkki",
-            "isikukood": "37802156519",
+            "isikukood": null,
+            "isikukood_hash": "1667ee1f-4d5d-5b33-ac65-a1fef651280c",
             "kirje_id": 9000755756,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "37802032741",
+            "isikukood": null,
+            "isikukood_hash": "76b7787e-91d3-571d-801a-7124617212d7",
             "kirje_id": 9000755760,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37802156519",
+            "isikukood_hash": "1667ee1f-4d5d-5b33-ac65-a1fef651280c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37802032741",
+            "isikukood_hash": "76b7787e-91d3-571d-801a-7124617212d7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 37a/1, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3645511,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 37a/1, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3430479,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 37a/1, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3159021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Teguri tn 37a/1, Tartu linn, Tartu linn, Tartu maakond, 50107",
                 "kirje_id": 2918178,
@@ -435,7 +475,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -567,14 +607,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.05.2017",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000294031,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928728,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

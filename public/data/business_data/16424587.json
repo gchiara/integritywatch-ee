@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.01.2022",
             "eesnimi": "Sanjay-Jaanus",
-            "isikukood": "37112292745",
+            "isikukood": null,
+            "isikukood_hash": "4edaca2f-9f01-53f0-afc9-ca16b032e100",
             "kirje_id": 9001387059,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36710082721",
+            "isikukood_hash": "ccf4513d-92f4-5143-8de2-78a887f1a33c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Aleksandri tn 1-36, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3626789,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aleksandri tn 1-36, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3419724,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aleksandri tn 1-36, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3267946,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5510",
+                "tegevusala_emtak_tekstina": "Hotellid ja muu sarnane majutus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aleksandri tn 1-36, Tartu linn, Tartu linn, Tartu maakond, 51004",
                 "kirje_id": 2974930,
                 "majandusaasta_perioodi_algus_kpv": "18.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -144,6 +182,21 @@
                 "lopp_kpv": null,
                 "maj_aasta_algus": "01.01",
                 "maj_aasta_lopp": "31.12"
+            }
+        ],
+        "markused_kaardil": [
+            {
+                "algus_kpv": "01.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "kirje_id": 13705597,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -212,14 +265,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.08.2023",
-                "emtak_kood": "5510",
-                "emtak_tekstina": "Hotellid ja muu sarnane majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000714861,
+                "algus_kpv": "26.04.2026",
+                "emtak_kood": "55101",
+                "emtak_tekstina": "Hotellid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001097525,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000918244,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
                 "on_pohitegevusala": true
             }
         ],

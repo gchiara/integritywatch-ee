@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Alar",
-            "isikukood": "36708210279",
+            "isikukood": null,
+            "isikukood_hash": "5022b860-64ac-5772-8ffd-be17870ffc79",
             "kirje_id": 9000683563,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Hainer",
-            "isikukood": "37202150264",
+            "isikukood": null,
+            "isikukood_hash": "e7ca6c96-c696-5c94-a20b-edcc344e49da",
             "kirje_id": 9000683553,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Liina",
-            "isikukood": "46812110317",
+            "isikukood": null,
+            "isikukood_hash": "5f59fab5-fab0-5101-9e54-0ec84539674d",
             "kirje_id": 9000683567,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +60,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Priit",
-            "isikukood": "35906260319",
+            "isikukood": null,
+            "isikukood_hash": "8ce92e14-6fa2-55ae-8d40-99fdf4005c13",
             "kirje_id": 9000683569,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -91,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46812110317",
+            "isikukood_hash": "5f59fab5-fab0-5101-9e54-0ec84539674d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -113,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10430714",
+                "aadress_ads__adob_id": "10764440",
                 "aadress_ads__adr_id": 3479998,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Kiili vald, Kangru alevik, Kullerkupu tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -154,6 +159,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kullerkupu tn 2, Kangru alevik, Kiili vald, Harju maakond, 75403",
+                "kirje_id": 3571817,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "20411",
+                "tegevusala_emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.41",
+                "tootajate_arv": "38"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kullerkupu tn 2, Kangru alevik, Kiili vald, Harju maakond, 75403",
+                "kirje_id": 3160900,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2041",
+                "tegevusala_emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.41",
+                "tootajate_arv": "36"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kullerkupu tn 2, Kangru alevik, Kiili vald, Harju maakond, 75403",
                 "kirje_id": 2844784,
@@ -494,19 +523,19 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "26.08.1997",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 159868,
+                "kande_nr": 21,
+                "kirje_id": 12744234,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.01",
-                "maj_aasta_lopp": "31.12"
+                "maj_aasta_algus": "01.07",
+                "maj_aasta_lopp": "30.06"
             }
         ],
         "markused_kaardil": [
@@ -575,13 +604,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "13.04.2015",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 16,
-                "kinnitamise_kpv": "27.03.2015",
-                "kirje_id": 5514398,
+                "kande_nr": 21,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12744233,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -605,33 +634,33 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000144981,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6790301"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000144983,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.estko.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 3000285156,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6790304"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000715185,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://estko.ee/"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000715186,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 6790310"
             }
         ],
         "staatus": "R",
@@ -649,26 +678,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2016",
-                "emtak_kood": "4649",
-                "emtak_tekstina": "Muude kodutarvete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000228777,
-                "lopp_kpv": null,
-                "nace_kood": "46.49",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.06.2023",
-                "emtak_kood": "2041",
+                "algus_kpv": "19.12.2025",
+                "emtak_kood": "20411",
                 "emtak_tekstina": "Seebi, pesemis-, puhastus- ja poleervahendite tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000690175,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001071816,
                 "lopp_kpv": null,
                 "nace_kood": "20.41",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "19.12.2025",
+                "emtak_kood": "4649",
+                "emtak_tekstina": "Muude kodutarvete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001071817,
+                "lopp_kpv": null,
+                "nace_kood": "46.49",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

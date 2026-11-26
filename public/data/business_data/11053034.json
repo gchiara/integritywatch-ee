@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Veiko",
-            "isikukood": "37501070369",
+            "isikukood": null,
+            "isikukood_hash": "258d386d-0883-5a17-bcd2-cd40b20f3e2c",
             "kirje_id": 9000788974,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37501070369",
+            "isikukood_hash": "258d386d-0883-5a17-bcd2-cd40b20f3e2c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 3a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3728814,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 3a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3423722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liimi tn 3a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3132569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liimi tn 3a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2903091,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -433,12 +471,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 8919286,
+                "kande_nr": 13,
+                "kirje_id": 13837355,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@samengroup.eu"
+                "sisu": "veikosuvi@yahoo.com"
             },
             {
                 "kaardi_nr": null,
@@ -467,25 +505,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.05.2022",
+                "algus_kpv": "18.06.2025",
                 "emtak_kood": "68329",
                 "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000620906,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922157,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.05.2021",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000551368,
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "46831",
+                "emtak_tekstina": "Puidu ja puidu esmatöötlustoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922158,
                 "lopp_kpv": null,
-                "nace_kood": "63.11",
+                "nace_kood": "46.83",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "63101",
+                "emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922159,
+                "lopp_kpv": null,
+                "nace_kood": "63.10",
                 "on_pohitegevusala": false
             }
         ],

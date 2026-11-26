@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "37601232742",
+            "isikukood": null,
+            "isikukood_hash": "5b394a1f-d1f8-5d9a-92e5-d38283528f80",
             "kirje_id": 9000839145,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36608042762",
+            "isikukood": null,
+            "isikukood_hash": "9bbd8c18-0404-5f14-9857-6e910a5515f4",
             "kirje_id": 9000839140,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37601232742",
+            "isikukood_hash": "5b394a1f-d1f8-5d9a-92e5-d38283528f80",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608042762",
+            "isikukood_hash": "9bbd8c18-0404-5f14-9857-6e910a5515f4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 15, Torma alevik, Jõgeva vald, Jõgeva maakond, 48502",
+                "kirje_id": 3640876,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25121",
+                "tegevusala_emtak_tekstina": "Metalluste ja -akende tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.12",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 15, Torma alevik, Jõgeva vald, Jõgeva maakond, 48502",
+                "kirje_id": 3532256,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25121",
+                "tegevusala_emtak_tekstina": "Metalluste ja -akende tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.12",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 15, Torma alevik, Jõgeva vald, Jõgeva maakond, 48502",
+                "kirje_id": 3265919,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25121",
+                "tegevusala_emtak_tekstina": "Metalluste ja -akende tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.12",
+                "tootajate_arv": "29"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 15, Torma alevik, Jõgeva vald, Jõgeva maakond, 48502",
                 "kirje_id": 2948929,
@@ -399,7 +439,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -506,26 +546,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2021",
-                "emtak_kood": "35119",
-                "emtak_tekstina": "Muu elektrienergia tootmine (sh biomassist)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000559152,
-                "lopp_kpv": null,
-                "nace_kood": "35.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.08.2019",
+                "algus_kpv": "10.07.2025",
                 "emtak_kood": "25121",
                 "emtak_tekstina": "Metalluste ja -akende tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000440818,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028194,
                 "lopp_kpv": null,
                 "nace_kood": "25.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "10.07.2025",
+                "emtak_kood": "35129",
+                "emtak_tekstina": "Muu elektrienergia tootmine, k.a biomassist",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028195,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

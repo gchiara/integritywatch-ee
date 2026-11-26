@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.06.2019",
             "eesnimi": "Raido",
-            "isikukood": "38211270258",
+            "isikukood": null,
+            "isikukood_hash": "669032df-e09a-558c-b364-4a5ce84e84e1",
             "kirje_id": 9000984871,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38211270258",
+            "isikukood_hash": "669032df-e09a-558c-b364-4a5ce84e84e1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 51a-35, Mustamäe linnaosa, Tallinn, Harju maakond, 12612",
+                "kirje_id": 3651841,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71121",
+                "tegevusala_emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 51a-35, Mustamäe linnaosa, Tallinn, Harju maakond, 12612",
+                "kirje_id": 3510271,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43241",
+                "tegevusala_emtak_tekstina": "Muud ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.24",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 51a-35, Mustamäe linnaosa, Tallinn, Harju maakond, 12612",
+                "kirje_id": 3106755,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ehitajate tee 51a-35, Mustamäe linnaosa, Tallinn, Harju maakond, 12612",
                 "kirje_id": 2802132,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -419,25 +457,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "43299",
-                "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000637248,
+                "algus_kpv": "27.05.2026",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105300,
                 "lopp_kpv": null,
-                "nace_kood": "43.29",
+                "nace_kood": "71.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.04.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000680517,
+                "algus_kpv": "27.05.2026",
+                "emtak_kood": "43241",
+                "emtak_tekstina": "Muud ehituspaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105301,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
+                "nace_kood": "43.24",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "27.05.2026",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105302,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "27.05.2026",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105303,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
                 "on_pohitegevusala": false
             }
         ],

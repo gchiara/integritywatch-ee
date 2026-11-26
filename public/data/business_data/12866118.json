@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.11.2020",
             "eesnimi": "Priit",
-            "isikukood": "37602250211",
+            "isikukood": null,
+            "isikukood_hash": "43b9bd57-b044-549b-80bc-67b2ea5340d5",
             "kirje_id": 9001204673,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37602250211",
+            "isikukood_hash": "43b9bd57-b044-549b-80bc-67b2ea5340d5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kase, Alavere küla, Anija vald, Harju maakond, 74401",
+                "kirje_id": 3045921,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "17291",
+                "tegevusala_emtak_tekstina": "Muude paber- ja papptoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.29",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kase, Alavere küla, Anija vald, Harju maakond, 74401",
+                "kirje_id": 3045718,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "17291",
+                "tegevusala_emtak_tekstina": "Muude paber- ja papptoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.29",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kase, Alavere küla, Anija vald, Harju maakond, 74401",
+                "kirje_id": 3045504,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2020",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2020",
+                "tegevusala_emtak_kood": "17291",
+                "tegevusala_emtak_tekstina": "Muude paber- ja papptoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "17.29",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kase, Alavere küla, Anija vald, Harju maakond, 74401",
                 "kirje_id": 2269691,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -290,11 +328,22 @@
                 "emtak_kood": "17291",
                 "emtak_tekstina": "Muude paber- ja papptoodete tootmine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000338749,
                 "lopp_kpv": null,
                 "nace_kood": "17.29",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.02.2024",
+                "emtak_kood": "68101",
+                "emtak_tekstina": "Enda kinnisvara ost ja müük",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000739391,
+                "lopp_kpv": null,
+                "nace_kood": "68.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.11.2018",
             "eesnimi": "Björn",
-            "isikukood": "37512296026",
+            "isikukood": null,
+            "isikukood_hash": "495a53d8-0002-5832-9fe1-7d9afcbf5240",
             "kirje_id": 9000890120,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37512296026",
+            "isikukood_hash": "495a53d8-0002-5832-9fe1-7d9afcbf5240",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8697583",
-                "aadress_ads__adr_id": 3078181,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Väike-Turu tn 5-87",
+                "aadress_ads__adob_id": "11487986",
+                "aadress_ads__adr_id": 3099420,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Jaama tn 54a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "MR01465513",
-                "aadress_ads__koodaadress": "79793815100000SK10000BHM2IAL70000",
+                "aadress_ads__ads_oid": "ME00750655",
+                "aadress_ads__koodaadress": "79793815100000SSL0000BL9100000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.02.2020",
+                "algus_kpv": "03.06.2026",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 8938441,
+                "kande_nr": 4,
+                "kirje_id": 13782060,
                 "lopp_kpv": null,
-                "postiindeks": "51004",
+                "postiindeks": "51009",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Väike-Turu tn 5-87"
+                "tanav_maja_korter": "Jaama tn 54a"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Väike-Turu tn 5-87, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3615569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Turu tn 5-87, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3326066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Turu tn 5-87, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3049518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Väike-Turu tn 5-87, Tartu linn, Tartu linn, Tartu maakond, 51004",
                 "kirje_id": 2839401,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,12 +312,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.11.2018",
+                "algus_kpv": "11.02.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000391486,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000820709,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

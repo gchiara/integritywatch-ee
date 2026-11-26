@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.09.2018",
             "eesnimi": "Kalev",
-            "isikukood": "37911252736",
+            "isikukood": null,
+            "isikukood_hash": "408ca84e-e93a-5582-b0d5-6a3067523647",
             "kirje_id": 9000692809,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37911252736",
+            "isikukood_hash": "408ca84e-e93a-5582-b0d5-6a3067523647",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10302438",
-                "aadress_ads__adr_id": 300177,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Viimsi vald, Haabneeme alevik, Lille tee 17",
+                "aadress_ads__adob_id": "6589782",
+                "aadress_ads__adr_id": 2218023,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Liipri tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01105793",
-                "aadress_ads__koodaadress": "378901675000006AB00003SCE00000000",
+                "aadress_ads__ads_oid": "EE01963071",
+                "aadress_ads__koodaadress": "37784052400000KW100006QZR00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.12.2017",
-                "ehak": "1675",
-                "ehak_nimetus": "Haabneeme alevik, Viimsi vald, Harju maakond",
+                "algus_kpv": "16.10.2024",
+                "ehak": "0524",
+                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7390893,
+                "kande_nr": 5,
+                "kirje_id": 12744117,
                 "lopp_kpv": null,
-                "postiindeks": "74001",
+                "postiindeks": "10917",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Lille tee 17"
+                "tanav_maja_korter": "Liipri tn 1"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liipri tn 1, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
+                "kirje_id": 3616178,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47631",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.63",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liipri tn 1, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
+                "kirje_id": 3389704,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47631",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.63",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lille tee 17, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3117193,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47641",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.64",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lille tee 17, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2835694,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -246,13 +284,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "07.03.2017",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "07.03.2017",
-                "kirje_id": 6821145,
+                "kande_nr": 5,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12744118,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -264,23 +302,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7823458,
+                "kande_nr": 5,
+                "kirje_id": 12744119,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kalevpaate@gmail.com"
+                "sisu": "velakeesti@gmail.com"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000428055,
+                "kirje_id": 9000715321,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 51968505"
+                "sisu": "+372 53537354"
             }
         ],
         "staatus": "R",
@@ -298,14 +336,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.03.2017",
-                "emtak_kood": "47641",
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "47631",
                 "emtak_tekstina": "Sporditarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000282011,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888114,
                 "lopp_kpv": null,
-                "nace_kood": "47.64",
+                "nace_kood": "47.63",
                 "on_pohitegevusala": true
             }
         ],

@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-02",
+                "award_date_conclusion_contract": [
+                    "2023-08-02"
+                ],
                 "award_value": "291948.20",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -22,7 +24,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Suure-Jaani 110/15 kV AJ vannvundamendi rekonstrueerimine ja 16 MVA jõutrafo töösse viimine (LR5698)",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -45,12 +47,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 39103112219",
-            "Nominees as company board members: 39103112219"
+            "Possible shell company: 16128469",
+            "Nominees as company beneficial owners: Lauri_Hansberg_29.05.2024"
         ],
         "noticeUid": "77f6f291-29d4-4c49-8c97-875960f9ef16",
         "notice_items": [
@@ -65,7 +68,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-07",
+                "award_date_conclusion_contract": [
+                    "2023-08-07"
+                ],
                 "award_value": "189146.60",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -85,7 +90,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Suure-Jaani 110/15 kV alajaamas 15 kV jaotusseadme laiendamine. Tällevere küla, Põhja-Sakala vald, Viljandi maakond (LR5698)",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -108,12 +113,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 39103112219",
-            "Nominees as company board members: 39103112219"
+            "Possible shell company: 16128469",
+            "Nominees as company beneficial owners: Lauri_Hansberg_29.05.2024"
         ],
         "noticeUid": "b7312885-e9bb-4a7d-9e50-acae0fbb9658",
         "notice_items": [
@@ -124,5 +130,61 @@
         "refnum": "267364",
         "total_amount": "189146.60",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-08-02"
+                ],
+                "award_value": "291948.20",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "14767923",
+                        "contractor_name": "Voltsy OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "16128469",
+                        "contractor_name": "Unibuffer OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Suure-Jaani 110/15 kV AJ vannvundamendi rekonstrueerimine ja 16 MVA jõutrafo töösse viimine (LR5698)",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "11050857",
+                "name": "Elektrilevi OÜ",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14767923",
+            "16128469"
+        ],
+        "cpv": "45310000",
+        "date_dispatch_notice": "2024-04-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_72c5ccdb-42f9-43f0-a183-2f3e04a0ec9e_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "72c5ccdb-42f9-43f0-a183-2f3e04a0ec9e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "266452"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.09.2018",
             "eesnimi": "Age",
-            "isikukood": "47808074227",
+            "isikukood": null,
+            "isikukood_hash": "9de10d33-b30f-55c2-9411-2481e3ac4339",
             "kirje_id": 9000654781,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "38012034227",
+            "isikukood": null,
+            "isikukood_hash": "4ff7dffc-ac6a-5105-a8a3-b88bd904d331",
             "kirje_id": 9000654780,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47808074227",
+            "isikukood_hash": "9de10d33-b30f-55c2-9411-2481e3ac4339",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38012034227",
+            "isikukood_hash": "4ff7dffc-ac6a-5105-a8a3-b88bd904d331",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10485875",
-                "aadress_ads__adr_id": 3388526,
+                "aadress_ads__adob_id": "11030916",
+                "aadress_ads__adr_id": 3763449,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Räägu küla, Kotlipa",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00708920",
-                "aadress_ads__koodaadress": "688097237000000003MNO000000000000",
+                "aadress_ads__koodaadress": "688067237000000003MNO000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "14.02.2018",
                 "ehak": "7237",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kotlipa, Räägu küla, Tori vald, Pärnu maakond, 85006",
+                "kirje_id": 3611426,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotlipa, Räägu küla, Tori vald, Pärnu maakond, 85006",
+                "kirje_id": 3336485,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotlipa, Räägu küla, Tori vald, Pärnu maakond, 85006",
+                "kirje_id": 3037722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kotlipa, Räägu küla, Tori vald, Pärnu maakond, 85006",
                 "kirje_id": 2754080,
@@ -353,7 +393,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -471,26 +511,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.02.2018",
+                "algus_kpv": "10.03.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000340727,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000832250,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "10.03.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000832251,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.06.2009",
-                "emtak_kood": "52219",
-                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000014746,
+                "algus_kpv": "10.03.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000832252,
                 "lopp_kpv": null,
-                "nace_kood": "52.21",
-                "on_pohitegevusala": true
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.03.2025",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000832254,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

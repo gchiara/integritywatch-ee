@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.11.2019",
             "eesnimi": "Reiko",
-            "isikukood": "39612250818",
+            "isikukood": null,
+            "isikukood_hash": "4cef502a-fedd-530d-82c2-6d4a4845c785",
             "kirje_id": 9001044288,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39612250818",
+            "isikukood_hash": "4cef502a-fedd-530d-82c2-6d4a4845c785",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 242-88, Mustamäe linnaosa, Tallinn, Harju maakond, 13412",
+                "kirje_id": 3833217,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 242-88, Mustamäe linnaosa, Tallinn, Harju maakond, 13412",
+                "kirje_id": 3498931,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 242-88, Mustamäe linnaosa, Tallinn, Harju maakond, 13412",
+                "kirje_id": 3089697,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 242-88, Mustamäe linnaosa, Tallinn, Harju maakond, 13412",
                 "kirje_id": 2992484,
@@ -264,23 +302,34 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7819303,
+                "kande_nr": 5,
+                "kirje_id": 13963694,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "reiko.sakk@hotmail.com"
+                "sisu": "info@remondiabi24.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000404024,
+                "kirje_id": 9000749154,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://remondiabi24.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000749155,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 53459101"
+                "sisu": "+372 55579000"
             }
         ],
         "staatus": "R",
@@ -298,26 +347,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.11.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43999",
                 "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000515656,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996099,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "02.11.2020",
-                "emtak_kood": "9329",
-                "emtak_tekstina": "Muud lõbustus- ja vaba aja tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000515657,
-                "lopp_kpv": null,
-                "nace_kood": "93.29",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

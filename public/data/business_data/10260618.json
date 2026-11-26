@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Mati",
-            "isikukood": "37209180271",
+            "isikukood": null,
+            "isikukood_hash": "3ef1c37c-643c-5c1c-9794-c14e8bde3882",
             "kirje_id": 9000661713,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36006010248",
+            "isikukood": null,
+            "isikukood_hash": "b30d02ce-d943-5bba-90db-bb79fe49bdae",
             "kirje_id": 9000661720,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37209180271",
+            "isikukood_hash": "3ef1c37c-643c-5c1c-9794-c14e8bde3882",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36006010248",
+            "isikukood_hash": "b30d02ce-d943-5bba-90db-bb79fe49bdae",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3753571,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3480159,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3139771,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
                 "kirje_id": 2840783,
@@ -485,7 +525,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -526,6 +566,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "01.03.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 30,
+                "kirje_id": 12329797,
+                "lopp_kpv": null,
+                "sisu": "Sunny Galandrex Tõlkebüroo OÜ (ühendav ühing) ja Sunny Translations OÜ (ühendatav ühing, registrikood 14581035, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Järvevana tee 9-40, 11314)  ühinevad 20.10.2023 sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei olnud nõutav. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -616,12 +670,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000050897,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976587,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Verni",
-            "isikukood": "36207032735",
+            "isikukood": null,
+            "isikukood_hash": "c51bc8d4-6f3b-56aa-8f27-26b64ecd2b93",
             "kirje_id": 9000865183,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36207032735",
+            "isikukood_hash": "c51bc8d4-6f3b-56aa-8f27-26b64ecd2b93",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10662122",
+                "aadress_ads__adob_id": "11134980",
                 "aadress_ads__adr_id": 3087356,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Riia tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 4, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3737575,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 4, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3455553,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 4, Tartu linn, Tartu linn, Tartu maakond, 51004",
+                "kirje_id": 3200845,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "30"
+            },
             {
                 "ettevotja_aadress_aruandes": "Riia tn 4, Tartu linn, Tartu linn, Tartu maakond, 51004",
                 "kirje_id": 2924190,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,36 +348,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2018",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "55101",
                 "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000360639,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952708,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.06.2018",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000360640,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952709,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "19.06.2018",
-                "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000360641,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "47911",
+                "emtak_tekstina": "Spetsialiseerimata jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952710,
                 "lopp_kpv": null,
-                "nace_kood": "46.19",
+                "nace_kood": "47.91",
                 "on_pohitegevusala": false
             }
         ],

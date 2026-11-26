@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.12.2018",
             "eesnimi": "Andras",
-            "isikukood": "37107252716",
+            "isikukood": null,
+            "isikukood_hash": "481f2336-060c-5890-8c6e-5ed19ecbda5e",
             "kirje_id": 9000905605,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.12.2018",
             "eesnimi": "Ilmar",
-            "isikukood": "35802242745",
+            "isikukood": null,
+            "isikukood_hash": "a72fbf56-f83d-5db3-86ea-51ef2761bc79",
             "kirje_id": 9000905601,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37107252716",
+            "isikukood_hash": "481f2336-060c-5890-8c6e-5ed19ecbda5e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tn 55, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3699269,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tn 55, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3552649,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tn 55, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3287401,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "0210",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tehnika tn 55, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
                 "kirje_id": 2958117,
@@ -244,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -377,26 +416,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.12.2015",
+                "algus_kpv": "29.08.2025",
+                "emtak_kood": "02101",
+                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048678,
+                "lopp_kpv": null,
+                "nace_kood": "02.10",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.08.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000207366,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001048679,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "14.12.2020",
-                "emtak_kood": "0210",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000523132,
+                "algus_kpv": "19.06.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001116162,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
-                "on_pohitegevusala": true
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

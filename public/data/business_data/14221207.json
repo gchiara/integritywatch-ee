@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2018",
             "eesnimi": "Kasper",
-            "isikukood": "39609072714",
+            "isikukood": null,
+            "isikukood_hash": "4baf4518-34be-5ad4-b751-86b05732ceb9",
             "kirje_id": 9000783000,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39609072714",
+            "isikukood_hash": "4baf4518-34be-5ad4-b751-86b05732ceb9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metsala, Pedajamäe küla, Otepää vald, Valga maakond, 67417",
+                "kirje_id": 3681657,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsala, Pedajamäe küla, Otepää vald, Valga maakond, 67417",
+                "kirje_id": 3439228,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsala, Pedajamäe küla, Otepää vald, Valga maakond, 67417",
+                "kirje_id": 3119519,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metsala, Pedajamäe küla, Otepää vald, Valga maakond, 67417",
                 "kirje_id": 2836656,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,26 +336,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2022",
-                "emtak_kood": "01421",
-                "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000629618,
+                "algus_kpv": "13.06.2026",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112361,
                 "lopp_kpv": null,
-                "nace_kood": "01.42",
-                "on_pohitegevusala": false
+                "nace_kood": "95.31",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "14.03.2017",
-                "emtak_kood": "43129",
-                "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000283223,
+                "algus_kpv": "13.06.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112362,
                 "lopp_kpv": null,
-                "nace_kood": "43.12",
-                "on_pohitegevusala": true
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

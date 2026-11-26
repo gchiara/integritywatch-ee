@@ -7,6 +7,7 @@
             "algus_kpv": "14.09.2018",
             "eesnimi": "Eero Heikki",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000690675,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45402100380",
+            "isikukood_hash": "e2f7f325-b348-5ea3-ab04-9d03015cf9c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,6 +79,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "5368c84a-e186-5012-bc45-d383580e0877",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -89,7 +92,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "10.05.1974",
-            "valis_kood": "100574-1093",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome",
             "volituste_loppemise_kpv": ""
@@ -113,7 +116,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37904074721",
+            "isikukood_hash": "b7b13a9f-06ce-5038-8f2c-589d5adc0111",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -176,6 +180,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 102, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3718074,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 102, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3411267,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 102, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3227907,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 102, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
                 "kirje_id": 2958167,
@@ -504,7 +544,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -635,12 +675,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "73201",
                 "emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000027043,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000910189,
                 "lopp_kpv": null,
                 "nace_kood": "73.20",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Aile",
-            "isikukood": "47307244212",
+            "isikukood": null,
+            "isikukood_hash": "73b6918a-9f55-5a22-8ca7-4ea8fb2b4e81",
             "kirje_id": 9000660642,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Andro",
-            "isikukood": "37004164214",
+            "isikukood": null,
+            "isikukood_hash": "5146e5f7-3445-5e47-b911-093b05a971b3",
             "kirje_id": 9000660640,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47307244212",
+            "isikukood_hash": "73b6918a-9f55-5a22-8ca7-4ea8fb2b4e81",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37004164214",
+            "isikukood_hash": "5146e5f7-3445-5e47-b911-093b05a971b3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8349155",
-                "aadress_ads__adr_id": 2929826,
+                "aadress_ads__adob_id": "11033075",
+                "aadress_ads__adr_id": 3769256,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Põhja-Pärnumaa vald, Võidula küla, Ülejõe",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE03409434",
-                "aadress_ads__koodaadress": "68638952400000000E3VX000000000000",
+                "aadress_ads__koodaadress": "68637952400000000E3VX000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.08.2018",
                 "ehak": "9524",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ülejõe, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 3666189,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ülejõe, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 3396168,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ülejõe, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
+                "kirje_id": 3142288,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ülejõe, Võidula küla, Põhja-Pärnumaa vald, Pärnu maakond, 87634",
                 "kirje_id": 2856311,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -388,12 +428,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.06.2015",
+                "algus_kpv": "04.06.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000177200,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000894173,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

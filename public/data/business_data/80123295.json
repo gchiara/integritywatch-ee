@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Eva",
-            "isikukood": "48704112721",
+            "isikukood": null,
+            "isikukood_hash": "74a4c560-c5f4-5657-9b29-5d50eae79639",
             "kirje_id": 9000718642,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Keili",
-            "isikukood": "47806030212",
+            "isikukood": null,
+            "isikukood_hash": "c1c06f9c-4482-52cc-81a0-4af9827765f8",
             "kirje_id": 9000718643,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48704112721",
+            "isikukood_hash": "74a4c560-c5f4-5657-9b29-5d50eae79639",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47806030212",
+            "isikukood_hash": "c1c06f9c-4482-52cc-81a0-4af9827765f8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3783615,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3513974,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
+                "kirje_id": 3202962,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "72201",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.20",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiriku tee 2, Harkujärve küla, Harku vald, Harju maakond, 76912",
                 "kirje_id": 2891170,
@@ -327,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -421,12 +461,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.02.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "72201",
                 "emtak_tekstina": "Teadus- ja arendustegevus sotsiaal- ja humanitaarteaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000164743,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010934,
                 "lopp_kpv": null,
                 "nace_kood": "72.20",
                 "on_pohitegevusala": true

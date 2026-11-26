@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Viktor",
-            "isikukood": "35511080302",
+            "isikukood": null,
+            "isikukood_hash": "38581462-810e-54f8-9532-3c2a9b0cd739",
             "kirje_id": 9000841994,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Keith",
-            "isikukood": "37810290294",
+            "isikukood": null,
+            "isikukood_hash": "dc1df1d4-69f9-5eeb-add8-7fe6317648a5",
             "kirje_id": 9000855137,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37102010233",
+            "isikukood_hash": "9a1241d5-1d5a-5508-a174-35115d46db36",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Westmeri tn 3, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3739946,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Westmeri tn 3, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3356025,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Westmeri tn 3, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3110674,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkeküla ja puhkelaager",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Westmeri tn 3, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
                 "kirje_id": 2924810,
@@ -388,7 +427,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -543,37 +582,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2020",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484064,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "19.06.2020",
-                "emtak_kood": "63991",
-                "emtak_tekstina": "Mujal liigitamata infoalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484065,
-                "lopp_kpv": null,
-                "nace_kood": "63.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "19.06.2020",
+                "algus_kpv": "16.04.2025",
                 "emtak_kood": "55203",
-                "emtak_tekstina": "Puhkeküla ja puhkelaager",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484063,
+                "emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000853451,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "16.04.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000853452,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

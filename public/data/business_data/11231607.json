@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.11.2018",
             "eesnimi": "Marek",
-            "isikukood": "37912092234",
+            "isikukood": null,
+            "isikukood_hash": "a93f612a-365c-5ca3-b542-551978f62d7e",
             "kirje_id": 9000892517,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912092234",
+            "isikukood_hash": "a93f612a-365c-5ca3-b542-551978f62d7e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 17, Mäetaguse alevik, Alutaguse vald, Ida-Viru maakond, 41301",
+                "kirje_id": 3786460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 17, Mäetaguse alevik, Alutaguse vald, Ida-Viru maakond, 41301",
+                "kirje_id": 3502046,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 17, Mäetaguse alevik, Alutaguse vald, Ida-Viru maakond, 41301",
+                "kirje_id": 3133071,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kooli tn 17, Mäetaguse alevik, Alutaguse vald, Ida-Viru maakond, 41301",
                 "kirje_id": 2948526,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -455,34 +493,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000569243,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "01.07.2026",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708734,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134139,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "01.07.2026",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708735,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134140,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": false

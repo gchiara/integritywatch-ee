@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Mehis",
-            "isikukood": "37905146041",
+            "isikukood": null,
+            "isikukood_hash": "069c759d-2f21-58ed-887e-a7bf37cd1ce7",
             "kirje_id": 9000664058,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Olev",
-            "isikukood": "36908200213",
+            "isikukood": null,
+            "isikukood_hash": "96e9a37a-c665-574c-b761-46a7d687f741",
             "kirje_id": 9000664060,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37905146041",
+            "isikukood_hash": "069c759d-2f21-58ed-887e-a7bf37cd1ce7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36908200213",
+            "isikukood_hash": "96e9a37a-c665-574c-b761-46a7d687f741",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10684108",
+                "aadress_ads__adob_id": "10762247",
                 "aadress_ads__adr_id": 2120496,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Laki tn 30",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3676522,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46842",
+                "tegevusala_emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.84",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3537660,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46842",
+                "tegevusala_emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.84",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3144011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46749",
+                "tegevusala_emtak_tekstina": "Tööriistade jm rauakaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.74",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 18, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
                 "kirje_id": 2961638,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -460,26 +500,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.06.2014",
+                "algus_kpv": "17.07.2025",
+                "emtak_kood": "46842",
+                "emtak_tekstina": "Käsi-tööriistade ja rauakaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001033403,
+                "lopp_kpv": null,
+                "nace_kood": "46.84",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "17.07.2025",
                 "emtak_kood": "47521",
-                "emtak_tekstina": "Rauakaupade ja tööriistade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000115405,
+                "emtak_tekstina": "Käsi-tööriistade ja rauakaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001033404,
                 "lopp_kpv": null,
                 "nace_kood": "47.52",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.08.2011",
-                "emtak_kood": "46749",
-                "emtak_tekstina": "Tööriistade jm rauakaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000149466,
-                "lopp_kpv": null,
-                "nace_kood": "46.74",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

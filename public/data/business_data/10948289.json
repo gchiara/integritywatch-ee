@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.11.2018",
             "eesnimi": "Raivi",
-            "isikukood": "37005020296",
+            "isikukood": null,
+            "isikukood_hash": "5945aa8b-6107-5a51-9b05-4edd0dffd92f",
             "kirje_id": 9000882321,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37005020296",
+            "isikukood_hash": "5945aa8b-6107-5a51-9b05-4edd0dffd92f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Joosepi, Varbola küla, Märjamaa vald, Rapla maakond, 78203",
+                "kirje_id": 3718894,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "0812",
+                "tegevusala_emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "08.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Joosepi, Varbola küla, Märjamaa vald, Rapla maakond, 78203",
+                "kirje_id": 3422868,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "0812",
+                "tegevusala_emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "08.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Joosepi, Varbola küla, Märjamaa vald, Rapla maakond, 78203",
+                "kirje_id": 3101095,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Joosepi, Varbola küla, Märjamaa vald, Rapla maakond, 78203",
                 "kirje_id": 2888135,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -431,12 +469,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7744410,
+                "kande_nr": 8,
+                "kirje_id": 12127627,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "laaser@hot.ee"
+                "sisu": "raivi.laaser@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -448,17 +486,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5114023"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000141735,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4827375"
             }
         ],
         "staatus": "R",
@@ -476,36 +503,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.07.2018",
-                "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000377576,
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "0812",
+                "emtak_tekstina": "Kruusa- ja liivakarjääride tegevus ning savi ja kaoliini kaevandamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000921328,
                 "lopp_kpv": null,
-                "nace_kood": "01.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.12.2020",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000522774,
-                "lopp_kpv": null,
-                "nace_kood": "42.11",
+                "nace_kood": "08.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "11.12.2020",
-                "emtak_kood": "0812",
-                "emtak_tekstina": "Kruusa- ja liivakarjääride tegevus; savi ja kaoliini kaevandamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000522775,
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "42111",
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000921329,
                 "lopp_kpv": null,
-                "nace_kood": "08.12",
+                "nace_kood": "42.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "01111",
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000921330,
+                "lopp_kpv": null,
+                "nace_kood": "01.11",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.11.2018",
             "eesnimi": "Sven",
-            "isikukood": "36210190257",
+            "isikukood": null,
+            "isikukood_hash": "2fe60733-a556-5dfd-8593-265e8e27f0f6",
             "kirje_id": 9000881059,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36210190257",
+            "isikukood_hash": "2fe60733-a556-5dfd-8593-265e8e27f0f6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7567710",
+                "aadress_ads__adob_id": "10950404",
                 "aadress_ads__adr_id": 2114714,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Harku tn 27",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Harku tn 27, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3766357,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "27401",
+                "tegevusala_emtak_tekstina": "Valgustusseadmete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.40",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Harku tn 27, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3540607,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "27401",
+                "tegevusala_emtak_tekstina": "Valgustusseadmete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.40",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Harku tn 27, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3249551,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "27401",
+                "tegevusala_emtak_tekstina": "Elektriliste ja mitte elektriliste valgustite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.40",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Harku tn 27, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
                 "kirje_id": 2960753,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,37 +626,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.10.2021",
+                "algus_kpv": "23.07.2025",
                 "emtak_kood": "27401",
-                "emtak_tekstina": "Elektriliste valgustusseadmete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000587531,
+                "emtak_tekstina": "Valgustusseadmete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001036296,
                 "lopp_kpv": null,
                 "nace_kood": "27.40",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "20.10.2021",
-                "emtak_kood": "46431",
-                "emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000587532,
-                "lopp_kpv": null,
-                "nace_kood": "46.43",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.10.2021",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000587533,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Vambola",
-            "isikukood": "35403225715",
+            "isikukood": null,
+            "isikukood_hash": "948474f6-5574-5773-8119-58bb47f624c9",
             "kirje_id": 9000851539,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37906256527",
+            "isikukood_hash": "4bcb39a6-9a60-5758-ac27-5da9a9704a26",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "44911125717",
+            "isikukood_hash": "1ed7dba9-7380-544f-81f9-b3af457f3973",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisa aed/1, Hellenurme küla, Elva vald, Tartu maakond, 67514",
+                "kirje_id": 3636993,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "345"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa aed/1, Hellenurme küla, Elva vald, Tartu maakond, 67514",
+                "kirje_id": 3399560,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "310"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa aed/1, Hellenurme küla, Elva vald, Tartu maakond, 67514",
+                "kirje_id": 3188603,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Vanurite ja puuetega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "292"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisa aed/1, Hellenurme küla, Elva vald, Tartu maakond, 67514",
                 "kirje_id": 2847958,
@@ -360,7 +399,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -402,6 +441,18 @@
                 "sisu": "Osaniku  29.06.2012.a.otsuse alusel osaühing ümberkujundatud aktsiaseltsiks.",
                 "tyyp": "YMB",
                 "tyyp_tekstina": "Ümberkujundamine tekstina"
+            },
+            {
+                "algus_kpv": "17.08.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 13926247,
+                "lopp_kpv": null,
+                "sisu": "Lõuna-Eesti Hooldekeskus AS (ühendav ühing, registrikood 11230884, aadress Tartu maakond, Elva vald, Hellenurme küla, Mõisa aed/1, 67514), HK Varahaldus OÜ (ühendatav ühing, registrikood 12572090, aadress Tartu maakond, Elva vald, Hellenurme küla, Mõisa aed, 67514) ühinevad 09.06.2026. a sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei olnud nõutav. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -447,12 +498,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 10174607,
+                "kande_nr": 11,
+                "kirje_id": 12072513,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "hellenurme@hotmail.com"
+                "sisu": "info@hooldekodu.ee"
             },
             {
                 "kaardi_nr": null,
@@ -481,12 +532,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2013",
+                "algus_kpv": "06.06.2025",
                 "emtak_kood": "87301",
-                "emtak_tekstina": "Vanurite ja puuetega inimeste hoolekandeasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000037618,
+                "emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000897400,
                 "lopp_kpv": null,
                 "nace_kood": "87.30",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.04.2020",
             "eesnimi": "Priit",
-            "isikukood": "37903212725",
+            "isikukood": null,
+            "isikukood_hash": "173b0a58-04fc-53a5-8779-9283f0fdd2d3",
             "kirje_id": 9001107280,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37903212725",
+            "isikukood_hash": "173b0a58-04fc-53a5-8779-9283f0fdd2d3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 5b, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3750263,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "154"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 5b, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3478807,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "126"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 5b, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3213499,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "106"
+            },
             {
                 "ettevotja_aadress_aruandes": "Turu tn 5b, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
                 "kirje_id": 2934523,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -515,26 +553,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "31001",
+                "emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975141,
+                "lopp_kpv": null,
+                "nace_kood": "31.00",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "32991",
                 "emtak_tekstina": "Muu mujal liigitamata tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565598,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975142,
                 "lopp_kpv": null,
                 "nace_kood": "32.99",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008830,
-                "lopp_kpv": null,
-                "nace_kood": "31.09",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

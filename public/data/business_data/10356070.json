@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Raimond",
-            "isikukood": "36005020021",
+            "isikukood": null,
+            "isikukood_hash": "736fa85a-2770-569c-8c71-823a3a78e4f8",
             "kirje_id": 9000794878,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36005020021",
+            "isikukood_hash": "736fa85a-2770-569c-8c71-823a3a78e4f8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10495131",
+                "aadress_ads__adob_id": "11130960",
                 "aadress_ads__adr_id": 2642364,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kuressaare linn, Aia tn 25",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 25, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3768466,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 25, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3436720,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 25, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3182367,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 25, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
                 "kirje_id": 2877954,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,14 +626,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2020",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000487999,
+                "algus_kpv": "24.06.2025",
+                "emtak_kood": "49321",
+                "emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934401,
                 "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "49.32",
                 "on_pohitegevusala": true
             }
         ],

@@ -38,10 +38,12 @@
         "filename": "award_c3d4d6fe-139f-486b-bb03-db524dc7bb35_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 10652488"
         ],
         "noticeUid": "c3d4d6fe-139f-486b-bb03-db524dc7bb35",
         "notice_items": [
@@ -89,10 +91,12 @@
         "filename": "award_194f7780-8919-4806-9963-a36a284b49f4_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 10652488"
         ],
         "noticeUid": "194f7780-8919-4806-9963-a36a284b49f4",
         "notice_items": [
@@ -100,5 +104,60 @@
         ],
         "notice_items_num": 1,
         "refnum": "261297"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-03-20"
+                ],
+                "award_value": "64460.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10652488",
+                        "contractor_name": "OSAÜHING Bastini",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Ankruketid",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "77001814",
+                "name": "Riigilaevastik",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10652488"
+        ],
+        "cpv": "44540000",
+        "date_dispatch_notice": "2025-03-20",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_88c848c8-58d3-42df-816d-7c04c7f42a70_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10652488"
+        ],
+        "noticeUid": "88c848c8-58d3-42df-816d-7c04c7f42a70",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "288962",
+        "total_amount": "64460.00",
+        "total_amount_curr": "EUR"
     }
 ]

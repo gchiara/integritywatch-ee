@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Igor",
-            "isikukood": "37809182751",
+            "isikukood": null,
+            "isikukood_hash": "9d23c223-9436-5c26-a3cd-ea821a9d0494",
             "kirje_id": 9000722315,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.08.2023",
             "eesnimi": "Juri",
-            "isikukood": "38412013718",
+            "isikukood": null,
+            "isikukood_hash": "5475f273-6a5b-52e9-b1a2-1b18be5d7e85",
             "kirje_id": 9001633028,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -51,20 +53,21 @@
             "aadress_riik": null,
             "aadress_riik_tekstina": null,
             "aadress_tanav_maja_korter": null,
-            "algus_kpv": "25.11.2008",
-            "eesnimi": "Igor",
+            "algus_kpv": "22.08.2024",
+            "eesnimi": "Kalev",
             "email": null,
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37809182751",
+            "isikukood_hash": "22833208-b815-508b-bd65-8d0a44f64666",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
-            "kaardi_piirkond": 2,
+            "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
-            "kande_nr": 4,
-            "kirje_id": 2739317,
+            "kande_nr": 11,
+            "kirje_id": 12653189,
             "lopp_kpv": null,
-            "nimi_arinimi": "Šerman",
+            "nimi_arinimi": "Nergi",
             "osamaks": null,
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
@@ -120,6 +123,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vasara tn 52d, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3013381,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vasara tn 52d, Tartu linn, Tartu linn, Tartu maakond, 50113",
                 "kirje_id": 2710087,
@@ -396,43 +411,35 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "04.12.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 12826147,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 22.11.2024 kohtumääruse alusel tsiviilasjas 2-24-13775 kuulutada OÜ LANDCAPITAL pankrot välja 22. novembril 2024 kell 15.15.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7737493,
+                "kande_nr": 11,
+                "kirje_id": 12653190,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "igor@landcapital.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000102810,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 55660267"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000102811,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.landcapital.ee"
+                "sisu": "info@landcapital.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "09.03.2006",
@@ -442,6 +449,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "04.12.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -450,7 +466,7 @@
                 "emtak_kood": "43391",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000215283,
                 "lopp_kpv": null,
                 "nace_kood": "43.39",
@@ -458,6 +474,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

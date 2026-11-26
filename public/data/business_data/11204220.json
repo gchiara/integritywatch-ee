@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.08.2020",
             "eesnimi": "Peeter",
-            "isikukood": "35911195712",
+            "isikukood": null,
+            "isikukood_hash": "1235bbc5-8c96-589b-96b8-8a33c20bd3d6",
             "kirje_id": 9001159552,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35911195712",
+            "isikukood_hash": "1235bbc5-8c96-589b-96b8-8a33c20bd3d6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38304065717",
+            "isikukood_hash": "eb5f9fc2-bfe9-5644-9661-777685d2f2a9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -98,7 +101,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8518381",
+                "aadress_ads__adob_id": "11146143",
                 "aadress_ads__adr_id": 2979466,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Taagepera küla, Tümba",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tümba, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3592840,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tümba, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3371969,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tümba, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3088181,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55201",
+                "tegevusala_emtak_tekstina": "Hostelid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tümba, Taagepera küla, Tõrva vald, Valga maakond, 68502",
                 "kirje_id": 2836183,
@@ -359,7 +398,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -466,12 +505,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2010",
+                "algus_kpv": "05.04.2025",
                 "emtak_kood": "55201",
                 "emtak_tekstina": "Hostelid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000072158,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000847400,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": true

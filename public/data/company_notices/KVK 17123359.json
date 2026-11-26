@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-12",
+                "award_date_conclusion_contract": [
+                    "2023-06-12"
+                ],
                 "award_value": "187500.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "DataLinq andmebaasi litsentsid",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -71,6 +73,74 @@
         ],
         "refnum": "258589",
         "total_amount": "187500.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-06-12"
+                ],
+                "award_value": "171684.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "KVK 17123359",
+                        "contractor_name": "Fysicon B.V.",
+                        "country": "NLD"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "DataLinq andmebaasi litsentsid",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90006399",
+                "name": "sihtasutus Põhja-Eesti Regionaalhaigla",
+                "town": "Tallinn"
+            },
+            {
+                "id": "90003433",
+                "name": "Sihtasutus Ida-Viru Keskhaigla",
+                "town": "Kohtla-Järve linn"
+            },
+            {
+                "id": "90004527",
+                "name": "Sihtasutus Pärnu Haigla",
+                "town": "Pärnu linn"
+            },
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "KVK 17123359"
+        ],
+        "cpv": "48814000",
+        "date_dispatch_notice": "2026-07-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_28b8cb18-ea80-4c35-9ae3-e8a45baa0689_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "28b8cb18-ea80-4c35-9ae3-e8a45baa0689",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "308506-0000",
+        "total_amount": "171684.00",
         "total_amount_curr": "EUR"
     }
 ]

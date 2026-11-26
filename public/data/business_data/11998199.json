@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Anne",
-            "isikukood": "47412020254",
+            "isikukood": null,
+            "isikukood_hash": "2c5197c3-24db-5138-9298-9b8b0ce6e16e",
             "kirje_id": 9000833358,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Tõnis",
-            "isikukood": "36801112225",
+            "isikukood": null,
+            "isikukood_hash": "68f674df-f953-5a0e-85fb-2e4ab883bb58",
             "kirje_id": 9000833357,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47412020254",
+            "isikukood_hash": "2c5197c3-24db-5138-9298-9b8b0ce6e16e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36801112225",
+            "isikukood_hash": "68f674df-f953-5a0e-85fb-2e4ab883bb58",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9608901",
-                "aadress_ads__adr_id": 3303771,
+                "aadress_ads__adob_id": "11172163",
+                "aadress_ads__adr_id": 3811952,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Kaare tn 31-32",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01288065",
-                "aadress_ads__koodaadress": "452512270000000AD00002C7O2JRE0000",
+                "aadress_ads__koodaadress": "452502270000000AD00002C7O2JRE0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "01.12.2017",
                 "ehak": "2270",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 31-32, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41534",
+                "kirje_id": 3761617,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 31-32, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41534",
+                "kirje_id": 3489313,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 31-32, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41534",
+                "kirje_id": 3200284,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaare tn 31-32, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41534",
                 "kirje_id": 2877721,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -402,12 +442,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7709394,
+                "kande_nr": 8,
+                "kirje_id": 12220960,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tonismagi@hot.ee"
+                "sisu": "tonis@tmautokool.ee"
             },
             {
                 "kaardi_nr": null,
@@ -436,12 +476,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.01.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "85531",
                 "emtak_tekstina": "Sõiduõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000012176,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000986450,
                 "lopp_kpv": null,
                 "nace_kood": "85.53",
                 "on_pohitegevusala": true

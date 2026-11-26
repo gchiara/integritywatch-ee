@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.11.2018",
             "eesnimi": "Irina",
-            "isikukood": "47811123726",
+            "isikukood": null,
+            "isikukood_hash": "927af6bd-c370-5434-bfc9-dd4c6f361755",
             "kirje_id": 9000878948,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47811123726",
+            "isikukood_hash": "927af6bd-c370-5434-bfc9-dd4c6f361755",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10423511",
-                "aadress_ads__adr_id": 2125119,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Kiisa tn 3b",
+                "aadress_ads__adob_id": "9600375",
+                "aadress_ads__adr_id": 2463067,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Juurdeveo tn 25b-4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01979414",
-                "aadress_ads__koodaadress": "377840298000005X400005LQB00000000",
+                "aadress_ads__ads_oid": "MR03503647",
+                "aadress_ads__koodaadress": "377840298000005Y900002LMWGDYU0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.07.2022",
+                "algus_kpv": "18.04.2024",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 10177391,
+                "kande_nr": 10,
+                "kirje_id": 12450018,
                 "lopp_kpv": null,
                 "postiindeks": "11313",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kiisa tn 3b"
+                "tanav_maja_korter": "Juurdeveo tn 25b-4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Juurdeveo tn 25b-4, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3796259,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Juurdeveo tn 25b-4, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3512976,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Juurdeveo tn 25b-4, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3173108,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiisa tn 3b, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2880204,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -431,14 +469,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.05.2014",
-                "emtak_kood": "43391",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000107852,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001009922,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

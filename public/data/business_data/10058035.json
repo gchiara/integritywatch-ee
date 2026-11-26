@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Eduard",
-            "isikukood": "37406270272",
+            "isikukood": null,
+            "isikukood_hash": "4a010111-1ac8-58c9-b971-80a405fa1cd0",
             "kirje_id": 9000768758,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Vladimir",
-            "isikukood": "35103150279",
+            "isikukood": null,
+            "isikukood_hash": "770df75e-83f1-57aa-a35b-b7f3eb26133e",
             "kirje_id": 9000768771,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35103150279",
+            "isikukood_hash": "770df75e-83f1-57aa-a35b-b7f3eb26133e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9636458",
+                "aadress_ads__adob_id": "10800740",
                 "aadress_ads__adr_id": 3432092,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Aiandi tn 13/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aiandi tn 13/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3679305,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aiandi tn 13/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3436937,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aiandi tn 13/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3125265,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aiandi tn 13/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
                 "kirje_id": 2861331,
@@ -423,7 +462,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -565,26 +604,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.06.2019",
-                "emtak_kood": "46771",
-                "emtak_tekstina": "Jäätmete ja jääkide hulgikaubandus, taara ja pakendite kokkuost",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000421016,
-                "lopp_kpv": null,
-                "nace_kood": "46.77",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2010",
+                "algus_kpv": "24.06.2025",
                 "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000072014,
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934601,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "24.06.2025",
+                "emtak_kood": "46871",
+                "emtak_tekstina": "Jäätmete ja jääkide hulgikaubandus, taara ja pakendite kokkuost",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934602,
+                "lopp_kpv": null,
+                "nace_kood": "46.87",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

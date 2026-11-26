@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Roland",
-            "isikukood": "36106116010",
+            "isikukood": null,
+            "isikukood_hash": "bce38153-49b5-5780-bb9f-9788f5923c05",
             "kirje_id": 9000658546,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Villu",
-            "isikukood": "36101280221",
+            "isikukood": null,
+            "isikukood_hash": "6bf01afc-9154-5052-b8c2-bdba4f1ac8b3",
             "kirje_id": 9000658544,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36106116010",
+            "isikukood_hash": "bce38153-49b5-5780-bb9f-9788f5923c05",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karja tee 5, Assaku alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3657621,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karja tee 5, Assaku alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3429049,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "38"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karja tee 5, Assaku alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3217543,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "39"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karja tee 5, Assaku alevik, Rae vald, Harju maakond, 75301",
                 "kirje_id": 2829983,
@@ -447,7 +486,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -528,22 +567,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000174690,
+                "kirje_id": 9000696090,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.trv.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000341811,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6105454"
+                "sisu": "https://-www.trv.ee"
             }
         ],
         "staatus": "R",
@@ -561,14 +589,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000026974,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927312,
                 "lopp_kpv": null,
-                "nace_kood": "43.22",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

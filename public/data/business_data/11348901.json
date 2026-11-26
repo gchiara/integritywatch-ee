@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Kalev",
-            "isikukood": "37207106024",
+            "isikukood": null,
+            "isikukood_hash": "e632d591-de2c-58cd-ad42-e1571f4b3c1d",
             "kirje_id": 9000684488,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37207106024",
+            "isikukood_hash": "e632d591-de2c-58cd-ad42-e1571f4b3c1d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9488560",
+                "aadress_ads__adob_id": "11139117",
                 "aadress_ads__adr_id": 3254822,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Mulgi vald, Tuhalaane küla, Uue-Pargi",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Uue-Pargi, Tuhalaane küla, Mulgi vald, Viljandi maakond, 71056",
+                "kirje_id": 3807968,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uue-Pargi, Tuhalaane küla, Mulgi vald, Viljandi maakond, 71056",
+                "kirje_id": 3418046,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uue-Pargi, Tuhalaane küla, Mulgi vald, Viljandi maakond, 71056",
+                "kirje_id": 3154364,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Uue-Pargi, Tuhalaane küla, Mulgi vald, Viljandi maakond, 71056",
                 "kirje_id": 2862056,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,36 +456,58 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2023",
-                "emtak_kood": "0220",
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "35141",
+                "emtak_tekstina": "Elektrienergia jaotus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916743,
+                "lopp_kpv": null,
+                "nace_kood": "35.14",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "42991",
+                "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916741,
+                "lopp_kpv": null,
+                "nace_kood": "42.99",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "15.07.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001139901,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.06.2026",
+                "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000693373,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107403,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "06.07.2020",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000490635,
+                "algus_kpv": "02.06.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107404,
                 "lopp_kpv": null,
-                "nace_kood": "42.11",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "06.07.2020",
-                "emtak_kood": "35141",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000490636,
-                "lopp_kpv": null,
-                "nace_kood": "35.14",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             }
         ],

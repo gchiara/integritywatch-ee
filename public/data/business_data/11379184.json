@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.01.2023",
             "eesnimi": "Rivo",
-            "isikukood": "37910166012",
+            "isikukood": null,
+            "isikukood_hash": "9a57c600-a792-571b-b97d-4d669f0d8bd7",
             "kirje_id": 9001529448,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37910166012",
+            "isikukood_hash": "9a57c600-a792-571b-b97d-4d669f0d8bd7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9758171",
+                "aadress_ads__adob_id": "11137930",
                 "aadress_ads__adr_id": 2476011,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi linn, Raua tn 12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raua tn 12, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3755449,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raua tn 12, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3483792,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raua tn 12, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3233472,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raua tn 12, Viljandi linn, Viljandi maakond, 71020",
                 "kirje_id": 2935637,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,58 +456,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980736,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980738,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "77321",
                 "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706224,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980737,
                 "lopp_kpv": null,
                 "nace_kood": "77.32",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000567547,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2010",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000050804,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "26.02.2019",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000402706,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980739,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.02.2019",
-                "emtak_kood": "43121",
-                "emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000402707,
-                "lopp_kpv": null,
-                "nace_kood": "43.12",
                 "on_pohitegevusala": false
             }
         ],

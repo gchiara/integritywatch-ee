@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.11.2018",
             "eesnimi": "Markus Alfred",
-            "isikukood": "37711280049",
+            "isikukood": null,
+            "isikukood_hash": "427901eb-b039-5d33-a15b-588d964c7afa",
             "kirje_id": 9000881768,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37711280049",
+            "isikukood_hash": "427901eb-b039-5d33-a15b-588d964c7afa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3614700,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3343798,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3124093,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
                 "kirje_id": 2928322,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -512,48 +550,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000130085,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000130086,
-                "lopp_kpv": null,
-                "nace_kood": "70.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.03.2018",
+                "algus_kpv": "25.03.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000345351,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840323,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "04.07.2022",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000640288,
+                "algus_kpv": "25.03.2025",
+                "emtak_kood": "77331",
+                "emtak_tekstina": "Kontorimasinate ja -seadmete ning arvutite rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840324,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "77.33",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.03.2025",
+                "emtak_kood": "85599",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840322,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

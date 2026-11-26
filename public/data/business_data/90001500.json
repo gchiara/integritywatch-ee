@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.12.2018",
             "eesnimi": "Aare",
-            "isikukood": "35908096527",
+            "isikukood": null,
+            "isikukood_hash": "cae20b3f-b9e2-5785-9144-bcf9ff795763",
             "kirje_id": 9000903693,
             "kontrolli_teostamise_viis": "S",
             "kontrolli_teostamise_viis_tekstina": "soodustatud isik",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35908096527",
+            "isikukood_hash": "cae20b3f-b9e2-5785-9144-bcf9ff795763",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "SA",
@@ -61,15 +63,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9927074",
-                "aadress_ads__adr_id": 3488305,
+                "aadress_ads__adob_id": "10737829",
+                "aadress_ads__adr_id": 3697774,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Setomaa vald, Obinitsa küla, Kesktänav 20",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01035337",
-                "aadress_ads__koodaadress": "87732558200000U7I0000C9I000000000",
+                "aadress_ads__koodaadress": "87732558300000VP50000D4TA00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "14.09.2019",
-                "ehak": "5582",
+                "ehak": "5583",
                 "ehak_nimetus": "Obinitsa küla, Setomaa vald, Võru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -126,6 +128,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kesktänav 20, Obinitsa küla, Setomaa vald, Võru maakond, 65301",
+                "kirje_id": 3768925,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesktänav 20, Obinitsa küla, Setomaa vald, Võru maakond, 65301",
+                "kirje_id": 3470379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesktänav 20, Obinitsa küla, Setomaa vald, Võru maakond, 65301",
+                "kirje_id": 3197598,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesktänav 20, Obinitsa küla, Setomaa vald, Võru maakond, 65301",
                 "kirje_id": 2867508,
@@ -332,7 +370,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -425,12 +463,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.11.2010",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "94992",
-                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000097969,
+                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000967037,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

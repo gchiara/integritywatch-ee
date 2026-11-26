@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Anne",
-            "isikukood": "45707050213",
+            "isikukood": null,
+            "isikukood_hash": "acbe55fa-8a82-5119-9433-18ce249773cd",
             "kirje_id": 9000792938,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Reigo",
-            "isikukood": "37902100343",
+            "isikukood": null,
+            "isikukood_hash": "dff5f558-c305-597a-843f-8b0876ce90ac",
             "kirje_id": 9000792930,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45707050213",
+            "isikukood_hash": "acbe55fa-8a82-5119-9433-18ce249773cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37902100343",
+            "isikukood_hash": "dff5f558-c305-597a-843f-8b0876ce90ac",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7264932",
+                "aadress_ads__adob_id": "10764534",
                 "aadress_ads__adr_id": 2298973,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Paldiski mnt 29",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3557357,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2025",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3298540,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2024",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, akna sisekatted jm eesriided",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 2994579,
+                "majandusaasta_perioodi_algus_kpv": "01.04.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2023",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, akna sisekatted jm eesriided",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 29, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
                 "kirje_id": 2729507,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -471,23 +511,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.03.2022",
+                "algus_kpv": "17.09.2025",
                 "emtak_kood": "13921",
-                "emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, aknasisekatted jm eesriided",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000609446,
+                "emtak_tekstina": "Kodutekstiilide, nt voodipesu, rätikute, kardinate jms tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001053736,
                 "lopp_kpv": null,
                 "nace_kood": "13.92",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.03.2022",
+                "algus_kpv": "17.09.2025",
                 "emtak_kood": "47511",
-                "emtak_tekstina": "Tekstiiltoodete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000609447,
+                "emtak_tekstina": "Tekstiilitoodete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001053737,
                 "lopp_kpv": null,
                 "nace_kood": "47.51",
                 "on_pohitegevusala": false

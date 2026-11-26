@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Arvo",
-            "isikukood": "35412160228",
+            "isikukood": null,
+            "isikukood_hash": "906f9e64-7dad-599d-b992-0575d8aef863",
             "kirje_id": 9000834485,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35412160228",
+            "isikukood_hash": "906f9e64-7dad-599d-b992-0575d8aef863",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Sütiste tee 19a-198, Mustamäe linnaosa, Tallinn, Harju maakond, 13419",
+                "kirje_id": 3613067,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Sütiste tee 19a-198, Mustamäe linnaosa, Tallinn, Harju maakond, 13419",
+                "kirje_id": 3507124,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Sütiste tee 19a-198, Mustamäe linnaosa, Tallinn, Harju maakond, 13419",
+                "kirje_id": 3152291,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Sütiste tee 19a-198, Mustamäe linnaosa, Tallinn, Harju maakond, 13419",
                 "kirje_id": 2836057,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -444,12 +482,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7666302,
+                "kande_nr": 8,
+                "kirje_id": 12190674,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "arvo@neti.ee"
+                "sisu": "arvo@rosenthal.ee"
             },
             {
                 "kaardi_nr": null,
@@ -467,9 +505,9 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000169613,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
+                "kirje_id": 2000237749,
+                "liik": "FAX",
+                "liik_tekstina": "Faks",
                 "lopp_kpv": null,
                 "sisu": "+372 6545313"
             },
@@ -478,11 +516,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000237749,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000697932,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 6545313"
+                "sisu": "+372 5118713"
             }
         ],
         "staatus": "R",
@@ -500,12 +538,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "86221",
-                "emtak_tekstina": "Eriarstiabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000032399,
+                "emtak_tekstina": "Eriarstiabi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001004198,
                 "lopp_kpv": null,
                 "nace_kood": "86.22",
                 "on_pohitegevusala": true

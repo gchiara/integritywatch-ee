@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "37004020389",
+            "isikukood": null,
+            "isikukood_hash": "e488cd8f-a614-5099-acb5-bfdfab42b473",
             "kirje_id": 9000743783,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37004020389",
+            "isikukood_hash": "e488cd8f-a614-5099-acb5-bfdfab42b473",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6715605",
+                "aadress_ads__adob_id": "10905650",
                 "aadress_ads__adr_id": 2126011,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt 524a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 524a, Nõmme linnaosa, Tallinn, Harju maakond, 10915",
+                "kirje_id": 3697722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 524a, Nõmme linnaosa, Tallinn, Harju maakond, 10915",
+                "kirje_id": 3539434,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 524a, Nõmme linnaosa, Tallinn, Harju maakond, 10915",
+                "kirje_id": 3274804,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45191",
+                "tegevusala_emtak_tekstina": "Muude mootorsõidukite müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.19",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 524a, Nõmme linnaosa, Tallinn, Harju maakond, 10915",
                 "kirje_id": 2989677,
@@ -609,25 +647,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000059273,
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035163,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000042244,
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035162,
                 "lopp_kpv": null,
-                "nace_kood": "45.19",
+                "nace_kood": "47.81",
                 "on_pohitegevusala": true
             }
         ],

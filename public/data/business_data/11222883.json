@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Marek",
-            "isikukood": "37902232778",
+            "isikukood": null,
+            "isikukood_hash": "23c72cba-3cf3-586b-832d-b3dee9af492e",
             "kirje_id": 9000684494,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37902232778",
+            "isikukood_hash": "23c72cba-3cf3-586b-832d-b3dee9af492e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mareki/1, Ranna küla, Peipsiääre vald, Tartu maakond, 49417",
+                "kirje_id": 3687672,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "30112",
+                "tegevusala_emtak_tekstina": "Tsiviilotstarbeliste ujuvkonstruktsioonide ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "30.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mareki/1, Ranna küla, Peipsiääre vald, Tartu maakond, 49417",
+                "kirje_id": 3413408,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mareki/1, Ranna küla, Peipsiääre vald, Tartu maakond, 49417",
+                "kirje_id": 3162498,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "30112",
+                "tegevusala_emtak_tekstina": "Ujuvkonstruktsioonide ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "30.11",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mareki/1, Ranna küla, Peipsiääre vald, Tartu maakond, 49417",
                 "kirje_id": 2873356,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -464,47 +502,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.05.2019",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000414321,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.05.2019",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000414319,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.04.2021",
+                "algus_kpv": "16.06.2026",
                 "emtak_kood": "30112",
-                "emtak_tekstina": "Ujuvkonstruktsioonide ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000541265,
+                "emtak_tekstina": "Tsiviilotstarbeliste ujuvkonstruktsioonide ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113708,
                 "lopp_kpv": null,
                 "nace_kood": "30.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "09.04.2021",
+                "algus_kpv": "16.06.2026",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113709,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "13.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000541266,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000912251,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000912252,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
                 "on_pohitegevusala": false
             }
         ],

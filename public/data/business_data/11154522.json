@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Meelis",
-            "isikukood": "37708040323",
+            "isikukood": null,
+            "isikukood_hash": "6368ecc8-dd05-5d46-83c8-f478d1c718ca",
             "kirje_id": 9000790430,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Rene",
-            "isikukood": "37912276024",
+            "isikukood": null,
+            "isikukood_hash": "3bf5806d-acd3-53d0-9dad-86177d5bb6d2",
             "kirje_id": 9000790431,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37708040323",
+            "isikukood_hash": "6368ecc8-dd05-5d46-83c8-f478d1c718ca",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912276024",
+            "isikukood_hash": "3bf5806d-acd3-53d0-9dad-86177d5bb6d2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3729134,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90391",
+                "tegevusala_emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3516047,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90391",
+                "tegevusala_emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3229950,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90021",
+                "tegevusala_emtak_tekstina": "Lavakunsti abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.02",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
                 "kirje_id": 2901311,
@@ -387,7 +427,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -507,26 +547,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.09.2022",
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "90391",
+                "emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001013011,
+                "lopp_kpv": null,
+                "nace_kood": "90.39",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000650695,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001013012,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2019",
-                "emtak_kood": "90021",
-                "emtak_tekstina": "Lavakunsti abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000433722,
-                "lopp_kpv": null,
-                "nace_kood": "90.02",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

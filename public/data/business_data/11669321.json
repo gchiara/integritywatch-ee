@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Katrin",
-            "isikukood": "47101172748",
+            "isikukood": null,
+            "isikukood_hash": "1b05b464-f467-5f6b-ba2d-3ea7984b6b94",
             "kirje_id": 9000711773,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47101172748",
+            "isikukood_hash": "1b05b464-f467-5f6b-ba2d-3ea7984b6b94",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadillo, Valgma küla, Tartu vald, Tartu maakond, 49123",
+                "kirje_id": 3692683,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadillo, Valgma küla, Tartu vald, Tartu maakond, 49123",
+                "kirje_id": 3412614,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadillo, Valgma küla, Tartu vald, Tartu maakond, 49123",
+                "kirje_id": 3193039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadillo, Valgma küla, Tartu vald, Tartu maakond, 49123",
                 "kirje_id": 2879269,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -383,25 +421,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.07.2013",
-                "emtak_kood": "85591",
-                "emtak_tekstina": "Keeleõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000079376,
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911498,
                 "lopp_kpv": null,
-                "nace_kood": "85.59",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "21.06.2022",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000628442,
+                "algus_kpv": "13.06.2025",
+                "emtak_kood": "85591",
+                "emtak_tekstina": "Keeleõpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000911499,
                 "lopp_kpv": null,
-                "nace_kood": "68.20",
+                "nace_kood": "85.59",
                 "on_pohitegevusala": false
             }
         ],

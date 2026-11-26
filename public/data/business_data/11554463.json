@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Rain",
-            "isikukood": "38309260213",
+            "isikukood": null,
+            "isikukood_hash": "8ea4899d-f02d-5e0f-b1cf-a649f301133e",
             "kirje_id": 9000765856,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38309260213",
+            "isikukood_hash": "8ea4899d-f02d-5e0f-b1cf-a649f301133e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuleviku tee 10, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3759731,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuleviku tee 10, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3532247,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuleviku tee 10, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3232694,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuleviku tee 10, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2934465,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -408,23 +446,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.06.2020",
+                "algus_kpv": "30.06.2026",
                 "emtak_kood": "95221",
-                "emtak_tekstina": "Kodumasinate ning majapidamis- ja aiatööriistade parandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000481023,
+                "emtak_tekstina": "Kodumasinate ning majapidamis- ja aiatööriistade parandus ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128660,
                 "lopp_kpv": null,
                 "nace_kood": "95.22",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "05.06.2020",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "77221",
+                "emtak_tekstina": "Muude tarbeesemete ja kodumasinate väljaüürimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128661,
+                "lopp_kpv": null,
+                "nace_kood": "77.22",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.07.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000481022,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028185,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true

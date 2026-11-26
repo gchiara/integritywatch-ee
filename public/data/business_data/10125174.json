@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2022",
             "eesnimi": "Martin",
-            "isikukood": "38804152740",
+            "isikukood": null,
+            "isikukood_hash": "bf29912c-f11a-535b-93ac-927616def4bc",
             "kirje_id": 9001409286,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2022",
             "eesnimi": "Tarmo",
-            "isikukood": "35605052716",
+            "isikukood": null,
+            "isikukood_hash": "67dadc78-2ddb-5e62-849b-0290b96988fa",
             "kirje_id": 9001409285,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38804152740",
+            "isikukood_hash": "bf29912c-f11a-535b-93ac-927616def4bc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35605052716",
+            "isikukood_hash": "67dadc78-2ddb-5e62-849b-0290b96988fa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustvee mnt 2, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3715424,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustvee mnt 2, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3479105,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustvee mnt 2, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3190518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustvee mnt 2, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
                 "kirje_id": 2931598,
@@ -484,7 +524,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -604,25 +644,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2011",
+                "algus_kpv": "25.06.2026",
                 "emtak_kood": "42221",
                 "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000127484,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001119543,
                 "lopp_kpv": null,
                 "nace_kood": "42.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2011",
-                "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000127483,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
                 "on_pohitegevusala": true
             }
         ],

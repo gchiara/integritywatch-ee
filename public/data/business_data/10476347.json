@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Harri",
-            "isikukood": "36605052718",
+            "isikukood": null,
+            "isikukood_hash": "5ecec86c-928a-5edb-a956-f84871b03738",
             "kirje_id": 9000849207,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Lea",
-            "isikukood": "46104260212",
+            "isikukood": null,
+            "isikukood_hash": "6d64a43f-4736-5e28-abdb-48ad176646d3",
             "kirje_id": 9000849221,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36605052718",
+            "isikukood_hash": "5ecec86c-928a-5edb-a956-f84871b03738",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tiido, Nüpli küla, Otepää vald, Valga maakond, 67408",
+                "kirje_id": 3659350,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tiido, Nüpli küla, Otepää vald, Valga maakond, 67408",
+                "kirje_id": 3330770,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tiido, Nüpli küla, Otepää vald, Valga maakond, 67408",
+                "kirje_id": 3068793,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tiido, Nüpli küla, Otepää vald, Valga maakond, 67408",
                 "kirje_id": 2769953,
@@ -424,7 +463,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -557,12 +596,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2016",
+                "algus_kpv": "25.02.2025",
                 "emtak_kood": "7112",
-                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000228824,
+                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000825864,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

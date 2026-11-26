@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Madis",
-            "isikukood": "38801085220",
+            "isikukood": null,
+            "isikukood_hash": "63dbcc37-8796-5392-b1a6-460233149aa2",
             "kirje_id": 9000690360,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Rainer",
-            "isikukood": "37105166015",
+            "isikukood": null,
+            "isikukood_hash": "af8a26cf-3798-5dd9-b201-a6f7504fe144",
             "kirje_id": 9000690361,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38801085220",
+            "isikukood_hash": "63dbcc37-8796-5392-b1a6-460233149aa2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 5-18, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3766716,
+                "majandusaasta_perioodi_algus_kpv": "31.12.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.12.2025",
+                "tegevusala_emtak_kood": "9699",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 5-18, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3454705,
+                "majandusaasta_perioodi_algus_kpv": "31.12.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.12.2024",
+                "tegevusala_emtak_kood": "9699",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 5-18, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3194463,
+                "majandusaasta_perioodi_algus_kpv": "31.12.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.12.2023",
+                "tegevusala_emtak_kood": "9609",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puiestee tn 5-18, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
                 "kirje_id": 2935835,
@@ -280,7 +319,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -353,23 +392,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 8142648,
+                "kande_nr": 8,
+                "kirje_id": 12938600,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tuki@tuki.ee"
+                "sisu": "info@tuki.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000520782,
+                "kirje_id": 9000720700,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5200495"
+                "sisu": "+372 56202066"
             }
         ],
         "staatus": "R",
@@ -387,26 +426,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.07.2019",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "9699",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951860,
+                "lopp_kpv": null,
+                "nace_kood": "96.99",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "8559",
-                "emtak_tekstina": "Mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000437530,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951861,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.07.2019",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000437529,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

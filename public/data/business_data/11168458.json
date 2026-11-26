@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Vello",
-            "isikukood": "36307194224",
+            "isikukood": null,
+            "isikukood_hash": "6ae22e1e-4fd3-51be-bc02-8fbb381e559e",
             "kirje_id": 9000753195,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47405140317",
+            "isikukood_hash": "8022b9a5-67c8-5f35-b314-aee3d4963eb2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36307194224",
+            "isikukood_hash": "6ae22e1e-4fd3-51be-bc02-8fbb381e559e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 2a, Juuru alevik, Rapla vald, Rapla maakond, 79401",
+                "kirje_id": 3647569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 2a, Juuru alevik, Rapla vald, Rapla maakond, 79401",
+                "kirje_id": 3324902,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 2a, Juuru alevik, Rapla vald, Rapla maakond, 79401",
+                "kirje_id": 3108229,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Keskkooli tn 14, Rapla linn, Rapla vald, Rapla maakond, 79512",
                 "kirje_id": 2771752,
@@ -359,7 +398,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -466,37 +505,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2010",
+                "algus_kpv": "07.02.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819345,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "07.02.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000021677,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819344,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "15.05.2017",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000292629,
-                "lopp_kpv": null,
-                "nace_kood": "70.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.06.2021",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000556570,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

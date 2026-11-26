@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Raivo",
-            "isikukood": "36403130330",
+            "isikukood": null,
+            "isikukood_hash": "e81613d8-1a3d-5263-bb02-52269836d679",
             "kirje_id": 9000712563,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36403130330",
+            "isikukood_hash": "e81613d8-1a3d-5263-bb02-52269836d679",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Väike-Sõjamäe tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3767600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33161",
+                "tegevusala_emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.16",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Sõjamäe tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3486080,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33161",
+                "tegevusala_emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.16",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Sõjamäe tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3208208,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33161",
+                "tegevusala_emtak_tekstina": "Õhu- ja kosmosesõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.16",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Väike-Sõjamäe tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2907628,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -548,12 +586,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "33161",
-                "emtak_tekstina": "Õhu- ja kosmosesõidukite remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000046797,
+                "emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983226,
                 "lopp_kpv": null,
                 "nace_kood": "33.16",
                 "on_pohitegevusala": true

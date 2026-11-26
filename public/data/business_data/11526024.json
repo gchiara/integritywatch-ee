@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Kati",
-            "isikukood": "46108130271",
+            "isikukood": null,
+            "isikukood_hash": "4ee3c7aa-ff71-5264-84a8-0966ba967f3c",
             "kirje_id": 9000799951,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Lotta",
-            "isikukood": "48904020233",
+            "isikukood": null,
+            "isikukood_hash": "b93071ad-1abf-5a02-a706-948cdd708c46",
             "kirje_id": 9000800727,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46108130271",
+            "isikukood_hash": "4ee3c7aa-ff71-5264-84a8-0966ba967f3c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10543306",
+                "aadress_ads__adob_id": "10983229",
                 "aadress_ads__adr_id": 3456658,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne maakond, Lääne-Nigula vald, Leila küla, Ojaveere",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Leila küla, Lääne-Nigula vald, Lääne maakond, 90704",
+                "kirje_id": 3676668,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "14291",
+                "tegevusala_emtak_tekstina": "Peakatete valmistamine, k.a karusnahast",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Leila küla, Lääne-Nigula vald, Lääne maakond, 90704",
+                "kirje_id": 3442498,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "14291",
+                "tegevusala_emtak_tekstina": "Peakatete valmistamine, k.a karusnahast",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ojaveere, Leila küla, Lääne-Nigula vald, Lääne maakond, 90704",
+                "kirje_id": 3153104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "14191",
+                "tegevusala_emtak_tekstina": "Peakatete valmistamine, k.a karusnahast",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.19",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ojaveere, Leila küla, Lääne-Nigula vald, Lääne maakond, 90704",
                 "kirje_id": 2872376,
@@ -304,7 +343,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -422,14 +461,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.10.2008",
-                "emtak_kood": "14191",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "14291",
                 "emtak_tekstina": "Peakatete valmistamine, k.a karusnahast",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000004380,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000940059,
                 "lopp_kpv": null,
-                "nace_kood": "14.19",
+                "nace_kood": "14.29",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.04.2023",
             "eesnimi": "Erki",
-            "isikukood": "37003102729",
+            "isikukood": null,
+            "isikukood_hash": "b762bbd4-5cb9-51c6-8796-e4a2b7d6fc1e",
             "kirje_id": 9001559830,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.04.2023",
             "eesnimi": "Sirle",
-            "isikukood": "46110082715",
+            "isikukood": null,
+            "isikukood_hash": "0926c64f-5f2f-5dfe-bcd8-a5bdea4ede96",
             "kirje_id": 9001559831,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003102729",
+            "isikukood_hash": "b762bbd4-5cb9-51c6-8796-e4a2b7d6fc1e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46110082715",
+            "isikukood_hash": "0926c64f-5f2f-5dfe-bcd8-a5bdea4ede96",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8770289",
+                "aadress_ads__adob_id": "10919507",
                 "aadress_ads__adr_id": 3048085,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Aardla tn 23",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aardla tn 23, Tartu linn, Tartu linn, Tartu maakond, 50110",
+                "kirje_id": 3710706,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aardla tn 23, Tartu linn, Tartu linn, Tartu maakond, 50110",
+                "kirje_id": 3432067,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aardla tn 23, Tartu linn, Tartu linn, Tartu maakond, 50110",
+                "kirje_id": 3144365,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.31",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aardla tn 23, Tartu linn, Tartu linn, Tartu maakond, 50110",
                 "kirje_id": 2850824,
@@ -497,7 +537,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -582,33 +622,33 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000002219,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7472720"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000002220,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7472720"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000662509,
+                "kirje_id": 9000738701,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.akukeskus.eu"
+                "sisu": "http://www.akukeskus.eu"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000739553,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
+                "lopp_kpv": null,
+                "sisu": "+372 5546464"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000739554,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 7474464"
             }
         ],
         "staatus": "R",
@@ -626,37 +666,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.06.2010",
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "46721",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930198,
+                "lopp_kpv": null,
+                "nace_kood": "46.72",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "47821",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930199,
+                "lopp_kpv": null,
+                "nace_kood": "47.82",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "21.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000025344,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930200,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.06.2010",
-                "emtak_kood": "45321",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000025345,
-                "lopp_kpv": null,
-                "nace_kood": "45.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.06.2010",
-                "emtak_kood": "45311",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000025343,
-                "lopp_kpv": null,
-                "nace_kood": "45.31",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.11.2018",
             "eesnimi": "Argo",
-            "isikukood": "37410264913",
+            "isikukood": null,
+            "isikukood_hash": "24985b4a-820a-54a6-9b9f-016bfb2c382f",
             "kirje_id": 9000893010,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35302184931",
+            "isikukood_hash": "ad89ecc5-c0fd-5c6a-820f-1d421055ea91",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37410264913",
+            "isikukood_hash": "24985b4a-820a-54a6-9b9f-016bfb2c382f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -140,6 +143,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suurevälja põik 8, Vanamõisa küla, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3307874,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suurevälja põik 8, Vanamõisa küla, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3035260,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suurevälja põik 8, Vanamõisa küla, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3035136,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suurevälja põik 8, Vanamõisa küla, Saue vald, Harju maakond, 76506",
+                "kirje_id": 3035017,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2020",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2020",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suurevälja põik 8, Vanamõisa küla, Saue vald, Harju maakond, 76506",
                 "kirje_id": 2261155,
@@ -240,7 +291,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -369,36 +420,36 @@
         ],
         "teatatud_tegevusalad": [
             {
+                "algus_kpv": "13.01.2024",
+                "emtak_kood": "4321",
+                "emtak_tekstina": "Elektriinstallatsioon",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000736045,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "13.01.2024",
+                "emtak_kood": "46699",
+                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "emtak_versioon": 2,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000736046,
+                "lopp_kpv": null,
+                "nace_kood": "46.69",
+                "on_pohitegevusala": false
+            },
+            {
                 "algus_kpv": "06.07.2016",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000250156,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.01.2021",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000525286,
-                "lopp_kpv": null,
-                "nace_kood": "46.69",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "04.01.2021",
-                "emtak_kood": "4321",
-                "emtak_tekstina": "Elektriinstallatsioon",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000525287,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
                 "on_pohitegevusala": false
             }
         ],

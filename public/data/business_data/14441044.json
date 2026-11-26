@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Dmitri",
-            "isikukood": "37602130333",
+            "isikukood": null,
+            "isikukood_hash": "432e352c-cb20-53fe-87d9-07976fcd2ba1",
             "kirje_id": 9000829085,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37602130333",
+            "isikukood_hash": "432e352c-cb20-53fe-87d9-07976fcd2ba1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "E. Vilde tee 135-32, Mustamäe linnaosa, Tallinn, Harju maakond, 12613",
+                "kirje_id": 3658907,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85592",
+                "tegevusala_emtak_tekstina": "Arvutiõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "E. Vilde tee 135-32, Mustamäe linnaosa, Tallinn, Harju maakond, 12613",
+                "kirje_id": 3377851,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85592",
+                "tegevusala_emtak_tekstina": "Arvutiõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "E. Vilde tee 135-32, Mustamäe linnaosa, Tallinn, Harju maakond, 12613",
+                "kirje_id": 3141355,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85529",
+                "tegevusala_emtak_tekstina": "Muu huvikoolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.52",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "E. Vilde tee 135-32, Mustamäe linnaosa, Tallinn, Harju maakond, 12613",
                 "kirje_id": 2829716,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,25 +324,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2023",
-                "emtak_kood": "53201",
-                "emtak_tekstina": "Muu posti- ja kulleriteenistus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000687292,
+                "algus_kpv": "21.05.2025",
+                "emtak_kood": "85592",
+                "emtak_tekstina": "Arvutiõpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876441,
                 "lopp_kpv": null,
-                "nace_kood": "53.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.04.2021",
-                "emtak_kood": "85529",
-                "emtak_tekstina": "Muu huvikoolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000540592,
-                "lopp_kpv": null,
-                "nace_kood": "85.52",
+                "nace_kood": "85.59",
                 "on_pohitegevusala": true
             }
         ],

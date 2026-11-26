@@ -7,6 +7,7 @@
             "algus_kpv": "05.05.2021",
             "eesnimi": "Nishant",
             "isikukood": null,
+            "isikukood_hash": "d20efaf8-1775-5be5-9fcd-6023878d57b7",
             "kirje_id": 9001273254,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Kumar",
             "synniaeg": null,
-            "valis_kood": "38310180268",
+            "valis_kood": null,
             "valis_kood_riik": "IND",
             "valis_kood_riik_tekstina": "India"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "05.05.2021",
             "eesnimi": "Rakesh",
             "isikukood": null,
+            "isikukood_hash": "272df7c4-5094-5a7c-9e97-a29fe7705de8",
             "kirje_id": 9001273255,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Pandey",
             "synniaeg": null,
-            "valis_kood": "37712100101",
+            "valis_kood": null,
             "valis_kood_riik": "IND",
             "valis_kood_riik_tekstina": "India"
         },
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.05.2021",
             "eesnimi": "Reena",
-            "isikukood": "47803130040",
+            "isikukood": null,
+            "isikukood_hash": "f5992cff-33cd-5994-993d-5a135f2d77b9",
             "kirje_id": 9001273256,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712100101",
+            "isikukood_hash": "272df7c4-5094-5a7c-9e97-a29fe7705de8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -137,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3535088,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3256295,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 2993910,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2628195,
@@ -333,7 +373,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -465,14 +505,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.05.2021",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000546594,
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001030944,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
             }
         ],

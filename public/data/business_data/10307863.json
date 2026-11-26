@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.01.2021",
             "eesnimi": "Tatiana",
-            "isikukood": "44803120223",
+            "isikukood": null,
+            "isikukood_hash": "f9402213-e2bf-5135-a980-0122dc7c1c52",
             "kirje_id": 9001222011,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.08.2022",
             "eesnimi": "Oksana",
-            "isikukood": "46711240251",
+            "isikukood": null,
+            "isikukood_hash": "20aa9aa7-029b-580b-ae7a-6a7a332fb192",
             "kirje_id": 9001464058,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46711240251",
+            "isikukood_hash": "20aa9aa7-029b-580b-ae7a-6a7a332fb192",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kreegipuu pst 50, Maardu linn, Harju maakond, 74117",
+                "kirje_id": 3706555,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kreegipuu pst 50, Maardu linn, Harju maakond, 74117",
+                "kirje_id": 3447039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kreegipuu pst 50, Maardu linn, Harju maakond, 74117",
+                "kirje_id": 3153097,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kreegipuu pst 50, Maardu linn, Harju maakond, 74117",
                 "kirje_id": 2860674,
@@ -460,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -591,14 +630,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000027463,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000944397,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
             }
         ],

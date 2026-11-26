@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.07.2019",
             "eesnimi": "Varje",
-            "isikukood": "46905250223",
+            "isikukood": null,
+            "isikukood_hash": "e7d3fd7b-cd66-50f9-b8f0-e9cf851b78d8",
             "kirje_id": 9000995766,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36304030283",
+            "isikukood_hash": "2ae618b3-0bcf-53fc-8a46-14d82c08cc7c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 6-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3635986,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 6-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3368653,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55203",
+                "tegevusala_emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.20",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 6-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
+                "kirje_id": 3118461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 6-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10142",
                 "kirje_id": 2811236,
@@ -335,7 +373,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,26 +515,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2010",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000040359,
-                "lopp_kpv": null,
-                "nace_kood": "56.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "07.05.2025",
                 "emtak_kood": "55203",
-                "emtak_tekstina": "Puhkeküla ja puhkelaager",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000041403,
+                "emtak_tekstina": "Puhkekülad ja puhkelaagrid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000866635,
                 "lopp_kpv": null,
                 "nace_kood": "55.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "07.05.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000866636,
+                "lopp_kpv": null,
+                "nace_kood": "56.22",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

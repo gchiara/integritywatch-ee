@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Konstantin",
-            "isikukood": "37611200296",
+            "isikukood": null,
+            "isikukood_hash": "f4e164b1-8dbb-56ee-8adf-811137c13d35",
             "kirje_id": 9000862768,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37611200296",
+            "isikukood_hash": "f4e164b1-8dbb-56ee-8adf-811137c13d35",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kotzebue tn 8, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3757516,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46501",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotzebue tn 8, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3513795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46501",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotzebue tn 8, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3205734,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kotzebue tn 8, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2898833,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -454,81 +492,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699691,
-                "lopp_kpv": null,
-                "nace_kood": "46.69",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "46511",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46501",
                 "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699692,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010738,
                 "lopp_kpv": null,
-                "nace_kood": "46.51",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "46493",
-                "emtak_tekstina": "Mängude ja mänguasjade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699693,
-                "lopp_kpv": null,
-                "nace_kood": "46.49",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "61901",
-                "emtak_tekstina": "Elektroonilise side muud teenused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699694,
-                "lopp_kpv": null,
-                "nace_kood": "61.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699695,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "47911",
-                "emtak_tekstina": "Jaemüük posti või Interneti teel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699696,
-                "lopp_kpv": null,
-                "nace_kood": "47.91",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "58291",
-                "emtak_tekstina": "Muu tarkvara kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699697,
-                "lopp_kpv": null,
-                "nace_kood": "58.29",
-                "on_pohitegevusala": false
+                "nace_kood": "46.50",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

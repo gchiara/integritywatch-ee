@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Sven",
-            "isikukood": "36808222763",
+            "isikukood": null,
+            "isikukood_hash": "a0f50cb8-85f8-534d-8428-6708155b07f9",
             "kirje_id": 9000697719,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48203282745",
+            "isikukood_hash": "21486bee-7bd6-52a1-850e-a3fb4645d80c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36808222763",
+            "isikukood_hash": "a0f50cb8-85f8-534d-8428-6708155b07f9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -99,7 +102,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8658507",
+                "aadress_ads__adob_id": "11193399",
                 "aadress_ads__adr_id": 3046619,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Ülikooli tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ülikooli tn 2, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3582029,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ülikooli tn 2, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3322063,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ülikooli tn 2, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 3045082,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarabüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ülikooli tn 2, Tartu linn, Tartu linn, Tartu maakond, 51003",
                 "kirje_id": 2761285,
@@ -384,7 +423,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -502,12 +541,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.01.2025",
                 "emtak_kood": "68311",
-                "emtak_tekstina": "Kinnisvarabüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008956,
+                "emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816205,
                 "lopp_kpv": null,
                 "nace_kood": "68.31",
                 "on_pohitegevusala": true

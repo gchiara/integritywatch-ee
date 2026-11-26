@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 10041773,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "19.12.2023",
+            "eesnimi": "Natalja",
+            "isikukood": null,
+            "isikukood_hash": "0915989d-4748-5b5c-b3f7-4aa1b11f59e5",
+            "kirje_id": 9001665254,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Sergejeva",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45305300316",
+            "isikukood_hash": "0915989d-4748-5b5c-b3f7-4aa1b11f59e5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -43,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7621510",
-                "aadress_ads__adr_id": 2115848,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Ehitajate tee 107a",
+                "aadress_ads__adob_id": "11501820",
+                "aadress_ads__adr_id": 3825114,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Järveotsa tee 58",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00641982",
-                "aadress_ads__koodaadress": "377840176000003S000001CAH00000000",
+                "aadress_ads__koodaadress": "377840176000003P70000DG0A00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.11.2017",
+                "algus_kpv": "01.07.2026",
                 "ehak": "0176",
                 "ehak_nimetus": "Haabersti linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7123231,
+                "kande_nr": 14,
+                "kirje_id": 13845279,
                 "lopp_kpv": null,
                 "postiindeks": "13514",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Ehitajate tee 107a"
+                "tanav_maja_korter": "Järveotsa tee 58"
             }
         ],
         "arinimed": [
@@ -84,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 107a, Haabersti linnaosa, Tallinn, Harju maakond, 13514",
+                "kirje_id": 3768622,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 107a, Haabersti linnaosa, Tallinn, Harju maakond, 13514",
+                "kirje_id": 3526455,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 107a, Haabersti linnaosa, Tallinn, Harju maakond, 13514",
+                "kirje_id": 3262188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ehitajate tee 107a, Haabersti linnaosa, Tallinn, Harju maakond, 13514",
                 "kirje_id": 2928615,
@@ -424,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -555,59 +611,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000309484,
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "46631",
+                "emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022659,
                 "lopp_kpv": null,
-                "nace_kood": "68.20",
+                "nace_kood": "46.63",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022660,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "43993",
-                "emtak_tekstina": "Tellingute ja tööplatvormide püstitus ja demonteerimine.Ehitus- ja tõsteseadmete rentimine koos operaatoriga",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000062077,
-                "lopp_kpv": null,
-                "nace_kood": "43.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2010",
+                "algus_kpv": "04.07.2025",
                 "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000062076,
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022662,
                 "lopp_kpv": null,
                 "nace_kood": "33.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "20.07.2020",
-                "emtak_kood": "45311",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000493065,
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022663,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "20.07.2020",
-                "emtak_kood": "46631",
-                "emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000493064,
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "43991",
+                "emtak_tekstina": "Tellingute püstitamine ja demonteerimine, ehitus- ja tõsteseadmete rentimine koos operaatoriga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022661,
                 "lopp_kpv": null,
-                "nace_kood": "46.63",
-                "on_pohitegevusala": true
+                "nace_kood": "43.99",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

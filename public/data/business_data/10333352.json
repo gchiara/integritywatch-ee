@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.03.2019",
             "eesnimi": "Arno",
-            "isikukood": "36404060222",
+            "isikukood": null,
+            "isikukood_hash": "94cd292b-4e88-5549-a580-76b51073d809",
             "kirje_id": 9000950778,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37210115210",
+            "isikukood_hash": "40f3b847-52d8-5b5d-b3c3-ee936cf67e5f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 58, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3770798,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 58, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3498486,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 58, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3201963,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.31",
+                "tootajate_arv": "21"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 58, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2914317,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -541,12 +579,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 15,
-                "kirje_id": 7655260,
+                "kande_nr": 17,
+                "kirje_id": 12093791,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mait.mumme@europart.ee"
+                "sisu": "m.mumme@europart.net"
             },
             {
                 "kaardi_nr": null,
@@ -575,22 +613,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000170639,
+                "kirje_id": 9000694836,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.europart.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000122691,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6266080"
+                "sisu": "https://www.europart.net/ee"
             }
         ],
         "staatus": "R",
@@ -608,14 +635,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "45311",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46721",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000040190,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995659,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "46.72",
                 "on_pohitegevusala": true
             }
         ],

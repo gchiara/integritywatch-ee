@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Syne",
-            "isikukood": "37803125714",
+            "isikukood": null,
+            "isikukood_hash": "088dfe11-77bb-57f5-bee1-ff959a0fe724",
             "kirje_id": 9000768765,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37803125714",
+            "isikukood_hash": "088dfe11-77bb-57f5-bee1-ff959a0fe724",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,30 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Käärike, Puide küla, Tõrva vald, Valga maakond, 68411",
+                "kirje_id": 3273896,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Käärike, Puide küla, Tõrva vald, Valga maakond, 68411",
+                "kirje_id": 3016855,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Käärike, Puide küla, Tõrva vald, Valga maakond, 68411",
                 "kirje_id": 2745407,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2021",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
@@ -167,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -235,6 +261,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "16.03.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "kirje_id": 13619238,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 13.03.2026.a kohtumäärusega tsiviilasjas nr 2-25-4704 kuulutati välja Käärike Teenused OÜ (registrikood 14476611) pankrot 13.03.2026 kell 11.00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -259,8 +299,8 @@
                 "sisu": "+372 5032268"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "25.04.2018",
@@ -270,6 +310,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "16.03.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -278,7 +327,7 @@
                 "emtak_kood": "45201",
                 "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000491442,
                 "lopp_kpv": null,
                 "nace_kood": "45.20",
@@ -286,6 +335,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

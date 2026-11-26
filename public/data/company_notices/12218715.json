@@ -122,7 +122,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-12",
+                "award_date_conclusion_contract": [
+                    "2023-06-12"
+                ],
                 "award_value": "55000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -137,7 +139,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Toiduained",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -182,5 +184,69 @@
         "refnum": "262012",
         "total_amount": "693440.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-05-31"
+                ],
+                "award_value": "293188.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10617776",
+                        "contractor_name": "Osaühing Makro Trade Baltic",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Toiduained",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90004585",
+                "name": "Sihtasutus Viljandi Haigla",
+                "town": "Viljandi vald"
+            }
+        ],
+        "contractors": [
+            "10080750",
+            "10083464",
+            "10794691",
+            "10005487",
+            "12218715",
+            "10617776"
+        ],
+        "cpv": "15100000",
+        "date_dispatch_notice": "2024-06-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_44e56592-9330-4baf-be18-a8fe3eb7c077_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "44e56592-9330-4baf-be18-a8fe3eb7c077",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "276245"
     }
 ]

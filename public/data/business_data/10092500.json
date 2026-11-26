@@ -7,6 +7,7 @@
             "algus_kpv": "05.09.2018",
             "eesnimi": "Anna Helena",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000668371,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36201164726",
+            "isikukood_hash": "4320a082-16eb-52b3-9dec-e59ab11a1b74",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10240969",
+                "aadress_ads__adob_id": "10694081",
                 "aadress_ads__adr_id": 2932043,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne maakond, Lääne-Nigula vald, Taebla alevik, Nurme tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 5, Taebla alevik, Lääne-Nigula vald, Lääne maakond, 90801",
+                "kirje_id": 3635241,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "92"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 5, Taebla alevik, Lääne-Nigula vald, Lääne maakond, 90801",
+                "kirje_id": 3343608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "89"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nurme tn 5, Taebla alevik, Lääne-Nigula vald, Lääne maakond, 90801",
+                "kirje_id": 3242373,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22221",
+                "tegevusala_emtak_tekstina": "Plasttaara tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.22",
+                "tootajate_arv": "91"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nurme tn 5, Taebla alevik, Lääne-Nigula vald, Lääne maakond, 90801",
                 "kirje_id": 2880257,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -578,22 +616,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000096995,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 4724431"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000169421,
+                "kirje_id": 9000721560,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.cipax.com"
+                "sisu": "https://cipax.com/ee"
             }
         ],
         "staatus": "R",
@@ -611,26 +638,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2010",
+                "algus_kpv": "25.03.2025",
+                "emtak_kood": "22221",
+                "emtak_tekstina": "Plasttaara tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840149,
+                "lopp_kpv": null,
+                "nace_kood": "22.22",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.03.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000040276,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840150,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "22221",
-                "emtak_tekstina": "Plasttaara tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000004686,
+                "algus_kpv": "25.03.2025",
+                "emtak_kood": "71129",
+                "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840151,
                 "lopp_kpv": null,
-                "nace_kood": "22.22",
-                "on_pohitegevusala": true
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

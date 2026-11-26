@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Allar",
-            "isikukood": "37809305219",
+            "isikukood": null,
+            "isikukood_hash": "54d3886b-e5f7-5393-bb4c-ff18a6ca2d63",
             "kirje_id": 9000752196,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37809305219",
+            "isikukood_hash": "54d3886b-e5f7-5393-bb4c-ff18a6ca2d63",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ridaküla tee 27, Lepna alevik, Rakvere vald, Lääne-Viru maakond, 44408",
+                "kirje_id": 3604600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ridaküla tee 27, Lepna alevik, Rakvere vald, Lääne-Viru maakond, 44408",
+                "kirje_id": 3362729,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ridaküla tee 27, Lepna alevik, Rakvere vald, Lääne-Viru maakond, 44408",
+                "kirje_id": 3179744,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ridaküla tee 27, Lepna alevik, Rakvere vald, Lääne-Viru maakond, 44408",
                 "kirje_id": 2893280,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -484,6 +522,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "30.01.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "kirje_id": 12934738,
+                "lopp_kpv": null,
+                "sisu": "Osaühing SAMSONOV registrikood \t10108187, asukoht \tLääne-Viru maakond, Vinni vald, Ristiküla, Kruusamäe, 46633  (ühendatav ühing) ühineb äriühinguga Osaühing LEPNA EHITUS  (ühendav ühing) 22.01.2025. sõlmitud ühinemislepingu alusel, ühinemisotsus ei ole nõutav. Ühinemine loetakse toimunuks käesoleva registrikande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -574,36 +626,58 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.07.2011",
-                "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000143874,
+                "algus_kpv": "28.04.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860424,
                 "lopp_kpv": null,
-                "nace_kood": "01.11",
-                "on_pohitegevusala": true
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.07.2018",
+                "algus_kpv": "28.04.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000371477,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860426,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.07.2013",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000050499,
+                "algus_kpv": "28.04.2025",
+                "emtak_kood": "47111",
+                "emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860425,
                 "lopp_kpv": null,
-                "nace_kood": "01.61",
+                "nace_kood": "47.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.04.2025",
+                "emtak_kood": "01111",
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860423,
+                "lopp_kpv": null,
+                "nace_kood": "01.11",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "19.03.2026",
+                "emtak_kood": "74991",
+                "emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001089326,
+                "lopp_kpv": null,
+                "nace_kood": "74.99",
                 "on_pohitegevusala": false
             }
         ],

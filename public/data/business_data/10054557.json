@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Hedy",
-            "isikukood": "47907144918",
+            "isikukood": null,
+            "isikukood_hash": "27344615-b253-5915-85d9-ada6023587a7",
             "kirje_id": 9000765230,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47907144918",
+            "isikukood_hash": "27344615-b253-5915-85d9-ada6023587a7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3822623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3546412,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3256683,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3025141,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3012047,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 55-312, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2699669,
@@ -431,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -603,12 +665,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.11.2014",
+                "algus_kpv": "06.08.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000146832,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001041939,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

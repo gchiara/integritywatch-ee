@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "37212036519",
+            "isikukood": null,
+            "isikukood_hash": "4ba26540-940a-5c7c-b07f-606260b1328c",
             "kirje_id": 9000687700,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37212036519",
+            "isikukood_hash": "4ba26540-940a-5c7c-b07f-606260b1328c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8947589",
-                "aadress_ads__adr_id": 3163413,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Räpina vald, Räpina linn, Raigla mnt 13",
+                "aadress_ads__adob_id": "9883654",
+                "aadress_ads__adr_id": 3164061,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Räpina vald, Pindi küla, Kehvamäe",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00877863",
-                "aadress_ads__koodaadress": "647087216000002W1000031LM00000000",
+                "aadress_ads__ads_oid": "ME03177926",
+                "aadress_ads__koodaadress": "647086268000000005DGL000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.12.2017",
-                "ehak": "7216",
-                "ehak_nimetus": "Räpina linn, Räpina vald, Põlva maakond",
+                "algus_kpv": "16.03.2026",
+                "ehak": "6268",
+                "ehak_nimetus": "Pindi küla, Räpina vald, Põlva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7254831,
+                "kande_nr": 8,
+                "kirje_id": 13622893,
                 "lopp_kpv": null,
-                "postiindeks": "64503",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Raigla mnt 13"
+                "postiindeks": "64413",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Kehvamäe"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kehvamäe, Pindi küla, Räpina vald, Põlva maakond, 64413",
+                "kirje_id": 3619230,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71129",
+                "tegevusala_emtak_tekstina": "Muud insener-tehnilised tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raigla mnt 13, Räpina linn, Räpina vald, Põlva maakond, 64503",
+                "kirje_id": 3396269,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raigla mnt 13, Räpina linn, Räpina vald, Põlva maakond, 64503",
+                "kirje_id": 3119651,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raigla mnt 13, Räpina linn, Räpina vald, Põlva maakond, 64503",
                 "kirje_id": 2849025,
@@ -310,7 +348,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -383,23 +421,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7737454,
+                "kande_nr": 7,
+                "kirje_id": 13377726,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kristiina@brokerman.ee"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7737455,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "tego@hot.ee"
+                "sisu": "mihkel.gutjuma@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -411,17 +438,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 56256291"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000097908,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7961629"
             }
         ],
         "staatus": "R",
@@ -439,12 +455,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.06.2022",
+                "algus_kpv": "13.04.2026",
                 "emtak_kood": "71129",
                 "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000626972,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001094853,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

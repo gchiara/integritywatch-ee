@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Krista",
-            "isikukood": "46411126017",
+            "isikukood": null,
+            "isikukood_hash": "7e75a5e2-32ce-523c-b23a-6e5464ef2292",
             "kirje_id": 9000658862,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Urve",
-            "isikukood": "47003152721",
+            "isikukood": null,
+            "isikukood_hash": "8be804b0-aa09-54f2-bf28-cc8893cf9917",
             "kirje_id": 9000658857,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46411126017",
+            "isikukood_hash": "7e75a5e2-32ce-523c-b23a-6e5464ef2292",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7028542",
+                "aadress_ads__adob_id": "10949960",
                 "aadress_ads__adr_id": 170374,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi linn, Tallinna tn 19",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": "/21",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 19-/21, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3560418,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 19-/21, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3302796,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 19-/21, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3017301,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna tn 19-/21, Viljandi linn, Viljandi maakond, 71013",
                 "kirje_id": 2728395,
@@ -447,7 +486,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -578,34 +617,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.12.2009",
+                "algus_kpv": "01.10.2025",
                 "emtak_kood": "69201",
                 "emtak_tekstina": "Auditeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000023989,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057232,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "09.12.2009",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000023987,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.12.2009",
+                "algus_kpv": "01.10.2025",
                 "emtak_kood": "69202",
                 "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000023988,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057233,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": false

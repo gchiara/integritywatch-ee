@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.10.2018",
             "eesnimi": "Alvar",
-            "isikukood": "37908246523",
+            "isikukood": null,
+            "isikukood_hash": "c7917f7f-ad78-59a2-9f7e-3b18e04cb715",
             "kirje_id": 9000725610,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37908246523",
+            "isikukood_hash": "c7917f7f-ad78-59a2-9f7e-3b18e04cb715",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Keskuse tee 15-19, Himmaste küla, Põlva vald, Põlva maakond, 63228",
+                "kirje_id": 3710459,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskuse tee 15-19, Himmaste küla, Põlva vald, Põlva maakond, 63228",
+                "kirje_id": 3452121,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskuse tee 15-19, Himmaste küla, Põlva vald, Põlva maakond, 63228",
+                "kirje_id": 3178336,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Keskuse tee 15-19, Himmaste küla, Põlva vald, Põlva maakond, 63228",
                 "kirje_id": 2864202,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -383,45 +421,45 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2019",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000417805,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.06.2020",
-                "emtak_kood": "69202",
-                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000485189,
-                "lopp_kpv": null,
-                "nace_kood": "69.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "25.06.2013",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000039222,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949257,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.06.2022",
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949258,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949260,
+                "lopp_kpv": null,
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000622512,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000949259,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": false

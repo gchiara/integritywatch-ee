@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "ANDO",
-            "isikukood": "36311070321",
+            "isikukood": null,
+            "isikukood_hash": "94082c74-3820-57d0-8128-e2e541f87718",
             "kirje_id": 9000655855,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "37712010255",
+            "isikukood": null,
+            "isikukood_hash": "63a67d67-f3ca-5069-a547-ff4d855d94d3",
             "kirje_id": 9000655842,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Priit",
-            "isikukood": "37003100234",
+            "isikukood": null,
+            "isikukood_hash": "01d25898-ca73-5ec3-80eb-6b80fc62f82d",
             "kirje_id": 9000655856,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37609234928",
+            "isikukood_hash": "122e3313-4070-5035-a6ae-326873aed257",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712010255",
+            "isikukood_hash": "63a67d67-f3ca-5069-a547-ff4d855d94d3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -133,7 +138,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9779652",
+                "aadress_ads__adob_id": "10873794",
                 "aadress_ads__adr_id": 3456931,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Peterburi tee 44/5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -174,6 +179,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 44/5, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3644862,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 44/5, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3478701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "64929",
+                "tegevusala_emtak_tekstina": "Muu laenuandmine, v.a pandimajad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.92",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 44/5, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3172759,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "64929",
+                "tegevusala_emtak_tekstina": "Muu laenuandmine, v.a pandimajad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.92",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 44/5, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2871180,
@@ -322,7 +363,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -420,22 +461,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000247184,
+                "kirje_id": 9000708346,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 6201111"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000247186,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6201112"
+                "sisu": "+372 6201170"
             }
         ],
         "staatus": "R",
@@ -453,15 +483,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2013",
-                "emtak_kood": "64929",
-                "emtak_tekstina": "Muu laenuandmine, v.a pandimajad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000036227,
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "77399",
+                "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103467,
                 "lopp_kpv": null,
-                "nace_kood": "64.92",
+                "nace_kood": "77.39",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "77331",
+                "emtak_tekstina": "Kontorimasinate ja -seadmete ning arvutite rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103468,
+                "lopp_kpv": null,
+                "nace_kood": "77.33",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "77311",
+                "emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103469,
+                "lopp_kpv": null,
+                "nace_kood": "77.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103470,
+                "lopp_kpv": null,
+                "nace_kood": "77.32",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103471,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

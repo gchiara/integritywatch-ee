@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Maidu",
-            "isikukood": "36405200053",
+            "isikukood": null,
+            "isikukood_hash": "b9f8f144-6296-56f4-b973-33c10852021b",
             "kirje_id": 9000870587,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36405200053",
+            "isikukood_hash": "b9f8f144-6296-56f4-b973-33c10852021b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7817767",
+                "aadress_ads__adob_id": "10715084",
                 "aadress_ads__adr_id": 2638944,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kuressaare linn, Voolu tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Voolu tn 4, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3763135,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47821",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.82",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Voolu tn 4, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3433620,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47821",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.82",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Voolu tn 4, Kuressaare linn, Saaremaa vald, Saare maakond, 93815",
+                "kirje_id": 3198285,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45321",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.32",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna tn 88, Kudjape alevik, Saaremaa vald, Saare maakond, 93851",
                 "kirje_id": 2922290,
@@ -441,20 +479,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "04.01.2022",
+                "algus_kpv": "12.12.2023",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 22,
-                "kapitali_suurus": "2504.00",
+                "kande_nr": 26,
+                "kapitali_suurus": "2505.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 9943078,
+                "kirje_id": 12190844,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -624,58 +662,58 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "45321",
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "47821",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000703792,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931548,
                 "lopp_kpv": null,
-                "nace_kood": "45.32",
+                "nace_kood": "47.82",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000703793,
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931549,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "14.06.2016",
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931550,
+                "lopp_kpv": null,
+                "nace_kood": "47.81",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931552,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.06.2025",
                 "emtak_kood": "77111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000233643,
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931553,
                 "lopp_kpv": null,
                 "nace_kood": "77.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.07.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000073851,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.07.2010",
-                "emtak_kood": "47789",
-                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000073854,
-                "lopp_kpv": null,
-                "nace_kood": "47.78",
                 "on_pohitegevusala": false
             }
         ],

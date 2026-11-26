@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Raivo",
-            "isikukood": "35804102710",
+            "isikukood": null,
+            "isikukood_hash": "5319ad1a-0246-5d2e-9eb9-0fc6c722521d",
             "kirje_id": 9000810456,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35804102710",
+            "isikukood_hash": "5319ad1a-0246-5d2e-9eb9-0fc6c722521d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tee 4, Kärevere küla, Tartu vald, Tartu maakond, 60603",
+                "kirje_id": 3633897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tee 4, Kärevere küla, Tartu vald, Tartu maakond, 60603",
+                "kirje_id": 3468552,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47921",
+                "tegevusala_emtak_tekstina": "Spetsialiseeritud jaemüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.92",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tee 4, Kärevere küla, Tartu vald, Tartu maakond, 60603",
+                "kirje_id": 3197580,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45191",
+                "tegevusala_emtak_tekstina": "Muude mootorsõidukite müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pihlaka tee 4, Kärevere küla, Tartu vald, Tartu maakond, 60603",
                 "kirje_id": 2920600,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -476,26 +514,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000703535,
+                "algus_kpv": "06.05.2026",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001099895,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "46.64",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "06.05.2026",
+                "emtak_kood": "77211",
+                "emtak_tekstina": "Vabaaja- ja sporditarvete väljaüürimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001099896,
+                "lopp_kpv": null,
+                "nace_kood": "77.21",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000636000,
+                "algus_kpv": "06.05.2026",
+                "emtak_kood": "33151",
+                "emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001099897,
                 "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": true
+                "nace_kood": "33.15",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

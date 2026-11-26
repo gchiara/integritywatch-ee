@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.07.2020",
             "eesnimi": "Toomas",
-            "isikukood": "36403062731",
+            "isikukood": null,
+            "isikukood_hash": "337664c5-b285-5fea-9cfa-6e9a5d8f6d5d",
             "kirje_id": 9001141242,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36403062731",
+            "isikukood_hash": "337664c5-b285-5fea-9cfa-6e9a5d8f6d5d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aadliku tn 8, Raadi alev, Tartu vald, Tartu maakond, 60534",
+                "kirje_id": 3710577,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aadliku tn 8, Raadi alev, Tartu vald, Tartu maakond, 60534",
+                "kirje_id": 3515780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aadliku tn 8, Raadi alev, Tartu vald, Tartu maakond, 60534",
+                "kirje_id": 3160917,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aadliku tn 8, Raadi alev, Tartu vald, Tartu maakond, 60534",
                 "kirje_id": 2950922,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -409,14 +447,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2014",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000125432,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "3100",
+                "emtak_tekstina": "Mööblitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012757,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

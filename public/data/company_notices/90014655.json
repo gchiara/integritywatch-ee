@@ -65,15 +65,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14645953",
-            "Nominees as company beneficial owners: 36809132235",
-            "Nominees as company beneficial owners: 39101080215",
-            "Nominees as company board members: 39101080215"
+            "Possible shell company: 14645953"
         ],
         "noticeUid": "11a9e14c-2e98-4798-8bd7-683a36809ebe",
         "notice_items": [
@@ -1038,15 +1034,11 @@
         "filename": "award_bdc329e8-fda1-4024-abe8-fd6fc6991f73_0.json",
         "flags": [
             "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10136870",
-            "Nominees as company beneficial owners: 36711122712",
-            "Nominees as company beneficial owners: 36812252714",
-            "Nominees as company board members: 36711122712",
             "Possible shell company: 10180925"
         ],
         "noticeUid": "bdc329e8-fda1-4024-abe8-fd6fc6991f73",
@@ -1561,7 +1553,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-19",
+                "award_date_conclusion_contract": [
+                    "2023-06-19"
+                ],
                 "award_value": "2000000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -1576,7 +1570,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kütuse ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -1932,15 +1926,11 @@
         "docType2": "",
         "filename": "award_54cf2bf7-bae8-4dd0-95a9-faff1d875295_0.json",
         "flags": [
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10136870",
-            "Nominees as company beneficial owners: 36711122712",
-            "Nominees as company beneficial owners: 36812252714",
-            "Nominees as company board members: 36711122712"
+            "Possible shell company: 10136870"
         ],
         "noticeUid": "54cf2bf7-bae8-4dd0-95a9-faff1d875295",
         "notice_items": [
@@ -1962,6 +1952,298 @@
         ],
         "refnum": "259465",
         "total_amount": "11000000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "SA Rannarootsi Muuseumi varikatuse ehitus",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-02-27",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_364e8140-ffe1-4ee2-9764-3e95d7dcad72_0.json",
+        "flags": [
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Start date present but end date missing."
+        ],
+        "noticeUid": "364e8140-ffe1-4ee2-9764-3e95d7dcad72",
+        "notice_items": [
+            {
+                "duration": "4 MONTH"
+            }
+        ],
+        "refnum": "290842"
+    },
+    {
+        "contract_title": "SA Rannarootsi Muuseumi Korsi talu küttekollete ehitus (Ruhnu saarel)",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-03-12",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_a9c2cf6c-5656-4bf4-86d8-fa70f5f8d453_0.json",
+        "flags": [
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Start date present but end date missing."
+        ],
+        "noticeUid": "a9c2cf6c-5656-4bf4-86d8-fa70f5f8d453",
+        "notice_items": [
+            {
+                "duration": "6 MONTH"
+            }
+        ],
+        "refnum": "291851"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-03-31"
+                ],
+                "award_value": "54160.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14387921",
+                        "contractor_name": "OÜ Woodplan",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "5"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "SA Rannarootsi Muuseumi varikatuse ehitus",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [
+            "14387921"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-03-31",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_63de15f2-51e6-4398-ad2b-42a0df82b22b_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "63de15f2-51e6-4398-ad2b-42a0df82b22b",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "290842",
+        "total_amount": "54160.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "result": "clos-nw"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "SA Rannarootsi Muuseumi Korsi talu küttekollete ehitus (Ruhnu saarel)",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-04-04",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2dfb9b91-478c-4fcc-987b-da9b3d3991b8_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "2dfb9b91-478c-4fcc-987b-da9b3d3991b8",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "291851"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-04-23"
+                ],
+                "award_value": "25319.55",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "16093067",
+                        "contractor_name": "OÜ Tulitilgad",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "SA Rannarootsi Muuseumi Korsi talu küttekollete ehitus (läbirääkimistega)",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [
+            "16093067"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2025-04-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2dffbf39-87cb-4ceb-aff7-7930811b49cf_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 16093067",
+            "Nominees as company beneficial owners: Marek_Ollino_09.11.2020",
+            "Nominees as company board members: Marek_Ollino_09.11.2020"
+        ],
+        "noticeUid": "2dffbf39-87cb-4ceb-aff7-7930811b49cf",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293506",
+        "total_amount": "25319.55",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "Muuseumihoone katuse rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-04-17",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_806ceb48-3056-4a14-9f44-a84e91dafddc_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "806ceb48-3056-4a14-9f44-a84e91dafddc",
+        "notice_items": [
+            {
+                "endDate": "2026-08-31"
+            }
+        ],
+        "refnum": "308776-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-05-22"
+                ],
+                "award_value": "76020.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11003579",
+                        "contractor_name": "Osaühing SUMER EHITUS",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Muuseumihoone katuse rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "90014655",
+                "name": "Sihtasutus Rannarootsi Muuseum",
+                "town": "Haapsalu linn"
+            }
+        ],
+        "contractors": [
+            "11003579"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-05-25",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_c6bdd825-22db-40f6-be03-812106169ed7_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "c6bdd825-22db-40f6-be03-812106169ed7",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "308776-0000",
+        "total_amount": "76020.00",
         "total_amount_curr": "EUR"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2019",
             "eesnimi": "Olga",
-            "isikukood": "46010232744",
+            "isikukood": null,
+            "isikukood_hash": "0d520ef5-2724-53f9-b90e-b0f0fd37a038",
             "kirje_id": 9000993452,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46010232744",
+            "isikukood_hash": "0d520ef5-2724-53f9-b90e-b0f0fd37a038",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8768389",
-                "aadress_ads__adr_id": 3121168,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Kalevi tn 11-4",
+                "aadress_ads__adob_id": "10637183",
+                "aadress_ads__adr_id": 3099027,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Narva mnt 18",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER03249462",
-                "aadress_ads__koodaadress": "79793815100000SNK0000BLLVJ1ZO0000",
+                "aadress_ads__ads_oid": "EE03733894",
+                "aadress_ads__koodaadress": "79793815100000SQT0000BL6100000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "05.11.2020",
+                "algus_kpv": "06.12.2023",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 9315985,
+                "kande_nr": 6,
+                "kirje_id": 12181713,
                 "lopp_kpv": null,
-                "postiindeks": "51010",
+                "postiindeks": "51009",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kalevi tn 11-4"
+                "tanav_maja_korter": "Narva mnt 18"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 18, Tartu linn, Tartu linn, Tartu maakond, 51009",
+                "kirje_id": 3745074,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 18, Tartu linn, Tartu linn, Tartu maakond, 51009",
+                "kirje_id": 3496081,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 18, Tartu linn, Tartu linn, Tartu maakond, 51009",
+                "kirje_id": 3197514,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalevi tn 11-4, Tartu linn, Tartu linn, Tartu maakond, 51010",
                 "kirje_id": 2888824,
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,14 +300,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2019",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000435530,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000993268,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": true
             }
         ],

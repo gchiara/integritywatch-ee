@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2020",
             "eesnimi": "Tiit",
-            "isikukood": "35902030278",
+            "isikukood": null,
+            "isikukood_hash": "5de1fbd8-2eb1-537f-bb55-be36087dddde",
             "kirje_id": 9001186324,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37408260329",
+            "isikukood_hash": "df270ad5-3a41-5017-9572-dd0107186611",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35902030278",
+            "isikukood_hash": "5de1fbd8-2eb1-537f-bb55-be36087dddde",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liivaranna, Lehtma küla, Hiiumaa vald, Hiiu maakond, 92219",
+                "kirje_id": 3659188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02202",
+                "tegevusala_emtak_tekstina": "Küttepuude tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivaranna, Lehtma küla, Hiiumaa vald, Hiiu maakond, 92219",
+                "kirje_id": 3345515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02202",
+                "tegevusala_emtak_tekstina": "Küttepuude tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivaranna, Lehtma küla, Hiiumaa vald, Hiiu maakond, 92219",
+                "kirje_id": 3180703,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02202",
+                "tegevusala_emtak_tekstina": "Küttepuude tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivaranna, Lehtma küla, Hiiumaa vald, Hiiu maakond, 92219",
                 "kirje_id": 2925511,
@@ -396,7 +435,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -514,26 +553,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.09.2017",
-                "emtak_kood": "77111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000323006,
-                "lopp_kpv": null,
-                "nace_kood": "77.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "03.12.2018",
+                "algus_kpv": "27.03.2025",
                 "emtak_kood": "02202",
                 "emtak_tekstina": "Küttepuude tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000393602,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000842166,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.03.2025",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000842167,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

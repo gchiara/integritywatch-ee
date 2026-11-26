@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Ants",
-            "isikukood": "35806190255",
+            "isikukood": null,
+            "isikukood_hash": "4d905f72-25b9-5c71-97ac-916aa3b66e5a",
             "kirje_id": 9000706522,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.01.2023",
             "eesnimi": "Anni",
-            "isikukood": "48707300366",
+            "isikukood": null,
+            "isikukood_hash": "915437df-eb2d-5931-954b-c94e82f2a4cb",
             "kirje_id": 9001519687,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.01.2023",
             "eesnimi": "Liis",
-            "isikukood": "48411110315",
+            "isikukood": null,
+            "isikukood_hash": "af594dba-2c2a-5964-80ed-887748d5dd2f",
             "kirje_id": 9001519686,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48707300366",
+            "isikukood_hash": "915437df-eb2d-5931-954b-c94e82f2a4cb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35806190255",
+            "isikukood_hash": "4d905f72-25b9-5c71-97ac-916aa3b66e5a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -133,7 +138,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6888010",
+                "aadress_ads__adob_id": "10696350",
                 "aadress_ads__adr_id": 2113840,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Aia tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -174,6 +179,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3700387,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85592",
+                "tegevusala_emtak_tekstina": "Arvutiõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3455540,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85592",
+                "tegevusala_emtak_tekstina": "Arvutiõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "26"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3257101,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85592",
+                "tegevusala_emtak_tekstina": "Arvutiõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "31"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2894247,
@@ -454,7 +495,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -598,26 +639,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2011",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000131175,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "85592",
                 "emtak_tekstina": "Arvutiõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000047940,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952691,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952692,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

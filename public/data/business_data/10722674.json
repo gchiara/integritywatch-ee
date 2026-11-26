@@ -7,6 +7,7 @@
             "algus_kpv": "01.11.2021",
             "eesnimi": "Andrzej",
             "isikukood": null,
+            "isikukood_hash": "95425a4e-1018-5e48-9ff4-e5c9b20d24d0",
             "kirje_id": 9001350413,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Bartos",
             "synniaeg": null,
-            "valis_kood": "71101507653",
+            "valis_kood": null,
             "valis_kood_riik": "POL",
             "valis_kood_riik_tekstina": "Poola"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "01.11.2021",
             "eesnimi": "Krzysztof",
             "isikukood": null,
+            "isikukood_hash": "71ee1635-01a7-594f-8fe5-285f0e33d04c",
             "kirje_id": 9001350414,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Kulig",
             "synniaeg": null,
-            "valis_kood": "71032101610",
+            "valis_kood": null,
             "valis_kood_riik": "POL",
             "valis_kood_riik_tekstina": "Poola"
         },
@@ -41,6 +43,7 @@
             "algus_kpv": "01.11.2021",
             "eesnimi": "Leszek",
             "isikukood": null,
+            "isikukood_hash": "a6cf83c9-1423-5d47-bfa3-2bd1365fca71",
             "kirje_id": 9001350412,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -48,7 +51,7 @@
             "lopp_kpv": null,
             "nimi": "Muzyczyszyn",
             "synniaeg": null,
-            "valis_kood": "75032017139",
+            "valis_kood": null,
             "valis_kood_riik": "POL",
             "valis_kood_riik_tekstina": "Poola"
         }
@@ -73,7 +76,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37606020340",
+            "isikukood_hash": "9e77850b-d8df-57b7-9dc6-622805b17004",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -136,6 +140,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Reti tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3754115,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "100"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reti tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3482669,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "93"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reti tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3216152,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "85"
+            },
             {
                 "ettevotja_aadress_aruandes": "Reti tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2917979,
@@ -404,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -544,12 +584,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.07.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "18129",
                 "emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000076266,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979420,
                 "lopp_kpv": null,
                 "nace_kood": "18.12",
                 "on_pohitegevusala": true

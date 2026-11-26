@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Sven",
-            "isikukood": "37310076529",
+            "isikukood": null,
+            "isikukood_hash": "f5166e74-9eed-5f3d-9eb3-3e3bb69115f2",
             "kirje_id": 9000800637,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.11.2022",
             "eesnimi": "Lenar",
-            "isikukood": "38101052720",
+            "isikukood": null,
+            "isikukood_hash": "499d843b-db69-5bf5-94dd-f5d5648a24df",
             "kirje_id": 9001495983,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37310076529",
+            "isikukood_hash": "f5166e74-9eed-5f3d-9eb3-3e3bb69115f2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10267235",
+                "aadress_ads__adob_id": "10808277",
                 "aadress_ads__adr_id": 3444421,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Värvi tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3556225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47911",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata jaemüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.91",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3296749,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47911",
+                "tegevusala_emtak_tekstina": "Jaemüük posti või Interneti teel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.91",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2974837,
@@ -494,12 +521,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2020",
+                "algus_kpv": "12.09.2025",
                 "emtak_kood": "47911",
-                "emtak_tekstina": "Jaemüük posti või Interneti teel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000488255,
+                "emtak_tekstina": "Spetsialiseerimata jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001052487,
                 "lopp_kpv": null,
                 "nace_kood": "47.91",
                 "on_pohitegevusala": true

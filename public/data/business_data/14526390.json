@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.09.2018",
             "eesnimi": "Angela",
-            "isikukood": "47307132769",
+            "isikukood": null,
+            "isikukood_hash": "3b008467-b01b-5c7f-819d-aac48df89a61",
             "kirje_id": 9000704423,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47307132769",
+            "isikukood_hash": "3b008467-b01b-5c7f-819d-aac48df89a61",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -69,18 +71,18 @@
                 "aadress_ads__ads_oid": "EE01064904",
                 "aadress_ads__koodaadress": "50247226200000TCQ0000BS2M00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "12.06.2019",
+                "algus_kpv": "20.11.2024",
                 "ehak": "2262",
                 "ehak_nimetus": "Jõgeva linn, Jõgeva vald, Jõgeva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 8602313,
+                "kande_nr": 6,
+                "kirje_id": 12803557,
                 "lopp_kpv": null,
-                "postiindeks": "48305",
-                "riik": null,
-                "riik_tekstina": null,
+                "postiindeks": "64001",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
                 "tanav_maja_korter": "Kesk tn 10"
             }
         ],
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 64001",
+                "kirje_id": 3798811,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 64001",
+                "kirje_id": 3516318,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3111619,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesk tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
                 "kirje_id": 2826612,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -252,11 +290,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000523045,
+                "kirje_id": 9000717066,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5208322"
+                "sisu": "+372 7114400"
             }
         ],
         "staatus": "R",
@@ -274,12 +312,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.07.2018",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000375648,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001013266,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

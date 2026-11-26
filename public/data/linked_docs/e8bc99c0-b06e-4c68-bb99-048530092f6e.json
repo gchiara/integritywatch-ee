@@ -2,12 +2,25 @@
     {
         "contract_title": "Preparaadikottide ostmine",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "sihtasutus Tartu Ülikooli Kliinikum",
+        "contracting_bodies": [
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            },
+            {
+                "id": "10050157",
+                "name": "aktsiaselts \"Põlva Haigla\"",
+                "town": "Põlva vald"
+            }
+        ],
         "date_dispatch_notice": "2022-07-11",
         "filename": "award_e8bc99c0-b06e-4c68-bb99-048530092f6e_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ]
     }
 ]

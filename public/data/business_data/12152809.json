@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.01.2023",
             "eesnimi": "Oksana",
-            "isikukood": "48204072223",
+            "isikukood": null,
+            "isikukood_hash": "019074c7-c07d-59f7-be6b-e2aca05296de",
             "kirje_id": 9001516263,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48204072223",
+            "isikukood_hash": "019074c7-c07d-59f7-be6b-e2aca05296de",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10d, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3637162,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10d, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3427856,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10d, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3117366,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Türi tn 10d, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3017877,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Türi tn 10d, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2822116,
@@ -239,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -348,25 +398,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.01.2022",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000598707,
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926132,
                 "lopp_kpv": null,
-                "nace_kood": "46.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.08.2013",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000082010,
-                "lopp_kpv": null,
-                "nace_kood": "46.52",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": true
             }
         ],

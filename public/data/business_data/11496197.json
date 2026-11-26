@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Anu",
-            "isikukood": "46903276046",
+            "isikukood": null,
+            "isikukood_hash": "3ed2bc62-b610-5375-9c44-fac576392d50",
             "kirje_id": 9000861987,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -19,45 +20,7 @@
             "valis_kood_riik_tekstina": null
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "25.04.2008",
-            "eesnimi": "Anu",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "46903276046",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 2,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 2807952,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Raun",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "OÜ Textelle",
     "yldandmed": {
         "aadressid": [
@@ -103,6 +66,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valuoja pst 15a-2, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3487449,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47511",
+                "tegevusala_emtak_tekstina": "Tekstiilitoodete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.51",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valuoja pst 15a-2, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3252934,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47511",
+                "tegevusala_emtak_tekstina": "Tekstiiltoodete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.51",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valuoja pst 15a-2, Viljandi linn, Viljandi maakond, 71013",
                 "kirje_id": 2904358,
@@ -299,7 +286,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -367,17 +354,31 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "05.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "kirje_id": 13711056,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 05.05.2026. a kohtumäärusega (tsiviilasja nr 2-25-20893) lõpetati pankrotimenetlus pankrotti välja kuulutamata raugemise tõttu.",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7738878,
+                "kande_nr": 7,
+                "kirje_id": 13454172,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@textelle.ee"
+                "sisu": "anuraun@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -395,15 +396,15 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000171993,
+                "kirje_id": 9000735640,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.textelle.ee"
+                "sisu": "https://www.textelle.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "25.04.2008",
@@ -413,22 +414,31 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "05.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47511",
-                "emtak_tekstina": "Tekstiiltoodete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000128706,
+                "emtak_tekstina": "Tekstiilitoodete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984642,
                 "lopp_kpv": null,
                 "nace_kood": "47.51",
                 "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

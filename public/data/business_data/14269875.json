@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Tanel",
-            "isikukood": "37411100033",
+            "isikukood": null,
+            "isikukood_hash": "b3f0de93-875d-59d3-b2a1-c1bcb1c78228",
             "kirje_id": 9000773723,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.07.2023",
             "eesnimi": "Ulvar",
-            "isikukood": "38108164914",
+            "isikukood": null,
+            "isikukood_hash": "7066e912-cce5-5d8e-8220-ef6f9d202d09",
             "kirje_id": 9001602856,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37411100033",
+            "isikukood_hash": "b3f0de93-875d-59d3-b2a1-c1bcb1c78228",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38108164914",
+            "isikukood_hash": "7066e912-cce5-5d8e-8220-ef6f9d202d09",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,15 +120,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9828756",
-                "aadress_ads__adr_id": 3475639,
+                "aadress_ads__adob_id": "10786815",
+                "aadress_ads__adr_id": 3710210,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Lauliku tn 8-8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER02062792",
-                "aadress_ads__koodaadress": "3771973610000073B00003OC1BVG70000",
+                "aadress_ads__koodaadress": "37719736200000VRG0000D65MLMB40000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.12.2017",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lauliku tn 8-8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3798898,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82921",
+                "tegevusala_emtak_tekstina": "Pakendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.92",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauliku tn 8-8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3357758,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82921",
+                "tegevusala_emtak_tekstina": "Pakendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.92",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lauliku tn 8-8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3292698,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82921",
+                "tegevusala_emtak_tekstina": "Pakendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.92",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lauliku tn 8-8, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2970495,
@@ -245,7 +285,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -352,26 +392,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.08.2022",
-                "emtak_kood": "82921",
-                "emtak_tekstina": "Pakendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000648132,
-                "lopp_kpv": null,
-                "nace_kood": "82.92",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "18.08.2022",
+                "algus_kpv": "21.04.2025",
                 "emtak_kood": "46371",
                 "emtak_tekstina": "Kohvi, tee, kakao ja maitseainete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000647352,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855239,
                 "lopp_kpv": null,
                 "nace_kood": "46.37",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "21.04.2025",
+                "emtak_kood": "82921",
+                "emtak_tekstina": "Pakendamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855238,
+                "lopp_kpv": null,
+                "nace_kood": "82.92",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

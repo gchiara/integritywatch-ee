@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2018",
             "eesnimi": "Heli",
-            "isikukood": "48301220290",
+            "isikukood": null,
+            "isikukood_hash": "9a1ddae5-2eb4-5a06-ac51-447247d59c82",
             "kirje_id": 9000737512,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48301220290",
+            "isikukood_hash": "9a1ddae5-2eb4-5a06-ac51-447247d59c82",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7570436",
-                "aadress_ads__adr_id": 485982,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Viti küla, Pajuvälja",
+                "aadress_ads__adob_id": "10350765",
+                "aadress_ads__adr_id": 3598693,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Tabasalu alevik, Kallaste tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00962513",
-                "aadress_ads__koodaadress": "371989434000000001BWA000000000000",
+                "aadress_ads__ads_oid": "EE03941849",
+                "aadress_ads__koodaadress": "37198800900000PP60000CPEP00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
-                "ehak": "9434",
-                "ehak_nimetus": "Viti küla, Harku vald, Harju maakond",
+                "algus_kpv": "27.05.2025",
+                "ehak": "8009",
+                "ehak_nimetus": "Tabasalu alevik, Harku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7366158,
+                "kande_nr": 7,
+                "kirje_id": 13129950,
                 "lopp_kpv": null,
-                "postiindeks": "76910",
+                "postiindeks": "76901",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pajuvälja"
+                "tanav_maja_korter": "Kallaste tn 7"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kallaste tn 7, Tabasalu alevik, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3626387,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pajuvälja, Viti küla, Harku vald, Harju maakond, 76910",
+                "kirje_id": 3382793,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pajuvälja, Viti küla, Harku vald, Harju maakond, 76910",
+                "kirje_id": 3082749,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Nõupidamiste ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pajuvälja, Viti küla, Harku vald, Harju maakond, 76910",
                 "kirje_id": 2778353,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -276,12 +314,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7810940,
+                "kande_nr": 7,
+                "kirje_id": 13129951,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kuik.heli@gmail.com"
+                "sisu": "heli@konverentsimeistrid.ee"
             },
             {
                 "kaardi_nr": null,
@@ -293,6 +331,17 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 56459821"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000726360,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.konverentsimeistrid.ee/"
             }
         ],
         "staatus": "R",
@@ -310,12 +359,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.05.2016",
+                "algus_kpv": "26.05.2025",
                 "emtak_kood": "82301",
-                "emtak_tekstina": "Nõupidamiste ja messide korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000225271,
+                "emtak_tekstina": "Konverentside ja messide korraldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000881301,
                 "lopp_kpv": null,
                 "nace_kood": "82.30",
                 "on_pohitegevusala": true

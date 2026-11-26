@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Rein",
-            "isikukood": "36312314236",
+            "isikukood": null,
+            "isikukood_hash": "4070b7d7-cd51-5126-b93c-682a827499e7",
             "kirje_id": 9000770961,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36312314236",
+            "isikukood_hash": "4070b7d7-cd51-5126-b93c-682a827499e7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 33, Pärnu linn, Pärnu linn, Pärnu maakond, 80044",
+                "kirje_id": 3680058,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 33, Pärnu linn, Pärnu linn, Pärnu maakond, 80044",
+                "kirje_id": 3457543,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 33, Pärnu linn, Pärnu linn, Pärnu maakond, 80044",
+                "kirje_id": 3204197,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "31"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. V. Jannseni tn 33, Pärnu linn, Pärnu linn, Pärnu maakond, 80044",
                 "kirje_id": 2920800,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -572,37 +610,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "6820",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "43212",
+                "emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000954602,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000636154,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000954603,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2009",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000016325,
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000954601,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "43212",
-                "emtak_tekstina": "Tulekahjualarmide, häire- ja valvesignalisatsiooni paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000016324,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

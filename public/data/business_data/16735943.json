@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.05.2023",
             "eesnimi": "Kaivo",
-            "isikukood": "39110055222",
+            "isikukood": null,
+            "isikukood_hash": "4bb845a7-2b5e-53c9-b1aa-046e33e87540",
             "kirje_id": 9001570759,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.05.2023",
             "eesnimi": "Keit",
-            "isikukood": "39302236828",
+            "isikukood": null,
+            "isikukood_hash": "c398ef11-612b-5f4d-a9be-72c98b53c125",
             "kirje_id": 9001570760,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39110055222",
+            "isikukood_hash": "4bb845a7-2b5e-53c9-b1aa-046e33e87540",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39302236828",
+            "isikukood_hash": "c398ef11-612b-5f4d-a9be-72c98b53c125",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -156,6 +160,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 36-5, Rakvere linn, Lääne-Viru maakond, 44307",
+                "kirje_id": 3764093,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 36-5, Rakvere linn, Lääne-Viru maakond, 44307",
+                "kirje_id": 3343609,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 36-5, Rakvere linn, Lääne-Viru maakond, 44307",
+                "kirje_id": 3105231,
+                "majandusaasta_perioodi_algus_kpv": "11.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "2"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "11.05.2023",
@@ -171,7 +213,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,6 +292,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@inserinfra.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000719387,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://inserinfra.ee/"
             }
         ],
         "staatus": "R",
@@ -267,12 +320,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.05.2023",
+                "algus_kpv": "25.03.2025",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683100,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000840152,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true

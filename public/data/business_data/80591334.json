@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.01.2021",
             "eesnimi": "Raul",
-            "isikukood": "36707302725",
+            "isikukood": null,
+            "isikukood_hash": "e40e5aa2-bc21-54e7-9523-25d4c46a9641",
             "kirje_id": 9001224406,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36707302725",
+            "isikukood_hash": "e40e5aa2-bc21-54e7-9523-25d4c46a9641",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -105,6 +107,54 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Jüri, Paluküla, Kehtna vald, Rapla maakond, 79019",
+                "kirje_id": 3724872,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordiehitiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jüri, Paluküla, Kehtna vald, Rapla maakond, 79019",
+                "kirje_id": 3474504,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordiehitiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jüri, Paluküla, Kehtna vald, Rapla maakond, 79019",
+                "kirje_id": 3167939,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordirajatiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jüri, Paluküla, Kehtna vald, Rapla maakond, 79019",
+                "kirje_id": 2995882,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordirajatiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jüri, Paluküla, Kehtna vald, Rapla maakond, 79019",
                 "kirje_id": 2680114,
                 "majandusaasta_perioodi_algus_kpv": "18.01.2021",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
@@ -117,7 +167,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -211,12 +261,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.01.2021",
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "01501",
+                "emtak_tekstina": "Segapõllumajandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000970832,
+                "lopp_kpv": null,
+                "nace_kood": "01.50",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "93111",
-                "emtak_tekstina": "Spordirajatiste käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000526787,
+                "emtak_tekstina": "Spordiehitiste käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000970831,
                 "lopp_kpv": null,
                 "nace_kood": "93.11",
                 "on_pohitegevusala": true

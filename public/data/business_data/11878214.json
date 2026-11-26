@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37812300291",
+            "isikukood": null,
+            "isikukood_hash": "7f8350b0-9c4b-567b-b8d4-1ba95268c685",
             "kirje_id": 9000760279,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37812300291",
+            "isikukood_hash": "7f8350b0-9c4b-567b-b8d4-1ba95268c685",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10359077",
+                "aadress_ads__adob_id": "11327694",
                 "aadress_ads__adr_id": 2110056,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Jaama tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jaama tn 7, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
+                "kirje_id": 3818907,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaama tn 7, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
+                "kirje_id": 3544746,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaama tn 7, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
+                "kirje_id": 3182183,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jaama tn 7, Nõmme linnaosa, Tallinn, Harju maakond, 11615",
                 "kirje_id": 2880001,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -395,15 +433,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.01.2010",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000081307,
+                "algus_kpv": "05.08.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001144082,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "68.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "05.08.2026",
+                "emtak_kood": "62101",
+                "emtak_tekstina": "Programmeerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001144083,
+                "lopp_kpv": null,
+                "nace_kood": "62.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

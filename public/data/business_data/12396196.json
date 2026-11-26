@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Karel",
-            "isikukood": "38806230018",
+            "isikukood": null,
+            "isikukood_hash": "10f967ca-72a2-561f-94b1-c070b06c8a1c",
             "kirje_id": 9000711658,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38806230018",
+            "isikukood_hash": "10f967ca-72a2-561f-94b1-c070b06c8a1c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9687512",
+                "aadress_ads__adob_id": "11125254",
                 "aadress_ads__adr_id": 2606684,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Asuküla, Raimo",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raimo, Asuküla, Saaremaa vald, Saare maakond, 93717",
+                "kirje_id": 3808062,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33171",
+                "tegevusala_emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.17",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raimo, Asuküla, Saaremaa vald, Saare maakond, 93717",
+                "kirje_id": 3538539,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33171",
+                "tegevusala_emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.17",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raimo, Asuküla, Saaremaa vald, Saare maakond, 93717",
+                "kirje_id": 3267365,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raimo, Asuküla, Saaremaa vald, Saare maakond, 93717",
                 "kirje_id": 2965507,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -359,14 +397,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2017",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000313778,
+                "algus_kpv": "19.07.2025",
+                "emtak_kood": "33171",
+                "emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034264,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "33.17",
                 "on_pohitegevusala": true
             }
         ],

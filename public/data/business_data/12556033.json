@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Marit",
-            "isikukood": "48406210211",
+            "isikukood": null,
+            "isikukood_hash": "9ff002e3-4204-55eb-958d-d3964057faae",
             "kirje_id": 9000771927,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "39103010210",
+            "isikukood": null,
+            "isikukood_hash": "b6eba456-0388-5f11-8429-42728abbd103",
             "kirje_id": 9000771920,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48406210211",
+            "isikukood_hash": "9ff002e3-4204-55eb-958d-d3964057faae",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39103010210",
+            "isikukood_hash": "b6eba456-0388-5f11-8429-42728abbd103",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -150,13 +154,49 @@
                 "sisu": "Supermoon OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "18.10.2013",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Marati tn 5a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11712",
+                "kirje_id": 3757561,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74131",
+                "tegevusala_emtak_tekstina": "Sisekujundus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.13",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Marati tn 5a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11712",
+                "kirje_id": 3493022,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74131",
+                "tegevusala_emtak_tekstina": "Sisekujundus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.13",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Marati tn 5a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11712",
+                "kirje_id": 3223476,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74101",
+                "tegevusala_emtak_tekstina": "Disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.10",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Marati tn 5a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11712",
                 "kirje_id": 2910405,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -401,15 +441,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.10.2013",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000088411,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "74131",
+                "emtak_tekstina": "Sisekujundus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990175,
                 "lopp_kpv": null,
-                "nace_kood": "74.10",
+                "nace_kood": "74.13",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "74111",
+                "emtak_tekstina": "Tööstustoote- ja moedisain",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990176,
+                "lopp_kpv": null,
+                "nace_kood": "74.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

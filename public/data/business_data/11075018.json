@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.08.2019",
             "eesnimi": "Aivo",
-            "isikukood": "37405072728",
+            "isikukood": null,
+            "isikukood_hash": "1de336ef-7808-579d-b243-b9906a7d5a0f",
             "kirje_id": 9001009514,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37405072728",
+            "isikukood_hash": "1de336ef-7808-579d-b243-b9906a7d5a0f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3799067,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3429890,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3214651,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3021267,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3009368,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lossi tn 38, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
                 "kirje_id": 2382941,
@@ -310,7 +372,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -439,12 +501,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928159,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "33201",
                 "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000011734,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928158,
                 "lopp_kpv": null,
                 "nace_kood": "33.20",
                 "on_pohitegevusala": true

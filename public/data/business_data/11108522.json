@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Marcel",
-            "isikukood": "36501172715",
+            "isikukood": null,
+            "isikukood_hash": "0868ba6c-2399-53b8-b52b-96ddbc2ceb1a",
             "kirje_id": 9000675967,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36504282743",
+            "isikukood": null,
+            "isikukood_hash": "73348f30-5391-5ab5-96dd-b75df12de62c",
             "kirje_id": 9000675950,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38206122722",
+            "isikukood_hash": "3ce0bde4-2237-56b4-b93b-722d686a6f35",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3760018,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46812",
+                "tegevusala_emtak_tekstina": "Mootorikütuse hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.81",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3485351,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46812",
+                "tegevusala_emtak_tekstina": "Mootorikütuse hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.81",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3213512,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47301",
+                "tegevusala_emtak_tekstina": "Mootorikütuse jaemüük, sh tanklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.30",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
                 "kirje_id": 2871252,
@@ -352,7 +391,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -466,14 +505,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2009",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47301",
-                "emtak_tekstina": "Mootorikütuse jaemüük, sh tanklate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000018329,
+                "emtak_tekstina": "Mootorikütuse jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982427,
                 "lopp_kpv": null,
                 "nace_kood": "47.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982428,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46812",
+                "emtak_tekstina": "Mootorikütuse hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982426,
+                "lopp_kpv": null,
+                "nace_kood": "46.81",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Jaan",
-            "isikukood": "36106166012",
+            "isikukood": null,
+            "isikukood_hash": "9923766d-b564-567d-b352-9839f21b5970",
             "kirje_id": 9000745089,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36106166012",
+            "isikukood_hash": "9923766d-b564-567d-b352-9839f21b5970",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Andrese, Kõo küla, Põhja-Sakala vald, Viljandi maakond, 70501",
+                "kirje_id": 3767535,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Andrese, Kõo küla, Põhja-Sakala vald, Viljandi maakond, 70501",
+                "kirje_id": 3502245,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Andrese, Kõo küla, Põhja-Sakala vald, Viljandi maakond, 70501",
+                "kirje_id": 3229186,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Andrese, Kõo küla, Põhja-Sakala vald, Viljandi maakond, 70501",
                 "kirje_id": 2829413,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -540,12 +578,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7780304,
+                "kande_nr": 8,
+                "kirje_id": 12989162,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "jaan@flintkaubandus.ee"
+                "sisu": "jaan@flint.ee"
             }
         ],
         "staatus": "R",
@@ -563,25 +601,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000239175,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000999425,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "21.06.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000039688,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000999426,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": false
             }
         ],

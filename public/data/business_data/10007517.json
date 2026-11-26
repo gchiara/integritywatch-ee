@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "36401052714",
+            "isikukood": null,
+            "isikukood_hash": "9aa671d3-84a6-5513-8432-63b86be0f663",
             "kirje_id": 9000670894,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47705225216",
+            "isikukood_hash": "2abd26c2-ce80-5217-9d49-d8a6693685c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3565240,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2025",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3305319,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2024",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3006226,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2023",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "37"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vae tn 16, Laagri alevik, Saue vald, Harju maakond, 76401",
                 "kirje_id": 2738455,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -554,17 +592,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000192939,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6501920"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 2000192940,
                 "liik": "FAX",
                 "liik_tekstina": "Faks",
@@ -587,11 +614,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000211840,
+                "kirje_id": 9000728958,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.veterinaaria.ee"
+                "sisu": "http://www.veterinaaria.ee"
             }
         ],
         "staatus": "R",
@@ -609,70 +636,70 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.10.2019",
-                "emtak_kood": "46341",
-                "emtak_tekstina": "Alkoholjookide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000451503,
-                "lopp_kpv": null,
-                "nace_kood": "46.34",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.10.2021",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000588739,
-                "lopp_kpv": null,
-                "nace_kood": "46.18",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "73121",
-                "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000309371,
-                "lopp_kpv": null,
-                "nace_kood": "73.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "25.06.2010",
-                "emtak_kood": "46462",
-                "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000043547,
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "46461",
+                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063072,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.06.2010",
+                "algus_kpv": "30.10.2025",
                 "emtak_kood": "46211",
                 "emtak_tekstina": "Teravilja, töötlemata tubaka, seemnete ja loomasööda hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000043548,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063073,
                 "lopp_kpv": null,
                 "nace_kood": "46.21",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46461",
-                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000044813,
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "46462",
+                "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063074,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "73121",
+                "emtak_tekstina": "Reklaami vahendamine meedias",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063075,
+                "lopp_kpv": null,
+                "nace_kood": "73.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063076,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.10.2025",
+                "emtak_kood": "46341",
+                "emtak_tekstina": "Alkohoolsete jookide hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063077,
+                "lopp_kpv": null,
+                "nace_kood": "46.34",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

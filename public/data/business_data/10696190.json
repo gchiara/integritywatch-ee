@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Alar",
-            "isikukood": "38410052739",
+            "isikukood": null,
+            "isikukood_hash": "6c6e5f92-385b-5e8e-93eb-166213024c92",
             "kirje_id": 9000766852,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38410052739",
+            "isikukood_hash": "6c6e5f92-385b-5e8e-93eb-166213024c92",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3621751,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "26"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3341437,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "26"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3092700,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "26"
+            },
             {
                 "ettevotja_aadress_aruandes": "Soola tn 3, Tartu linn, Tartu linn, Tartu maakond, 51014",
                 "kirje_id": 2785172,
@@ -383,7 +421,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -526,48 +564,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2010",
+                "algus_kpv": "20.03.2025",
+                "emtak_kood": "55101",
+                "emtak_tekstina": "Hotellid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000837854,
+                "lopp_kpv": null,
+                "nace_kood": "55.10",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.03.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000043146,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000837856,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "25.06.2010",
+                "algus_kpv": "20.03.2025",
+                "emtak_kood": "96231",
+                "emtak_tekstina": "Päevaspaa, massaažisalongide ja saunade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000837857,
+                "lopp_kpv": null,
+                "nace_kood": "96.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.03.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000043147,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000837855,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.05.2018",
-                "emtak_kood": "96041",
-                "emtak_tekstina": "Saunade, solaariumite ja massaažisalongide tegevus jm füüsilise heaoluga seotud teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000353443,
-                "lopp_kpv": null,
-                "nace_kood": "96.04",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "55101",
-                "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008148,
-                "lopp_kpv": null,
-                "nace_kood": "55.10",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

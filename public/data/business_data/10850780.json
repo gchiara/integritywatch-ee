@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "36507316518",
+            "isikukood": null,
+            "isikukood_hash": "5de74e25-d7f7-52d1-8160-81fdf183b593",
             "kirje_id": 9000754364,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36507316518",
+            "isikukood_hash": "5de74e25-d7f7-52d1-8160-81fdf183b593",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38902136533",
+            "isikukood_hash": "92e72e40-58b8-548a-abdf-7ed5d63ee805",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hakkehoidla, Umbsaare küla, Võru vald, Võru maakond, 64101",
+                "kirje_id": 3793882,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02202",
+                "tegevusala_emtak_tekstina": "Küttepuude tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hakkehoidla, Umbsaare küla, Võru vald, Võru maakond, 64101",
+                "kirje_id": 3495471,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02202",
+                "tegevusala_emtak_tekstina": "Küttepuude tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hakkehoidla, Umbsaare küla, Võru vald, Võru maakond, 64101",
+                "kirje_id": 3186543,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16109",
+                "tegevusala_emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.10",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hakkehoidla, Umbsaare küla, Võru vald, Võru maakond, 64101",
                 "kirje_id": 2897013,
@@ -407,7 +446,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -514,15 +553,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000012494,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "02202",
+                "emtak_tekstina": "Küttepuude tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000992679,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "02.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.07.2026",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135826,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

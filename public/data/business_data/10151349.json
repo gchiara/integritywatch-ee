@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.12.2022",
             "eesnimi": "Ago",
-            "isikukood": "35702080274",
+            "isikukood": null,
+            "isikukood_hash": "a15625ad-d4c0-58c2-90f1-037bb6019ae5",
             "kirje_id": 9001510338,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35702080274",
+            "isikukood_hash": "a15625ad-d4c0-58c2-90f1-037bb6019ae5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9690842",
+                "aadress_ads__adob_id": "11489478",
                 "aadress_ads__adr_id": 3435371,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Taagepera küla, Taagepera mõis",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Taagepera mõis, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3573625,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Taagepera mõis, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3314359,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "6820",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Taagepera mõis, Taagepera küla, Tõrva vald, Valga maakond, 68502",
                 "kirje_id": 2993214,
@@ -477,45 +503,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 24,
-                "kirje_id": 10384326,
+                "kande_nr": 25,
+                "kirje_id": 12936683,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "maris@wagenkull.ee"
+                "sisu": "oscar@wagenkull.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000003529,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7666395"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000560380,
+                "kirje_id": 9000720632,
                 "liik": "FAX",
                 "liik_tekstina": "Faks",
                 "lopp_kpv": null,
-                "sisu": "+372 7635590"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000560381,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.taagepera.eu"
+                "sisu": "+372 58180850"
             }
         ],
         "staatus": "R",
@@ -533,12 +537,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.12.2022",
-                "emtak_kood": "6820",
+                "algus_kpv": "02.01.2026",
+                "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000660966,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001073691,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true

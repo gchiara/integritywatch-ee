@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Priit",
-            "isikukood": "37611180301",
+            "isikukood": null,
+            "isikukood_hash": "0c008016-8c27-5760-b629-b986be33273e",
             "kirje_id": 9000674438,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37611180301",
+            "isikukood_hash": "0c008016-8c27-5760-b629-b986be33273e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10342841",
-                "aadress_ads__adr_id": 3605133,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Teemeistri tn 2/2",
+                "aadress_ads__adob_id": "11139229",
+                "aadress_ads__adr_id": 2122923,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Kadaka pst 112",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01659850",
-                "aadress_ads__koodaadress": "37784052400000TW90000CQ9D00000000",
+                "aadress_ads__ads_oid": "EE03810560",
+                "aadress_ads__koodaadress": "3778405240000060V00001OHO00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "25.06.2021",
+                "algus_kpv": "27.03.2026",
                 "ehak": "0524",
                 "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 9643996,
+                "kande_nr": 13,
+                "kirje_id": 13644796,
                 "lopp_kpv": null,
-                "postiindeks": "10916",
+                "postiindeks": "11625",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Teemeistri tn 2/2"
+                "tanav_maja_korter": "Kadaka pst 112"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka pst 112, Nõmme linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3710496,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teemeistri tn 2/2, Nõmme linnaosa, Tallinn, Harju maakond, 10916",
+                "kirje_id": 3468074,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teemeistri tn 2/2, Nõmme linnaosa, Tallinn, Harju maakond, 10916",
+                "kirje_id": 3155916,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Teemeistri tn 2/2, Nõmme linnaosa, Tallinn, Harju maakond, 10916",
                 "kirje_id": 2862300,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,22 +456,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000185486,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
+                "kirje_id": 9000185487,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "www.rammehitus.ee"
+                "sisu": "+372 6676591"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000185487,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
+                "kirje_id": 9000741020,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 6676591"
+                "sisu": "http://www.rammehitus.ee"
             }
         ],
         "staatus": "R",
@@ -451,14 +489,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2013",
-                "emtak_kood": "41201",
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000042282,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000964760,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

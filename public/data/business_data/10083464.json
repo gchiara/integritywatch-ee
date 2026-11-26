@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Jüri",
-            "isikukood": "36502246018",
+            "isikukood": null,
+            "isikukood_hash": "46e4246b-816a-5618-81bb-fc82f232c1b5",
             "kirje_id": 9000714439,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36502246018",
+            "isikukood_hash": "46e4246b-816a-5618-81bb-fc82f232c1b5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toome tn 23/4, Viljandi linn, Viljandi maakond, 71010",
+                "kirje_id": 3637277,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toome tn 23/4, Viljandi linn, Viljandi maakond, 71010",
+                "kirje_id": 3417446,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46331",
+                "tegevusala_emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.33",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toome tn 23/4, Viljandi linn, Viljandi maakond, 71010",
+                "kirje_id": 3105196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46321",
+                "tegevusala_emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.32",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Toome tn 23/4, Viljandi linn, Viljandi maakond, 71010",
                 "kirje_id": 2797536,
@@ -442,20 +480,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "30.12.2011",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 3,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kapitali_suurus": "20000.00",
+                "kande_nr": 8,
+                "kapitali_suurus": "10000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 4326231,
+                "kirje_id": 12745476,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -550,15 +588,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "30.12.2011",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 3,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
+                "kande_nr": 8,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4326232,
+                "kirje_id": 12745477,
                 "lopp_kpv": null,
-                "muutmise_kpv": "20.12.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -613,48 +651,81 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "5221",
-                "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000137804,
-                "lopp_kpv": null,
-                "nace_kood": "52.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "47111",
-                "emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000137803,
-                "lopp_kpv": null,
-                "nace_kood": "47.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2010",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "46331",
                 "emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000065883,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916179,
                 "lopp_kpv": null,
                 "nace_kood": "46.33",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46321",
+                "emtak_tekstina": "Liha ja lihatoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916180,
+                "lopp_kpv": null,
+                "nace_kood": "46.32",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46321",
-                "emtak_tekstina": "Liha ja lihatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000014001,
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46381",
+                "emtak_tekstina": "Muude toidukaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916183,
                 "lopp_kpv": null,
-                "nace_kood": "46.32",
-                "on_pohitegevusala": true
+                "nace_kood": "46.38",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916182,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46311",
+                "emtak_tekstina": "Puu- ja köögivilja hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916181,
+                "lopp_kpv": null,
+                "nace_kood": "46.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46362",
+                "emtak_tekstina": "Kondiitri- ja pagaritoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916184,
+                "lopp_kpv": null,
+                "nace_kood": "46.36",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46371",
+                "emtak_tekstina": "Kohvi, tee, kakao ja maitseainete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916186,
+                "lopp_kpv": null,
+                "nace_kood": "46.37",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

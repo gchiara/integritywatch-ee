@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.08.2019",
             "eesnimi": "Kaspar",
-            "isikukood": "39208076522",
+            "isikukood": null,
+            "isikukood_hash": "17702b1f-6faa-551d-96d1-1154a735ee45",
             "kirje_id": 9001011724,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39208076522",
+            "isikukood_hash": "17702b1f-6faa-551d-96d1-1154a735ee45",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9479636",
-                "aadress_ads__adr_id": 3251730,
+                "aadress_ads__adob_id": "10867440",
+                "aadress_ads__adr_id": 3717066,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Antsla vald, Visela küla, Rösthovi",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01033048",
-                "aadress_ads__koodaadress": "87142941400000000F3PH000000000000",
+                "aadress_ads__koodaadress": "87145941400000000F3PH000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.08.2019",
                 "ehak": "9414",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rösthovi, Visela küla, Antsla vald, Võru maakond, 66510",
+                "kirje_id": 3802957,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rösthovi, Visela küla, Antsla vald, Võru maakond, 66510",
+                "kirje_id": 3556305,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rösthovi, Visela küla, Antsla vald, Võru maakond, 66510",
+                "kirje_id": 3238781,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rösthovi, Visela küla, Antsla vald, Võru maakond, 66510",
                 "kirje_id": 2950840,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,26 +312,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000637093,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "25.03.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000538361,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010015,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010016,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010017,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.07.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001138339,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.07.2026",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001138340,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

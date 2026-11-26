@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Sirje",
-            "isikukood": "47912062726",
+            "isikukood": null,
+            "isikukood_hash": "907b1253-d910-535a-b59c-5334bf3b84c9",
             "kirje_id": 9000705841,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47912062726",
+            "isikukood_hash": "907b1253-d910-535a-b59c-5334bf3b84c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 15, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3644139,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10891",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.89",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 15, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3366293,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10891",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.89",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Piiri tn 15, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3192773,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Piiri tn 15, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
                 "kirje_id": 2906188,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,14 +348,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000309276,
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864046,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "10891",
+                "emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864045,
+                "lopp_kpv": null,
+                "nace_kood": "10.89",
                 "on_pohitegevusala": true
             }
         ],

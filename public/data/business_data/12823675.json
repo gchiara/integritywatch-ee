@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Linnar",
-            "isikukood": "37312140215",
+            "isikukood": null,
+            "isikukood_hash": "e781682b-3184-5642-b674-da55bae737c4",
             "kirje_id": 9000871189,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37312140215",
+            "isikukood_hash": "e781682b-3184-5642-b674-da55bae737c4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mooni tn 19-2, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3742073,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mooni tn 19-2, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3536453,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "7739",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mooni tn 19-2, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3257837,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mooni tn 19-2, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
+                "kirje_id": 3052006,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "7739",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mooni tn 19-2, Kristiine linnaosa, Tallinn, Harju maakond, 10613",
                 "kirje_id": 2779432,
@@ -203,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -324,15 +374,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.09.2017",
+                "algus_kpv": "29.06.2026",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000324124,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001125094,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "56112",
+                "emtak_tekstina": "Kiirsöögikohtade jm toitlustuskohtade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001125095,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "7739",
+                "emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001125096,
+                "lopp_kpv": null,
+                "nace_kood": "77.39",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

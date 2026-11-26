@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "ANNELI",
-            "isikukood": "46906016519",
+            "isikukood": null,
+            "isikukood_hash": "92551969-0c30-5911-ad06-eea373dee8ad",
             "kirje_id": 9000691243,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38905046516",
+            "isikukood_hash": "54a6833f-43d2-5eaa-9a3f-18fcc0fe6d6d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9807129",
+                "aadress_ads__adob_id": "10695296",
                 "aadress_ads__adr_id": 2116604,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Aia tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3831268,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47401",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3484196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47401",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3222867,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47411",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.41",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2937818,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -396,12 +434,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7771163,
+                "kande_nr": 11,
+                "kirje_id": 13533775,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "anneli.annus@gmail.com"
+                "sisu": "argo@nb.ee"
             },
             {
                 "kaardi_nr": null,
@@ -419,17 +457,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000274658,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.nb.ee,         www.zargoz.com"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 9000286733,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
@@ -441,11 +468,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000419357,
+                "kirje_id": 9000737943,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.notebooks.ee"
+                "sisu": "https://nb.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000737944,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://notebooks.ee"
             }
         ],
         "staatus": "R",
@@ -463,15 +501,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "47411",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47401",
                 "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000139841,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981186,
                 "lopp_kpv": null,
-                "nace_kood": "47.41",
+                "nace_kood": "47.40",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "11.09.2026",
+                "emtak_kood": "77331",
+                "emtak_tekstina": "Kontorimasinate ja -seadmete ning arvutite rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001150017,
+                "lopp_kpv": null,
+                "nace_kood": "77.33",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

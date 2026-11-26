@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Lauri",
-            "isikukood": "37008210239",
+            "isikukood": null,
+            "isikukood_hash": "b2841ba8-bece-57bb-b9bc-57e06664efec",
             "kirje_id": 9000829268,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37008210239",
+            "isikukood_hash": "b2841ba8-bece-57bb-b9bc-57e06664efec",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "5683789",
+                "aadress_ads__adob_id": "10793364",
                 "aadress_ads__adr_id": 1642617,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Rannamõisa küla, Ranniku tee 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ranniku tee 5, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3631955,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ranniku tee 5, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3375382,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ranniku tee 5, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3171766,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ranniku tee 5, Rannamõisa küla, Harku vald, Harju maakond, 76906",
                 "kirje_id": 2860881,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,12 +515,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "17.05.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000031131,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000873873,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.06.2019",
             "eesnimi": "Veronika",
-            "isikukood": "46903022763",
+            "isikukood": null,
+            "isikukood_hash": "74f23f16-7274-58b7-8bda-843d94be85c6",
             "kirje_id": 9000984932,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46903022763",
+            "isikukood_hash": "74f23f16-7274-58b7-8bda-843d94be85c6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10432226",
-                "aadress_ads__adr_id": 3082832,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Riia tn 142",
+                "aadress_ads__adob_id": "11094124",
+                "aadress_ads__adr_id": 3789277,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Spektri tn 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00771052",
-                "aadress_ads__koodaadress": "79793815100000SIB0000BICM00000000",
+                "aadress_ads__koodaadress": "79793815100000W910000DDKO00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.08.2023",
+                "algus_kpv": "15.05.2025",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 10777827,
+                "kande_nr": 11,
+                "kirje_id": 13112741,
                 "lopp_kpv": null,
                 "postiindeks": "50415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Riia tn 142"
+                "tanav_maja_korter": "Spektri tn 6"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Spektri tn 6, Tartu linn, Tartu linn, Tartu maakond, 50415",
+                "kirje_id": 3788485,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Spektri tn 6, Tartu linn, Tartu linn, Tartu maakond, 50415",
+                "kirje_id": 3502460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 142, Tartu linn, Tartu linn, Tartu maakond, 50415",
+                "kirje_id": 3235528,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Piiri tn 4, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48307",
                 "kirje_id": 2895351,
@@ -334,7 +372,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -441,12 +479,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.12.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "86221",
-                "emtak_tekstina": "Eriarstiabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000522627,
+                "emtak_tekstina": "Eriarstiabi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000999628,
                 "lopp_kpv": null,
                 "nace_kood": "86.22",
                 "on_pohitegevusala": true

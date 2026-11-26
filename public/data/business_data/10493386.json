@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Anne",
-            "isikukood": "44802240314",
+            "isikukood": null,
+            "isikukood_hash": "bdc5bb41-1f9c-5451-a4dd-85e0fc474794",
             "kirje_id": 9000697458,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Jaan",
-            "isikukood": "37605240383",
+            "isikukood": null,
+            "isikukood_hash": "e07758ef-e96a-546c-99d2-631ab6e6155c",
             "kirje_id": 9000697459,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "44802240314",
+            "isikukood_hash": "bdc5bb41-1f9c-5451-a4dd-85e0fc474794",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37605240383",
+            "isikukood_hash": "e07758ef-e96a-546c-99d2-631ab6e6155c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -114,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10270037",
+                "aadress_ads__adob_id": "11105191",
                 "aadress_ads__adr_id": 2219385,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Mäealuse tn 6b",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 6b, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3679769,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "28291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata üldmasinate ja mehhanismide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.29",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 6b, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3391851,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "28291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata üldmasinate ja mehhanismide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.29",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 6b, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3173502,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "28291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata üldmasinate ja mehhanismide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.29",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäealuse tn 6b, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2839446,
@@ -459,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,12 +628,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "28291",
                 "emtak_tekstina": "Mujal liigitamata üldmasinate ja mehhanismide tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000040392,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000890110,
                 "lopp_kpv": null,
                 "nace_kood": "28.29",
                 "on_pohitegevusala": true

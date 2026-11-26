@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.09.2018",
             "eesnimi": "Ivo",
-            "isikukood": "36606064212",
+            "isikukood": null,
+            "isikukood_hash": "b274769f-33e3-56b5-bafa-49e8acf54dae",
             "kirje_id": 9000677310,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36606064212",
+            "isikukood_hash": "b274769f-33e3-56b5-bafa-49e8acf54dae",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10562001",
+                "aadress_ads__adob_id": "11195034",
                 "aadress_ads__adr_id": 3652018,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Metsaääre küla, Kadaka tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 1, Metsaääre küla, Saarde vald, Pärnu maakond, 86408",
+                "kirje_id": 3627064,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 1, Metsaääre küla, Saarde vald, Pärnu maakond, 86408",
+                "kirje_id": 3330502,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 1, Metsaääre küla, Saarde vald, Pärnu maakond, 86408",
+                "kirje_id": 3073138,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43222",
+                "tegevusala_emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 1, Metsaääre küla, Saarde vald, Pärnu maakond, 86408",
                 "kirje_id": 2785130,
@@ -310,7 +348,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -417,12 +455,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2012",
+                "algus_kpv": "24.02.2025",
                 "emtak_kood": "43222",
-                "emtak_tekstina": "Veetorustiku  ja sanitaarseadmete paigaldus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000190077,
+                "emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000825469,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true

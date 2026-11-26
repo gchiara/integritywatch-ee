@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Kaido",
-            "isikukood": "37006134214",
+            "isikukood": null,
+            "isikukood_hash": "f0be8774-4421-5c78-80c4-0e1b7e5c1bfe",
             "kirje_id": 9000761459,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37006134214",
+            "isikukood_hash": "f0be8774-4421-5c78-80c4-0e1b7e5c1bfe",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9452327",
-                "aadress_ads__adr_id": 3400048,
+                "aadress_ads__adob_id": "11004174",
+                "aadress_ads__adr_id": 3767290,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sindi linn, Lõokese tn 20",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01045685",
-                "aadress_ads__koodaadress": "68809760700000TI70000BTTB00000000",
+                "aadress_ads__koodaadress": "68806760700000TI70000BTTB00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
                 "ehak": "7607",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõokese tn 20, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3751361,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõokese tn 20, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3498968,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõokese tn 20, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3214878,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõokese tn 20, Sindi linn, Tori vald, Pärnu maakond, 86705",
                 "kirje_id": 2870236,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,14 +408,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2023",
-                "emtak_kood": "41201",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694789,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996123,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

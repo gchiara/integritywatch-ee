@@ -186,17 +186,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Seller is a large political donor",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10015238",
-            "Political donations from beneficial owner of a contractor company: Heiti Hääl. Company: AS Alexela(10015238). AMT: 20000",
-            "Nominees as company beneficial owners: 36305100240",
-            "Nominees as company board members: 36504250260",
-            "Nominees as company board members: 37210100349",
             "Possible shell company: 10180925"
         ],
         "noticeUid": "fc5319d0-149d-4d2e-aaaf-2ba9cae5a9f7",
@@ -305,5 +299,111 @@
         ],
         "notice_items_num": 1,
         "refnum": "251072"
+    },
+    {
+        "contract_title": "Autokütuse ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10833853",
+                "name": "AS Lõuna-Eesti Haigla",
+                "town": "Võru vald"
+            },
+            {
+                "id": "80207123",
+                "name": "Mittetulundusühing Lõuna-Eesti Erihooldusteenuste Keskus",
+                "town": "Võru vald"
+            },
+            {
+                "id": "11005420",
+                "name": "osaühing METSAKOHVIK",
+                "town": "Võru vald"
+            }
+        ],
+        "cpv": "09100000",
+        "date_dispatch_notice": "2025-06-03",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_eea20854-356b-4bd5-bef0-aa8e52ab8ca2_0.json",
+        "flags": [
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Start date present but end date missing."
+        ],
+        "noticeUid": "eea20854-356b-4bd5-bef0-aa8e52ab8ca2",
+        "notice_items": [
+            {
+                "duration": "36 MONTH"
+            }
+        ],
+        "refnum": "296246-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-30"
+                ],
+                "award_value": "200000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10171518",
+                        "contractor_name": "AS Terminal",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "4"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Autokütuse ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10833853",
+                "name": "AS Lõuna-Eesti Haigla",
+                "town": "Võru vald"
+            },
+            {
+                "id": "80207123",
+                "name": "Mittetulundusühing Lõuna-Eesti Erihooldusteenuste Keskus",
+                "town": "Võru vald"
+            },
+            {
+                "id": "11005420",
+                "name": "osaühing METSAKOHVIK",
+                "town": "Võru vald"
+            }
+        ],
+        "contractors": [
+            "10171518"
+        ],
+        "cpv": "09100000",
+        "date_dispatch_notice": "2025-09-08",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_49876b27-0bc6-4d27-9ea3-1cf7f512012c_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10171518",
+            "Nominees as company beneficial owners: Malle_Raudsepp_07.09.2018"
+        ],
+        "noticeUid": "49876b27-0bc6-4d27-9ea3-1cf7f512012c",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "296246-0000"
     }
 ]

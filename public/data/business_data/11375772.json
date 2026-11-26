@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Enn",
-            "isikukood": "36008156513",
+            "isikukood": null,
+            "isikukood_hash": "72106e3d-02ac-5038-9265-8fa8a701a3e0",
             "kirje_id": 9000767709,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36008156513",
+            "isikukood_hash": "72106e3d-02ac-5038-9265-8fa8a701a3e0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": null,
-                "aadress_ads__adr_id": 3158376,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Mammaste küla",
+                "aadress_ads__adob_id": "10982019",
+                "aadress_ads__adr_id": 3523862,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Mammaste küla, Tehnika tee 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": null,
-                "aadress_ads__koodaadress": "646224769000000000000000000000000",
+                "aadress_ads__ads_oid": "ME00834324",
+                "aadress_ads__koodaadress": "64622476900000T520000CHH200000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.02.2018",
+                "algus_kpv": "03.12.2024",
                 "ehak": "4769",
                 "ehak_nimetus": "Mammaste küla, Põlva vald, Põlva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7904896,
+                "kande_nr": 7,
+                "kirje_id": 12824198,
                 "lopp_kpv": null,
                 "postiindeks": "63211",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": null
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Tehnika tee 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tee 4, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3758784,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49331",
+                "tegevusala_emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.33",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tee 4, Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3524275,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mammaste küla, Põlva vald, Põlva maakond, 63211",
+                "kirje_id": 3138118,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mammaste küla, Põlva vald, Põlva maakond, 63211",
                 "kirje_id": 2860273,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -409,33 +447,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000127173,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7996162"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 6000127174,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5065627"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000145125,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7996162"
             }
         ],
         "staatus": "R",
@@ -453,36 +469,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.03.2016",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000219498,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "49331",
+                "emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128455,
                 "lopp_kpv": null,
-                "nace_kood": "49.41",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.06.2017",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000297543,
-                "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "49.33",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "07.06.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000027063,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128456,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "49.41",
                 "on_pohitegevusala": false
             }
         ],

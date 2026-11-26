@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Kairo",
-            "isikukood": "37305245217",
+            "isikukood": null,
+            "isikukood_hash": "d52eeb1d-67a8-5f75-98f2-f109581936a5",
             "kirje_id": 9000819360,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2019",
             "eesnimi": "Liis",
-            "isikukood": "48410225210",
+            "isikukood": null,
+            "isikukood_hash": "7aaba18c-9404-54a9-8bba-989bbd33fcd5",
             "kirje_id": 9001040277,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37305245217",
+            "isikukood_hash": "d52eeb1d-67a8-5f75-98f2-f109581936a5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48410225210",
+            "isikukood_hash": "7aaba18c-9404-54a9-8bba-989bbd33fcd5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõe-Laasma, Küdema küla, Saaremaa vald, Saare maakond, 93622",
+                "kirje_id": 3662517,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe-Laasma, Küdema küla, Saaremaa vald, Saare maakond, 93622",
+                "kirje_id": 3394435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe-Laasma, Küdema küla, Saaremaa vald, Saare maakond, 93622",
+                "kirje_id": 3201081,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jõe-Laasma, Küdema küla, Saaremaa vald, Saare maakond, 93622",
                 "kirje_id": 2949338,
@@ -303,7 +343,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -408,12 +448,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.07.2011",
+                "algus_kpv": "03.06.2025",
                 "emtak_kood": "94996",
                 "emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000145556,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000892501,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

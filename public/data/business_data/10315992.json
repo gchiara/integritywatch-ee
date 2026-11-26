@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.06.2019",
             "eesnimi": "Gunnar",
-            "isikukood": "36009100011",
+            "isikukood": null,
+            "isikukood_hash": "71f3daad-890e-5811-a1be-20d709acdcdf",
             "kirje_id": 9000985106,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36009100011",
+            "isikukood_hash": "71f3daad-890e-5811-a1be-20d709acdcdf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -75,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46308150040",
+            "isikukood_hash": "f8f22c6e-53fb-5753-812e-9b0375dfba7a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -138,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Posti tn 1, Valjala alevik, Saaremaa vald, Saare maakond, 94302",
+                "kirje_id": 3698662,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Posti tn 1, Valjala alevik, Saaremaa vald, Saare maakond, 94302",
+                "kirje_id": 3441544,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Posti tn 1, Valjala alevik, Saaremaa vald, Saare maakond, 94302",
+                "kirje_id": 3103701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Posti tn 1, Valjala alevik, Saaremaa vald, Saare maakond, 94302",
                 "kirje_id": 2955579,
@@ -490,7 +529,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -643,26 +682,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635579,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2019",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "42221",
                 "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000428419,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000939140,
                 "lopp_kpv": null,
                 "nace_kood": "42.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "43211",
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000939141,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

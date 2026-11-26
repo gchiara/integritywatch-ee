@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Andrei",
-            "isikukood": "38305310222",
+            "isikukood": null,
+            "isikukood_hash": "0aea0b4d-df29-545a-9bf0-60a0ae19b1aa",
             "kirje_id": 9000772648,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38305310222",
+            "isikukood_hash": "0aea0b4d-df29-545a-9bf0-60a0ae19b1aa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6616548",
-                "aadress_ads__adr_id": 2287879,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Paasiku tn 4-277",
+                "aadress_ads__adob_id": "10345155",
+                "aadress_ads__adr_id": 3605874,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Valge tn 13-24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01337088",
-                "aadress_ads__koodaadress": "377840387000004BH00001RXA3K7U0000",
+                "aadress_ads__ads_oid": "MR03939852",
+                "aadress_ads__koodaadress": "37784029800000KGG00006MX7KS970000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.12.2017",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "09.10.2024",
+                "ehak": "0298",
+                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7225843,
+                "kande_nr": 8,
+                "kirje_id": 12731537,
                 "lopp_kpv": null,
-                "postiindeks": "13916",
+                "postiindeks": "11415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Paasiku tn 4-277"
+                "tanav_maja_korter": "Valge tn 13-24"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valge tn 13-24, Kesklinna linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3769700,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valge tn 13-24, Kesklinna linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3521035,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paasiku tn 4-277, Lasnamäe linnaosa, Tallinn, Harju maakond, 13916",
+                "kirje_id": 3189319,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paasiku tn 4-277, Lasnamäe linnaosa, Tallinn, Harju maakond, 13916",
                 "kirje_id": 2853708,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -372,11 +410,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000169268,
+                "kirje_id": 9000714902,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.artepolitan.eu"
+                "sisu": "http://www.artepolitan.eu"
             }
         ],
         "staatus": "R",
@@ -394,12 +432,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634743,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001017613,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true

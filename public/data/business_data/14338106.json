@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Hanno",
-            "isikukood": "37407060291",
+            "isikukood": null,
+            "isikukood_hash": "05b05843-8594-5b18-b57a-7b422ee3cbe4",
             "kirje_id": 9000789611,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37407060291",
+            "isikukood_hash": "05b05843-8594-5b18-b57a-7b422ee3cbe4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kõrgemäe tee 59, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3834037,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrgemäe tee 59, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3470561,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrgemäe tee 59, Rannamõisa küla, Harku vald, Harju maakond, 76906",
+                "kirje_id": 3202654,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kõrgemäe tee 59, Rannamõisa küla, Harku vald, Harju maakond, 76906",
                 "kirje_id": 2975222,
@@ -275,15 +313,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.02.2021",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "46431",
                 "emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000531704,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000967205,
                 "lopp_kpv": null,
                 "nace_kood": "46.43",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "21.09.2026",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001151378,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

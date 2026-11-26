@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.07.2019",
             "eesnimi": "Andres",
-            "isikukood": "36711122712",
+            "isikukood": null,
+            "isikukood_hash": "964eca87-1051-5e90-8730-6cbbcad817eb",
             "kirje_id": 9000999866,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.07.2019",
             "eesnimi": "Antti",
-            "isikukood": "36812252714",
+            "isikukood": null,
+            "isikukood_hash": "6d230342-05b8-54dc-94d1-488b04297512",
             "kirje_id": 9000999868,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36711122712",
+            "isikukood_hash": "964eca87-1051-5e90-8730-6cbbcad817eb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10096759",
+                "aadress_ads__adob_id": "11053677",
                 "aadress_ads__adr_id": 3094657,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Võru tn 176",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 176, Tartu linn, Tartu linn, Tartu maakond, 50112",
+                "kirje_id": 3750363,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47301",
+                "tegevusala_emtak_tekstina": "Mootorikütuse jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.30",
+                "tootajate_arv": "634"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 176, Tartu linn, Tartu linn, Tartu maakond, 50112",
+                "kirje_id": 3478164,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47301",
+                "tegevusala_emtak_tekstina": "Mootorikütuse jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.30",
+                "tootajate_arv": "665"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 176, Tartu linn, Tartu linn, Tartu maakond, 50112",
+                "kirje_id": 3213246,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47301",
+                "tegevusala_emtak_tekstina": "Mootorikütuse jaemüük, sh tanklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.30",
+                "tootajate_arv": "701"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võru tn 176, Tartu linn, Tartu linn, Tartu maakond, 50112",
                 "kirje_id": 2952897,
@@ -460,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -571,33 +610,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000140261,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.olerex.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000140262,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6100103"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 6000140263,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6100100"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000697326,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.olerex.ee"
             }
         ],
         "staatus": "R",
@@ -615,34 +643,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "47111",
-                "emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000018543,
-                "lopp_kpv": null,
-                "nace_kood": "47.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47301",
-                "emtak_tekstina": "Mootorikütuse jaemüük, sh tanklate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000043892,
+                "emtak_tekstina": "Mootorikütuse jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974477,
                 "lopp_kpv": null,
                 "nace_kood": "47.30",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "06.07.2023",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47111",
+                "emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974478,
+                "lopp_kpv": null,
+                "nace_kood": "47.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "35141",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709597,
+                "emtak_tekstina": "Elektrienergia jaotus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974479,
                 "lopp_kpv": null,
                 "nace_kood": "35.14",
                 "on_pohitegevusala": false

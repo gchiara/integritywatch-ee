@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Marek",
-            "isikukood": "37811042725",
+            "isikukood": null,
+            "isikukood_hash": "fb7f052b-8331-54b1-93ae-3478effeb8af",
             "kirje_id": 9000820849,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37811042725",
+            "isikukood_hash": "fb7f052b-8331-54b1-93ae-3478effeb8af",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10337541",
+                "aadress_ads__adob_id": "10766562",
                 "aadress_ads__adr_id": 3421941,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Soinaste küla, Nupu tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nupu tn 1, Soinaste küla, Kambja vald, Tartu maakond, 61709",
+                "kirje_id": 3824170,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "59"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nupu tn 1, Soinaste küla, Kambja vald, Tartu maakond, 61709",
+                "kirje_id": 3500523,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "54"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nupu tn 1, Soinaste küla, Kambja vald, Tartu maakond, 61709",
+                "kirje_id": 3200079,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "48"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nupu tn 1, Soinaste küla, Kambja vald, Tartu maakond, 61709",
                 "kirje_id": 2932028,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -487,37 +525,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43111",
                 "emtak_tekstina": "Lammutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000488973,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997754,
                 "lopp_kpv": null,
                 "nace_kood": "43.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "25.05.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "77321",
                 "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000021345,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997755,
                 "lopp_kpv": null,
                 "nace_kood": "77.32",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.07.2021",
-                "emtak_kood": "4299",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000570475,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997753,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.08.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001146377,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.07.2019",
             "eesnimi": "Kaisa",
-            "isikukood": "47412296013",
+            "isikukood": null,
+            "isikukood_hash": "9997de54-127a-5c32-9664-651568410106",
             "kirje_id": 9000998238,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36806292714",
+            "isikukood_hash": "566b7fcb-ea22-59b3-93f7-09d649f1c244",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Planeedi tn 10, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3833357,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "20111",
+                "tegevusala_emtak_tekstina": "Tööstusgaaside tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.11",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Planeedi tn 10, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3446021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "20111",
+                "tegevusala_emtak_tekstina": "Tööstusgaaside tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.11",
+                "tootajate_arv": "37"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Planeedi tn 10, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3153142,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "20111",
+                "tegevusala_emtak_tekstina": "Tööstusgaaside tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "20.11",
+                "tootajate_arv": "35"
+            },
             {
                 "ettevotja_aadress_aruandes": "Planeedi tn 10, Viljandi linn, Viljandi maakond, 71020",
                 "kirje_id": 2869226,
@@ -359,7 +397,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -499,36 +537,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "47789",
-                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000127032,
-                "lopp_kpv": null,
-                "nace_kood": "47.78",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2023",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "20111",
                 "emtak_tekstina": "Tööstusgaaside tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694629,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000943392,
                 "lopp_kpv": null,
                 "nace_kood": "20.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "21.06.2023",
-                "emtak_kood": "46719",
-                "emtak_tekstina": "Muu vedel- ja gaaskütuse jms hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694630,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000943393,
                 "lopp_kpv": null,
-                "nace_kood": "46.71",
+                "nace_kood": "47.78",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "46819",
+                "emtak_tekstina": "Muu vedel- ja gaaskütuse jms hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000943394,
+                "lopp_kpv": null,
+                "nace_kood": "46.81",
                 "on_pohitegevusala": false
             }
         ],

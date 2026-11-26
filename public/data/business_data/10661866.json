@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.06.2023",
             "eesnimi": "Sergey",
-            "isikukood": "37506073733",
+            "isikukood": null,
+            "isikukood_hash": "9a2b1f27-5c1f-5752-ae42-fa1dfc778642",
             "kirje_id": 9001579405,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37506073733",
+            "isikukood_hash": "9a2b1f27-5c1f-5752-ae42-fa1dfc778642",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10444991",
+                "aadress_ads__adob_id": "10689217",
                 "aadress_ads__adr_id": 2861433,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Narva linn, P. Kerese tn 40h",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "P. Kerese tn 40h, Narva linn, Ida-Viru maakond, 21003",
+                "kirje_id": 3645802,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "P. Kerese tn 40h, Narva linn, Ida-Viru maakond, 21003",
+                "kirje_id": 3429536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "P. Kerese tn 40h, Narva linn, Ida-Viru maakond, 21003",
+                "kirje_id": 3101802,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "P. Kerese tn 40h, Narva linn, Ida-Viru maakond, 21003",
                 "kirje_id": 2822460,
@@ -395,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": true,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -516,26 +554,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2010",
-                "emtak_kood": "41201",
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000021432,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927816,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "06.05.2021",
-                "emtak_kood": "47291",
-                "emtak_tekstina": "Muu toidukaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000546918,
-                "lopp_kpv": null,
-                "nace_kood": "47.29",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Aleksandr",
-            "isikukood": "35711192225",
+            "isikukood": null,
+            "isikukood_hash": "5268b790-3cb9-5bdd-82e1-77638c46e34b",
             "kirje_id": 9000840373,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Anatoli",
-            "isikukood": "35603212233",
+            "isikukood": null,
+            "isikukood_hash": "7f0c1703-9dbf-5431-8d23-00ec550c9574",
             "kirje_id": 9000840365,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35711192225",
+            "isikukood_hash": "5268b790-3cb9-5bdd-82e1-77638c46e34b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35603212233",
+            "isikukood_hash": "7f0c1703-9dbf-5431-8d23-00ec550c9574",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -115,11 +119,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9948567",
+                "aadress_ads__adob_id": "10961382",
                 "aadress_ads__adr_id": 2744408,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Kohtla-Järve linn, Oru linnaosa, Briketi tn 20",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME02578557",
+                "aadress_ads__ads_oid": "ME00682890",
                 "aadress_ads__koodaadress": "453210553000000IX000010U800000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Briketi tn 20, Oru linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 31221",
+                "kirje_id": 3767822,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Briketi tn 20, Oru linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 31221",
+                "kirje_id": 3531266,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Briketi tn 20, Oru linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 31221",
+                "kirje_id": 3234100,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate maakondadevaheline ja rahvusvaheline liinivedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Briketi tn 20, Oru linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 31221",
                 "kirje_id": 2912702,
@@ -472,7 +512,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -603,12 +643,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.08.2010",
+                "algus_kpv": "09.07.2025",
                 "emtak_kood": "49391",
-                "emtak_tekstina": "Sõitjate  maakondadevaheline ja rahvusvaheline liinivedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000087377,
+                "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001027251,
                 "lopp_kpv": null,
                 "nace_kood": "49.39",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Anu",
-            "isikukood": "45211200281",
+            "isikukood": null,
+            "isikukood_hash": "197c2e00-532b-5d43-ae08-9ce2889a8af6",
             "kirje_id": 9000749488,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.06.2023",
             "eesnimi": "Peeter",
-            "isikukood": "34506260240",
+            "isikukood": null,
+            "isikukood_hash": "5f5cd6c3-1e36-5aab-9a51-2b40c0a3be21",
             "kirje_id": 9001582118,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38207194236",
+            "isikukood_hash": "16e8f5cd-b672-5659-ab20-c4653014dcaa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10471743",
+                "aadress_ads__adob_id": "11508495",
                 "aadress_ads__adr_id": 2125550,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Järve tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järve tn 2, Kristiine linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3716414,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46891",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.89",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järve tn 2, Kristiine linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3419144,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46891",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.89",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järve tn 2, Kristiine linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3162628,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46651",
+                "tegevusala_emtak_tekstina": "Kontorimööbli hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.65",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järve tn 2, Kristiine linnaosa, Tallinn, Harju maakond, 11314",
                 "kirje_id": 2936302,
@@ -412,7 +451,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -554,34 +593,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2017",
-                "emtak_kood": "46651",
-                "emtak_tekstina": "Kontorimööbli hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000302658,
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "46891",
+                "emtak_tekstina": "Muu mujal liigitamata spetsialiseeritud hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917723,
                 "lopp_kpv": null,
-                "nace_kood": "46.65",
+                "nace_kood": "46.89",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.06.2017",
-                "emtak_kood": "47591",
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "47551",
                 "emtak_tekstina": "Mööbli ja valgustite jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000302659,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917724,
                 "lopp_kpv": null,
-                "nace_kood": "47.59",
+                "nace_kood": "47.55",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "25.06.2017",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000302660,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917725,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false

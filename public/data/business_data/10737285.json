@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Erkki",
-            "isikukood": "36804142740",
+            "isikukood": null,
+            "isikukood_hash": "da642fa6-ec1d-5555-913f-511e3d90572e",
             "kirje_id": 9000826815,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "37104120289",
+            "isikukood": null,
+            "isikukood_hash": "0b4477e3-7937-5d99-8d80-ebe7eebee422",
             "kirje_id": 9000826807,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36804142740",
+            "isikukood_hash": "da642fa6-ec1d-5555-913f-511e3d90572e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37104120289",
+            "isikukood_hash": "0b4477e3-7937-5d99-8d80-ebe7eebee422",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 84-12c, Tartu linn, Tartu linn, Tartu maakond, 51008",
+                "kirje_id": 3710956,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 84-12c, Tartu linn, Tartu linn, Tartu maakond, 51008",
+                "kirje_id": 3446583,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 84-12c, Tartu linn, Tartu linn, Tartu maakond, 51008",
+                "kirje_id": 3187357,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 84-12c, Tartu linn, Tartu linn, Tartu maakond, 51008",
                 "kirje_id": 2830942,
@@ -437,7 +477,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -510,12 +550,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 10032848,
+                "kande_nr": 12,
+                "kirje_id": 12908663,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "erkki@kvlehitus.ee"
+                "sisu": "tarmo@kvlehitus.ee"
             },
             {
                 "kaardi_nr": null,
@@ -555,26 +595,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2022",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000626194,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000943968,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000011850,
+                "algus_kpv": "25.06.2026",
+                "emtak_kood": "46711",
+                "emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001118669,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
+                "nace_kood": "46.71",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

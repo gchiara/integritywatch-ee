@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.04.2019",
             "eesnimi": "Toomas",
-            "isikukood": "36002104215",
+            "isikukood": null,
+            "isikukood_hash": "4904a9fa-4d3a-5a6e-a667-7a748135abae",
             "kirje_id": 9000951931,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36002104215",
+            "isikukood_hash": "4904a9fa-4d3a-5a6e-a667-7a748135abae",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9453874",
-                "aadress_ads__adr_id": 3400980,
+                "aadress_ads__adob_id": "10995799",
+                "aadress_ads__adr_id": 3761990,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sindi linn, Kuldnoka tn 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00710915",
-                "aadress_ads__koodaadress": "68809760700000TI10000BU1N00000000",
+                "aadress_ads__koodaadress": "68806760700000TI10000BU1N00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
                 "ehak": "7607",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 9, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3772463,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 9, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3501190,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kuldnoka tn 9, Sindi linn, Tori vald, Pärnu maakond, 86705",
+                "kirje_id": 3250107,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kuldnoka tn 9, Sindi linn, Tori vald, Pärnu maakond, 86705",
                 "kirje_id": 2782332,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,12 +372,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.03.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674399,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000998357,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
                 "on_pohitegevusala": true

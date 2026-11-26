@@ -38,18 +38,11 @@
         "filename": "award_9b501505-fdb1-4e98-8759-95285f1f976d_0.json",
         "flags": [
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 12643795",
-            "Nominees as company beneficial owners: 38901285256",
-            "Nominees as company beneficial owners: 38908085213",
-            "Nominees as company beneficial owners: 38907154719",
-            "Nominees as company board members: 38901285256",
-            "Nominees as company board members: 38908085213",
-            "Nominees as company board members: 38907154719"
+            "Possible shell company: 12643795"
         ],
         "noticeUid": "9b501505-fdb1-4e98-8759-95285f1f976d",
         "notice_items": [
@@ -61,7 +54,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-28",
+                "award_date_conclusion_contract": [
+                    "2023-07-28"
+                ],
                 "award_value": "150000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -76,7 +71,7 @@
                 "tenders_received": "6"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Hoonete kauglugemise süsteemi lahenduse ost ja paigaldus ning avalikele aladele sensorite üürimine andmeedastusega",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -104,12 +99,8 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 16498137",
-            "Nominees as company beneficial owners: 37510070313",
-            "Nominees as company beneficial owners: 36308090257",
-            "Nominees as company beneficial owners: 38104250274",
-            "Nominees as company beneficial owners: 38207314214",
-            "Nominees as company beneficial owners: 34501240298",
-            "Nominees as company beneficial owners: 36805090366"
+            "Nominees as company beneficial owners: Ove_Tüksammel_11.05.2022",
+            "Nominees as company board members: Ove_Tüksammel_11.05.2022"
         ],
         "noticeUid": "908a4ed1-36a2-4826-8425-f086995dd1ec",
         "notice_items": [
@@ -119,6 +110,62 @@
         ],
         "refnum": "261168",
         "total_amount": "150000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-03-06"
+                ],
+                "award_value": "73000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12643795",
+                        "contractor_name": "Superhands OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Mehaanika ja tarkvara arendus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "16731585",
+                "name": "TETNET OÜ",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "12643795"
+        ],
+        "cpv": "73100000",
+        "date_dispatch_notice": "2025-03-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ff35346d-046d-43eb-8020-4e8fc3c03885_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 12643795"
+        ],
+        "noticeUid": "ff35346d-046d-43eb-8020-4e8fc3c03885",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "290025",
+        "total_amount": "73000.00",
         "total_amount_curr": "EUR"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Kusti",
-            "isikukood": "39802230011",
+            "isikukood": null,
+            "isikukood_hash": "db089e4d-b636-59e7-bf23-35cacb2a1fd3",
             "kirje_id": 9000855261,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39802230011",
+            "isikukood_hash": "db089e4d-b636-59e7-bf23-35cacb2a1fd3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lepiku, Kailuka küla, Saaremaa vald, Saare maakond, 94127",
+                "kirje_id": 3756127,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01192",
+                "tegevusala_emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepiku, Kailuka küla, Saaremaa vald, Saare maakond, 94127",
+                "kirje_id": 3357657,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01192",
+                "tegevusala_emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepiku, Kailuka küla, Saaremaa vald, Saare maakond, 94127",
+                "kirje_id": 3159860,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81291",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.29",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lepiku, Kailuka küla, Saaremaa vald, Saare maakond, 94127",
                 "kirje_id": 2825062,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,59 +324,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.05.2023",
-                "emtak_kood": "81291",
+                "algus_kpv": "21.04.2025",
+                "emtak_kood": "81231",
                 "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686338,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855147,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "29.05.2023",
+                "algus_kpv": "21.04.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686339,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855148,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "17.06.2022",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000626821,
-                "lopp_kpv": null,
-                "nace_kood": "01.61",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.06.2020",
-                "emtak_kood": "01451",
-                "emtak_tekstina": "Lamba- ja kitsekasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000483382,
-                "lopp_kpv": null,
-                "nace_kood": "01.45",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "17.06.2020",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000483384,
+                "algus_kpv": "21.04.2025",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855146,
                 "lopp_kpv": null,
                 "nace_kood": "01.19",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

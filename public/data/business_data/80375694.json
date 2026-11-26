@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.01.2023",
             "eesnimi": "Marju",
-            "isikukood": "47706250311",
+            "isikukood": null,
+            "isikukood_hash": "9fd326cf-2098-5872-8c5e-c3c7dc288409",
             "kirje_id": 9001525348,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47706250311",
+            "isikukood_hash": "9fd326cf-2098-5872-8c5e-c3c7dc288409",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10357510",
-                "aadress_ads__adr_id": 3537836,
+                "aadress_ads__adob_id": "10783398",
+                "aadress_ads__adr_id": 3708745,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Üksnurme tee 8/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01023338",
-                "aadress_ads__koodaadress": "3771973610000071Z0000CKXR00000000",
+                "aadress_ads__koodaadress": "37719736200000VSP0000D7B000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "12.11.2020",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8/1, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3795808,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85101",
+                "tegevusala_emtak_tekstina": "Lastehoiud",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.10",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8/1, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3463504,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85101",
+                "tegevusala_emtak_tekstina": "Lastehoiud",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.10",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8/1, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3257277,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85101",
+                "tegevusala_emtak_tekstina": "Lastesõimede tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.10",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Üksnurme tee 8/1, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2968340,
@@ -201,7 +239,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -295,12 +333,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.05.2016",
+                "algus_kpv": "28.06.2025",
                 "emtak_kood": "85101",
-                "emtak_tekstina": "Lastesõimede tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000225339,
+                "emtak_tekstina": "Lastehoiud",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960298,
                 "lopp_kpv": null,
                 "nace_kood": "85.10",
                 "on_pohitegevusala": true

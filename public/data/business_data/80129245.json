@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Jelena",
-            "isikukood": "45107112778",
+            "isikukood": null,
+            "isikukood_hash": "24618b88-1cc7-5b90-8688-5ebfde298c5e",
             "kirje_id": 9000815086,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Tiina",
-            "isikukood": "45803162726",
+            "isikukood": null,
+            "isikukood_hash": "f451ddb0-2af0-5ca3-9da9-ddccf502885a",
             "kirje_id": 9000815093,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45107112778",
+            "isikukood_hash": "24618b88-1cc7-5b90-8688-5ebfde298c5e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45803162726",
+            "isikukood_hash": "f451ddb0-2af0-5ca3-9da9-ddccf502885a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vaksali tn 14, Tartu linn, Tartu linn, Tartu maakond, 50409",
+                "kirje_id": 3678193,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86931",
+                "tegevusala_emtak_tekstina": "Psühholoogide ja psühhoterapeutide (v.a arstid) tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.93",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaksali tn 14, Tartu linn, Tartu linn, Tartu maakond, 50409",
+                "kirje_id": 3386089,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86931",
+                "tegevusala_emtak_tekstina": "Psühholoogide ja psühhoterapeutide (v.a arstid) tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.93",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaksali tn 14, Tartu linn, Tartu linn, Tartu maakond, 50409",
+                "kirje_id": 3130719,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86909",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vaksali tn 14, Tartu linn, Tartu linn, Tartu maakond, 50409",
                 "kirje_id": 2825336,
@@ -325,7 +365,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -430,14 +470,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.06.2010",
-                "emtak_kood": "86909",
-                "emtak_tekstina": "Mujal liigitamata tervishoiualad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000026096,
+                "algus_kpv": "29.05.2025",
+                "emtak_kood": "86931",
+                "emtak_tekstina": "Psühholoogide ja psühhoterapeutide (v.a arstid) tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000884648,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.93",
                 "on_pohitegevusala": true
             }
         ],

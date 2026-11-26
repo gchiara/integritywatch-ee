@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Mare",
-            "isikukood": "45804114211",
+            "isikukood": null,
+            "isikukood_hash": "b7e7c5fc-ac3d-5a2f-bf8b-b1a103b32aca",
             "kirje_id": 9000697317,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -34,20 +35,21 @@
             "aadress_riik": null,
             "aadress_riik_tekstina": null,
             "aadress_tanav_maja_korter": null,
-            "algus_kpv": "19.10.2020",
+            "algus_kpv": "27.11.2024",
             "eesnimi": "Annika",
             "email": null,
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48306274216",
+            "isikukood_hash": "bcf4952a-d20a-5ffa-9db3-fcd439a684cb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
-            "kande_nr": 10,
-            "kirje_id": 9286873,
+            "kande_nr": 13,
+            "kirje_id": 12813541,
             "lopp_kpv": null,
-            "nimi_arinimi": "Linnutaja",
+            "nimi_arinimi": "Aavamägi",
             "osamaks": null,
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47510064219",
+            "isikukood_hash": "6008bc9d-ed9c-5630-9d97-d504bb6394e2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Supeluse tn 22, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3783827,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "8799",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.99",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Supeluse tn 22, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3515250,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "8799",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.99",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Supeluse tn 22, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3244021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "8790",
+                "tegevusala_emtak_tekstina": "Muude hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.90",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Supeluse tn 22, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
                 "kirje_id": 2935001,
@@ -444,7 +483,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -472,6 +511,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "14.12.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 12194865,
+                "lopp_kpv": null,
+                "sisu": "13.10.2023 sõlmis Osaühing ZUNT kui jagunev ühing jagunemiskava. Jagunemiskava on heakskiidetud 02.11.2023 osanike poolt. Jagunemine toimub eraldumise teel kus jagunev ühing annab osa oma varast jagunemise käigus asutatavale Villa Mare Pansionaat OÜ, aadress Pärnu linn, Supeluse tn 24. Jagunemine loetakse toimunuks jaguneva ühingu registrikaardile jagunemiskande tegemisest.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -540,22 +593,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000596454,
+                "kirje_id": 9000712524,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.fooniks.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000596455,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4426900"
+                "sisu": "https://fooniks.ee/"
             }
         ],
         "staatus": "R",
@@ -573,14 +615,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.07.2012",
-                "emtak_kood": "8790",
-                "emtak_tekstina": "Muude hoolekandeasutuste tegevus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000201305,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "8799",
+                "emtak_tekstina": "Muude mujal liigitamata hoolekandeasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012239,
                 "lopp_kpv": null,
-                "nace_kood": "87.90",
+                "nace_kood": "87.99",
                 "on_pohitegevusala": true
             }
         ],

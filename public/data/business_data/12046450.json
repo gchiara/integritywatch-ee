@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Larissa",
-            "isikukood": "46303182782",
+            "isikukood": null,
+            "isikukood_hash": "085ff47b-dc53-5fe6-841c-d852490febf8",
             "kirje_id": 9000853178,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46303182782",
+            "isikukood_hash": "085ff47b-dc53-5fe6-841c-d852490febf8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": null,
-                "aadress_ads__adr_id": 2822947,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Peipsiääre vald, Koosa küla",
+                "aadress_ads__adob_id": "9719539",
+                "aadress_ads__adr_id": 2878628,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Peipsiääre vald, Koosa küla, Mängude maja",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": null,
-                "aadress_ads__koodaadress": "795863425000000000000000000000000",
+                "aadress_ads__ads_oid": "ME00781310",
+                "aadress_ads__koodaadress": "795863425000000005O5K000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.02.2018",
+                "algus_kpv": "14.01.2025",
                 "ehak": "3425",
                 "ehak_nimetus": "Koosa küla, Peipsiääre vald, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7908426,
+                "kande_nr": 5,
+                "kirje_id": 12904751,
                 "lopp_kpv": null,
                 "postiindeks": "60432",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": null
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Mängude maja"
             }
         ],
         "arinimed": [
@@ -96,13 +98,49 @@
                 "sisu": "Koosa Hambaravi OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "21.01.2011",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mängude maja, Koosa küla, Peipsiääre vald, Tartu maakond, 60432",
+                "kirje_id": 3623754,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mängude maja, Koosa küla, Peipsiääre vald, Tartu maakond, 60432",
+                "kirje_id": 3373120,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koosa küla, Peipsiääre vald, Tartu maakond, 60432",
+                "kirje_id": 3130983,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koosa küla, Peipsiääre vald, Tartu maakond, 60432",
                 "kirje_id": 2816888,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -381,12 +419,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.01.2011",
+                "algus_kpv": "14.05.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000100977,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000871243,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

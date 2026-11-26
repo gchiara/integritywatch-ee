@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 12125020,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "08.10.2024",
+            "eesnimi": "Timo",
+            "isikukood": null,
+            "isikukood_hash": "72f2be7c-a4e6-5e83-a91a-914690c43eef",
+            "kirje_id": 9001749990,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Pelt",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39110284214",
+            "isikukood_hash": "72f2be7c-a4e6-5e83-a91a-914690c43eef",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -44,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10136257",
+                "aadress_ads__adob_id": "10984802",
                 "aadress_ads__adr_id": 3541176,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Märjamaa vald, Kivi-Vigala küla, Poti-Silla mnt 12d",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Poti-Silla mnt 12d, Kivi-Vigala küla, Märjamaa vald, Rapla maakond, 78001",
+                "kirje_id": 3689540,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Poti-Silla mnt 12d, Kivi-Vigala küla, Märjamaa vald, Rapla maakond, 78001",
+                "kirje_id": 3429636,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Poti-Silla mnt 12d, Kivi-Vigala küla, Märjamaa vald, Rapla maakond, 78001",
+                "kirje_id": 3134129,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Poti-Silla mnt 12d, Kivi-Vigala küla, Märjamaa vald, Rapla maakond, 78001",
                 "kirje_id": 2872254,
@@ -245,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,12 +419,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2011",
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000128222,
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000927898,
                 "lopp_kpv": null,
                 "nace_kood": "33.12",
                 "on_pohitegevusala": true

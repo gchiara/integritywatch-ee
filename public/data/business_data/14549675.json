@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Mart",
-            "isikukood": "38410080276",
+            "isikukood": null,
+            "isikukood_hash": "1a7cbb90-057c-5f98-a67d-2ceb3d794659",
             "kirje_id": 9000745815,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48709250339",
+            "isikukood_hash": "9cc1f091-68e6-5369-a291-5758f724ee02",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38410080276",
+            "isikukood_hash": "1a7cbb90-057c-5f98-a67d-2ceb3d794659",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mätliku, Paasvere küla, Vinni vald, Lääne-Viru maakond, 46511",
+                "kirje_id": 3798078,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mätliku, Paasvere küla, Vinni vald, Lääne-Viru maakond, 46511",
+                "kirje_id": 3495699,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mätliku, Paasvere küla, Vinni vald, Lääne-Viru maakond, 46511",
+                "kirje_id": 3214393,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mätliku, Paasvere küla, Vinni vald, Lääne-Viru maakond, 46511",
                 "kirje_id": 2921930,
@@ -216,7 +255,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -289,12 +328,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8209167,
+                "kande_nr": 3,
+                "kirje_id": 12918564,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mart.rae01@gmail.com"
+                "sisu": "mart@raegeo.ee"
             },
             {
                 "kaardi_nr": null,
@@ -312,22 +351,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000532610,
+                "kirje_id": 9000720099,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.raegeo.ee"
+                "sisu": "https://www.raegeodeesia.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000536165,
+                "kirje_id": 9000720100,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.raegeodeesia.ee"
+                "sisu": "https://www.raegeo.ee"
             }
         ],
         "staatus": "R",
@@ -345,12 +384,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.08.2018",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "71122",
-                "emtak_tekstina": "Ehitusgeoloogilised ja -geodeetilised uurimistööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000380591,
+                "emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000992879,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

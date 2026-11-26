@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Taavi",
-            "isikukood": "38110154240",
+            "isikukood": null,
+            "isikukood_hash": "928e3c8a-caf3-5afe-9999-7a68bcf02fc9",
             "kirje_id": 9000756784,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38110154240",
+            "isikukood_hash": "928e3c8a-caf3-5afe-9999-7a68bcf02fc9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõvi tee 7, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
+                "kirje_id": 3741538,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõvi tee 7, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
+                "kirje_id": 3482114,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõvi tee 7, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
+                "kirje_id": 3213472,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõvi tee 7, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
                 "kirje_id": 2914083,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -431,14 +469,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2016",
-                "emtak_kood": "43391",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000242022,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000978786,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

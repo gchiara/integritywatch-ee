@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.06.2023",
             "eesnimi": "Meeri",
-            "isikukood": "48007310298",
+            "isikukood": null,
+            "isikukood_hash": "5bbfa748-aae8-590e-b213-dfc1c1413f96",
             "kirje_id": 9001588471,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37707050249",
+            "isikukood_hash": "bea2e296-cef0-55c3-86e6-62921045d2d6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9490788",
-                "aadress_ads__adr_id": 2110023,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Peterburi tee 2f",
+                "aadress_ads__adob_id": "6475009",
+                "aadress_ads__adr_id": 2343932,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 84a-172",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01159148",
-                "aadress_ads__koodaadress": "377840387000004BK00001QTC00000000",
+                "aadress_ads__ads_oid": "ER03261594",
+                "aadress_ads__koodaadress": "377840298000005ZI00001F01EC0S0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "01.12.2017",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "25.08.2025",
+                "ehak": "0298",
+                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7207336,
+                "kande_nr": 15,
+                "kirje_id": 13275852,
                 "lopp_kpv": null,
-                "postiindeks": "11415",
+                "postiindeks": "10112",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Peterburi tee 2f"
+                "tanav_maja_korter": "Tartu mnt 84a-172"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84a-172, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3686446,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74991",
+                "tegevusala_emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3521498,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4399",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3159128,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7490",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.90",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 2f, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2916237,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -328,6 +366,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "28.08.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 17,
+                "kirje_id": 13945083,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 24.08.2026 määrusega tsiviilasjas nr 2-26-14921 nimetati ajutine pankrotihaldur ja keelati võlgnikul ilma ajutise pankrotihalduri nõusolekuta vara käsutada.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 5
             }
         ],
         "oigusjargsused": [
@@ -399,12 +450,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7693466,
+                "kande_nr": 14,
+                "kirje_id": 12082478,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "office@rtsinfra.eu"
+                "sisu": "jaanus@hkv.ee"
             }
         ],
         "staatus": "R",
@@ -422,25 +473,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "4399",
-                "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000702759,
+                "algus_kpv": "15.06.2026",
+                "emtak_kood": "74991",
+                "emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113462,
                 "lopp_kpv": null,
-                "nace_kood": "43.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2022",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000631235,
-                "lopp_kpv": null,
-                "nace_kood": "42.11",
+                "nace_kood": "74.99",
                 "on_pohitegevusala": true
             }
         ],

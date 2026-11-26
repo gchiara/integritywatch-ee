@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Pavel",
-            "isikukood": "37106160272",
+            "isikukood": null,
+            "isikukood_hash": "af1fdea1-1589-5c51-8f47-9f87097ba018",
             "kirje_id": 9000669001,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37106160272",
+            "isikukood_hash": "af1fdea1-1589-5c51-8f47-9f87097ba018",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6174911",
-                "aadress_ads__adr_id": 142205,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Maardu linn, Pirnipuu pst 43",
+                "aadress_ads__adob_id": "10121135",
+                "aadress_ads__adr_id": 2121102,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Suurekivi tn 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01121172",
-                "aadress_ads__koodaadress": "3744600000000010W00002IIO00000000",
+                "aadress_ads__ads_oid": "EE03884033",
+                "aadress_ads__koodaadress": "377840596000004K400002QKS00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "29.11.2017",
-                "ehak": "0446",
-                "ehak_nimetus": "Maardu linn, Harju maakond",
+                "algus_kpv": "17.12.2024",
+                "ehak": "0596",
+                "ehak_nimetus": "Pirita linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7187424,
+                "kande_nr": 8,
+                "kirje_id": 12857526,
                 "lopp_kpv": null,
-                "postiindeks": "74117",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Pirnipuu pst 43"
+                "postiindeks": "11913",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Suurekivi tn 6"
             }
         ],
         "arinimed": [
@@ -102,6 +104,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pirnipuu pst 43, Maardu linn, Harju maakond, 74117",
+                "kirje_id": 3154509,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pirnipuu pst 43, Maardu linn, Harju maakond, 74117",
                 "kirje_id": 2839864,
@@ -334,7 +348,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,17 +403,31 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "12.12.2011",
+                "algus_kpv": "17.12.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
+                "kande_nr": 8,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4298906,
+                "kirje_id": 12857527,
                 "lopp_kpv": null,
-                "muutmise_kpv": "12.12.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
+            }
+        ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "29.04.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "kirje_id": 13085231,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 25.04.2025 kohtumäärusega tsiviilasjas nr 2-25-3443 kuulutati välja OÜ IMPERNOVA pankrot 25.04.2025 kell 10.00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
             }
         ],
         "sidevahendid": [
@@ -426,8 +454,8 @@
                 "sisu": "+372 55672053"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "12.08.2005",
@@ -437,6 +465,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "29.04.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -445,7 +482,7 @@
                 "emtak_kood": "43211",
                 "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 2000036778,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
@@ -453,6 +490,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

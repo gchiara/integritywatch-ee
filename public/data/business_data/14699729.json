@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.06.2021",
             "eesnimi": "Agu",
-            "isikukood": "36312110214",
+            "isikukood": null,
+            "isikukood_hash": "fa7a9689-c8c3-5528-8d2b-589bcb584007",
             "kirje_id": 9001296119,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36312110214",
+            "isikukood_hash": "fa7a9689-c8c3-5528-8d2b-589bcb584007",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3656479,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3345085,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3063859,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63121",
+                "tegevusala_emtak_tekstina": "Veebiportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.12",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
                 "kirje_id": 2847722,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -154,21 +192,21 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "04.09.2020",
+                "algus_kpv": "16.04.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kapitali_suurus": "9550.00",
+                "kande_nr": 13,
+                "kapitali_suurus": "11030.06",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 9207680,
+                "kirje_id": 12437900,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
-        "loobunud_vorminouetest": null,
+        "lahknevusteade_puudumisest": false,
+        "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
                 "algus_kpv": "08.04.2019",
@@ -208,6 +246,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "04.10.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 12060874,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -235,17 +286,17 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "27.01.2021",
+                "algus_kpv": "12.10.2023",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kinnitamise_kpv": "20.01.2021",
-                "kirje_id": 9429536,
+                "kande_nr": 11,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12086222,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
-                "sisaldab_erioigusi": true
+                "sisaldab_erioigusi": false
             }
         ],
         "sidevahendid": [
@@ -276,14 +327,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.04.2019",
-                "emtak_kood": "63121",
-                "emtak_tekstina": "Veebiportaalide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000408993,
+                "algus_kpv": "27.03.2025",
+                "emtak_kood": "63911",
+                "emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000841690,
                 "lopp_kpv": null,
-                "nace_kood": "63.12",
+                "nace_kood": "63.91",
                 "on_pohitegevusala": true
             }
         ],

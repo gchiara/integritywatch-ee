@@ -1,6 +1,43 @@
 {
     "ariregistri_kood": 12157971,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "15.07.2024",
+            "eesnimi": "Ilmar",
+            "isikukood": null,
+            "isikukood_hash": "4dad270e-3dbf-5c6a-a5d6-53bbd8672e10",
+            "kirje_id": 9001726295,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Aavik",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "15.07.2024",
+            "eesnimi": "Kert",
+            "isikukood": null,
+            "isikukood_hash": "3cf8494b-5a88-5580-95cd-4983d0475a49",
+            "kirje_id": 9001726294,
+            "kontrolli_teostamise_viis": "K",
+            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Kruusakivi",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37805120260",
+            "isikukood_hash": "4dad270e-3dbf-5c6a-a5d6-53bbd8672e10",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -85,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kõrre tn 21, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3621429,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrre tn 21, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3264434,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrre tn 21, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3002719,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kõrre tn 21, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2721731,
@@ -221,7 +295,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -341,45 +415,34 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.08.2022",
+                "algus_kpv": "16.04.2026",
                 "emtak_kood": "77399",
                 "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000648697,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095737,
                 "lopp_kpv": null,
                 "nace_kood": "77.39",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.08.2022",
+                "algus_kpv": "16.04.2026",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000648698,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095738,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.08.2022",
-                "emtak_kood": "77401",
-                "emtak_tekstina": "Intellektuaalomandi ja sarnaste toodete ( v.a autoriõigusega tööd) rentimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000648699,
-                "lopp_kpv": null,
-                "nace_kood": "77.40",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.08.2022",
-                "emtak_kood": "18129",
-                "emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000648700,
+                "algus_kpv": "16.04.2026",
+                "emtak_kood": "1812",
+                "emtak_tekstina": "Muu trükkimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095739,
                 "lopp_kpv": null,
                 "nace_kood": "18.12",
                 "on_pohitegevusala": false

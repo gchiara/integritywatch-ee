@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Priit",
-            "isikukood": "38506210268",
+            "isikukood": null,
+            "isikukood_hash": "f01bc812-bfd5-57d1-b885-18eefb9c95fa",
             "kirje_id": 9000664826,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38506210268",
+            "isikukood_hash": "f01bc812-bfd5-57d1-b885-18eefb9c95fa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10382584",
-                "aadress_ads__adr_id": 2249444,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Liivalaia tn 19",
+                "aadress_ads__adob_id": "10878543",
+                "aadress_ads__adr_id": 2232328,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 31",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00645604",
-                "aadress_ads__koodaadress": "377840298000003P000001E4Q00000000",
+                "aadress_ads__ads_oid": "EE03699506",
+                "aadress_ads__koodaadress": "377840298000001L900001EE500000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "05.12.2017",
+                "algus_kpv": "18.06.2025",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7290968,
+                "kande_nr": 7,
+                "kirje_id": 13169207,
                 "lopp_kpv": null,
-                "postiindeks": "10118",
+                "postiindeks": "10119",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Liivalaia tn 19"
+                "tanav_maja_korter": "Pärnu mnt 31"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3748768,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10119",
+                "kirje_id": 3480175,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 19, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
+                "kirje_id": 3212284,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Nõupidamiste ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivalaia tn 19, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
                 "kirje_id": 2814862,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -359,12 +397,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.08.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "82301",
-                "emtak_tekstina": "Nõupidamiste ja messide korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000498856,
+                "emtak_tekstina": "Konverentside ja messide korraldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976608,
                 "lopp_kpv": null,
                 "nace_kood": "82.30",
                 "on_pohitegevusala": true

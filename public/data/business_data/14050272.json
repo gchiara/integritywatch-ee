@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Mart",
-            "isikukood": "36111120276",
+            "isikukood": null,
+            "isikukood_hash": "9711ffa2-2493-5a30-8446-19b9be85fd14",
             "kirje_id": 9000859636,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36111120276",
+            "isikukood_hash": "9711ffa2-2493-5a30-8446-19b9be85fd14",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10331152",
-                "aadress_ads__adr_id": 3594327,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kopli tn 72d",
+                "aadress_ads__adob_id": "7364451",
+                "aadress_ads__adr_id": 2366942,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pikk tn 45-2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01658373",
-                "aadress_ads__koodaadress": "3778406140000062L0000CONB00000000",
+                "aadress_ads__ads_oid": "ER01926992",
+                "aadress_ads__koodaadress": "377840298000005ZS00000VXZ905W0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "27.05.2021",
-                "ehak": "0614",
-                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "12.06.2025",
+                "ehak": "0298",
+                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 9606629,
+                "kande_nr": 9,
+                "kirje_id": 13158689,
                 "lopp_kpv": null,
-                "postiindeks": "10412",
+                "postiindeks": "10133",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kopli tn 72d"
+                "tanav_maja_korter": "Pikk tn 45-2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 45-2, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3734255,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 45-2, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3489480,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kopli tn 72d, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3198744,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kopli tn 72d, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2921285,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -276,12 +314,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7845415,
+                "kande_nr": 9,
+                "kirje_id": 13158690,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mart@acres.ee"
+                "sisu": "mart@restmart.ee"
             }
         ],
         "staatus": "R",
@@ -299,14 +337,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.05.2016",
-                "emtak_kood": "41201",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000227099,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000986581,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Ivar-Illimar",
-            "isikukood": "37707220338",
+            "isikukood": null,
+            "isikukood_hash": "88fa367c-f18a-5a42-8917-35a327ab55d0",
             "kirje_id": 9000805253,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37707220338",
+            "isikukood_hash": "88fa367c-f18a-5a42-8917-35a327ab55d0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rannamõisa tee 38d, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3742837,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "63102",
+                "tegevusala_emtak_tekstina": "Andmetöötlus, andmekorraldus, andmevahendus jms tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.10",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rannamõisa tee 38d, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3492704,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rannamõisa tee 38d, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3204036,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63111",
+                "tegevusala_emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.11",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rannamõisa tee 38d, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
                 "kirje_id": 2903422,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -347,37 +385,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.07.2022",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000640942,
-                "lopp_kpv": null,
-                "nace_kood": "62.01",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000640943,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000989845,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "04.07.2018",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000373440,
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "63102",
+                "emtak_tekstina": "Andmetöötlus, andmekorraldus, andmevahendus jms tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001125243,
                 "lopp_kpv": null,
-                "nace_kood": "63.11",
+                "nace_kood": "63.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "62101",
+                "emtak_tekstina": "Programmeerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001125244,
+                "lopp_kpv": null,
+                "nace_kood": "62.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

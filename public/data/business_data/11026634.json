@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.11.2018",
             "eesnimi": "Priit",
-            "isikukood": "37512244259",
+            "isikukood": null,
+            "isikukood_hash": "97ba80af-833e-5979-9f9e-dfa86551aa8f",
             "kirje_id": 9000881104,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37512244259",
+            "isikukood_hash": "97ba80af-833e-5979-9f9e-dfa86551aa8f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6683758",
-                "aadress_ads__adr_id": 2247742,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 106-94",
+                "aadress_ads__adob_id": "6705647",
+                "aadress_ads__adr_id": 2232143,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Toom-Kuninga tn 24/1-3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01312728",
-                "aadress_ads__koodaadress": "377840298000001L900001C5T321G0000",
+                "aadress_ads__ads_oid": "ER01302367",
+                "aadress_ads__koodaadress": "377840298000004AX00009EW7DLUH0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2017",
+                "algus_kpv": "05.06.2024",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7152730,
+                "kande_nr": 12,
+                "kirje_id": 12531042,
                 "lopp_kpv": null,
-                "postiindeks": "11312",
+                "postiindeks": "10122",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pärnu mnt 106-94"
+                "tanav_maja_korter": "Toom-Kuninga tn 24/1-3"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toom-Kuninga tn 24/1-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
+                "kirje_id": 3627938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toom-Kuninga tn 24/1-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10122",
+                "kirje_id": 3485975,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 106-94, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3059405,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93299",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 106-94, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
                 "kirje_id": 2811528,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -449,17 +487,6 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5024948"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000513532,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5041552"
             }
         ],
         "staatus": "R",
@@ -477,26 +504,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2022",
-                "emtak_kood": "93299",
-                "emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630871,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983103,
                 "lopp_kpv": null,
                 "nace_kood": "93.29",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "10.05.2023",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683037,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

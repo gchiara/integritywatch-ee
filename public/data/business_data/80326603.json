@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.02.2019",
             "eesnimi": "Sergey",
-            "isikukood": "37202172713",
+            "isikukood": null,
+            "isikukood_hash": "4bce2e36-cf54-52f5-ac13-90e1bb417f83",
             "kirje_id": 9000928943,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37202172713",
+            "isikukood_hash": "4bce2e36-cf54-52f5-ac13-90e1bb417f83",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "MTÜ",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9328692",
+                "aadress_ads__adob_id": "11447124",
                 "aadress_ads__adr_id": 3349786,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Jõgeva maakond, Mustvee vald, Kalmaküla, Vektami",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vektami, Kalmaküla, Mustvee vald, Jõgeva maakond, 42002",
+                "kirje_id": 3712144,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "52221",
+                "tegevusala_emtak_tekstina": "Sadamate töö ja veeteede kasutamisega seotud tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vektami, Kalmaküla, Mustvee vald, Jõgeva maakond, 42002",
+                "kirje_id": 3451330,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "52221",
+                "tegevusala_emtak_tekstina": "Sadamate töö ja veeteede kasutamisega seotud tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.22",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vektami, Kalmaküla, Mustvee vald, Jõgeva maakond, 42002",
+                "kirje_id": 3137279,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52221",
+                "tegevusala_emtak_tekstina": "Sadamate töö ja veeteede kasutamisega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.22",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vektami, Kalmaküla, Mustvee vald, Jõgeva maakond, 42002",
                 "kirje_id": 2893117,
@@ -249,7 +287,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -355,12 +393,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2020",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "52221",
-                "emtak_tekstina": "Sadamate töö ja veeteede kasutamisega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000488143,
+                "emtak_tekstina": "Sadamate töö ja veeteede kasutamisega seotud tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000948504,
                 "lopp_kpv": null,
                 "nace_kood": "52.22",
                 "on_pohitegevusala": true

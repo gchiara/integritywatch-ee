@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Ruslan",
-            "isikukood": "39807161516",
+            "isikukood": null,
+            "isikukood_hash": "7ae75873-0432-538f-ab2a-44b7e99441d5",
             "kirje_id": 9000834968,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.04.2022",
             "eesnimi": "Marko",
-            "isikukood": "39807160824",
+            "isikukood": null,
+            "isikukood_hash": "82944731-ac0a-53b3-9b58-1b957b1961a2",
             "kirje_id": 9001422078,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39807161516",
+            "isikukood_hash": "7ae75873-0432-538f-ab2a-44b7e99441d5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Anni tn 12-51, Lasnamäe linnaosa, Tallinn, Harju maakond, 13626",
+                "kirje_id": 3537933,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Anni tn 12-51, Lasnamäe linnaosa, Tallinn, Harju maakond, 13626",
+                "kirje_id": 3236623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62091",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.09",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Anni tn 12-51, Lasnamäe linnaosa, Tallinn, Harju maakond, 13626",
                 "kirje_id": 2825540,
@@ -196,7 +223,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -303,14 +330,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.09.2018",
-                "emtak_kood": "62091",
+                "algus_kpv": "18.07.2025",
+                "emtak_kood": "62901",
                 "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000383536,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001033704,
                 "lopp_kpv": null,
-                "nace_kood": "62.09",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
             }
         ],

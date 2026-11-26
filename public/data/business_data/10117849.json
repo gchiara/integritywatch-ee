@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Erki",
-            "isikukood": "38608260294",
+            "isikukood": null,
+            "isikukood_hash": "880d2151-29c7-58f9-a4b8-a85c41b05775",
             "kirje_id": 9000830526,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38608260294",
+            "isikukood_hash": "880d2151-29c7-58f9-a4b8-a85c41b05775",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10390611",
+                "aadress_ads__adob_id": "10763291",
                 "aadress_ads__adr_id": 3570406,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Märjamaa vald, Sipa küla, Garaaži",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00918742",
+                "aadress_ads__ads_oid": "CU00230373",
                 "aadress_ads__koodaadress": "715027622000000006JIK000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "16.04.2018",
@@ -115,6 +117,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Garaaži, Sipa küla, Märjamaa vald, Rapla maakond, 78102",
+                "kirje_id": 3823489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Garaaži, Sipa küla, Märjamaa vald, Rapla maakond, 78102",
+                "kirje_id": 3541478,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Garaaži, Sipa küla, Märjamaa vald, Rapla maakond, 78102",
+                "kirje_id": 3076434,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "0111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Garaaži, Sipa küla, Märjamaa vald, Rapla maakond, 78102",
                 "kirje_id": 2993137,
@@ -573,36 +611,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.09.2023",
-                "emtak_kood": "0111",
+                "algus_kpv": "25.07.2025",
+                "emtak_kood": "01111",
                 "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000721665,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001037097,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "24.09.2023",
-                "emtak_kood": "0161",
+                "algus_kpv": "25.07.2025",
+                "emtak_kood": "01611",
                 "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000721666,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001037098,
                 "lopp_kpv": null,
                 "nace_kood": "01.61",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.06.2022",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000624314,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Ilona",
-            "isikukood": "46206280250",
+            "isikukood": null,
+            "isikukood_hash": "f462ee27-287d-5ba7-a486-06219dcc3339",
             "kirje_id": 9000744351,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38601100288",
+            "isikukood_hash": "ba4eccc5-0c7e-547f-b0a3-39c843699c35",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46206280250",
+            "isikukood_hash": "f462ee27-287d-5ba7-a486-06219dcc3339",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3796230,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3553618,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3211906,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 84d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2923388,
@@ -443,7 +482,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -552,11 +591,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000236209,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000713046,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 6014220"
+                "sisu": "https://www.intermed.ee/"
             }
         ],
         "staatus": "R",
@@ -574,37 +613,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2022",
+                "algus_kpv": "03.07.2026",
+                "emtak_kood": "33201",
+                "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001136410,
+                "lopp_kpv": null,
+                "nace_kood": "33.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.09.2025",
+                "emtak_kood": "46461",
+                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049749,
+                "lopp_kpv": null,
+                "nace_kood": "46.46",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.09.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000639285,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001049748,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.07.2022",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000639286,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2022",
-                "emtak_kood": "46461",
-                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000639287,
-                "lopp_kpv": null,
-                "nace_kood": "46.46",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

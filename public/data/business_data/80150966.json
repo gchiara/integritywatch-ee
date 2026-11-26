@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Toomas",
-            "isikukood": "37106110270",
+            "isikukood": null,
+            "isikukood_hash": "26f5e792-fe05-5b6c-97c6-6bdfcdee12dd",
             "kirje_id": 9000691332,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Ulvar",
-            "isikukood": "38206012263",
+            "isikukood": null,
+            "isikukood_hash": "324455e3-1b17-55a6-963c-dfd49f912927",
             "kirje_id": 9000691335,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37106110270",
+            "isikukood_hash": "26f5e792-fe05-5b6c-97c6-6bdfcdee12dd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38206012263",
+            "isikukood_hash": "324455e3-1b17-55a6-963c-dfd49f912927",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rävala pst 10, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3657380,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rävala pst 10, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3447682,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rävala pst 10, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3160189,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "58141",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.14",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rävala pst 10, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
                 "kirje_id": 2927127,
@@ -327,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -444,14 +484,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2010",
-                "emtak_kood": "58141",
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "58131",
                 "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000036612,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000945021,
                 "lopp_kpv": null,
-                "nace_kood": "58.14",
+                "nace_kood": "58.13",
                 "on_pohitegevusala": true
             }
         ],

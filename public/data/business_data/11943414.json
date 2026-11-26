@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.11.2018",
             "eesnimi": "Alina",
-            "isikukood": "47906044937",
+            "isikukood": null,
+            "isikukood_hash": "bd8f7f8b-d197-5314-b3eb-f1850a5b07c4",
             "kirje_id": 9000879043,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47906044937",
+            "isikukood_hash": "bd8f7f8b-d197-5314-b3eb-f1850a5b07c4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9972077",
-                "aadress_ads__adr_id": 3161323,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kastre vald, Kurista küla, Maria",
+                "aadress_ads__adob_id": "8912602",
+                "aadress_ads__adr_id": 3162767,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Kehtna vald, Järvakandi alev, Vana-Asula tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00757741",
-                "aadress_ads__koodaadress": "792913677000000000GOL000000000000",
+                "aadress_ads__ads_oid": "ME00874771",
+                "aadress_ads__koodaadress": "712932346000005LL00005PKY00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.02.2018",
-                "ehak": "3677",
-                "ehak_nimetus": "Kurista küla, Kastre vald, Tartu maakond",
+                "algus_kpv": "16.02.2026",
+                "ehak": "2346",
+                "ehak_nimetus": "Järvakandi alev, Kehtna vald, Rapla maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 7897093,
+                "kande_nr": 15,
+                "kirje_id": 13573382,
                 "lopp_kpv": null,
-                "postiindeks": "62408",
+                "postiindeks": "79101",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Maria"
+                "tanav_maja_korter": "Vana-Asula tn 5"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vana-Asula tn 5, Järvakandi alev, Kehtna vald, Rapla maakond, 79101",
+                "kirje_id": 3704734,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86941",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.94",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maria, Kurista küla, Kastre vald, Tartu maakond, 62408",
+                "kirje_id": 3361046,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86941",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.94",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Maria, Kurista küla, Kastre vald, Tartu maakond, 62408",
+                "kirje_id": 3046209,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86903",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Maria, Kurista küla, Kastre vald, Tartu maakond, 62408",
                 "kirje_id": 2952745,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -330,13 +368,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "07.12.2017",
+                "algus_kpv": "16.02.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kinnitamise_kpv": "01.12.2017",
-                "kirje_id": 7326935,
+                "kande_nr": 15,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13573383,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -382,15 +420,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2012",
-                "emtak_kood": "86903",
+                "algus_kpv": "25.04.2025",
+                "emtak_kood": "86941",
                 "emtak_tekstina": "Õendusabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000198763,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858627,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.94",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117351,
+                "lopp_kpv": null,
+                "nace_kood": "47.81",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

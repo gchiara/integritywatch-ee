@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2018",
             "eesnimi": "Kalle",
-            "isikukood": "36206146034",
+            "isikukood": null,
+            "isikukood_hash": "ae99f447-56c3-5f27-9ea6-e7aed803e974",
             "kirje_id": 9000884606,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36206146034",
+            "isikukood_hash": "ae99f447-56c3-5f27-9ea6-e7aed803e974",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38511086026",
+            "isikukood_hash": "f7340a62-3e25-5e9c-83ac-d837578d5acd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -99,7 +102,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10415918",
+                "aadress_ads__adob_id": "11127922",
                 "aadress_ads__adr_id": 3245856,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Vastemõisa küla, Nugise",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nugise, Vastemõisa küla, Põhja-Sakala vald, Viljandi maakond, 71301",
+                "kirje_id": 3665227,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nugise, Vastemõisa küla, Põhja-Sakala vald, Viljandi maakond, 71301",
+                "kirje_id": 3378241,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nugise, Vastemõisa küla, Põhja-Sakala vald, Viljandi maakond, 71301",
+                "kirje_id": 3162258,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nugise, Vastemõisa küla, Põhja-Sakala vald, Viljandi maakond, 71301",
                 "kirje_id": 2890874,
@@ -288,7 +327,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -395,12 +434,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.07.2020",
+                "algus_kpv": "21.05.2025",
                 "emtak_kood": "5221",
                 "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000493168,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876824,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": true

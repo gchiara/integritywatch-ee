@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Läti",
             "algus_kpv": "06.11.2019",
             "eesnimi": "Ģirts",
-            "isikukood": "38407190123",
+            "isikukood": null,
+            "isikukood_hash": "5c5f7042-bb73-557c-94ab-257c808b8529",
             "kirje_id": 9001045722,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38407190123",
+            "isikukood_hash": "5c5f7042-bb73-557c-94ab-257c808b8529",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -104,6 +106,42 @@
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
             {
+                "ettevotja_aadress_aruandes": "Toom-Rüütli tn 10/1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3736307,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toom-Rüütli tn 10/1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3353608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toom-Rüütli tn 10/1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3108847,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62031",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.03",
+                "tootajate_arv": "4"
+            },
+            {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2965114,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
@@ -116,8 +154,8 @@
                 "tootajate_arv": "5"
             },
             {
-                "ettevotja_aadress_aruandes": "Ülikooli tn 10, Tartu linn, Tartu linn, Tartu maakond, 51003",
-                "kirje_id": 2678437,
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 2965111,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2021",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
                 "tegevusala_emtak_kood": "62031",
@@ -128,8 +166,8 @@
                 "tootajate_arv": "5"
             },
             {
-                "ettevotja_aadress_aruandes": "Telliskivi tn 60/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
-                "kirje_id": 2965111,
+                "ettevotja_aadress_aruandes": "Ülikooli tn 10, Tartu linn, Tartu linn, Tartu maakond, 51003",
+                "kirje_id": 2678437,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2021",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
                 "tegevusala_emtak_kood": "62031",
@@ -336,7 +374,7 @@
         ],
         "kustutamise_kpv": null,
         "lahknevusteade_puudumisest": false,
-        "loobunud_vorminouetest": null,
+        "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
                 "algus_kpv": "25.08.2005",
@@ -404,13 +442,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "31.05.2023",
+                "algus_kpv": "26.06.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 22,
+                "kande_nr": 26,
                 "kinnitamise_kpv": null,
-                "kirje_id": 10681741,
+                "kirje_id": 13180045,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -439,6 +477,17 @@
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
                 "sisu": "https://www.ekool.eu/#/"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000718470,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://contact.ekool.eu/"
             }
         ],
         "staatus": "R",
@@ -456,26 +505,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.07.2010",
+                "algus_kpv": "11.04.2025",
+                "emtak_kood": "62202",
+                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850868,
+                "lopp_kpv": null,
+                "nace_kood": "62.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "11.04.2025",
                 "emtak_kood": "73121",
                 "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000082625,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850869,
                 "lopp_kpv": null,
                 "nace_kood": "73.12",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "24.09.2009",
-                "emtak_kood": "62031",
-                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000072545,
-                "lopp_kpv": null,
-                "nace_kood": "62.03",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

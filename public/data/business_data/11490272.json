@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Hannes",
-            "isikukood": "36708280230",
+            "isikukood": null,
+            "isikukood_hash": "6a683ac3-f028-5d80-bffe-9f8de37e0f96",
             "kirje_id": 9000730362,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36712180231",
+            "isikukood": null,
+            "isikukood_hash": "50b60ce8-dc58-5cb7-b363-b3c5c4ebe0ad",
             "kirje_id": 9000730361,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36708280230",
+            "isikukood_hash": "6a683ac3-f028-5d80-bffe-9f8de37e0f96",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3722450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4221",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3394748,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3199966,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
                 "kirje_id": 2901480,
@@ -316,7 +355,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -447,15 +486,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2021",
-                "emtak_kood": "42991",
-                "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000570843,
+                "algus_kpv": "27.06.2026",
+                "emtak_kood": "4221",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001121039,
                 "lopp_kpv": null,
-                "nace_kood": "42.99",
+                "nace_kood": "42.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2026",
+                "emtak_kood": "42111",
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001121040,
+                "lopp_kpv": null,
+                "nace_kood": "42.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

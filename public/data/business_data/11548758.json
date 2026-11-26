@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.09.2018",
             "eesnimi": "Mikk",
-            "isikukood": "38502110332",
+            "isikukood": null,
+            "isikukood_hash": "a9d3e57d-eef9-5f2a-8d4f-68f11b0b8222",
             "kirje_id": 9000720834,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38502110332",
+            "isikukood_hash": "a9d3e57d-eef9-5f2a-8d4f-68f11b0b8222",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ädala tn 17/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3304174,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46381",
+                "tegevusala_emtak_tekstina": "Kalade, vähilaadsete ja kalatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.38",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ädala tn 17/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
                 "kirje_id": 2966791,
@@ -287,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -438,7 +452,7 @@
                 "emtak_kood": "46381",
                 "emtak_tekstina": "Kalade, vähilaadsete ja kalatoodete hulgimüük",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000022606,
                 "lopp_kpv": null,
                 "nace_kood": "46.38",

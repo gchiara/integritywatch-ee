@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Ülari",
-            "isikukood": "36911306029",
+            "isikukood": null,
+            "isikukood_hash": "992a46ee-7ca5-5cec-93f0-84c8a36d5c48",
             "kirje_id": 9000767858,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36911306029",
+            "isikukood_hash": "992a46ee-7ca5-5cec-93f0-84c8a36d5c48",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "MTÜ",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9490780",
-                "aadress_ads__adr_id": 3161100,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Rapla linn, Viljandi mnt 17",
+                "aadress_ads__adob_id": "10976624",
+                "aadress_ads__adr_id": 3183933,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Rapla linn, Tallinna mnt 14",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00911241",
-                "aadress_ads__koodaadress": "7166868260000022D00003C8C00000000",
+                "aadress_ads__ads_oid": "ME00911778",
+                "aadress_ads__koodaadress": "716686826000001RK00000ZKJ00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.12.2017",
+                "algus_kpv": "31.01.2024",
                 "ehak": "6826",
                 "ehak_nimetus": "Rapla linn, Rapla vald, Rapla maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 9,
-                "kirje_id": 7268737,
+                "kande_nr": 11,
+                "kirje_id": 12283716,
                 "lopp_kpv": null,
-                "postiindeks": "79511",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Viljandi mnt 17"
+                "postiindeks": "79513",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Tallinna mnt 14"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 14, Rapla linn, Rapla vald, Rapla maakond, 79513",
+                "kirje_id": 3593460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 14, Rapla linn, Rapla vald, Rapla maakond, 79513",
+                "kirje_id": 3331787,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna mnt 14, Rapla linn, Rapla vald, Rapla maakond, 79513",
+                "kirje_id": 3065044,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Viljandi mnt 17, Rapla linn, Rapla vald, Rapla maakond, 79511",
                 "kirje_id": 2770718,
@@ -273,7 +311,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -378,26 +416,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.05.2013",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000026731,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.05.2013",
+                "algus_kpv": "27.02.2025",
                 "emtak_kood": "38111",
                 "emtak_tekstina": "Tavajäätmete kogumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000026730,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000827055,
                 "lopp_kpv": null,
                 "nace_kood": "38.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.02.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000827056,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

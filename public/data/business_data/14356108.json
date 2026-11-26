@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Juri",
-            "isikukood": "38701260240",
+            "isikukood": null,
+            "isikukood_hash": "a6a44e9e-e7ed-5622-aedd-e404ba79fa70",
             "kirje_id": 9000800304,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38701260240",
+            "isikukood_hash": "a6a44e9e-e7ed-5622-aedd-e404ba79fa70",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3775871,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3430492,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3235505,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sinikivi tee 12, Lehmja küla, Rae vald, Harju maakond, 75306",
                 "kirje_id": 2832578,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -258,6 +296,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "juri@powergen.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000728559,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.powergen.ee"
             }
         ],
         "staatus": "R",
@@ -275,14 +324,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2019",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000428163,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "33201",
+                "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928736,
                 "lopp_kpv": null,
-                "nace_kood": "46.90",
+                "nace_kood": "33.20",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.06.2019",
             "eesnimi": "Kaido",
-            "isikukood": "38908035211",
+            "isikukood": null,
+            "isikukood_hash": "9d18ee66-322b-54a9-b71e-1ef762aa30cb",
             "kirje_id": 9000980612,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38908035211",
+            "isikukood_hash": "9d18ee66-322b-54a9-b71e-1ef762aa30cb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 10-25, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3732841,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 10-25, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3450624,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 10-25, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
+                "kirje_id": 3176887,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9609",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puiestee tn 10-25, Sõmeru alevik, Rakvere vald, Lääne-Viru maakond, 44201",
                 "kirje_id": 2908590,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -312,12 +350,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7769310,
+                "kande_nr": 7,
+                "kirje_id": 13836597,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kaidohein@hot.ee"
+                "sisu": "heinkaido@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -346,36 +384,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000701344,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000947810,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000701345,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "9699",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000947811,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "4941",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000701346,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
             }
         ],

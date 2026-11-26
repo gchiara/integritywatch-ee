@@ -7,6 +7,7 @@
             "algus_kpv": "27.01.2023",
             "eesnimi": "Lennart",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001527352,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47609304217",
+            "isikukood_hash": "1896a4b2-363d-50db-8989-2c5f8767edb3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 7, Pärnu linn, Pärnu linn, Pärnu maakond",
+                "kirje_id": 3748297,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25401",
+                "tegevusala_emtak_tekstina": "Metalli sepistamine ja vormimine ning pulbermetallurgia",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.40",
+                "tootajate_arv": "186"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 7, Pärnu linn, Pärnu linn, Pärnu maakond",
+                "kirje_id": 3479583,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25401",
+                "tegevusala_emtak_tekstina": "Metalli sepistamine ja vormimine ning pulbermetallurgia",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.40",
+                "tootajate_arv": "191"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turba tn 7, Pärnu linn, Pärnu linn, Pärnu maakond",
+                "kirje_id": 3216544,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25501",
+                "tegevusala_emtak_tekstina": "Metalli sepistamine, pressimine, stantsimine ja rullvaltsimine; pulbermetallurgia",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.50",
+                "tootajate_arv": "195"
+            },
             {
                 "ettevotja_aadress_aruandes": "Turba tn 7, Pärnu linn, Pärnu linn, Pärnu maakond",
                 "kirje_id": 2917375,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -634,14 +672,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.03.2010",
-                "emtak_kood": "25501",
-                "emtak_tekstina": "Metalli sepistamine, pressimine, stantsimine ja rullvaltsimine; pulbermetallurgia",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000007408,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "25401",
+                "emtak_tekstina": "Metalli sepistamine ja vormimine ning pulbermetallurgia",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975972,
                 "lopp_kpv": null,
-                "nace_kood": "25.50",
+                "nace_kood": "25.40",
                 "on_pohitegevusala": true
             }
         ],

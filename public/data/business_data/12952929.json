@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.11.2018",
             "eesnimi": "Oliver",
-            "isikukood": "39303032735",
+            "isikukood": null,
+            "isikukood_hash": "91e4e492-7177-5b00-9ba1-e929631e180f",
             "kirje_id": 9000888329,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39303032735",
+            "isikukood_hash": "91e4e492-7177-5b00-9ba1-e929631e180f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8630708",
-                "aadress_ads__adr_id": 3030397,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Audru alevik, Paju tn 7",
+                "aadress_ads__adob_id": "11052563",
+                "aadress_ads__adr_id": 2916980,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Häädemeeste vald, Lepaküla, Sarapuu",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00734018",
-                "aadress_ads__koodaadress": "6862414580000023X0000A6C300000000",
+                "aadress_ads__ads_oid": "ME03102543",
+                "aadress_ads__koodaadress": "682144284000000003685000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "24.01.2019",
-                "ehak": "1458",
-                "ehak_nimetus": "Audru alevik, Pärnu linn, Pärnu maakond",
+                "algus_kpv": "10.02.2025",
+                "ehak": "4284",
+                "ehak_nimetus": "Lepaküla, Häädemeeste vald, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 8413160,
+                "kande_nr": 12,
+                "kirje_id": 12950575,
                 "lopp_kpv": null,
-                "postiindeks": "88301",
+                "postiindeks": "86505",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Paju tn 7"
+                "tanav_maja_korter": "Sarapuu"
             }
         ],
         "arinimed": [
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paju tn 7, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3232122,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paju tn 7, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
                 "kirje_id": 2910501,
@@ -203,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -258,13 +272,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "25.11.2015",
+                "algus_kpv": "10.02.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "24.11.2015",
-                "kirje_id": 5752785,
+                "kande_nr": 12,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12950576,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -276,34 +290,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 10205829,
+                "kande_nr": 12,
+                "kirje_id": 12950577,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "oliver@okacer.ee"
+                "sisu": "info.okacer@gmail.com"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000665453,
+                "kirje_id": 9000720852,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 56626988"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000665454,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "http://www.okacer.ee"
+                "sisu": "+372 56987676"
             }
         ],
         "staatus": "R",
@@ -325,7 +328,7 @@
                 "emtak_kood": "02202",
                 "emtak_tekstina": "Küttepuude tootmine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000701657,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
@@ -336,7 +339,7 @@
                 "emtak_kood": "47911",
                 "emtak_tekstina": "Jaemüük posti või Interneti teel",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000365518,
                 "lopp_kpv": null,
                 "nace_kood": "47.91",
@@ -347,7 +350,7 @@
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000205429,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",

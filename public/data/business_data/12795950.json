@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Katrin",
-            "isikukood": "47903050214",
+            "isikukood": null,
+            "isikukood_hash": "db6b492f-b058-5a81-9334-611157311d81",
             "kirje_id": 9000712869,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47903050214",
+            "isikukood_hash": "db6b492f-b058-5a81-9334-611157311d81",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6514396",
-                "aadress_ads__adr_id": 2220716,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, N. von Glehni tn 28",
+                "aadress_ads__adob_id": "10352193",
+                "aadress_ads__adr_id": 3311783,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Kohila vald, Kohila alev, Lõuna tn 11",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00630244",
-                "aadress_ads__koodaadress": "377840524000004IA000030XP00000000",
+                "aadress_ads__ads_oid": "EE01800616",
+                "aadress_ads__koodaadress": "713173268000002QV00003L1Y00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "09.12.2017",
-                "ehak": "0524",
-                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "27.10.2025",
+                "ehak": "3268",
+                "ehak_nimetus": "Kohila alev, Kohila vald, Rapla maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7337718,
+                "kande_nr": 8,
+                "kirje_id": 13385853,
                 "lopp_kpv": null,
-                "postiindeks": "11614",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "N. von Glehni tn 28"
+                "postiindeks": "79805",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Lõuna tn 11"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõuna tn 11, Kohila alev, Kohila vald, Rapla maakond, 79805",
+                "kirje_id": 3717464,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3427745,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3233851,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "N. von Glehni tn 28, Nõmme linnaosa, Tallinn, Harju maakond, 11614",
                 "kirje_id": 2892348,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -270,13 +308,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "24.08.2017",
+                "algus_kpv": "27.10.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kinnitamise_kpv": "24.08.2017",
-                "kirje_id": 7025937,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13385854,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -322,12 +360,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.02.2015",
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000154332,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000926016,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true

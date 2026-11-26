@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Taisto",
-            "isikukood": "37807250351",
+            "isikukood": null,
+            "isikukood_hash": "7a4a1db0-e965-56d6-a84f-5a21d9a0312b",
             "kirje_id": 9000827091,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37807250351",
+            "isikukood_hash": "7a4a1db0-e965-56d6-a84f-5a21d9a0312b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,11 +63,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9948911",
+                "aadress_ads__adob_id": "10961464",
                 "aadress_ads__adr_id": 2464300,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Veerme tn 29",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME02777459",
+                "aadress_ads__ads_oid": "ME04055918",
                 "aadress_ads__koodaadress": "37784017600000QI60000AAZ200000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "11.01.2021",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerme tn 29, Haabersti linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3593401,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90391",
+                "tegevusala_emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerme tn 29, Haabersti linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3441553,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90391",
+                "tegevusala_emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerme tn 29, Haabersti linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3235178,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90021",
+                "tegevusala_emtak_tekstina": "Lavakunsti abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.02",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerme tn 29, Haabersti linnaosa, Tallinn, Harju maakond, 11625",
                 "kirje_id": 2799920,
@@ -381,20 +419,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "28.12.2011",
+                "algus_kpv": "18.07.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kapitali_suurus": "2556.00",
+                "kande_nr": 11,
+                "kapitali_suurus": "100000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 4320929,
+                "kirje_id": 12602956,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -462,17 +500,17 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "28.12.2011",
+                "algus_kpv": "18.07.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
+                "kande_nr": 11,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4320930,
+                "kirje_id": 12602957,
                 "lopp_kpv": null,
-                "muutmise_kpv": "13.12.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
-                "sisaldab_erioigusi": false
+                "sisaldab_erioigusi": true
             }
         ],
         "sidevahendid": [
@@ -525,14 +563,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.04.2011",
-                "emtak_kood": "90021",
-                "emtak_tekstina": "Lavakunsti abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000110059,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "90391",
+                "emtak_tekstina": "Kunsti ja esituskunstide lavatehnilised abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000939152,
                 "lopp_kpv": null,
-                "nace_kood": "90.02",
+                "nace_kood": "90.39",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Mart",
-            "isikukood": "36405172710",
+            "isikukood": null,
+            "isikukood_hash": "afe809e7-f3a9-527c-9ca4-ba3afc74c259",
             "kirje_id": 9000679918,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Fred",
-            "isikukood": "37810060283",
+            "isikukood": null,
+            "isikukood_hash": "359371a3-8924-5c80-87c4-aaf613c529c9",
             "kirje_id": 9000717998,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.12.2020",
             "eesnimi": "Silver",
-            "isikukood": "38412280330",
+            "isikukood": null,
+            "isikukood_hash": "3264b18a-14ff-5464-ae3c-e34eef384669",
             "kirje_id": 9001207049,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37810060283",
+            "isikukood_hash": "359371a3-8924-5c80-87c4-aaf613c529c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38412280330",
+            "isikukood_hash": "3264b18a-14ff-5464-ae3c-e34eef384669",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -133,7 +138,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7499101",
+                "aadress_ads__adob_id": "10804902",
                 "aadress_ads__adr_id": 2280361,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Valukoja tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -174,6 +179,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valukoja tn 10, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3572488,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordiehitiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valukoja tn 10, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3313725,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "9311",
+                "tegevusala_emtak_tekstina": "Spordirajatiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valukoja tn 10, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3026932,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "9311",
+                "tegevusala_emtak_tekstina": "Spordirajatiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 14b, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2750383,
@@ -454,7 +495,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -599,12 +640,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.12.2020",
-                "emtak_kood": "9311",
-                "emtak_tekstina": "Spordirajatiste käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000522366,
+                "algus_kpv": "29.12.2025",
+                "emtak_kood": "93111",
+                "emtak_tekstina": "Spordiehitiste käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001072460,
                 "lopp_kpv": null,
                 "nace_kood": "93.11",
                 "on_pohitegevusala": true

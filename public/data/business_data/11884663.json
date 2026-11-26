@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Ivar",
-            "isikukood": "37203214714",
+            "isikukood": null,
+            "isikukood_hash": "885e6ddc-fa52-5a91-871a-4d476c9a4f9c",
             "kirje_id": 9000729274,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36608122729",
+            "isikukood": null,
+            "isikukood_hash": "26a7b1d8-111c-5ef5-a431-9ba0e72f71a3",
             "kirje_id": 9000729275,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37203214714",
+            "isikukood_hash": "885e6ddc-fa52-5a91-871a-4d476c9a4f9c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608122729",
+            "isikukood_hash": "26a7b1d8-111c-5ef5-a431-9ba0e72f71a3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,11 +120,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10451497",
+                "aadress_ads__adob_id": "11512115",
                 "aadress_ads__adr_id": 2278208,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Tuuliku tee 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01658027",
+                "aadress_ads__ads_oid": "ME01657800",
                 "aadress_ads__koodaadress": "37784033900000JZK00001S1900000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "01.12.2017",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3634499,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46411",
+                "tegevusala_emtak_tekstina": "Kangaste, kodutekstiili ja õmblustarvete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.41",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3353435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46411",
+                "tegevusala_emtak_tekstina": "Kangaste, kodutekstiili ja õmblustarvete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.41",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuuliku tee 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3092058,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46411",
+                "tegevusala_emtak_tekstina": "Kangaste, kodutekstiili ja õmblustarvete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.41",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuuliku tee 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2814770,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -449,12 +489,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.02.2011",
+                "algus_kpv": "10.04.2025",
                 "emtak_kood": "46411",
                 "emtak_tekstina": "Kangaste, kodutekstiili ja õmblustarvete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000104977,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850687,
                 "lopp_kpv": null,
                 "nace_kood": "46.41",
                 "on_pohitegevusala": true

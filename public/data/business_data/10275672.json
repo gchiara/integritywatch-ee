@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Erika",
-            "isikukood": "45608294210",
+            "isikukood": null,
+            "isikukood_hash": "53821ed1-876d-5d2d-bbd2-b1b357683c02",
             "kirje_id": 9000668587,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Urmas",
-            "isikukood": "35909014210",
+            "isikukood": null,
+            "isikukood_hash": "f3a45ab6-ee2a-5685-9f82-6293f649eeb7",
             "kirje_id": 9000668583,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45608294210",
+            "isikukood_hash": "53821ed1-876d-5d2d-bbd2-b1b357683c02",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35909014210",
+            "isikukood_hash": "f3a45ab6-ee2a-5685-9f82-6293f649eeb7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Soometsa tee 17a, Uulu küla, Häädemeeste vald, Pärnu maakond, 86502",
+                "kirje_id": 3656311,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soometsa tee 17a, Uulu küla, Häädemeeste vald, Pärnu maakond, 86502",
+                "kirje_id": 3409823,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16111",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soometsa tee 17a, Uulu küla, Häädemeeste vald, Pärnu maakond, 86502",
+                "kirje_id": 3090759,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16101",
+                "tegevusala_emtak_tekstina": "Saematerjali tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.10",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Soometsa tee 17a, Uulu küla, Häädemeeste vald, Pärnu maakond, 86502",
                 "kirje_id": 2826175,
@@ -509,7 +549,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -629,36 +669,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.02.2010",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000004929,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "19.02.2010",
+                "algus_kpv": "31.05.2026",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000004928,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106434,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "16101",
-                "emtak_tekstina": "Saematerjali tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000005223,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
                 "on_pohitegevusala": true
             }
         ],

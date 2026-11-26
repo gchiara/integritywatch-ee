@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Argo",
-            "isikukood": "36604212741",
+            "isikukood": null,
+            "isikukood_hash": "fbb24e1b-569a-5675-bf35-1bbc1b8d95d1",
             "kirje_id": 9000774586,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36604212741",
+            "isikukood_hash": "fbb24e1b-569a-5675-bf35-1bbc1b8d95d1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10541555",
+                "aadress_ads__adob_id": "10709532",
                 "aadress_ads__adr_id": 3088221,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Eha tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Eha tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3830192,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eha tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3565687,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "48"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eha tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3302135,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "46"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eha tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
+                "kirje_id": 3011460,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "48"
+            },
             {
                 "ettevotja_aadress_aruandes": "Eha tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80012",
                 "kirje_id": 2746071,
@@ -419,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -562,26 +612,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.11.2020",
-                "emtak_kood": "87101",
-                "emtak_tekstina": "Hooldusraviasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000518830,
-                "lopp_kpv": null,
-                "nace_kood": "87.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.11.2020",
+                "algus_kpv": "31.10.2025",
                 "emtak_kood": "55101",
                 "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000518829,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063619,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "31.10.2025",
+                "emtak_kood": "87101",
+                "emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001063620,
+                "lopp_kpv": null,
+                "nace_kood": "87.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

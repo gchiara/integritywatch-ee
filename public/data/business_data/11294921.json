@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Gerli",
-            "isikukood": "47206134210",
+            "isikukood": null,
+            "isikukood_hash": "3f6f075f-eb1b-5d94-8c25-fcdd32682ff1",
             "kirje_id": 9000872813,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Juta",
-            "isikukood": "45107174214",
+            "isikukood": null,
+            "isikukood_hash": "c238ff67-cef4-5614-9d5b-db0171a9974f",
             "kirje_id": 9000872815,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47206134210",
+            "isikukood_hash": "3f6f075f-eb1b-5d94-8c25-fcdd32682ff1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 4-6, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3721524,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "96211",
+                "tegevusala_emtak_tekstina": "Juuksuriteenindus ja habemeajamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 4-6, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3410317,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "96211",
+                "tegevusala_emtak_tekstina": "Juuksuriteenindus ja habemeajamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 4-6, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3208588,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96021",
+                "tegevusala_emtak_tekstina": "Juuksuri- ja muu iluteenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.02",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hommiku tn 4-6, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
                 "kirje_id": 2933426,
@@ -327,7 +366,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -434,37 +473,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "96211",
+                "emtak_tekstina": "Juuksuriteenindus ja habemeajamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909260,
+                "lopp_kpv": null,
+                "nace_kood": "96.21",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "12.06.2025",
+                "emtak_kood": "47751",
+                "emtak_tekstina": "Kosmeetika ja tualetitarvete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909261,
+                "lopp_kpv": null,
+                "nace_kood": "47.75",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000568343,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000909262,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "22.06.2010",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000041541,
-                "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "96021",
-                "emtak_tekstina": "Juuksuri- ja muu iluteenindus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000006839,
-                "lopp_kpv": null,
-                "nace_kood": "96.02",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

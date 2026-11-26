@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.05.2019",
             "eesnimi": "Riin",
-            "isikukood": "49008155218",
+            "isikukood": null,
+            "isikukood_hash": "fbc5ecfc-f9f6-5560-8bbd-ff59b513e427",
             "kirje_id": 9000966435,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49008155218",
+            "isikukood_hash": "fbc5ecfc-f9f6-5560-8bbd-ff59b513e427",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 7-1, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3590303,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 7-1, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3333974,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 7-1, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3060147,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Roosi tn 7-1, Rakvere linn, Lääne-Viru maakond, 44311",
                 "kirje_id": 2799373,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -300,22 +338,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000212883,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
+                "kirje_id": 9000717752,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "www.forestplus.ee"
+                "sisu": "+372 58536925"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000556012,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
+                "kirje_id": 9000717753,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 56601030"
+                "sisu": "https://forestplus.ee/"
             }
         ],
         "staatus": "R",
@@ -333,23 +371,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.07.2014",
+                "algus_kpv": "03.03.2025",
                 "emtak_kood": "4778",
-                "emtak_tekstina": "Muude uute kaupade jaemüük spetsialiseeritud kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000134037,
+                "emtak_tekstina": "Muude uute kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000829454,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "08.02.2018",
+                "algus_kpv": "03.03.2025",
                 "emtak_kood": "33191",
-                "emtak_tekstina": "Muude seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000338476,
+                "emtak_tekstina": "Muude seadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000829455,
                 "lopp_kpv": null,
                 "nace_kood": "33.19",
                 "on_pohitegevusala": false

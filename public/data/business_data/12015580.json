@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Ekaterina",
-            "isikukood": "47209160389",
+            "isikukood": null,
+            "isikukood_hash": "e8df2db7-fd4f-5da3-b3af-0926b87d2385",
             "kirje_id": 9000877175,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47209160389",
+            "isikukood_hash": "e8df2db7-fd4f-5da3-b3af-0926b87d2385",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Katleri tn 17-37, Lasnamäe linnaosa, Tallinn, Harju maakond, 13915",
+                "kirje_id": 3702942,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katleri tn 17-37, Lasnamäe linnaosa, Tallinn, Harju maakond, 13915",
+                "kirje_id": 3390791,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katleri tn 17-37, Lasnamäe linnaosa, Tallinn, Harju maakond, 13915",
+                "kirje_id": 3130184,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Katleri tn 17-37, Lasnamäe linnaosa, Tallinn, Harju maakond, 13915",
                 "kirje_id": 2930539,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,12 +408,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.06.2015",
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "74121",
+                "emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001116934,
+                "lopp_kpv": null,
+                "nace_kood": "74.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000171535,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889063,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

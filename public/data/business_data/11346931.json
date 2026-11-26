@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Katalin",
-            "isikukood": "47805030218",
+            "isikukood": null,
+            "isikukood_hash": "0c4385f7-dacd-571e-956b-e483c7af27ff",
             "kirje_id": 9000857691,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47805030218",
+            "isikukood_hash": "0c4385f7-dacd-571e-956b-e483c7af27ff",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10293932",
-                "aadress_ads__adr_id": 2217525,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Tondi tn 51-21",
+                "aadress_ads__adob_id": "10418423",
+                "aadress_ads__adr_id": 2115977,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Tondi tn 51",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER03920518",
-                "aadress_ads__koodaadress": "377840339000001KT00001QWOB75N0000",
+                "aadress_ads__ads_oid": "EE01816374",
+                "aadress_ads__koodaadress": "377840339000001KT00001QWO00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "27.06.2022",
+                "algus_kpv": "25.04.2025",
                 "ehak": "0339",
                 "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 10167264,
+                "kande_nr": 12,
+                "kirje_id": 13079120,
                 "lopp_kpv": null,
                 "postiindeks": "11316",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tondi tn 51-21"
+                "tanav_maja_korter": "Tondi tn 51"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3783401,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3433230,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51-21, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3232534,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tondi tn 51-21, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
                 "kirje_id": 2822603,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -431,12 +469,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.08.2010",
+                "algus_kpv": "22.06.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000084456,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931212,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": true

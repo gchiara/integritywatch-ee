@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2019",
             "eesnimi": "Rainer",
-            "isikukood": "38702210352",
+            "isikukood": null,
+            "isikukood_hash": "18269d88-19b6-586d-bd3a-5cc78ded1b10",
             "kirje_id": 9001042308,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38702210352",
+            "isikukood_hash": "18269d88-19b6-586d-bd3a-5cc78ded1b10",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Gonsiori tn 31-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10147",
+                "kirje_id": 3620743,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85321",
+                "tegevusala_emtak_tekstina": "Kutseõppeasutused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.32",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Gonsiori tn 31-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10147",
+                "kirje_id": 3620706,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90121",
+                "tegevusala_emtak_tekstina": "Visuaalkunstiloome",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Gonsiori tn 31-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10147",
+                "kirje_id": 3283904,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9003",
+                "tegevusala_emtak_tekstina": "Kunstialane loometegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.03",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Gonsiori tn 31-32, Kesklinna linnaosa, Tallinn, Harju maakond, 10147",
                 "kirje_id": 2962656,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -251,15 +289,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.06.2022",
-                "emtak_kood": "9003",
-                "emtak_tekstina": "Kunstialane loometegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623072,
+                "algus_kpv": "15.04.2026",
+                "emtak_kood": "85321",
+                "emtak_tekstina": "Kutseõppeasutused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095466,
                 "lopp_kpv": null,
-                "nace_kood": "90.03",
+                "nace_kood": "85.32",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "15.04.2026",
+                "emtak_kood": "90121",
+                "emtak_tekstina": "Visuaalkunstiloome",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095467,
+                "lopp_kpv": null,
+                "nace_kood": "90.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

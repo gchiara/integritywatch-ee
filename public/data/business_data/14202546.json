@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Martin",
-            "isikukood": "39303042807",
+            "isikukood": null,
+            "isikukood_hash": "599b607f-2965-585b-9fcc-9c4621c877c3",
             "kirje_id": 9000731059,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Valjo",
-            "isikukood": "39305250810",
+            "isikukood": null,
+            "isikukood_hash": "64d3e52b-7c93-5191-8604-c5f8bf06ce37",
             "kirje_id": 9000731057,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39303042807",
+            "isikukood_hash": "599b607f-2965-585b-9fcc-9c4621c877c3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39305250810",
+            "isikukood_hash": "64d3e52b-7c93-5191-8604-c5f8bf06ce37",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veskiposti tn 2/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3757950,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veskiposti tn 2/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3537034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veskiposti tn 2/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3274825,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45202",
+                "tegevusala_emtak_tekstina": "Autopesu jms teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veskiposti tn 2/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2907054,
@@ -232,21 +272,21 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "08.10.2021",
+                "algus_kpv": "07.10.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kapitali_suurus": "3944.00",
+                "kande_nr": 18,
+                "kapitali_suurus": "10046.52",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 9797509,
+                "kirje_id": 13352468,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
-        "loobunud_vorminouetest": null,
+        "lahknevusteade_puudumisest": false,
+        "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
                 "algus_kpv": "10.02.2017",
@@ -258,6 +298,21 @@
                 "lopp_kpv": null,
                 "maj_aasta_algus": "01.01",
                 "maj_aasta_lopp": "31.12"
+            }
+        ],
+        "markused_kaardil": [
+            {
+                "algus_kpv": "14.06.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 16,
+                "kirje_id": 13162334,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -285,17 +340,17 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "15.10.2018",
+                "algus_kpv": "19.09.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "26.09.2018",
-                "kirje_id": 8284201,
+                "kande_nr": 17,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13312967,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
-                "sisaldab_erioigusi": false
+                "sisaldab_erioigusi": true
             }
         ],
         "sidevahendid": [
@@ -320,6 +375,17 @@
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
                 "sisu": "https://www.fleetfox.eu"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000698000,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
+                "lopp_kpv": null,
+                "sisu": "+372 56680219"
             }
         ],
         "staatus": "R",
@@ -337,14 +403,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.01.2017",
-                "emtak_kood": "45202",
-                "emtak_tekstina": "Autopesu jms teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000277005,
+                "algus_kpv": "16.07.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001032758,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

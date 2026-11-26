@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Ukraina",
             "algus_kpv": "22.07.2019",
             "eesnimi": "Viacheslav",
-            "isikukood": "37402190140",
+            "isikukood": null,
+            "isikukood_hash": "6a18c6c5-2404-5cab-889f-0e1ff013c0aa",
             "kirje_id": 9000999749,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48106020094",
+            "isikukood_hash": "e5ad8106-46ce-58c7-abee-cb8fd8c4b9ec",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10539057",
+                "aadress_ads__adob_id": "11492122",
                 "aadress_ads__adr_id": 2113055,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Narva mnt 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3584846,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3331684,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 5, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3048388,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Savkin str, 6, app. 161, Dnipro, 49099",
                 "kirje_id": 2766956,
@@ -156,7 +194,7 @@
         ],
         "kontaktisiku_aadressid": [
             {
-                "aadress_ads__adob_id": "7390488",
+                "aadress_ads__adob_id": "11492122",
                 "aadress_ads__adr_id": 2113055,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Narva mnt 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -299,14 +337,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.07.2019",
-                "emtak_kood": "62011",
+                "algus_kpv": "26.02.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000436830,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000826916,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.12.2020",
             "eesnimi": "Ülar",
-            "isikukood": "37105152733",
+            "isikukood": null,
+            "isikukood_hash": "75450549-a593-5111-8c5d-d6d804a91beb",
             "kirje_id": 9001207123,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37105152733",
+            "isikukood_hash": "75450549-a593-5111-8c5d-d6d804a91beb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Sassi, Lõetsa küla, Muhu vald, Saare maakond, 94749",
+                "kirje_id": 3662934,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sassi, Lõetsa küla, Muhu vald, Saare maakond, 94749",
+                "kirje_id": 3440349,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sassi, Lõetsa küla, Muhu vald, Saare maakond, 94749",
+                "kirje_id": 3145503,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sassi, Lõetsa küla, Muhu vald, Saare maakond, 94749",
                 "kirje_id": 2911524,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,15 +288,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.12.2020",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000521546,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938018,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "03.06.2026",
+                "emtak_kood": "73121",
+                "emtak_tekstina": "Reklaami vahendamine meedias",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107990,
+                "lopp_kpv": null,
+                "nace_kood": "73.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

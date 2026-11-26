@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "36910262725",
+            "isikukood": null,
+            "isikukood_hash": "b9d142c3-0915-596d-8392-79b4af7d0788",
             "kirje_id": 9000772128,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Tiit",
-            "isikukood": "37106010253",
+            "isikukood": null,
+            "isikukood_hash": "d77cb97b-1fd2-570a-8483-59be5e50ce4c",
             "kirje_id": 9000772134,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36910262725",
+            "isikukood_hash": "b9d142c3-0915-596d-8392-79b4af7d0788",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37106010253",
+            "isikukood_hash": "d77cb97b-1fd2-570a-8483-59be5e50ce4c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sepa tn 17c, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3742372,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43241",
+                "tegevusala_emtak_tekstina": "Muud ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.24",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepa tn 17c, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3387629,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43241",
+                "tegevusala_emtak_tekstina": "Muud ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.24",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepa tn 17c, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3206946,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.29",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sepa tn 17c, Tartu linn, Tartu linn, Tartu maakond, 50113",
                 "kirje_id": 2925722,
@@ -341,7 +381,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -483,14 +523,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2013",
-                "emtak_kood": "43299",
-                "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000045870,
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "43241",
+                "emtak_tekstina": "Muud ehituspaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886200,
                 "lopp_kpv": null,
-                "nace_kood": "43.29",
+                "nace_kood": "43.24",
                 "on_pohitegevusala": true
             }
         ],

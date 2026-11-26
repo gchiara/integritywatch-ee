@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Monika",
-            "isikukood": "48004305729",
+            "isikukood": null,
+            "isikukood_hash": "1ae9d471-8924-58f2-9a4a-503021ea86c9",
             "kirje_id": 9000740712,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48004305729",
+            "isikukood_hash": "1ae9d471-8924-58f2-9a4a-503021ea86c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8540097",
-                "aadress_ads__adr_id": 2977009,
+                "aadress_ads__adob_id": "10865041",
+                "aadress_ads__adr_id": 3717460,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Hargla küla, Kulli",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00945355",
-                "aadress_ads__koodaadress": "818551766000000007EWO000000000000",
+                "aadress_ads__koodaadress": "818571766000000007EWO000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.02.2018",
                 "ehak": "1766",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kulli, Hargla küla, Valga vald, Valga maakond, 68014",
+                "kirje_id": 3681629,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kulli, Hargla küla, Valga vald, Valga maakond, 68014",
+                "kirje_id": 3473533,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kulli, Hargla küla, Valga vald, Valga maakond, 68014",
+                "kirje_id": 3169539,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94992",
+                "tegevusala_emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kulli, Hargla küla, Valga vald, Valga maakond, 68014",
                 "kirje_id": 2835964,
@@ -261,7 +299,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -366,12 +404,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.04.2018",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "94992",
-                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused ja fondid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000349951,
+                "emtak_tekstina": "Piirkondlikku/kohalikku elu edendavad ja toetavad ühendused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000969946,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

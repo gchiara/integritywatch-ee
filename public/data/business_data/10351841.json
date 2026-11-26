@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Janek",
-            "isikukood": "37206266524",
+            "isikukood": null,
+            "isikukood_hash": "2b14d9f3-c4d4-55bb-8d23-4a54defc6850",
             "kirje_id": 9000771272,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206266524",
+            "isikukood_hash": "2b14d9f3-c4d4-55bb-8d23-4a54defc6850",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ossitöökoja, Osula küla, Võru vald, Võru maakond, 66602",
+                "kirje_id": 3759605,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ossitöökoja, Osula küla, Võru vald, Võru maakond, 66602",
+                "kirje_id": 3503982,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ossitöökoja, Osula küla, Võru vald, Võru maakond, 66602",
+                "kirje_id": 3234554,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ossitöökoja, Osula küla, Võru vald, Võru maakond, 66602",
                 "kirje_id": 2875308,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -491,23 +529,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7776571,
+                "kande_nr": 7,
+                "kirje_id": 13649719,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "osula.oss@neti.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000009705,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7895375"
+                "sisu": "info@osulaoss.ee"
             },
             {
                 "kaardi_nr": null,
@@ -536,25 +563,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000695659,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001001148,
                 "lopp_kpv": null,
-                "nace_kood": "02.20",
+                "nace_kood": "02.40",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.06.2023",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000695660,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001001150,
                 "lopp_kpv": null,
-                "nace_kood": "02.40",
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001001151,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
                 "on_pohitegevusala": false
             }
         ],

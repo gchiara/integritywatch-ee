@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36607010271",
+            "isikukood": null,
+            "isikukood_hash": "061ab668-242e-5fe4-8ce6-2b86c81a6444",
             "kirje_id": 9000877905,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -24,23 +25,23 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10596729",
+                "aadress_ads__adob_id": "11501849",
                 "aadress_ads__adr_id": 2109730,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Kentmanni tn 21",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00643821",
                 "aadress_ads__koodaadress": "377840298000005XQ00000PYJ00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.11.2017",
+                "algus_kpv": "01.07.2026",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7123261,
+                "kande_nr": 9,
+                "kirje_id": 13845306,
                 "lopp_kpv": null,
-                "postiindeks": "10116",
+                "postiindeks": "10114",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
                 "tanav_maja_korter": "Kentmanni tn 21"
@@ -65,6 +66,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kentmanni tn 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10114",
+                "kirje_id": 3822757,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kentmanni tn 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10116",
+                "kirje_id": 3557756,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kentmanni tn 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10116",
+                "kirje_id": 3284446,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kentmanni tn 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10116",
+                "kirje_id": 3008819,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kentmanni tn 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10116",
                 "kirje_id": 2775760,
@@ -393,7 +442,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -502,12 +551,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.08.2009",
+                "algus_kpv": "19.09.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000071217,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001054192,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true

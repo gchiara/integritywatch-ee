@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Leili",
-            "isikukood": "44909132769",
+            "isikukood": null,
+            "isikukood_hash": "014a4535-868c-560d-8fa4-8e52f1e153c2",
             "kirje_id": 9000786522,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "44909132769",
+            "isikukood_hash": "014a4535-868c-560d-8fa4-8e52f1e153c2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Läätse, Maardla küla, Mustvee vald, Jõgeva maakond, 49309",
+                "kirje_id": 3787744,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46211",
+                "tegevusala_emtak_tekstina": "Teravilja, töötlemata tubaka, seemnete ja loomasööda hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Läätse, Maardla küla, Mustvee vald, Jõgeva maakond, 49309",
+                "kirje_id": 3490814,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Läätse, Maardla küla, Mustvee vald, Jõgeva maakond, 49309",
+                "kirje_id": 3280252,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Läätse, Maardla küla, Mustvee vald, Jõgeva maakond, 49309",
                 "kirje_id": 2984133,
@@ -530,15 +568,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "46211",
+                "emtak_tekstina": "Teravilja, töötlemata tubaka, seemnete ja loomasööda hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134454,
+                "lopp_kpv": null,
+                "nace_kood": "46.21",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.07.2026",
                 "emtak_kood": "02201",
                 "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008408,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134455,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "43122",
+                "emtak_tekstina": "Maakuivendus- ja maaparandustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134456,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001134457,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

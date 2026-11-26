@@ -70,13 +70,11 @@
         "filename": "award_f27c57d8-b1dc-4c0d-a077-a7e1949b47d0_0.json",
         "flags": [
             "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10068915",
-            "Nominees as company board members: 46711080210"
+            "Possible shell company: 10068915"
         ],
         "noticeUid": "f27c57d8-b1dc-4c0d-a077-a7e1949b47d0",
         "notice_items": [
@@ -6671,7 +6669,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-30",
+                "award_date_conclusion_contract": [
+                    "2023-08-30"
+                ],
                 "award_value": "200000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -6686,7 +6686,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "eÕpilaspileti ja mÕpilaspileti teenuse hankimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -6963,8 +6963,7 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10526708",
-            "Nominees as company beneficial owners: 36504230279",
-            "Nominees as company board members: 36504230279"
+            "Nominees as company beneficial owners: Toonio_Michelis_01.11.2018"
         ],
         "noticeUid": "457ef29e-b055-4701-abb6-7f8856313bff",
         "notice_items": [
@@ -6979,7 +6978,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "650000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -6994,7 +6995,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "ePäeviku raamhange koolidele",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -7305,14 +7306,11 @@
         "filename": "award_a1e7160e-9e85-44b9-9bc4-dc5d67e22f88_0.json",
         "flags": [
             "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 11160451",
-            "Nominees as company beneficial owners: 38407190123",
-            "Nominees as company board members: 38407190123"
+            "Possible shell company: 11160451"
         ],
         "noticeUid": "a1e7160e-9e85-44b9-9bc4-dc5d67e22f88",
         "notice_items": [
@@ -7323,5 +7321,86 @@
         "refnum": "266645",
         "total_amount": "650000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-09-05"
+                ],
+                "award_value": "230000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10068915",
+                        "contractor_name": "P. DUSSMANN EESTI Osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tallinna Kopli Ametikooli toitlustushange",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75029429",
+                "name": "Tallinna Kopli Ametikool",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10068915"
+        ],
+        "cpv": "55520000",
+        "date_dispatch_notice": "2024-09-12",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e70a9000-7917-4ca4-9601-f3c58b4a4392_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10068915"
+        ],
+        "noticeUid": "e70a9000-7917-4ca4-9601-f3c58b4a4392",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "280208",
+        "total_amount": "230000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "Tallinna Rakendusliku Kolledźi õppetöökoja küttesüsteemi renoveerimine.",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75029429",
+                "name": "Tallinna Rakenduslik Kolledž",
+                "town": "Tallinn"
+            }
+        ],
+        "cpv": "45331100",
+        "date_dispatch_notice": "2025-06-05",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_5b0fe7cf-74ef-42af-abb6-01b5b5b4b692_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "5b0fe7cf-74ef-42af-abb6-01b5b5b4b692",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "296398-0000"
     }
 ]

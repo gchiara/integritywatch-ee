@@ -7,6 +7,7 @@
             "algus_kpv": "11.07.2019",
             "eesnimi": "Jørn",
             "isikukood": null,
+            "isikukood_hash": "cfcbe029-9ed3-5ec1-ad33-f9938b72ddd2",
             "kirje_id": 9000996072,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Elkjær-Holm",
             "synniaeg": null,
-            "valis_kood": "020458-1827",
+            "valis_kood": null,
             "valis_kood_riik": "DNK",
             "valis_kood_riik_tekstina": "Taani"
         },
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.07.2019",
             "eesnimi": "Santa",
-            "isikukood": "47304030082",
+            "isikukood": null,
+            "isikukood_hash": "fe4faf34-4585-5cae-8a45-900c94868e66",
             "kirje_id": 9000996073,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "cfcbe029-9ed3-5ec1-ad33-f9938b72ddd2",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -69,7 +72,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": null,
-            "valis_kood": "020458-1827",
+            "valis_kood": null,
             "valis_kood_riik": "DNK",
             "valis_kood_riik_tekstina": "Taani",
             "volituste_loppemise_kpv": ""
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47304030082",
+            "isikukood_hash": "fe4faf34-4585-5cae-8a45-900c94868e66",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -159,6 +163,30 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Laeva tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3370233,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laeva tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3100828,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laeva tn 1, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2828881,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -209,7 +237,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -329,23 +357,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.03.2022",
+                "algus_kpv": "09.05.2025",
                 "emtak_kood": "68329",
                 "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000605009,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000868305,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "03.03.2022",
+                "algus_kpv": "09.05.2025",
                 "emtak_kood": "68311",
-                "emtak_tekstina": "Kinnisvarabüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000605010,
+                "emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000868306,
                 "lopp_kpv": null,
                 "nace_kood": "68.31",
                 "on_pohitegevusala": false

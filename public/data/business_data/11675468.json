@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "38605230378",
+            "isikukood": null,
+            "isikukood_hash": "f8ab6fea-8e57-5bac-8356-f9bc79834c9e",
             "kirje_id": 9000737472,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2018",
             "eesnimi": "Roland",
-            "isikukood": "38112282733",
+            "isikukood": null,
+            "isikukood_hash": "c61b494f-dc20-52a0-9148-f937f86e8ee6",
             "kirje_id": 9000737470,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38605230378",
+            "isikukood_hash": "f8ab6fea-8e57-5bac-8356-f9bc79834c9e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38112282733",
+            "isikukood_hash": "c61b494f-dc20-52a0-9148-f937f86e8ee6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -112,7 +116,7 @@
             "volituste_loppemise_kpv": ""
         }
     ],
-    "nimi": "ESB Service Group OÜ",
+    "nimi": "ESB-LVS OÜ",
     "yldandmed": {
         "aadressid": [
             {
@@ -140,14 +144,14 @@
         ],
         "arinimed": [
             {
-                "algus_kpv": "02.07.2009",
+                "algus_kpv": "01.08.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 2066689,
+                "kande_nr": 16,
+                "kirje_id": 12623403,
                 "lopp_kpv": null,
-                "sisu": "ESB Service Group OÜ"
+                "sisu": "ESB-LVS OÜ"
             }
         ],
         "asutatud_sissemakset_tegemata": false,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 142, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3804936,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "27121",
+                "tegevusala_emtak_tekstina": "Elektrijaotusseadmete ja juhtaparatuuri tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.12",
+                "tootajate_arv": "91"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 142, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3559891,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "27121",
+                "tegevusala_emtak_tekstina": "Elektrijaotusseadmete ja juhtaparatuuri tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.12",
+                "tootajate_arv": "76"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 142, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3257712,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "27121",
+                "tegevusala_emtak_tekstina": "Elektrijaotusseadmete ja juhtaparatuuri tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "27.12",
+                "tootajate_arv": "66"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 142, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2869101,
@@ -341,7 +381,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -409,13 +449,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "16.05.2013",
+                "algus_kpv": "01.08.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kinnitamise_kpv": "10.05.2013",
-                "kirje_id": 4850315,
+                "kande_nr": 16,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12623402,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -483,12 +523,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2013",
+                "algus_kpv": "29.09.2025",
                 "emtak_kood": "27121",
                 "emtak_tekstina": "Elektrijaotusseadmete ja juhtaparatuuri tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000047101,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001056674,
                 "lopp_kpv": null,
                 "nace_kood": "27.12",
                 "on_pohitegevusala": true

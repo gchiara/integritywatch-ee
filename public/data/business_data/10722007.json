@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Lea",
-            "isikukood": "46611056016",
+            "isikukood": null,
+            "isikukood_hash": "861b07af-f8c2-5a17-ae40-2a3e6f58a5a1",
             "kirje_id": 9000823912,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46611056016",
+            "isikukood_hash": "861b07af-f8c2-5a17-ae40-2a3e6f58a5a1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9206316",
-                "aadress_ads__adr_id": 3297314,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Võhma linn, Kalevi tn 2",
+                "aadress_ads__adob_id": "10071985",
+                "aadress_ads__adr_id": 3529538,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Türi linn, Viljandi tn 26",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01036877",
-                "aadress_ads__koodaadress": "84615950000000T8M0000BOXZ00000000",
+                "aadress_ads__ads_oid": "ME03663666",
+                "aadress_ads__koodaadress": "52834859400000UFE0000CIVH00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "19.12.2017",
-                "ehak": "9500",
-                "ehak_nimetus": "Võhma linn, Põhja-Sakala vald, Viljandi maakond",
+                "algus_kpv": "11.03.2026",
+                "ehak": "8594",
+                "ehak_nimetus": "Türi linn, Türi vald, Järva maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7431220,
+                "kande_nr": 9,
+                "kirje_id": 13614113,
                 "lopp_kpv": null,
-                "postiindeks": "70603",
+                "postiindeks": "72212",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kalevi tn 2"
+                "tanav_maja_korter": "Viljandi tn 26"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Viljandi tn 26, Türi linn, Türi vald, Järva maakond, 72212",
+                "kirje_id": 3759051,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 2, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70603",
+                "kirje_id": 3415817,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 2, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70603",
+                "kirje_id": 3183083,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalevi tn 2, Võhma linn, Põhja-Sakala vald, Viljandi maakond, 70603",
                 "kirje_id": 2867012,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -437,13 +475,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "29.10.2019",
+                "algus_kpv": "11.03.2026",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "21.10.2019",
-                "kirje_id": 8797907,
+                "kande_nr": 9,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13614114,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -455,12 +493,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7772506,
+                "kande_nr": 8,
+                "kirje_id": 12884844,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kuldmae@hot.ee"
+                "sisu": "leakuldmae@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -500,12 +538,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000011847,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000914571,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

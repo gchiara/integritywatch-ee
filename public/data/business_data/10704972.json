@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Rasmus",
-            "isikukood": "37412180290",
+            "isikukood": null,
+            "isikukood_hash": "81d8ebfe-8607-5641-b2df-bb5761ea3f22",
             "kirje_id": 9000811555,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36002210360",
+            "isikukood": null,
+            "isikukood_hash": "c7bb7fad-5d3d-5808-864c-fc73fd25265e",
             "kirje_id": 9000811558,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37412180290",
+            "isikukood_hash": "81d8ebfe-8607-5641-b2df-bb5761ea3f22",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36002210360",
+            "isikukood_hash": "c7bb7fad-5d3d-5808-864c-fc73fd25265e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -110,7 +114,7 @@
             "volituste_loppemise_kpv": ""
         }
     ],
-    "nimi": "Ameerika Autoteeninduse OÜ",
+    "nimi": "Ameerika Auto OÜ",
     "yldandmed": {
         "aadressid": [
             {
@@ -138,14 +142,14 @@
         ],
         "arinimed": [
             {
-                "algus_kpv": "16.10.2000",
+                "algus_kpv": "11.10.2023",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 625217,
+                "kande_nr": 12,
+                "kirje_id": 12084519,
                 "lopp_kpv": null,
-                "sisu": "Ameerika Autoteeninduse OÜ"
+                "sisu": "Ameerika Auto OÜ"
             }
         ],
         "asutatud_sissemakset_tegemata": false,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3721693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46711",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.71",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3389722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46711",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.71",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3220509,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45111",
+                "tegevusala_emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.11",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
                 "kirje_id": 2861736,
@@ -447,7 +487,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -515,13 +555,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "27.01.2012",
+                "algus_kpv": "11.10.2023",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "12.12.2011",
-                "kirje_id": 4371264,
+                "kande_nr": 12,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12084518,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -589,48 +629,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064794,
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "46711",
+                "emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888129,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "46.71",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888130,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2009",
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "47821",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888131,
+                "lopp_kpv": null,
+                "nace_kood": "47.82",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "31.05.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064793,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888132,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.07.2015",
-                "emtak_kood": "45321",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000192241,
-                "lopp_kpv": null,
-                "nace_kood": "45.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.07.2015",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000192240,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36607172748",
+            "isikukood_hash": "3dbcd890-f332-5d2c-aa60-647eff91b3c0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "SA",
@@ -44,7 +45,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10560367",
+                "aadress_ads__adob_id": "10720951",
                 "aadress_ads__adr_id": 3380406,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Jõgeva maakond, Mustvee vald, Mustvee linn, Tartu tn 59",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -109,6 +110,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 59, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3725138,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 59, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3522780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 59, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3196357,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86101",
+                "tegevusala_emtak_tekstina": "Haiglaraviteenused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.10",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu tn 59, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
                 "kirje_id": 2946725,
@@ -442,12 +479,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2010",
+                "algus_kpv": "27.06.2026",
+                "emtak_kood": "87301",
+                "emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001121651,
+                "lopp_kpv": null,
+                "nace_kood": "87.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.07.2025",
                 "emtak_kood": "86101",
-                "emtak_tekstina": "Haiglaraviteenus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000032382,
+                "emtak_tekstina": "Haiglaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001019201,
                 "lopp_kpv": null,
                 "nace_kood": "86.10",
                 "on_pohitegevusala": true

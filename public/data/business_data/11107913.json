@@ -7,6 +7,7 @@
             "algus_kpv": "26.11.2018",
             "eesnimi": "Mathieu Oliver",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000897659,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -14,23 +15,6 @@
             "lopp_kpv": null,
             "nimi": "Floreani",
             "synniaeg": "18.07.1967",
-            "valis_kood": null,
-            "valis_kood_riik": "FRA",
-            "valis_kood_riik_tekstina": "Prantsusmaa"
-        },
-        {
-            "aadress_riik": "FRA",
-            "aadress_riik_tekstina": "Prantsusmaa",
-            "algus_kpv": "26.11.2018",
-            "eesnimi": "Sami",
-            "isikukood": null,
-            "kirje_id": 9000897656,
-            "kontrolli_teostamise_viis": "J",
-            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
-            "lahknevusteade_esitatud": null,
-            "lopp_kpv": null,
-            "nimi": "Badarani",
-            "synniaeg": "12.01.1963",
             "valis_kood": null,
             "valis_kood_riik": "FRA",
             "valis_kood_riik_tekstina": "Prantsusmaa"
@@ -57,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36912112753",
+            "isikukood_hash": "a9c10864-e708-5641-a0c0-2283c9efd1bc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36702092712",
+            "isikukood_hash": "ebddcadd-ad7b-53ed-98f2-58d3e2075e15",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 53a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3786467,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86911",
+                "tegevusala_emtak_tekstina": "Piltdiagnostika teenused ja meditsiinilaborite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.91",
+                "tootajate_arv": "259"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 53a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3513340,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86911",
+                "tegevusala_emtak_tekstina": "Piltdiagnostika teenused ja meditsiinilaborite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.91",
+                "tootajate_arv": "265"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 53a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3234018,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86902",
+                "tegevusala_emtak_tekstina": "Meditsiinilaborite, vere-, sperma- jms pankade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "274"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 53a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2931902,
@@ -389,7 +411,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -570,14 +592,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "86902",
-                "emtak_tekstina": "Meditsiinilaborite, vere-, sperma- jms pankade tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000012301,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "86911",
+                "emtak_tekstina": "Piltdiagnostika teenused ja meditsiinilaborite tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010267,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.91",
                 "on_pohitegevusala": true
             }
         ],

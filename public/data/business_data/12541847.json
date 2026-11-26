@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Ilmar",
-            "isikukood": "37401205238",
+            "isikukood": null,
+            "isikukood_hash": "76c6abbd-1e66-5f80-b27c-70bc2b9aca1c",
             "kirje_id": 9000674517,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Liina",
-            "isikukood": "47308060217",
+            "isikukood": null,
+            "isikukood_hash": "fc611c22-a451-50e2-8072-06e0b063f209",
             "kirje_id": 9000674522,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37401205238",
+            "isikukood_hash": "76c6abbd-1e66-5f80-b27c-70bc2b9aca1c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47308060217",
+            "isikukood_hash": "fc611c22-a451-50e2-8072-06e0b063f209",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kivilo tn 28, Tapa linn, Tapa vald, Lääne-Viru maakond, 45108",
+                "kirje_id": 3755717,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90202",
+                "tegevusala_emtak_tekstina": "Muusikute lavaline tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivilo tn 28, Tapa linn, Tapa vald, Lääne-Viru maakond, 45108",
+                "kirje_id": 3331176,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "9039",
+                "tegevusala_emtak_tekstina": "Muud kunsti ja esituskunstide abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.39",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivilo tn 28, Tapa linn, Tapa vald, Lääne-Viru maakond, 45108",
+                "kirje_id": 3045351,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90031",
+                "tegevusala_emtak_tekstina": "Kunstialane loometegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.03",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kivilo tn 28, Tapa linn, Tapa vald, Lääne-Viru maakond, 45108",
                 "kirje_id": 2767779,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -399,14 +439,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.01.2018",
-                "emtak_kood": "90031",
-                "emtak_tekstina": "Kunstialane loometegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000337068,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "90202",
+                "emtak_tekstina": "Muusikute lavaline tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001127851,
                 "lopp_kpv": null,
-                "nace_kood": "90.03",
+                "nace_kood": "90.20",
                 "on_pohitegevusala": true
             }
         ],

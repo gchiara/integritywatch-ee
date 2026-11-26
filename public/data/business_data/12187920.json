@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Mikk",
-            "isikukood": "38505260319",
+            "isikukood": null,
+            "isikukood_hash": "b1cb323e-2141-5c12-b96b-a581f7f0e83b",
             "kirje_id": 9000765306,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38505260319",
+            "isikukood_hash": "b1cb323e-2141-5c12-b96b-a581f7f0e83b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10008497",
-                "aadress_ads__adr_id": 2256609,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tatari tn 64",
+                "aadress_ads__adob_id": "8448014",
+                "aadress_ads__adr_id": 2930034,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Hiiu maakond, Hiiumaa vald, Kärdla linn, Allika tn 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00634718",
-                "aadress_ads__koodaadress": "3778402980000060A00001DZO00000000",
+                "aadress_ads__ads_oid": "EE01175173",
+                "aadress_ads__koodaadress": "39205389500000Q0V00009QKG00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.09.2023",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "13.02.2024",
+                "ehak": "3895",
+                "ehak_nimetus": "Kärdla linn, Hiiumaa vald, Hiiu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 11966802,
+                "kande_nr": 10,
+                "kirje_id": 12308406,
                 "lopp_kpv": null,
-                "postiindeks": "10134",
+                "postiindeks": "92412",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tatari tn 64"
+                "tanav_maja_korter": "Allika tn 13"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 13, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3636300,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 13, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3479368,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 13, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3213388,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Allika tn 13, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
                 "kirje_id": 2917262,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -306,13 +344,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "08.09.2023",
+                "algus_kpv": "13.02.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
+                "kande_nr": 10,
                 "kinnitamise_kpv": null,
-                "kirje_id": 11966803,
+                "kirje_id": 12308407,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -358,14 +396,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2013",
-                "emtak_kood": "62011",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000045929,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975734,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Eiki",
-            "isikukood": "37707254913",
+            "isikukood": null,
+            "isikukood_hash": "42927200-321b-560a-a6d1-78d72906be8c",
             "kirje_id": 9000820238,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Jüri",
-            "isikukood": "36006094912",
+            "isikukood": null,
+            "isikukood_hash": "a3007a11-b72c-506b-98ec-2f9b0c83d6c8",
             "kirje_id": 9000820240,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37707254913",
+            "isikukood_hash": "42927200-321b-560a-a6d1-78d72906be8c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36006094912",
+            "isikukood_hash": "a3007a11-b72c-506b-98ec-2f9b0c83d6c8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -114,15 +118,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7867477",
-                "aadress_ads__adr_id": 2663719,
+                "aadress_ads__adob_id": "10940956",
+                "aadress_ads__adr_id": 3745766,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Lille tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01157570",
-                "aadress_ads__koodaadress": "52567586000000RR10000AVI000000000",
+                "aadress_ads__koodaadress": "52567586100000W290000DAES00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "06.12.2017",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lille tn 5, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3682707,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lille tn 5, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3455838,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lille tn 5, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3153356,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lille tn 5, Paide linn, Paide linn, Järva maakond, 72720",
                 "kirje_id": 2895223,
@@ -375,7 +415,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -493,14 +533,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "41201",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000008472,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952981,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

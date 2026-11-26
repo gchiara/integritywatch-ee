@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Kurmo",
-            "isikukood": "38006032728",
+            "isikukood": null,
+            "isikukood_hash": "19917c87-2ace-5ea1-a928-90f2ce03931d",
             "kirje_id": 9000653270,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38006032728",
+            "isikukood_hash": "19917c87-2ace-5ea1-a928-90f2ce03931d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8770289",
-                "aadress_ads__adr_id": 3048085,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Aardla tn 23",
+                "aadress_ads__adob_id": "8685360",
+                "aadress_ads__adr_id": 3069541,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Ringtee tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00752572",
-                "aadress_ads__koodaadress": "79793815100000SPK0000B93P00000000",
+                "aadress_ads__ads_oid": "ME00751210",
+                "aadress_ads__koodaadress": "79793815100000SHM0000BF5I00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.03.2020",
+                "algus_kpv": "14.05.2024",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 14,
-                "kirje_id": 9011407,
+                "kande_nr": 17,
+                "kirje_id": 12492029,
                 "lopp_kpv": null,
-                "postiindeks": "50110",
+                "postiindeks": "50105",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Aardla tn 23"
+                "tanav_maja_korter": "Ringtee tn 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 4, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3592588,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "80091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata turvatöö",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "80.09",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 4, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3321662,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "80091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata turvatöö",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "80.09",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 4, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3110263,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "80201",
+                "tegevusala_emtak_tekstina": "Turvasüsteemide käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "80.20",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aardla tn 23, Tartu linn, Tartu linn, Tartu maakond, 50110",
                 "kirje_id": 2852267,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,15 +396,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.04.2012",
-                "emtak_kood": "80201",
-                "emtak_tekstina": "Turvasüsteemide käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000171924,
+                "algus_kpv": "29.01.2025",
+                "emtak_kood": "80091",
+                "emtak_tekstina": "Mujal liigitamata turvatöö",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000815728,
                 "lopp_kpv": null,
-                "nace_kood": "80.20",
+                "nace_kood": "80.09",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.01.2025",
+                "emtak_kood": "68329",
+                "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000815729,
+                "lopp_kpv": null,
+                "nace_kood": "68.32",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

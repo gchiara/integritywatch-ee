@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.09.2018",
             "eesnimi": "Imre",
-            "isikukood": "37107140274",
+            "isikukood": null,
+            "isikukood_hash": "66ae57e2-9ec1-5304-84f4-26c5ef7dc323",
             "kirje_id": 9000655067,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37107140274",
+            "isikukood_hash": "66ae57e2-9ec1-5304-84f4-26c5ef7dc323",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 10-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3754655,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 10-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3485107,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 10-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3215519,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rotermanni tn 10-18, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2918128,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -402,6 +440,44 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "01.12.2023",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 12173914,
+                "lopp_kpv": null,
+                "sisu": "Askendo OÜ  (jagunev ühing) jaguneb eraldumise teel andes osa oma varast üle äriühingule Arvestuskontor OÜ registrikood 11460839, asukoht Harju maakond, Viimsi vald, Randvere küla, Aiaotsa põik 4, 74016 (omandav ühing) 19.10.2023. tõestatud jagunemislepingu alusel, jagunemisotsus on vastu võetud 19.10.2023. Jagunemine loetakse toimunuks käesoleva registrikande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "15.10.2024",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12742290,
+                "lopp_kpv": null,
+                "sisu": "Askendo OÜ (jagunev ühing), jaguneb eraldumise teel, andes osa oma varast üle omandavale  äriühingule Arvestuskontor OÜ (registrikood 11460839, aadress: Harju maakond, Tallinn, Kesklinna linnaosa, Rotermanni tn 10-18, 10111).  Jagunemisleping on sõlmitud 06.08.2024, jagunemisotsused on vastu võetud 20.08.2024. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "14.03.2025",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 13002875,
+                "lopp_kpv": null,
+                "sisu": "Askendo OÜ (jagunev ühing, registrikood 11201368, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Rotermanni tn 10-18, 10111) jaguneb eraldumise teel ja annab osa vara üle Ketukatu OÜ (vara omandav ühing). Jagunemisleping on notariaalselt tõestatud 27.01.2025. Jagunemisotsused võeti vastu 10.02.2025. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -492,12 +568,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2015",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "69202",
                 "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000179906,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982170,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": true

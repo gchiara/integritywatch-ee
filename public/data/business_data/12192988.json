@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Tuuli",
-            "isikukood": "47809132750",
+            "isikukood": null,
+            "isikukood_hash": "76cb8bc1-cb0b-5fe7-9a70-edc690c5ba09",
             "kirje_id": 9000727739,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47809132750",
+            "isikukood_hash": "76cb8bc1-cb0b-5fe7-9a70-edc690c5ba09",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946682",
+                "aadress_ads__adob_id": "10713558",
                 "aadress_ads__adr_id": 3341993,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Jõgeva maakond, Mustvee vald, Avinurme alevik, Tööstuse tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 3, Avinurme alevik, Mustvee vald, Jõgeva maakond, 42101",
+                "kirje_id": 3694737,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16111",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.11",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 3, Avinurme alevik, Mustvee vald, Jõgeva maakond, 42101",
+                "kirje_id": 3439961,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16111",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.11",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 3, Avinurme alevik, Mustvee vald, Jõgeva maakond, 42101",
+                "kirje_id": 3116848,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "1610",
+                "tegevusala_emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.10",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tn 3, Avinurme alevik, Mustvee vald, Jõgeva maakond, 42101",
                 "kirje_id": 2775875,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -347,23 +385,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.02.2023",
-                "emtak_kood": "1610",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "16111",
                 "emtak_tekstina": "Puidu saagimine ja hööveldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000667521,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937621,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "16.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.02.2023",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "52219",
                 "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000667522,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937622,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": false

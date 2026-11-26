@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "38009240267",
+            "isikukood": null,
+            "isikukood_hash": "ca747b47-958b-52b4-ab3d-1bffa9835d7b",
             "kirje_id": 9000718166,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38009240267",
+            "isikukood_hash": "ca747b47-958b-52b4-ab3d-1bffa9835d7b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 50, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3799780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 50, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3498721,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 50, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3253066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 50, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2917348,
@@ -431,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -574,25 +612,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42211",
                 "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000036663,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995891,
                 "lopp_kpv": null,
                 "nace_kood": "42.21",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "18.06.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000036665,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995892,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "06.07.2026",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001137346,
+                "lopp_kpv": null,
+                "nace_kood": "47.78",
                 "on_pohitegevusala": false
             }
         ],

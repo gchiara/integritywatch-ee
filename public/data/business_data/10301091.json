@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Helen",
-            "isikukood": "47110202783",
+            "isikukood": null,
+            "isikukood_hash": "3bb6f395-a1cc-53c6-b826-9b5aaf27a321",
             "kirje_id": 9000809242,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "36401242722",
+            "isikukood": null,
+            "isikukood_hash": "7708e3e4-94f6-5d9f-8cf5-584286f254ec",
             "kirje_id": 9000809247,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36401242722",
+            "isikukood_hash": "7708e3e4-94f6-5d9f-8cf5-584286f254ec",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Keskasula tn 11/2, Kuremaa alevik, Jõgeva vald, Jõgeva maakond, 48445",
+                "kirje_id": 3715799,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5210",
+                "tegevusala_emtak_tekstina": "Laondus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskasula tn 11/2, Kuremaa alevik, Jõgeva vald, Jõgeva maakond, 48445",
+                "kirje_id": 3471800,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskasula tn 11/2, Kuremaa alevik, Jõgeva vald, Jõgeva maakond, 48445",
+                "kirje_id": 3196642,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Keskasula tn 11/2, Kuremaa alevik, Jõgeva vald, Jõgeva maakond, 48445",
                 "kirje_id": 2907326,
@@ -447,7 +486,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -560,12 +599,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7776309,
+                "kande_nr": 11,
+                "kirje_id": 12294763,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mareiisma@hot.ee"
+                "sisu": "mmanguse@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -594,14 +633,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000701121,
+                "algus_kpv": "25.06.2026",
+                "emtak_kood": "5210",
+                "emtak_tekstina": "Laondus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001119620,
                 "lopp_kpv": null,
-                "nace_kood": "01.61",
+                "nace_kood": "52.10",
                 "on_pohitegevusala": true
             }
         ],

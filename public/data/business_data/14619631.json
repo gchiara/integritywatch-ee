@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.12.2018",
             "eesnimi": "Kaarel",
-            "isikukood": "38908254915",
+            "isikukood": null,
+            "isikukood_hash": "f6f613d9-4637-5bf4-bb01-2d4e948ddcca",
             "kirje_id": 9000910961,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38908254915",
+            "isikukood_hash": "f6f613d9-4637-5bf4-bb01-2d4e948ddcca",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Mõisapargi tee 3, Vao küla, Järva vald, Järva maakond, 73003",
+                "kirje_id": 3767476,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01611",
+                "tegevusala_emtak_tekstina": "Taimekasvatuse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.61",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisapargi tee 3, Vao küla, Järva vald, Järva maakond, 73003",
+                "kirje_id": 3464561,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81231",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.23",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisapargi tee 3, Vao küla, Järva vald, Järva maakond, 73003",
+                "kirje_id": 3191539,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "8129",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisapargi tee 3, Vao küla, Järva vald, Järva maakond, 73003",
                 "kirje_id": 2882450,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -263,25 +301,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.10.2020",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000514400,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130176,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "01.61",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "26.06.2023",
-                "emtak_kood": "8129",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000696935,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "43111",
+                "emtak_tekstina": "Lammutamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130177,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "43.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001130178,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             }
         ],

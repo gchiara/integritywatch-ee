@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.11.2018",
             "eesnimi": "Heigo",
-            "isikukood": "38509022217",
+            "isikukood": null,
+            "isikukood_hash": "427de413-8e97-5461-9ecd-613edb88de9c",
             "kirje_id": 9000893960,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38509022217",
+            "isikukood_hash": "427de413-8e97-5461-9ecd-613edb88de9c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Posti tn 1, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3515383,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Posti tn 1, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3253702,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Posti tn 1, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
                 "kirje_id": 2944947,
@@ -179,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,47 +312,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "74901",
-                "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634629,
-                "lopp_kpv": null,
-                "nace_kood": "74.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634628,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012369,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.06.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "77321",
                 "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484168,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012370,
                 "lopp_kpv": null,
                 "nace_kood": "77.32",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "19.06.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000484169,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012371,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "42211",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012372,
+                "lopp_kpv": null,
+                "nace_kood": "42.21",
                 "on_pohitegevusala": false
             }
         ],

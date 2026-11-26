@@ -2,11 +2,19 @@
     {
         "contract_title": "Majutusvarustuse ostmine",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "Päästeamet",
+        "contracting_bodies": [
+            {
+                "id": "70000585",
+                "name": "Päästeamet",
+                "town": "Tallinn"
+            }
+        ],
         "date_dispatch_notice": "2020-07-09",
         "filename": "award_e930d31c-ba9c-451d-affb-10d0849ca2f1_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ]
     }
 ]

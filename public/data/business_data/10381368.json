@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36407040329",
+            "isikukood": null,
+            "isikukood_hash": "52a61b90-4db9-52b7-948f-ce58ac97ade3",
             "kirje_id": 9000867839,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36407040329",
+            "isikukood_hash": "52a61b90-4db9-52b7-948f-ce58ac97ade3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7582828",
-                "aadress_ads__adr_id": 774537,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Tabasalu alevik, Sarapuu tn 6",
+                "aadress_ads__adob_id": "9683304",
+                "aadress_ads__adr_id": 3439396,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Meriküla, Tilgu tee 53/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01092822",
-                "aadress_ads__koodaadress": "3719880090000032R00005V7Y00000000",
+                "aadress_ads__ads_oid": "ME01660277",
+                "aadress_ads__koodaadress": "37198488000000TN30000C2G800000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "21.02.2018",
-                "ehak": "8009",
-                "ehak_nimetus": "Tabasalu alevik, Harku vald, Harju maakond",
+                "algus_kpv": "09.06.2025",
+                "ehak": "4880",
+                "ehak_nimetus": "Meriküla, Harku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7941471,
+                "kande_nr": 8,
+                "kirje_id": 13151573,
                 "lopp_kpv": null,
-                "postiindeks": "76901",
+                "postiindeks": "76925",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Sarapuu tn 6"
+                "tanav_maja_korter": "Tilgu tee 53/1"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tilgu tee 53/1, Meriküla, Harku vald, Harju maakond, 76925",
+                "kirje_id": 3789411,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tilgu tee 53/1, Meriküla, Harku vald, Harju maakond, 76925",
+                "kirje_id": 3518463,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sarapuu tn 6, Tabasalu alevik, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3202928,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sarapuu tn 6, Tabasalu alevik, Harku vald, Harju maakond, 76901",
                 "kirje_id": 2928732,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -557,17 +595,6 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6076371"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000239380,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6032061"
             }
         ],
         "staatus": "R",
@@ -585,14 +612,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "41201",
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000047114,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015235,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

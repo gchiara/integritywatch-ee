@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-27",
+                "award_date_conclusion_contract": [
+                    "2023-06-27"
+                ],
                 "award_value": "72650.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "ClearScada maintenance services",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -52,5 +54,57 @@
         "refnum": "263283",
         "total_amount": "72650.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-04-02"
+                ],
+                "award_value": "200000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "226245770",
+                        "contractor_name": "Elsis TS, UAB",
+                        "country": "LTU"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "ClearScada maintenance services",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "11022625",
+                "name": "Elering AS",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "226245770"
+        ],
+        "cpv": "50800000",
+        "date_dispatch_notice": "2025-04-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ac2dd394-dd5e-4bbd-beba-dac0acfce06c_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "ac2dd394-dd5e-4bbd-beba-dac0acfce06c",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "291309"
     }
 ]

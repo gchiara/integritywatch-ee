@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2019",
             "eesnimi": "Pille",
-            "isikukood": "48108200375",
+            "isikukood": null,
+            "isikukood_hash": "7f1e8524-b062-5c1d-a8ef-c67aa8250741",
             "kirje_id": 9000990377,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2019",
             "eesnimi": "Riin",
-            "isikukood": "48008010241",
+            "isikukood": null,
+            "isikukood_hash": "a5153094-e4c8-5033-8dd1-7fcdbce76f2e",
             "kirje_id": 9000990376,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48108200375",
+            "isikukood_hash": "7f1e8524-b062-5c1d-a8ef-c67aa8250741",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48008010241",
+            "isikukood_hash": "a5153094-e4c8-5033-8dd1-7fcdbce76f2e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 15-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3785435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 15-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3519930,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 15-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3207113,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73201",
+                "tegevusala_emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 15-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
                 "kirje_id": 2932972,
@@ -400,7 +440,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -535,12 +575,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "73201",
                 "emtak_tekstina": "Turu-uuringud ja avaliku arvamuse küsitlused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000067758,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016624,
                 "lopp_kpv": null,
                 "nace_kood": "73.20",
                 "on_pohitegevusala": true

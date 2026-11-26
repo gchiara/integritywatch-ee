@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Eero",
-            "isikukood": "37205230211",
+            "isikukood": null,
+            "isikukood_hash": "ef629b25-8d08-56bd-89b6-68ffd09f2a5b",
             "kirje_id": 9000770661,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37205230211",
+            "isikukood_hash": "ef629b25-8d08-56bd-89b6-68ffd09f2a5b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "44909240276",
+            "isikukood_hash": "16cf432d-708f-5e72-9d15-6c5ad61a3929",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -98,26 +101,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10150161",
-                "aadress_ads__adr_id": 3540418,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Pärnasalu tn 23",
+                "aadress_ads__adob_id": "10594835",
+                "aadress_ads__adr_id": 3564623,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Alliku küla, Allika tee 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01163221",
-                "aadress_ads__koodaadress": "37725745300000RYY0000AXAE00000000",
+                "aadress_ads__ads_oid": "ME01117810",
+                "aadress_ads__koodaadress": "37725121600000PGD00009HU600000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.12.2017",
-                "ehak": "7453",
-                "ehak_nimetus": "Saue linn, Saue vald, Harju maakond",
+                "algus_kpv": "30.09.2024",
+                "ehak": "1216",
+                "ehak_nimetus": "Alliku küla, Saue vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7453494,
+                "kande_nr": 12,
+                "kirje_id": 12714732,
                 "lopp_kpv": null,
-                "postiindeks": "76505",
+                "postiindeks": "76403",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pärnasalu tn 23"
+                "tanav_maja_korter": "Allika tee 16"
             }
         ],
         "arinimed": [
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Allika tee 16, Alliku küla, Saue vald, Harju maakond, 76403",
+                "kirje_id": 3594842,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81231",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.23",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tee 16, Alliku küla, Saue vald, Harju maakond, 76403",
+                "kirje_id": 3355009,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnasalu tn 23, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3104626,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnasalu tn 23, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2926905,
@@ -443,7 +482,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -550,15 +589,70 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.08.2022",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000647149,
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085019,
                 "lopp_kpv": null,
-                "nace_kood": "81.30",
+                "nace_kood": "81.23",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "43121",
+                "emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085020,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "38231",
+                "emtak_tekstina": "Muu jäätmete taaskasutamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085021,
+                "lopp_kpv": null,
+                "nace_kood": "38.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "46832",
+                "emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085022,
+                "lopp_kpv": null,
+                "nace_kood": "46.83",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085023,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.03.2026",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001085024,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

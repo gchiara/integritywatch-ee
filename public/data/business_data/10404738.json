@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "36803280328",
+            "isikukood": null,
+            "isikukood_hash": "6cb8139b-c780-5b78-94ee-dd7c1b4c2b26",
             "kirje_id": 9000696792,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.06.2022",
             "eesnimi": "Toomas",
-            "isikukood": "36211180244",
+            "isikukood": null,
+            "isikukood_hash": "e0635ffd-0979-5bf1-8b84-9649b5ee4a07",
             "kirje_id": 9001444493,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36803280328",
+            "isikukood_hash": "6cb8139b-c780-5b78-94ee-dd7c1b4c2b26",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9938194",
+                "aadress_ads__adob_id": "11115911",
                 "aadress_ads__adr_id": 2321347,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Paldiski mnt 68",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 68, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3661249,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "96301",
+                "tegevusala_emtak_tekstina": "Matusebüroode ja krematooriumide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.30",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 68, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3398008,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "96301",
+                "tegevusala_emtak_tekstina": "Matusebüroode ja krematooriumide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.30",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 68, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3162451,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96031",
+                "tegevusala_emtak_tekstina": "Matusetalituste korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.03",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 68, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 11911",
                 "kirje_id": 2853270,
@@ -471,7 +510,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -615,14 +654,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.06.2014",
-                "emtak_kood": "96031",
-                "emtak_tekstina": "Matusetalituste korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000117574,
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "96301",
+                "emtak_tekstina": "Matusebüroode ja krematooriumide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895859,
                 "lopp_kpv": null,
-                "nace_kood": "96.03",
+                "nace_kood": "96.30",
                 "on_pohitegevusala": true
             }
         ],

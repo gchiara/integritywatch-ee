@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.06.2019",
             "eesnimi": "Antti",
-            "isikukood": "38301280373",
+            "isikukood": null,
+            "isikukood_hash": "33621d01-1fb4-5a7f-8c6d-afcf48c44cc4",
             "kirje_id": 9000983272,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38301280373",
+            "isikukood_hash": "33621d01-1fb4-5a7f-8c6d-afcf48c44cc4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7168517",
+                "aadress_ads__adob_id": "10696993",
                 "aadress_ads__adr_id": 2303924,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pikk tn 68",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 68, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3769712,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58291",
+                "tegevusala_emtak_tekstina": "Muu tarkvara kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.29",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 68, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3418987,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "58291",
+                "tegevusala_emtak_tekstina": "Muu tarkvara kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.29",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 68, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3204288,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "58291",
+                "tegevusala_emtak_tekstina": "Muu tarkvara kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.29",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pikk tn 68, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
                 "kirje_id": 2844021,
@@ -360,26 +398,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.08.2021",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "58291",
                 "emtak_tekstina": "Muu tarkvara kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000576987,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917557,
                 "lopp_kpv": null,
                 "nace_kood": "58.29",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "02.08.2021",
-                "emtak_kood": "62091",
-                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000576988,
-                "lopp_kpv": null,
-                "nace_kood": "62.09",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

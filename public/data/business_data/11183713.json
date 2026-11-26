@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Tiina",
-            "isikukood": "46404280268",
+            "isikukood": null,
+            "isikukood_hash": "74cdd962-cf96-5ad3-888e-720edd45e409",
             "kirje_id": 9000698367,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46404280268",
+            "isikukood_hash": "74cdd962-cf96-5ad3-888e-720edd45e409",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ahtri tn 6a, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3725831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ahtri tn 6a, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3400518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ahtri tn 6a, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3208889,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ahtri tn 6a, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
                 "kirje_id": 2934299,
@@ -322,8 +360,8 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
-        "loobunud_vorminouetest": null,
+        "lahknevusteade_puudumisest": false,
+        "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
                 "algus_kpv": "08.11.2005",
@@ -404,13 +442,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "22.05.2017",
+                "algus_kpv": "16.10.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kinnitamise_kpv": "15.05.2017",
-                "kirje_id": 6913506,
+                "kande_nr": 11,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12744907,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -467,12 +505,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.06.2012",
+                "algus_kpv": "28.06.2026",
+                "emtak_kood": "47742",
+                "emtak_tekstina": "Prillide jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001121801,
+                "lopp_kpv": null,
+                "nace_kood": "47.74",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "06.06.2025",
                 "emtak_kood": "86221",
-                "emtak_tekstina": "Eriarstiabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000181383,
+                "emtak_tekstina": "Eriarstiabi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000898316,
                 "lopp_kpv": null,
                 "nace_kood": "86.22",
                 "on_pohitegevusala": true

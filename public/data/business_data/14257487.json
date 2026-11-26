@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "IRINA",
-            "isikukood": "48710162239",
+            "isikukood": null,
+            "isikukood_hash": "061c78c4-bc3d-5f81-b1ad-3195c8882e10",
             "kirje_id": 9000828858,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48710162239",
+            "isikukood_hash": "061c78c4-bc3d-5f81-b1ad-3195c8882e10",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kraami tn 8, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30328",
+                "kirje_id": 3620552,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kraami tn 8, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30328",
+                "kirje_id": 3408275,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kraami tn 8, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30328",
+                "kirje_id": 3042086,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kraami tn 8, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30328",
                 "kirje_id": 2964084,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -259,6 +297,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "15.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "kirje_id": 13726647,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 13.05.2026. a kohtumäärusega tsiviilasjas nr 2-26-6878 kuulutati välja KRUSOR OÜ pankrot 14.05.2026. a kell 14.00. Pankrotihaldur käsutab pankrotivara.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -283,8 +335,8 @@
                 "sisu": "+372 5218868"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "10.05.2017",
@@ -294,55 +346,64 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "15.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.10.2019",
+                "algus_kpv": "11.06.2025",
                 "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000451517,
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905632,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "31.10.2019",
+                "algus_kpv": "11.06.2025",
+                "emtak_kood": "42211",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905633,
+                "lopp_kpv": null,
+                "nace_kood": "42.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "11.06.2025",
                 "emtak_kood": "33111",
-                "emtak_tekstina": "Metalltoodete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000451518,
+                "emtak_tekstina": "Metalltoodete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905635,
                 "lopp_kpv": null,
                 "nace_kood": "33.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "08.07.2018",
+                "algus_kpv": "11.06.2025",
                 "emtak_kood": "33201",
                 "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000374374,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905634,
                 "lopp_kpv": null,
                 "nace_kood": "33.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.07.2018",
-                "emtak_kood": "42211",
-                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000374373,
-                "lopp_kpv": null,
-                "nace_kood": "42.21",
                 "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

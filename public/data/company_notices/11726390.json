@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-05",
+                "award_date_conclusion_contract": [
+                    "2023-06-05"
+                ],
                 "award_value": "300000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Toitlustusteenus",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -38,13 +40,10 @@
         "docType2": "",
         "filename": "award_91c15f9f-947a-426f-81d8-79332829b5af_0.json",
         "flags": [
-            "Tenders received low",
-            "Nominees as company board members or beneficial owners"
+            "Tenders received low"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 48612220241",
-            "Nominees as company board members: 48612220241"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "91c15f9f-947a-426f-81d8-79332829b5af",
         "notice_items": [
@@ -58,5 +57,76 @@
         "refnum": "254777",
         "total_amount": "13800000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-05",
+                    "2025-05-05",
+                    "2025-05-05"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14268829",
+                        "contractor_name": "Fredo Restoranid OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "14139902",
+                        "contractor_name": "OÜ Plus Catering",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10095792",
+                        "contractor_name": "Osaühing Adiantro",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "5"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "70008747",
+                "name": "Politsei- ja Piirivalveamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14268829",
+            "10095792",
+            "11726390",
+            "12548683",
+            "14139902"
+        ],
+        "cpv": "55520000",
+        "date_dispatch_notice": "2025-05-26",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_a07361a3-34a2-46bb-8cef-c2842a697ff9_0.json",
+        "flags": [
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14268829",
+            "Possible shell company: 14139902"
+        ],
+        "noticeUid": "a07361a3-34a2-46bb-8cef-c2842a697ff9",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "288211-0000"
     }
 ]

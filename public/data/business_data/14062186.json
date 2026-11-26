@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Neeme",
-            "isikukood": "34909080225",
+            "isikukood": null,
+            "isikukood_hash": "7a21004a-f76a-578e-a878-e67a7fc795fc",
             "kirje_id": 9000668451,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "VAHUR",
-            "isikukood": "35701170213",
+            "isikukood": null,
+            "isikukood_hash": "ed1efee5-ceb7-5977-ba40-a5894f6b39ea",
             "kirje_id": 9000668454,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34909080225",
+            "isikukood_hash": "7a21004a-f76a-578e-a878-e67a7fc795fc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vuti tn 100, Kristiine linnaosa, Tallinn, Harju maakond, 13424",
+                "kirje_id": 3694563,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "38121",
+                "tegevusala_emtak_tekstina": "Ohtlike jäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.12",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vuti tn 100, Kristiine linnaosa, Tallinn, Harju maakond, 13424",
+                "kirje_id": 3457894,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "38121",
+                "tegevusala_emtak_tekstina": "Ohtlike jäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.12",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vuti tn 100, Kristiine linnaosa, Tallinn, Harju maakond, 13424",
+                "kirje_id": 3136474,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "38121",
+                "tegevusala_emtak_tekstina": "Ohtlike jäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.12",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vuti tn 100, Kristiine linnaosa, Tallinn, Harju maakond, 13424",
                 "kirje_id": 2844236,
@@ -220,7 +259,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -338,23 +377,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "46141",
-                "emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000311352,
-                "lopp_kpv": null,
-                "nace_kood": "46.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.05.2016",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "38121",
                 "emtak_tekstina": "Ohtlike jäätmete kogumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000229640,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000954957,
                 "lopp_kpv": null,
                 "nace_kood": "38.12",
                 "on_pohitegevusala": true

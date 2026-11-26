@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Olga",
-            "isikukood": "48308272210",
+            "isikukood": null,
+            "isikukood_hash": "c7b80606-6d5e-5d55-b652-e6bd99d12569",
             "kirje_id": 9000847348,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48308272210",
+            "isikukood_hash": "c7b80606-6d5e-5d55-b652-e6bd99d12569",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -63,11 +65,11 @@
         "aadressid": [
             {
                 "aadress_ads__adob_id": "10620546",
-                "aadress_ads__adr_id": 2764154,
+                "aadress_ads__adr_id": 3671209,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Sillamäe linn, V. Majakovski tn 18-8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01589797",
-                "aadress_ads__koodaadress": "457350000000003EK00002B048OCK0000",
+                "aadress_ads__koodaadress": "45736000000000VIS0000D1CALAKO0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "10.12.2017",
                 "ehak": "0736",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "V. Majakovski tn 18-8, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3625172,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "V. Majakovski tn 18-8, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3360120,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "V. Majakovski tn 18-8, Sillamäe linn, Ida-Viru maakond, 40231",
+                "kirje_id": 3099208,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "V. Majakovski tn 18-8, Sillamäe linn, Ida-Viru maakond, 40231",
                 "kirje_id": 2814642,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,12 +360,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.04.2015",
+                "algus_kpv": "24.04.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000162771,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000857704,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

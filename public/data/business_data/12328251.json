@@ -1,45 +1,26 @@
 {
     "ariregistri_kood": 12328251,
-    "beneficial_owners": [],
-    "board_members": [
+    "beneficial_owners": [
         {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": null,
-            "aadress_riik_tekstina": null,
-            "aadress_tanav_maja_korter": null,
-            "algus_kpv": "14.08.2012",
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "18.02.2025",
             "eesnimi": "Rait",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": "37202176037",
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 1,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 4560764,
+            "isikukood": null,
+            "isikukood_hash": "d75d4303-2728-5d8e-b94e-4ca241cd8101",
+            "kirje_id": 9003421974,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi_arinimi": "Kütt",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
+            "nimi": "Kütt",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
+            "valis_kood_riik_tekstina": null
         }
     ],
+    "board_members": [],
     "nimi": "Archaeology Team OÜ",
     "yldandmed": {
         "aadressid": [
@@ -197,7 +178,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -278,17 +259,31 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "10.09.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "kirje_id": 12683536,
+                "lopp_kpv": null,
+                "sisu": "Lõpetamisotsus võeti vastu 09.09.2024",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7730449,
+                "kande_nr": 6,
+                "kirje_id": 12679128,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "rait@artm.eu"
+                "sisu": "raitkytt@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -302,8 +297,8 @@
                 "sisu": "+372 5022232"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "14.08.2012",
@@ -313,6 +308,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "10.09.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
@@ -321,7 +325,7 @@
                 "emtak_kood": "72191",
                 "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000545148,
                 "lopp_kpv": null,
                 "nace_kood": "72.19",
@@ -329,6 +333,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

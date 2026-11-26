@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.02.2023",
             "eesnimi": "Anneli",
-            "isikukood": "46411025711",
+            "isikukood": null,
+            "isikukood_hash": "79eb4990-7ae7-58ab-bc6b-dba4df38bee0",
             "kirje_id": 9001530732,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46411025711",
+            "isikukood_hash": "79eb4990-7ae7-58ab-bc6b-dba4df38bee0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -102,6 +104,20 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäe tn 2-2, Põlva linn, Põlva vald, Põlva maakond, 63304",
+                "kirje_id": 3312863,
+                "majandusaasta_perioodi_algus_kpv": "03.02.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "2"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "03.02.2023",
@@ -117,7 +133,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -217,7 +233,7 @@
                 "emtak_kood": "41201",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000667390,
                 "lopp_kpv": null,
                 "nace_kood": "41.20",

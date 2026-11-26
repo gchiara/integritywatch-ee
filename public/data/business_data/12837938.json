@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Hannes",
-            "isikukood": "38805212767",
+            "isikukood": null,
+            "isikukood_hash": "827d2ec6-51ee-58c5-b2c8-1abc591207db",
             "kirje_id": 9000693884,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38805212767",
+            "isikukood_hash": "827d2ec6-51ee-58c5-b2c8-1abc591207db",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Helme tn 14/1-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3651478,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Helme tn 14/1-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3328667,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Helme tn 14/1-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3177249,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Helme tn 14/1-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
                 "kirje_id": 2818923,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -324,14 +362,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.04.2015",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000163897,
+                "algus_kpv": "27.05.2026",
+                "emtak_kood": "74131",
+                "emtak_tekstina": "Sisekujundus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001105231,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "74.13",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.02.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000823578,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
             }
         ],

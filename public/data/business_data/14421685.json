@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "39409200253",
+            "isikukood": null,
+            "isikukood_hash": "e1859939-1eac-5349-8df1-17e27c4af808",
             "kirje_id": 9000809257,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39409200253",
+            "isikukood_hash": "e1859939-1eac-5349-8df1-17e27c4af808",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10097476",
-                "aadress_ads__adr_id": 3534419,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Väike-Paala tn 2",
+                "aadress_ads__adob_id": "6647932",
+                "aadress_ads__adr_id": 2363670,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Katusepapi tn 12-20",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00637400",
-                "aadress_ads__koodaadress": "377840387000004BG0000CK8700000000",
+                "aadress_ads__ads_oid": "ER03355650",
+                "aadress_ads__koodaadress": "377840387000003KA00001SP3FDUN0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "01.07.2022",
+                "algus_kpv": "25.06.2024",
                 "ehak": "0387",
                 "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10174078,
+                "kande_nr": 8,
+                "kirje_id": 12561539,
                 "lopp_kpv": null,
-                "postiindeks": "11415",
+                "postiindeks": "11412",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Väike-Paala tn 2"
+                "tanav_maja_korter": "Katusepapi tn 12-20"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 12-20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3737535,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 12-20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3438821,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Paala tn 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3126783,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Väike-Paala tn 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2827044,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,14 +324,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.02.2018",
-                "emtak_kood": "62011",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000337725,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000936497,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

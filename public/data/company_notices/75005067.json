@@ -91,13 +91,11 @@
         "filename": "award_174bd6d1-ac88-4dc9-9724-ce733412fe3e_0.json",
         "flags": [
             "Tenders received low",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10068915",
-            "Nominees as company board members: 46711080210"
+            "Possible shell company: 10068915"
         ],
         "noticeUid": "174bd6d1-ac88-4dc9-9724-ce733412fe3e",
         "notice_items": [
@@ -919,11 +917,7 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10284984",
-            "Nominees as company beneficial owners: 35305120230",
-            "Nominees as company board members: 37306295213",
-            "Nominees as company board members: 46501310300",
-            "Nominees as company board members: 35305120230",
-            "Nominees as company board members: 37409130220"
+            "Nominees as company beneficial owners: Tiit_Pahapill_29.10.2018"
         ],
         "noticeUid": "1e98c006-89d7-463d-9dfe-3351b76f72d5",
         "notice_items": [
@@ -1347,7 +1341,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-02",
+                "award_date_conclusion_contract": [
+                    "2023-06-02"
+                ],
                 "award_value": "50149.80",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -1362,7 +1358,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kindlustusteenuse ostmine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -1782,5 +1778,150 @@
         "refnum": "263868",
         "total_amount": "63277.80",
         "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "Valga Gümnaasiumi toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75005067",
+                "name": "Valga Gümnaasium",
+                "town": "Valga vald"
+            }
+        ],
+        "cpv": "55524000",
+        "date_dispatch_notice": "2025-03-24",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_3945d082-72ff-41cb-b38f-c07c3ebcf71a_0.json",
+        "flags": [],
+        "flagsNotes": [],
+        "noticeUid": "3945d082-72ff-41cb-b38f-c07c3ebcf71a",
+        "notice_items": [
+            {
+                "endDate": "2027-06-30"
+            }
+        ],
+        "refnum": "292221"
+    },
+    {
+        "contract_title": "Valga Gümnaasiumi toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75005067",
+                "name": "Valga Gümnaasium",
+                "town": "Valga vald"
+            }
+        ],
+        "cpv": "55524000",
+        "date_dispatch_notice": "2025-04-17",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_2acdf179-43b7-4ae5-abea-6577ca86fa6e_0.json",
+        "flags": [
+            "Short notice period"
+        ],
+        "flagsNotes": [
+            "Short notice period: 11 days."
+        ],
+        "noticeUid": "2acdf179-43b7-4ae5-abea-6577ca86fa6e",
+        "notice_items": [
+            {
+                "endDate": "2027-06-30"
+            }
+        ],
+        "refnum": "293950"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "result": "clos-nw"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Valga Gümnaasiumi toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75005067",
+                "name": "Valga Gümnaasium",
+                "town": "Valga vald"
+            }
+        ],
+        "contractors": [],
+        "cpv": "55524000",
+        "date_dispatch_notice": "2025-04-15",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b4bf16d8-5111-4535-b1e9-32c246ef1869_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "b4bf16d8-5111-4535-b1e9-32c246ef1869",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292221"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-02"
+                ],
+                "award_value": "106694.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10068915",
+                        "contractor_name": "P. DUSSMANN EESTI Osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Valga Gümnaasiumi toitlustusteenus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75005067",
+                "name": "Valga Gümnaasium",
+                "town": "Valga vald"
+            }
+        ],
+        "contractors": [
+            "10068915"
+        ],
+        "cpv": "55524000",
+        "date_dispatch_notice": "2025-06-09",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d2e3f581-28ec-425b-9ddd-48be97dca9ec_0.json",
+        "flags": [
+            "Tenders received low",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10068915"
+        ],
+        "noticeUid": "d2e3f581-28ec-425b-9ddd-48be97dca9ec",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293950-0000"
     }
 ]

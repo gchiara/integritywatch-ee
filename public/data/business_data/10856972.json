@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Mihhail",
-            "isikukood": "35307222218",
+            "isikukood": null,
+            "isikukood_hash": "a018d62a-78d9-57a5-85c2-7923e616d361",
             "kirje_id": 9000710948,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38212192210",
+            "isikukood_hash": "d1d7208a-b91c-5a45-93f2-49af16e2869e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35307222218",
+            "isikukood_hash": "a018d62a-78d9-57a5-85c2-7923e616d361",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -100,11 +103,11 @@
         "aadressid": [
             {
                 "aadress_ads__adob_id": "10620742",
-                "aadress_ads__adr_id": 2789899,
+                "aadress_ads__adr_id": 3671401,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Sillamäe linn, J. Gagarini tn 33-66",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01581674",
-                "aadress_ads__koodaadress": "457350000000003E700002JB08IE00000",
+                "aadress_ads__koodaadress": "45736000000000VJD0000D1CDLAPX0000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "0736",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Gagarini tn 33-66, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3704823,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Gagarini tn 33-66, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3394964,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46631",
+                "tegevusala_emtak_tekstina": "Kaevandus- ja ehitusmasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.63",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Gagarini tn 33-66, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3189255,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46691",
+                "tegevusala_emtak_tekstina": "Tõste- ja teisaldusseadmete ja -masinate ning nende varuosade hulgimüük (k.a konteinerid)",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Gagarini tn 33-66, Sillamäe linn, Ida-Viru maakond, 40233",
                 "kirje_id": 2896250,
@@ -408,7 +447,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -515,25 +554,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2021",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000562021,
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117374,
                 "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.06.2010",
-                "emtak_kood": "46691",
-                "emtak_tekstina": "Tõste- ja teisaldusseadmete ja -masinate ning nende varuosade hulgimüük,         (k.a konteinerid)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000029684,
-                "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

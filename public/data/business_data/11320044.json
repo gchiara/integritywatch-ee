@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.11.2020",
             "eesnimi": "Priit",
-            "isikukood": "38104152752",
+            "isikukood": null,
+            "isikukood_hash": "e22ee16a-40f6-56e7-828e-4fe6f90051e5",
             "kirje_id": 9001194067,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.06.2022",
             "eesnimi": "Hillar",
-            "isikukood": "35410032725",
+            "isikukood": null,
+            "isikukood_hash": "7bed2d46-084b-5b09-8333-8837bee5f98b",
             "kirje_id": 9001440452,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38104152752",
+            "isikukood_hash": "e22ee16a-40f6-56e7-828e-4fe6f90051e5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aasa, Aovere küla, Tartu vald, Tartu maakond, 60503",
+                "kirje_id": 3669992,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aasa, Aovere küla, Tartu vald, Tartu maakond, 60503",
+                "kirje_id": 3419149,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aasa, Aovere küla, Tartu vald, Tartu maakond, 60503",
+                "kirje_id": 3091527,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aasa, Aovere küla, Tartu vald, Tartu maakond, 60503",
                 "kirje_id": 2788083,
@@ -328,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -435,12 +474,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.05.2012",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000179582,
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917728,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true

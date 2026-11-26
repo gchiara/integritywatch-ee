@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-28",
+                "award_date_conclusion_contract": [
+                    "2023-07-28"
+                ],
                 "award_value": "60000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Viljandi Kutseõppekeskusele hügieeni- ja majapidamistarvete ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -44,8 +46,8 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 14911685",
-            "Nominees as company beneficial owners: 37309014239",
-            "Nominees as company board members: 37309014239"
+            "Nominees as company beneficial owners: Meelis_Rist_13.02.2020",
+            "Nominees as company board members: Meelis_Rist_13.02.2020"
         ],
         "noticeUid": "461465ba-cfc5-456a-9c98-60790e7a18e6",
         "notice_items": [
@@ -56,5 +58,55 @@
         "refnum": "265101",
         "total_amount": "60000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-07-28"
+                ],
+                "award_value": "60000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "14911685",
+                        "contractor_name": "Cleano Grupp OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Viljandi Kutseõppekeskusele hügieeni- ja majapidamistarvete ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70005565",
+                "name": "Viljandi Kutseõppekeskus",
+                "town": "Viljandi vald"
+            }
+        ],
+        "contractors": [
+            "14911685"
+        ],
+        "cpv": "33700000",
+        "date_dispatch_notice": "2026-05-11",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_72013fea-12e9-43de-8b73-0e1bf77aecce_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "72013fea-12e9-43de-8b73-0e1bf77aecce",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "265101-0000"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Ingar",
-            "isikukood": "37611200317",
+            "isikukood": null,
+            "isikukood_hash": "369fa0f1-3686-5389-a4bd-d79bd4f220cd",
             "kirje_id": 9000659881,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37611200317",
+            "isikukood_hash": "369fa0f1-3686-5389-a4bd-d79bd4f220cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9513699",
+                "aadress_ads__adob_id": "10789365",
                 "aadress_ads__adr_id": 3414412,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Suurupi küla, Vaikuse tee 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vaikuse tee 13, Suurupi küla, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3623397,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaikuse tee 13, Suurupi küla, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3387253,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaikuse tee 13, Suurupi küla, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3040211,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vaikuse tee 13, Suurupi küla, Harku vald, Harju maakond, 76901",
                 "kirje_id": 2767167,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,12 +456,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "85531",
                 "emtak_tekstina": "Sõiduõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000037461,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000885799,
                 "lopp_kpv": null,
                 "nace_kood": "85.53",
                 "on_pohitegevusala": true

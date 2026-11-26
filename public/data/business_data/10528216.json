@@ -7,6 +7,7 @@
             "algus_kpv": "14.09.2018",
             "eesnimi": "Rolands",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000690593,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -19,45 +20,7 @@
             "valis_kood_riik_tekstina": "Läti"
         }
     ],
-    "board_members": [
-        {
-            "aadress_ads__adob_id": null,
-            "aadress_ads__adr_id": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress": null,
-            "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-            "aadress_ads__ads_oid": null,
-            "aadress_ads__koodaadress": null,
-            "aadress_ads__tyyp": null,
-            "aadress_ehak": null,
-            "aadress_ehak_tekstina": "",
-            "aadress_postiindeks": null,
-            "aadress_riik": "LAT",
-            "aadress_riik_tekstina": "Läti",
-            "aadress_tanav_maja_korter": "Riia",
-            "algus_kpv": "09.02.1999",
-            "eesnimi": "Rolands",
-            "email": null,
-            "isiku_roll": "JUHL",
-            "isiku_roll_tekstina": "Juhatuse liige",
-            "isiku_tyyp": "F",
-            "isikukood_registrikood": null,
-            "kaardi_nr": 1,
-            "kaardi_piirkond": 1,
-            "kaardi_tyyp": "R",
-            "kande_nr": 1,
-            "kirje_id": 393916,
-            "lopp_kpv": null,
-            "nimi_arinimi": "Moisejs",
-            "osamaks": null,
-            "osamaksu_valuuta": null,
-            "osamaksu_valuuta_tekstina": null,
-            "synniaeg": "16.12.1967",
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null,
-            "volituste_loppemise_kpv": ""
-        }
-    ],
+    "board_members": [],
     "nimi": "osaühing Rolands Moisejs",
     "yldandmed": {
         "aadressid": [
@@ -395,7 +358,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -476,6 +439,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "30.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "kirje_id": 13491245,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 05.12.2025 a kohtumäärusega tsiviilasjas nr 2-25-12850 lõpetati äriühingu pankrotiavalduse menetlus pankrotti välja kuulutamata raugemise tõttu, kuna võlgnikul ei jätku vara pankrotimenetluse kulude katteks ja puudub vara tagasivõitmise ja tagasinõudmise võimalus.\n",
+                "tyyp": "LOPET",
+                "tyyp_tekstina": "Lõpetamine tekstina"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -522,8 +499,8 @@
                 "sisu": "www.rm.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "L",
+        "staatus_tekstina": "Likvideerimisel",
         "staatused": [
             {
                 "algus_kpv": "09.02.1999",
@@ -533,6 +510,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "30.12.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "staatus": "L",
+                "staatus_tekstina": "Likvideerimisel"
             }
         ],
         "teatatud_tegevusalad": [
@@ -541,7 +527,7 @@
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000473631,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
@@ -552,7 +538,7 @@
                 "emtak_kood": "46621",
                 "emtak_tekstina": "Tööpinkide hulgimüük",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000415301,
                 "lopp_kpv": null,
                 "nace_kood": "46.62",
@@ -563,7 +549,7 @@
                 "emtak_kood": "33121",
                 "emtak_tekstina": "Masinate ja seadmete remont",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000415302,
                 "lopp_kpv": null,
                 "nace_kood": "33.12",
@@ -571,6 +557,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

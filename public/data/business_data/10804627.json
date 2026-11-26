@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Vinera",
-            "isikukood": "46404170353",
+            "isikukood": null,
+            "isikukood_hash": "1ddb504f-233f-5d2e-84f2-c197defc7503",
             "kirje_id": 9000736048,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39202114713",
+            "isikukood_hash": "6489cb39-64e6-5ade-ab5f-79c9aecd862e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9658207",
+                "aadress_ads__adob_id": "11098543",
                 "aadress_ads__adr_id": 3434885,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne maakond, Lääne-Nigula vald, Koluvere küla, Koluvere hooldekodu/3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koluvere hooldekodu/3, Koluvere küla, Lääne-Nigula vald, Lääne maakond, 90702",
+                "kirje_id": 3671183,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "48"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koluvere hooldekodu/3, Koluvere küla, Lääne-Nigula vald, Lääne maakond, 90702",
+                "kirje_id": 3407988,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koluvere hooldekodu/3, Koluvere küla, Lääne-Nigula vald, Lääne maakond, 90702",
+                "kirje_id": 3150057,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Vanurite ja puuetega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koluvere hooldekodu/3, Koluvere küla, Lääne-Nigula vald, Lääne maakond, 90702",
                 "kirje_id": 2958250,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -480,37 +518,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.03.2020",
+                "algus_kpv": "11.06.2025",
                 "emtak_kood": "87301",
-                "emtak_tekstina": "Vanurite ja puuetega inimeste hoolekandeasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000467904,
+                "emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905367,
                 "lopp_kpv": null,
                 "nace_kood": "87.30",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "10.07.2023",
-                "emtak_kood": "86903",
-                "emtak_tekstina": "Õendusabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710710,
-                "lopp_kpv": null,
-                "nace_kood": "86.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.07.2023",
-                "emtak_kood": "55901",
-                "emtak_tekstina": "Muu majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000710711,
-                "lopp_kpv": null,
-                "nace_kood": "55.90",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

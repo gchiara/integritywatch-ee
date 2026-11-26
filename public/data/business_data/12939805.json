@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Heiki",
-            "isikukood": "38510250237",
+            "isikukood": null,
+            "isikukood_hash": "eeaaec67-a2d9-5b33-968e-3df9a0c8a5de",
             "kirje_id": 9000653427,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38510250237",
+            "isikukood_hash": "eeaaec67-a2d9-5b33-968e-3df9a0c8a5de",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9837779",
-                "aadress_ads__adr_id": 3472224,
+                "aadress_ads__adob_id": "11119312",
+                "aadress_ads__adr_id": 3706810,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Aasa tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00975194",
-                "aadress_ads__koodaadress": "377197361000002TX00002VSO00000000",
+                "aadress_ads__koodaadress": "37719736200000VR40000D6AS00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "10.12.2017",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aasa tn 3, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3768337,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aasa tn 3, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3468835,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aasa tn 3, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3246725,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aasa tn 3, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2827478,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -321,25 +359,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.06.2022",
-                "emtak_kood": "41201",
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000626636,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000965554,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "17.06.2022",
-                "emtak_kood": "71121",
-                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000626637,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "73111",
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000965555,
                 "lopp_kpv": null,
-                "nace_kood": "71.12",
+                "nace_kood": "73.11",
                 "on_pohitegevusala": false
             }
         ],

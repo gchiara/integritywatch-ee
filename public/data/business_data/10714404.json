@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Aap",
-            "isikukood": "37307060288",
+            "isikukood": null,
+            "isikukood_hash": "5a76bc59-72db-50f8-a65f-dc38404dfbb6",
             "kirje_id": 9000660984,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Priit",
-            "isikukood": "38305210281",
+            "isikukood": null,
+            "isikukood_hash": "8009a79e-236c-59eb-a73c-276f68044b25",
             "kirje_id": 9000660985,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37811266014",
+            "isikukood_hash": "00d333ed-7409-541b-b464-d71c782405bd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38604030012",
+            "isikukood_hash": "1b19d229-328f-5c17-b0bc-c87c793dc604",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -112,7 +116,7 @@
             "volituste_loppemise_kpv": ""
         }
     ],
-    "nimi": "AS Finestmedia",
+    "nimi": "FINEST AS",
     "yldandmed": {
         "aadressid": [
             {
@@ -140,14 +144,14 @@
         ],
         "arinimed": [
             {
-                "algus_kpv": "19.07.2012",
+                "algus_kpv": "17.09.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 4541999,
+                "kande_nr": 27,
+                "kirje_id": 12695622,
                 "lopp_kpv": null,
-                "sisu": "AS Finestmedia"
+                "sisu": "FINEST AS"
             }
         ],
         "asutatud_sissemakset_tegemata": false,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3620267,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "88"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3438270,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "68"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 80d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
+                "kirje_id": 3080293,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "63"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 80d, Kesklinna linnaosa, Tallinn, Harju maakond, 10112",
                 "kirje_id": 2918998,
@@ -412,20 +452,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "14.10.2013",
+                "algus_kpv": "06.10.2023",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 13,
-                "kapitali_suurus": "93680.00",
+                "kande_nr": 26,
+                "kapitali_suurus": "300000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 5001306,
+                "kirje_id": 12075948,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -506,13 +546,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.05.2023",
+                "algus_kpv": "17.09.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 23,
+                "kande_nr": 27,
                 "kinnitamise_kpv": null,
-                "kirje_id": 10624923,
+                "kirje_id": 12695621,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -524,12 +564,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 25,
-                "kirje_id": 11997019,
+                "kande_nr": 29,
+                "kirje_id": 12986577,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "jan.urva@finestmedia.ee"
+                "sisu": "support@finest.eu"
             },
             {
                 "kaardi_nr": null,
@@ -541,6 +581,17 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6558043"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000713831,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://finest.eu/"
             }
         ],
         "staatus": "R",
@@ -558,14 +609,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "62011",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000030309,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000935830,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

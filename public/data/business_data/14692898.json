@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.01.2023",
             "eesnimi": "Jaanus",
-            "isikukood": "37601132758",
+            "isikukood": null,
+            "isikukood_hash": "a62ebcbc-c5dc-5fd4-815a-fb16b2b4912b",
             "kirje_id": 9001529237,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37601132758",
+            "isikukood_hash": "a62ebcbc-c5dc-5fd4-815a-fb16b2b4912b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Ringi tee 11, Võnnu alevik, Kastre vald, Tartu maakond, 62401",
+                "kirje_id": 3696320,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringi tee 11, Võnnu alevik, Kastre vald, Tartu maakond, 62401",
+                "kirje_id": 3393024,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringi tee 11, Võnnu alevik, Kastre vald, Tartu maakond, 62401",
+                "kirje_id": 3172807,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringi tee 11, Võnnu alevik, Kastre vald, Tartu maakond, 62401",
                 "kirje_id": 2925527,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,25 +312,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.06.2022",
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000624626,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000891186,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "01.04.2020",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000470295,
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000891187,
                 "lopp_kpv": null,
-                "nace_kood": "16.10",
+                "nace_kood": "02.40",
                 "on_pohitegevusala": false
             }
         ],

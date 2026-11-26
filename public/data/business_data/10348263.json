@@ -7,6 +7,7 @@
             "algus_kpv": "07.02.2019",
             "eesnimi": "Jean-Charles",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000930074,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -24,6 +25,7 @@
             "algus_kpv": "07.02.2019",
             "eesnimi": "Jean-Francois",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000930073,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -41,6 +43,7 @@
             "algus_kpv": "07.02.2019",
             "eesnimi": "Jean-Sebastien",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000930075,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35803110185",
+            "isikukood_hash": "aeb4bc37-0865-5ce8-919a-e4e7d011a79d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -137,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3752068,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "33"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3479929,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "33"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3213836,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "28"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2929143,
@@ -453,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -631,17 +671,6 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6309940"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000117912,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6309941"
             }
         ],
         "staatus": "R",
@@ -659,12 +688,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "73121",
                 "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000046430,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976354,
                 "lopp_kpv": null,
                 "nace_kood": "73.12",
                 "on_pohitegevusala": true

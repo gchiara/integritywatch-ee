@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Arvo",
-            "isikukood": "35509152717",
+            "isikukood": null,
+            "isikukood_hash": "4423ab26-0310-5859-a759-084207ab8d9c",
             "kirje_id": 9000749032,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Ivar",
-            "isikukood": "38009136018",
+            "isikukood": null,
+            "isikukood_hash": "eb2becd5-d97c-5fd8-9513-d011498a1ee0",
             "kirje_id": 9000749029,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Toivo",
-            "isikukood": "35004066013",
+            "isikukood": null,
+            "isikukood_hash": "0c906706-ad6e-5413-9cc7-e97435e4d872",
             "kirje_id": 9000749027,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +60,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "34808172733",
+            "isikukood": null,
+            "isikukood_hash": "6a34e903-e4f5-562e-b8f1-b6bb47aa44eb",
             "kirje_id": 9000749031,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -90,7 +94,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35004066013",
+            "isikukood_hash": "0c906706-ad6e-5413-9cc7-e97435e4d872",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -153,6 +158,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vitamiini tn 4, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3716099,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "33"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vitamiini tn 4, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3483687,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "32"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vitamiini tn 4, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3185971,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "37"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vitamiini tn 4, Tartu linn, Tartu linn, Tartu maakond, 51014",
                 "kirje_id": 2891653,
@@ -409,7 +450,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -476,6 +517,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "25.06.2024",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12563242,
+                "lopp_kpv": null,
+                "sisu": "Osaühing TAVT, (jagunev ühing) jaguneb eraldumise teel ning annab osa varast üle omandavale asutatavale OÜ TAVT Kinnisvara, (registrikood 17015684, asukoht Tartu linn, Vitamiini tn 4) vastavalt jagunemiskavale mis on tõestatud 26.04.2024 ja heaks kiidetud 10.05.2024. ",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -566,48 +621,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.03.2010",
-                "emtak_kood": "42211",
-                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006537,
-                "lopp_kpv": null,
-                "nace_kood": "42.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.03.2010",
-                "emtak_kood": "42131",
-                "emtak_tekstina": "Silla- ja tunneliehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006536,
-                "lopp_kpv": null,
-                "nace_kood": "42.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.03.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46131",
-                "emtak_tekstina": "Puidu ja ehitusmaterjalide vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006538,
+                "emtak_tekstina": "Puidu ja ehitusmaterjalide hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980625,
                 "lopp_kpv": null,
                 "nace_kood": "46.13",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000011174,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980623,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "4221",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980624,
+                "lopp_kpv": null,
+                "nace_kood": "42.21",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

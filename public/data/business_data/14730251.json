@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.05.2019",
             "eesnimi": "Ferenc Péter",
-            "isikukood": "36408120152",
+            "isikukood": null,
+            "isikukood_hash": "395b0b43-a082-5917-bf54-247cd86c1c61",
             "kirje_id": 9000972867,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36408120152",
+            "isikukood_hash": "395b0b43-a082-5917-bf54-247cd86c1c61",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 67/1-13b, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3602013,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 67/1-13b, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3435441,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 67/1-13b, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3039127,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 67/1-13b, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
                 "kirje_id": 2813535,
@@ -169,29 +207,29 @@
         "kontaktisiku_aadressid": [
             {
                 "aadress_ads__adob_id": null,
-                "aadress_ads__adr_id": 2223459,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Asula tn 5-30",
+                "aadress_ads__adr_id": 2265862,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 105",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER03584469",
-                "aadress_ads__koodaadress": "377840298000005WH000033CZCW6O0000",
+                "aadress_ads__ads_oid": "ME01085465",
+                "aadress_ads__koodaadress": "377840298000001L900001EK000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "25.05.2019",
+                "algus_kpv": "13.04.2026",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8578219,
+                "kande_nr": 5,
+                "kirje_id": 13671277,
                 "lopp_kpv": null,
                 "postiindeks": "11312",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Asula tn 5-30"
+                "tanav_maja_korter": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 105"
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,14 +336,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.10.2020",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000509954,
+                "algus_kpv": "23.06.2025",
+                "emtak_kood": "6220",
+                "emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000933192,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

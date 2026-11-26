@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36212132252",
+            "isikukood": null,
+            "isikukood_hash": "2739f25b-ba8e-503a-9f6a-5ea5ea89272e",
             "kirje_id": 9000711834,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Vaido",
-            "isikukood": "36608172224",
+            "isikukood": null,
+            "isikukood_hash": "b220b6ee-c4d9-50d2-978b-63258e58600c",
             "kirje_id": 9000711837,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608172224",
+            "isikukood_hash": "b220b6ee-c4d9-50d2-978b-63258e58600c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9980721",
+                "aadress_ads__adob_id": "10952997",
                 "aadress_ads__adr_id": 3298203,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Lüganuse vald, Kiviõli linn, Kauba tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 5, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3644311,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektripaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 5, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3373774,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 5, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3124331,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kauba tn 5, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
                 "kirje_id": 2819081,
@@ -423,7 +462,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -563,34 +602,45 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.05.2018",
+                "algus_kpv": "20.05.2026",
                 "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000354196,
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103307,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "24.05.2018",
-                "emtak_kood": "42221",
-                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000354195,
-                "lopp_kpv": null,
-                "nace_kood": "42.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "15.06.2020",
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "42221",
+                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103308,
+                "lopp_kpv": null,
+                "nace_kood": "42.22",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "15.05.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000871876,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "15.05.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000482653,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000871875,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": false

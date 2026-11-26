@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36701120213",
+            "isikukood": null,
+            "isikukood_hash": "c1f6d750-0bf1-5fea-a2a6-0ae62972dd94",
             "kirje_id": 9000718123,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36701120213",
+            "isikukood_hash": "c1f6d750-0bf1-5fea-a2a6-0ae62972dd94",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 41, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
+                "kirje_id": 3696229,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47403",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 41, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
+                "kirje_id": 3421186,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47403",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 41, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
+                "kirje_id": 3161407,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47431",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.43",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 41, Kesklinna linnaosa, Tallinn, Harju maakond, 10128",
                 "kirje_id": 2931169,
@@ -430,7 +468,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -596,47 +634,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2012",
-                "emtak_kood": "71129",
-                "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000186914,
-                "lopp_kpv": null,
-                "nace_kood": "71.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.06.2010",
-                "emtak_kood": "47431",
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "47403",
                 "emtak_tekstina": "Heli- ja videoseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000029809,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000919737,
                 "lopp_kpv": null,
-                "nace_kood": "47.43",
+                "nace_kood": "47.40",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "10.06.2010",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000029810,
+                "algus_kpv": "17.06.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000919738,
                 "lopp_kpv": null,
-                "nace_kood": "46.52",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.06.2010",
-                "emtak_kood": "47421",
-                "emtak_tekstina": "Telekommunikatsiooniseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000029811,
-                "lopp_kpv": null,
-                "nace_kood": "47.42",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": false
             }
         ],

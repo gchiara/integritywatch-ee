@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2021",
             "eesnimi": "Urmas",
-            "isikukood": "36111290232",
+            "isikukood": null,
+            "isikukood_hash": "9fd6743f-d445-5dd1-a586-51d114d1f797",
             "kirje_id": 9001325178,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36903220213",
+            "isikukood_hash": "afc6f55c-14ff-57b3-b3fb-1dc03f3d7cd1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 63, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3751178,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49331",
+                "tegevusala_emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.33",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 63, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3477258,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49331",
+                "tegevusala_emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.33",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 63, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3150686,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Taksovedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 63, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2934551,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -506,12 +544,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 13,
-                "kirje_id": 7658515,
+                "kande_nr": 21,
+                "kirje_id": 12522083,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tulika@tulika.ee"
+                "sisu": "takso@forustakso.ee"
             },
             {
                 "kaardi_nr": null,
@@ -529,33 +567,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000051676,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6120002"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000218679,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6120003"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000664256,
+                "kirje_id": 9000708281,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.tulika.ee"
+                "sisu": "http://www.forustakso.ee"
             }
         ],
         "staatus": "R",
@@ -573,37 +589,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "7711",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706054,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "49331",
+                "emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973506,
+                "lopp_kpv": null,
+                "nace_kood": "49.33",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973507,
                 "lopp_kpv": null,
                 "nace_kood": "77.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706055,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "96999",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973508,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.10.2020",
-                "emtak_kood": "49321",
-                "emtak_tekstina": "Taksovedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000510371,
-                "lopp_kpv": null,
-                "nace_kood": "49.32",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.02.2020",
             "eesnimi": "Tambet",
-            "isikukood": "37507220245",
+            "isikukood": null,
+            "isikukood_hash": "2b513a4f-caf8-5604-a18d-ecae247bb909",
             "kirje_id": 9001085313,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37507220245",
+            "isikukood_hash": "2b513a4f-caf8-5604-a18d-ecae247bb909",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hiiu mnt 28, Käina alevik, Hiiumaa vald, Hiiu maakond, 92101",
+                "kirje_id": 3659728,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hiiu mnt 28, Käina alevik, Hiiumaa vald, Hiiu maakond, 92101",
+                "kirje_id": 3386379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hiiu mnt 28, Käina alevik, Hiiumaa vald, Hiiu maakond, 92101",
+                "kirje_id": 3141517,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hiiu mnt 28, Käina alevik, Hiiumaa vald, Hiiu maakond, 92101",
                 "kirje_id": 2829798,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -339,6 +377,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "04.02.2025",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 19,
+                "kirje_id": 12943266,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud ÄRS § 53 lg 2 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 7
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -418,36 +469,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.04.2013",
-                "emtak_kood": "38111",
-                "emtak_tekstina": "Tavajäätmete kogumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000023153,
+                "algus_kpv": "29.05.2025",
+                "emtak_kood": "96999",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000884938,
                 "lopp_kpv": null,
-                "nace_kood": "38.11",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "06.05.2018",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000351045,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.07.2011",
+                "algus_kpv": "01.06.2026",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000142488,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107229,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.06.2026",
+                "emtak_kood": "38111",
+                "emtak_tekstina": "Tavajäätmete kogumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107230,
+                "lopp_kpv": null,
+                "nace_kood": "38.11",
                 "on_pohitegevusala": false
             }
         ],

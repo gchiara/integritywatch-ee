@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.07.2019",
             "eesnimi": "Hannes",
-            "isikukood": "38706252720",
+            "isikukood": null,
+            "isikukood_hash": "a6b0e69d-5626-5a1c-9a99-f182599429d7",
             "kirje_id": 9001004277,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38706252720",
+            "isikukood_hash": "a6b0e69d-5626-5a1c-9a99-f182599429d7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7398262",
+                "aadress_ads__adob_id": "11062123",
                 "aadress_ads__adr_id": 2290250,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Mureli tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mureli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3049903,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mureli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
                 "kirje_id": 2980940,
@@ -290,7 +304,7 @@
                 "emtak_kood": "41201",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000345774,
                 "lopp_kpv": null,
                 "nace_kood": "41.20",

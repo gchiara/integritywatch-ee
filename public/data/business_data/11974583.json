@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Rait",
-            "isikukood": "38109170340",
+            "isikukood": null,
+            "isikukood_hash": "fe2082b2-2e43-52ae-ab92-1cc88f64e558",
             "kirje_id": 9000844424,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109170340",
+            "isikukood_hash": "fe2082b2-2e43-52ae-ab92-1cc88f64e558",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9515030",
-                "aadress_ads__adr_id": 3413647,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Suurupi küla, Angervaksa tee 33",
+                "aadress_ads__adob_id": "11515694",
+                "aadress_ads__adr_id": 3413762,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Muraste küla, Lõkke tee 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE02173136",
-                "aadress_ads__koodaadress": "37198787000000TOR0000BWCY00000000",
+                "aadress_ads__ads_oid": "EE02286511",
+                "aadress_ads__koodaadress": "37198503800000TPP0000BWFL00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "21.08.2019",
-                "ehak": "7870",
-                "ehak_nimetus": "Suurupi küla, Harku vald, Harju maakond",
+                "algus_kpv": "22.04.2024",
+                "ehak": "5038",
+                "ehak_nimetus": "Muraste küla, Harku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 8700126,
+                "kande_nr": 8,
+                "kirje_id": 12455020,
                 "lopp_kpv": null,
-                "postiindeks": "76907",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Angervaksa tee 33"
+                "postiindeks": "76905",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Lõkke tee 16"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõkke tee 16, Muraste küla, Harku vald, Harju maakond, 76905",
+                "kirje_id": 3702964,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõkke tee 16, Muraste küla, Harku vald, Harju maakond, 76905",
+                "kirje_id": 3486869,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Angervaksa tee 33, Suurupi küla, Harku vald, Harju maakond, 76907",
+                "kirje_id": 3069405,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Angervaksa tee 33, Suurupi küla, Harku vald, Harju maakond, 76907",
                 "kirje_id": 2900032,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,14 +408,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2016",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000243112,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984053,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.81",
                 "on_pohitegevusala": true
             }
         ],

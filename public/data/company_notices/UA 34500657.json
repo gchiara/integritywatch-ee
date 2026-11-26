@@ -152,7 +152,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-15",
+                "award_date_conclusion_contract": [
+                    "2023-06-15"
+                ],
                 "award_value": "500000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -167,7 +169,7 @@
                 "tenders_received": "15"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Trembita süsteemil põhinevate riigi registrite koostalitusvõime tööriistade arendamise teenuste raamleping (Ukraina)",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -209,6 +211,62 @@
         ],
         "refnum": "260725",
         "total_amount": "500000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-11-22"
+                ],
+                "award_value": "58992.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "UA 34500657",
+                        "contractor_name": "Soft Xpansion Ukraine",
+                        "country": "UKR"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Services for technical support of the Information System «Software Complex for Automation of Administrative Service Centre Activities (SC ASC)» (Ukraine)",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "90007000",
+                "name": "E-riigi Akadeemia Sihtasutus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "UA 34500657"
+        ],
+        "cpv": "72200000",
+        "date_dispatch_notice": "2024-01-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_8b2e7c07-899f-464e-b8ae-0bd546a29d33_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "8b2e7c07-899f-464e-b8ae-0bd546a29d33",
+        "notice_items": [
+            {
+                "duration": "12 MONTH"
+            }
+        ],
+        "refnum": "271456",
+        "total_amount": "58992.00",
         "total_amount_curr": "EUR"
     }
 ]

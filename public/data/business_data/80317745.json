@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.10.2018",
             "eesnimi": "Eva",
-            "isikukood": "47503250040",
+            "isikukood": null,
+            "isikukood_hash": "3747544e-1297-5226-a5f0-0ffd267cac43",
             "kirje_id": 9000747955,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.03.2022",
             "eesnimi": "Gerta",
-            "isikukood": "46810020036",
+            "isikukood": null,
+            "isikukood_hash": "0643e9d2-35f4-5f8a-83d0-79a417915375",
             "kirje_id": 9001403879,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47503250040",
+            "isikukood_hash": "3747544e-1297-5226-a5f0-0ffd267cac43",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46810020036",
+            "isikukood_hash": "0643e9d2-35f4-5f8a-83d0-79a417915375",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pöörnaaia, Abruka küla, Saaremaa vald, Saare maakond, 93826",
+                "kirje_id": 3702058,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pöörnaaia, Abruka küla, Saaremaa vald, Saare maakond, 93826",
+                "kirje_id": 3403790,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pöörnaaia, Abruka küla, Saaremaa vald, Saare maakond, 93826",
+                "kirje_id": 3143663,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pöörnaaia, Abruka küla, Saaremaa vald, Saare maakond, 93826",
                 "kirje_id": 2886040,
@@ -303,7 +343,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -375,12 +415,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 6,
-                "kirje_id": 10472181,
+                "kande_nr": 7,
+                "kirje_id": 12127583,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "eva.kips@eesti.ee"
+                "sisu": "eva.kips@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -409,14 +449,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2012",
-                "emtak_kood": "01421",
-                "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000185777,
+                "algus_kpv": "09.06.2025",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000901375,
                 "lopp_kpv": null,
-                "nace_kood": "01.42",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": true
             }
         ],

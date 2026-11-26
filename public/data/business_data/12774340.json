@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Avo",
-            "isikukood": "36707262750",
+            "isikukood": null,
+            "isikukood_hash": "aeec1a40-81f2-5d21-8a1c-4c2bf3e10874",
             "kirje_id": 9000832094,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Ivar",
-            "isikukood": "36701052734",
+            "isikukood": null,
+            "isikukood_hash": "ef92ae54-38be-559f-89fd-0e0e42147c8b",
             "kirje_id": 9000832092,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36707262750",
+            "isikukood_hash": "aeec1a40-81f2-5d21-8a1c-4c2bf3e10874",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36701052734",
+            "isikukood_hash": "ef92ae54-38be-559f-89fd-0e0e42147c8b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laine, Vana-Kuuste küla, Kambja vald, Tartu maakond, 62033",
+                "kirje_id": 3798384,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laine, Vana-Kuuste küla, Kambja vald, Tartu maakond, 62033",
+                "kirje_id": 3439506,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4931",
+                "tegevusala_emtak_tekstina": "Sõitjate liinivedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laine, Vana-Kuuste küla, Kambja vald, Tartu maakond, 62033",
+                "kirje_id": 3220829,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laine, Vana-Kuuste küla, Kambja vald, Tartu maakond, 62033",
                 "kirje_id": 2861731,
@@ -269,7 +309,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -398,14 +438,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.07.2016",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000252573,
+                "algus_kpv": "05.07.2026",
+                "emtak_kood": "49319",
+                "emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001136901,
                 "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "49.31",
                 "on_pohitegevusala": true
             }
         ],

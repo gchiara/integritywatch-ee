@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Taavi",
-            "isikukood": "38705160341",
+            "isikukood": null,
+            "isikukood_hash": "b5b75a1b-1075-5328-b0d9-ff8abe406120",
             "kirje_id": 9000673745,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38705160341",
+            "isikukood_hash": "b5b75a1b-1075-5328-b0d9-ff8abe406120",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kikkaoru/1, Möldri küla, Rõuge vald, Võru maakond, 66261",
+                "kirje_id": 3756562,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kikkaoru/1, Möldri küla, Rõuge vald, Võru maakond, 66261",
+                "kirje_id": 3316809,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kikkaoru/1, Möldri küla, Rõuge vald, Võru maakond, 66261",
+                "kirje_id": 3067034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kikkaoru/1, Möldri küla, Rõuge vald, Võru maakond, 66261",
                 "kirje_id": 2761797,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,12 +384,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.01.2023",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "7112",
+                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001127998,
+                "lopp_kpv": null,
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "11.01.2025",
                 "emtak_kood": "5911",
                 "emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000667200,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000810133,
                 "lopp_kpv": null,
                 "nace_kood": "59.11",
                 "on_pohitegevusala": true

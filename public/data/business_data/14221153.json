@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Rene",
-            "isikukood": "38210072714",
+            "isikukood": null,
+            "isikukood_hash": "9a53400a-41b6-54ab-ab68-a19b4b22fc18",
             "kirje_id": 9000687996,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38210072714",
+            "isikukood_hash": "9a53400a-41b6-54ab-ab68-a19b4b22fc18",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10563390",
-                "aadress_ads__adr_id": 3466259,
+                "aadress_ads__adob_id": "10786614",
+                "aadress_ads__adr_id": 3707663,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Üksnurme tee 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01116507",
-                "aadress_ads__koodaadress": "3771973610000071Z00003U2300000000",
+                "aadress_ads__koodaadress": "37719736200000VSP0000D6RK00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.01.2021",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3790871,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3540123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Üksnurme tee 8, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3197501,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Üksnurme tee 8, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2969826,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,12 +336,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.03.2017",
+                "algus_kpv": "23.07.2025",
                 "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000283212,
+                "emtak_tekstina": "Maanteede ja kiirteede ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035872,
                 "lopp_kpv": null,
                 "nace_kood": "42.11",
                 "on_pohitegevusala": true

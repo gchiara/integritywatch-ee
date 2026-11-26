@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.04.2020",
             "eesnimi": "Erkki",
-            "isikukood": "37409102738",
+            "isikukood": null,
+            "isikukood_hash": "b07e5192-cb9b-53fb-a6af-d133d32c438a",
             "kirje_id": 9001110171,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37409102738",
+            "isikukood_hash": "b07e5192-cb9b-53fb-a6af-d133d32c438a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 5, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3776077,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 5, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3502972,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hommiku tn 5, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3180585,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hommiku tn 5, Tartu linn, Tartu linn, Tartu maakond, 50412",
                 "kirje_id": 2939030,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -350,23 +388,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000633827,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001000180,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.06.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "27401",
-                "emtak_tekstina": "Elektriliste valgustusseadmete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558644,
+                "emtak_tekstina": "Valgustusseadmete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001000182,
                 "lopp_kpv": null,
                 "nace_kood": "27.40",
                 "on_pohitegevusala": false

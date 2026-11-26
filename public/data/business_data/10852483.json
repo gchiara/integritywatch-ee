@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.08.2022",
             "eesnimi": "Riho",
-            "isikukood": "37112220321",
+            "isikukood": null,
+            "isikukood_hash": "68e6e9c5-a51c-5f80-bb32-2307eff3d7ca",
             "kirje_id": 9001460787,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37112220321",
+            "isikukood_hash": "68e6e9c5-a51c-5f80-bb32-2307eff3d7ca",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7870231",
-                "aadress_ads__adr_id": 2659655,
+                "aadress_ads__adob_id": "10938911",
+                "aadress_ads__adr_id": 3744000,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Vainu tn 11",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00842899",
-                "aadress_ads__koodaadress": "52567586000000RUL0000ATZT00000000",
+                "aadress_ads__koodaadress": "52567586100000W410000D9MP00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "29.07.2022",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vainu tn 11, Paide linn, Paide linn, Järva maakond, 72713",
+                "kirje_id": 3699600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vainu tn 11, Paide linn, Paide linn, Järva maakond, 72713",
+                "kirje_id": 3399970,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vainu tn 11, Paide linn, Paide linn, Järva maakond, 72713",
+                "kirje_id": 3267547,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "28"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vainu tn 11, Paide linn, Paide linn, Järva maakond, 72713",
                 "kirje_id": 2858016,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -478,14 +516,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2023",
-                "emtak_kood": "41201",
+                "algus_kpv": "06.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000692646,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000897798,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

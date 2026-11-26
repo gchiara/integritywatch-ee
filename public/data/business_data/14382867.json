@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.10.2018",
             "eesnimi": "Olga",
-            "isikukood": "47912192241",
+            "isikukood": null,
+            "isikukood_hash": "af5b2c80-55e0-5b3c-b4c5-8d1bd381e746",
             "kirje_id": 9000746620,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.10.2018",
             "eesnimi": "Roman",
-            "isikukood": "37708292222",
+            "isikukood": null,
+            "isikukood_hash": "3d746e7c-ebd9-58aa-bbb0-bcefcbfb4e10",
             "kirje_id": 9000746619,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -41,26 +43,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7702556",
-                "aadress_ads__adr_id": 2592188,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Toila vald, Ontika küla, Puiestee",
+                "aadress_ads__adob_id": "11161540",
+                "aadress_ads__adr_id": 3805783,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Ontika küla, Kohvi",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE02128068",
-                "aadress_ads__koodaadress": "458035680000000000MQ3000000000000",
+                "aadress_ads__koodaadress": "45250568000000000GWV3000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "04.12.2017",
+                "algus_kpv": "29.11.2025",
                 "ehak": "5680",
-                "ehak_nimetus": "Ontika küla, Toila vald, Ida-Viru maakond",
+                "ehak_nimetus": "Ontika küla, Jõhvi vald, Ida-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 7260978,
+                "kande_nr": 7,
+                "kirje_id": 13445200,
                 "lopp_kpv": null,
                 "postiindeks": "41556",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Puiestee"
+                "tanav_maja_korter": "Kohvi"
             }
         ],
         "arinimed": [
@@ -82,6 +84,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kohvi, Ontika küla, Jõhvi vald, Ida-Viru maakond, 41556",
+                "kirje_id": 3709083,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kohvi, Ontika küla, Toila vald, Ida-Viru maakond, 41556",
+                "kirje_id": 3447390,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee, Ontika küla, Toila vald, Ida-Viru maakond, 41556",
+                "kirje_id": 3131179,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puiestee, Ontika küla, Toila vald, Ida-Viru maakond, 41556",
                 "kirje_id": 2818977,
@@ -144,7 +182,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -187,23 +225,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 10670109,
+                "kande_nr": 5,
+                "kirje_id": 12525601,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "selge@selge.eu"
+                "sisu": "selge.sonum.ty@gmail.com"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000685272,
+                "kirje_id": 9000708422,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+37250 67120"
+                "sisu": "+372 5067120"
             }
         ],
         "staatus": "R",
@@ -221,12 +259,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.04.2019",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000411844,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000944721,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true

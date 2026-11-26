@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.09.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "35703290243",
+            "isikukood": null,
+            "isikukood_hash": "ae94c63d-9024-5310-90c5-86dd3f52200e",
             "kirje_id": 9000703504,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.09.2018",
             "eesnimi": "Olaf",
-            "isikukood": "35507200303",
+            "isikukood": null,
+            "isikukood_hash": "13bf0da7-3c24-5e53-a4e4-71d092e90b7e",
             "kirje_id": 9000703503,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206050229",
+            "isikukood_hash": "1d4dd290-de50-5de6-8b77-2086a3d67d80",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003310297",
+            "isikukood_hash": "48e1b22f-2b26-5908-9680-9b3ac5901208",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -131,7 +135,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206200239",
+            "isikukood_hash": "96730288-4ff4-57bd-9e58-b0cd74c189d1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -153,7 +158,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10667628",
+                "aadress_ads__adob_id": "10799452",
                 "aadress_ads__adr_id": 3501794,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Mäealuse tn 2/4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -194,6 +199,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3757245,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "45"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3485864,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "46"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 2/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3213510,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4120",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "55"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäealuse tn 2/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2913829,
@@ -402,7 +443,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -455,6 +496,18 @@
                 "kirje_id": 1835252,
                 "lopp_kpv": null,
                 "sisu": "22.08.2008.a ühinemislepingu ja 30.09.2008.a ühinemislepingu muutmise lepingu alusel on Osaühing Otsa & Herman Grupp (ühendatav ühing), registrikood 11455123, asukoht Tuukri 19 Tallinn ja Osaühing Sherman (ühendav ühing) ühinenud. Ühinemisotsus on vastu võetud 30.09.2008. Ühineminemise tulemusena Osaühing Otsa & Herman Grupp kustutatakse äriregistrist.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "06.05.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 16,
+                "kirje_id": 12475595,
+                "lopp_kpv": null,
+                "sisu": "OÜ Astlanda Ehitus (ühendav ühing) ja OÜ Astlanda Kinnisvara (ühendatav ühing, registrikood 11660165, aadress Harju maakond, Tallinn, Mustamäe linnaosa, Mäealuse tn 2/4, 12618)  ühinevad 07.11.2023 sõlmitud ühinemislepingu ja 14.12.2023 ühinemisotsuste alusel. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -558,15 +611,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2020",
-                "emtak_kood": "4120",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000487665,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982991,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982992,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.01.2021",
             "eesnimi": "Karl",
-            "isikukood": "37307202720",
+            "isikukood": null,
+            "isikukood_hash": "61a5f727-d550-512e-a0db-de5b7cdcd810",
             "kirje_id": 9001220082,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37307202720",
+            "isikukood_hash": "61a5f727-d550-512e-a0db-de5b7cdcd810",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -102,6 +104,56 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kauge tn 12-16, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3671108,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauge tn 12-16, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3312233,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauge tn 12-16, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3075362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauge tn 12-16, Nõmme linnaosa, Tallinn, Harju maakond, 11215",
+                "kirje_id": 3060784,
+                "majandusaasta_perioodi_algus_kpv": "07.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "0"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "07.01.2021",
@@ -117,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -190,12 +242,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9402211,
+                "kande_nr": 3,
+                "kirje_id": 13788858,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "utik@hot.ee"
+                "sisu": "karl.arro@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -228,7 +280,7 @@
                 "emtak_kood": "46191",
                 "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000525966,
                 "lopp_kpv": null,
                 "nace_kood": "46.19",

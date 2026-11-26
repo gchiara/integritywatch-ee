@@ -5,25 +5,9 @@
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.08.2023",
-            "eesnimi": "Maido",
-            "isikukood": "36107290214",
-            "kirje_id": 9001634818,
-            "kontrolli_teostamise_viis": "K",
-            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
-            "lahknevusteade_esitatud": null,
-            "lopp_kpv": null,
-            "nimi": "Kiviorg",
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null
-        },
-        {
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "30.08.2023",
             "eesnimi": "Tiit",
-            "isikukood": "36111140282",
+            "isikukood": null,
+            "isikukood_hash": "15e21176-4112-5e86-be00-359a41129c59",
             "kirje_id": 9001634820,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.08.2023",
             "eesnimi": "Veiko",
-            "isikukood": "36106150383",
+            "isikukood": null,
+            "isikukood_hash": "abe197bf-d74a-5901-9b7c-b18411986140",
             "kirje_id": 9001634819,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -74,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46109290301",
+            "isikukood_hash": "58ea832b-48fe-5f48-b31b-77ff1d2b63a7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7870451",
+                "aadress_ads__adob_id": "11194766",
                 "aadress_ads__adr_id": 2667040,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne maakond, Haapsalu linn, Haapsalu linn, Sadama tn 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -115,7 +101,7 @@
                 "postiindeks": "90502",
                 "riik": null,
                 "riik_tekstina": null,
-                "tanav_maja_korter": "Sadama tn 9-/11"
+                "tanav_maja_korter": "Sadama tn 9"
             }
         ],
         "arinimed": [
@@ -137,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 9, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3748402,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 9, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3313321,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "6820",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 9-/11, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
+                "kirje_id": 3027608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "6820",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sadama tn 9-/11, Haapsalu linn, Haapsalu linn, Lääne maakond, 90502",
                 "kirje_id": 2660129,
@@ -361,15 +383,15 @@
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "03.01.2023",
+                "algus_kpv": "30.06.2025",
                 "kaardi_nr": 3,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 14,
-                "kirje_id": 10407035,
+                "kande_nr": 15,
+                "kirje_id": 13185228,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.07",
-                "maj_aasta_lopp": "30.06"
+                "maj_aasta_algus": "01.01",
+                "maj_aasta_lopp": "31.12"
             }
         ],
         "markused_kaardil": [
@@ -399,6 +421,18 @@
                 "sisu": "Aktsiaselts Haapsalu Kuurort (registrikood 10178041), Sadama 9/11 Haapsalu, ühendatav ühing, ja AS Haapsalu Kuurordi Investeeringud, ühendav ühing, ühinevad 10.11.2005.a. ühinemislepingu alusel. Ühinemisotsus on vastu võetud 22.12.2005.a. Ühendatav ühing Aktsiaselts Haapsalu Kuurort kustutatakse registrist.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "29.04.2026",
+                "kaardi_nr": 3,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 16,
+                "kirje_id": 13701355,
+                "lopp_kpv": null,
+                "sisu": "Aktsiaselts Haapsalu Kuurort (ühendav ühing, registrikood 11144564, aadress Lääne maakond, Haapsalu linn, Haapsalu linn, Sadama tn 9, 90502), Kuurordi Investeeringud OÜ (ühendatav ühing, registrikood 16632245, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 105, 11312) ühinevad 29.01.2026 sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 04.03.2026. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -426,13 +460,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "03.01.2023",
+                "algus_kpv": "30.06.2025",
                 "kaardi_nr": 3,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 14,
-                "kinnitamise_kpv": "29.12.2022",
-                "kirje_id": 10407034,
+                "kande_nr": 15,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13185227,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -487,26 +521,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "6820",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634436,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126439,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "55101",
-                "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634437,
-                "lopp_kpv": null,
-                "nace_kood": "55.10",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

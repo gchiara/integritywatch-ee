@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Marika",
-            "isikukood": "48003302733",
+            "isikukood": null,
+            "isikukood_hash": "77f4055e-d0e1-5a22-9a4e-9975db8f7866",
             "kirje_id": 9000814400,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48003302733",
+            "isikukood_hash": "77f4055e-d0e1-5a22-9a4e-9975db8f7866",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8701857",
-                "aadress_ads__adr_id": 3081420,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Tähe tn 95",
+                "aadress_ads__adob_id": "10959543",
+                "aadress_ads__adr_id": 3092600,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Riia tn 128/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00769687",
-                "aadress_ads__koodaadress": "79793815100000SVA0000BI2300000000",
+                "aadress_ads__ads_oid": "ME01153366",
+                "aadress_ads__koodaadress": "79793815100000SIB0000BK4G00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.05.2019",
+                "algus_kpv": "26.08.2024",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 8550148,
+                "kande_nr": 8,
+                "kirje_id": 12656433,
                 "lopp_kpv": null,
-                "postiindeks": "50107",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Tähe tn 95"
+                "postiindeks": "50411",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Riia tn 128/1"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 128/1, Tartu linn, Tartu linn, Tartu maakond, 50411",
+                "kirje_id": 3715480,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86992",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.99",
+                "tootajate_arv": "31"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 128/1, Tartu linn, Tartu linn, Tartu maakond, 50411",
+                "kirje_id": 3416590,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86992",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.99",
+                "tootajate_arv": "27"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähe tn 95, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3121563,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86909",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "26"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tähe tn 95, Tartu linn, Tartu linn, Tartu maakond, 50107",
                 "kirje_id": 2821974,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -276,12 +314,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7799383,
+                "kande_nr": 9,
+                "kirje_id": 12835865,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@provida.ee"
+                "sisu": "marika@provida.ee"
             },
             {
                 "kaardi_nr": null,
@@ -310,14 +348,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.07.2017",
-                "emtak_kood": "86909",
-                "emtak_tekstina": "Mujal liigitamata tervishoiualad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000314864,
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "86992",
+                "emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915378,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.99",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Riivo",
-            "isikukood": "37306296014",
+            "isikukood": null,
+            "isikukood_hash": "e711ce6e-ad32-54ff-b811-c0c3432a3c25",
             "kirje_id": 9000706950,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37306296014",
+            "isikukood_hash": "e711ce6e-ad32-54ff-b811-c0c3432a3c25",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 5b, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3643499,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 5b, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3445066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 5b, Viljandi linn, Viljandi maakond, 71020",
+                "kirje_id": 3076560,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pargi tn 5b, Viljandi linn, Viljandi maakond, 71020",
                 "kirje_id": 2792712,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,25 +396,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.04.2023",
-                "emtak_kood": "47789",
-                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000677642,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "81221",
+                "emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000942460,
                 "lopp_kpv": null,
-                "nace_kood": "47.78",
+                "nace_kood": "81.22",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "05.04.2023",
-                "emtak_kood": "81211",
-                "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000677643,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000942461,
                 "lopp_kpv": null,
-                "nace_kood": "81.21",
+                "nace_kood": "47.78",
                 "on_pohitegevusala": false
             }
         ],

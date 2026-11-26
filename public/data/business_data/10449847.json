@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Annika",
-            "isikukood": "47607300219",
+            "isikukood": null,
+            "isikukood_hash": "859a42c6-d41f-5e8c-aa16-e410472c27aa",
             "kirje_id": 9000767002,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36506010241",
+            "isikukood": null,
+            "isikukood_hash": "d4c7aa0f-8983-5a17-831c-a8d4ebf683b6",
             "kirje_id": 9000767009,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47607300219",
+            "isikukood_hash": "859a42c6-d41f-5e8c-aa16-e410472c27aa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36506010241",
+            "isikukood_hash": "d4c7aa0f-8983-5a17-831c-a8d4ebf683b6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 99, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3791691,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 99, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3519633,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 99, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3190810,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pikk tn 99, Kose alevik, Kose vald, Harju maakond, 75101",
                 "kirje_id": 2909090,
@@ -471,7 +511,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -557,23 +597,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7657554,
+                "kande_nr": 12,
+                "kirje_id": 13059379,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "yldinfo@aroomipood.ee"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7657555,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "info@aroomipood.ee"
+                "sisu": "tarkusetugi@tarkusetugi.ee"
             },
             {
                 "kaardi_nr": null,
@@ -591,33 +620,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000405378,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 53071300"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000405380,
+                "kirje_id": 9000724283,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.aroomipood.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000096294,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6756229"
+                "sisu": "http://www.tarkusetugi.ee"
             }
         ],
         "staatus": "R",
@@ -635,12 +642,45 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "46471",
+                "emtak_tekstina": "Kodu-, kontori- ja kauplusemööbli, vaipade ja valgustite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135298,
+                "lopp_kpv": null,
+                "nace_kood": "46.47",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "47691",
+                "emtak_tekstina": "Mujal liigitamata kultuuri- ja vaba aja kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135299,
+                "lopp_kpv": null,
+                "nace_kood": "47.69",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "47641",
+                "emtak_tekstina": "Mängude ja mänguasjade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135300,
+                "lopp_kpv": null,
+                "nace_kood": "47.64",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000568115,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001016357,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": true

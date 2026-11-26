@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Viljar",
-            "isikukood": "36203295727",
+            "isikukood": null,
+            "isikukood_hash": "798d4c68-81a0-5e8f-b157-8f197b26b9c6",
             "kirje_id": 9000829510,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36203295727",
+            "isikukood_hash": "798d4c68-81a0-5e8f-b157-8f197b26b9c6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,12 +63,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8607623",
-                "aadress_ads__adr_id": 3019269,
+                "aadress_ads__adob_id": "10825039",
+                "aadress_ads__adr_id": 3720488,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Vabaduse tn 26/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00928414",
-                "aadress_ads__koodaadress": "81855891800000SF10000B5YX00000000",
+                "aadress_ads__koodaadress": "81857891800000SF10000B5YX00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.08.2020",
                 "ehak": "8918",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 26/1, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3817295,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 26/1, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3385674,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabaduse tn 26/1, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3122864,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vabaduse tn 26/1, Valga linn, Valga vald, Valga maakond, 68204",
                 "kirje_id": 2836559,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -453,23 +491,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.04.2010",
-                "emtak_kood": "47781",
-                "emtak_tekstina": "Prillide jm optikakaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000012807,
-                "lopp_kpv": null,
-                "nace_kood": "47.78",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "29.05.2025",
                 "emtak_kood": "86221",
-                "emtak_tekstina": "Eriarstiabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000009088,
+                "emtak_tekstina": "Eriarstiabi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000884248,
                 "lopp_kpv": null,
                 "nace_kood": "86.22",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.04.2022",
             "eesnimi": "Krista",
-            "isikukood": "47012074711",
+            "isikukood": null,
+            "isikukood_hash": "c10577b5-939a-5164-bbcd-e20ac1582a47",
             "kirje_id": 9001422943,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47012074711",
+            "isikukood_hash": "c10577b5-939a-5164-bbcd-e20ac1582a47",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3772515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "79121",
+                "tegevusala_emtak_tekstina": "Reisikorraldajate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.12",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3430239,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "79121",
+                "tegevusala_emtak_tekstina": "Reisikorraldajate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3238264,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "79121",
+                "tegevusala_emtak_tekstina": "Reisikorraldajate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.12",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
                 "kirje_id": 2892739,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -623,26 +661,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "79121",
-                "emtak_tekstina": "Reisikorraldajate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698726,
-                "lopp_kpv": null,
-                "nace_kood": "79.12",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "28.06.2023",
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "79111",
                 "emtak_tekstina": "Reisibüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698727,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928487,
                 "lopp_kpv": null,
                 "nace_kood": "79.11",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "79121",
+                "emtak_tekstina": "Reisikorraldajate tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000928486,
+                "lopp_kpv": null,
+                "nace_kood": "79.12",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

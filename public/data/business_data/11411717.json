@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Regina",
-            "isikukood": "48112170320",
+            "isikukood": null,
+            "isikukood_hash": "9ecc9cd1-8424-5cc3-bee9-35fa0f844e85",
             "kirje_id": 9000791817,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45706180388",
+            "isikukood_hash": "e098e052-b4f8-56da-abb7-3fd92db42345",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48112170320",
+            "isikukood_hash": "9ecc9cd1-8424-5cc3-bee9-35fa0f844e85",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 9-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3485988,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "48"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 9-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3274742,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "47"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 9-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3009128,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "50"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 9-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
                 "kirje_id": 2781683,
@@ -324,7 +363,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -445,26 +484,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000193548,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983120,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "17.11.2021",
-                "emtak_kood": "47741",
-                "emtak_tekstina": "Meditsiini- ja ortopeediakaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000590982,
-                "lopp_kpv": null,
-                "nace_kood": "47.74",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

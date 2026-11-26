@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Edgar",
-            "isikukood": "39006260213",
+            "isikukood": null,
+            "isikukood_hash": "6735a56a-9e32-5b95-8566-b636d750bc5f",
             "kirje_id": 9000667435,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39006260213",
+            "isikukood_hash": "6735a56a-9e32-5b95-8566-b636d750bc5f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10169960",
+                "aadress_ads__adob_id": "10718255",
                 "aadress_ads__adr_id": 3561115,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Laagri alevik, Valga tn 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valga tn 6, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3755537,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valga tn 6, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3485165,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "63101",
+                "tegevusala_emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valga tn 6, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3218339,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63111",
+                "tegevusala_emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valga tn 6, Laagri alevik, Saue vald, Harju maakond, 76401",
                 "kirje_id": 2918920,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -525,36 +563,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.01.2020",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000459626,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "62202",
+                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001127811,
                 "lopp_kpv": null,
-                "nace_kood": "63.11",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "20.01.2020",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000459627,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "63101",
+                "emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001127812,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "63.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "04.01.2015",
-                "emtak_kood": "73121",
-                "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000150934,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62101",
+                "emtak_tekstina": "Programmeerimine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982220,
                 "lopp_kpv": null,
-                "nace_kood": "73.12",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": false
             }
         ],

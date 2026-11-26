@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.01.2019",
             "eesnimi": "Andrei",
-            "isikukood": "36306082212",
+            "isikukood": null,
+            "isikukood_hash": "7f85ef98-2781-5450-b577-867c18347de4",
             "kirje_id": 9000920839,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36306082212",
+            "isikukood_hash": "7f85ef98-2781-5450-b577-867c18347de4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10538814",
+                "aadress_ads__adob_id": "11492843",
                 "aadress_ads__adr_id": 2106217,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Narva mnt 31",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3723073,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86211",
+                "tegevusala_emtak_tekstina": "Üldarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3460462,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
+                "kirje_id": 3208123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86221",
+                "tegevusala_emtak_tekstina": "Eriarstiabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.22",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 31, Kesklinna linnaosa, Tallinn, Harju maakond, 10120",
                 "kirje_id": 2842731,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -417,14 +455,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.11.2009",
-                "emtak_kood": "86221",
-                "emtak_tekstina": "Eriarstiabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000076371,
+                "algus_kpv": "27.06.2026",
+                "emtak_kood": "86211",
+                "emtak_tekstina": "Üldarstiabi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001121186,
                 "lopp_kpv": null,
-                "nace_kood": "86.22",
+                "nace_kood": "86.21",
                 "on_pohitegevusala": true
             }
         ],

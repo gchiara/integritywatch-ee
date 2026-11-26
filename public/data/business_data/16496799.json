@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.05.2022",
             "eesnimi": "Tõnu",
-            "isikukood": "38711142240",
+            "isikukood": null,
+            "isikukood_hash": "3cffb140-3854-5928-b8f8-b9692983d24f",
             "kirje_id": 9001429431,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38711142240",
+            "isikukood_hash": "3cffb140-3854-5928-b8f8-b9692983d24f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Elmela, Pagari küla, Alutaguse vald, Ida-Viru maakond, 41303",
+                "kirje_id": 3694260,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Elmela, Pagari küla, Alutaguse vald, Ida-Viru maakond, 41303",
+                "kirje_id": 3353980,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Elmela, Pagari küla, Alutaguse vald, Ida-Viru maakond, 41303",
+                "kirje_id": 3145160,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Elmela, Pagari küla, Alutaguse vald, Ida-Viru maakond, 41303",
                 "kirje_id": 2838533,
                 "majandusaasta_perioodi_algus_kpv": "10.05.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -204,12 +242,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 10108960,
+                "kande_nr": 7,
+                "kirje_id": 13813212,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tonumoorast@gmail.com"
+                "sisu": "tmworksou@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -238,36 +276,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.06.2023",
-                "emtak_kood": "5229",
-                "emtak_tekstina": "Muud veondust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688979,
+                "algus_kpv": "17.06.2026",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001115153,
                 "lopp_kpv": null,
-                "nace_kood": "52.29",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "06.06.2023",
+                "algus_kpv": "17.06.2026",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688980,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001115154,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "06.06.2023",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000688981,
+                "algus_kpv": "17.06.2026",
+                "emtak_kood": "47821",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001115155,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "47.82",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "11.04.2025",
+                "emtak_kood": "42991",
+                "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000851241,
+                "lopp_kpv": null,
+                "nace_kood": "42.99",
                 "on_pohitegevusala": false
             }
         ],

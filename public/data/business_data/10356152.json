@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "36206126010",
+            "isikukood": null,
+            "isikukood_hash": "dc70e68e-ac97-5e69-8871-6477d5cd0297",
             "kirje_id": 9000706799,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36206126010",
+            "isikukood_hash": "dc70e68e-ac97-5e69-8871-6477d5cd0297",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Uku tn 9, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3615298,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47761",
+                "tegevusala_emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.76",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uku tn 9, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3364408,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47761",
+                "tegevusala_emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.76",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uku tn 9, Viljandi linn, Viljandi maakond, 71013",
+                "kirje_id": 3156155,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47761",
+                "tegevusala_emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.76",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Uku tn 9, Viljandi linn, Viljandi maakond, 71013",
                 "kirje_id": 2867645,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -585,25 +623,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2023",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694379,
+                "algus_kpv": "30.04.2025",
+                "emtak_kood": "47761",
+                "emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000862087,
                 "lopp_kpv": null,
-                "nace_kood": "81.30",
+                "nace_kood": "47.76",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "21.06.2023",
-                "emtak_kood": "47761",
-                "emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694380,
+                "algus_kpv": "30.04.2025",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000862088,
                 "lopp_kpv": null,
-                "nace_kood": "47.76",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.11.2018",
             "eesnimi": "Sven",
-            "isikukood": "38405136511",
+            "isikukood": null,
+            "isikukood_hash": "35928731-b205-529c-b85c-488a7fed6c45",
             "kirje_id": 9000890267,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38405136511",
+            "isikukood_hash": "35928731-b205-529c-b85c-488a7fed6c45",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9922223",
-                "aadress_ads__adr_id": 3442820,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Taagepera küla, Tümba/1",
+                "aadress_ads__adob_id": "8503932",
+                "aadress_ads__adr_id": 2986719,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Helme alevik, Kooli tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03220527",
-                "aadress_ads__koodaadress": "818247993000000009QBHC37V00000000",
+                "aadress_ads__ads_oid": "EE03198117",
+                "aadress_ads__koodaadress": "818241815000001OJ00008PAB00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "27.03.2019",
-                "ehak": "7993",
-                "ehak_nimetus": "Taagepera küla, Tõrva vald, Valga maakond",
+                "algus_kpv": "30.07.2024",
+                "ehak": "1815",
+                "ehak_nimetus": "Helme alevik, Tõrva vald, Valga maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 8498934,
+                "kande_nr": 12,
+                "kirje_id": 12618704,
                 "lopp_kpv": null,
-                "postiindeks": "68502",
+                "postiindeks": "68608",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tümba/1"
+                "tanav_maja_korter": "Kooli tn 10"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 10, Helme alevik, Tõrva vald, Valga maakond, 68608",
+                "kirje_id": 3779752,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 10, Helme alevik, Tõrva vald, Valga maakond, 68608",
+                "kirje_id": 3524591,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tümba/1, Taagepera küla, Tõrva vald, Valga maakond, 68502",
+                "kirje_id": 3233336,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tümba/1, Taagepera küla, Tõrva vald, Valga maakond, 68502",
                 "kirje_id": 2951251,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -349,12 +387,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7713918,
+                "kande_nr": 12,
+                "kirje_id": 12618705,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "raamatupidamine@helmepansionaat.ee"
+                "sisu": "info@helmepansionaat.ee"
             },
             {
                 "kaardi_nr": null,
@@ -383,12 +421,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.03.2018",
+                "algus_kpv": "03.07.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000342200,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001020914,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true

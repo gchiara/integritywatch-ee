@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Ilona",
-            "isikukood": "47207240218",
+            "isikukood": null,
+            "isikukood_hash": "b331cca8-0e53-59c6-aea6-91a6c14e1eb2",
             "kirje_id": 9000843869,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47207240218",
+            "isikukood_hash": "b331cca8-0e53-59c6-aea6-91a6c14e1eb2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9449260",
-                "aadress_ads__adr_id": 3398435,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sauga alevik, Hirvela tn 22-4",
+                "aadress_ads__adob_id": "11029780",
+                "aadress_ads__adr_id": 3778170,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sauga alevik, Peoleo tn 1-11",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01449104",
-                "aadress_ads__koodaadress": "68809745500000BUP00002VQL5VF70000",
+                "aadress_ads__ads_oid": "ER01923790",
+                "aadress_ads__koodaadress": "68806745500000KGU00006SQ4CQ210000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "15.06.2018",
+                "algus_kpv": "02.05.2025",
                 "ehak": "7455",
                 "ehak_nimetus": "Sauga alevik, Tori vald, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8123415,
+                "kande_nr": 5,
+                "kirje_id": 13089186,
                 "lopp_kpv": null,
                 "postiindeks": "85008",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Hirvela tn 22-4"
+                "tanav_maja_korter": "Peoleo tn 1-11"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peoleo tn 1-11, Sauga alevik, Tori vald, Pärnu maakond, 85008",
+                "kirje_id": 3724719,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hirvela tn 22-4, Sauga alevik, Tori vald, Pärnu maakond, 85008",
+                "kirje_id": 3365639,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hirvela tn 22-4, Sauga alevik, Tori vald, Pärnu maakond, 85008",
+                "kirje_id": 3135060,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hirvela tn 22-4, Sauga alevik, Tori vald, Pärnu maakond, 85008",
                 "kirje_id": 2795525,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -286,15 +324,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.06.2018",
+                "algus_kpv": "02.05.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000359553,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000863322,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.05.2025",
+                "emtak_kood": "02101",
+                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000863323,
+                "lopp_kpv": null,
+                "nace_kood": "02.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

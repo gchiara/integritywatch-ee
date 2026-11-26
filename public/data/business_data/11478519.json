@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Aarne",
-            "isikukood": "36609276033",
+            "isikukood": null,
+            "isikukood_hash": "883e367c-5e06-569c-bff0-b8a25ac51bb0",
             "kirje_id": 9000767349,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36609276033",
+            "isikukood_hash": "883e367c-5e06-569c-bff0-b8a25ac51bb0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9626444",
-                "aadress_ads__adr_id": 3133251,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Taganurga küla, Ahjupera",
+                "aadress_ads__adob_id": "10713962",
+                "aadress_ads__adr_id": 3138854,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Taganurga küla, Ahjupere",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "CU00169803",
-                "aadress_ads__koodaadress": "848998050000000000LHG000000000000",
+                "aadress_ads__ads_oid": "ME01850751",
+                "aadress_ads__koodaadress": "84899805000000000EKZC000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.02.2018",
+                "algus_kpv": "28.10.2025",
                 "ehak": "8050",
                 "ehak_nimetus": "Taganurga küla, Viljandi vald, Viljandi maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7919368,
+                "kande_nr": 11,
+                "kirje_id": 13389180,
                 "lopp_kpv": null,
-                "postiindeks": "70301",
+                "postiindeks": "70310",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Ahjupera"
+                "tanav_maja_korter": "Ahjupere"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ahjupere, Taganurga küla, Viljandi vald, Viljandi maakond, 70310",
+                "kirje_id": 3767781,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ahjupera, Taganurga küla, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3442485,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ahjupera, Taganurga küla, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3173774,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46611",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.61",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ahjupera, Taganurga küla, Viljandi vald, Viljandi maakond, 70301",
                 "kirje_id": 2855889,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -406,12 +444,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2009",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "46611",
                 "emtak_tekstina": "Põllumajandusmasinate, -seadmete ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000017255,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000940044,
                 "lopp_kpv": null,
                 "nace_kood": "46.61",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.03.2019",
             "eesnimi": "Meelis",
-            "isikukood": "37706082716",
+            "isikukood": null,
+            "isikukood_hash": "17bee14c-df70-5a1b-a3f1-9aa1b3531418",
             "kirje_id": 9000945926,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37706082716",
+            "isikukood_hash": "17bee14c-df70-5a1b-a3f1-9aa1b3531418",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9867890",
-                "aadress_ads__adr_id": 3313271,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Luunja vald, Sava küla, Sääsevaba",
+                "aadress_ads__adob_id": "8725109",
+                "aadress_ads__adr_id": 3058780,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Tervishoiu tn 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00985658",
-                "aadress_ads__koodaadress": "794327479000000004X2U000000000000",
+                "aadress_ads__ads_oid": "EE00749424",
+                "aadress_ads__koodaadress": "79793815100000SNE0000BBZG00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "03.12.2017",
-                "ehak": "7479",
-                "ehak_nimetus": "Sava küla, Luunja vald, Tartu maakond",
+                "algus_kpv": "27.11.2025",
+                "ehak": "8151",
+                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7250632,
+                "kande_nr": 12,
+                "kirje_id": 13442738,
                 "lopp_kpv": null,
-                "postiindeks": "60501",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Sääsevaba"
+                "postiindeks": "50406",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Tervishoiu tn 9"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tervishoiu tn 9, Tartu linn, Tartu linn, Tartu maakond, 50406",
+                "kirje_id": 3787556,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sääsevaba, Sava küla, Luunja vald, Tartu maakond, 60501",
+                "kirje_id": 3391573,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sääsevaba, Sava küla, Luunja vald, Tartu maakond, 60501",
+                "kirje_id": 3257638,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sääsevaba, Sava küla, Luunja vald, Tartu maakond, 60501",
                 "kirje_id": 2925502,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -425,15 +463,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "21.02.2011",
+                "algus_kpv": "27.11.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
+                "kande_nr": 12,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4016844,
+                "kirje_id": 13442739,
                 "lopp_kpv": null,
-                "muutmise_kpv": "19.02.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -443,12 +481,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7738358,
+                "kande_nr": 11,
+                "kirje_id": 13078403,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "meiletop@hot.ee"
+                "sisu": "Info@meiletop.ee"
             },
             {
                 "kaardi_nr": null,
@@ -477,12 +515,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2016",
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000228763,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889824,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true

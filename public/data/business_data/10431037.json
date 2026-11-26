@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Andy",
-            "isikukood": "37806140279",
+            "isikukood": null,
+            "isikukood_hash": "2c6629f6-806e-585a-83a3-4b86270db0cc",
             "kirje_id": 9000840833,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Meelis",
-            "isikukood": "37310220219",
+            "isikukood": null,
+            "isikukood_hash": "0bf2a256-bc71-5b38-8543-f485f6b8cd85",
             "kirje_id": 9000840824,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37806140279",
+            "isikukood_hash": "2c6629f6-806e-585a-83a3-4b86270db0cc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37310220219",
+            "isikukood_hash": "0bf2a256-bc71-5b38-8543-f485f6b8cd85",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 13a, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3768691,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 13a, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3539034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 13a, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3267199,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur-Sõjamäe tn 13a, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2958368,
@@ -497,7 +537,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -575,6 +615,18 @@
                 "kirje_id": 9816209,
                 "lopp_kpv": null,
                 "sisu": "Osaühing TEHNOTURG-T RAADIOSIDEKESKUS (jagunev ühing) jaguneb eraldumise teel andes osa oma varast üle jagunemise käigus asutatavale äriühingule DefEST OÜ (omandav ühing, registrikood 16346893, aadress Harju maakond, Tallinn, Lasnamäe linnaosa, Suur-Sõjamäe tn 13a, 11415). Jagunemiskava on koostatud 30.08.2021. Jagunemisotsus on vastu võetud 30.08.2021. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "26.06.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 18,
+                "kirje_id": 12566221,
+                "lopp_kpv": null,
+                "sisu": "TehnoTurg-T OÜ (jagunev ühing) jaguneb eraldumise teel, mille käigus asutati C-Dome 500FT OÜ (jagunemise käigus asutatud ühing, registrikood 17016695, aadress Sõle tn 4-10, Tallinn) ja Poctron OÜ (jagunemise käigus asutatud ühing, registrikood 17016703, aadress Lasteaia 14-21, Kiili alev, Kiili vald, Harju maakond). Jagunemiskava on notariaalselt tõestatud 06.12.2023.a, muudetud 19.04.2024. a. Jagunemisotsus võeti vastu 06.05.2024.a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
                 "tyyp": "JAGUN",
                 "tyyp_tekstina": "Jagunemine tekstina"
             }
@@ -678,15 +730,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.11.2008",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000025017,
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034781,
                 "lopp_kpv": null,
-                "nace_kood": "46.52",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "42221",
+                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034782,
+                "lopp_kpv": null,
+                "nace_kood": "42.22",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

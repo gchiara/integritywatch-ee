@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Kuldar",
-            "isikukood": "37508162734",
+            "isikukood": null,
+            "isikukood_hash": "1b631e75-754a-592a-b01a-f795dbbc4664",
             "kirje_id": 9000663551,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Triin",
-            "isikukood": "49002082768",
+            "isikukood": null,
+            "isikukood_hash": "3f915cdf-2cf0-58c3-8365-1cc8beea3f41",
             "kirje_id": 9000663554,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37508162734",
+            "isikukood_hash": "1b631e75-754a-592a-b01a-f795dbbc4664",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaupmehe tn 11-24, Raadi alev, Tartu vald, Tartu maakond, 60532",
+                "kirje_id": 3681882,
+                "majandusaasta_perioodi_algus_kpv": "01.02.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.01.2026",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaupmehe tn 11-24, Raadi alev, Tartu vald, Tartu maakond, 60532",
+                "kirje_id": 3433348,
+                "majandusaasta_perioodi_algus_kpv": "01.02.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.01.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaupmehe tn 11-24, Raadi alev, Tartu vald, Tartu maakond, 60532",
+                "kirje_id": 3223796,
+                "majandusaasta_perioodi_algus_kpv": "01.02.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.01.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaupmehe tn 11-24, Raadi alev, Tartu vald, Tartu maakond, 60532",
                 "kirje_id": 2789770,
@@ -244,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -340,12 +379,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.05.2014",
+                "algus_kpv": "22.06.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000110071,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000931326,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

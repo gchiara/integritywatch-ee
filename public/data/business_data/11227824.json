@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "37810310255",
+            "isikukood": null,
+            "isikukood_hash": "148c8a14-1d25-5a33-ab70-c7d0f2d5ac4f",
             "kirje_id": 9000775307,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37810310255",
+            "isikukood_hash": "148c8a14-1d25-5a33-ab70-c7d0f2d5ac4f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9575327",
-                "aadress_ads__adr_id": 2125477,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Vabriku tn 6",
+                "aadress_ads__adob_id": "9578350",
+                "aadress_ads__adr_id": 263117,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Ruhnu vald, Ruhnu küla, Isaks",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00648038",
-                "aadress_ads__koodaadress": "3778406140000047Q00005M7I00000000",
+                "aadress_ads__ads_oid": "ME02656952",
+                "aadress_ads__koodaadress": "746897105000000001501000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.11.2017",
-                "ehak": "0614",
-                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "06.08.2026",
+                "ehak": "7105",
+                "ehak_nimetus": "Ruhnu küla, Ruhnu vald, Saare maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7189692,
+                "kande_nr": 15,
+                "kirje_id": 13907401,
                 "lopp_kpv": null,
-                "postiindeks": "10411",
+                "postiindeks": "93001",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vabriku tn 6"
+                "tanav_maja_korter": "Isaks"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 6, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3601242,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 6, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3502121,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 6, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3146733,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71111",
+                "tegevusala_emtak_tekstina": "Arhitektitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.11",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vabriku tn 6, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
                 "kirje_id": 2966147,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -390,15 +428,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "21.01.2012",
+                "algus_kpv": "06.08.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
+                "kande_nr": 15,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4361576,
+                "kirje_id": 13907402,
                 "lopp_kpv": null,
-                "muutmise_kpv": "29.12.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -408,12 +446,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 9023346,
+                "kande_nr": 14,
+                "kirje_id": 13906950,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "mihkel@tempt.ee"
+                "sisu": "mihkel@tempt.archi"
             },
             {
                 "kaardi_nr": null,
@@ -442,12 +480,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "71111",
                 "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000041778,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000999288,
                 "lopp_kpv": null,
                 "nace_kood": "71.11",
                 "on_pohitegevusala": true

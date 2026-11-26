@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Taimar",
-            "isikukood": "37702166546",
+            "isikukood": null,
+            "isikukood_hash": "b93df06d-e3c5-5839-9ff6-8b26b0f451f4",
             "kirje_id": 9000715383,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37702166546",
+            "isikukood_hash": "b93df06d-e3c5-5839-9ff6-8b26b0f451f4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "L. Koidula tn 7, Võru linn, Võru maakond, 65608",
+                "kirje_id": 3630716,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47111",
+                "tegevusala_emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.11",
+                "tootajate_arv": "132"
+            },
+            {
+                "ettevotja_aadress_aruandes": "L. Koidula tn 7, Võru linn, Võru maakond, 65608",
+                "kirje_id": 3539938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47111",
+                "tegevusala_emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.11",
+                "tootajate_arv": "130"
+            },
+            {
+                "ettevotja_aadress_aruandes": "L. Koidula tn 7, Võru linn, Võru maakond, 65608",
+                "kirje_id": 3265677,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47111",
+                "tegevusala_emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.11",
+                "tootajate_arv": "128"
+            },
             {
                 "ettevotja_aadress_aruandes": "L. Koidula tn 7, Võru linn, Võru maakond, 65608",
                 "kirje_id": 2792792,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -466,26 +504,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.03.2010",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000009614,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "22.07.2025",
                 "emtak_kood": "47111",
-                "emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000012011,
+                "emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035667,
                 "lopp_kpv": null,
                 "nace_kood": "47.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.07.2025",
+                "emtak_kood": "56112",
+                "emtak_tekstina": "Kiirsöögikohtade jm toitlustuskohtade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001035668,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

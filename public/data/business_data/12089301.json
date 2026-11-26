@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.09.2018",
             "eesnimi": "Mart",
-            "isikukood": "37307274230",
+            "isikukood": null,
+            "isikukood_hash": "2b4454f9-5018-5b0d-9f6c-beb2d1a1b4a9",
             "kirje_id": 9000696576,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37307274230",
+            "isikukood_hash": "2b4454f9-5018-5b0d-9f6c-beb2d1a1b4a9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10294631",
+                "aadress_ads__adob_id": "9826903",
                 "aadress_ads__adr_id": 3469199,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Rahula küla, Männikasvu",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03739945",
+                "aadress_ads__ads_oid": "EE03739947",
                 "aadress_ads__koodaadress": "37719673900000000D3F5000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.09.2023",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männikasvu, Rahula küla, Saku vald, Harju maakond, 76414",
+                "kirje_id": 3797722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männikasvu, Rahula küla, Saku vald, Harju maakond, 76414",
+                "kirje_id": 3508248,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männikasvu, Rahula küla, Saku vald, Harju maakond, 76414",
+                "kirje_id": 3222350,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kandle tn 26, Nõmme linnaosa, Tallinn, Harju maakond, 10920",
                 "kirje_id": 2884762,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -394,37 +432,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.10.2020",
-                "emtak_kood": "45311",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46721",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000513087,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005317,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "46.72",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "12.06.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "5210",
                 "emtak_tekstina": "Laondus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000624801,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005316,
                 "lopp_kpv": null,
                 "nace_kood": "52.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "12.06.2022",
+                "algus_kpv": "04.07.2026",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001136743,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "04.07.2026",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000624800,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001136744,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Aare",
-            "isikukood": "36608230270",
+            "isikukood": null,
+            "isikukood_hash": "497dc057-99c0-5e73-9f7b-1511737e4557",
             "kirje_id": 9000793030,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Madis",
-            "isikukood": "36004130312",
+            "isikukood": null,
+            "isikukood_hash": "fa99269f-33c4-5ac5-a593-b3e6e6889433",
             "kirje_id": 9000793036,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608230270",
+            "isikukood_hash": "497dc057-99c0-5e73-9f7b-1511737e4557",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36004130312",
+            "isikukood_hash": "fa99269f-33c4-5ac5-a593-b3e6e6889433",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10591423",
+                "aadress_ads__adob_id": "11499356",
                 "aadress_ads__adr_id": 2256585,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Suur-Karja tn 18",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Suur-Karja tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10146",
+                "kirje_id": 3644349,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Karja tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10146",
+                "kirje_id": 3402228,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56112",
+                "tegevusala_emtak_tekstina": "Kiirsöögikohtade jm toitlustuskohtade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Suur-Karja tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10146",
+                "kirje_id": 3106004,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Suur-Karja tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 10146",
                 "kirje_id": 2823174,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -415,12 +455,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7701504,
+                "kande_nr": 8,
+                "kirje_id": 12486123,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "liiavvk@hot.ee"
+                "sisu": "liiavvpubid@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -471,14 +511,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.04.2010",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000013034,
+                "algus_kpv": "20.05.2026",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001103325,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": true
             }
         ],

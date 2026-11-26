@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Kaspar",
-            "isikukood": "38611264229",
+            "isikukood": null,
+            "isikukood_hash": "d7e6ef3a-6ca3-5919-9f9e-b6847eb32b8c",
             "kirje_id": 9000767549,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39204024212",
+            "isikukood_hash": "68cf28bb-6387-59a3-9ba5-f79033d4676d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38611264229",
+            "isikukood_hash": "d7e6ef3a-6ca3-5919-9f9e-b6847eb32b8c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ääremetsa tee 11, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3769065,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ääremetsa tee 11, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3494221,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ääremetsa tee 11, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
+                "kirje_id": 3213143,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ääremetsa tee 11, Audru alevik, Pärnu linn, Pärnu maakond, 88301",
                 "kirje_id": 2902379,
@@ -300,7 +339,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -422,34 +461,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "23631",
-                "emtak_tekstina": "Valmis betoonisegu tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000636445,
-                "lopp_kpv": null,
-                "nace_kood": "23.63",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "42131",
-                "emtak_tekstina": "Silla- ja tunneliehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000568239,
-                "lopp_kpv": null,
-                "nace_kood": "42.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2015",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "23619",
                 "emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000183743,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991374,
                 "lopp_kpv": null,
                 "nace_kood": "23.61",
                 "on_pohitegevusala": true

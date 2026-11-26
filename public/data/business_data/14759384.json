@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.07.2019",
             "eesnimi": "Egert",
-            "isikukood": "39610180257",
+            "isikukood": null,
+            "isikukood_hash": "2b7337cc-16a2-5f77-a92b-a1de1d739563",
             "kirje_id": 9000995413,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.07.2019",
             "eesnimi": "Paul",
-            "isikukood": "39612220275",
+            "isikukood": null,
+            "isikukood_hash": "11bb5fc0-e18c-5d14-8f8f-470b5188685e",
             "kirje_id": 9000995412,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39610180257",
+            "isikukood_hash": "2b7337cc-16a2-5f77-a92b-a1de1d739563",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39612220275",
+            "isikukood_hash": "11bb5fc0-e18c-5d14-8f8f-470b5188685e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7523752",
+                "aadress_ads__adob_id": "10888792",
                 "aadress_ads__adr_id": 2533515,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Magasini tn 3a/1-28",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3a/1-28, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3786491,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3a/1-28, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3532868,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3a/1-28, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3231209,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Magasini tn 3a/1-28, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2939247,
@@ -221,7 +261,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -317,25 +357,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706948,
+                "algus_kpv": "10.07.2025",
+                "emtak_kood": "90399",
+                "emtak_tekstina": "Muud kunsti ja esituskunstide abitegevused, v.a lavatehnilised",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028797,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "90.39",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000638354,
+                "algus_kpv": "10.07.2025",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001028796,
                 "lopp_kpv": null,
-                "nace_kood": "46.19",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

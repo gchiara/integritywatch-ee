@@ -7,6 +7,7 @@
             "algus_kpv": "04.07.2022",
             "eesnimi": "Stephen A.",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001450136,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38210250468",
+            "isikukood_hash": "b95cb452-1d4e-51ca-8d66-0dcc4a2952f8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,6 +79,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "32406ce0-4da6-574f-ad1b-3a88e19ca224",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -89,7 +92,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "21.10.1989",
-            "valis_kood": "38910210265",
+            "valis_kood": null,
             "valis_kood_riik": "LTU",
             "valis_kood_riik_tekstina": "Leedu",
             "volituste_loppemise_kpv": ""
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 45, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3747807,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "64991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata finantsteenused, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.99",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 45, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3480596,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "64991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata finantsteenused, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.99",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 45, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3134541,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "64991",
+                "tegevusala_emtak_tekstina": "Muude mujal liigitamata finantsteenuste osutamine, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "64.99",
+                "tootajate_arv": "27"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivalaia tn 45, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2811746,
@@ -288,7 +327,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -384,36 +423,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.03.2019",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "53301",
+                "emtak_tekstina": "Posti- ja kullerteenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977051,
+                "lopp_kpv": null,
+                "nace_kood": "53.30",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "64991",
-                "emtak_tekstina": "Muude mujal liigitamata finantsteenuste osutamine, v.a kindlustus ja pensionifondid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000406614,
+                "emtak_tekstina": "Muud mujal liigitamata finantsteenused, v.a kindlustus ja pensionifondid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977050,
                 "lopp_kpv": null,
                 "nace_kood": "64.99",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.03.2019",
-                "emtak_kood": "53201",
-                "emtak_tekstina": "Muu posti- ja kulleriteenistus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000406615,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "66199",
+                "emtak_tekstina": "Muud mujal liigitamata finantsteenuste abitegevusalad, v.a kindlustus ja pensionifondid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977052,
                 "lopp_kpv": null,
-                "nace_kood": "53.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.05.2023",
-                "emtak_kood": "63991",
-                "emtak_tekstina": "Mujal liigitamata infoalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683073,
-                "lopp_kpv": null,
-                "nace_kood": "63.99",
+                "nace_kood": "66.19",
                 "on_pohitegevusala": false
             }
         ],

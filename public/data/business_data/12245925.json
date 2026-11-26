@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Aivar",
-            "isikukood": "37411284921",
+            "isikukood": null,
+            "isikukood_hash": "1873fb25-aa31-55ce-ac6a-5fcce0172b87",
             "kirje_id": 9000843201,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48204262213",
+            "isikukood_hash": "be5bf8a1-0678-5952-a03d-6651f7dda10e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 8-26, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3570743,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 8-26, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3313578,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 8-26, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3022248,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisa tn 8-26, Jüri alevik, Rae vald, Harju maakond, 75301",
                 "kirje_id": 2743299,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,14 +384,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.08.2020",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "algus_kpv": "20.12.2024",
+                "emtak_kood": "45201",
+                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000495389,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000807044,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
+                "nace_kood": "45.20",
                 "on_pohitegevusala": true
             }
         ],

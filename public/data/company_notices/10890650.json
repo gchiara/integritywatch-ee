@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-17",
+                "award_date_conclusion_contract": [
+                    "2023-07-17"
+                ],
                 "award_value": "79700.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Randaali soetamine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -52,6 +54,62 @@
         ],
         "refnum": "264696",
         "total_amount": "79700.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-04-08"
+                ],
+                "award_value": "65000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10890650",
+                        "contractor_name": "Väderstad OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Randaali ostmine Olustvere Teenindus- ja Maamajanduskoolile",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70002555",
+                "name": "Olustvere Teenindus- ja Maamajanduskool",
+                "town": "Põhja-Sakala vald"
+            }
+        ],
+        "contractors": [
+            "10890650"
+        ],
+        "cpv": "16100000",
+        "date_dispatch_notice": "2025-04-08",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_023c1746-b173-43da-a5d2-e83455a4dd86_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10890650"
+        ],
+        "noticeUid": "023c1746-b173-43da-a5d2-e83455a4dd86",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292360",
+        "total_amount": "65000.00",
         "total_amount_curr": "EUR"
     }
 ]

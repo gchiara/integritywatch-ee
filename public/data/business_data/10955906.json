@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Marcel",
-            "isikukood": "36501172715",
+            "isikukood": null,
+            "isikukood_hash": "0868ba6c-2399-53b8-b52b-96ddbc2ceb1a",
             "kirje_id": 9000666672,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Vichmann",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "28.07.2025",
+            "eesnimi": "Tiit",
+            "isikukood": null,
+            "isikukood_hash": "73348f30-5391-5ab5-96dd-b75df12de62c",
+            "kirje_id": 9003465303,
+            "kontrolli_teostamise_viis": "K",
+            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Pruuli",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36803190213",
+            "isikukood_hash": "752059c7-6a73-5fd0-815e-947bc5bf89d6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3747006,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3479104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 37, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
+                "kirje_id": 3197965,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Toompuiestee 37, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10149",
                 "kirje_id": 2913840,
@@ -359,7 +415,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -436,6 +492,18 @@
                 "kirje_id": 5441395,
                 "lopp_kpv": null,
                 "sisu": "OÜ RealWAY (ühendav ühing) ja GoHotels Kinnisvara OÜ (ühendatav äriühing, registrikood 11271699, asukoht ja aadress Toompuiestee 37, Tallinna linn, Harju maakond) on ühinenud. Ühinemisleping sõlmiti 16.12.2014. aastal (notari ametitegevuse raamatu nr 1750/2014). Ühinemisotsust vastu ei võetud.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "27.01.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 24,
+                "kirje_id": 13538119,
+                "lopp_kpv": null,
+                "sisu": "OÜ RealWAY (ühendav ühing) ja OÜ RealWAY Holding (ühendatav ühing, registrikood 17156427, aadress Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Toompuiestee 37, 10149) ühinevad 12.11.2025. a sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 08.12.2025. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -539,26 +607,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2019",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000430076,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975464,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2019",
-                "emtak_kood": "68321",
-                "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000430077,
-                "lopp_kpv": null,
-                "nace_kood": "68.32",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

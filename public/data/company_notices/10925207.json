@@ -55,7 +55,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-24",
+                "award_date_conclusion_contract": [
+                    "2023-08-24"
+                ],
                 "award_value": "93600.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -70,7 +72,7 @@
                 "tenders_received": "5"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "TÜ Pärnu kolledžile sise- ja välikoristusteenuse tellimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -106,5 +108,55 @@
         "refnum": "267267",
         "total_amount": "93600.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-08-24"
+                ],
+                "award_value": "93600.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "10925207",
+                        "contractor_name": "LAVERNA PUHASTUSTÖÖDE Osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "TÜ Pärnu kolledžile sise- ja välikoristusteenuse tellimine",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "74001073",
+                "name": "Tartu Ülikool",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "10925207"
+        ],
+        "cpv": "90910000",
+        "date_dispatch_notice": "2025-06-20",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e3833cf3-fe07-4ef0-9acf-85b0c0afd138_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "e3833cf3-fe07-4ef0-9acf-85b0c0afd138",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "267267-0000"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Eiko",
-            "isikukood": "38710234217",
+            "isikukood": null,
+            "isikukood_hash": "b5304cc5-1488-5994-bf0f-0803846592c7",
             "kirje_id": 9000680320,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38710234217",
+            "isikukood_hash": "b5304cc5-1488-5994-bf0f-0803846592c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9603177",
-                "aadress_ads__adr_id": 3426818,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Lõõtsa tn 2b",
+                "aadress_ads__adob_id": "7457084",
+                "aadress_ads__adr_id": 2105403,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Niine tn 11",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01052487",
-                "aadress_ads__koodaadress": "377840387000004HU0000C04Z00000000",
+                "aadress_ads__ads_oid": "ME00645056",
+                "aadress_ads__koodaadress": "3778406140000062S0000193M00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.06.2021",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "05.01.2026",
+                "ehak": "0614",
+                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 9649576,
+                "kande_nr": 14,
+                "kirje_id": 13497079,
                 "lopp_kpv": null,
-                "postiindeks": "11415",
+                "postiindeks": "10414",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Lõõtsa tn 2b"
+                "tanav_maja_korter": "Niine tn 11"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Niine tn 11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10414",
+                "kirje_id": 3771795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Poordi tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10156",
+                "kirje_id": 3439473,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõõtsa tn 2b, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3209025,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõõtsa tn 2b, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2829304,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -407,26 +445,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2023",
-                "emtak_kood": "4511",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000687223,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937156,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
+                "nace_kood": "47.81",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "23.01.2019",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "59111",
                 "emtak_tekstina": "Kinofilmide ja videote tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000398397,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937157,
                 "lopp_kpv": null,
                 "nace_kood": "59.11",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

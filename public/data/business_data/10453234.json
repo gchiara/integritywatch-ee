@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Rene",
-            "isikukood": "37112300259",
+            "isikukood": null,
+            "isikukood_hash": "a9e7106a-d541-5f6e-bae0-ab090ccdf4f8",
             "kirje_id": 9000774487,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37112300259",
+            "isikukood_hash": "a9e7106a-d541-5f6e-bae0-ab090ccdf4f8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10544804",
+                "aadress_ads__adob_id": "10875371",
                 "aadress_ads__adr_id": 3582302,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Puuvilla tn 19/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Puuvilla tn 19/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10314",
+                "kirje_id": 3694977,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puuvilla tn 19/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10314",
+                "kirje_id": 3390846,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puuvilla tn 19/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10314",
+                "kirje_id": 3155401,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puuvilla tn 19/1, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10314",
                 "kirje_id": 2972096,
@@ -560,26 +598,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.07.2018",
-                "emtak_kood": "18131",
-                "emtak_tekstina": "Trükieelne tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000375854,
-                "lopp_kpv": null,
-                "nace_kood": "18.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "18129",
                 "emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000028426,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889138,
                 "lopp_kpv": null,
                 "nace_kood": "18.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "18131",
+                "emtak_tekstina": "Trükieelne tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889139,
+                "lopp_kpv": null,
+                "nace_kood": "18.13",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2023",
             "eesnimi": "Mihkel",
-            "isikukood": "38402056014",
+            "isikukood": null,
+            "isikukood_hash": "ad673667-9341-505d-ac5f-5a6b13578f05",
             "kirje_id": 9001593589,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38402056014",
+            "isikukood_hash": "ad673667-9341-505d-ac5f-5a6b13578f05",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,14 +107,50 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Ruudu-1, Kamara küla, Mulgi vald, Viljandi maakond, 69304",
-                "kirje_id": 2861392,
-                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
-                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
-                "tegevusala_emtak_kood": "02401",
-                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "kirje_id": 3802991,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43121",
+                "tegevusala_emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ruudu-1, Kamara küla, Mulgi vald, Viljandi maakond, 69304",
+                "kirje_id": 3529344,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43121",
+                "tegevusala_emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ruudu-1, Kamara küla, Mulgi vald, Viljandi maakond, 69304",
+                "kirje_id": 3249701,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43121",
+                "tegevusala_emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
                 "tegevusala_emtak_versioon": "EMTAK 2008",
                 "tegevusala_emtak_versioon_tekstina": null,
-                "tegevusala_nace_kood": "02.40",
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ruudu-1, Kamara küla, Mulgi vald, Viljandi maakond, 69304",
+                "kirje_id": 3008640,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "43121",
+                "tegevusala_emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
                 "tootajate_arv": "1"
             },
             {
@@ -431,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -529,11 +567,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000689088,
+                "kirje_id": 9000695896,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5527712"
+                "sisu": "+372 5201739"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000695897,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 4491346"
             }
         ],
         "staatus": "R",
@@ -551,15 +600,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.05.2021",
+                "algus_kpv": "07.07.2025",
+                "emtak_kood": "43121",
+                "emtak_tekstina": "Ehitusplatside ettevalmistus ja puhastus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025349,
+                "lopp_kpv": null,
+                "nace_kood": "43.12",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "07.07.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000546531,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025350,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

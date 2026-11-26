@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.01.2021",
             "eesnimi": "Heiki",
-            "isikukood": "36502220239",
+            "isikukood": null,
+            "isikukood_hash": "29b529ae-11a9-5157-af31-d5c723e1378a",
             "kirje_id": 9001224537,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -22,25 +23,9 @@
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.01.2021",
-            "eesnimi": "Meeme",
-            "isikukood": "36809226048",
-            "kirje_id": 9001224535,
-            "kontrolli_teostamise_viis": "J",
-            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
-            "lahknevusteade_esitatud": null,
-            "lopp_kpv": null,
-            "nimi": "Männiste",
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null
-        },
-        {
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "18.01.2021",
             "eesnimi": "Villem",
-            "isikukood": "36509080239",
+            "isikukood": null,
+            "isikukood_hash": "d2837aea-616c-5e9d-99d3-396e5d72ca92",
             "kirje_id": 9001224536,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36809226048",
+            "isikukood_hash": "53a3ad0d-f4ab-5b1b-90c5-e7a3464aca84",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7332623",
+                "aadress_ads__adob_id": "10987722",
                 "aadress_ads__adr_id": 2120740,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Mõisa tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -139,6 +125,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3736022,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74121",
+                "tegevusala_emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3454926,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74121",
+                "tegevusala_emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3174057,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74101",
+                "tegevusala_emtak_tekstina": "Disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 4, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
                 "kirje_id": 2885811,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -177,7 +199,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -273,26 +295,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "74121",
+                "emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952116,
+                "lopp_kpv": null,
+                "nace_kood": "74.12",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635781,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952117,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.01.2021",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000527299,
-                "lopp_kpv": null,
-                "nace_kood": "74.10",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

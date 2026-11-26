@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.03.2019",
             "eesnimi": "Raigo",
-            "isikukood": "37204254713",
+            "isikukood": null,
+            "isikukood_hash": "87d7af98-b1fe-5e6a-816d-817a118de1bf",
             "kirje_id": 9000950658,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37204254713",
+            "isikukood_hash": "87d7af98-b1fe-5e6a-816d-817a118de1bf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 10, Haapsalu linn, Haapsalu linn, Lääne maakond, 90506",
+                "kirje_id": 3688017,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43321",
+                "tegevusala_emtak_tekstina": "Puidust jm materjalist uste, akende ja treppide paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.32",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 10, Haapsalu linn, Haapsalu linn, Lääne maakond, 90506",
+                "kirje_id": 3329660,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43321",
+                "tegevusala_emtak_tekstina": "Puidust jm materjalist uste, akende ja treppide paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.32",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 10, Haapsalu linn, Haapsalu linn, Lääne maakond, 90506",
+                "kirje_id": 3132897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43321",
+                "tegevusala_emtak_tekstina": "Mistahes materjalist akende, uste ja treppide paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.32",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Oja tn 10, Haapsalu linn, Haapsalu linn, Lääne maakond, 90506",
                 "kirje_id": 2801151,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -453,26 +491,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2011",
-                "emtak_kood": "96021",
-                "emtak_tekstina": "Juuksuri- ja muu iluteenindus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000132354,
-                "lopp_kpv": null,
-                "nace_kood": "96.02",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "21.02.2025",
                 "emtak_kood": "43321",
-                "emtak_tekstina": "Mistahes materjalist akende, uste ja treppide paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000006482,
+                "emtak_tekstina": "Puidust jm materjalist uste, akende ja treppide paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000824698,
                 "lopp_kpv": null,
                 "nace_kood": "43.32",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "21.02.2025",
+                "emtak_kood": "96222",
+                "emtak_tekstina": "Küünetehnikuteenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000824699,
+                "lopp_kpv": null,
+                "nace_kood": "96.22",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

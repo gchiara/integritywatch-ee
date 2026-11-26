@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 10665321,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "02.11.2023",
+            "eesnimi": "Kaisa",
+            "isikukood": null,
+            "isikukood_hash": "750be92d-8574-5fa4-9776-f17e06673385",
+            "kirje_id": 9001653007,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Jõks",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49103252723",
+            "isikukood_hash": "750be92d-8574-5fa4-9776-f17e06673385",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -44,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10047010",
-                "aadress_ads__adr_id": 2848835,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Soinaste küla, Tuule tn 7",
+                "aadress_ads__adob_id": "9905969",
+                "aadress_ads__adr_id": 3492783,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Õssu küla, Viljandi mnt 75/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE03260101",
-                "aadress_ads__koodaadress": "79283766600000D9900003KN500000000",
+                "aadress_ads__ads_oid": "ME03795251",
+                "aadress_ads__koodaadress": "79283971700000M890000CAHI00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "18.04.2018",
-                "ehak": "7666",
-                "ehak_nimetus": "Soinaste küla, Kambja vald, Tartu maakond",
+                "algus_kpv": "04.06.2024",
+                "ehak": "9717",
+                "ehak_nimetus": "Õssu küla, Kambja vald, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 8043019,
+                "kande_nr": 13,
+                "kirje_id": 12529011,
                 "lopp_kpv": null,
-                "postiindeks": "61709",
+                "postiindeks": "61713",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tuule tn 7"
+                "tanav_maja_korter": "Viljandi mnt 75/1"
             }
         ],
         "arinimed": [
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 75/1, Õssu küla, Kambja vald, Tartu maakond, 61713",
+                "kirje_id": 3715174,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 75/1, Õssu küla, Kambja vald, Tartu maakond, 61713",
+                "kirje_id": 3436441,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 75/1, Õssu küla, Kambja vald, Tartu maakond, 61713",
+                "kirje_id": 3178521,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuule tn 7, Soinaste küla, Kambja vald, Tartu maakond, 61709",
                 "kirje_id": 2838649,
@@ -377,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -497,12 +553,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
+                "algus_kpv": "24.06.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000052892,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000934126,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true

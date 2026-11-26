@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Andres",
-            "isikukood": "36109170259",
+            "isikukood": null,
+            "isikukood_hash": "5fddc686-3384-59ae-9957-5e27b698b8e0",
             "kirje_id": 9000684932,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36109170259",
+            "isikukood_hash": "5fddc686-3384-59ae-9957-5e27b698b8e0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6463724",
-                "aadress_ads__adr_id": 2159804,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Mulla tn 4-22",
+                "aadress_ads__adob_id": "10524536",
+                "aadress_ads__adr_id": 2111824,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Merirahu tn 49",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01268970",
-                "aadress_ads__koodaadress": "3778406140000062O00000X92254H0000",
+                "aadress_ads__ads_oid": "EE01168080",
+                "aadress_ads__koodaadress": "377840176000004ER00001ABQ00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2017",
-                "ehak": "0614",
-                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "25.10.2024",
+                "ehak": "0176",
+                "ehak_nimetus": "Haabersti linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7156780,
+                "kande_nr": 9,
+                "kirje_id": 12760991,
                 "lopp_kpv": null,
-                "postiindeks": "10611",
+                "postiindeks": "13516",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Mulla tn 4-22"
+                "tanav_maja_korter": "Merirahu tn 49"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Merirahu tn 49, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3607281,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Merirahu tn 49, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3328364,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mulla tn 4-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
+                "kirje_id": 3053158,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mulla tn 4-22, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10611",
                 "kirje_id": 2983856,
@@ -454,14 +492,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.02.2022",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000602278,
+                "algus_kpv": "24.03.2026",
+                "emtak_kood": "62901",
+                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001090376,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
             }
         ],

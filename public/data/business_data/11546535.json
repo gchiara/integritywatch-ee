@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Ken",
-            "isikukood": "38208080316",
+            "isikukood": null,
+            "isikukood_hash": "8da2e162-ef51-5972-97ae-01e9abd44281",
             "kirje_id": 9000775515,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38208080316",
+            "isikukood_hash": "8da2e162-ef51-5972-97ae-01e9abd44281",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3650178,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3382361,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Konverentside ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3211264,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82301",
+                "tegevusala_emtak_tekstina": "Nõupidamiste ja messide korraldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.30",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paadi tee 3, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2841681,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -329,6 +367,18 @@
                 "sisu": "X3M Marketing OÜ (ühendav ühing, uus ärinimi ID Production OÜ) on ühendanud endaga ID Production OÜ (ühendatav ühing, registrikood 12414913, asukoht Liivalaia tn 13, Tallinn) 22.09.2014. a sõlmitud ja 10.11.2014 muudetud ühinemislepingu alusel. Ühinemisotsus võeti vastu 26.11.2014. a. Ühinemine jõustub käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "03.07.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 13193299,
+                "lopp_kpv": null,
+                "sisu": "ID Production OÜ (jagunev ühing, registrikood 11546535, aadress Harju maakond, Viimsi vald, Haabneeme alevik, Paadi tee 3, 74001) jaguneb eraldumise teel andes osa oma varast omandavale ühingule Vincly OÜ (jagunemise käigus asutatud ühing, registrikood 17274894, aadress Harju maakond, Viimsi vald, Haabneeme alevik, Paadi tee 3, 74001). Jagunemiskava on sõlmitud 07.05.2025.a. Jagunemisotsus võeti vastu 22.05.2025.a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -380,17 +430,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "idp@idp.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000379908,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 55537056"
             }
         ],
         "staatus": "R",
@@ -408,15 +447,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.11.2020",
-                "emtak_kood": "82301",
-                "emtak_tekstina": "Nõupidamiste ja messide korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000518826,
+                "algus_kpv": "26.05.2026",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001104861,
                 "lopp_kpv": null,
-                "nace_kood": "82.30",
+                "nace_kood": "93.29",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "26.05.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000880895,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

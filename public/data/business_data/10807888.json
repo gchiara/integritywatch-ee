@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.04.2022",
             "eesnimi": "Jelena",
-            "isikukood": "47604082726",
+            "isikukood": null,
+            "isikukood_hash": "b81fec8c-4da8-5e98-9a1f-a0a1b58c498c",
             "kirje_id": 9001420075,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36912110221",
+            "isikukood_hash": "c91f66ca-edde-5600-aed7-66920f47ee5b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3659240,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3387894,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3107909,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77399",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.39",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
                 "kirje_id": 2852513,
@@ -383,7 +421,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -396,6 +434,20 @@
                 "lopp_kpv": null,
                 "maj_aasta_algus": "01.01",
                 "maj_aasta_lopp": "31.12"
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "30.04.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 21,
+                "kirje_id": 13704865,
+                "lopp_kpv": null,
+                "sisu": "Aktsiaselts Maardu Vesi (ühendav ühing) ja Osaühing Kroodi Vesi (ühendatav ühing, registrikood 14088607, aadress Harju maakond, Maardu linn, Karjääri tn 7, 74116) ühinevad 26.03.2026. a sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei olnud nõutav. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -475,12 +527,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.03.2011",
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886487,
+                "lopp_kpv": null,
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "77399",
                 "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000108417,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886486,
                 "lopp_kpv": null,
                 "nace_kood": "77.39",
                 "on_pohitegevusala": true

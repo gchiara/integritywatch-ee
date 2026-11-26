@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Alar",
-            "isikukood": "38912245226",
+            "isikukood": null,
+            "isikukood_hash": "e771a8b6-09ae-5192-9fd7-df50633da0e6",
             "kirje_id": 9000832121,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38912245226",
+            "isikukood_hash": "e771a8b6-09ae-5192-9fd7-df50633da0e6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8157088",
+                "aadress_ads__adob_id": "10678027",
                 "aadress_ads__adr_id": 2825395,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Vinni vald, Tudu alevik, Kivi tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kivi tn 7, Tudu alevik, Vinni vald, Lääne-Viru maakond, 46606",
+                "kirje_id": 3627674,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivi tn 7, Tudu alevik, Vinni vald, Lääne-Viru maakond, 46606",
+                "kirje_id": 3356971,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivi tn 7, Tudu alevik, Vinni vald, Lääne-Viru maakond, 46606",
+                "kirje_id": 3145870,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kivi tn 7, Tudu alevik, Vinni vald, Lääne-Viru maakond, 46606",
                 "kirje_id": 2801687,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -287,48 +325,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.05.2021",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000552375,
+                "algus_kpv": "17.04.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854409,
                 "lopp_kpv": null,
-                "nace_kood": "81.30",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.05.2021",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000552374,
-                "lopp_kpv": null,
-                "nace_kood": "02.40",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "28.01.2022",
-                "emtak_kood": "43299",
-                "emtak_tekstina": "Mujal liigitamata ehituspaigaldustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000600289,
-                "lopp_kpv": null,
-                "nace_kood": "43.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.01.2022",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000600288,
-                "lopp_kpv": null,
-                "nace_kood": "56.29",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

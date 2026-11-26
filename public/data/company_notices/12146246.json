@@ -44,15 +44,15 @@
         "filename": "award_bfe2729d-1ac3-4c1f-ae0c-d7365d0dc6a6_0.json",
         "flags": [
             "Special purpose company",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Company Move Maker OÜ(16106692) was first registered on 24.11.2020, 304 days before the notice dispatch.",
-            "Nominees as company beneficial owners: 38307226517",
-            "Nominees as company board members: 38508236513",
-            "Nominees as company board members: 38702252243",
-            "Nominees as company board members: 38307226517"
+            "Company ScreenX OÜ(16106692) was first registered on 24.11.2020, 304 days before the notice dispatch.",
+            "Possible shell company: 16106692",
+            "Possible shell company: 12146246",
+            "Nominees as company beneficial owners: Tanel_Samm_19.12.2018"
         ],
         "noticeUid": "bfe2729d-1ac3-4c1f-ae0c-d7365d0dc6a6",
         "notice_items": [
@@ -105,14 +105,14 @@
         "docType2": "default",
         "filename": "award_b0b95264-2411-456b-8555-6d6658ee1399_0.json",
         "flags": [
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38307226517",
-            "Nominees as company board members: 38508236513",
-            "Nominees as company board members: 38702252243",
-            "Nominees as company board members: 38307226517"
+            "Possible shell company: 16106692",
+            "Possible shell company: 12146246",
+            "Nominees as company beneficial owners: Tanel_Samm_19.12.2018"
         ],
         "noticeUid": "b0b95264-2411-456b-8555-6d6658ee1399",
         "notice_items": [
@@ -120,5 +120,134 @@
         ],
         "notice_items_num": 1,
         "refnum": "256656"
+    },
+    {
+        "contract_title": "Korduvkasutatavate topside ja nõude ostmine koos transpordikastide ning nõudepesumasinaga",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12146246",
+                "name": "Monster Music OÜ",
+                "town": "Tallinn"
+            }
+        ],
+        "cpv": "39221200",
+        "date_dispatch_notice": "2023-12-21",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_2c5bad23-35fc-4e72-a30a-c4d9c569bdf4_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "2c5bad23-35fc-4e72-a30a-c4d9c569bdf4",
+        "notice_items": [
+            {
+                "duration": "30 DAY"
+            },
+            {
+                "duration": "30 DAY"
+            },
+            {
+                "duration": "30 DAY"
+            }
+        ],
+        "refnum": "273813"
+    },
+    {
+        "changes_doc": true,
+        "contract_title": "Korduvkasutatavate topside ja nõude ostmine koos transpordikastide ning nõudepesumasinaga",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12146246",
+                "name": "Monster Music OÜ",
+                "town": "Tallinn"
+            }
+        ],
+        "cpv": "39221200",
+        "date_dispatch_notice": "2024-01-03",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_2c5bad23-35fc-4e72-a30a-c4d9c569bdf4_1.json",
+        "flags": [
+            "Short notice period",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Short notice period: 8 days."
+        ],
+        "noticeUid": "2c5bad23-35fc-4e72-a30a-c4d9c569bdf4",
+        "notice_items": [
+            {
+                "duration": "30 DAY"
+            },
+            {
+                "duration": "30 DAY"
+            },
+            {
+                "duration": "30 DAY"
+            }
+        ],
+        "refnum": "273813"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-03-03"
+                ],
+                "award_value": "7999.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10196978",
+                        "contractor_name": "Osaühing ALLEDEM",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Korduvkasutatavate topside ja nõude ostmine koos transpordikastide ning nõudepesumasinaga",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "12146246",
+                "name": "Monster Music OÜ",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10490005",
+            "10196978"
+        ],
+        "cpv": "39221200",
+        "date_dispatch_notice": "2024-03-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_3449ecf4-efc9-4def-a02f-5fe82bec618d_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "3449ecf4-efc9-4def-a02f-5fe82bec618d",
+        "notice_items": [
+            {},
+            {},
+            {}
+        ],
+        "refnum": "273813",
+        "total_amount": "27120.03",
+        "total_amount_curr": "EUR"
     }
 ]

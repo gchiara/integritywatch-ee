@@ -112,13 +112,11 @@
             "Tenders received low",
             "Tenders received info missing",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 35806150293",
-            "Nominees as company beneficial owners: 33501060234",
+            "Possible shell company: 10033087",
             "Possible shell company: 10179224"
         ],
         "noticeUid": "75cca3af-e654-4a07-9022-1c1fd5ca52d2",
@@ -504,8 +502,7 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12958079",
-            "Nominees as company beneficial owners: 38310050285",
-            "Nominees as company board members: 38310050285",
+            "Nominees as company beneficial owners: Ilja_Ivanov_17.01.2019",
             "Possible shell company: 10179224"
         ],
         "noticeUid": "3bf64ec5-bf10-44b5-a4e7-69ac6664e87b",
@@ -644,5 +641,112 @@
         ],
         "notice_items_num": 4,
         "refnum": "251665"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-03-24"
+                ],
+                "award_value": "12800.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11047461",
+                        "contractor_name": "Osaühing STARINAR",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Voodipesu ja –tarvikud, operatsioonipesu ning patsientide riided",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90003433",
+                "name": "Sihtasutus Ida-Viru Keskhaigla",
+                "town": "Kohtla-Järve linn"
+            }
+        ],
+        "contractors": [
+            "11047461"
+        ],
+        "cpv": "39518000",
+        "date_dispatch_notice": "2025-03-25",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_4df3cead-e471-4778-9ab0-4d5c7eba2663_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "4df3cead-e471-4778-9ab0-4d5c7eba2663",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "291034",
+        "total_amount": "54391.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2022-07-12"
+                ],
+                "award_value": "11575.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "11047461",
+                        "contractor_name": "Osaühing STARINAR",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Voodivarustuse ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70004465",
+                "name": "Sisekaitseakadeemia",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "11047461"
+        ],
+        "cpv": "39512000",
+        "date_dispatch_notice": "2025-07-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_1a5e2554-cc38-40b8-a41e-48c619e48477_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "1a5e2554-cc38-40b8-a41e-48c619e48477",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "239995-0000"
     }
 ]

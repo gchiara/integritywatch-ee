@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Veljo",
-            "isikukood": "37312190228",
+            "isikukood": null,
+            "isikukood_hash": "25cfa675-ea26-583d-8502-af9359109aba",
             "kirje_id": 9000803044,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37312190228",
+            "isikukood_hash": "25cfa675-ea26-583d-8502-af9359109aba",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 11b, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3575347,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "43212",
+                "tegevusala_emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 11b, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3314340,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "43212",
+                "tegevusala_emtak_tekstina": "Tulekahjualarmide, häire- ja valvesignalisatsiooni paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 11b, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3023214,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "43212",
+                "tegevusala_emtak_tekstina": "Tulekahjualarmide, häire- ja valvesignalisatsiooni paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laki tn 11b, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2748696,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -385,17 +423,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000162494,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 5030096"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 2000162495,
                 "liik": "FAX",
                 "liik_tekstina": "Faks",
@@ -429,25 +456,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.11.2020",
+                "algus_kpv": "09.01.2026",
                 "emtak_kood": "43212",
-                "emtak_tekstina": "Tulekahjualarmide, häire- ja valvesignalisatsiooni paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000517823,
+                "emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074947,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "11.11.2020",
-                "emtak_kood": "80201",
-                "emtak_tekstina": "Turvasüsteemide käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000517824,
+                "algus_kpv": "09.01.2026",
+                "emtak_kood": "80091",
+                "emtak_tekstina": "Mujal liigitamata turvatöö",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074948,
                 "lopp_kpv": null,
-                "nace_kood": "80.20",
+                "nace_kood": "80.09",
                 "on_pohitegevusala": false
             }
         ],

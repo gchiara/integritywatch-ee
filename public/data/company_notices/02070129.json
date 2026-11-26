@@ -98,7 +98,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-08",
+                "award_date_conclusion_contract": [
+                    "2023-06-08"
+                ],
                 "award_value": "87000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -113,7 +115,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Silmasisesed läätsed (osa 3)",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -148,5 +150,55 @@
         "refnum": "262839",
         "total_amount": "87000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-14"
+                ],
+                "award_value": "102000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "02070129",
+                        "contractor_name": "OPHTEC BV",
+                        "country": "NLD"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Silmasisesed läätsed (osa 3 kordushange)",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10822068",
+                "name": "Aktsiaselts Ida-Tallinna Keskhaigla",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "02070129"
+        ],
+        "cpv": "33731000",
+        "date_dispatch_notice": "2026-07-14",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2054d49b-f873-4ed2-bab4-846c912ed91a_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "2054d49b-f873-4ed2-bab4-846c912ed91a",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "311210-0000"
     }
 ]

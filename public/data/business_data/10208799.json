@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.03.2022",
             "eesnimi": "Reijo",
-            "isikukood": "39011264714",
+            "isikukood": null,
+            "isikukood_hash": "37721c64-db06-5c75-887b-384bd928d843",
             "kirje_id": 9001403334,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36403254229",
+            "isikukood_hash": "315fe6e2-f67a-5751-9f3e-b58072993763",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valla, Surju küla, Saarde vald, Pärnu maakond, 86401",
+                "kirje_id": 3754733,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valla, Surju küla, Saarde vald, Pärnu maakond, 86401",
+                "kirje_id": 3480710,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valla, Surju küla, Saarde vald, Pärnu maakond, 86401",
+                "kirje_id": 3215982,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "39"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valla, Surju küla, Saarde vald, Pärnu maakond, 86401",
                 "kirje_id": 2917798,
@@ -430,20 +468,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "29.06.2017",
+                "algus_kpv": "08.07.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kapitali_suurus": "200000.00",
+                "kande_nr": 21,
+                "kapitali_suurus": "75000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 6960803,
+                "kirje_id": 12586096,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -496,6 +534,18 @@
                 "kirje_id": 9891730,
                 "lopp_kpv": null,
                 "sisu": "28.10.2021.a. sõlmitud ühinemislepingu järgi osaühing Surju Õli ( Ühendatav ühing, Pärnu maakond, Saarde vald, Surju küla, Naftabaasi, 86401) ühineb Osaühing Surju PM-iga (Ühendav ühing, Pärnu maakond, Saarde vald, Surju küla, Valla, 86401).Ühinemisotsus on vastu võetud 29.10.2021.a.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "10.08.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 22,
+                "kirje_id": 13913705,
+                "lopp_kpv": null,
+                "sisu": "Osaühing Surju PM (ühendav ühing, registrikood 10208799, aadress Pärnu maakond, Saarde vald, Surju küla, Valla, 86401), R-Insenerid OÜ (ühendatav ühing, registrikood 14570866, aadress Lääne maakond, Haapsalu linn, Haapsalu linn, Tamme tn 25, 90508) ühinevad 09.06.2026. sõlmitud ühinemislepingu (punkt 5.4. on parandatud 28.07.2026.) alusel. Ühinemisotsused võeti vastu 25.06.2026.  (Osaühing Surju PM) ja 25.06.2026. (R-Insenerid OÜ). Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -577,23 +627,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01411",
                 "emtak_tekstina": "Piimakarjakasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000005082,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977187,
                 "lopp_kpv": null,
                 "nace_kood": "01.41",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.06.2017",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000296351,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977188,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Alar",
-            "isikukood": "37903282251",
+            "isikukood": null,
+            "isikukood_hash": "71e11aee-fac7-5d4a-ac99-c152091b8d76",
             "kirje_id": 9000850931,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -21,27 +22,11 @@
         {
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "30.10.2018",
-            "eesnimi": "Priit",
-            "isikukood": "37603232233",
-            "kirje_id": 9000850924,
-            "kontrolli_teostamise_viis": "O",
-            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
-            "lahknevusteade_esitatud": null,
-            "lopp_kpv": null,
-            "nimi": "Tärno",
-            "synniaeg": null,
-            "valis_kood": null,
-            "valis_kood_riik": null,
-            "valis_kood_riik_tekstina": null
-        },
-        {
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "21.04.2022",
-            "eesnimi": "Mare",
-            "isikukood": "44303070259",
-            "kirje_id": 9001422455,
+            "algus_kpv": "10.11.2023",
+            "eesnimi": "Toomas",
+            "isikukood": null,
+            "isikukood_hash": "b83d338f-3624-59d0-93c1-3918162d4ffb",
+            "kirje_id": 9001655158,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
             "lahknevusteade_esitatud": null,
@@ -74,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37903282251",
+            "isikukood_hash": "71e11aee-fac7-5d4a-ac99-c152091b8d76",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7430252",
+                "aadress_ads__adob_id": "11492037",
                 "aadress_ads__adr_id": 2259213,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Veerenni tn 24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -137,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3833104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46832",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.83",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3530551,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46832",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.83",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3301867,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46732",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.73",
+                "tootajate_arv": "26"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
                 "kirje_id": 2980980,
@@ -369,7 +391,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -540,37 +562,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "46732",
-                "emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000138355,
-                "lopp_kpv": null,
-                "nace_kood": "46.73",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "15.09.2022",
-                "emtak_kood": "71121",
-                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000650911,
-                "lopp_kpv": null,
-                "nace_kood": "71.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "08.06.2018",
+                "algus_kpv": "08.07.2025",
                 "emtak_kood": "77111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000357501,
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001026556,
                 "lopp_kpv": null,
                 "nace_kood": "77.11",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.07.2025",
+                "emtak_kood": "46832",
+                "emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001026555,
+                "lopp_kpv": null,
+                "nace_kood": "46.83",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

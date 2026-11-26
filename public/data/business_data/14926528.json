@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.03.2020",
             "eesnimi": "Madis",
-            "isikukood": "38903054214",
+            "isikukood": null,
+            "isikukood_hash": "42dbe629-2cad-54c6-8571-b19d9c4f2f57",
             "kirje_id": 9001093884,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38903054214",
+            "isikukood_hash": "42dbe629-2cad-54c6-8571-b19d9c4f2f57",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9993114",
-                "aadress_ads__adr_id": 2337288,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Tondi tn 64-5",
+                "aadress_ads__adob_id": "8376993",
+                "aadress_ads__adr_id": 2922661,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Saarde vald, Jäärja küla, Kiisa",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01707937",
-                "aadress_ads__koodaadress": "377840339000001KT00001RPWA8400000",
+                "aadress_ads__ads_oid": "EE00707771",
+                "aadress_ads__koodaadress": "687122370000000002WOJ000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.03.2020",
-                "ehak": "0339",
-                "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "04.06.2026",
+                "ehak": "2370",
+                "ehak_nimetus": "Jäärja küla, Saarde vald, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8975648,
+                "kande_nr": 3,
+                "kirje_id": 13784818,
                 "lopp_kpv": null,
-                "postiindeks": "11316",
+                "postiindeks": "86205",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tondi tn 64-5"
+                "tanav_maja_korter": "Kiisa"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 64-5, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3537237,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 64-5, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3289011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 64-5, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3028795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tondi tn 64-5, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
                 "kirje_id": 2806876,
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -198,13 +236,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.03.2020",
+                "algus_kpv": "04.06.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "02.03.2020",
-                "kirje_id": 8975649,
+                "kande_nr": 3,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13784819,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -239,12 +277,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.03.2023",
+                "algus_kpv": "16.07.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000671919,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001032976,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true

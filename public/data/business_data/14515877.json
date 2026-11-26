@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Hels",
-            "isikukood": "49103276540",
+            "isikukood": null,
+            "isikukood_hash": "708c2209-9d7e-54eb-b450-88cf5e8b0812",
             "kirje_id": 9000799201,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Triin",
-            "isikukood": "48501026526",
+            "isikukood": null,
+            "isikukood_hash": "bf53d007-cc77-539c-b918-e3d0876881a5",
             "kirje_id": 9000799194,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49103276540",
+            "isikukood_hash": "708c2209-9d7e-54eb-b450-88cf5e8b0812",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48501026526",
+            "isikukood_hash": "bf53d007-cc77-539c-b918-e3d0876881a5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -159,6 +163,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Põlva mnt 6-7, Leevaku küla, Räpina vald, Põlva maakond, 64428",
+                "kirje_id": 3737638,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põlva mnt 6-7, Leevaku küla, Räpina vald, Põlva maakond, 64428",
+                "kirje_id": 3443909,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põlva mnt 6-7, Leevaku küla, Räpina vald, Põlva maakond, 64428",
+                "kirje_id": 3177761,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5629",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põlva mnt 6-7, Leevaku küla, Räpina vald, Põlva maakond, 64428",
                 "kirje_id": 2932688,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -221,7 +261,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -328,14 +368,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.10.2020",
-                "emtak_kood": "5629",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000510507,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941394,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
             }
         ],

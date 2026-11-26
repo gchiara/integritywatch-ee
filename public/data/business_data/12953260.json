@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2019",
             "eesnimi": "Priit",
-            "isikukood": "38311016015",
+            "isikukood": null,
+            "isikukood_hash": "3861787a-c27f-5652-8e67-02551c78977a",
             "kirje_id": 9000993544,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38710160211",
+            "isikukood_hash": "910d7cc2-bce1-5b64-8473-b2e8631edda7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli, Kildu küla, Põhja-Sakala vald, Viljandi maakond, 71303",
+                "kirje_id": 3581553,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli, Kildu küla, Põhja-Sakala vald, Viljandi maakond, 71303",
+                "kirje_id": 3406215,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli, Kildu küla, Põhja-Sakala vald, Viljandi maakond, 71303",
+                "kirje_id": 3125356,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kooli, Kildu küla, Põhja-Sakala vald, Viljandi maakond, 71303",
                 "kirje_id": 2951873,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,47 +360,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.04.2022",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000611406,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2023",
+                "algus_kpv": "10.06.2025",
                 "emtak_kood": "56211",
                 "emtak_tekstina": "Toitlustamine üritustel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709387,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000903723,
                 "lopp_kpv": null,
                 "nace_kood": "56.21",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "05.07.2023",
-                "emtak_kood": "9603",
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "9630",
                 "emtak_tekstina": "Matuseteenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709388,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000903724,
                 "lopp_kpv": null,
-                "nace_kood": "96.03",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2023",
-                "emtak_kood": "55202",
-                "emtak_tekstina": "Puhkemaja",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709389,
-                "lopp_kpv": null,
-                "nace_kood": "55.20",
+                "nace_kood": "96.30",
                 "on_pohitegevusala": false
             }
         ],

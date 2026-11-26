@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "MARE",
-            "isikukood": "47509142715",
+            "isikukood": null,
+            "isikukood_hash": "973e57b7-9b12-5e69-a7f5-74362b264f57",
             "kirje_id": 9000741289,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47509142715",
+            "isikukood_hash": "973e57b7-9b12-5e69-a7f5-74362b264f57",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9431113",
-                "aadress_ads__adr_id": 3391480,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Tammiste küla, Kesa tee 1-1",
+                "aadress_ads__adob_id": "10540082",
+                "aadress_ads__adr_id": 3059606,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Haraka tn 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01766549",
-                "aadress_ads__koodaadress": "68809812000000BHD00002QR0CY1J0000",
+                "aadress_ads__ads_oid": "EE00698493",
+                "aadress_ads__koodaadress": "68624661900000SXP0000BCDL00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.06.2022",
-                "ehak": "8120",
-                "ehak_nimetus": "Tammiste küla, Tori vald, Pärnu maakond",
+                "algus_kpv": "24.08.2026",
+                "ehak": "6619",
+                "ehak_nimetus": "Pärnu linn, Pärnu linn, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10165352,
+                "kande_nr": 8,
+                "kirje_id": 13936645,
                 "lopp_kpv": null,
-                "postiindeks": "85009",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Kesa tee 1-1"
+                "postiindeks": "80023",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Haraka tn 8"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kesa tee 1-1, Tammiste küla, Tori vald, Pärnu maakond, 85009",
+                "kirje_id": 3591195,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesa tee 1-1, Tammiste küla, Tori vald, Pärnu maakond, 85009",
+                "kirje_id": 3362993,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesa tee 1-1, Tammiste küla, Tori vald, Pärnu maakond, 85009",
+                "kirje_id": 3079126,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesa tee 1-1, Tammiste küla, Tori vald, Pärnu maakond, 85009",
                 "kirje_id": 2861537,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -294,13 +332,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "22.06.2022",
+                "algus_kpv": "24.08.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "21.06.2022",
-                "kirje_id": 10165353,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13936646,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -346,12 +384,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.08.2012",
+                "algus_kpv": "28.04.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000210191,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860685,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

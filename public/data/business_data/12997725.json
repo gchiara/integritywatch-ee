@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Venemaa",
             "algus_kpv": "03.01.2019",
             "eesnimi": "Aleksandr",
-            "isikukood": "38406270108",
+            "isikukood": null,
+            "isikukood_hash": "b61ebb38-97a9-529f-94e8-647b8e63a9f9",
             "kirje_id": 9000915204,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Venemaa",
             "algus_kpv": "03.02.2020",
             "eesnimi": "Iurii",
-            "isikukood": "38606140449",
+            "isikukood": null,
+            "isikukood_hash": "df4ba00c-b867-531f-a569-66e3e6b65f3c",
             "kirje_id": 9001081542,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38606140449",
+            "isikukood_hash": "df4ba00c-b867-531f-a569-66e3e6b65f3c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9232035",
-                "aadress_ads__adr_id": 3315158,
+                "aadress_ads__adob_id": "11157993",
+                "aadress_ads__adr_id": 3803208,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Kotinuka küla, Jordi tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "CU03264015",
-                "aadress_ads__koodaadress": "45251347700000OY500009OHD00000000",
+                "aadress_ads__koodaadress": "45250347700000OY500009OHD00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "27.11.2019",
                 "ehak": "3477",
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jordi tee 1, Kotinuka küla, Jõhvi vald, Ida-Viru maakond, 41546",
+                "kirje_id": 3545802,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jordi tee 1, Kotinuka küla, Jõhvi vald, Ida-Viru maakond, 41546",
+                "kirje_id": 3081406,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jordi tee 1, Kotinuka küla, Jõhvi vald, Ida-Viru maakond, 41546",
                 "kirje_id": 2892347,
@@ -257,7 +285,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -357,7 +385,7 @@
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000212867,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",

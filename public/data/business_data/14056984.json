@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.02.2020",
             "eesnimi": "Margus",
-            "isikukood": "38309215719",
+            "isikukood": null,
+            "isikukood_hash": "13789a7d-1fee-5d1d-ae8e-b1389bb94ea9",
             "kirje_id": 9001086167,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.06.2022",
             "eesnimi": "Erki",
-            "isikukood": "39210036513",
+            "isikukood": null,
+            "isikukood_hash": "7a1baa19-234f-562e-b7b7-aa1362d3567d",
             "kirje_id": 9001447837,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38309215719",
+            "isikukood_hash": "13789a7d-1fee-5d1d-ae8e-b1389bb94ea9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Uus tn 7, Otepää linn, Otepää vald, Valga maakond, 67405",
+                "kirje_id": 3699028,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uus tn 7, Otepää linn, Otepää vald, Valga maakond, 67405",
+                "kirje_id": 3441194,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Uus tn 7, Otepää linn, Otepää vald, Valga maakond, 67405",
+                "kirje_id": 3159812,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Uus tn 7, Otepää linn, Otepää vald, Valga maakond, 67405",
                 "kirje_id": 2878662,
@@ -220,7 +259,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -233,6 +272,20 @@
                 "lopp_kpv": null,
                 "maj_aasta_algus": "01.01",
                 "maj_aasta_lopp": "31.12"
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "19.10.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "kirje_id": 12096649,
+                "lopp_kpv": null,
+                "sisu": "Kamo Ehitus OÜ (ühendav ühing) on ühendanud endaga OÜ Tahkuna tuulik (ühendatav ühing, registrikood 14369660, aadress Hiiu maakond, Hiiumaa vald, Tahkuna küla, Tahkuna tuulik, 92226) 11.09.2023 sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei ole nõutav. ",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -312,14 +365,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.05.2016",
-                "emtak_kood": "41201",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000229311,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938816,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

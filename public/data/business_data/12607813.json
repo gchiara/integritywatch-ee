@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Oksana",
-            "isikukood": "48510312722",
+            "isikukood": null,
+            "isikukood_hash": "65fab4d5-d8ef-59d3-a472-5d97ae03ce67",
             "kirje_id": 9000754051,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48510312722",
+            "isikukood_hash": "65fab4d5-d8ef-59d3-a472-5d97ae03ce67",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mõisavahe tn 62-47, Tartu linn, Tartu linn, Tartu maakond, 50707",
+                "kirje_id": 3653286,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisavahe tn 62-47, Tartu linn, Tartu linn, Tartu maakond, 50707",
+                "kirje_id": 3345169,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisavahe tn 62-47, Tartu linn, Tartu linn, Tartu maakond, 50707",
+                "kirje_id": 3068567,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mõisavahe tn 62-47, Tartu linn, Tartu linn, Tartu maakond, 50707",
                 "kirje_id": 2833329,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -345,15 +383,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.06.2021",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000554629,
+                "algus_kpv": "27.03.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000841796,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.03.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000841797,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

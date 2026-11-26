@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "36606284227",
+            "isikukood": null,
+            "isikukood_hash": "e16168b5-aeaf-5e19-b878-3dd0b0b3eee6",
             "kirje_id": 9000757213,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Eda",
-            "isikukood": "46902084216",
+            "isikukood": null,
+            "isikukood_hash": "b6dfbf37-d8d4-52a9-9e01-f5379c87db20",
             "kirje_id": 9000757216,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36903214227",
+            "isikukood": null,
+            "isikukood_hash": "4a5f0dfc-7636-5f3c-b790-fb0805300318",
             "kirje_id": 9000757220,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36606284227",
+            "isikukood_hash": "e16168b5-aeaf-5e19-b878-3dd0b0b3eee6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36903214227",
+            "isikukood_hash": "4a5f0dfc-7636-5f3c-b790-fb0805300318",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -133,12 +138,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10395991",
-                "aadress_ads__adr_id": 3617608,
+                "aadress_ads__adob_id": "11002318",
+                "aadress_ads__adr_id": 3762109,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Tammiste küla, Raudsepa tee 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00721359",
-                "aadress_ads__koodaadress": "68809812000000KRG0000CSZT00000000",
+                "aadress_ads__koodaadress": "68806812000000KRG0000CSZT00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.11.2021",
                 "ehak": "8120",
@@ -174,6 +179,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raudsepa tee 2, Tammiste küla, Tori vald, Pärnu maakond, 85009",
+                "kirje_id": 3397144,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudsepa tee 2, Tammiste küla, Tori vald, Pärnu maakond, 85009",
+                "kirje_id": 3220600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "24"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raudsepa tee 2, Tammiste küla, Tori vald, Pärnu maakond, 85009",
                 "kirje_id": 2820176,
@@ -370,7 +399,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -452,6 +481,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "07.08.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 13246775,
+                "lopp_kpv": null,
+                "sisu": "Tartu Maakohtu 06.08.2025 a. kohtumäärusega tsiviilasjas nr 2-25-9121 kuulutati välja OÜ MASSINER pankrot 06.08.2025.a kell 14:00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -509,8 +552,8 @@
                 "sisu": "+372 4474300"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "25.01.2008",
@@ -520,88 +563,97 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "07.08.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.04.2017",
-                "emtak_kood": "52219",
-                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000290109,
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895064,
                 "lopp_kpv": null,
-                "nace_kood": "52.21",
+                "nace_kood": "49.41",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "08921",
+                "emtak_tekstina": "Turba tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895065,
+                "lopp_kpv": null,
+                "nace_kood": "08.92",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "23.05.2023",
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "16111",
+                "emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895066,
+                "lopp_kpv": null,
+                "nace_kood": "16.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "04.06.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000685233,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895067,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.06.2022",
-                "emtak_kood": "33121",
-                "emtak_tekstina": "Masinate ja seadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000628159,
-                "lopp_kpv": null,
-                "nace_kood": "33.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.06.2021",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558061,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.06.2021",
-                "emtak_kood": "5221",
-                "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558060,
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "52219",
+                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895068,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "07.06.2011",
-                "emtak_kood": "77121",
-                "emtak_tekstina": "Veokite rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000122178,
-                "lopp_kpv": null,
-                "nace_kood": "77.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "01.07.2020",
-                "emtak_kood": "08921",
-                "emtak_tekstina": "Turba tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000489108,
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895069,
                 "lopp_kpv": null,
-                "nace_kood": "08.92",
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000895070,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
                 "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

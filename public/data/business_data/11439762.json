@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Ivar",
-            "isikukood": "38712086026",
+            "isikukood": null,
+            "isikukood_hash": "3c0c86a6-d142-571f-8789-e3d8ebdfe1d4",
             "kirje_id": 9000786662,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38712086026",
+            "isikukood_hash": "3c0c86a6-d142-571f-8789-e3d8ebdfe1d4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8854741",
-                "aadress_ads__adr_id": 3141185,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Vissuvere küla, Eeriksaare",
+                "aadress_ads__adob_id": "8795832",
+                "aadress_ads__adr_id": 3138041,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Vissuvere küla, Posti",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00978397",
-                "aadress_ads__koodaadress": "848999426000000006E3T000000000000",
+                "aadress_ads__ads_oid": "EE03246362",
+                "aadress_ads__koodaadress": "848999426000000006LSK000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "14.02.2018",
+                "algus_kpv": "25.11.2024",
                 "ehak": "9426",
                 "ehak_nimetus": "Vissuvere küla, Viljandi vald, Viljandi maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7925978,
+                "kande_nr": 6,
+                "kirje_id": 12810886,
                 "lopp_kpv": null,
-                "postiindeks": "70301",
+                "postiindeks": "70311",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Eeriksaare"
+                "tanav_maja_korter": "Posti"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Posti, Vissuvere küla, Viljandi vald, Viljandi maakond, 70311",
+                "kirje_id": 3654395,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Posti, Vissuvere küla, Viljandi vald, Viljandi maakond, 70311",
+                "kirje_id": 3384557,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Eeriksaare, Vissuvere küla, Viljandi vald, Viljandi maakond, 70301",
+                "kirje_id": 3132409,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Eeriksaare, Vissuvere küla, Viljandi vald, Viljandi maakond, 70301",
                 "kirje_id": 2819927,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -406,26 +444,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2016",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000235297,
-                "lopp_kpv": null,
-                "nace_kood": "01.61",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "19.06.2016",
+                "algus_kpv": "28.05.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000235296,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000883101,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "28.05.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000883102,
+                "lopp_kpv": null,
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

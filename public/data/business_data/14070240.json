@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.11.2019",
             "eesnimi": "Tiina",
-            "isikukood": "46606262710",
+            "isikukood": null,
+            "isikukood_hash": "6ca231ce-67e0-5fbc-8749-3a46bade8273",
             "kirje_id": 9001050599,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.11.2019",
             "eesnimi": "Toomas",
-            "isikukood": "37003040289",
+            "isikukood": null,
+            "isikukood_hash": "7529d169-2b59-581c-9fa3-26b07d560223",
             "kirje_id": 9001050600,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46606262710",
+            "isikukood_hash": "6ca231ce-67e0-5fbc-8749-3a46bade8273",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003040289",
+            "isikukood_hash": "7529d169-2b59-581c-9fa3-26b07d560223",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koplimetsa, Valkla küla, Kuusalu vald, Harju maakond, 74630",
+                "kirje_id": 3598609,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49331",
+                "tegevusala_emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.33",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koplimetsa, Valkla küla, Kuusalu vald, Harju maakond, 74630",
+                "kirje_id": 3377777,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49331",
+                "tegevusala_emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.33",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koplimetsa, Valkla küla, Kuusalu vald, Harju maakond, 74630",
+                "kirje_id": 3080838,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Taksovedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koplimetsa, Valkla küla, Kuusalu vald, Harju maakond, 74630",
                 "kirje_id": 2764910,
@@ -257,7 +297,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -364,14 +404,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2017",
-                "emtak_kood": "49321",
-                "emtak_tekstina": "Taksovedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000305963,
+                "algus_kpv": "21.05.2025",
+                "emtak_kood": "49331",
+                "emtak_tekstina": "Sõitjate tellimusvedu koos juhiga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000876366,
                 "lopp_kpv": null,
-                "nace_kood": "49.32",
+                "nace_kood": "49.33",
                 "on_pohitegevusala": true
             }
         ],

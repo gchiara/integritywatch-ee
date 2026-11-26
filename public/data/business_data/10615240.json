@@ -2,19 +2,20 @@
     "ariregistri_kood": 10615240,
     "beneficial_owners": [
         {
-            "aadress_riik": "FIN",
-            "aadress_riik_tekstina": "Soome",
-            "algus_kpv": "22.10.2018",
-            "eesnimi": "Jan Olav",
+            "aadress_riik": "SWE",
+            "aadress_riik_tekstina": "Rootsi",
+            "algus_kpv": "04.05.2026",
+            "eesnimi": "Marcus Johan",
             "isikukood": null,
-            "kirje_id": 9000796368,
+            "isikukood_hash": "202e9dec-10ea-52a9-88ea-b3152442c475",
+            "kirje_id": 9003546552,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Hanses",
+            "nimi": "Risberg",
             "synniaeg": null,
-            "valis_kood": "060661-135T",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         }
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37205144919",
+            "isikukood_hash": "142859f7-d57d-5e73-a936-afb04ce2e490",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10506375",
+                "aadress_ads__adob_id": "10912237",
                 "aadress_ads__adr_id": 2113948,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Kai tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kai tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3632440,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "79901",
+                "tegevusala_emtak_tekstina": "Muu reserveerimine ja sellega seotud tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.90",
+                "tootajate_arv": "43"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kai tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3370495,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "79901",
+                "tegevusala_emtak_tekstina": "Muu reserveerimine ja sellega seotud tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.90",
+                "tootajate_arv": "42"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kai tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3119626,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "79901",
+                "tegevusala_emtak_tekstina": "Muu reisimisega seotud reserveerimine, sh giidide, piletiagentuuride ja turismiinfopunktide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "79.90",
+                "tootajate_arv": "42"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kai tn 4, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2848757,
@@ -395,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -537,45 +575,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.02.2015",
-                "emtak_kood": "78301",
-                "emtak_tekstina": "Muu inimressursiga varustamine ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000154588,
+                "algus_kpv": "09.05.2025",
+                "emtak_kood": "79901",
+                "emtak_tekstina": "Muu reserveerimine ja sellega seotud tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000868585,
                 "lopp_kpv": null,
-                "nace_kood": "78.30",
+                "nace_kood": "79.90",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "09.02.2015",
-                "emtak_kood": "92001",
-                "emtak_tekstina": "Hasartmängude ja kihlvedude korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000154590,
-                "lopp_kpv": null,
-                "nace_kood": "92.00",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.02.2015",
-                "emtak_kood": "79901",
-                "emtak_tekstina": "Muu reisimisega seotud reserveerimine, sh giidide, piletiagentuuride ja turismiinfopunktide tegevus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000154589,
-                "lopp_kpv": null,
-                "nace_kood": "79.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2013",
+                "algus_kpv": "09.05.2025",
                 "emtak_kood": "61901",
-                "emtak_tekstina": "Elektroonilise side muud teenused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000050491,
+                "emtak_tekstina": "Muud elektroonilise side teenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000868586,
                 "lopp_kpv": null,
                 "nace_kood": "61.90",
                 "on_pohitegevusala": false

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "36302250299",
+            "isikukood": null,
+            "isikukood_hash": "4b6ac026-8ddd-53a2-9f99-f445fb60993d",
             "kirje_id": 9000699863,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36302250299",
+            "isikukood_hash": "4b6ac026-8ddd-53a2-9f99-f445fb60993d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Väike-Paala tn 1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3619040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Paala tn 1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3368920,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike-Paala tn 1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3104875,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Väike-Paala tn 1, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2799487,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -527,22 +565,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000236988,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
+                "kirje_id": 3000181463,
+                "liik": "FAX",
+                "liik_tekstina": "Faks",
                 "lopp_kpv": null,
-                "sisu": "www.renovaar.ee"
+                "sisu": "+372 6556108"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000181463,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000706856,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 6556108"
+                "sisu": "www.akuladu.ee"
             }
         ],
         "staatus": "R",
@@ -560,23 +598,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2010",
+                "algus_kpv": "07.05.2025",
                 "emtak_kood": "27201",
                 "emtak_tekstina": "Patareide ja akude tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000033707,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000866895,
                 "lopp_kpv": null,
                 "nace_kood": "27.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "07.05.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000050914,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000866894,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Oleg",
-            "isikukood": "36605275234",
+            "isikukood": null,
+            "isikukood_hash": "3229fe49-aaa1-54e9-b8da-e2819b988e18",
             "kirje_id": 9000818869,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37812100224",
+            "isikukood_hash": "e31622ce-7ccf-5937-ab61-014b572ffcde",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10085755",
-                "aadress_ads__adr_id": 3012501,
+                "aadress_ads__adob_id": "10856032",
+                "aadress_ads__adr_id": 3713206,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Võru tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00936645",
-                "aadress_ads__koodaadress": "81855891800000SAV0000B4FK00000000",
+                "aadress_ads__koodaadress": "81857891800000SAV0000B4FK00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.02.2018",
                 "ehak": "8918",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 5, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3626048,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33171",
+                "tegevusala_emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.17",
+                "tootajate_arv": "66"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 5, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3348240,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33171",
+                "tegevusala_emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.17",
+                "tootajate_arv": "69"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 5, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3101958,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33171",
+                "tegevusala_emtak_tekstina": "Muude transpordivahendite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.17",
+                "tootajate_arv": "71"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võru tn 5, Valga linn, Valga vald, Valga maakond, 68205",
                 "kirje_id": 2811277,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -485,37 +523,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.05.2010",
-                "emtak_kood": "46721",
-                "emtak_tekstina": "Metallide ja metallimaakide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000022870,
+                "algus_kpv": "24.04.2026",
+                "emtak_kood": "35401",
+                "emtak_tekstina": "Elektrienergia ja maagaasi maaklerite ja vahendajate tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001097335,
                 "lopp_kpv": null,
-                "nace_kood": "46.72",
+                "nace_kood": "35.40",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "28.05.2010",
+                "algus_kpv": "01.04.2025",
+                "emtak_kood": "33171",
+                "emtak_tekstina": "Muude tsiviiltranspordivahendite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844991,
+                "lopp_kpv": null,
+                "nace_kood": "33.17",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.04.2025",
                 "emtak_kood": "77399",
                 "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000022871,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844993,
                 "lopp_kpv": null,
                 "nace_kood": "77.39",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "33171",
-                "emtak_tekstina": "Muude transpordivahendite remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008492,
+                "algus_kpv": "01.04.2025",
+                "emtak_kood": "46721",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844992,
                 "lopp_kpv": null,
-                "nace_kood": "33.17",
-                "on_pohitegevusala": true
+                "nace_kood": "46.72",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

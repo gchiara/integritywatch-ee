@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-02-17",
+                "award_date_conclusion_contract": [
+                    "2023-02-17"
+                ],
                 "award_value": "100000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "41"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Majutamise teenuse osutamine Sotsiaalkindlustusametile",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -64,10 +66,8 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10729765",
-            "Nominees as company beneficial owners: 36906260289",
-            "Nominees as company beneficial owners: 37009160218",
-            "Nominees as company board members: 36906260289",
-            "Nominees as company board members: 37009160218"
+            "Nominees as company beneficial owners: Tambet_Mägi_04.09.2018",
+            "Nominees as company beneficial owners: Tõnu_Soodla_04.09.2018"
         ],
         "noticeUid": "cacb8fa4-e5cc-49e5-876f-b65caac3686b",
         "notice_items": [
@@ -80,6 +80,141 @@
         ],
         "refnum": "254967",
         "total_amount": "150000000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-12",
+                    "2025-05-12",
+                    "2025-05-12"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10972649",
+                        "contractor_name": "Osaühing Travel Balt",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10069352",
+                        "contractor_name": "Aktsiaselts Baltic Tours",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11693733",
+                        "contractor_name": "OÜ SPA Tours",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Majutusteenus Eesti piires Eesti Energia AS-ile ja tema tütarettevõtjatele",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10421629",
+                "name": "Eesti Energia AS",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10069352",
+            "12080955",
+            "16603290",
+            "10044777",
+            "10083300",
+            "16773336",
+            "11693733",
+            "10972649"
+        ],
+        "cpv": "55100000",
+        "date_dispatch_notice": "2025-05-22",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_fca7345f-c0c0-48be-b40e-96482230f86f_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10972649",
+            "Possible shell company: 10069352",
+            "Possible shell company: 11693733",
+            "Nominees as company beneficial owners: KALLE_KUUSIK_31.08.2018",
+            "Nominees as company board members: Kalle_Kuusik_18.12.2009"
+        ],
+        "noticeUid": "fca7345f-c0c0-48be-b40e-96482230f86f",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "291686-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-18"
+                ],
+                "award_value": "120.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10972649",
+                        "contractor_name": "Osaühing Travel Balt",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Avaliku ujulateenuse kontsessioon objektil Kerese tn 14, Narva",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10788733",
+                "name": "Riigi Kinnisvara Aktsiaselts",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10972649"
+        ],
+        "cpv": "92610000",
+        "date_dispatch_notice": "2025-06-18",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_288eba81-5494-420a-974e-c8ffa5fb6451_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10972649"
+        ],
+        "noticeUid": "288eba81-5494-420a-974e-c8ffa5fb6451",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293084-0000",
+        "total_amount": "120.00",
         "total_amount_curr": "EUR"
     }
 ]

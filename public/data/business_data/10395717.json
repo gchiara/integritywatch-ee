@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "36810260249",
+            "isikukood": null,
+            "isikukood_hash": "a1402428-441e-57c1-a8c3-5ea477d69589",
             "kirje_id": 9000735091,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36810260249",
+            "isikukood_hash": "a1402428-441e-57c1-a8c3-5ea477d69589",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39507310836",
+            "isikukood_hash": "3b9d4074-ac6b-5a3d-8af4-28d5367d6830",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veldi tee 2, Soodevahe küla, Rae vald, Harju maakond, 75322",
+                "kirje_id": 3808006,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10891",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.89",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veldi tee 2, Soodevahe küla, Rae vald, Harju maakond, 75322",
+                "kirje_id": 3518457,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10891",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.89",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veldi tee 2, Soodevahe küla, Rae vald, Harju maakond, 75322",
+                "kirje_id": 3140534,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10891",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.89",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veldi tee 2, Soodevahe küla, Rae vald, Harju maakond, 75322",
                 "kirje_id": 2770091,
@@ -467,7 +506,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -622,12 +661,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2010",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "10891",
                 "emtak_tekstina": "Mujal liigitamata toiduainete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000021495,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015228,
                 "lopp_kpv": null,
                 "nace_kood": "10.89",
                 "on_pohitegevusala": true

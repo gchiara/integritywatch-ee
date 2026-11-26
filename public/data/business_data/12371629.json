@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Oleg",
-            "isikukood": "38004052231",
+            "isikukood": null,
+            "isikukood_hash": "164773aa-5efb-5d90-96e6-6bdb356223cd",
             "kirje_id": 9000664824,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38004052231",
+            "isikukood_hash": "164773aa-5efb-5d90-96e6-6bdb356223cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3707258,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46141",
+                "tegevusala_emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.14",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3437438,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46141",
+                "tegevusala_emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.14",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
+                "kirje_id": 3160307,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jõe tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10151",
                 "kirje_id": 2833128,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -373,23 +411,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.06.2021",
+                "algus_kpv": "24.06.2025",
                 "emtak_kood": "46141",
-                "emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000554325,
+                "emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000935022,
                 "lopp_kpv": null,
                 "nace_kood": "46.14",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "04.06.2021",
+                "algus_kpv": "24.06.2025",
                 "emtak_kood": "46621",
                 "emtak_tekstina": "Tööpinkide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000554326,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000935023,
                 "lopp_kpv": null,
                 "nace_kood": "46.62",
                 "on_pohitegevusala": false

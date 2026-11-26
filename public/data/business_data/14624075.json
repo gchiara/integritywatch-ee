@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.06.2022",
             "eesnimi": "Ivo",
-            "isikukood": "36701172231",
+            "isikukood": null,
+            "isikukood_hash": "43d100a7-87b7-5b8e-853a-34bdadfe1478",
             "kirje_id": 9001444263,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36701172231",
+            "isikukood_hash": "43d100a7-87b7-5b8e-853a-34bdadfe1478",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10554222",
-                "aadress_ads__adr_id": 3229790,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Alutaguse vald, Kuremäe küla, Moorioru",
+                "aadress_ads__adob_id": "11145257",
+                "aadress_ads__adr_id": 3797605,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Alutaguse vald, Kuremäe küla, Oru tee 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00680206",
-                "aadress_ads__koodaadress": "451303644000000001P17000000000000",
+                "aadress_ads__koodaadress": "45130364400000V0L0000DEOR00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2018",
+                "algus_kpv": "05.11.2025",
                 "ehak": "3644",
                 "ehak_nimetus": "Kuremäe küla, Alutaguse vald, Ida-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8361228,
+                "kande_nr": 3,
+                "kirje_id": 13404538,
                 "lopp_kpv": null,
                 "postiindeks": "41201",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Moorioru"
+                "tanav_maja_korter": "Oru tee 5"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oru tee 5, Kuremäe küla, Alutaguse vald, Ida-Viru maakond, 41201",
+                "kirje_id": 3592144,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Moorioru, Kuremäe küla, Alutaguse vald, Ida-Viru maakond, 41201",
+                "kirje_id": 3380301,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Moorioru, Kuremäe küla, Alutaguse vald, Ida-Viru maakond, 41201",
+                "kirje_id": 3131200,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Moorioru, Kuremäe küla, Alutaguse vald, Ida-Viru maakond, 41201",
                 "kirje_id": 2834776,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -263,12 +301,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.12.2018",
+                "algus_kpv": "23.05.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000394351,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000878861,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true

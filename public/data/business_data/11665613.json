@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Margus",
-            "isikukood": "36811090241",
+            "isikukood": null,
+            "isikukood_hash": "4efa6162-2c58-5983-ba69-4e4af67d3d45",
             "kirje_id": 9000772669,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36811090241",
+            "isikukood_hash": "4efa6162-2c58-5983-ba69-4e4af67d3d45",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6760617",
+                "aadress_ads__adob_id": "11516813",
                 "aadress_ads__adr_id": 2381934,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Kaarna tn 35",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaarna tn 35, Kristiine linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3758650,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarna tn 35, Kristiine linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3522748,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81231",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.23",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaarna tn 35, Kristiine linnaosa, Tallinn, Harju maakond, 12916",
+                "kirje_id": 3276939,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81291",
+                "tegevusala_emtak_tekstina": "Muu puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.29",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaarna tn 35, Kristiine linnaosa, Tallinn, Harju maakond, 12916",
                 "kirje_id": 2905248,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -394,36 +432,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000636185,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128406,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000636186,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001128407,
                 "lopp_kpv": null,
-                "nace_kood": "81.30",
+                "nace_kood": "81.23",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.01.2013",
-                "emtak_kood": "96041",
-                "emtak_tekstina": "Saunade, solaariumite ja massaažisalongide tegevus jm füüsilise heaoluga seotud teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000014402,
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "86992",
+                "emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001019174,
                 "lopp_kpv": null,
-                "nace_kood": "96.04",
+                "nace_kood": "86.99",
                 "on_pohitegevusala": false
             }
         ],

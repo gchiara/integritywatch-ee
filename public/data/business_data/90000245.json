@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2022",
             "eesnimi": "Meelis",
-            "isikukood": "37203015215",
+            "isikukood": null,
+            "isikukood_hash": "f9178be5-c953-502f-9de6-882f508cfb3d",
             "kirje_id": 9001408891,
             "kontrolli_teostamise_viis": "Z",
             "kontrolli_teostamise_viis_tekstina": "Asutajaõiguste teostaja, nõukogu liige, juhatuse liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37203015215",
+            "isikukood_hash": "f9178be5-c953-502f-9de6-882f508cfb3d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -115,6 +117,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 21, Viljandi linn, Viljandi maakond, 71003",
+                "kirje_id": 3611871,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6619",
+                "tegevusala_emtak_tekstina": "Muud finantsteenuste abitegevusalad, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "66.19",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 21, Viljandi linn, Viljandi maakond, 71003",
+                "kirje_id": 3347066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "6619",
+                "tegevusala_emtak_tekstina": "Muud finantsteenuste abitegevusalad, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "66.19",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oru tn 21, Viljandi linn, Viljandi maakond, 71003",
+                "kirje_id": 3082925,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "6619",
+                "tegevusala_emtak_tekstina": "Muud finantsteenuste abitegevusalad, v.a kindlustus ja pensionifondid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "66.19",
+                "tootajate_arv": "27"
+            },
             {
                 "ettevotja_aadress_aruandes": "Oru tn 21, Viljandi linn, Viljandi maakond, 71003",
                 "kirje_id": 2786859,
@@ -405,7 +443,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -459,13 +497,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "04.07.2022",
+                "algus_kpv": "19.04.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "SA",
-                "kande_nr": 27,
-                "kinnitamise_kpv": "28.06.2022",
-                "kirje_id": 10177136,
+                "kande_nr": 29,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12452408,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -533,23 +571,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.04.2020",
-                "emtak_kood": "86909",
-                "emtak_tekstina": "Mujal liigitamata tervishoiualad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000473340,
-                "lopp_kpv": null,
-                "nace_kood": "86.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.04.2014",
+                "algus_kpv": "31.03.2025",
                 "emtak_kood": "6619",
                 "emtak_tekstina": "Muud finantsteenuste abitegevusalad, v.a kindlustus ja pensionifondid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000105462,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000843797,
                 "lopp_kpv": null,
                 "nace_kood": "66.19",
                 "on_pohitegevusala": true

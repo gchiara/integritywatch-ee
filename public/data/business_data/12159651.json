@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "36512226019",
+            "isikukood": null,
+            "isikukood_hash": "0622391f-eec5-51be-9d6f-1782ec14a243",
             "kirje_id": 9000811653,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36512226019",
+            "isikukood_hash": "0622391f-eec5-51be-9d6f-1782ec14a243",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7291510",
-                "aadress_ads__adr_id": 2482498,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Sõle tn 27f-11",
+                "aadress_ads__adob_id": "7573312",
+                "aadress_ads__adr_id": 2429297,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Sõle tn 27e-26",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER03539119",
-                "aadress_ads__koodaadress": "377840614000003X7000095CKGK5C0000",
+                "aadress_ads__ads_oid": "ER03634381",
+                "aadress_ads__koodaadress": "377840614000003X7000095CNG1Q80000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "29.03.2019",
+                "algus_kpv": "13.12.2024",
                 "ehak": "0614",
                 "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 8503364,
+                "kande_nr": 10,
+                "kirje_id": 12851214,
                 "lopp_kpv": null,
                 "postiindeks": "10614",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Sõle tn 27f-11"
+                "tanav_maja_korter": "Sõle tn 27e-26"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 27e-26, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3585458,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 27e-26, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3548578,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõle tn 27f-11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
+                "kirje_id": 3060358,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "59111",
+                "tegevusala_emtak_tekstina": "Kinofilmide ja videote tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõle tn 27f-11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10614",
                 "kirje_id": 2827851,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -371,12 +409,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "59111",
-                "emtak_tekstina": "Kinofilmide ja videote tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000127983,
+                "algus_kpv": "07.02.2026",
+                "emtak_kood": "5911",
+                "emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001080736,
                 "lopp_kpv": null,
                 "nace_kood": "59.11",
                 "on_pohitegevusala": true

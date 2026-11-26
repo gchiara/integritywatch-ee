@@ -7,6 +7,7 @@
             "algus_kpv": "30.10.2018",
             "eesnimi": "Eva-Susanne",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000858948,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -24,6 +25,7 @@
             "algus_kpv": "30.10.2018",
             "eesnimi": "Johannes",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000858929,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37704110212",
+            "isikukood_hash": "aa3b3d9a-fab7-5417-9ecf-c5d002a5912d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 133, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3738910,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "37"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 133, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3420840,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "34"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 133, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3227063,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46431",
+                "tegevusala_emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.43",
+                "tootajate_arv": "30"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 133, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2864492,
@@ -280,7 +319,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,26 +428,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.08.2012",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "46431",
                 "emtak_tekstina": "Elektriliste kodumasinate hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000212681,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000919373,
                 "lopp_kpv": null,
                 "nace_kood": "46.43",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "19.06.2023",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000693400,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

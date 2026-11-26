@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37508206033",
+            "isikukood_hash": "09ffd92d-bdfb-5724-b647-22b34291a233",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -59,7 +60,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38512194224",
+            "isikukood_hash": "6b150ab5-5429-54ae-9794-761bd7cfe2a3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -98,6 +100,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3826341,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3553484,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3185869,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2792081,
@@ -271,14 +309,27 @@
         "ky_kinnistu_aadressid": [
             {
                 "adr_id": 3045441,
-                "ads_koodaadress": "68624661900000SNC0000B7YL0000",
+                "ads_koodaadress": "68624661900000SNC0000B7YL00000000",
                 "ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Pikk tn 10",
                 "ads_oid": "CU00341138",
-                "laadimise_kpv": "15.09.2023"
+                "laadimise_kpv": "07.09.2026"
             }
         ],
         "lahknevusteade_puudumisest": null,
         "loobunud_vorminouetest": null,
+        "majandusaastad": [
+            {
+                "algus_kpv": "27.06.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "KÜ",
+                "kande_nr": 4,
+                "kirje_id": 12567660,
+                "lopp_kpv": null,
+                "maj_aasta_algus": "01.01",
+                "maj_aasta_lopp": "31.12"
+            }
+        ],
         "markused_kaardil": [],
         "oiguslik_vorm": "KÜ",
         "oiguslik_vorm_nr": 23,
@@ -373,7 +424,7 @@
                 "emtak_kood": "68321",
                 "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000030056,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",

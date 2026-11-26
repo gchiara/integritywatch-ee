@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Karin",
-            "isikukood": "47612150298",
+            "isikukood": null,
+            "isikukood_hash": "b45d18f8-1c7e-5f69-b9bc-a43a695c4fa4",
             "kirje_id": 9000707602,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47612150298",
+            "isikukood_hash": "b45d18f8-1c7e-5f69-b9bc-a43a695c4fa4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10153972",
+                "aadress_ads__adob_id": "10686298",
                 "aadress_ads__adr_id": 3548265,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Sooja tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE03127778",
+                "aadress_ads__ads_oid": "ME01139998",
                 "aadress_ads__koodaadress": "37725745300000RZ50000AXYV00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "06.12.2017",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3680324,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3309881,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3030367,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3030342,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sooja tn 1, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2393398,
@@ -227,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -323,26 +373,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.12.2013",
-                "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000093517,
-                "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.12.2013",
+                "algus_kpv": "12.06.2026",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000093516,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112018,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "12.06.2026",
+                "emtak_kood": "85599",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112019,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -55,7 +55,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-13",
+                "award_date_conclusion_contract": [
+                    "2023-06-13"
+                ],
                 "award_value": "100000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -70,7 +72,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Ehitusekspertiiside hankimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -91,15 +93,9 @@
         "docType": "award",
         "docType2": "",
         "filename": "award_0290ed38-6357-44bb-8951-8cbe417f9c41_0.json",
-        "flags": [
-            "Nominees as company board members or beneficial owners"
-        ],
+        "flags": [],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37107300395",
-            "Nominees as company beneficial owners: 37602190364",
-            "Nominees as company board members: 37107300395",
-            "Nominees as company board members: 37602190364"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "0290ed38-6357-44bb-8951-8cbe417f9c41",
         "notice_items": [
@@ -110,5 +106,90 @@
         "refnum": "256411",
         "total_amount": "100000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-03-07",
+                    "2024-03-07",
+                    "2024-03-07",
+                    "2024-03-07"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14197510",
+                        "contractor_name": "Inseneribüroo Telora OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11270056",
+                        "contractor_name": "P.P. Ehitusjärelevalve OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10307171",
+                        "contractor_name": "TALLINNA LINNAEHITUSE AKTSIASELTS",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "14426010",
+                        "contractor_name": "Projektibüroo OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12718961",
+                        "contractor_name": "SVI expert OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "6"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Ehitusprojektidele ekspertiisi teostamise raamhange",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "77001435",
+                "name": "Tallinna Kultuuri- ja Spordiamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14197510",
+            "11270056",
+            "10307171",
+            "14426010",
+            "12718961"
+        ],
+        "cpv": "71500000",
+        "date_dispatch_notice": "2024-03-12",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d500b58d-8a64-437d-a8b3-bf6780f3deb6_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14197510",
+            "Nominees as company beneficial owners: Alar_Lepp_03.09.2018",
+            "Possible shell company: 11270056",
+            "Possible shell company: 10307171",
+            "Possible shell company: 14426010",
+            "Nominees as company beneficial owners: Andero_Mardo_09.09.2018",
+            "Possible shell company: 12718961"
+        ],
+        "noticeUid": "d500b58d-8a64-437d-a8b3-bf6780f3deb6",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "273231"
     }
 ]

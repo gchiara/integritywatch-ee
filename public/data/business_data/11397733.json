@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "38211110319",
+            "isikukood": null,
+            "isikukood_hash": "447ca1ba-78b1-5bb5-8a4d-dd5a961515dd",
             "kirje_id": 9000757370,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38211110319",
+            "isikukood_hash": "447ca1ba-78b1-5bb5-8a4d-dd5a961515dd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3766846,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74991",
+                "tegevusala_emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.99",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3474796,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74991",
+                "tegevusala_emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3153843,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93299",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 7, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
                 "kirje_id": 2885285,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -451,36 +489,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2021",
-                "emtak_kood": "47191",
-                "emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000563509,
-                "lopp_kpv": null,
-                "nace_kood": "47.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "24.06.2022",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000629392,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000971093,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "24.06.2022",
-                "emtak_kood": "93299",
-                "emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000629391,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000971092,
                 "lopp_kpv": null,
-                "nace_kood": "93.29",
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "74991",
+                "emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000971091,
+                "lopp_kpv": null,
+                "nace_kood": "74.99",
                 "on_pohitegevusala": true
             }
         ],

@@ -276,17 +276,23 @@
         "docType2": "default",
         "filename": "award_488c63a6-a863-4744-9ce4-11215925ad53_0.json",
         "flags": [
-            "Special purpose company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners",
+            "Special purpose company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
+            "Possible shell company: 14963205",
+            "Nominees as company beneficial owners: Kaja_Sepp_04.05.2020",
+            "Nominees as company board members: Kaja_Sepp_04.05.2020",
             "Company Nativitas OÜ(16346226) was first registered on 20.10.2021, 335 days before the notice dispatch.",
+            "Nominees as company beneficial owners: Nele_Kalf_20.10.2021",
+            "Nominees as company beneficial owners: Signe_Kriisa_20.10.2021",
+            "Nominees as company board members: Nele_Kalf_20.10.2021",
+            "Nominees as company board members: Signe_Kriisa_20.10.2021",
             "Company Inger koolitus OÜ(16353410) was first registered on 29.10.2021, 326 days before the notice dispatch.",
-            "Nominees as company beneficial owners: 47408042233",
-            "Nominees as company board members: 47408042233",
-            "Nominees as company beneficial owners: 48409092754",
-            "Nominees as company board members: 48409092754"
+            "Nominees as company beneficial owners: Jana_Laanemets_29.10.2021",
+            "Nominees as company board members: Jana_Laanemets_29.10.2021"
         ],
         "noticeUid": "488c63a6-a863-4744-9ce4-11215925ad53",
         "notice_items": [
@@ -402,8 +408,8 @@
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 47408042233",
-            "Nominees as company board members: 47408042233"
+            "Nominees as company beneficial owners: Jana_Laanemets_29.10.2021",
+            "Nominees as company board members: Jana_Laanemets_29.10.2021"
         ],
         "noticeUid": "404f9316-9f1a-4961-8cdf-c08a5bb56f53",
         "notice_items": [
@@ -415,7 +421,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-04-14",
+                "award_date_conclusion_contract": [
+                    "2023-04-14"
+                ],
                 "award_value": "75.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -430,7 +438,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Isikukeskse erihoolekande teenusmudeli rakendamine kohalikus omavalitsuses 2023-2024",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -452,13 +460,10 @@
         "docType2": "",
         "filename": "award_4e51a393-2881-4850-baae-590bdfdc97aa_0.json",
         "flags": [
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 48409092754",
-            "Nominees as company board members: 48409092754"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "4e51a393-2881-4850-baae-590bdfdc97aa",
         "notice_items": [
@@ -471,6 +476,113 @@
         ],
         "refnum": "261077",
         "total_amount": "20000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-29"
+                ],
+                "award_value": "450000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14189478",
+                        "contractor_name": "AKERSONI OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Koduteenuse osutamine Tapa vallas",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75033477",
+                "name": "Tapa Vallavalitsus",
+                "town": "Tapa vald"
+            }
+        ],
+        "contractors": [
+            "14189478"
+        ],
+        "cpv": "98514000",
+        "date_dispatch_notice": "2025-06-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_932f2ab7-3795-449c-97a3-ba999bc16e5c_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "932f2ab7-3795-449c-97a3-ba999bc16e5c",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "292656-0000",
+        "total_amount": "450000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-12-31"
+                ],
+                "award_value": "91800.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14189478",
+                        "contractor_name": "AKERSONI OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Isikliku abistaja teenuse pakkumine Tapa valla elanikele",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75033477",
+                "name": "Tapa Vallavalitsus",
+                "town": "Tapa vald"
+            }
+        ],
+        "contractors": [
+            "14189478"
+        ],
+        "cpv": "85311200",
+        "date_dispatch_notice": "2026-01-12",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_59c9b816-483b-475d-9a52-f8f9f677dd68_0.json",
+        "flags": [
+            "Tenders received low"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "59c9b816-483b-475d-9a52-f8f9f677dd68",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "303150-0000",
+        "total_amount": "91800.00",
         "total_amount_curr": "EUR"
     }
 ]

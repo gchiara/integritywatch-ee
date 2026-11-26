@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.11.2018",
             "eesnimi": "Helina",
-            "isikukood": "47611105210",
+            "isikukood": null,
+            "isikukood_hash": "36197dcf-43fc-55f7-864c-61375429201c",
             "kirje_id": 9000883903,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37611016044",
+            "isikukood_hash": "db99a9f2-6065-5454-a314-3aa86f093580",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10321562",
-                "aadress_ads__adr_id": 3552165,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Kernu küla, Hõbekuuse",
+                "aadress_ads__adob_id": "11065513",
+                "aadress_ads__adr_id": 3540491,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saue vald, Saue linn, Sooja tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01170900",
-                "aadress_ads__koodaadress": "37725297600000000DK9Q000000000000",
+                "aadress_ads__ads_oid": "ME04184073",
+                "aadress_ads__koodaadress": "37725745300000RZ50000AY5E00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.02.2018",
-                "ehak": "2976",
-                "ehak_nimetus": "Kernu küla, Saue vald, Harju maakond",
+                "algus_kpv": "18.12.2024",
+                "ehak": "7453",
+                "ehak_nimetus": "Saue linn, Saue vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 14,
-                "kirje_id": 7918951,
+                "kande_nr": 19,
+                "kirje_id": 12858035,
                 "lopp_kpv": null,
-                "postiindeks": "76305",
+                "postiindeks": "76505",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Hõbekuuse"
+                "tanav_maja_korter": "Sooja tn 5"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 5, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3730442,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25111",
+                "tegevusala_emtak_tekstina": "Kokkupandavate metallehitiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sooja tn 5, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3510072,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25111",
+                "tegevusala_emtak_tekstina": "Kokkupandavate metallehitiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hõbekuuse, Kernu küla, Saue vald, Harju maakond, 76305",
+                "kirje_id": 3231590,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25111",
+                "tegevusala_emtak_tekstina": "Kokkupandavate metallehitiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hõbekuuse, Kernu küla, Saue vald, Harju maakond, 76305",
                 "kirje_id": 2912555,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -433,11 +471,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000420220,
+                "kirje_id": 9000718428,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.asula.ee"
+                "sisu": "https://asula.ee/"
             }
         ],
         "staatus": "R",
@@ -455,36 +493,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.02.2017",
-                "emtak_kood": "25111",
-                "emtak_tekstina": "Kokkupandavate metallehitiste tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000280131,
-                "lopp_kpv": null,
-                "nace_kood": "25.11",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "18.03.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000536860,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007055,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "18.03.2021",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000536861,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47921",
+                "emtak_tekstina": "Spetsialiseeritud jaemüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007056,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.92",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "25111",
+                "emtak_tekstina": "Kokkupandavate metallehitiste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007053,
+                "lopp_kpv": null,
+                "nace_kood": "25.11",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "13929",
+                "emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007054,
+                "lopp_kpv": null,
+                "nace_kood": "13.92",
                 "on_pohitegevusala": false
             }
         ],

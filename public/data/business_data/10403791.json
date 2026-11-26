@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.09.2018",
             "eesnimi": "Alar",
-            "isikukood": "35109190238",
+            "isikukood": null,
+            "isikukood_hash": "3eb491bc-d67b-56ed-87d4-a837db3d1169",
             "kirje_id": 9000704678,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35109190238",
+            "isikukood_hash": "3eb491bc-d67b-56ed-87d4-a837db3d1169",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6543185",
-                "aadress_ads__adr_id": 2197281,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Andrekse tee 104-10",
+                "aadress_ads__adob_id": "11068996",
+                "aadress_ads__adr_id": 3787300,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Lehiku tee 12-10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01602016",
-                "aadress_ads__koodaadress": "377840596000003RX00001QDL8XLY0000",
+                "aadress_ads__koodaadress": "377840596000003JA00001NTALXNS0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.11.2017",
+                "algus_kpv": "17.04.2025",
                 "ehak": "0596",
                 "ehak_nimetus": "Pirita linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7129172,
+                "kande_nr": 9,
+                "kirje_id": 13069685,
                 "lopp_kpv": null,
                 "postiindeks": "11912",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Andrekse tee 104-10"
+                "tanav_maja_korter": "Lehiku tee 12-10"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lehiku tee 12-10, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3657650,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46471",
+                "tegevusala_emtak_tekstina": "Kodu-, kontori- ja kauplusemööbli, vaipade ja valgustite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.47",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lehiku tee 12-10, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3389894,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46471",
+                "tegevusala_emtak_tekstina": "Kodu-, kontori- ja kauplusemööbli, vaipade ja valgustite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.47",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Andrekse tee 104-10, Pirita linnaosa, Tallinn, Harju maakond, 11912",
+                "kirje_id": 3125952,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46471",
+                "tegevusala_emtak_tekstina": "Mööbli, vaipade ja valgustite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.47",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Andrekse tee 104-10, Pirita linnaosa, Tallinn, Harju maakond, 11912",
                 "kirje_id": 2830003,
@@ -430,7 +468,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -550,12 +588,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.04.2019",
+                "algus_kpv": "01.06.2025",
                 "emtak_kood": "46471",
-                "emtak_tekstina": "Mööbli, vaipade ja valgustite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000412102,
+                "emtak_tekstina": "Kodu-, kontori- ja kauplusemööbli, vaipade ja valgustite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888288,
                 "lopp_kpv": null,
                 "nace_kood": "46.47",
                 "on_pohitegevusala": true

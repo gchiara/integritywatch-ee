@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Tiina",
-            "isikukood": "46907032713",
+            "isikukood": null,
+            "isikukood_hash": "e6d3d6a0-f08c-51ef-bba7-928fb3d2afbc",
             "kirje_id": 9000684180,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Ülle",
-            "isikukood": "47512224910",
+            "isikukood": null,
+            "isikukood_hash": "5d96e47a-b700-5368-b168-8c0069ec2adc",
             "kirje_id": 9000684181,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46907032713",
+            "isikukood_hash": "e6d3d6a0-f08c-51ef-bba7-928fb3d2afbc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47512224910",
+            "isikukood_hash": "5d96e47a-b700-5368-b168-8c0069ec2adc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnasalu tn 31/1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3769658,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnasalu tn 31/1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3342012,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnasalu tn 31/1, Saue linn, Saue vald, Harju maakond, 76505",
+                "kirje_id": 3106379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86231",
+                "tegevusala_emtak_tekstina": "Hambaravi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.23",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnasalu tn 31/1, Saue linn, Saue vald, Harju maakond, 76505",
                 "kirje_id": 2826263,
@@ -341,7 +381,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -414,23 +454,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7688592,
+                "kande_nr": 9,
+                "kirje_id": 12883847,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tammekuru@gmail.com"
+                "sisu": "info@moisahambaravi.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 2000431471,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
+                "kirje_id": 9000719092,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 55654381"
+                "sisu": "+372 6709015"
             }
         ],
         "staatus": "R",
@@ -448,12 +488,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.11.2008",
+                "algus_kpv": "21.03.2025",
                 "emtak_kood": "86231",
-                "emtak_tekstina": "Hambaravi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000025267,
+                "emtak_tekstina": "Hambaravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000838479,
                 "lopp_kpv": null,
                 "nace_kood": "86.23",
                 "on_pohitegevusala": true

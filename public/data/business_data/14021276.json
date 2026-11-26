@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Raivo",
-            "isikukood": "38510274217",
+            "isikukood": null,
+            "isikukood_hash": "35c14d31-5352-59a0-a47a-c2ce2379ec0a",
             "kirje_id": 9000670074,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.08.2021",
             "eesnimi": "Margit",
-            "isikukood": "47906284217",
+            "isikukood": null,
+            "isikukood_hash": "041e530c-14f5-5965-a70d-388aa81f3465",
             "kirje_id": 9001320097,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47906284217",
+            "isikukood_hash": "041e530c-14f5-5965-a70d-388aa81f3465",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38510274217",
+            "isikukood_hash": "35c14d31-5352-59a0-a47a-c2ce2379ec0a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10331146",
-                "aadress_ads__adr_id": 2917130,
+                "aadress_ads__adob_id": "10997946",
+                "aadress_ads__adr_id": 3763518,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Põhja-Pärnumaa vald, Aluste küla, 9300036 Massi tee",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "CU03503483",
-                "aadress_ads__koodaadress": "68638123700000000EGJS000000000000",
+                "aadress_ads__koodaadress": "68637123700000000EGJS000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "06.05.2021",
                 "ehak": "1237",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "9300036 Massi tee, Aluste küla, Põhja-Pärnumaa vald, Pärnu maakond, 87601",
+                "kirje_id": 3671345,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "9300036 Massi tee, Aluste küla, Põhja-Pärnumaa vald, Pärnu maakond, 87601",
+                "kirje_id": 3387578,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "9300036 Massi tee, Aluste küla, Põhja-Pärnumaa vald, Pärnu maakond, 87601",
+                "kirje_id": 3122520,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "9300036 Massi tee, Aluste küla, Põhja-Pärnumaa vald, Pärnu maakond, 87601",
                 "kirje_id": 2819712,
@@ -257,7 +297,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -353,25 +393,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.05.2018",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000353898,
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "42991",
+                "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886146,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.02.2017",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000280059,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "42.99",
                 "on_pohitegevusala": true
             }
         ],

@@ -7,6 +7,7 @@
             "algus_kpv": "14.06.2019",
             "eesnimi": "Odd Rune",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000981979,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38905010306",
+            "isikukood_hash": "4f33a43e-5643-5baf-b05a-141be671543d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36704110101",
+            "isikukood_hash": "bf983f45-7fdd-5298-a7d0-0707542e93a7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -114,7 +117,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608130056",
+            "isikukood_hash": "851130e4-bc05-5418-ba21-155d0f139b1f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -151,6 +155,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "bbcf2b4c-8660-5f0b-b3cc-6edadc8c36b3",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -163,7 +168,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "04.09.1966",
-            "valis_kood": "040966 34566",
+            "valis_kood": null,
             "valis_kood_riik": "NOR",
             "valis_kood_riik_tekstina": "Norra",
             "volituste_loppemise_kpv": ""
@@ -214,6 +219,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ilunurme tee 2, Liivamäe küla, Jõelähtme vald, Harju maakond, 74207",
+                "kirje_id": 3623600,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "2511",
+                "tegevusala_emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "40"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilunurme tee 2, Liivamäe küla, Jõelähtme vald, Harju maakond, 74207",
+                "kirje_id": 3337331,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "2511",
+                "tegevusala_emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ilunurme tee 2, Liivamäe küla, Jõelähtme vald, Harju maakond, 74207",
+                "kirje_id": 3087117,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2511",
+                "tegevusala_emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "24"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ilunurme tee 2, Liivamäe küla, Jõelähtme vald, Harju maakond, 74207",
                 "kirje_id": 2784297,
@@ -362,7 +403,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
@@ -448,12 +489,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 16,
-                "kirje_id": 10127736,
+                "kande_nr": 18,
+                "kirje_id": 13674516,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "andrei@nordicshelter.ee"
+                "sisu": "andrei.stalev@nordicshelter.com"
             },
             {
                 "kaardi_nr": null,
@@ -471,11 +512,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000659407,
+                "kirje_id": 9000741882,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "http://nordicshelter.ee"
+                "sisu": "http://nordicshelter.com"
             }
         ],
         "staatus": "R",
@@ -493,15 +534,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.10.2011",
+                "algus_kpv": "11.03.2025",
                 "emtak_kood": "2511",
                 "emtak_tekstina": "Metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000157183,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000833187,
                 "lopp_kpv": null,
                 "nace_kood": "25.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "11.03.2025",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000833188,
+                "lopp_kpv": null,
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -306,7 +306,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-10",
+                "award_date_conclusion_contract": [
+                    "2023-06-10"
+                ],
                 "award_value": "350000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -321,7 +323,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Mõõteseadmete ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -359,6 +361,60 @@
         ],
         "refnum": "257895",
         "total_amount": "500000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-06-19"
+                ],
+                "award_value": "59133.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "2295737-2",
+                        "contractor_name": "Testhouse Nordic AB",
+                        "country": "FIN"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "GNSS simulaatori laiendamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70005699",
+                "name": "Eesti Lennuakadeemia",
+                "town": "Kambja vald"
+            }
+        ],
+        "contractors": [
+            "2295737-2"
+        ],
+        "cpv": "38112100",
+        "date_dispatch_notice": "2024-06-20",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_1f0571cb-afb8-464d-a442-880ee3ecf800_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "1f0571cb-afb8-464d-a442-880ee3ecf800",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "281075",
+        "total_amount": "59133.00",
         "total_amount_curr": "EUR"
     }
 ]

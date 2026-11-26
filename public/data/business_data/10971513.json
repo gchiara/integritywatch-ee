@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.06.2020",
             "eesnimi": "Sergei",
-            "isikukood": "37306033721",
+            "isikukood": null,
+            "isikukood_hash": "22cdeb30-c36b-5031-b5b7-352a21e29414",
             "kirje_id": 9001137239,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37306033721",
+            "isikukood_hash": "22cdeb30-c36b-5031-b5b7-352a21e29414",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 36a, Narva linn, Ida-Viru maakond, 20604",
+                "kirje_id": 3697724,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46832",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.83",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 36a, Narva linn, Ida-Viru maakond, 20604",
+                "kirje_id": 3493971,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46832",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.83",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 36a, Narva linn, Ida-Viru maakond, 20604",
+                "kirje_id": 3195314,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46732",
+                "tegevusala_emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.73",
+                "tootajate_arv": "24"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rahu tn 36a, Narva linn, Ida-Viru maakond, 20604",
                 "kirje_id": 2887299,
@@ -334,20 +372,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "13.12.2012",
+                "algus_kpv": "08.10.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 4,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kapitali_suurus": "134400.00",
+                "kande_nr": 15,
+                "kapitali_suurus": "403200.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 4666437,
+                "kirje_id": 12699234,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,6 +398,18 @@
                 "lopp_kpv": null,
                 "maj_aasta_algus": "01.01",
                 "maj_aasta_lopp": "31.12"
+            }
+        ],
+        "nimivaartuseta_aktsiad": [
+            {
+                "algus_kpv": "08.10.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "kirje_id": 12699233,
+                "lopp_kpv": null,
+                "nimivaartuseta_aktsiate_arv": "63000"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -387,13 +437,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "01.11.2016",
+                "algus_kpv": "08.10.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kinnitamise_kpv": "04.07.2016",
-                "kirje_id": 6348232,
+                "kande_nr": 15,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12699235,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -461,23 +511,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2018",
-                "emtak_kood": "46732",
-                "emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000363571,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46832",
+                "emtak_tekstina": "Sanitaarseadmete ja mujal liigitamata ehitusmaterjalide hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991120,
                 "lopp_kpv": null,
-                "nace_kood": "46.73",
+                "nace_kood": "46.83",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "26.06.2018",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47529",
                 "emtak_tekstina": "Muude ehitusmaterjalide ja -tarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000363572,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991121,
                 "lopp_kpv": null,
                 "nace_kood": "47.52",
                 "on_pohitegevusala": false

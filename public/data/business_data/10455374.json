@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Marek",
-            "isikukood": "38209280344",
+            "isikukood": null,
+            "isikukood_hash": "e8b85008-996e-55fc-9dc4-bb5b528fd3d3",
             "kirje_id": 9000874672,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38209280344",
+            "isikukood_hash": "e8b85008-996e-55fc-9dc4-bb5b528fd3d3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9694137",
+                "aadress_ads__adob_id": "10979825",
                 "aadress_ads__adr_id": 2582749,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Anija vald, Anija küla, Katkera",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Katkera, Anija küla, Anija vald, Harju maakond, 74411",
+                "kirje_id": 3627009,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "9699",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katkera, Anija küla, Anija vald, Harju maakond, 74411",
+                "kirje_id": 3366447,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "9699",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.99",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katkera, Anija küla, Anija vald, Harju maakond, 74411",
+                "kirje_id": 3094268,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96099",
+                "tegevusala_emtak_tekstina": "Muu teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Katkera, Anija küla, Anija vald, Harju maakond, 74411",
                 "kirje_id": 2816514,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -575,47 +613,58 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.06.2018",
-                "emtak_kood": "52219",
-                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000362426,
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "9699",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864193,
                 "lopp_kpv": null,
-                "nace_kood": "52.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.05.2022",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000618428,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "15.05.2022",
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "37001",
+                "emtak_tekstina": "Kanalisatsioon ja heitveekäitlus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864196,
+                "lopp_kpv": null,
+                "nace_kood": "37.00",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "03.05.2025",
                 "emtak_kood": "43999",
                 "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000618429,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864194,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "15.05.2022",
-                "emtak_kood": "37001",
-                "emtak_tekstina": "Kanalisatsioon ja heitveekäitlus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000618430,
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "52219",
+                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864195,
                 "lopp_kpv": null,
-                "nace_kood": "37.00",
+                "nace_kood": "52.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "03.05.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000864197,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             }
         ],

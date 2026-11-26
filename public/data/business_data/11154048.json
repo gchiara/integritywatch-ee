@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Martin",
-            "isikukood": "37202292733",
+            "isikukood": null,
+            "isikukood_hash": "a85f2ec8-ae79-547a-9cc6-0f58cf947e37",
             "kirje_id": 9000873409,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "37904094713",
+            "isikukood": null,
+            "isikukood_hash": "8aac3ad6-cd43-5ba0-9b19-e8c636467baf",
             "kirje_id": 9000873413,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37904094713",
+            "isikukood_hash": "8aac3ad6-cd43-5ba0-9b19-e8c636467baf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 10-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10124",
+                "kirje_id": 3748806,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 10-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10124",
+                "kirje_id": 3479426,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 10-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10124",
+                "kirje_id": 3211343,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 10-11, Kesklinna linnaosa, Tallinn, Harju maakond, 10124",
                 "kirje_id": 2915186,
@@ -351,7 +390,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -493,12 +532,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000702554,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975796,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true

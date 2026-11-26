@@ -2,21 +2,22 @@
     "ariregistri_kood": 10811490,
     "beneficial_owners": [
         {
-            "aadress_riik": "LTU",
-            "aadress_riik_tekstina": "Leedu",
-            "algus_kpv": "09.03.2021",
-            "eesnimi": "Niels Peter",
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "04.06.2024",
+            "eesnimi": "Kestutis",
             "isikukood": null,
-            "kirje_id": 9001246395,
+            "isikukood_hash": null,
+            "kirje_id": 9001714436,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Pretzmann",
-            "synniaeg": "05.04.1958",
+            "nimi": "Martinkenas",
+            "synniaeg": "14.01.1963",
             "valis_kood": null,
-            "valis_kood_riik": "DNK",
-            "valis_kood_riik_tekstina": "Taani"
+            "valis_kood_riik": "LTU",
+            "valis_kood_riik_tekstina": "Leedu"
         }
     ],
     "board_members": [
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37801070356",
+            "isikukood_hash": "e84f25fa-b8a5-5006-a1e0-7fc0f9d327de",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 9, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3750021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 9, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3480199,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 9, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3214457,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 9, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
+                "kirje_id": 3005287,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "52211",
+                "tegevusala_emtak_tekstina": "Parklate tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "47"
+            },
             {
                 "ettevotja_aadress_aruandes": "Estonia pst 9, Kesklinna linnaosa, Tallinn, Harju maakond, 10143",
                 "kirje_id": 2817288,
@@ -359,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -488,12 +538,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "52211",
                 "emtak_tekstina": "Parklate tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000031209,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976630,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": true

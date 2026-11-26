@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.12.2020",
             "eesnimi": "Tarvi",
-            "isikukood": "38409030255",
+            "isikukood": null,
+            "isikukood_hash": "2b27bf5e-36b5-5fe1-92e2-4820c6d70483",
             "kirje_id": 9001207726,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38409030255",
+            "isikukood_hash": "2b27bf5e-36b5-5fe1-92e2-4820c6d70483",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7144702",
+                "aadress_ads__adob_id": "10979752",
                 "aadress_ads__adr_id": 476791,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Viimsi vald, Haabneeme alevik, Kaluri tee 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 13, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3820875,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 13, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3537450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaluri tee 13, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3257505,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaluri tee 13, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2963714,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,26 +384,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.02.2015",
-                "emtak_kood": "41201",
+                "algus_kpv": "17.07.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000155514,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001033209,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "14.07.2023",
-                "emtak_kood": "41101",
-                "emtak_tekstina": "Hoonestusprojektide arendus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000711816,
-                "lopp_kpv": null,
-                "nace_kood": "41.10",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

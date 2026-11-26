@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.08.2018",
             "eesnimi": "Lauri",
-            "isikukood": "37302210251",
+            "isikukood": null,
+            "isikukood_hash": "f86bfd67-8571-5573-a6c4-253bef61bd04",
             "kirje_id": 9000651814,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.08.2018",
             "eesnimi": "Vallo",
-            "isikukood": "37210074717",
+            "isikukood": null,
+            "isikukood_hash": "437717fe-0e52-578d-b511-c97e55bfbd6d",
             "kirje_id": 9000651816,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37302210251",
+            "isikukood_hash": "f86bfd67-8571-5573-a6c4-253bef61bd04",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37210074717",
+            "isikukood_hash": "437717fe-0e52-578d-b511-c97e55bfbd6d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 47, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3803608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46421",
+                "tegevusala_emtak_tekstina": "Rõivaste ja rõivalisandite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.42",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 47, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3500750,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46421",
+                "tegevusala_emtak_tekstina": "Rõivaste ja rõivalisandite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.42",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 47, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3245836,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46421",
+                "tegevusala_emtak_tekstina": "Rõivaste ja rõivalisandite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.42",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "A. H. Tammsaare tee 47, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
                 "kirje_id": 2927811,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -471,12 +511,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.07.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46421",
                 "emtak_tekstina": "Rõivaste ja rõivalisandite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000080337,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997958,
                 "lopp_kpv": null,
                 "nace_kood": "46.42",
                 "on_pohitegevusala": true

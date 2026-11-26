@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Gennadi",
-            "isikukood": "37908062718",
+            "isikukood": null,
+            "isikukood_hash": "9727d054-950f-5c53-95af-d2d57ebdb096",
             "kirje_id": 9000735411,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37908062718",
+            "isikukood_hash": "9727d054-950f-5c53-95af-d2d57ebdb096",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 1, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3646447,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 1, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3426092,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 1, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
+                "kirje_id": 3166836,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.31",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tee 1, Tõrvandi alevik, Kambja vald, Tartu maakond, 61715",
                 "kirje_id": 2930851,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -513,37 +551,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000062156,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.08.2020",
-                "emtak_kood": "8299",
-                "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000496265,
-                "lopp_kpv": null,
-                "nace_kood": "82.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "45311",
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "46721",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000011950,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000924401,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "46.72",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "19.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000924402,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

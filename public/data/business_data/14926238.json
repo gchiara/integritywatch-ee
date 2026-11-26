@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.03.2020",
             "eesnimi": "Jevgeni",
-            "isikukood": "38102260303",
+            "isikukood": null,
+            "isikukood_hash": "5155060c-dfa8-5c18-8fbe-34fc5efb7fdf",
             "kirje_id": 9001101983,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38102260303",
+            "isikukood_hash": "5155060c-dfa8-5c18-8fbe-34fc5efb7fdf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10267235",
+                "aadress_ads__adob_id": "10808277",
                 "aadress_ads__adr_id": 3444421,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Värvi tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3615069,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "40"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3349227,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "39"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3081073,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4222",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "39"
+            },
             {
                 "ettevotja_aadress_aruandes": "Värvi tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2792107,
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -260,17 +298,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@pluvo.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000585138,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6607008"
             }
         ],
         "staatus": "R",
@@ -288,48 +315,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.03.2021",
+                "algus_kpv": "03.04.2025",
+                "emtak_kood": "42221",
+                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000846097,
+                "lopp_kpv": null,
+                "nace_kood": "42.22",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "03.04.2025",
                 "emtak_kood": "71121",
                 "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000538619,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000846098,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "26.03.2021",
-                "emtak_kood": "46692",
-                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000538620,
+                "algus_kpv": "03.04.2025",
+                "emtak_kood": "46643",
+                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000846099,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.03.2021",
-                "emtak_kood": "46721",
-                "emtak_tekstina": "Metallide ja metallimaakide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000538622,
-                "lopp_kpv": null,
-                "nace_kood": "46.72",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.03.2021",
-                "emtak_kood": "4222",
-                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000538618,
-                "lopp_kpv": null,
-                "nace_kood": "42.22",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

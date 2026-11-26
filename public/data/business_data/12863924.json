@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Aleksei",
-            "isikukood": "38611052216",
+            "isikukood": null,
+            "isikukood_hash": "f61c108b-0b78-519c-a556-5923f88e3a64",
             "kirje_id": 9000789363,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38611052216",
+            "isikukood_hash": "f61c108b-0b78-519c-a556-5923f88e3a64",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9960133",
-                "aadress_ads__adr_id": 3500635,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Priisle tee 1-53",
+                "aadress_ads__adob_id": "10329414",
+                "aadress_ads__adr_id": 2114847,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Pirita linnaosa, Merivälja tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER03823053",
-                "aadress_ads__koodaadress": "377840387000004BM00001SDDKAC70000",
+                "aadress_ads__ads_oid": "ME00638741",
+                "aadress_ads__koodaadress": "3778405960000040D00001P2200000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "17.07.2023",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "26.05.2026",
+                "ehak": "0596",
+                "ehak_nimetus": "Pirita linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 13,
-                "kirje_id": 10742479,
+                "kande_nr": 15,
+                "kirje_id": 13765980,
                 "lopp_kpv": null,
-                "postiindeks": "13914",
+                "postiindeks": "11911",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Priisle tee 1-53"
+                "tanav_maja_korter": "Merivälja tee 1"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 1-53, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3572881,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 1-53, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3314499,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 1-53, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3027896,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 141, Mustamäe linnaosa, Tallinn, Harju maakond, 12615",
                 "kirje_id": 2752341,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -323,26 +361,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.09.2016",
+                "algus_kpv": "30.12.2025",
                 "emtak_kood": "43221",
-                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000260904,
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001073015,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "14.12.2019",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000456030,
-                "lopp_kpv": null,
-                "nace_kood": "70.22",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

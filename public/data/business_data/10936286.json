@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.10.2018",
             "eesnimi": "Taivo",
-            "isikukood": "37307126520",
+            "isikukood": null,
+            "isikukood_hash": "48f15b67-b1cc-50eb-bd40-d04846e4c271",
             "kirje_id": 9000752154,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37307126520",
+            "isikukood_hash": "48f15b67-b1cc-50eb-bd40-d04846e4c271",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koolitare, Karaski küla, Rõuge vald, Võru maakond, 66231",
+                "kirje_id": 3639555,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koolitare, Karaski küla, Rõuge vald, Võru maakond, 66231",
+                "kirje_id": 3390891,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koolitare, Karaski küla, Rõuge vald, Võru maakond, 66231",
+                "kirje_id": 3298405,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koolitare, Karaski küla, Rõuge vald, Võru maakond, 66231",
                 "kirje_id": 2990759,
@@ -427,6 +465,20 @@
                 "veerg_nr": 6
             }
         ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "28.11.2024",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 12817238,
+                "lopp_kpv": null,
+                "sisu": "SÄNNA PÕLLUMEES OÜ (ühendav ühing) ja OÜ Kobela Teenused (ühendatav ühing, registrikood 12391611, aadress Lusti tee 8, Kobela alevik, Antsla vald, Võru maakond) ühinevad 19.07.2024.a sõlmitud ühinemislepingu alusel. Ühinemisotsus võeti vastu 11.10.2024. a. Ühinemine loetakse toimunuks käesoleva ühinemiskande registrikaardile tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            }
+        ],
         "oiguslik_vorm": "OÜ",
         "oiguslik_vorm_nr": 5,
         "oiguslik_vorm_tekstina": "Osaühing",
@@ -504,48 +556,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.01.2011",
-                "emtak_kood": "01631",
-                "emtak_tekstina": "Saagikoristusjärgsed tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000102532,
-                "lopp_kpv": null,
-                "nace_kood": "01.63",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2022",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630554,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2022",
-                "emtak_kood": "43129",
-                "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000630553,
-                "lopp_kpv": null,
-                "nace_kood": "43.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "02.06.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008844,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889193,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889195,
+                "lopp_kpv": null,
+                "nace_kood": "46.18",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.06.2025",
+                "emtak_kood": "0163",
+                "emtak_tekstina": "Saagikoristusjärgsed tegevused ja seemnete töötlemine paljundamiseks",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000889194,
+                "lopp_kpv": null,
+                "nace_kood": "01.63",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

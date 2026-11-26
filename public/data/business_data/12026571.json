@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Janek",
-            "isikukood": "37706144214",
+            "isikukood": null,
+            "isikukood_hash": "b424594a-56b0-592c-aa35-0a50b6ef09b2",
             "kirje_id": 9000665107,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37706144214",
+            "isikukood_hash": "b424594a-56b0-592c-aa35-0a50b6ef09b2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karusambla tee 1/5-2, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3602556,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "63101",
+                "tegevusala_emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karusambla tee 1/5-2, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3357309,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "63101",
+                "tegevusala_emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karusambla tee 1/5-2, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3044152,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63111",
+                "tegevusala_emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karusambla tee 1/5-2, Järveküla, Rae vald, Harju maakond, 75304",
                 "kirje_id": 2767011,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,25 +408,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.01.2022",
-                "emtak_kood": "85601",
-                "emtak_tekstina": "Haridust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000600467,
+                "algus_kpv": "19.04.2025",
+                "emtak_kood": "8559",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854741,
                 "lopp_kpv": null,
-                "nace_kood": "85.60",
+                "nace_kood": "85.59",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "31.01.2022",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000600466,
+                "algus_kpv": "19.04.2025",
+                "emtak_kood": "63101",
+                "emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000854740,
                 "lopp_kpv": null,
-                "nace_kood": "63.11",
+                "nace_kood": "63.10",
                 "on_pohitegevusala": true
             }
         ],

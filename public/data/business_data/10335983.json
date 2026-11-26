@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.07.2020",
             "eesnimi": "Aavo",
-            "isikukood": "35903040039",
+            "isikukood": null,
+            "isikukood_hash": "41f8f2a3-36f8-5cfa-a46f-5afd6829a594",
             "kirje_id": 9001139631,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35903040039",
+            "isikukood_hash": "41f8f2a3-36f8-5cfa-a46f-5afd6829a594",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Talve tn 51, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3770129,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Talve tn 51, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3508901,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49321",
+                "tegevusala_emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.32",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Talve tn 51, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3241879,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Talve tn 51, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
                 "kirje_id": 2865857,
@@ -211,18 +249,6 @@
                 "tootajate_arv": "2"
             },
             {
-                "ettevotja_aadress_aruandes": "",
-                "kirje_id": 1169031,
-                "majandusaasta_perioodi_algus_kpv": "01.01.2013",
-                "majandusaasta_perioodi_lopp_kpv": "31.12.2013",
-                "tegevusala_emtak_kood": null,
-                "tegevusala_emtak_tekstina": null,
-                "tegevusala_emtak_versioon": null,
-                "tegevusala_emtak_versioon_tekstina": null,
-                "tegevusala_nace_kood": null,
-                "tootajate_arv": null
-            },
-            {
                 "ettevotja_aadress_aruandes": "Talve 51, Kuressaare linn, Saare maakond, 93816",
                 "kirje_id": 1169062,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2013",
@@ -233,6 +259,18 @@
                 "tegevusala_emtak_versioon_tekstina": null,
                 "tegevusala_nace_kood": "49.39",
                 "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 1169031,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2013",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2013",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": null
             },
             {
                 "ettevotja_aadress_aruandes": "Talve 51, Kuressaare linn, Saare maakond, 93816",
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -560,14 +598,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000005374,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "49321",
+                "emtak_tekstina": "Sõitjate juhuvedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005951,
                 "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "49.32",
                 "on_pohitegevusala": true
             }
         ],

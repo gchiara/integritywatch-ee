@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39007164919",
+            "isikukood_hash": "da3b693e-4b66-52a7-a6a3-f113ed0292f1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -59,7 +60,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36503124935",
+            "isikukood_hash": "cce7c999-a925-59f8-824c-1f434771354b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -81,7 +83,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10070110",
+                "aadress_ads__adob_id": "10981003",
                 "aadress_ads__adr_id": 3528791,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Türi linn, Hariduse tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -146,6 +148,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hariduse tn 3, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3623467,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58121",
+                "tegevusala_emtak_tekstina": "Ajalehtede kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.12",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hariduse tn 3, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3353176,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47111",
+                "tegevusala_emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.11",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hariduse tn 3, Türi linn, Türi vald, Järva maakond, 72213",
+                "kirje_id": 3083622,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47111",
+                "tegevusala_emtak_tekstina": "Jaemüük spetsialiseerimata kauplustes, kus on ülekaalus toidukaubad, joogid ja tubakatooted",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.11",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hariduse tn 3, Türi linn, Türi vald, Järva maakond, 72213",
                 "kirje_id": 2797209,
@@ -407,25 +445,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.04.2023",
-                "emtak_kood": "94995",
-                "emtak_tekstina": "Vaba aja veetmise, meelelahutuse ja kultuurilise tegevusega või huvialadega seotud ühendused ning huviklubid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679108,
+                "algus_kpv": "21.04.2026",
+                "emtak_kood": "58121",
+                "emtak_tekstina": "Ajalehtede kirjastamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001096490,
                 "lopp_kpv": null,
-                "nace_kood": "94.99",
+                "nace_kood": "58.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "17.04.2023",
-                "emtak_kood": "58131",
-                "emtak_tekstina": "Ajalehtede kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679109,
+                "algus_kpv": "21.04.2026",
+                "emtak_kood": "55201",
+                "emtak_tekstina": "Hostelid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001096491,
                 "lopp_kpv": null,
-                "nace_kood": "58.13",
+                "nace_kood": "55.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "21.04.2026",
+                "emtak_kood": "93111",
+                "emtak_tekstina": "Spordiehitiste käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001096492,
+                "lopp_kpv": null,
+                "nace_kood": "93.11",
                 "on_pohitegevusala": false
             }
         ],

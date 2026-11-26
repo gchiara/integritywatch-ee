@@ -104,7 +104,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2021-11-18",
+                "award_date_conclusion_contract": [
+                    "2021-11-18"
+                ],
                 "award_value": "80000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": false,
@@ -118,7 +120,7 @@
                 "result": "n/a"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Biocrates MxP Quant 500 Kit analüüsikomplektide ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -150,5 +152,57 @@
             }
         ],
         "refnum": "241545"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-05-24"
+                ],
+                "award_value": "120000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "220414 p",
+                        "contractor_name": "BIOCRATES Life Sciences AG",
+                        "country": "AUT"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Biocrates MxP Quant 500 Kit analüüsikomplektide ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "74001073",
+                "name": "Tartu Ülikool",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "220414 p"
+        ],
+        "cpv": "38432000",
+        "date_dispatch_notice": "2024-05-24",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_43618593-806f-4d6f-8b24-d845642740d1_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "43618593-806f-4d6f-8b24-d845642740d1",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "279407"
     }
 ]

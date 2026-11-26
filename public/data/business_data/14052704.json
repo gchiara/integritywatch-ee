@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "37309172751",
+            "isikukood": null,
+            "isikukood_hash": "c0ef394a-70c1-51b2-94a1-44965f558b2a",
             "kirje_id": 9000709566,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37309172751",
+            "isikukood_hash": "c0ef394a-70c1-51b2-94a1-44965f558b2a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8913970",
-                "aadress_ads__adr_id": 3191841,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kastre vald, Haaslava küla, Pajusalu tee 1",
+                "aadress_ads__adob_id": "9509284",
+                "aadress_ads__adr_id": 3412173,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Laulupeo pst 25/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01928276",
-                "aadress_ads__koodaadress": "79291169600000Q8E0000AAX300000000",
+                "aadress_ads__ads_oid": "ME00765679",
+                "aadress_ads__koodaadress": "79793815100000SH50000BW5Z00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "20.12.2017",
-                "ehak": "1696",
-                "ehak_nimetus": "Haaslava küla, Kastre vald, Tartu maakond",
+                "algus_kpv": "27.08.2026",
+                "ehak": "8151",
+                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7441343,
+                "kande_nr": 8,
+                "kirje_id": 13942866,
                 "lopp_kpv": null,
-                "postiindeks": "62107",
+                "postiindeks": "51007",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pajusalu tee 1"
+                "tanav_maja_korter": "Laulupeo pst 25/2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pajusalu tee 1, Haaslava küla, Kastre vald, Tartu maakond, 62107",
+                "kirje_id": 3733709,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pajusalu tee 1, Haaslava küla, Kastre vald, Tartu maakond, 62107",
+                "kirje_id": 3442641,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pajusalu tee 1, Haaslava küla, Kastre vald, Tartu maakond, 62107",
+                "kirje_id": 3237857,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pajusalu tee 1, Haaslava küla, Kastre vald, Tartu maakond, 62107",
                 "kirje_id": 2962375,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -258,13 +296,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "19.05.2016",
+                "algus_kpv": "27.08.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "19.05.2016",
-                "kirje_id": 5976515,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13942867,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -276,12 +314,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7865078,
+                "kande_nr": 8,
+                "kirje_id": 13942868,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "jaanus.tonissaar@gmail.com"
+                "sisu": "jaanus@paikeseratas.ee"
             },
             {
                 "kaardi_nr": null,
@@ -310,12 +348,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.07.2023",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "4321",
                 "emtak_tekstina": "Elektriinstallatsioon",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000711547,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000940204,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true

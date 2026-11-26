@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Alar",
-            "isikukood": "36903214913",
+            "isikukood": null,
+            "isikukood_hash": "999e2c40-7fca-5831-8f1b-a2468f3c494c",
             "kirje_id": 9000694899,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36903214913",
+            "isikukood_hash": "999e2c40-7fca-5831-8f1b-a2468f3c494c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10259719",
-                "aadress_ads__adr_id": 2951626,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Häädemeeste vald, Laadi küla, Männiküla tee 10",
+                "aadress_ads__adob_id": "8179520",
+                "aadress_ads__adr_id": 2844185,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Vinni vald, Roela alevik, Veskikaare tn 6-9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01040081",
-                "aadress_ads__koodaadress": "68214400400000KOY00009JU800000000",
+                "aadress_ads__ads_oid": "ER01513272",
+                "aadress_ads__koodaadress": "60901702800000M6F000084V0DV500000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "09.04.2018",
-                "ehak": "4004",
-                "ehak_nimetus": "Laadi küla, Häädemeeste vald, Pärnu maakond",
+                "algus_kpv": "04.07.2024",
+                "ehak": "7028",
+                "ehak_nimetus": "Roela alevik, Vinni vald, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 8028229,
+                "kande_nr": 8,
+                "kirje_id": 12580184,
                 "lopp_kpv": null,
-                "postiindeks": "86503",
+                "postiindeks": "46602",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Männiküla tee 10"
+                "tanav_maja_korter": "Veskikaare tn 6-9"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veskikaare tn 6-9, Roela alevik, Vinni vald, Lääne-Viru maakond, 46602",
+                "kirje_id": 3724780,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veskikaare tn 6-9, Roela alevik, Vinni vald, Lääne-Viru maakond, 46602",
+                "kirje_id": 3506391,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "70201",
+                "tegevusala_emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiküla tee 10, Laadi küla, Häädemeeste vald, Pärnu maakond, 86503",
+                "kirje_id": 3171277,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "70221",
+                "tegevusala_emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "70.22",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiküla tee 10, Laadi küla, Häädemeeste vald, Pärnu maakond, 86503",
                 "kirje_id": 2978525,
@@ -354,15 +392,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "21.12.2011",
+                "algus_kpv": "04.07.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 3,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
+                "kande_nr": 8,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4313091,
+                "kirje_id": 12580185,
                 "lopp_kpv": null,
-                "muutmise_kpv": "20.12.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -406,14 +444,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.06.2018",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000362297,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001003502,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": true
             }
         ],

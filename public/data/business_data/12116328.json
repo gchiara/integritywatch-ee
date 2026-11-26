@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.09.2018",
             "eesnimi": "Sven",
-            "isikukood": "37201282743",
+            "isikukood": null,
+            "isikukood_hash": "e5e33647-5227-5712-a57d-d9a805b32a44",
             "kirje_id": 9000704140,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37201282743",
+            "isikukood_hash": "e5e33647-5227-5712-a57d-d9a805b32a44",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3640243,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3414884,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
+                "kirje_id": 3150033,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalda tn 10, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48305",
                 "kirje_id": 2848078,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,26 +408,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.05.2015",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000167901,
+                "algus_kpv": "15.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000913683,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
+                "nace_kood": "56.22",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "19.05.2015",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000167900,
+                "algus_kpv": "15.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000913684,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
-                "on_pohitegevusala": true
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

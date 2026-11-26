@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2022",
             "eesnimi": "Aleksei",
-            "isikukood": "38211120272",
+            "isikukood": null,
+            "isikukood_hash": "9e8772b7-25bf-5904-8d34-9953d1c8ef72",
             "kirje_id": 9001448590,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2022",
             "eesnimi": "Oleg",
-            "isikukood": "38907022219",
+            "isikukood": null,
+            "isikukood_hash": "a43829dc-dc04-527d-b5c1-50beacb75c82",
             "kirje_id": 9001448591,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -530,16 +532,16 @@
         ],
         "seisundi_muutused": [
             {
-                "algus_kpv": "04.08.2023",
+                "algus_kpv": "27.09.2023",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 15,
-                "kirje_id": 10769461,
+                "kande_nr": 16,
+                "kirje_id": 12038249,
                 "lopp_kpv": null,
-                "sisu": "Osaühingu lõpetamisotsus võeti vastu 26.07.2023. a",
-                "tyyp": "LOPET",
-                "tyyp_tekstina": "Lõpetamine tekstina"
+                "sisu": "Harju Maakohtu 27.09.2023. kohtumäärusega (tsiviilasi nr 2-23-11607) on välja kuulutatud osaühingu pankrot.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
             }
         ],
         "sidevahendid": [
@@ -566,8 +568,8 @@
                 "sisu": "+372 5067151"
             }
         ],
-        "staatus": "L",
-        "staatus_tekstina": "Likvideerimisel",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "03.02.1997",
@@ -586,6 +588,15 @@
                 "kande_nr": 15,
                 "staatus": "L",
                 "staatus_tekstina": "Likvideerimisel"
+            },
+            {
+                "algus_kpv": "27.09.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 16,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -594,7 +605,7 @@
                 "emtak_kood": "43211",
                 "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000340134,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",

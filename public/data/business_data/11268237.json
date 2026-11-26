@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Dmitri",
-            "isikukood": "37909030284",
+            "isikukood": null,
+            "isikukood_hash": "66fa8d1c-652d-545a-a52c-d37698ffb26b",
             "kirje_id": 9000814124,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37909030284",
+            "isikukood_hash": "66fa8d1c-652d-545a-a52c-d37698ffb26b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6597111",
-                "aadress_ads__adr_id": 2277719,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Pihlaka tn 22-25",
+                "aadress_ads__adob_id": "10451524",
+                "aadress_ads__adr_id": 3427256,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Laki tn 5b",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01184669",
-                "aadress_ads__koodaadress": "377840524000003YY00001P440BVW0000",
+                "aadress_ads__ads_oid": "ME01125478",
+                "aadress_ads__koodaadress": "37784033900000KH40000C05D00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.11.2017",
-                "ehak": "0524",
-                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "05.08.2025",
+                "ehak": "0339",
+                "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7190743,
+                "kande_nr": 12,
+                "kirje_id": 13242789,
                 "lopp_kpv": null,
-                "postiindeks": "11211",
+                "postiindeks": "10621",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pihlaka tn 22-25"
+                "tanav_maja_korter": "Laki tn 5b"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 5b, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3815118,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 5b, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3554875,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tn 22-25, Nõmme linnaosa, Tallinn, Harju maakond, 11211",
+                "kirje_id": 3300111,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pihlaka tn 22-25, Nõmme linnaosa, Tallinn, Harju maakond, 11211",
                 "kirje_id": 2931759,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -456,22 +494,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000397170,
+                "kirje_id": 9000729780,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.ipscstore.eu"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000397171,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.autoprof.ee"
+                "sisu": "https://www.ipscstore.com/"
             }
         ],
         "staatus": "R",
@@ -489,23 +516,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2012",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000194729,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2012",
+                "algus_kpv": "07.09.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000194728,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001050959,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true

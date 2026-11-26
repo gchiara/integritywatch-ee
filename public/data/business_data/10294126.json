@@ -7,6 +7,7 @@
             "algus_kpv": "03.06.2021",
             "eesnimi": "Pavel",
             "isikukood": null,
+            "isikukood_hash": "254b6d5d-1b4f-5abd-9e6a-c64d8298a3f0",
             "kirje_id": 9001286650,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Bouška",
             "synniaeg": null,
-            "valis_kood": "760803/0012",
+            "valis_kood": null,
             "valis_kood_riik": "CZE",
             "valis_kood_riik_tekstina": "Tšehhi"
         }
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37308112748",
+            "isikukood_hash": "690ea09e-9e1a-532d-b9d0-6ea38d6ee580",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10645912",
+                "aadress_ads__adob_id": "11464939",
                 "aadress_ads__adr_id": 3592551,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Väike-Maarja vald, Ebavere küla, Tööstuse tn 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 8, Ebavere küla, Väike-Maarja vald, Lääne-Viru maakond, 46209",
+                "kirje_id": 3661185,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10921",
+                "tegevusala_emtak_tekstina": "Lemmikloomade valmistoidu tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.92",
+                "tootajate_arv": "119"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 8, Ebavere küla, Väike-Maarja vald, Lääne-Viru maakond, 46209",
+                "kirje_id": 3377391,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10921",
+                "tegevusala_emtak_tekstina": "Lemmikloomade valmistoidu tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.92",
+                "tootajate_arv": "99"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 8, Ebavere küla, Väike-Maarja vald, Lääne-Viru maakond, 46209",
+                "kirje_id": 3108594,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10921",
+                "tegevusala_emtak_tekstina": "Lemmikloomade valmistoidu tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.92",
+                "tootajate_arv": "99"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tn 8, Ebavere küla, Väike-Maarja vald, Lääne-Viru maakond, 46209",
                 "kirje_id": 2862420,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
@@ -577,12 +615,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2011",
+                "algus_kpv": "20.05.2025",
                 "emtak_kood": "10921",
                 "emtak_tekstina": "Lemmikloomade valmistoidu tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000126262,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000875996,
                 "lopp_kpv": null,
                 "nace_kood": "10.92",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Taavo",
-            "isikukood": "36905040280",
+            "isikukood": null,
+            "isikukood_hash": "5413ea8f-802b-586c-b2db-6d4930c5e746",
             "kirje_id": 9000847213,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36905040280",
+            "isikukood_hash": "5413ea8f-802b-586c-b2db-6d4930c5e746",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10431163",
-                "aadress_ads__adr_id": 2642209,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kuressaare linn, Nooruse tn 59",
+                "aadress_ads__adob_id": "11186030",
+                "aadress_ads__adr_id": 2607165,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Saaremaa vald, Kudjape alevik, Kuressaare tee 2a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE01046968",
-                "aadress_ads__koodaadress": "74714365500000RK30000ASUC00000000",
+                "aadress_ads__ads_oid": "ME00796764",
+                "aadress_ads__koodaadress": "7471435190000085Y00001JW000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "19.12.2017",
-                "ehak": "3655",
-                "ehak_nimetus": "Kuressaare linn, Saaremaa vald, Saare maakond",
+                "algus_kpv": "09.02.2026",
+                "ehak": "3519",
+                "ehak_nimetus": "Kudjape alevik, Saaremaa vald, Saare maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7420255,
+                "kande_nr": 9,
+                "kirje_id": 13559956,
                 "lopp_kpv": null,
-                "postiindeks": "93816",
+                "postiindeks": "93851",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Nooruse tn 59"
+                "tanav_maja_korter": "Kuressaare tee 2a"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kuressaare tee 2a, Kudjape alevik, Saaremaa vald, Saare maakond, 93851",
+                "kirje_id": 3736750,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse tn 59, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3514541,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nooruse tn 59, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
+                "kirje_id": 3208847,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85531",
+                "tegevusala_emtak_tekstina": "Sõiduõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.53",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nooruse tn 59, Kuressaare linn, Saaremaa vald, Saare maakond, 93816",
                 "kirje_id": 2866263,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -443,12 +481,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7743340,
+                "kande_nr": 9,
+                "kirje_id": 13559957,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tennoautokool@hot.ee"
+                "sisu": "tennoautokool@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -460,17 +498,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5215069"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000229352,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 4536355"
             }
         ],
         "staatus": "R",
@@ -488,12 +515,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "85531",
                 "emtak_tekstina": "Sõiduõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000006094,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001011498,
                 "lopp_kpv": null,
                 "nace_kood": "85.53",
                 "on_pohitegevusala": true

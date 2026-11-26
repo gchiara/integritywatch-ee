@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Kalle",
-            "isikukood": "36308210235",
+            "isikukood": null,
+            "isikukood_hash": "9d4312ab-ac71-52b8-8909-9e2f703f1dd8",
             "kirje_id": 9000827564,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36308210235",
+            "isikukood_hash": "9d4312ab-ac71-52b8-8909-9e2f703f1dd8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk põik 3, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3654834,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk põik 3, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3419209,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "9699",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk põik 3, Kose alevik, Kose vald, Harju maakond, 75101",
+                "kirje_id": 3197129,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9609",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pikk põik 3, Kose alevik, Kose vald, Harju maakond, 75101",
                 "kirje_id": 2894534,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,36 +398,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.08.2015",
+                "algus_kpv": "29.05.2026",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000194598,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106134,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.08.2015",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000194596,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "10.08.2015",
-                "emtak_kood": "4939",
-                "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000194597,
+                "algus_kpv": "29.05.2026",
+                "emtak_kood": "9699",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106135,
                 "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
             }
         ],

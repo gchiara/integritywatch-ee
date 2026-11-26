@@ -157,12 +157,15 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company"
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10291056",
-            "Possible shell company: 12516171"
+            "Possible shell company: 12516171",
+            "Nominees as company beneficial owners: Kristi_Luukas_16.04.2025",
+            "Nominees as company board members: Kristi_Luukas_16.04.2025"
         ],
         "noticeUid": "32f85f03-8a04-4818-a0e9-c808481e3157",
         "notice_items": [
@@ -831,9 +834,8 @@
             "Possible shell company: 10291056",
             "Company Nordic Road OÜ(16676952) was first registered on 15.02.2023, 69 days before the notice dispatch.",
             "Possible shell company: 16676952",
-            "Nominees as company beneficial owners: 37610285712",
-            "Nominees as company board members: 39404085714",
-            "Nominees as company board members: 37610285712"
+            "Nominees as company beneficial owners: Rait_Allik_15.02.2023",
+            "Nominees as company board members: Rait_Allik_15.02.2023"
         ],
         "noticeUid": "235c9bc5-eb33-432c-a165-354c5b6e2035",
         "notice_items": [
@@ -846,7 +848,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-17",
+                "award_date_conclusion_contract": [
+                    "2023-08-17"
+                ],
                 "award_value": "3864.48",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -861,7 +865,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Rapla Keskväljaku II etapi väikevormide rajamine ja soetamine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -885,15 +889,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 16328599",
-            "Nominees as company beneficial owners: 37906210289",
-            "Nominees as company beneficial owners: 48007310298",
-            "Nominees as company board members: 37906210289"
+            "Possible shell company: 16328599"
         ],
         "noticeUid": "33816f62-5212-41bd-b689-3f51f6654a6b",
         "notice_items": [
@@ -921,6 +921,401 @@
         ],
         "refnum": "265733",
         "total_amount": "76334.11",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-07"
+                ],
+                "award_value": "102108.50",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10291056",
+                        "contractor_name": "Tommi Play OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "6"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Forseliuse Kooli õueala osaline rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75006546",
+                "name": "Tartu Linnavalitsus",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "10291056"
+        ],
+        "cpv": "45214220",
+        "date_dispatch_notice": "2025-05-07",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_d4d4f5d5-0bcd-4a2d-8597-c43c7966faae_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10291056"
+        ],
+        "noticeUid": "d4d4f5d5-0bcd-4a2d-8597-c43c7966faae",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293123-0000",
+        "total_amount": "102108.50",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-05-14"
+                ],
+                "award_value": "85757.33",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12426566",
+                        "contractor_name": "Inseneriteenused OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "6"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Mängu-, liikumis- ja vabaajaväljakute rajamine Jõgeva alevikus, Sadalas ja Sadukülas",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "77000401",
+                "name": "Jõgeva Vallavalitsus",
+                "town": "Jõgeva vald"
+            }
+        ],
+        "contractors": [
+            "10291056",
+            "11043461",
+            "12426566"
+        ],
+        "cpv": "45212100",
+        "date_dispatch_notice": "2025-05-27",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b0edc6aa-7316-4f9d-a80f-4b024295b1be_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 12426566",
+            "Nominees as company beneficial owners: Hannes_Kuusmaa_17.09.2018",
+            "Nominees as company beneficial owners: Mauri_Sopp_17.09.2018",
+            "Nominees as company beneficial owners: Priit_Aigro_17.09.2018"
+        ],
+        "noticeUid": "b0edc6aa-7316-4f9d-a80f-4b024295b1be",
+        "notice_items": [
+            {},
+            {},
+            {}
+        ],
+        "refnum": "291194-0000",
+        "total_amount": "194490.58",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-08-05"
+                ],
+                "award_value": "60080.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10291056",
+                        "contractor_name": "Tommi Play OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tiigrisilma 15 kinnistu alale osalise puhke- ja mänguväljaku  ehitamine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "77000275",
+                "name": "Kambja Vallavalitsus",
+                "town": "Kambja vald"
+            }
+        ],
+        "contractors": [
+            "10291056"
+        ],
+        "cpv": "45112723",
+        "date_dispatch_notice": "2025-08-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_682fba03-f1ed-4c94-b78e-02182fdea542_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10291056"
+        ],
+        "noticeUid": "682fba03-f1ed-4c94-b78e-02182fdea542",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "296252-0000",
+        "total_amount": "60080.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-04-20",
+                    "2026-04-17",
+                    "2026-04-20",
+                    "2026-04-20",
+                    "2026-04-21",
+                    "2026-04-20",
+                    "2026-04-20",
+                    "2026-04-17",
+                    "2026-04-16"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10272585",
+                        "contractor_name": "osaühing Vennad Ehitus",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "14076834",
+                        "contractor_name": "Ränilinna Ehituse OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10943961",
+                        "contractor_name": "TERASTEENUS OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11347600",
+                        "contractor_name": "UNIRO GRUPP OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11212544",
+                        "contractor_name": "Kliimakaubamaja OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12068440",
+                        "contractor_name": "Norklim OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10413938",
+                        "contractor_name": "osaühing Viljandi Õhumeister",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12969864",
+                        "contractor_name": "OÜ Barbam Ehitus",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11552501",
+                        "contractor_name": "OÜ LIFA",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tartu linna omandis oleva kinnisvara ehitus- ja remonttööde raamhange",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "75006546",
+                "name": "Tartu Linnavalitsus",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "11969000",
+            "12798279",
+            "14409684",
+            "10068915",
+            "11479000",
+            "14056984",
+            "12133663",
+            "12835520",
+            "11498776",
+            "10288479",
+            "10148040",
+            "10272585",
+            "10152389",
+            "10737285",
+            "11262341",
+            "10172699",
+            "11804871",
+            "14076834",
+            "10943961",
+            "11347600",
+            "11004751",
+            "10322101",
+            "12525570",
+            "14196107",
+            "10022095",
+            "10622346",
+            "10026845",
+            "16716829",
+            "11826631",
+            "11762747",
+            "10900963",
+            "11298405",
+            "12266631",
+            "11043461",
+            "10291056",
+            "12426566",
+            "14027631",
+            "16076809",
+            "14467138",
+            "11212544",
+            "12068440",
+            "10413938",
+            "12969864",
+            "11552501"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-04-29",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_0ef968e9-9bf3-4448-958c-cf92610aef11_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10272585",
+            "Nominees as company beneficial owners: Agu_Mutli_19.10.2018",
+            "Nominees as company beneficial owners: Andrus_Mutli_19.10.2018",
+            "Possible shell company: 14076834",
+            "Nominees as company beneficial owners: Marko_Kutman_26.09.2018",
+            "Nominees as company beneficial owners: Ronald_Blumenau_26.09.2018",
+            "Possible shell company: 10943961",
+            "Nominees as company beneficial owners: Marek_Kaljula_25.10.2018",
+            "Possible shell company: 11347600",
+            "Possible shell company: 11212544",
+            "Nominees as company beneficial owners: Egle_Thal-Laanemägi_07.09.2018",
+            "Nominees as company beneficial owners: Mait_Lõhmus_07.09.2018",
+            "Nominees as company beneficial owners: Margus_Laanemägi_07.09.2018",
+            "Possible shell company: 12068440",
+            "Nominees as company beneficial owners: Ago_Rehand_10.10.2018",
+            "Possible shell company: 11552501",
+            "Nominees as company beneficial owners: Andero_Viirlaid_27.09.2018"
+        ],
+        "noticeUid": "0ef968e9-9bf3-4448-958c-cf92610aef11",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "305197-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-20"
+                ],
+                "award_value": "24943.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10291056",
+                        "contractor_name": "Tommi Play OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Õppevahendite soetamine HEV õpilaste toetamiseks Jõgeva vallas",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "77000401",
+                "name": "Jõgeva Vallavalitsus",
+                "town": "Jõgeva vald"
+            }
+        ],
+        "contractors": [
+            "10291056"
+        ],
+        "cpv": "39100000",
+        "date_dispatch_notice": "2026-07-20",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_9c771816-abe4-4b64-9e10-7c392ffa6f54_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10291056"
+        ],
+        "noticeUid": "9c771816-abe4-4b64-9e10-7c392ffa6f54",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "311556-0000",
+        "total_amount": "24943.00",
         "total_amount_curr": "EUR"
     }
 ]

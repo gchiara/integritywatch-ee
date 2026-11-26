@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "36801086016",
+            "isikukood": null,
+            "isikukood_hash": "b70cc5b6-cc7c-5535-b6b0-5ae47f73d269",
             "kirje_id": 9000761591,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.06.2023",
             "eesnimi": "Kristjan",
-            "isikukood": "37807224216",
+            "isikukood": null,
+            "isikukood_hash": "7fb8ea1e-0d04-5ad2-a382-6e9ad4219ff1",
             "kirje_id": 9001579902,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37807224216",
+            "isikukood_hash": "7fb8ea1e-0d04-5ad2-a382-6e9ad4219ff1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36801086016",
+            "isikukood_hash": "b70cc5b6-cc7c-5535-b6b0-5ae47f73d269",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 11, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3630770,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 11, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3334362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saha tee 11, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
+                "kirje_id": 3069693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46621",
+                "tegevusala_emtak_tekstina": "Tööpinkide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.62",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Saha tee 11, Loo alevik, Jõelähtme vald, Harju maakond, 74201",
                 "kirje_id": 2835304,
@@ -353,7 +393,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -460,12 +500,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2009",
+                "algus_kpv": "04.03.2025",
                 "emtak_kood": "46621",
                 "emtak_tekstina": "Tööpinkide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000061327,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000829914,
                 "lopp_kpv": null,
                 "nace_kood": "46.62",
                 "on_pohitegevusala": true

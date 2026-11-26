@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Ants",
-            "isikukood": "35711054229",
+            "isikukood": null,
+            "isikukood_hash": "a6f33e81-e67c-5dfe-a87b-5d64506a54df",
             "kirje_id": 9000867657,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -65,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rannametsa tee 1, Pärnu linn, Pärnu maakond, 80027",
+                "kirje_id": 3654997,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rannametsa tee 1, Pärnu linn, Pärnu maakond, 80027",
+                "kirje_id": 3379286,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rannametsa tee 1, Pärnu linn, Pärnu maakond, 80027",
+                "kirje_id": 3079045,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rannametsa tee 1, Pärnu linn, Pärnu maakond, 80027",
                 "kirje_id": 2803751,
@@ -417,7 +454,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -535,26 +572,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.03.2010",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006981,
+                "algus_kpv": "29.05.2026",
+                "emtak_kood": "02202",
+                "emtak_tekstina": "Küttepuude tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106162,
                 "lopp_kpv": null,
                 "nace_kood": "02.20",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "10.03.2010",
+                "algus_kpv": "22.05.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006982,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000877827,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.05.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000877826,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

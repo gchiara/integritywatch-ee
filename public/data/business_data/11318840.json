@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Edgar",
-            "isikukood": "38410195712",
+            "isikukood": null,
+            "isikukood_hash": "1c5c2105-5d26-5fac-a51c-f98fb180160f",
             "kirje_id": 9000815844,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38410195712",
+            "isikukood_hash": "1c5c2105-5d26-5fac-a51c-f98fb180160f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9629544",
-                "aadress_ads__adr_id": 3082192,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Riia tn 130b/3",
+                "aadress_ads__adob_id": "10819456",
+                "aadress_ads__adr_id": 3717348,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Pärna pst 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03526472",
-                "aadress_ads__koodaadress": "79793815100000SIB0000BI7100000000",
+                "aadress_ads__ads_oid": "ME01822203",
+                "aadress_ads__koodaadress": "81857891800000SC30000B4E600000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.02.2018",
-                "ehak": "8151",
-                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
+                "algus_kpv": "06.07.2026",
+                "ehak": "8918",
+                "ehak_nimetus": "Valga linn, Valga vald, Valga maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7918351,
+                "kande_nr": 11,
+                "kirje_id": 13852178,
                 "lopp_kpv": null,
-                "postiindeks": "51014",
+                "postiindeks": "68207",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Riia tn 130b/3"
+                "tanav_maja_korter": "Pärna pst 13"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3739123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3543753,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43421",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd hoonete ehitusel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.42",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/3, Tartu linn, Tartu linn, Tartu maakond, 51014",
+                "kirje_id": 3227638,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Riia tn 130b/3, Tartu linn, Tartu linn, Tartu maakond, 51014",
                 "kirje_id": 2966478,
@@ -310,7 +348,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -365,13 +403,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "30.08.2016",
+                "algus_kpv": "06.07.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "19.08.2016",
-                "kirje_id": 6091049,
+                "kande_nr": 11,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13852179,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -395,22 +433,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000285545,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
+                "kirje_id": 6000113887,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "www.semt.ee"
+                "sisu": "+372 5062377"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000113887,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
+                "kirje_id": 9000746220,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 5062377"
+                "sisu": "http://www.semt.ee"
             }
         ],
         "staatus": "R",
@@ -428,14 +466,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.12.2020",
-                "emtak_kood": "43999",
-                "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000520942,
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001124473,
                 "lopp_kpv": null,
-                "nace_kood": "43.99",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37411204911",
+            "isikukood": null,
+            "isikukood_hash": "a11f9338-4541-5727-86a0-e7ae50ae15df",
             "kirje_id": 9000737612,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37411204911",
+            "isikukood_hash": "a11f9338-4541-5727-86a0-e7ae50ae15df",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10295012",
-                "aadress_ads__adr_id": 2693935,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Tallinna tn 21",
+                "aadress_ads__adob_id": "7911893",
+                "aadress_ads__adr_id": 2694911,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Laada tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00920032",
-                "aadress_ads__koodaadress": "606630000000002AE00002EHM00000000",
+                "aadress_ads__ads_oid": "EE00913093",
+                "aadress_ads__koodaadress": "606630000000002D200002EQ700000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.10.2018",
+                "algus_kpv": "15.10.2024",
                 "ehak": "0663",
                 "ehak_nimetus": "Rakvere linn, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8273492,
+                "kande_nr": 3,
+                "kirje_id": 12742558,
                 "lopp_kpv": null,
-                "postiindeks": "44311",
+                "postiindeks": "44310",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tallinna tn 21"
+                "tanav_maja_korter": "Laada tn 3"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laada tn 3, Rakvere linn, Lääne-Viru maakond, 44310",
+                "kirje_id": 3608429,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43212",
+                "tegevusala_emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laada tn 3, Rakvere linn, Lääne-Viru maakond, 44310",
+                "kirje_id": 3375030,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43212",
+                "tegevusala_emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tallinna tn 21, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3271902,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43213",
+                "tegevusala_emtak_tekstina": "Telekommunikatsioonikaablite ja antennide paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tallinna tn 21, Rakvere linn, Lääne-Viru maakond, 44311",
                 "kirje_id": 2926441,
@@ -179,7 +217,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -252,12 +290,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 8273498,
+                "kande_nr": 3,
+                "kirje_id": 12742559,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "priit.keskla@eesti.ee"
+                "sisu": "priit@rakelekter.ee"
             },
             {
                 "kaardi_nr": null,
@@ -286,23 +324,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "43213",
-                "emtak_tekstina": "Telekommunikatsioonikaablite ja antennide paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000704524,
+                "algus_kpv": "16.05.2025",
+                "emtak_kood": "43212",
+                "emtak_tekstina": "Signalisatsioonisüsteemide paigaldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000873513,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "43212",
-                "emtak_tekstina": "Tulekahjualarmide, häire- ja valvesignalisatsiooni paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000704525,
+                "algus_kpv": "16.05.2025",
+                "emtak_kood": "43211",
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000873514,
                 "lopp_kpv": null,
                 "nace_kood": "43.21",
                 "on_pohitegevusala": false

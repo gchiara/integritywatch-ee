@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Aimar",
-            "isikukood": "37101090316",
+            "isikukood": null,
+            "isikukood_hash": "f4d5c611-e51f-54ae-834a-bcc8050bb55d",
             "kirje_id": 9000661738,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37101090316",
+            "isikukood_hash": "f4d5c611-e51f-54ae-834a-bcc8050bb55d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 54, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3750848,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 54, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3430996,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 54, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3157377,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 54, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2904271,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -328,6 +366,18 @@
                 "kirje_id": 6800663,
                 "lopp_kpv": null,
                 "sisu": "OÜ ECP jaguneb eraldumise teel. Jagunev ühing OÜ ECP annab osa oma varast üle omandavale ühingule Osaühingule Trook Kinnisvara (registrikood 11114698, aadress Kuldnoka 4, Tallinn). Jagunemisleping sõlmiti 19.12.2016. a. Jagunemisotsus võeti vastu 19.12.2016. a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "28.12.2023",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12212775,
+                "lopp_kpv": null,
+                "sisu": "23.11.2023.a. jagunemiskava ja 23.11.2023.a. jagunemisotsuse kohaselt jaguneb OÜ ECP ( jagunev ühing) eraldumise teel ja annab jagunemise käigus osa oma varast üle Väike Kuke OÜ-le, registrikood 16886496, asukoht Harju maakond, Tallinn, Kristiine linnaosa, Mustamäe tee 54, 10621 ( jagunemise käigus asutatav ühing). ",
                 "tyyp": "JAGUN",
                 "tyyp_tekstina": "Jagunemine tekstina"
             }
@@ -409,26 +459,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2012",
-                "emtak_kood": "41201",
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000195367,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929212,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "29.06.2012",
-                "emtak_kood": "46131",
-                "emtak_tekstina": "Puidu ja ehitusmaterjalide vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000195368,
-                "lopp_kpv": null,
-                "nace_kood": "46.13",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

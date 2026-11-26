@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.03.2020",
             "eesnimi": "Aivar",
-            "isikukood": "35608094718",
+            "isikukood": null,
+            "isikukood_hash": "273c3abe-fa3e-5ef3-aa3d-f9bea9a698c9",
             "kirje_id": 9001101191,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35608094718",
+            "isikukood_hash": "273c3abe-fa3e-5ef3-aa3d-f9bea9a698c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Penijõe tee 3, Lihula linn, Lääneranna vald, Pärnu maakond, 90304",
+                "kirje_id": 3716114,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Penijõe tee 3, Lihula linn, Lääneranna vald, Pärnu maakond, 90304",
+                "kirje_id": 3482444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Penijõe tee 3, Lihula linn, Lääneranna vald, Pärnu maakond, 90304",
+                "kirje_id": 3194977,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Penijõe tee 3, Lihula linn, Lääneranna vald, Pärnu maakond, 90304",
                 "kirje_id": 2891628,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -485,6 +523,18 @@
                 "sisu": "AKTSIASELTS L&L (ühendav ühing) ning L&L Holding OÜ (ühendatav Ühing 1, registrikood 14995802, aadress Pärnu maakond, Lääneranna vald, Lihula linn, Penijõe tee 3/1, 90304) ja OÜ L&L Laevad (ühendatav Ühing 2, registrikood 16278358, aadress Pärnu maakond, Lääneranna vald, Lihula linn, Penijõe tee 3, 90304) ühinevad 08.05.2023 sõlmitud ühinemislepingu alusel. Ühinemisotsused on vastu võetud 21.06.2023. Ühinemine loetakse toimunuks käesoleva kande tegemisega, misjärel ühendatavad ühingud kustutatakse.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "01.06.2024",
+                "kaardi_nr": 4,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12517251,
+                "lopp_kpv": null,
+                "sisu": "AKTSIASELTS L&L (jagunev ühing) jaguneb eraldumise teel ning annab osa varast üle omandavale\nühingule Nõudetransport OÜ (omandav ühing, registrikood 16787798, aadress Harju maakond, Tallinn,\nKesklinna linnaosa, Pirita tee 20a/1-63, 12011) 21.03.2024 sõlmitud jagunemislepingu alusel.\nJagunemisotsused on vastu võetud 23.04.2024. Jagunemine loetakse toimunuks käesoleva jagunemiskande\ntegemisega.\n",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -586,26 +636,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "49319",
-                "emtak_tekstina": "Sõitjate muu kohalik liinivedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000627790,
+                "emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979165,
                 "lopp_kpv": null,
                 "nace_kood": "49.31",
-                "on_pohitegevusala": false
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "20.06.2022",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000627789,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "49391",
+                "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979166,
                 "lopp_kpv": null,
                 "nace_kood": "49.39",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

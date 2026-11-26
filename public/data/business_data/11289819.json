@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.04.2021",
             "eesnimi": "Ken",
-            "isikukood": "38009035712",
+            "isikukood": null,
+            "isikukood_hash": "cd0bb9fe-715b-5fff-9a87-5a6e5f02bff4",
             "kirje_id": 9001260770,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39011255726",
+            "isikukood_hash": "2d1885ee-443b-5e71-a601-a070446d6130",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3777738,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "28991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.99",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3323435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "28991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.99",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3242827,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71129",
+                "tegevusala_emtak_tekstina": "Muud insener-tehnilised tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3008796,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "71129",
+                "tegevusala_emtak_tekstina": "Muud insener-tehnilised tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 2997443,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "71129",
+                "tegevusala_emtak_tekstina": "Muud insener-tehnilised tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kassisilma tn 4, Räni alevik, Kambja vald, Tartu maakond, 61708",
                 "kirje_id": 2308481,
@@ -287,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -383,14 +445,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2016",
-                "emtak_kood": "71129",
-                "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000240202,
+                "algus_kpv": "03.02.2025",
+                "emtak_kood": "28991",
+                "emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000817677,
                 "lopp_kpv": null,
-                "nace_kood": "71.12",
+                "nace_kood": "28.99",
                 "on_pohitegevusala": true
             }
         ],

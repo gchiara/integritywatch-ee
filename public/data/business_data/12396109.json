@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "37103042710",
+            "isikukood": null,
+            "isikukood_hash": "43f5662b-6d0e-562f-86b1-d24b0881d2cb",
             "kirje_id": 9000859889,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Maarika",
-            "isikukood": "47204062711",
+            "isikukood": null,
+            "isikukood_hash": "22c68dc5-a41c-5a90-b02a-ddc2160be056",
             "kirje_id": 9000859894,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37103042710",
+            "isikukood_hash": "43f5662b-6d0e-562f-86b1-d24b0881d2cb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6301668",
+                "aadress_ads__adob_id": "11503923",
                 "aadress_ads__adr_id": 1242877,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Viimsi vald, Kelvingi küla, Koidu tee 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Koidu tee 4, Kelvingi küla, Viimsi vald, Harju maakond, 74018",
+                "kirje_id": 3713721,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tee 4, Kelvingi küla, Viimsi vald, Harju maakond, 74018",
+                "kirje_id": 3418172,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Koidu tee 4, Kelvingi küla, Viimsi vald, Harju maakond, 74018",
+                "kirje_id": 3155465,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46759",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.75",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Koidu tee 4, Kelvingi küla, Viimsi vald, Harju maakond, 74018",
                 "kirje_id": 2831919,
@@ -256,7 +295,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,14 +402,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "46759",
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "46859",
                 "emtak_tekstina": "Muude keemiatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000126752,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916852,
                 "lopp_kpv": null,
-                "nace_kood": "46.75",
+                "nace_kood": "46.85",
                 "on_pohitegevusala": true
             }
         ],

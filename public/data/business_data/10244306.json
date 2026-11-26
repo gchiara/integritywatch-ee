@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Aivar",
-            "isikukood": "36004152778",
+            "isikukood": null,
+            "isikukood_hash": "fd763606-fe7f-51c8-9deb-ffa2d27475c6",
             "kirje_id": 9000666728,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45412142754",
+            "isikukood_hash": "08a6b68c-0b5a-5ae3-a934-4c4c8bc4cba2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 1, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3717206,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 1, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3447951,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 1, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
+                "kirje_id": 3154423,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "58131",
+                "tegevusala_emtak_tekstina": "Ajalehtede kirjastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "58.13",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 1, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48306",
                 "kirje_id": 2880554,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -528,28 +566,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000004629,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7762300"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000090626,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.vooremaa.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 6000090627,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
@@ -561,11 +577,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000148102,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000744164,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 776302"
+                "sisu": "+372 5131264"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000744165,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "http://www.vooremaa.ee"
             }
         ],
         "staatus": "R",
@@ -583,23 +610,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2010",
-                "emtak_kood": "63991",
-                "emtak_tekstina": "Mujal liigitamata infoalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000048462,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "63911",
+                "emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000945310,
                 "lopp_kpv": null,
-                "nace_kood": "63.99",
+                "nace_kood": "63.91",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "58131",
-                "emtak_tekstina": "Ajalehtede kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000007155,
+                "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000945309,
                 "lopp_kpv": null,
                 "nace_kood": "58.13",
                 "on_pohitegevusala": true

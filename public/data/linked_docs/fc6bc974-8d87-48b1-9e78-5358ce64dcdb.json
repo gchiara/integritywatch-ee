@@ -2,11 +2,33 @@
     {
         "contract_title": "Kala ja kalatoodete ostmine vanglatele",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "Riigi Tugiteenuste Keskus",
+        "contracting_bodies": [
+            {
+                "id": "70007340",
+                "name": "Riigi Tugiteenuste Keskus",
+                "town": "Tallinn"
+            },
+            {
+                "id": "70001113",
+                "name": "Tallinna Vangla",
+                "town": "Rae vald"
+            },
+            {
+                "id": "70006056",
+                "name": "Tartu Vangla",
+                "town": "Tartu linn"
+            },
+            {
+                "id": "70008144",
+                "name": "Viru Vangla",
+                "town": "Jõhvi vald"
+            }
+        ],
         "date_dispatch_notice": "2020-11-09",
         "filename": "award_fc6bc974-8d87-48b1-9e78-5358ce64dcdb_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company"
         ]
     }
 ]

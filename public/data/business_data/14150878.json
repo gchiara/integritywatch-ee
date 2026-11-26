@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Evert",
-            "isikukood": "39009050079",
+            "isikukood": null,
+            "isikukood_hash": "9d756910-d614-5ba8-baeb-1b1ab4047828",
             "kirje_id": 9000656339,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39009050079",
+            "isikukood_hash": "9d756910-d614-5ba8-baeb-1b1ab4047828",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6569232",
-                "aadress_ads__adr_id": 2302863,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Liivamäe tn 8-13",
+                "aadress_ads__adob_id": "10764898",
+                "aadress_ads__adr_id": 3702872,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 44-58",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01223975",
-                "aadress_ads__koodaadress": "377840298000003OI00000RSL15XX0000",
+                "aadress_ads__ads_oid": "MR04069716",
+                "aadress_ads__koodaadress": "377840298000005ZI00001E4SLK1G0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "12.12.2017",
+                "algus_kpv": "08.12.2025",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7380649,
+                "kande_nr": 8,
+                "kirje_id": 13459432,
                 "lopp_kpv": null,
-                "postiindeks": "10113",
+                "postiindeks": "10115",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Liivamäe tn 8-13"
+                "tanav_maja_korter": "Tartu mnt 44-58"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 44-58, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3597053,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivamäe tn 8-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10113",
+                "kirje_id": 3326569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivamäe tn 8-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10113",
+                "kirje_id": 3044261,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63121",
+                "tegevusala_emtak_tekstina": "Veebiportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.12",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivamäe tn 8-13, Kesklinna linnaosa, Tallinn, Harju maakond, 10113",
                 "kirje_id": 2766164,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -276,11 +314,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000395002,
+                "kirje_id": 9000735816,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "extendlaw.com"
+                "sisu": "https://extendlaw.com"
             }
         ],
         "staatus": "R",
@@ -298,14 +336,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.05.2018",
-                "emtak_kood": "63121",
-                "emtak_tekstina": "Veebiportaalide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000354705,
+                "algus_kpv": "12.02.2025",
+                "emtak_kood": "63911",
+                "emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000821291,
                 "lopp_kpv": null,
-                "nace_kood": "63.12",
+                "nace_kood": "63.91",
                 "on_pohitegevusala": true
             }
         ],

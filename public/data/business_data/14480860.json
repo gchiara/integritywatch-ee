@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Karl",
-            "isikukood": "38305190361",
+            "isikukood": null,
+            "isikukood_hash": "0f09fb25-5f04-5ab9-b5a5-a5c53dc2911c",
             "kirje_id": 9000839029,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38305190361",
+            "isikukood_hash": "0f09fb25-5f04-5ab9-b5a5-a5c53dc2911c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 19, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
+                "kirje_id": 3032841,
+                "majandusaasta_perioodi_algus_kpv": "02.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "01.05.2023",
+                "tegevusala_emtak_kood": "90021",
+                "tegevusala_emtak_tekstina": "Lavakunsti abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.02",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivalaia tn 19, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
                 "kirje_id": 2798582,
@@ -179,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -290,7 +304,7 @@
                 "emtak_kood": "90021",
                 "emtak_tekstina": "Lavakunsti abitegevused",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000350375,
                 "lopp_kpv": null,
                 "nace_kood": "90.02",

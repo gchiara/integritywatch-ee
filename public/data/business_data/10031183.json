@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Tiit",
-            "isikukood": "34207080238",
+            "isikukood": null,
+            "isikukood_hash": "8d6f142e-1541-5292-a788-557c8108f680",
             "kirje_id": 9000681526,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36810282758",
+            "isikukood": null,
+            "isikukood_hash": "6f33256d-022a-54ef-8c2e-f273e7e4e843",
             "kirje_id": 9000681523,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37709160261",
+            "isikukood_hash": "996b1989-8c52-5932-9474-05584f526fb9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37409210278",
+            "isikukood_hash": "5f51ed5f-8e9e-57a9-b31f-bbc443d88d5d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3740047,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "34"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3529011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "37"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3254852,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "03111",
+                "tegevusala_emtak_tekstina": "Merekalapüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "03.11",
+                "tootajate_arv": "37"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
                 "kirje_id": 2951240,
@@ -497,7 +537,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -644,11 +684,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000688971,
+                "kirje_id": 9000694320,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.hiiukalur.ee"
+                "sisu": "https://hiiukalur.ee"
             }
         ],
         "staatus": "R",
@@ -666,23 +706,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2011",
-                "emtak_kood": "33151",
-                "emtak_tekstina": "Laevade ja paatide remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000118469,
-                "lopp_kpv": null,
-                "nace_kood": "33.15",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "07.07.2025",
                 "emtak_kood": "03111",
                 "emtak_tekstina": "Merekalapüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000004608,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025033,
                 "lopp_kpv": null,
                 "nace_kood": "03.11",
                 "on_pohitegevusala": true

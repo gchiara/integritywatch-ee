@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-09-05",
+                "award_date_conclusion_contract": [
+                    "2023-09-05"
+                ],
                 "award_value": "5000000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Lennuraja hooldusmasina komplektide ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -50,5 +52,115 @@
         "refnum": "265547",
         "total_amount": "5000000.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-03-11"
+                ],
+                "award_value": "3000000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "CHE-103.878.241",
+                        "contractor_name": "Marcel Boschung AG",
+                        "country": "CHE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Reagendipuisturite ja lumepuhurite ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "CHE-103.878.241"
+        ],
+        "cpv": "42995000",
+        "date_dispatch_notice": "2025-03-27",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_f85f34f7-1828-41fc-b442-7952a19a692a_0.json",
+        "flags": [
+            "Tenders received low"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "f85f34f7-1828-41fc-b442-7952a19a692a",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "281314"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-04-03",
+                    "2025-04-03"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "17116422",
+                        "contractor_name": "Strobil OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "CHE-103.878.241",
+                        "contractor_name": "Marcel Boschung AG",
+                        "country": "CHE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "4"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Reagendipuisturite ja lumepuhurite ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "17116422",
+            "CHE-103.878.241"
+        ],
+        "cpv": "42995000",
+        "date_dispatch_notice": "2025-04-03",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_2712141c-eab7-4da1-9b4a-b95431a50aa6_0.json",
+        "flags": [
+            "Special purpose company",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Company Strobil OÜ(17116422) was first registered on 18.11.2024, 136 days before the notice dispatch.",
+            "Possible shell company: 17116422"
+        ],
+        "noticeUid": "2712141c-eab7-4da1-9b4a-b95431a50aa6",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "281314"
     }
 ]

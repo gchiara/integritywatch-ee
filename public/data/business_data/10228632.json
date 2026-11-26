@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Rein",
-            "isikukood": "35908275223",
+            "isikukood": null,
+            "isikukood_hash": "44f43692-fa2b-5967-b55f-d4b80fe1a364",
             "kirje_id": 9000791746,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35908275223",
+            "isikukood_hash": "44f43692-fa2b-5967-b55f-d4b80fe1a364",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "F. R. Faehlmanni tee 22, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3594489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Faehlmanni tee 22, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3352264,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Faehlmanni tee 22, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
+                "kirje_id": 3117746,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4939",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "F. R. Faehlmanni tee 22, Rakke alevik, Väike-Maarja vald, Lääne-Viru maakond, 46301",
                 "kirje_id": 2779516,
@@ -442,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -541,12 +579,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7748488,
+                "kande_nr": 9,
+                "kirje_id": 12513169,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kiiker@hot.ee"
+                "sisu": "kiiker@mail.ee"
             },
             {
                 "kaardi_nr": null,
@@ -558,17 +596,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5056179"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000052472,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.kiiker.ee"
             }
         ],
         "staatus": "R",
@@ -586,12 +613,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.06.2015",
-                "emtak_kood": "4939",
+                "algus_kpv": "09.04.2025",
+                "emtak_kood": "49391",
                 "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000171984,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000849359,
                 "lopp_kpv": null,
                 "nace_kood": "49.39",
                 "on_pohitegevusala": true

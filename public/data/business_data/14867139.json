@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.12.2019",
             "eesnimi": "Peeter",
-            "isikukood": "35704140284",
+            "isikukood": null,
+            "isikukood_hash": "fe81efe7-02f2-5c60-a6e6-a9ecd3beaf83",
             "kirje_id": 9001060808,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37904020274",
+            "isikukood_hash": "e1f37dc8-19b8-51dc-803e-fdcb0fa79344",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712210245",
+            "isikukood_hash": "1974f7cd-6a83-51ac-9ac2-e84559a159cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -114,7 +117,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38612020250",
+            "isikukood_hash": "9f679743-9141-57b1-9dfe-787db496e9a7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -179,6 +183,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Tondi tn 51-27, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3754571,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51-27, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3484453,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51-27, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
+                "kirje_id": 3217435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tondi tn 51-27, Kristiine linnaosa, Tallinn, Harju maakond, 11316",
                 "kirje_id": 2918410,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -241,7 +281,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -290,6 +330,18 @@
                 "kirje_id": 9226509,
                 "lopp_kpv": null,
                 "sisu": "Laagri Kinnisvara OÜ, kui ühendav ühing ning Vae Kinnisvara OÜ (registrikood 14868251, aadress  Vae tn 2, Laagri alevik, Saue vald, Harju maakond) ja Tamatie Invest OÜ (registrikood 14743762, aadress  Tondi tn 51-27, Tallinn), kui ühendatavad ühingud ühinevad 06.08.2020.a sõlmitud ühinemislepingu alusel. Ühinemisotsus võeti vastu 11.08.2020.a. Ühinemine jõustub käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "19.08.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "kirje_id": 13267463,
+                "lopp_kpv": null,
+                "sisu": "Laagri Kinnisvara OÜ (ühendav ühing, registrikood 14867139, aadress Harju maakond, Tallinn, Kristiine linnaosa, Tondi tn 51-27, 11316), Aktsiaselts Sagro (ühendatav ühing, registrikood 10028465, aadress Harju maakond, Saue vald, Laagri alevik, Vae tn 2, 76401) ühinevad 20.06.2025 sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 07.07.2025 (Laagri Kinnisvara OÜ) ja 07.07.2025 (Aktsiaselts Sagro). Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -371,26 +423,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "68329",
-                "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634941,
-                "lopp_kpv": null,
-                "nace_kood": "68.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565484,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981460,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68329",
+                "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000981461,
+                "lopp_kpv": null,
+                "nace_kood": "68.32",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

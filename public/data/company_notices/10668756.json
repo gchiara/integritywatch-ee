@@ -55,7 +55,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-29",
+                "award_date_conclusion_contract": [
+                    "2023-08-29"
+                ],
                 "award_value": "33074.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -70,7 +72,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "AS Eesti Loto WLA SCS:2020 ja ISO27001:2013 vastavusauditite tellimine perioodil \n2023-2025 ja sertifitseerimine (re-certification) aastal 2025",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -106,6 +108,61 @@
         ],
         "refnum": "264237",
         "total_amount": "33074.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-09-01"
+                ],
+                "award_value": "45428.64",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10668756",
+                        "contractor_name": "DNV Estonia OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "AS Eesti Loto WLA SCS:2024 ja ISO/IEC 27001:2022 vastavusauditite tellimine perioodil 2026–2028",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10281170",
+                "name": "AKTSIASELTS EESTI LOTO",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10668756"
+        ],
+        "cpv": "79212000",
+        "date_dispatch_notice": "2026-09-01",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_3b922248-df1d-4656-999f-554361e61141_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10668756"
+        ],
+        "noticeUid": "3b922248-df1d-4656-999f-554361e61141",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "314030-0000",
+        "total_amount": "45428.64",
         "total_amount_curr": "EUR"
     }
 ]

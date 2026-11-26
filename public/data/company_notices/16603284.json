@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "390000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -22,7 +24,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "ePäeviku raamhange lasteaedadele",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -686,15 +688,15 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12565196",
-            "Nominees as company beneficial owners: 38703260239",
-            "Nominees as company beneficial owners: 38712300377",
-            "Nominees as company beneficial owners: 38107300238",
-            "Nominees as company beneficial owners: 38611110364",
-            "Nominees as company board members: 38107300238",
-            "Nominees as company board members: 38611110364",
+            "Nominees as company beneficial owners: Mart_Raadik_15.10.2018",
             "Company Edukas Education OÜ(16603284) was first registered on 28.10.2022, 308 days before the notice dispatch.",
             "Possible shell company: 16603284",
-            "Nominees as company board members: 38712300377"
+            "Nominees as company beneficial owners: Marek_Rand_28.10.2022",
+            "Nominees as company beneficial owners: Mart_Raadik_28.10.2022",
+            "Nominees as company beneficial owners: Rasmus_Gross_28.10.2022",
+            "Nominees as company board members: Marek_Rand_28.10.2022",
+            "Nominees as company board members: Mart_Raadik_28.10.2022",
+            "Nominees as company board members: Rasmus_Gross_28.10.2022"
         ],
         "noticeUid": "90bc9630-5888-42d5-b9da-c95f812cec2b",
         "notice_items": [
@@ -704,6 +706,69 @@
         ],
         "refnum": "266830",
         "total_amount": "390000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-10-01"
+                ],
+                "award_value": "58761.60",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "16603284",
+                        "contractor_name": "Edukas Education OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Lasteaia ePäeviku infosüsteemi hankimine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "77000430",
+                "name": "Saue Vallavalitsus",
+                "town": "Saue vald"
+            }
+        ],
+        "contractors": [
+            "16603284"
+        ],
+        "cpv": "48190000",
+        "date_dispatch_notice": "2024-10-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_028939e1-4c82-47ca-9a72-f634a56434c6_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 16603284",
+            "Nominees as company beneficial owners: Marek_Rand_28.10.2022",
+            "Nominees as company beneficial owners: Mart_Raadik_28.10.2022",
+            "Nominees as company beneficial owners: Rasmus_Gross_28.10.2022",
+            "Nominees as company board members: Marek_Rand_28.10.2022",
+            "Nominees as company board members: Mart_Raadik_28.10.2022",
+            "Nominees as company board members: Rasmus_Gross_28.10.2022"
+        ],
+        "noticeUid": "028939e1-4c82-47ca-9a72-f634a56434c6",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "283465",
+        "total_amount": "58761.60",
         "total_amount_curr": "EUR"
     }
 ]

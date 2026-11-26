@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.04.2020",
             "eesnimi": "Sille",
-            "isikukood": "47704260014",
+            "isikukood": null,
+            "isikukood_hash": "6c2fe952-9de4-57fc-a444-3b350b6bdab1",
             "kirje_id": 9001109041,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47704260014",
+            "isikukood_hash": "6c2fe952-9de4-57fc-a444-3b350b6bdab1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Muska, Suur-Randvere küla, Saaremaa vald, Saare maakond, 93839",
+                "kirje_id": 3735634,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Muska, Suur-Randvere küla, Saaremaa vald, Saare maakond, 93839",
+                "kirje_id": 3444038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Muska, Suur-Randvere küla, Saaremaa vald, Saare maakond, 93839",
+                "kirje_id": 3184667,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Muska, Suur-Randvere küla, Saaremaa vald, Saare maakond, 93839",
                 "kirje_id": 2882498,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,37 +300,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2021",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "56211",
+                "emtak_tekstina": "Toitlustamine üritustel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941500,
+                "lopp_kpv": null,
+                "nace_kood": "56.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000571627,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000941499,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "04.07.2021",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000571629,
-                "lopp_kpv": null,
-                "nace_kood": "45.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.07.2021",
-                "emtak_kood": "96021",
-                "emtak_tekstina": "Juuksuri- ja muu iluteenindus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000571628,
-                "lopp_kpv": null,
-                "nace_kood": "96.02",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

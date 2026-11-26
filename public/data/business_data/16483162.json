@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.04.2022",
             "eesnimi": "Maire",
-            "isikukood": "47001300259",
+            "isikukood": null,
+            "isikukood_hash": "c2e3403c-6139-5b28-af02-f99e8c98f525",
             "kirje_id": 9001421204,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47001300259",
+            "isikukood_hash": "c2e3403c-6139-5b28-af02-f99e8c98f525",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10319205",
-                "aadress_ads__adr_id": 3468067,
+                "aadress_ads__adob_id": "10781959",
+                "aadress_ads__adr_id": 3707900,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Laane tn 21",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE03258107",
-                "aadress_ads__koodaadress": "377197361000002WB00008RHA00000000",
+                "aadress_ads__koodaadress": "37719736200000VSW0000D6WO00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.04.2022",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Laane tn 21, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3704841,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laane tn 21, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3520535,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laane tn 21, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3214514,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laane tn 21, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2941418,
                 "majandusaasta_perioodi_algus_kpv": "19.04.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -204,12 +242,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 10081065,
+                "kande_nr": 3,
+                "kirje_id": 13780310,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "maire@lilleberg.ee"
+                "sisu": "maire.lilleberg@gmail.com"
             }
         ],
         "staatus": "R",
@@ -227,12 +265,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2023",
+                "algus_kpv": "01.07.2025",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000707318,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001017142,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": true

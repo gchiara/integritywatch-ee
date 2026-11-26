@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Imbi",
-            "isikukood": "46012170281",
+            "isikukood": null,
+            "isikukood_hash": "df5c2130-99b2-581e-a6d1-52c445b54b01",
             "kirje_id": 9000653546,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46012170281",
+            "isikukood_hash": "df5c2130-99b2-581e-a6d1-52c445b54b01",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 137-65, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3730664,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 137-65, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3453569,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 137-65, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3194788,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9329",
+                "tegevusala_emtak_tekstina": "Muud lõbustus- ja vaba aja tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 137-65, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2922943,
@@ -272,7 +310,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -344,12 +382,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 7,
-                "kirje_id": 10465419,
+                "kande_nr": 9,
+                "kirje_id": 13522781,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@thk.ee"
+                "sisu": "thkeskus@hotmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -361,17 +399,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5512037"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000688454,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.thk.ee"
             }
         ],
         "staatus": "R",
@@ -389,14 +416,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.06.2016",
-                "emtak_kood": "87909",
-                "emtak_tekstina": "Muude mujal liigitamata hoolekandeasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000233498,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950656,
                 "lopp_kpv": null,
-                "nace_kood": "87.90",
+                "nace_kood": "93.29",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Enn",
-            "isikukood": "36805032721",
+            "isikukood": null,
+            "isikukood_hash": "63225d56-4558-5a6a-b2ec-bd265608a805",
             "kirje_id": 9000679559,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Janek",
-            "isikukood": "37411142218",
+            "isikukood": null,
+            "isikukood_hash": "3a8419fa-44e7-5873-83bd-29ef2edeb9c3",
             "kirje_id": 9000679556,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36805032721",
+            "isikukood_hash": "63225d56-4558-5a6a-b2ec-bd265608a805",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37411142218",
+            "isikukood_hash": "3a8419fa-44e7-5873-83bd-29ef2edeb9c3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vääna tn 7-18, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3601458,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vääna tn 7-18, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3431087,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vääna tn 7-18, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3306160,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43211",
+                "tegevusala_emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vääna tn 7-18, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
                 "kirje_id": 2951910,
@@ -305,7 +345,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -425,14 +465,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2014",
-                "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000123223,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "42221",
+                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929321,
                 "lopp_kpv": null,
-                "nace_kood": "43.21",
+                "nace_kood": "42.22",
                 "on_pohitegevusala": true
             }
         ],

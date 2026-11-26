@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Jörgen",
-            "isikukood": "37605114235",
+            "isikukood": null,
+            "isikukood_hash": "7cf2961b-b46d-5461-8c33-34e1165dd13d",
             "kirje_id": 9000731736,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37605114235",
+            "isikukood_hash": "7cf2961b-b46d-5461-8c33-34e1165dd13d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnade pst 22, Paikuse alev, Pärnu linn, Pärnu maakond, 80046",
+                "kirje_id": 3815362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnade pst 22, Paikuse alev, Pärnu linn, Pärnu maakond, 80046",
+                "kirje_id": 3499643,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77311",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.31",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnade pst 22, Paikuse alev, Pärnu linn, Pärnu maakond, 80046",
+                "kirje_id": 3284699,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9609",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnade pst 22, Paikuse alev, Pärnu linn, Pärnu maakond, 80046",
                 "kirje_id": 2911166,
@@ -382,7 +420,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -528,26 +566,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000637533,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996824,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "11.06.2015",
+                "algus_kpv": "29.07.2026",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000172833,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001142647,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.07.2026",
+                "emtak_kood": "4399",
+                "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001142648,
+                "lopp_kpv": null,
+                "nace_kood": "43.99",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

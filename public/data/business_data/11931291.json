@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.09.2018",
             "eesnimi": "Meelis",
-            "isikukood": "38001175717",
+            "isikukood": null,
+            "isikukood_hash": "36b99474-b5c0-51d0-8ece-e1fadd18d222",
             "kirje_id": 9000700747,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.09.2018",
             "eesnimi": "Toomas",
-            "isikukood": "37602052716",
+            "isikukood": null,
+            "isikukood_hash": "0f7b0907-836c-53d8-93ac-6d604ecd352d",
             "kirje_id": 9000700749,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38001175717",
+            "isikukood_hash": "36b99474-b5c0-51d0-8ece-e1fadd18d222",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37602052716",
+            "isikukood_hash": "0f7b0907-836c-53d8-93ac-6d604ecd352d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Töökoja tn 4a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3661105,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töökoja tn 4a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3483544,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töökoja tn 4a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3136317,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Töökoja tn 4a, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2919078,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -449,15 +489,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2014",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43999",
                 "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000130402,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980440,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980441,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

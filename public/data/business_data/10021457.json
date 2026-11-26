@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Karel",
-            "isikukood": "37810164222",
+            "isikukood": null,
+            "isikukood_hash": "3d4abe2c-c146-59a0-8724-165ed9bdfcee",
             "kirje_id": 9000834816,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36003086024",
+            "isikukood_hash": "93167a0f-ebfb-5ad2-96c5-585b4d28b3eb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9653891",
-                "aadress_ads__adr_id": 3250265,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Kõpu alevik, Mäe tn 1",
+                "aadress_ads__adob_id": "10906980",
+                "aadress_ads__adr_id": 3739465,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Supsi küla, Töökoja",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "CU03713212",
-                "aadress_ads__koodaadress": "846153782000006M400003OH300000000",
+                "aadress_ads__ads_oid": "ME01748762",
+                "aadress_ads__koodaadress": "84615780400000000GX56000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.02.2018",
-                "ehak": "3782",
-                "ehak_nimetus": "Kõpu alevik, Põhja-Sakala vald, Viljandi maakond",
+                "algus_kpv": "15.07.2026",
+                "ehak": "7804",
+                "ehak_nimetus": "Supsi küla, Põhja-Sakala vald, Viljandi maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 7920226,
+                "kande_nr": 23,
+                "kirje_id": 13867825,
                 "lopp_kpv": null,
                 "postiindeks": "71201",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Mäe tn 1"
+                "tanav_maja_korter": "Töökoja"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäe tn 1, Kõpu alevik, Põhja-Sakala vald, Viljandi maakond, 71201",
+                "kirje_id": 3733763,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "39"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäe tn 1, Kõpu alevik, Põhja-Sakala vald, Viljandi maakond, 71201",
+                "kirje_id": 3490723,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "39"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäe tn 1, Kõpu alevik, Põhja-Sakala vald, Viljandi maakond, 71201",
+                "kirje_id": 3187551,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01411",
+                "tegevusala_emtak_tekstina": "Piimakarjakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.41",
+                "tootajate_arv": "39"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäe tn 1, Kõpu alevik, Põhja-Sakala vald, Viljandi maakond, 71201",
                 "kirje_id": 2885279,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -511,15 +549,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "28.07.2011",
+                "algus_kpv": "15.07.2026",
                 "kaardi_nr": 2,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
+                "kande_nr": 23,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4158150,
+                "kirje_id": 13867826,
                 "lopp_kpv": null,
-                "muutmise_kpv": "17.06.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -535,17 +573,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@kopupm.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000104054,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 4396635"
             },
             {
                 "kaardi_nr": null,
@@ -574,37 +601,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697426,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "96999",
+                "emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987868,
                 "lopp_kpv": null,
-                "nace_kood": "01.11",
+                "nace_kood": "96.99",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "22.06.2010",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000040733,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01411",
                 "emtak_tekstina": "Piimakarjakasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000012838,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987866,
                 "lopp_kpv": null,
                 "nace_kood": "01.41",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "01111",
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987867,
+                "lopp_kpv": null,
+                "nace_kood": "01.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

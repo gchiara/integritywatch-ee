@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.02.2019",
             "eesnimi": "Piret",
-            "isikukood": "46407240233",
+            "isikukood": null,
+            "isikukood_hash": "c13b144b-b1dc-51db-b6e3-5a61dbf6cd7d",
             "kirje_id": 9000934723,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46407240233",
+            "isikukood_hash": "c13b144b-b1dc-51db-b6e3-5a61dbf6cd7d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "4861754",
+                "aadress_ads__adob_id": "10917410",
                 "aadress_ads__adr_id": 483696,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Humala küla, Urve",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Urve, Humala küla, Harku vald, Harju maakond, 76707",
+                "kirje_id": 3591655,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "91421",
+                "tegevusala_emtak_tekstina": "Looduskaitsealade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Urve, Humala küla, Harku vald, Harju maakond, 76707",
+                "kirje_id": 3586323,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "91421",
+                "tegevusala_emtak_tekstina": "Looduskaitsealade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Urve, Humala küla, Harku vald, Harju maakond, 76707",
+                "kirje_id": 3075064,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "91042",
+                "tegevusala_emtak_tekstina": "Kaitsealade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.04",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Urve, Humala küla, Harku vald, Harju maakond, 76707",
                 "kirje_id": 2954150,
@@ -261,7 +299,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -332,12 +370,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 5,
-                "kirje_id": 10470657,
+                "kande_nr": 6,
+                "kirje_id": 12183220,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "piret.barg@eesti.ee"
+                "sisu": "piret.barg@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -366,14 +404,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.04.2019",
-                "emtak_kood": "91042",
-                "emtak_tekstina": "Kaitsealade tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000411809,
+                "algus_kpv": "09.02.2026",
+                "emtak_kood": "91421",
+                "emtak_tekstina": "Looduskaitsealade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001081192,
                 "lopp_kpv": null,
-                "nace_kood": "91.04",
+                "nace_kood": "91.42",
                 "on_pohitegevusala": true
             }
         ],

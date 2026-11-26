@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-19",
+                "award_date_conclusion_contract": [
+                    "2023-06-19"
+                ],
                 "award_value": "8370.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Meditsiiniliste patjade soetamine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -39,14 +41,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 12404047",
-            "Nominees as company beneficial owners: 46305260212",
-            "Nominees as company board members: 46305260212"
+            "Possible shell company: 12404047"
         ],
         "noticeUid": "25d51fd5-e985-4fb9-a9d9-565abc799047",
         "notice_items": [
@@ -57,5 +56,46 @@
         "refnum": "264096",
         "total_amount": "8370.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "contractors": [],
+                "result": "clos-nw"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Voodipesu, rätikud, patsiendi riietus",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90004585",
+                "name": "Sihtasutus Viljandi Haigla",
+                "town": "Viljandi vald"
+            }
+        ],
+        "contractors": [
+            "12404047"
+        ],
+        "cpv": "39518000",
+        "date_dispatch_notice": "2025-02-12",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_e87dc6d0-b7c7-45c4-98c9-08a4baa0b6e4_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "e87dc6d0-b7c7-45c4-98c9-08a4baa0b6e4",
+        "notice_items": [
+            {},
+            {}
+        ],
+        "refnum": "285533"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.11.2018",
             "eesnimi": "Madis",
-            "isikukood": "39101036021",
+            "isikukood": null,
+            "isikukood_hash": "c3955e7f-d504-50a5-8cc1-29bc94c8c192",
             "kirje_id": 9000885990,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.11.2018",
             "eesnimi": "Taavi",
-            "isikukood": "39109196021",
+            "isikukood": null,
+            "isikukood_hash": "d7e63407-fba0-571a-8e70-c24c1d8e7a10",
             "kirje_id": 9000885989,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39101036021",
+            "isikukood_hash": "c3955e7f-d504-50a5-8cc1-29bc94c8c192",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39109196021",
+            "isikukood_hash": "d7e63407-fba0-571a-8e70-c24c1d8e7a10",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10471453",
+                "aadress_ads__adob_id": "11136342",
                 "aadress_ads__adr_id": 3584724,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Põhja-Sakala vald, Suure-Jaani linn, Oja tn 12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 12, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71503",
+                "kirje_id": 3661831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 12, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71503",
+                "kirje_id": 3526442,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 12, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71503",
+                "kirje_id": 3260049,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43341",
+                "tegevusala_emtak_tekstina": "Värvimine ja klaasimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.34",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Oja tn 12, Suure-Jaani linn, Põhja-Sakala vald, Viljandi maakond, 71503",
                 "kirje_id": 2969301,
@@ -269,7 +309,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -409,36 +449,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.12.2021",
-                "emtak_kood": "43999",
-                "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000596335,
-                "lopp_kpv": null,
-                "nace_kood": "43.99",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.12.2021",
+                "algus_kpv": "04.07.2025",
                 "emtak_kood": "43341",
                 "emtak_tekstina": "Värvimine ja klaasimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000596336,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022644,
                 "lopp_kpv": null,
                 "nace_kood": "43.34",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "29.06.2016",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000241463,
+                "algus_kpv": "02.06.2026",
+                "emtak_kood": "81221",
+                "emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107721,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "81.22",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.06.2026",
+                "emtak_kood": "43351",
+                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001107722,
+                "lopp_kpv": null,
+                "nace_kood": "43.35",
                 "on_pohitegevusala": false
             }
         ],

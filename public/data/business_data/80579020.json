@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2020",
             "eesnimi": "Ave",
-            "isikukood": "48312300017",
+            "isikukood": null,
+            "isikukood_hash": "501be087-4430-53d7-9436-d5aa96c9d7c7",
             "kirje_id": 9001100457,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2020",
             "eesnimi": "Mario",
-            "isikukood": "38306180010",
+            "isikukood": null,
+            "isikukood_hash": "65bd88c7-f0cc-5992-931a-83af03051645",
             "kirje_id": 9001100456,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48312300017",
+            "isikukood_hash": "501be087-4430-53d7-9436-d5aa96c9d7c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38306180010",
+            "isikukood_hash": "65bd88c7-f0cc-5992-931a-83af03051645",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -159,6 +163,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Pärna tn 15, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3772533,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärna tn 15, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3513914,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärna tn 15, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3191799,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärna tn 15, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
                 "kirje_id": 2967332,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -195,7 +235,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -289,12 +329,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.03.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "94996",
                 "emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000468246,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001010868,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

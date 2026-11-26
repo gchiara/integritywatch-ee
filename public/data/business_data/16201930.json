@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.04.2021",
             "eesnimi": "Raimond",
-            "isikukood": "36602280023",
+            "isikukood": null,
+            "isikukood_hash": "25a11765-3000-507d-9d58-85f025a3ef0b",
             "kirje_id": 9001260169,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36602280023",
+            "isikukood_hash": "25a11765-3000-507d-9d58-85f025a3ef0b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -104,6 +106,42 @@
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
             {
+                "ettevotja_aadress_aruandes": "Tehnika tn 2-44, Kuressaare linn, Saaremaa vald, Saare maakond, 93810",
+                "kirje_id": 3601038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tn 2-44, Kuressaare linn, Saaremaa vald, Saare maakond, 93810",
+                "kirje_id": 3384002,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehnika tn 2-44, Kuressaare linn, Saaremaa vald, Saare maakond, 93810",
+                "kirje_id": 3271731,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4939",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "3"
+            },
+            {
                 "ettevotja_aadress_aruandes": "Piiri, Pärase küla, Muhu vald, Saare maakond, 94756",
                 "kirje_id": 2860957,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,12 +288,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.04.2021",
-                "emtak_kood": "4939",
+                "algus_kpv": "27.05.2025",
+                "emtak_kood": "49391",
                 "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000540941,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000882539,
                 "lopp_kpv": null,
                 "nace_kood": "49.39",
                 "on_pohitegevusala": true

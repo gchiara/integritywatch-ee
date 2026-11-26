@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.10.2018",
             "eesnimi": "Anatoli",
-            "isikukood": "38501102725",
+            "isikukood": null,
+            "isikukood_hash": "bd65c72c-c584-5a2e-b27e-7a4c648c7ee7",
             "kirje_id": 9000747725,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38501102725",
+            "isikukood_hash": "bd65c72c-c584-5a2e-b27e-7a4c648c7ee7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48312162749",
+            "isikukood_hash": "df43a79b-f171-521a-bffc-ae9f52b52332",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pihkva tn 105a, Mustvee linn, Mustvee vald, Jõgeva maakond, 49604",
+                "kirje_id": 3751707,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihkva tn 105a, Mustvee linn, Mustvee vald, Jõgeva maakond, 49604",
+                "kirje_id": 3482170,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihkva tn 105a, Mustvee linn, Mustvee vald, Jõgeva maakond, 49604",
+                "kirje_id": 3215677,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pihkva tn 105a, Mustvee linn, Mustvee vald, Jõgeva maakond, 49604",
                 "kirje_id": 2780221,
@@ -264,7 +303,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -371,26 +410,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.02.2023",
-                "emtak_kood": "3514",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000671267,
-                "lopp_kpv": null,
-                "nace_kood": "35.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.11.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000090676,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000978851,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "35151",
+                "emtak_tekstina": "Elektrienergia müük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000978852,
+                "lopp_kpv": null,
+                "nace_kood": "35.15",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

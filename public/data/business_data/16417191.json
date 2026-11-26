@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.01.2022",
             "eesnimi": "Ahto",
-            "isikukood": "35509224925",
+            "isikukood": null,
+            "isikukood_hash": "f6563593-b483-5cf3-a670-7c1d988f4d22",
             "kirje_id": 9001382436,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35509224925",
+            "isikukood_hash": "f6563593-b483-5cf3-a670-7c1d988f4d22",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7878802",
-                "aadress_ads__adr_id": 2660871,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Lai tn 6",
+                "aadress_ads__adob_id": "10948867",
+                "aadress_ads__adr_id": 3744122,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Pikk tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00864574",
-                "aadress_ads__koodaadress": "52567586000000RRX0000AUJY00000000",
+                "aadress_ads__ads_oid": "EE03180014",
+                "aadress_ads__koodaadress": "52567586100000W1Q0000D9P900000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.01.2022",
-                "ehak": "5860",
+                "algus_kpv": "12.12.2024",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9947251,
+                "kande_nr": 5,
+                "kirje_id": 12846962,
                 "lopp_kpv": null,
-                "postiindeks": "72711",
+                "postiindeks": "72713",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Lai tn 6"
+                "tanav_maja_korter": "Pikk tn 2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 2, Paide linn, Paide linn, Järva maakond, 72713",
+                "kirje_id": 3661897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikk tn 2, Paide linn, Paide linn, Järva maakond, 72713",
+                "kirje_id": 3427357,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lai tn 6, Paide linn, Paide linn, Järva maakond, 72711",
+                "kirje_id": 3128259,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lai tn 6, Paide linn, Paide linn, Järva maakond, 72711",
                 "kirje_id": 2921450,
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -216,11 +254,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000649826,
+                "kirje_id": 9000718122,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 53730520"
+                "sisu": "+372 56004306"
             }
         ],
         "staatus": "R",
@@ -238,12 +276,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.01.2022",
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "81101",
-                "emtak_tekstina": "Hoonehalduse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000597713,
+                "emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000925634,
                 "lopp_kpv": null,
                 "nace_kood": "81.10",
                 "on_pohitegevusala": true

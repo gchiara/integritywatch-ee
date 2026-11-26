@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Raul",
-            "isikukood": "37802092772",
+            "isikukood": null,
+            "isikukood_hash": "9d785368-74d7-5ecf-92ec-5b8b17b5ccfd",
             "kirje_id": 9000822796,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36803200262",
+            "isikukood": null,
+            "isikukood_hash": "23f6c6b8-518b-52f8-afd5-2950925d65bb",
             "kirje_id": 9000822818,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37802092772",
+            "isikukood_hash": "9d785368-74d7-5ecf-92ec-5b8b17b5ccfd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36803200262",
+            "isikukood_hash": "23f6c6b8-518b-52f8-afd5-2950925d65bb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Masti tn 17, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3807206,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "35151",
+                "tegevusala_emtak_tekstina": "Elektrienergia müük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.15",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Masti tn 17, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3476883,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "35151",
+                "tegevusala_emtak_tekstina": "Elektrienergia müük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.15",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Masti tn 17, Pirita linnaosa, Tallinn, Harju maakond, 11911",
+                "kirje_id": 3212551,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "35141",
+                "tegevusala_emtak_tekstina": "Elektrienergia müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.14",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Masti tn 17, Pirita linnaosa, Tallinn, Harju maakond, 11911",
                 "kirje_id": 2961474,
@@ -353,7 +393,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -532,14 +572,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.04.2008",
-                "emtak_kood": "35141",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "35151",
                 "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000020185,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973118,
                 "lopp_kpv": null,
-                "nace_kood": "35.14",
+                "nace_kood": "35.15",
                 "on_pohitegevusala": true
             }
         ],

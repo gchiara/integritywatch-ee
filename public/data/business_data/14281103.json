@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Leho",
-            "isikukood": "38308210043",
+            "isikukood": null,
+            "isikukood_hash": "92a2f71e-2177-5a33-88ac-979ed816b973",
             "kirje_id": 9000789160,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38308210043",
+            "isikukood_hash": "92a2f71e-2177-5a33-88ac-979ed816b973",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kotka tee 201, Alliku küla, Saue vald, Harju maakond, 76403",
+                "kirje_id": 3747666,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46643",
+                "tegevusala_emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotka tee 201, Alliku küla, Saue vald, Harju maakond, 76403",
+                "kirje_id": 3525549,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33141",
+                "tegevusala_emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.14",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kotka tee 201, Alliku küla, Saue vald, Harju maakond, 76403",
+                "kirje_id": 3158855,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46692",
+                "tegevusala_emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kotka tee 201, Alliku küla, Saue vald, Harju maakond, 76403",
                 "kirje_id": 2798326,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -298,48 +336,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2019",
-                "emtak_kood": "93299",
-                "emtak_tekstina": "Muud mujal liigitamata lõbustus- ja vaba aja tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000428926,
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "46643",
+                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126263,
                 "lopp_kpv": null,
-                "nace_kood": "93.29",
-                "on_pohitegevusala": false
+                "nace_kood": "46.64",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "18.04.2023",
-                "emtak_kood": "77111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5t) rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000679437,
-                "lopp_kpv": null,
-                "nace_kood": "77.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "07.05.2021",
+                "algus_kpv": "30.06.2026",
                 "emtak_kood": "33141",
-                "emtak_tekstina": "Elektriseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000547196,
+                "emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126264,
                 "lopp_kpv": null,
                 "nace_kood": "33.14",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "07.05.2021",
-                "emtak_kood": "46692",
-                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000547195,
+                "algus_kpv": "03.07.2025",
+                "emtak_kood": "93291",
+                "emtak_tekstina": "Mujal liigitamata lõbustus- ja vaba aja tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001021809,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
-                "on_pohitegevusala": true
+                "nace_kood": "93.29",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "03.07.2025",
+                "emtak_kood": "77111",
+                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga kuni 3,5 t) rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001021810,
+                "lopp_kpv": null,
+                "nace_kood": "77.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

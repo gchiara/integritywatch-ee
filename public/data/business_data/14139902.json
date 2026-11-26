@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Heli",
-            "isikukood": "47906114718",
+            "isikukood": null,
+            "isikukood_hash": "596fe6c3-1b1c-5df2-b914-a6b7cd62ab34",
             "kirje_id": 9000835147,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.01.2023",
             "eesnimi": "Marko",
-            "isikukood": "37602010324",
+            "isikukood": null,
+            "isikukood_hash": "9751f0fb-4504-5d8f-bf9c-9d886016b6c4",
             "kirje_id": 9001527165,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47906114718",
+            "isikukood_hash": "596fe6c3-1b1c-5df2-b914-a6b7cd62ab34",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 18, Mustamäe linnaosa, Tallinn, Harju maakond, 12611",
+                "kirje_id": 3747623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 18, Mustamäe linnaosa, Tallinn, Harju maakond, 12611",
+                "kirje_id": 3480053,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 18, Mustamäe linnaosa, Tallinn, Harju maakond, 12611",
+                "kirje_id": 3220948,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Akadeemia tee 18, Mustamäe linnaosa, Tallinn, Harju maakond, 12611",
                 "kirje_id": 2924815,
@@ -208,7 +247,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -315,12 +354,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.05.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "56211",
                 "emtak_tekstina": "Toitlustamine üritustel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000474592,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976479,
                 "lopp_kpv": null,
                 "nace_kood": "56.21",
                 "on_pohitegevusala": true

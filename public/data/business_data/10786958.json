@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Marcel",
-            "isikukood": "36501172715",
+            "isikukood": null,
+            "isikukood_hash": "0868ba6c-2399-53b8-b52b-96ddbc2ceb1a",
             "kirje_id": 9000681718,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Vichmann",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "31.01.2024",
+            "eesnimi": "Tiit",
+            "isikukood": null,
+            "isikukood_hash": "73348f30-5391-5ab5-96dd-b75df12de62c",
+            "kirje_id": 9001677356,
+            "kontrolli_teostamise_viis": "K",
+            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Pruuli",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36804194910",
+            "isikukood_hash": "7a6074e2-d1dc-5f92-9557-4ce447de67b1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10444611",
+                "aadress_ads__adob_id": "10978569",
                 "aadress_ads__adr_id": 3527520,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Türi linn, Kaare tn 25",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72212",
+                "kirje_id": 3739568,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "54"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72212",
+                "kirje_id": 3485341,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "71"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72212",
+                "kirje_id": 3211862,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "76"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaare tn 25, Türi linn, Türi vald, Järva maakond, 72212",
                 "kirje_id": 2915292,
@@ -371,7 +427,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -398,6 +454,18 @@
                 "sisu": "Edelaraudtee aktsiaselts (ühendav ühing) ja EdelaVara Aktsiaselts (ühendatav ühing, registrikoodiga 10702335, asukoht Toompuiestee 37, Tallinn) ühinevad 08.08.2022 sõlmitud ühinemislepingu alusel. Ühinemisotsus on vastu võetud 08.09.2022. Ühinemine on jõustunud.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "15.01.2025",
+                "kaardi_nr": 3,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12906514,
+                "lopp_kpv": null,
+                "sisu": "Edelaraudtee aktsiaselts (jagunev ühing) jaguneb eraldumise teel, mille käigus asutati OÜ RealWAY Holding (jagunemise\nkäigus asutatud ühing, registrikood 17156427, aadress Toompuiestee 37, Tallinn). Jagunemiskava on notariaalselt tõestatud 15.08.2024.a. Jagunemisotsus on vastu võetud 21.10.2024.a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "AS",
@@ -499,23 +567,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2022",
-                "emtak_kood": "4677",
-                "emtak_tekstina": "Jäätmete ja jääkide hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000633983,
-                "lopp_kpv": null,
-                "nace_kood": "46.77",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "5221",
                 "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000009889,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000982415,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": true

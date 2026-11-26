@@ -1,6 +1,43 @@
 {
     "ariregistri_kood": 10010749,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "26.03.2025",
+            "eesnimi": "Anu-Liis",
+            "isikukood": null,
+            "isikukood_hash": "c2c4dcda-d9de-519a-bdbc-9d2adaf5df10",
+            "kirje_id": 9003432111,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Lember",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "26.03.2025",
+            "eesnimi": "Kalev",
+            "isikukood": null,
+            "isikukood_hash": "0a4699fd-a029-5070-b10b-3e1e2112f00d",
+            "kirje_id": 9003432112,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Lember",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -21,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36104190261",
+            "isikukood_hash": "0a4699fd-a029-5070-b10b-3e1e2112f00d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -43,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10539592",
+                "aadress_ads__adob_id": "11494519",
                 "aadress_ads__adr_id": 3436686,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Telliskivi tn 60/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -84,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3810730,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46161",
+                "tegevusala_emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.16",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3569216,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46161",
+                "tegevusala_emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.16",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Telliskivi tn 60/2, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
+                "kirje_id": 3305658,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46161",
+                "tegevusala_emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.16",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Telliskivi tn 60/2, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10412",
                 "kirje_id": 2990351,
@@ -388,7 +462,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": true,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -541,12 +615,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.07.2013",
+                "algus_kpv": "26.08.2025",
                 "emtak_kood": "46161",
-                "emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000050620,
+                "emtak_tekstina": "Tekstiili, rõivaste, jalatsite ja nahktoodete hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001047690,
                 "lopp_kpv": null,
                 "nace_kood": "46.16",
                 "on_pohitegevusala": true

@@ -38,12 +38,10 @@
         "filename": "award_06ea86c0-dae2-4239-9b7e-0d1205262ae6_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company board members: 36607152778"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "06ea86c0-dae2-4239-9b7e-0d1205262ae6",
         "notice_items": [
@@ -55,7 +53,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-04-16",
+                "award_date_conclusion_contract": [
+                    "2023-04-16"
+                ],
                 "award_value": "115543.31",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -70,7 +70,7 @@
                 "tenders_received": "8"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Mooste mõisa aida katuse restaureerimine",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -90,12 +90,10 @@
         "docType2": "",
         "filename": "award_537b3c91-a048-437e-9fb1-6f9903f48172_0.json",
         "flags": [
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company board members: 36607152778"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "537b3c91-a048-437e-9fb1-6f9903f48172",
         "notice_items": [
@@ -105,6 +103,59 @@
         ],
         "refnum": "260841",
         "total_amount": "115543.31",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-03-04"
+                ],
+                "award_value": "25709.25",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14688419",
+                        "contractor_name": "silfisk OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "5"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Väike-Maarja mudelihalli soojapidavuse ja väljanägemise parandamine, II kordushange",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "80399648",
+                "name": "MTÜ Väike-Maarja Mudelihall",
+                "town": "Väike-Maarja vald"
+            }
+        ],
+        "contractors": [
+            "14688419"
+        ],
+        "cpv": "45212000",
+        "date_dispatch_notice": "2024-03-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_dbaa3bc4-fb5c-498a-9fc5-6e73a039d2b8_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "dbaa3bc4-fb5c-498a-9fc5-6e73a039d2b8",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "275659",
+        "total_amount": "25709.25",
         "total_amount_curr": "EUR"
     }
 ]

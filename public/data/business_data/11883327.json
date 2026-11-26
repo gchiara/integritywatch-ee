@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2021",
             "eesnimi": "Aivo",
-            "isikukood": "36709070227",
+            "isikukood": null,
+            "isikukood_hash": "14cc77a6-070f-5ff7-988a-cc4436e806eb",
             "kirje_id": 9001298501,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.06.2022",
             "eesnimi": "Kalle-Priit",
-            "isikukood": "37207040216",
+            "isikukood": null,
+            "isikukood_hash": "bb05d644-6ad9-5b5d-a263-b3227399f8f9",
             "kirje_id": 9001442395,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36709070227",
+            "isikukood_hash": "14cc77a6-070f-5ff7-988a-cc4436e806eb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37207040216",
+            "isikukood_hash": "bb05d644-6ad9-5b5d-a263-b3227399f8f9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ruunaoja tn 6/3, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3619402,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ruunaoja tn 6/3, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3353564,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ruunaoja tn 6/3, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3084166,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ruunaoja tn 6/3, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2826971,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -460,12 +500,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2012",
+                "algus_kpv": "10.04.2025",
                 "emtak_kood": "25991",
                 "emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000188519,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000850812,
                 "lopp_kpv": null,
                 "nace_kood": "25.99",
                 "on_pohitegevusala": true

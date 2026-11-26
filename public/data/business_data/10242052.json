@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Tiit",
-            "isikukood": "36806022719",
+            "isikukood": null,
+            "isikukood_hash": "038be195-10ce-5530-99f1-7823d35d9d5e",
             "kirje_id": 9000852098,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36806022719",
+            "isikukood_hash": "038be195-10ce-5530-99f1-7823d35d9d5e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valguse tee 7, Lohkva küla, Luunja vald, Tartu maakond, 62207",
+                "kirje_id": 3698304,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01301",
+                "tegevusala_emtak_tekstina": "Taimede paljundamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.30",
+                "tootajate_arv": "132"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valguse tee 7, Lohkva küla, Luunja vald, Tartu maakond, 62207",
+                "kirje_id": 3369078,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01301",
+                "tegevusala_emtak_tekstina": "Taimede paljundamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.30",
+                "tootajate_arv": "124"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valguse tee 7, Lohkva küla, Luunja vald, Tartu maakond, 62207",
+                "kirje_id": 3229732,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01301",
+                "tegevusala_emtak_tekstina": "Taimede paljundamine ja istikukasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.30",
+                "tootajate_arv": "120"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valguse tee 7, Lohkva küla, Luunja vald, Tartu maakond, 62207",
                 "kirje_id": 2935207,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -609,26 +647,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.11.2011",
-                "emtak_kood": "47761",
-                "emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000157738,
-                "lopp_kpv": null,
-                "nace_kood": "47.76",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.11.2011",
+                "algus_kpv": "07.05.2025",
                 "emtak_kood": "01301",
                 "emtak_tekstina": "Taimede paljundamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000157737,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000867035,
                 "lopp_kpv": null,
                 "nace_kood": "01.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "07.05.2025",
+                "emtak_kood": "47761",
+                "emtak_tekstina": "Lillede, taimede, seemnete ja istikute ning väetise jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000867036,
+                "lopp_kpv": null,
+                "nace_kood": "47.76",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

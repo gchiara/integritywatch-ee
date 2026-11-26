@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Anti",
-            "isikukood": "37406212769",
+            "isikukood": null,
+            "isikukood_hash": "b3ac9384-c2fe-5a38-bd63-caff8eba5329",
             "kirje_id": 9000802653,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37406212769",
+            "isikukood_hash": "b3ac9384-c2fe-5a38-bd63-caff8eba5329",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 17-5, Puurmani alevik, Põltsamaa vald, Jõgeva maakond, 49014",
+                "kirje_id": 3358590,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "47"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 17-5, Puurmani alevik, Põltsamaa vald, Jõgeva maakond, 49014",
+                "kirje_id": 3287791,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42211",
+                "tegevusala_emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.21",
+                "tootajate_arv": "49"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pargi tn 17-5, Puurmani alevik, Põltsamaa vald, Jõgeva maakond, 49014",
                 "kirje_id": 2848541,
@@ -358,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -386,6 +412,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "08.01.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 12231326,
+                "lopp_kpv": null,
+                "sisu": "WESICO PROJECT OÜ registrikood 10882277, asukoht Jõgeva maakond, Põltsamaa vald, Puurmani alevik, Pargi tn 17-5, 49014 (jagunev ühing) jaguneb eraldumise teel andes osa oma varast üle jagunemise käigus asutatavale äriühingule PILGAARD EESTI OÜ registrikood 16893572, asukoht  Tartu maakond, Tartu linn, Vasara tn 50, 50113 (omandav ühing) 21.11.2023. tõestatud jagunemiskava alusel, jagunemisotsus 21.11.2023. Jagunemine loetakse toimunuks käesoleva registrikande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -487,26 +527,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.04.2012",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000172215,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "22.04.2025",
                 "emtak_kood": "42211",
                 "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008588,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856146,
                 "lopp_kpv": null,
                 "nace_kood": "42.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.04.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856147,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.04.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856148,
+                "lopp_kpv": null,
+                "nace_kood": "47.81",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.04.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856149,
+                "lopp_kpv": null,
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

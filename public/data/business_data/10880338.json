@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2023",
             "eesnimi": "Urmas",
-            "isikukood": "36710126510",
+            "isikukood": null,
+            "isikukood_hash": "4da8c178-128c-5b66-8f99-9db1c4c5efc3",
             "kirje_id": 9001590880,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47302270217",
+            "isikukood_hash": "292ddc90-88bd-514c-99be-966345d51cd4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36710126510",
+            "isikukood_hash": "4da8c178-128c-5b66-8f99-9db1c4c5efc3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Käisi tn 5/1, Põlva linn, Põlva vald, Põlva maakond, 63307",
+                "kirje_id": 3783933,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22111",
+                "tegevusala_emtak_tekstina": "Kummirehvide tootmine, protekteerimine ja taastamine ning sisekummide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.11",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Käisi tn 5/1, Põlva linn, Põlva vald, Põlva maakond, 63307",
+                "kirje_id": 3532042,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22111",
+                "tegevusala_emtak_tekstina": "Kummirehvide tootmine, protekteerimine ja taastamine ning sisekummide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Käisi tn 5/1, Põlva linn, Põlva vald, Põlva maakond, 63307",
+                "kirje_id": 3255754,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22111",
+                "tegevusala_emtak_tekstina": "Kummirehvide ja sisekummide tootmine; kummirehvide protekteerimine ja taastamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.11",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Käisi tn 5/1, Põlva linn, Põlva vald, Põlva maakond, 63307",
                 "kirje_id": 2921123,
@@ -408,7 +447,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -476,13 +515,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "26.04.2012",
+                "algus_kpv": "19.12.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kinnitamise_kpv": "15.03.2012",
-                "kirje_id": 4463656,
+                "kande_nr": 18,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13481769,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -528,26 +567,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2012",
-                "emtak_kood": "55103",
-                "emtak_tekstina": "Külalistemajad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000190443,
-                "lopp_kpv": null,
-                "nace_kood": "55.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "09.07.2025",
                 "emtak_kood": "22111",
-                "emtak_tekstina": "Kummirehvide ja sisekummide tootmine; kummirehvide protekteerimine ja taastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000012329,
+                "emtak_tekstina": "Kummirehvide tootmine, protekteerimine ja taastamine ning sisekummide tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001027968,
                 "lopp_kpv": null,
                 "nace_kood": "22.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.07.2025",
+                "emtak_kood": "55103",
+                "emtak_tekstina": "Külalistemajad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001027969,
+                "lopp_kpv": null,
+                "nace_kood": "55.10",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

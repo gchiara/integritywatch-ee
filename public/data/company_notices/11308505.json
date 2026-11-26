@@ -140,17 +140,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10136870",
-            "Nominees as company beneficial owners: 36711122712",
-            "Nominees as company beneficial owners: 36812252714",
-            "Nominees as company board members: 36711122712",
-            "Nominees as company beneficial owners: 36404230058",
-            "Nominees as company board members: 36404230058"
+            "Possible shell company: 10136870"
         ],
         "noticeUid": "2e6c4ae4-e2f5-4687-9cba-c3b73fab7c61",
         "notice_items": [
@@ -307,21 +301,12 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 36404230058",
-            "Nominees as company board members: 36404230058",
             "Possible shell company: 10136870",
-            "Nominees as company beneficial owners: 36711122712",
-            "Nominees as company beneficial owners: 36812252714",
-            "Nominees as company board members: 36711122712",
-            "Possible shell company: 10015238",
-            "Nominees as company beneficial owners: 36305100240",
-            "Nominees as company board members: 36504250260",
-            "Nominees as company board members: 37210100349"
+            "Possible shell company: 10015238"
         ],
         "noticeUid": "eb8076ba-204e-4595-aca6-ec2418d48322",
         "notice_items": [
@@ -399,7 +384,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-27",
+                "award_date_conclusion_contract": [
+                    "2023-06-27"
+                ],
                 "award_value": "32500.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -414,7 +401,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kütuse ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -448,6 +435,69 @@
         ],
         "refnum": "262918",
         "total_amount": "113500.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-07-07"
+                ],
+                "award_value": "43000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10613270",
+                        "contractor_name": "AKTSIASELTS JETOIL",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kütuse ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "77000306",
+                "name": "Saaremaa Vallavalitsus",
+                "town": "Saaremaa vald"
+            }
+        ],
+        "contractors": [
+            "10136870",
+            "10015238",
+            "11308505",
+            "10613270"
+        ],
+        "cpv": "09100000",
+        "date_dispatch_notice": "2025-07-23",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_35df999b-5c78-4b72-9625-d0afd5908d20_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10613270"
+        ],
+        "noticeUid": "35df999b-5c78-4b72-9625-d0afd5908d20",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "294923-0000",
+        "total_amount": "650000.00",
         "total_amount_curr": "EUR"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Dmitri",
-            "isikukood": "37909230306",
+            "isikukood": null,
+            "isikukood_hash": "e84a287c-d2ff-5437-acc0-3a96a5d9c1bc",
             "kirje_id": 9000714378,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Jevgeni",
-            "isikukood": "38412280319",
+            "isikukood": null,
+            "isikukood_hash": "ba8b24b6-e02b-53f3-a4a1-eb576f7caafc",
             "kirje_id": 9000714379,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37909230306",
+            "isikukood_hash": "e84a287c-d2ff-5437-acc0-3a96a5d9c1bc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38412280319",
+            "isikukood_hash": "ba8b24b6-e02b-53f3-a4a1-eb576f7caafc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "5809236",
+                "aadress_ads__adob_id": "10795649",
                 "aadress_ads__adr_id": 1620240,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Liikva küla, Rako tee 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rako tee 9, Liikva küla, Harku vald, Harju maakond, 76921",
+                "kirje_id": 3566919,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rako tee 9, Liikva küla, Harku vald, Harju maakond, 76921",
+                "kirje_id": 3274754,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rako tee 9, Liikva küla, Harku vald, Harju maakond, 76921",
                 "kirje_id": 2972443,
@@ -293,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,12 +417,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.08.2012",
+                "algus_kpv": "10.11.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000211501,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001065388,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true

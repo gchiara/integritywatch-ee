@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Randel",
-            "isikukood": "39304096038",
+            "isikukood": null,
+            "isikukood_hash": "ddc1a7de-f487-56d8-929d-3c2f65dc6fe3",
             "kirje_id": 9000803040,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39304096038",
+            "isikukood_hash": "ddc1a7de-f487-56d8-929d-3c2f65dc6fe3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 137, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3626188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 137, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3379243,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 137, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
+                "kirje_id": 3168089,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5911",
+                "tegevusala_emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "59.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 137, Mustamäe linnaosa, Tallinn, Harju maakond, 12918",
                 "kirje_id": 2909653,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -274,12 +312,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.10.2018",
+                "algus_kpv": "22.05.2025",
                 "emtak_kood": "5911",
                 "emtak_tekstina": "Kinofilmide, videote ja telesaadete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000388163,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000877785,
                 "lopp_kpv": null,
                 "nace_kood": "59.11",
                 "on_pohitegevusala": true

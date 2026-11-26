@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "35404030354",
+            "isikukood": null,
+            "isikukood_hash": "8f84ac80-0e27-594b-99d7-c80ecd887f77",
             "kirje_id": 9000837346,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Vambola",
-            "isikukood": "35112170313",
+            "isikukood": null,
+            "isikukood_hash": "9ab685c3-69ce-51e4-ad0b-8e8ef986aacd",
             "kirje_id": 9000837353,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37802240308",
+            "isikukood_hash": "ceb13c8b-335a-51bd-bf40-69dd4ab4ead6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9731366",
+                "aadress_ads__adob_id": "10696354",
                 "aadress_ads__adr_id": 2111426,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Aia tn 20",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 20, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3740342,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68321",
+                "tegevusala_emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 20, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3500758,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68321",
+                "tegevusala_emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aia tn 20, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3242603,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68321",
+                "tegevusala_emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aia tn 20, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2928647,
@@ -363,7 +402,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -505,12 +544,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68321",
                 "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000064716,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997963,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": true

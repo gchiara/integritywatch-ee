@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Kaarel",
-            "isikukood": "39105220336",
+            "isikukood": null,
+            "isikukood_hash": "52044262-bc53-57e5-8347-1cb21e875e39",
             "kirje_id": 9000859022,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39105220336",
+            "isikukood_hash": "52044262-bc53-57e5-8347-1cb21e875e39",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9681165",
-                "aadress_ads__adr_id": 3438997,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Laki põik 4",
+                "aadress_ads__adob_id": "10891513",
+                "aadress_ads__adr_id": 2108852,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Kadaka tee 42b",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03406073",
-                "aadress_ads__koodaadress": "37784048200000TWR0000C2D900000000",
+                "aadress_ads__ads_oid": "EE04070696",
+                "aadress_ads__koodaadress": "377840482000003MQ00001SPI00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "28.09.2022",
+                "algus_kpv": "11.06.2026",
                 "ehak": "0482",
                 "ehak_nimetus": "Mustamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kirje_id": 10281927,
+                "kande_nr": 10,
+                "kirje_id": 13801865,
                 "lopp_kpv": null,
                 "postiindeks": "12919",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "J. Poska tn 51a/1"
+                "tanav_maja_korter": "Kadaka tee 42b"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki põik 4, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3676032,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki põik 4, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3493715,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Poska tn 51a/1, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
+                "kirje_id": 3255518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Poska tn 51a/1, Mustamäe linnaosa, Tallinn, Harju maakond, 12919",
                 "kirje_id": 2897504,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -393,36 +431,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000569823,
-                "lopp_kpv": null,
-                "nace_kood": "74.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "62011",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000569822,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990870,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "26.06.2018",
-                "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000364067,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "74121",
+                "emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000990871,
                 "lopp_kpv": null,
-                "nace_kood": "73.11",
+                "nace_kood": "74.12",
                 "on_pohitegevusala": false
             }
         ],

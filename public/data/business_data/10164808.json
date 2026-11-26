@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.10.2018",
             "eesnimi": "Ervin",
-            "isikukood": "35806192717",
+            "isikukood": null,
+            "isikukood_hash": "fcc7fe17-6397-5ff7-a475-1231a3f480cd",
             "kirje_id": 9000747826,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35806192717",
+            "isikukood_hash": "fcc7fe17-6397-5ff7-a475-1231a3f480cd",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rukki tn 44, Tartu linn, Tartu linn, Tartu maakond, 50407",
+                "kirje_id": 3747031,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rukki tn 44, Tartu linn, Tartu linn, Tartu maakond, 50407",
+                "kirje_id": 3459614,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rukki tn 44, Tartu linn, Tartu linn, Tartu maakond, 50407",
+                "kirje_id": 3149953,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46461",
+                "tegevusala_emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rukki tn 44, Tartu linn, Tartu linn, Tartu maakond, 50407",
                 "kirje_id": 2837521,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -525,36 +563,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.03.2010",
+                "algus_kpv": "30.06.2026",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126142,
+                "lopp_kpv": null,
+                "nace_kood": "70.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "46461",
                 "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000008810,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000956589,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "25.03.2010",
-                "emtak_kood": "46389",
-                "emtak_tekstina": "Mujal liigitamata toidukaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000008811,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "46381",
+                "emtak_tekstina": "Muude toidukaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000956590,
                 "lopp_kpv": null,
                 "nace_kood": "46.38",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "20.06.2011",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000126730,
-                "lopp_kpv": null,
-                "nace_kood": "70.22",
                 "on_pohitegevusala": false
             }
         ],

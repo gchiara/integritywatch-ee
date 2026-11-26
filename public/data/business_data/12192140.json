@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Aaro",
-            "isikukood": "37912090011",
+            "isikukood": null,
+            "isikukood_hash": "c299bd84-1dc4-5ac3-8a8b-d2dfed79ecd9",
             "kirje_id": 9000760248,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Halger",
-            "isikukood": "37805180258",
+            "isikukood": null,
+            "isikukood_hash": "6b3953f0-8507-5d93-8871-e5301fa44df4",
             "kirje_id": 9000760239,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912090011",
+            "isikukood_hash": "c299bd84-1dc4-5ac3-8a8b-d2dfed79ecd9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37805180258",
+            "isikukood_hash": "6b3953f0-8507-5d93-8871-e5301fa44df4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139e/8, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3750945,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49421",
+                "tegevusala_emtak_tekstina": "Kolimisteenused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.42",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139e/8, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3482509,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49421",
+                "tegevusala_emtak_tekstina": "Kolimisteenused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.42",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139e/8, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3217694,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49421",
+                "tegevusala_emtak_tekstina": "Kolimisteenused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.42",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 139e/8, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2919052,
@@ -317,7 +357,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -424,12 +464,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.11.2011",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "49421",
                 "emtak_tekstina": "Kolimisteenused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000158586,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000979229,
                 "lopp_kpv": null,
                 "nace_kood": "49.42",
                 "on_pohitegevusala": true

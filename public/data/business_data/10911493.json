@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Aivar",
-            "isikukood": "37006090371",
+            "isikukood": null,
+            "isikukood_hash": "c00f91db-9d8b-5e7f-8220-52da877fb165",
             "kirje_id": 9000751403,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37006090371",
+            "isikukood_hash": "c00f91db-9d8b-5e7f-8220-52da877fb165",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,12 +63,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9950564",
-                "aadress_ads__adr_id": 3013726,
+                "aadress_ads__adob_id": "10854061",
+                "aadress_ads__adr_id": 3718135,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Tartu tn 76",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01720736",
-                "aadress_ads__koodaadress": "81855891800000S690000B4VD00000000",
+                "aadress_ads__koodaadress": "81857891800000S690000B4VD00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "06.12.2017",
                 "ehak": "8918",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 76, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3685429,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 76, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3401523,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 76, Valga linn, Valga vald, Valga maakond, 68205",
+                "kirje_id": 3133804,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu tn 76, Valga linn, Valga vald, Valga maakond, 68205",
                 "kirje_id": 2853539,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -476,48 +514,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.06.2021",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000560156,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "18.06.2022",
-                "emtak_kood": "3514",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000627158,
-                "lopp_kpv": null,
-                "nace_kood": "35.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.06.2022",
+                "algus_kpv": "08.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000627159,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899212,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "18.06.2022",
-                "emtak_kood": "4311",
-                "emtak_tekstina": "Lammutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000627157,
+                "algus_kpv": "08.06.2025",
+                "emtak_kood": "3512",
+                "emtak_tekstina": "Elektrienergia tootmine taastuvatest energiaallikatest",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899211,
                 "lopp_kpv": null,
-                "nace_kood": "43.11",
+                "nace_kood": "35.12",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.06.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899210,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899209,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

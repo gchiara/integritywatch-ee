@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Ivan",
-            "isikukood": "38206016512",
+            "isikukood": null,
+            "isikukood_hash": "723cdc87-c7e3-5565-94f8-e77fcd7c287c",
             "kirje_id": 9000670126,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38206016512",
+            "isikukood_hash": "723cdc87-c7e3-5565-94f8-e77fcd7c287c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tammistu tee 14-1, Linte küla, Räpina vald, Põlva maakond, 64402",
+                "kirje_id": 3679806,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tammistu tee 14-1, Linte küla, Räpina vald, Põlva maakond, 64402",
+                "kirje_id": 3453287,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tammistu tee 14-1, Linte küla, Räpina vald, Põlva maakond, 64402",
+                "kirje_id": 3190206,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsaraie",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tammistu tee 14-1, Linte küla, Räpina vald, Põlva maakond, 64402",
                 "kirje_id": 2911656,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,47 +348,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2023",
-                "emtak_kood": "81301",
-                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000701881,
-                "lopp_kpv": null,
-                "nace_kood": "81.30",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.10.2022",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653740,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.10.2022",
+                "algus_kpv": "26.06.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653739,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950376,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000950375,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "10.10.2022",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000653741,
+                "algus_kpv": "12.06.2026",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001111905,
                 "lopp_kpv": null,
-                "nace_kood": "02.40",
+                "nace_kood": "81.30",
                 "on_pohitegevusala": false
             }
         ],

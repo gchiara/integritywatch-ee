@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Mark",
-            "isikukood": "38804280337",
+            "isikukood": null,
+            "isikukood_hash": "d6a0c71b-99ca-5832-8af1-c64241f45cbb",
             "kirje_id": 9000796848,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "37904094713",
+            "isikukood": null,
+            "isikukood_hash": "8aac3ad6-cd43-5ba0-9b19-e8c636467baf",
             "kirje_id": 9000796846,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.01.2022",
             "eesnimi": "Marek",
-            "isikukood": "39809080831",
+            "isikukood": null,
+            "isikukood_hash": "f203789c-d171-5fd3-a3c6-155e58b32763",
             "kirje_id": 9001380119,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38610150289",
+            "isikukood_hash": "e2e27299-f84b-5ab4-b68a-987327ac6d40",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38804280337",
+            "isikukood_hash": "d6a0c71b-99ca-5832-8af1-c64241f45cbb",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -133,7 +138,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6739004",
+                "aadress_ads__adob_id": "10708412",
                 "aadress_ads__adr_id": 2287285,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Kivisilla tn 4-10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -174,6 +179,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kivisilla tn 4-10, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3765379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivisilla tn 4-10, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3459092,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kivisilla tn 4-10, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
+                "kirje_id": 3248248,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kivisilla tn 4-10, Kesklinna linnaosa, Tallinn, Harju maakond, 10145",
                 "kirje_id": 2753763,
@@ -334,7 +375,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -441,14 +482,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.04.2011",
-                "emtak_kood": "62011",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000110277,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000956110,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

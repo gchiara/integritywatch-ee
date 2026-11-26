@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Janika",
-            "isikukood": "47302076035",
+            "isikukood": null,
+            "isikukood_hash": "c3b00ffb-2f72-52df-afac-482d41fc8880",
             "kirje_id": 9000745880,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Lembit",
-            "isikukood": "36703132714",
+            "isikukood": null,
+            "isikukood_hash": "c3baa588-e512-556c-a2e2-f6335e107380",
             "kirje_id": 9000745881,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47302076035",
+            "isikukood_hash": "c3b00ffb-2f72-52df-afac-482d41fc8880",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36703132714",
+            "isikukood_hash": "c3baa588-e512-556c-a2e2-f6335e107380",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa vutifarm, Alajõe küla, Peipsiääre vald, Tartu maakond, 60403",
+                "kirje_id": 3783459,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01471",
+                "tegevusala_emtak_tekstina": "Kodulinnukasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.47",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa vutifarm, Alajõe küla, Peipsiääre vald, Tartu maakond, 60403",
+                "kirje_id": 3462372,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01471",
+                "tegevusala_emtak_tekstina": "Kodulinnukasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.47",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järveotsa vutifarm, Alajõe küla, Peipsiääre vald, Tartu maakond, 60403",
+                "kirje_id": 3197903,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01471",
+                "tegevusala_emtak_tekstina": "Kodulinnukasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.47",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järveotsa vutifarm, Alajõe küla, Peipsiääre vald, Tartu maakond, 60403",
                 "kirje_id": 2786565,
@@ -376,7 +416,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -496,26 +536,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.03.2015",
-                "emtak_kood": "10131",
-                "emtak_tekstina": "Liha- ja linnulihatoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000160726,
-                "lopp_kpv": null,
-                "nace_kood": "10.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "13.09.2013",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "01471",
                 "emtak_tekstina": "Kodulinnukasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000084897,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000959252,
                 "lopp_kpv": null,
                 "nace_kood": "01.47",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "10131",
+                "emtak_tekstina": "Liha- ja linnulihatoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000959253,
+                "lopp_kpv": null,
+                "nace_kood": "10.13",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

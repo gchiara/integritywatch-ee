@@ -95,13 +95,10 @@
         "filename": "award_7f4f12e1-375a-4846-a45f-7d18ae7fc8f8_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37002086511",
-            "Nominees as company board members: 37002086511"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "7f4f12e1-375a-4846-a45f-7d18ae7fc8f8",
         "notice_items": [
@@ -168,7 +165,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-05",
+                "award_date_conclusion_contract": [
+                    "2023-06-05"
+                ],
                 "award_value": "547428.12",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -183,7 +182,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Rõuge depoo ehitus - II etapp",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -208,8 +207,7 @@
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38309215719",
-            "Nominees as company board members: 38309215719"
+            "Nominees as company beneficial owners: Margus_Must_13.02.2020"
         ],
         "noticeUid": "81f24762-3306-4a59-923f-b6d7b441b5f6",
         "notice_items": [
@@ -219,6 +217,89 @@
         ],
         "refnum": "261106",
         "total_amount": "547428.12",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "Rõuge depoo IV ehitusetapp",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "80266901",
+                "name": "Rõuge Priitahtlikud Pritsimehed",
+                "town": "Rõuge vald"
+            }
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-01-15",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_adc15aac-c5d8-4c54-a9a1-f4a18bb92b17_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "adc15aac-c5d8-4c54-a9a1-f4a18bb92b17",
+        "notice_items": [
+            {
+                "duration": "7 MONTH"
+            }
+        ],
+        "refnum": "304919-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-03-11"
+                ],
+                "award_value": "109000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10244542",
+                        "contractor_name": "aktsiaselts Kurmik",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Rõuge depoo IV ehitusetapp",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "80266901",
+                "name": "Rõuge Priitahtlikud Pritsimehed",
+                "town": "Rõuge vald"
+            }
+        ],
+        "contractors": [
+            "10244542"
+        ],
+        "cpv": "45200000",
+        "date_dispatch_notice": "2026-03-17",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_f63b811c-8914-437c-803d-3027c10af14c_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10244542"
+        ],
+        "noticeUid": "f63b811c-8914-437c-803d-3027c10af14c",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "304919-0000",
+        "total_amount": "109000.00",
         "total_amount_curr": "EUR"
     }
 ]

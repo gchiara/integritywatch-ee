@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Meelis",
-            "isikukood": "38101184926",
+            "isikukood": null,
+            "isikukood_hash": "afa402d7-d446-533b-b98d-368f8d16d891",
             "kirje_id": 9000662591,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Merili",
-            "isikukood": "48206104910",
+            "isikukood": null,
+            "isikukood_hash": "a367050e-8327-56d7-84b8-dc153827864b",
             "kirje_id": 9000662589,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Reet",
-            "isikukood": "46103274921",
+            "isikukood": null,
+            "isikukood_hash": "3dac5e11-4a27-5c13-9c0d-174ba013f9dd",
             "kirje_id": 9000662587,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48206104910",
+            "isikukood_hash": "a367050e-8327-56d7-84b8-dc153827864b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -137,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vana-Tartu mnt 18, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3663064,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Tartu mnt 18, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3408080,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Tartu mnt 18, Järveküla, Rae vald, Harju maakond, 75304",
+                "kirje_id": 3134815,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46759",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.75",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana-Tartu mnt 18, Järveküla, Rae vald, Harju maakond, 75304",
                 "kirje_id": 2858087,
@@ -249,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -380,14 +420,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2016",
-                "emtak_kood": "46759",
+                "algus_kpv": "11.06.2025",
+                "emtak_kood": "46859",
                 "emtak_tekstina": "Muude keemiatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000239616,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000905456,
                 "lopp_kpv": null,
-                "nace_kood": "46.75",
+                "nace_kood": "46.85",
                 "on_pohitegevusala": true
             }
         ],

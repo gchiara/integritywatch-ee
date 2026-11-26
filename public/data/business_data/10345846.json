@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Matti",
-            "isikukood": "35912120270",
+            "isikukood": null,
+            "isikukood_hash": "75ee18f4-987f-54ee-8292-8d6e77a5a11d",
             "kirje_id": 9000715711,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46002070378",
+            "isikukood_hash": "450d064e-9a9c-5e44-bcdd-d04ba879be4b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Arunõmme tee 24, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3674592,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "49"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Arunõmme tee 24, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3416587,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Arunõmme tee 24, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3100688,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "54"
+            },
             {
                 "ettevotja_aadress_aruandes": "Arunõmme tee 24, Tänassilma küla, Saku vald, Harju maakond, 76406",
                 "kirje_id": 2846352,
@@ -431,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -529,17 +567,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000017468,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.orfeum.eu"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 3000017469,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
@@ -556,28 +583,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5092705"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000277225,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6516369"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000277226,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6516369"
             }
         ],
         "staatus": "R",
@@ -595,37 +600,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.04.2010",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000010888,
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915374,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
-                "on_pohitegevusala": false
+                "nace_kood": "56.22",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "07.04.2010",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "56211",
                 "emtak_tekstina": "Toitlustamine üritustel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000010889,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915376,
                 "lopp_kpv": null,
                 "nace_kood": "56.21",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000027884,
+                "algus_kpv": "09.06.2026",
+                "emtak_kood": "47111",
+                "emtak_tekstina": "Peamiselt toidu, jookide või tubakatoodete spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001110722,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
-                "on_pohitegevusala": true
+                "nace_kood": "47.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

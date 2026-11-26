@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.06.2020",
             "eesnimi": "Indrek",
-            "isikukood": "38109290283",
+            "isikukood": null,
+            "isikukood_hash": "04f6e31f-cdc4-59b1-90e2-d4d052a20802",
             "kirje_id": 9001130374,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109290283",
+            "isikukood_hash": "04f6e31f-cdc4-59b1-90e2-d4d052a20802",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10397539",
+                "aadress_ads__adob_id": "10700991",
                 "aadress_ads__adr_id": 3466464,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Tänassilma küla, Tänassilma tee 65",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 65, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3658081,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 65, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3478873,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tänassilma tee 65, Tänassilma küla, Saku vald, Harju maakond, 76406",
+                "kirje_id": 3203658,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47991",
+                "tegevusala_emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tänassilma tee 67, Tänassilma küla, Saku vald, Harju maakond, 76406",
                 "kirje_id": 2881927,
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -228,12 +266,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 10715869,
+                "kande_nr": 5,
+                "kirje_id": 13518084,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@global4.ee"
+                "sisu": "info@global4wind.com"
             },
             {
                 "kaardi_nr": null,
@@ -262,14 +300,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2023",
-                "emtak_kood": "47991",
-                "emtak_tekstina": "Muu jaemüük väljaspool kauplusi, kioskeid ja turge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000696842,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975222,
                 "lopp_kpv": null,
-                "nace_kood": "47.99",
+                "nace_kood": "47.78",
                 "on_pohitegevusala": true
             }
         ],

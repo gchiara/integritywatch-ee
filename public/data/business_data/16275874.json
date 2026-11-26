@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.07.2021",
             "eesnimi": "Maxim",
-            "isikukood": "38803143736",
+            "isikukood": null,
+            "isikukood_hash": "b8983996-ae22-5d2f-b48b-7bf798444c42",
             "kirje_id": 9001307751,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38803143736",
+            "isikukood_hash": "b8983996-ae22-5d2f-b48b-7bf798444c42",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Mõisa tn 7-70, Narva linn, Ida-Viru maakond, 21004",
+                "kirje_id": 3587995,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 7-70, Narva linn, Ida-Viru maakond, 21004",
+                "kirje_id": 3526537,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 7-70, Narva linn, Ida-Viru maakond, 21004",
+                "kirje_id": 3104891,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mõisa tn 7-70, Narva linn, Ida-Viru maakond, 21004",
                 "kirje_id": 2825435,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -250,26 +288,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.05.2023",
+                "algus_kpv": "13.02.2026",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001082046,
+                "lopp_kpv": null,
+                "nace_kood": "77.32",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "42221",
+                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022732,
+                "lopp_kpv": null,
+                "nace_kood": "42.22",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "04.07.2025",
                 "emtak_kood": "78201",
-                "emtak_tekstina": "Ajutise tööjõu rent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000686399,
+                "emtak_tekstina": "Tööjõurent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022733,
                 "lopp_kpv": null,
                 "nace_kood": "78.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.07.2021",
-                "emtak_kood": "42221",
-                "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000575379,
+                "algus_kpv": "04.07.2025",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001022735,
                 "lopp_kpv": null,
-                "nace_kood": "42.22",
-                "on_pohitegevusala": true
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

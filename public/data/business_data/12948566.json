@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Erlis",
-            "isikukood": "39308076536",
+            "isikukood": null,
+            "isikukood_hash": "dba3059c-59c3-5d7d-8fd6-dc4c9bcd968a",
             "kirje_id": 9000868721,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39308076536",
+            "isikukood_hash": "dba3059c-59c3-5d7d-8fd6-dc4c9bcd968a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9143881",
-                "aadress_ads__adr_id": 3255723,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Võru linn, Tamme tn 1",
+                "aadress_ads__adob_id": "9857838",
+                "aadress_ads__adr_id": 3255680,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Võru linn, Kalevi tn 12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00965531",
-                "aadress_ads__koodaadress": "879190000000005HU00000Y3E00000000",
+                "aadress_ads__ads_oid": "EE00965053",
+                "aadress_ads__koodaadress": "879190000000005JN00000YXD00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
+                "algus_kpv": "26.01.2024",
                 "ehak": "0919",
                 "ehak_nimetus": "Võru linn, Võru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7351604,
+                "kande_nr": 5,
+                "kirje_id": 12268099,
                 "lopp_kpv": null,
                 "postiindeks": "65603",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tamme tn 1"
+                "tanav_maja_korter": "Kalevi tn 12"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 12, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3683443,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 12, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3404807,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalevi tn 12, Võru linn, Võru maakond, 65603",
+                "kirje_id": 3197798,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tamme tn 1, Võru linn, Võru maakond, 65603",
                 "kirje_id": 2884328,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,37 +348,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "43999",
-                "emtak_tekstina": "Muud eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697253,
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "52219",
+                "emtak_tekstina": "Muud maismaaveondust teenindavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000902389,
                 "lopp_kpv": null,
-                "nace_kood": "43.99",
+                "nace_kood": "52.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "02401",
+                "emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000902388,
+                "lopp_kpv": null,
+                "nace_kood": "02.40",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697254,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "45321",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697255,
-                "lopp_kpv": null,
-                "nace_kood": "45.32",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

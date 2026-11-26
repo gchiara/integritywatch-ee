@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Merike",
-            "isikukood": "45805314228",
+            "isikukood": null,
+            "isikukood_hash": "289f20ea-74f4-53ee-89a1-0c02e5454a17",
             "kirje_id": 9000686003,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45805314228",
+            "isikukood_hash": "289f20ea-74f4-53ee-89a1-0c02e5454a17",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 89, Nõmme linnaosa, Tallinn, Harju maakond, 11213",
+                "kirje_id": 3762319,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 89, Nõmme linnaosa, Tallinn, Harju maakond, 11213",
+                "kirje_id": 3575389,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 89, Nõmme linnaosa, Tallinn, Harju maakond, 11213",
+                "kirje_id": 3308299,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 89, Nõmme linnaosa, Tallinn, Harju maakond, 11213",
+                "kirje_id": 3085133,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "55101",
+                "tegevusala_emtak_tekstina": "Hotellid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "30"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiku tee 89, Nõmme linnaosa, Tallinn, Harju maakond, 11213",
                 "kirje_id": 2770212,
@@ -430,7 +480,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -583,48 +633,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.11.2017",
+                "algus_kpv": "09.01.2026",
+                "emtak_kood": "56211",
+                "emtak_tekstina": "Toitlustamine üritustel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074973,
+                "lopp_kpv": null,
+                "nace_kood": "56.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "09.01.2026",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000330903,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074974,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.07.2010",
-                "emtak_kood": "82301",
-                "emtak_tekstina": "Nõupidamiste ja messide korraldamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000080857,
-                "lopp_kpv": null,
-                "nace_kood": "82.30",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.07.2012",
+                "algus_kpv": "09.01.2026",
                 "emtak_kood": "55101",
                 "emtak_tekstina": "Hotellid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000205297,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001074972,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "18.07.2012",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000205298,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

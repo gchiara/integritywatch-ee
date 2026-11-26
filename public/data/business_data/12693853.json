@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.03.2020",
             "eesnimi": "Jürjo",
-            "isikukood": "39010084221",
+            "isikukood": null,
+            "isikukood_hash": "60dee705-3c1d-526c-8572-35f66e8661e7",
             "kirje_id": 9001102790,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39010084221",
+            "isikukood_hash": "60dee705-3c1d-526c-8572-35f66e8661e7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9451338",
-                "aadress_ads__adr_id": 3399659,
+                "aadress_ads__adob_id": "11008276",
+                "aadress_ads__adr_id": 3769497,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Sindi linn, Kanarbiku tn 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00717104",
-                "aadress_ads__koodaadress": "68809760700000TIO0000BTK900000000",
+                "aadress_ads__koodaadress": "68806760700000TIO0000BTK900000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
                 "ehak": "7607",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kanarbiku tn 8, Sindi linn, Tori vald, Pärnu maakond, 86704",
+                "kirje_id": 3666862,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kanarbiku tn 8, Sindi linn, Tori vald, Pärnu maakond, 86704",
+                "kirje_id": 3584498,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kanarbiku tn 8, Sindi linn, Tori vald, Pärnu maakond, 86704",
+                "kirje_id": 3119518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kanarbiku tn 8, Sindi linn, Tori vald, Pärnu maakond, 86704",
                 "kirje_id": 2831837,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -322,26 +360,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.05.2021",
+                "algus_kpv": "04.02.2026",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000550886,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001080251,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.06.2023",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000687654,
-                "lopp_kpv": null,
-                "nace_kood": "02.10",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

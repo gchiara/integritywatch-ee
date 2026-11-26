@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.03.2023",
             "eesnimi": "Roman",
-            "isikukood": "37904230325",
+            "isikukood": null,
+            "isikukood_hash": "6299bdf5-4c9a-5f6b-b7d6-546158f510c9",
             "kirje_id": 9001550690,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37904230325",
+            "isikukood_hash": "6299bdf5-4c9a-5f6b-b7d6-546158f510c9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laeva tee 4/2, Miiduranna küla, Viimsi vald, Harju maakond, 74015",
+                "kirje_id": 3802258,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "36"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laeva tee 4/2, Miiduranna küla, Viimsi vald, Harju maakond, 74015",
+                "kirje_id": 3338611,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laeva tee 4/2, Miiduranna küla, Viimsi vald, Harju maakond, 74015",
+                "kirje_id": 3295509,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu teimimine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "37"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laeva tee 4/2, Miiduranna küla, Viimsi vald, Harju maakond, 74015",
+                "kirje_id": 3009085,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "71209",
+                "tegevusala_emtak_tekstina": "Muu teimimine ja analüüs",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "43"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laeva tee 4/2, Miiduranna küla, Viimsi vald, Harju maakond, 74015",
                 "kirje_id": 2753793,
@@ -419,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,12 +527,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 7650479,
+                "kande_nr": 16,
+                "kirje_id": 12771263,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "accounts@inspectorate.ee"
+                "sisu": "accounts.estonia@bureauveritas.com"
             },
             {
                 "kaardi_nr": null,
@@ -522,12 +572,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "14.03.2025",
                 "emtak_kood": "71209",
-                "emtak_tekstina": "Muu teimimine ja analüüs",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000043691,
+                "emtak_tekstina": "Muu tehniline katsetamine ja analüüs",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000834625,
                 "lopp_kpv": null,
                 "nace_kood": "71.20",
                 "on_pohitegevusala": true

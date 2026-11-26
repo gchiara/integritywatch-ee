@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.07.2021",
             "eesnimi": "Tõnis",
-            "isikukood": "37002080288",
+            "isikukood": null,
+            "isikukood_hash": "c9128bb0-6545-5bd7-8ef8-99d047306616",
             "kirje_id": 9001305239,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37603250336",
+            "isikukood_hash": "2875da79-51ae-5afc-b92b-297d7f38bf84",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3540875,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "91121",
+                "tegevusala_emtak_tekstina": "Arhiivide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.12",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3291224,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "91012",
+                "tegevusala_emtak_tekstina": "Arhiivide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.01",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Katusepapi tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
+                "kirje_id": 3148246,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "91012",
+                "tegevusala_emtak_tekstina": "Arhiivide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.01",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Katusepapi tn 20, Lasnamäe linnaosa, Tallinn, Harju maakond, 11412",
                 "kirje_id": 2713277,
@@ -430,7 +468,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,14 +626,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "91012",
+                "algus_kpv": "24.07.2025",
+                "emtak_kood": "91121",
                 "emtak_tekstina": "Arhiivide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000027978,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001036563,
                 "lopp_kpv": null,
-                "nace_kood": "91.01",
+                "nace_kood": "91.12",
                 "on_pohitegevusala": true
             }
         ],

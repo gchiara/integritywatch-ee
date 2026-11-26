@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.09.2018",
             "eesnimi": "Neinar",
-            "isikukood": "35912072728",
+            "isikukood": null,
+            "isikukood_hash": "d830252c-164a-5d86-88ed-7e5844b2bd03",
             "kirje_id": 9000670746,
             "kontrolli_teostamise_viis": "X",
             "kontrolli_teostamise_viis_tekstina": "suurem kui 50%-line osalus konsolideeritava üksuse hääleõiguses",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38012312738",
+            "isikukood_hash": "859e70e2-6d47-5a5a-a448-132790511c4e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10240584",
+                "aadress_ads__adob_id": "11492646",
                 "aadress_ads__adr_id": 3099015,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Tehase tn 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tehase tn 16, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3757739,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22261",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.26",
+                "tootajate_arv": "214"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehase tn 16, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3478923,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22261",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.26",
+                "tootajate_arv": "194"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tehase tn 16, Tartu linn, Tartu linn, Tartu maakond, 50107",
+                "kirje_id": 3212646,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22291",
+                "tegevusala_emtak_tekstina": "Muude plasttoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.29",
+                "tootajate_arv": "173"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tehase tn 16, Tartu linn, Tartu linn, Tartu maakond, 50107",
                 "kirje_id": 2913629,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -600,14 +638,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2012",
-                "emtak_kood": "22291",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "22261",
                 "emtak_tekstina": "Muude plasttoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000194698,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975281,
                 "lopp_kpv": null,
-                "nace_kood": "22.29",
+                "nace_kood": "22.26",
                 "on_pohitegevusala": true
             }
         ],

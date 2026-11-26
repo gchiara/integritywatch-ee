@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Pavel",
-            "isikukood": "35804160213",
+            "isikukood": null,
+            "isikukood_hash": "93f2cbeb-50a1-547c-be00-a8737c4b39a2",
             "kirje_id": 9000772518,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -65,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pojengi tee 43, Pirita linnaosa, Tallinn, Harju maakond, 11913",
+                "kirje_id": 3593080,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pojengi tee 43, Pirita linnaosa, Tallinn, Harju maakond, 11913",
+                "kirje_id": 3321999,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pojengi tee 43, Pirita linnaosa, Tallinn, Harju maakond, 11913",
+                "kirje_id": 3085541,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pojengi tee 43, Pirita linnaosa, Tallinn, Harju maakond, 11913",
                 "kirje_id": 2764081,
@@ -405,7 +442,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -560,37 +597,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.01.2016",
-                "emtak_kood": "71209",
-                "emtak_tekstina": "Muu teimimine ja analüüs",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000211326,
-                "lopp_kpv": null,
-                "nace_kood": "71.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "12.03.2018",
-                "emtak_kood": "46461",
-                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000342385,
-                "lopp_kpv": null,
-                "nace_kood": "46.46",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "12.03.2018",
+                "algus_kpv": "30.01.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000342384,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816129,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.01.2025",
+                "emtak_kood": "46461",
+                "emtak_tekstina": "Ravimite ja muude apteegikaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000816130,
+                "lopp_kpv": null,
+                "nace_kood": "46.46",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

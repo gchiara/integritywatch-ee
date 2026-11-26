@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.01.2020",
             "eesnimi": "Kristina",
-            "isikukood": "47510275224",
+            "isikukood": null,
+            "isikukood_hash": "5bb7e93a-31da-51c1-ab93-d3401d9bb97a",
             "kirje_id": 9001074881,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37610065232",
+            "isikukood_hash": "da369b2c-b943-50ed-9117-f535b6583e76",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7605364",
-                "aadress_ads__adr_id": 2552595,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Vabaduse pst 174b",
+                "aadress_ads__adob_id": "10777299",
+                "aadress_ads__adr_id": 3474939,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Jälgimäe küla, Lepatriinu tee 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01083335",
-                "aadress_ads__koodaadress": "3778405240000060Y0000AQ8X00000000",
+                "aadress_ads__ads_oid": "EE03978966",
+                "aadress_ads__koodaadress": "37719230700000TXQ0000C3EQ00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "12.11.2021",
-                "ehak": "0524",
-                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "18.03.2024",
+                "ehak": "2307",
+                "ehak_nimetus": "Jälgimäe küla, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 9849740,
+                "kande_nr": 12,
+                "kirje_id": 12378748,
                 "lopp_kpv": null,
-                "postiindeks": "10917",
+                "postiindeks": "76404",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Vabaduse pst 174b"
+                "tanav_maja_korter": "Lepatriinu tee 8"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lepatriinu tee 8, Jälgimäe küla, Saku vald, Harju maakond, 76404",
+                "kirje_id": 3727762,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepatriinu tee 8, Jälgimäe küla, Saku vald, Harju maakond, 76404",
+                "kirje_id": 3358848,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepatriinu tee 8, Jälgimäe küla, Saku vald, Harju maakond, 76404",
+                "kirje_id": 3115618,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vabaduse pst 174b, Nõmme linnaosa, Tallinn, Harju maakond, 10917",
                 "kirje_id": 2772328,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -319,13 +357,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "10.09.2014",
+                "algus_kpv": "18.03.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 3,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kinnitamise_kpv": "10.08.2014",
-                "kirje_id": 5309172,
+                "kande_nr": 12,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12378749,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -382,14 +420,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.09.2013",
-                "emtak_kood": "43911",
+                "algus_kpv": "22.04.2025",
+                "emtak_kood": "43411",
                 "emtak_tekstina": "Katusetööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000086609,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856402,
                 "lopp_kpv": null,
-                "nace_kood": "43.91",
+                "nace_kood": "43.41",
                 "on_pohitegevusala": true
             }
         ],

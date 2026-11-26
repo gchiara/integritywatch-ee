@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "36207310364",
+            "isikukood": null,
+            "isikukood_hash": "5f9cf494-9e3d-51b2-a3f6-aaaa66e46e25",
             "kirje_id": 9000726352,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.10.2018",
             "eesnimi": "Raul",
-            "isikukood": "37206230347",
+            "isikukood": null,
+            "isikukood_hash": "7df1b5ca-fb53-569a-b0d7-e6d465e8c19e",
             "kirje_id": 9000726354,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206230347",
+            "isikukood_hash": "7df1b5ca-fb53-569a-b0d7-e6d465e8c19e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3710725,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3417465,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3148115,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68329",
+                "tegevusala_emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "26"
+            },
             {
                 "ettevotja_aadress_aruandes": "Estonia pst 15, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
                 "kirje_id": 2814000,
@@ -328,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -450,12 +489,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.07.2018",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "68329",
                 "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000373272,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000916205,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": true

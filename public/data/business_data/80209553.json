@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.09.2018",
             "eesnimi": "Larissa",
-            "isikukood": "47512070248",
+            "isikukood": null,
+            "isikukood_hash": "1c6c448d-0983-5578-8736-6fd739c8aff3",
             "kirje_id": 9000718773,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47512070248",
+            "isikukood_hash": "1c6c448d-0983-5578-8736-6fd739c8aff3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9628768",
+                "aadress_ads__adob_id": "10987169",
                 "aadress_ads__adr_id": 2364618,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Sinirebase tn 24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sinirebase tn 24, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
+                "kirje_id": 3172125,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "30"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sinirebase tn 24, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
                 "kirje_id": 2878163,
@@ -273,7 +287,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -354,6 +368,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "26.03.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "MTÜ",
+                "kande_nr": 22,
+                "kirje_id": 13026847,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 25.03.2025.a. kohtumäärusega tsiviilasjas nr 2-24-12182 on kuulutatud välja Mittetulundusühingu Loomade Hoiupaik pankrot 25.03.2025 kell 19.00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -378,8 +406,8 @@
                 "sisu": "+372 58012597"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "23.08.2004",
@@ -389,6 +417,15 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "26.03.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "MTÜ",
+                "kande_nr": 22,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
@@ -397,7 +434,7 @@
                 "emtak_kood": "94996",
                 "emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000070726,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
@@ -405,6 +442,6 @@
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

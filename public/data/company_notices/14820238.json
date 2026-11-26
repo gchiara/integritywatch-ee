@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-09-08",
+                "award_date_conclusion_contract": [
+                    "2023-09-08"
+                ],
                 "award_value": "10200.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "6"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Tööharjutus Narva linnas, Jõhvi linnas, Kiviõli linnas ja Kohtla-Järve linnas",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -37,10 +39,13 @@
         "docType2": "",
         "filename": "award_c0e2a142-66e8-4724-8f01-615e19b1b11f_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Nominees as company beneficial owners: Natalja_Gorneva_07.10.2019",
+            "Nominees as company board members: Natalja_Gorneva_07.10.2019"
         ],
         "noticeUid": "c0e2a142-66e8-4724-8f01-615e19b1b11f",
         "notice_items": [
@@ -50,6 +55,62 @@
         ],
         "refnum": "267369",
         "total_amount": "28840.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-02-08"
+                ],
+                "award_value": "17550.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "16604361",
+                        "contractor_name": "OÜ Tropic",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tööharjutus Võru linnas",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "74000085",
+                "name": "Eesti Töötukassa",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14820238",
+            "16604361"
+        ],
+        "cpv": "85320000",
+        "date_dispatch_notice": "2024-02-09",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_8db492e6-5c13-463a-af53-1bb127f8041d_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "8db492e6-5c13-463a-af53-1bb127f8041d",
+        "notice_items": [
+            {},
+            {}
+        ],
+        "refnum": "274206",
+        "total_amount": "31310.00",
         "total_amount_curr": "EUR"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.09.2018",
             "eesnimi": "Riina",
-            "isikukood": "47306082727",
+            "isikukood": null,
+            "isikukood_hash": "2215665c-8330-5fb3-bd52-f02f8ac1f12d",
             "kirje_id": 9000694925,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37212062715",
+            "isikukood_hash": "8436c039-8faa-5f6c-9e9e-9825f99c6f65",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47306082727",
+            "isikukood_hash": "2215665c-8330-5fb3-bd52-f02f8ac1f12d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Väike kaar 27-8, Tartu linn, Tartu linn, Tartu maakond, 50406",
+                "kirje_id": 3693373,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike kaar 27-8, Tartu linn, Tartu linn, Tartu maakond, 50406",
+                "kirje_id": 3489988,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01301",
+                "tegevusala_emtak_tekstina": "Taimede paljundamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Väike kaar 27-8, Tartu linn, Tartu linn, Tartu maakond, 50406",
+                "kirje_id": 3156318,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01301",
+                "tegevusala_emtak_tekstina": "Taimede paljundamine ja istikukasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.30",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Väike kaar 27-8, Tartu linn, Tartu linn, Tartu maakond, 50406",
                 "kirje_id": 2943698,
@@ -443,7 +482,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -550,26 +589,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.05.2020",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000476236,
+                "algus_kpv": "17.06.2026",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114970,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
-                "on_pohitegevusala": false
+                "nace_kood": "02.20",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "11.05.2020",
+                "algus_kpv": "17.06.2026",
                 "emtak_kood": "01301",
                 "emtak_tekstina": "Taimede paljundamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000476235,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114971,
                 "lopp_kpv": null,
                 "nace_kood": "01.30",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

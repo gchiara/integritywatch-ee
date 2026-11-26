@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.05.2019",
             "eesnimi": "Merike",
-            "isikukood": "47404050324",
+            "isikukood": null,
+            "isikukood_hash": "f2e051af-82ce-594d-aa8c-498f9f3cb5fa",
             "kirje_id": 9000975209,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47404050324",
+            "isikukood_hash": "f2e051af-82ce-594d-aa8c-498f9f3cb5fa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6733682",
-                "aadress_ads__adr_id": 2257802,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Luite tn 36",
+                "aadress_ads__adob_id": "9913253",
+                "aadress_ads__adr_id": 2121817,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, A. Lauteri tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00642453",
-                "aadress_ads__koodaadress": "3778402980000047600001EOC00000000",
+                "aadress_ads__ads_oid": "ME00649555",
+                "aadress_ads__koodaadress": "377840298000005VY00001D5N00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "01.12.2017",
+                "algus_kpv": "14.01.2026",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7207382,
+                "kande_nr": 8,
+                "kirje_id": 13516331,
                 "lopp_kpv": null,
-                "postiindeks": "11313",
+                "postiindeks": "10114",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Luite tn 36"
+                "tanav_maja_korter": "A. Lauteri tn 3"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. Lauteri tn 3, Kesklinna linnaosa, Tallinn, Harju maakond, 10114",
+                "kirje_id": 3819655,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Luite tn 36, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3550987,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Luite tn 36, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3207518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Luite tn 36, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2930428,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -395,14 +433,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.09.2009",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000071970,
+                "algus_kpv": "24.08.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001046871,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
             }
         ],

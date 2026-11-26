@@ -7,6 +7,7 @@
             "algus_kpv": "28.11.2022",
             "eesnimi": "Aleksandr",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001503329,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -24,6 +25,7 @@
             "algus_kpv": "28.11.2022",
             "eesnimi": "Gennadi",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001503330,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tn 6, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3619273,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tn 6, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3349863,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kiriku tn 6, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
+                "kirje_id": 3091364,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kiriku tn 6, Kesklinna linnaosa, Tallinn, Harju maakond, 10130",
                 "kirje_id": 2827109,
@@ -340,7 +379,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,7 +516,7 @@
                 "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000012452,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
@@ -486,9 +525,9 @@
             {
                 "algus_kpv": "16.06.2020",
                 "emtak_kood": "46492",
-                "emtak_tekstina": "Spordikaupade hulgimüük (v.a spordirõivad ja -jalatsid)",
+                "emtak_tekstina": "Spordikaupade hulgimüük (v.a spordirõivad ja vabaajajalatsid)",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000483038,
                 "lopp_kpv": null,
                 "nace_kood": "46.49",
@@ -497,9 +536,9 @@
             {
                 "algus_kpv": "15.04.2011",
                 "emtak_kood": "47641",
-                "emtak_tekstina": "Sporditarvete jaemüük",
+                "emtak_tekstina": "Sporditarvete jaemüük spetsialiseeritud kauplustes",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000110517,
                 "lopp_kpv": null,
                 "nace_kood": "47.64",

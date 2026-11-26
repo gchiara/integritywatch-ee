@@ -4,12 +4,13 @@
         {
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "22.10.2018",
-            "eesnimi": "Tarmo",
-            "isikukood": "36110290260",
-            "kirje_id": 9000798110,
-            "kontrolli_teostamise_viis": "O",
-            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "algus_kpv": "23.05.2024",
+            "eesnimi": "Marko",
+            "isikukood": null,
+            "isikukood_hash": "cb9bdd38-e324-5b06-8496-3288b5e5b0b7",
+            "kirje_id": 9001711572,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Laaban",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39104260294",
+            "isikukood_hash": "cb9bdd38-e324-5b06-8496-3288b5e5b0b7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Silva tee 8, Randvere küla, Viimsi vald, Harju maakond, 74016",
+                "kirje_id": 3621124,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Silva tee 8, Randvere küla, Viimsi vald, Harju maakond, 74016",
+                "kirje_id": 3395767,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55901",
+                "tegevusala_emtak_tekstina": "Muu majutus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Silva tee 8, Randvere küla, Viimsi vald, Harju maakond, 74016",
+                "kirje_id": 3115405,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Silva tee 8, Randvere küla, Viimsi vald, Harju maakond, 74016",
                 "kirje_id": 2833415,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -467,26 +505,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.05.2010",
-                "emtak_kood": "38111",
-                "emtak_tekstina": "Tavajäätmete kogumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000018294,
+                "algus_kpv": "16.04.2026",
+                "emtak_kood": "43351",
+                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095611,
                 "lopp_kpv": null,
-                "nace_kood": "38.11",
-                "on_pohitegevusala": false
+                "nace_kood": "43.35",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "43391",
-                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000032636,
+                "algus_kpv": "16.04.2026",
+                "emtak_kood": "55901",
+                "emtak_tekstina": "Muu majutus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001095612,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
-                "on_pohitegevusala": true
+                "nace_kood": "55.90",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

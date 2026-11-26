@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Aleksei",
-            "isikukood": "37303300255",
+            "isikukood": null,
+            "isikukood_hash": "e421c1a8-c278-586b-a1ea-f4944f85b4e3",
             "kirje_id": 9000871838,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37303300255",
+            "isikukood_hash": "e421c1a8-c278-586b-a1ea-f4944f85b4e3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9253887",
-                "aadress_ads__adr_id": 3303543,
+                "aadress_ads__adob_id": "11184115",
+                "aadress_ads__adr_id": 3804807,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Edise küla, Kullamäe",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01817926",
-                "aadress_ads__koodaadress": "452511524000000001VXE000000000000",
+                "aadress_ads__koodaadress": "452501524000000001VXE000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "08.12.2017",
                 "ehak": "1524",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kullamäe, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
+                "kirje_id": 3269755,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "6832",
+                "tegevusala_emtak_tekstina": "Kinnisvara haldus tasu eest või lepingu alusel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kullamäe, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
                 "kirje_id": 2856999,
@@ -215,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -353,7 +367,7 @@
                 "emtak_kood": "6832",
                 "emtak_tekstina": "Kinnisvara haldus tasu eest või lepingu alusel",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000462395,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
@@ -364,7 +378,7 @@
                 "emtak_kood": "45201",
                 "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000553494,
                 "lopp_kpv": null,
                 "nace_kood": "45.20",

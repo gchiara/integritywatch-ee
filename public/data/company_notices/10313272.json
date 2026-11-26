@@ -37,12 +37,10 @@
         "docType2": "default",
         "filename": "award_c2e50489-9525-4ce7-b691-a2c983a125c7_0.json",
         "flags": [
-            "Too few evaluation criteria",
-            "Seller is a large political donor"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Political donations from beneficial owner of a contractor company: Gunnar Veermäe. Company: NANO Turvasüsteemide Osaühing(10313272). AMT: 1261"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "c2e50489-9525-4ce7-b691-a2c983a125c7",
         "notice_items": [
@@ -54,7 +52,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-03",
+                "award_date_conclusion_contract": [
+                    "2023-08-03"
+                ],
                 "award_value": "46070.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -69,7 +69,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Nõrkvoolu- ja turvasüsteemide hooldus- ja remonditööd",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -102,6 +102,112 @@
         ],
         "refnum": "265777",
         "total_amount": "46070.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-04-21"
+                ],
+                "award_value": "30402.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10313272",
+                        "contractor_name": "NANO Turvasüsteemide Osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "SA Viljandi Haigla nõrkvoolusüsteemide hooldustööd",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "90004585",
+                "name": "Sihtasutus Viljandi Haigla",
+                "town": "Viljandi linn"
+            }
+        ],
+        "contractors": [
+            "10313272"
+        ],
+        "cpv": "50300000",
+        "date_dispatch_notice": "2026-04-22",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_ceaf6a60-a25e-47d0-848d-707703161782_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "ceaf6a60-a25e-47d0-848d-707703161782",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "305345-0000",
+        "total_amount": "30402.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-08-27"
+                ],
+                "award_value": "114995.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10313272",
+                        "contractor_name": "NANO Turvasüsteemide Osaühing",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Valve- ja läbipääsusüsteemi osaline asendamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "10313272"
+        ],
+        "cpv": "35120000",
+        "date_dispatch_notice": "2026-08-31",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_78775bec-2192-4852-b813-bf55b8870175_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "78775bec-2192-4852-b813-bf55b8870175",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "311815-0000",
+        "total_amount": "114995.00",
         "total_amount_curr": "EUR"
     }
 ]

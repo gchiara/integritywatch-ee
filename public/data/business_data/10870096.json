@@ -7,6 +7,7 @@
             "algus_kpv": "23.01.2023",
             "eesnimi": "Oona Elliriina",
             "isikukood": null,
+            "isikukood_hash": "6e97e62a-6083-5827-b0b1-edfec08772ba",
             "kirje_id": 9001525036,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Lyytikäinen",
             "synniaeg": null,
-            "valis_kood": "090193-2068",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "23.01.2023",
             "eesnimi": "Ville-Antti Einari",
             "isikukood": null,
+            "isikukood_hash": "a0ad0bc8-d720-58d7-9460-e523f4bd2620",
             "kirje_id": 9001525037,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Repo",
             "synniaeg": null,
-            "valis_kood": "261190-2254",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         }
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36509220253",
+            "isikukood_hash": "72f5a906-96e0-543b-acea-48b6ac4adbc8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,6 +97,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "a0ad0bc8-d720-58d7-9460-e523f4bd2620",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -106,7 +110,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "26.11.1990",
-            "valis_kood": "261190-2254",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome",
             "volituste_loppemise_kpv": ""
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 12, Laabi küla, Harku vald, Harju maakond, 76922",
+                "kirje_id": 3615222,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "29101",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.10",
+                "tootajate_arv": "28"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 12, Laabi küla, Harku vald, Harju maakond, 76922",
+                "kirje_id": 3379151,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "29101",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.10",
+                "tootajate_arv": "27"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tee 12, Laabi küla, Harku vald, Harju maakond, 76922",
+                "kirje_id": 3056768,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "29101",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.10",
+                "tootajate_arv": "31"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tee 12, Laabi küla, Harku vald, Harju maakond, 76922",
                 "kirje_id": 2799454,
@@ -425,7 +465,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -554,12 +594,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.03.2017",
+                "algus_kpv": "22.05.2025",
                 "emtak_kood": "29101",
                 "emtak_tekstina": "Mootorsõidukite tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000283113,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000877696,
                 "lopp_kpv": null,
                 "nace_kood": "29.10",
                 "on_pohitegevusala": true

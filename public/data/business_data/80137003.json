@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Eero",
-            "isikukood": "38803224235",
+            "isikukood": null,
+            "isikukood_hash": "df017256-7463-5049-82ff-163b7976926a",
             "kirje_id": 9000764329,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38803224235",
+            "isikukood_hash": "df017256-7463-5049-82ff-163b7976926a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8718355",
-                "aadress_ads__adr_id": 3092427,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Rüütli tn 4",
+                "aadress_ads__adob_id": "11193323",
+                "aadress_ads__adr_id": 3093126,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Kastani tn 42",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00770721",
-                "aadress_ads__koodaadress": "79793815100000SNH0000BK3N00000000",
+                "aadress_ads__ads_oid": "ME00750188",
+                "aadress_ads__koodaadress": "79793815100000SSB0000BK7G00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2022",
+                "algus_kpv": "22.06.2026",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 17,
-                "kirje_id": 10337147,
+                "kande_nr": 21,
+                "kirje_id": 13828376,
                 "lopp_kpv": null,
-                "postiindeks": "51007",
+                "postiindeks": "50410",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Rüütli tn 4"
+                "tanav_maja_korter": "Kastani tn 42"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
+                "kirje_id": 3698608,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94991",
+                "tegevusala_emtak_tekstina": "Kodanikuõiguste kaitse ja eestkoste; teatud elanikegrupi huvide kaitse",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "113"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kastani tn 42, Tartu linn, Tartu linn, Tartu maakond, 50410",
+                "kirje_id": 3499922,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94991",
+                "tegevusala_emtak_tekstina": "Kodanikuõiguste kaitse ja eestkoste; teatud elanikegrupi huvide kaitse",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "129"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rüütli tn 4, Tartu linn, Tartu linn, Tartu maakond, 51007",
+                "kirje_id": 3239631,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94991",
+                "tegevusala_emtak_tekstina": "Kodanikuõiguste kaitse ja eestkoste; teatud elanikegrupi huvide kaitse",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "92"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rüütli tn 4, Tartu linn, Tartu linn, Tartu maakond, 51007",
                 "kirje_id": 2902973,
@@ -273,7 +311,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,12 +427,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.08.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "94991",
-                "emtak_tekstina": "Kodanikuõiguste kaitse ja eestkoste; teatud elanikegrupi  huvide kaitse",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000083375,
+                "emtak_tekstina": "Kodanikuõiguste kaitse ja eestkoste; teatud elanikegrupi huvide kaitse",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997112,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

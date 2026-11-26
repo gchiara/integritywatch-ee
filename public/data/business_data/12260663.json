@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Madis",
-            "isikukood": "35408096044",
+            "isikukood": null,
+            "isikukood_hash": "8eb809fe-dffb-5b49-8f27-f67184ed03ce",
             "kirje_id": 9000757112,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35408096044",
+            "isikukood_hash": "8eb809fe-dffb-5b49-8f27-f67184ed03ce",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -96,13 +98,49 @@
                 "sisu": "Matteron OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "04.04.2012",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Niidu tn 6, Karksi-Nuia linn, Mulgi vald, Viljandi maakond, 69104",
+                "kirje_id": 3691489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Niidu tn 6, Karksi-Nuia linn, Mulgi vald, Viljandi maakond, 69104",
+                "kirje_id": 3416897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Niidu tn 6, Karksi-Nuia linn, Mulgi vald, Viljandi maakond, 69104",
+                "kirje_id": 3129350,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Niidu tn 6, Karksi-Nuia linn, Mulgi vald, Viljandi maakond, 69104",
                 "kirje_id": 2893750,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,37 +396,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.07.2022",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000644829,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "35141",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698859,
-                "lopp_kpv": null,
-                "nace_kood": "35.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2013",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000038328,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915685,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "35141",
+                "emtak_tekstina": "Elektrienergia jaotus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915686,
+                "lopp_kpv": null,
+                "nace_kood": "35.14",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

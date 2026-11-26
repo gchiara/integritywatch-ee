@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2018",
             "eesnimi": "Eedi",
-            "isikukood": "34902010371",
+            "isikukood": null,
+            "isikukood_hash": "d51e17da-3919-5766-a414-b21e4fde04b1",
             "kirje_id": 9000748816,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34902010371",
+            "isikukood_hash": "d51e17da-3919-5766-a414-b21e4fde04b1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 3,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10173037",
+                "aadress_ads__adob_id": "10897616",
                 "aadress_ads__adr_id": 3549204,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Märjamaa vald, Märjamaa alev, Pärnu mnt 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -114,6 +116,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3589853,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3324674,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
+                "kirje_id": 3059638,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 13, Märjamaa alev, Märjamaa vald, Rapla maakond, 78301",
                 "kirje_id": 2781326,
@@ -452,7 +490,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -538,12 +576,12 @@
                 "kaardi_nr": 3,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7795107,
+                "kande_nr": 6,
+                "kirje_id": 12332682,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "sillaehitus@hot.ee"
+                "sisu": "sillaehitus1@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -594,69 +632,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000067284,
-                "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2018",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000361404,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "21.06.2018",
-                "emtak_kood": "71121",
-                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000361405,
-                "lopp_kpv": null,
-                "nace_kood": "71.12",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.03.2023",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674069,
-                "lopp_kpv": null,
-                "nace_kood": "02.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.03.2022",
+                "algus_kpv": "18.02.2026",
                 "emtak_kood": "42131",
                 "emtak_tekstina": "Silla- ja tunneliehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000607354,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001082962,
                 "lopp_kpv": null,
                 "nace_kood": "42.13",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "17.03.2022",
-                "emtak_kood": "77321",
-                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000607355,
+                "algus_kpv": "06.02.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819062,
                 "lopp_kpv": null,
-                "nace_kood": "77.32",
+                "nace_kood": "68.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "06.02.2025",
+                "emtak_kood": "96229",
+                "emtak_tekstina": "Muud iluhooldused ja iluteenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000819066,
+                "lopp_kpv": null,
+                "nace_kood": "96.22",
                 "on_pohitegevusala": false
             }
         ],

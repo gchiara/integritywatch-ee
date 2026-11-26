@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.09.2018",
             "eesnimi": "Allen",
-            "isikukood": "38611016525",
+            "isikukood": null,
+            "isikukood_hash": "2c6046d7-d782-57c3-946a-16db110f8760",
             "kirje_id": 9000692484,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.09.2018",
             "eesnimi": "Rome",
-            "isikukood": "38512116511",
+            "isikukood": null,
+            "isikukood_hash": "c937d1b0-d59a-58d0-8421-7b5b0fb32bfa",
             "kirje_id": 9000692485,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38611016525",
+            "isikukood_hash": "2c6046d7-d782-57c3-946a-16db110f8760",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38512116511",
+            "isikukood_hash": "c937d1b0-d59a-58d0-8421-7b5b0fb32bfa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karre, Reola küla, Kambja vald, Tartu maakond, 61707",
+                "kirje_id": 3717675,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karre, Reola küla, Kambja vald, Tartu maakond, 61707",
+                "kirje_id": 3386470,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karre, Reola küla, Kambja vald, Tartu maakond, 61707",
+                "kirje_id": 3097726,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "29202",
+                "tegevusala_emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karre, Reola küla, Kambja vald, Tartu maakond, 61707",
                 "kirje_id": 2801889,
@@ -281,7 +321,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -410,12 +450,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2015",
+                "algus_kpv": "29.05.2025",
                 "emtak_kood": "29202",
                 "emtak_tekstina": "Haagiste, poolhaagiste ning konteinerite tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000170027,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000885029,
                 "lopp_kpv": null,
                 "nace_kood": "29.20",
                 "on_pohitegevusala": true

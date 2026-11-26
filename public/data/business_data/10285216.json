@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.11.2019",
             "eesnimi": "Ain",
-            "isikukood": "36712220315",
+            "isikukood": null,
+            "isikukood_hash": "177cb742-9cc7-5ef8-93c1-df588653d8e7",
             "kirje_id": 9001048740,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.11.2019",
             "eesnimi": "Reet",
-            "isikukood": "44010280236",
+            "isikukood": null,
+            "isikukood_hash": "fe28ab2b-209a-5dfd-95eb-dd904a71263d",
             "kirje_id": 9001048741,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "44010280236",
+            "isikukood_hash": "fe28ab2b-209a-5dfd-95eb-dd904a71263d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Randla tn 11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10315",
+                "kirje_id": 3799867,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5611",
+                "tegevusala_emtak_tekstina": "Restoranitegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Randla tn 11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10315",
+                "kirje_id": 3506066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56111",
+                "tegevusala_emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.11",
+                "tootajate_arv": "23"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Randla tn 11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10315",
+                "kirje_id": 3182779,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56101",
+                "tegevusala_emtak_tekstina": "Restoranid jm toitlustuskohad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.10",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Randla tn 11, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10315",
                 "kirje_id": 2927113,
@@ -460,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -591,37 +630,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "5510",
                 "emtak_tekstina": "Hotellid ja muu sarnane majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310849,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001003200,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310848,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2015",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000185160,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001003201,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "06.07.2026",
+                "emtak_kood": "5611",
+                "emtak_tekstina": "Restoranitegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001137401,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

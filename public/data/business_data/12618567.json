@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 12618567,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "19.06.2026",
+            "eesnimi": "Ervin",
+            "isikukood": null,
+            "isikukood_hash": "0a729e56-41b1-5e73-84af-aa6aedb656cf",
+            "kirje_id": 9003560869,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Arnik",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38501090287",
+            "isikukood_hash": "0a729e56-41b1-5e73-84af-aa6aedb656cf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -44,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10253656",
+                "aadress_ads__adob_id": "10957887",
                 "aadress_ads__adr_id": 3305055,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Kohila vald, Rabivere küla, Rämingu",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rämingu, Rabivere küla, Kohila vald, Rapla maakond, 79610",
+                "kirje_id": 3608339,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rämingu, Rabivere küla, Kohila vald, Rapla maakond, 79610",
+                "kirje_id": 3403316,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rämingu, Rabivere küla, Kohila vald, Rapla maakond, 79610",
+                "kirje_id": 3196628,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01501",
+                "tegevusala_emtak_tekstina": "Segapõllumajandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.50",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rämingu, Rabivere küla, Kohila vald, Rapla maakond, 79610",
                 "kirje_id": 2795704,
@@ -209,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -316,12 +372,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.02.2014",
+                "algus_kpv": "09.06.2025",
                 "emtak_kood": "01501",
                 "emtak_tekstina": "Segapõllumajandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000098512,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900940,
                 "lopp_kpv": null,
                 "nace_kood": "01.50",
                 "on_pohitegevusala": true

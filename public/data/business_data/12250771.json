@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2020",
             "eesnimi": "Tiit",
-            "isikukood": "37204066023",
+            "isikukood": null,
+            "isikukood_hash": "bc0dd06e-66c7-5797-9106-add252ad8eb1",
             "kirje_id": 9001138181,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37204066023",
+            "isikukood_hash": "bc0dd06e-66c7-5797-9106-add252ad8eb1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Altvälja/1, Ilbaku küla, Põhja-Sakala vald, Viljandi maakond, 71307",
+                "kirje_id": 3699204,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Altvälja/1, Ilbaku küla, Põhja-Sakala vald, Viljandi maakond, 71307",
+                "kirje_id": 3487347,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Altvälja/1, Ilbaku küla, Põhja-Sakala vald, Viljandi maakond, 71307",
+                "kirje_id": 3226198,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Altvälja/1, Ilbaku küla, Põhja-Sakala vald, Viljandi maakond, 71307",
                 "kirje_id": 2897835,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -344,17 +382,6 @@
                 "sisu": "ttsd@hot.ee"
             },
             {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kirje_id": 7723288,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "tiit@mulgimugul.ee"
-            },
-            {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
@@ -370,11 +397,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000270257,
+                "kirje_id": 9000711360,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.mulgimugul.ee"
+                "sisu": "http:// www.mulgimugul.ee"
             }
         ],
         "staatus": "R",
@@ -392,12 +419,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.03.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01131",
-                "emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000169041,
+                "emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984535,
                 "lopp_kpv": null,
                 "nace_kood": "01.13",
                 "on_pohitegevusala": true

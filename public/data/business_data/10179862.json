@@ -7,6 +7,7 @@
             "algus_kpv": "28.04.2023",
             "eesnimi": "Jakob Simon Alexis",
             "isikukood": null,
+            "isikukood_hash": "6a6824ea-0ae8-5dba-8f18-2f8831d35f12",
             "kirje_id": 9001566238,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Hallqvist",
             "synniaeg": null,
-            "valis_kood": "671203-0052",
+            "valis_kood": null,
             "valis_kood_riik": "SWE",
             "valis_kood_riik_tekstina": "Rootsi"
         }
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38301100268",
+            "isikukood_hash": "a6f1d11d-f787-53d8-a9f9-3f4d2578c72e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9467663",
+                "aadress_ads__adob_id": "10799121",
                 "aadress_ads__adr_id": 2111365,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Sõpruse pst 259",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 259, Mustamäe linnaosa, Tallinn, Harju maakond, 13414",
+                "kirje_id": 3610418,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47401",
+                "tegevusala_emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 259, Mustamäe linnaosa, Tallinn, Harju maakond, 13414",
+                "kirje_id": 3328477,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 259, Mustamäe linnaosa, Tallinn, Harju maakond, 13414",
+                "kirje_id": 3047957,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46521",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.52",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 259, Mustamäe linnaosa, Tallinn, Harju maakond, 13414",
                 "kirje_id": 2761955,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -536,26 +574,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.03.2010",
-                "emtak_kood": "47421",
-                "emtak_tekstina": "Telekommunikatsiooniseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000007162,
+                "algus_kpv": "30.03.2026",
+                "emtak_kood": "47401",
+                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091526,
                 "lopp_kpv": null,
-                "nace_kood": "47.42",
-                "on_pohitegevusala": false
+                "nace_kood": "47.40",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46521",
-                "emtak_tekstina": "Elektroonika- ja telekommunikatsiooniseadmete ning nende osade hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000040048,
+                "algus_kpv": "30.03.2026",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091527,
                 "lopp_kpv": null,
-                "nace_kood": "46.52",
-                "on_pohitegevusala": true
+                "nace_kood": "46.50",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.07.2020",
             "eesnimi": "Erich",
-            "isikukood": "36807100298",
+            "isikukood": null,
+            "isikukood_hash": "b39668a7-322c-5333-b1ca-cb8a01472915",
             "kirje_id": 9001140817,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.07.2020",
             "eesnimi": "Erki",
-            "isikukood": "36906170290",
+            "isikukood": null,
+            "isikukood_hash": "b3756ffc-4053-5092-a4c9-0a422caa8a53",
             "kirje_id": 9001140818,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36807100298",
+            "isikukood_hash": "b39668a7-322c-5333-b1ca-cb8a01472915",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 106d, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3562118,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10611",
+                "tegevusala_emtak_tekstina": "Jahu ja tangainete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.61",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 106d, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3310580,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10611",
+                "tegevusala_emtak_tekstina": "Jahu ja tangainete tootmine, k.a jahvatamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.61",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Männiku tee 106d, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
+                "kirje_id": 3036338,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "10611",
+                "tegevusala_emtak_tekstina": "Jahu ja tangainete tootmine, k.a jahvatamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.61",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Männiku tee 106d, Nõmme linnaosa, Tallinn, Harju maakond, 11216",
                 "kirje_id": 2668141,
@@ -316,7 +355,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -480,26 +519,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635874,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.08.2021",
+                "algus_kpv": "09.10.2025",
                 "emtak_kood": "10611",
-                "emtak_tekstina": "Jahu ja tangainete tootmine, k.a jahvatamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000580122,
+                "emtak_tekstina": "Jahu ja tangainete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001059312,
                 "lopp_kpv": null,
                 "nace_kood": "10.61",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.10.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001059313,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Vadim",
-            "isikukood": "37206020372",
+            "isikukood": null,
+            "isikukood_hash": "09158b50-9f68-56d4-97a2-dca0c574bb01",
             "kirje_id": 9000766287,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37206020372",
+            "isikukood_hash": "09158b50-9f68-56d4-97a2-dca0c574bb01",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6/1, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3637985,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33141",
+                "tegevusala_emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.14",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6/1, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3359812,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33141",
+                "tegevusala_emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.14",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sinilille tee 6/1, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3097117,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "33141",
+                "tegevusala_emtak_tekstina": "Elektriseadmete remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.14",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sinilille tee 6/1, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2893906,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -393,15 +431,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2015",
+                "algus_kpv": "23.04.2025",
                 "emtak_kood": "33141",
-                "emtak_tekstina": "Elektriseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000178111,
+                "emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000857390,
                 "lopp_kpv": null,
                 "nace_kood": "33.14",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "23.04.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000857391,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

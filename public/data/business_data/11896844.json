@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.06.2023",
             "eesnimi": "Jelena",
-            "isikukood": "47604082726",
+            "isikukood": null,
+            "isikukood_hash": "b81fec8c-4da8-5e98-9a1f-a0a1b58c498c",
             "kirje_id": 9001583432,
             "kontrolli_teostamise_viis": "Y",
             "kontrolli_teostamise_viis_tekstina": "Õigus nimetada või tagasi kutsuda enamikku tegevjuhtkonnast või kõrgema juhtorgani liikmeist",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37703310372",
+            "isikukood_hash": "f1e682b7-a9b7-54b0-9049-50f7d6ea89b7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3767216,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "53"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3512693,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "52"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
+                "kirje_id": 3132386,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "54"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karjääri tn 7, Maardu linn, Harju maakond, 74116",
                 "kirje_id": 2848679,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -382,26 +420,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.06.2022",
-                "emtak_kood": "33141",
-                "emtak_tekstina": "Elektriseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000625083,
-                "lopp_kpv": null,
-                "nace_kood": "33.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "12.06.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000690839,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001009651,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "33141",
+                "emtak_tekstina": "Muude elektriseadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001009652,
+                "lopp_kpv": null,
+                "nace_kood": "33.14",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

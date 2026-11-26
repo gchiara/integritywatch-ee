@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "37702062748",
+            "isikukood": null,
+            "isikukood_hash": "59e7b35b-ec9c-5248-b00e-82604ff5fa7a",
             "kirje_id": 9000847223,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37702062748",
+            "isikukood_hash": "59e7b35b-ec9c-5248-b00e-82604ff5fa7a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10577188",
+                "aadress_ads__adob_id": "11219242",
                 "aadress_ads__adr_id": 121562,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Saare maakond, Ruhnu vald, Ruhnu küla, Antsu",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Antsu, Ruhnu küla, Ruhnu vald, Saare maakond, 93001",
+                "kirje_id": 3641245,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Antsu, Ruhnu küla, Ruhnu vald, Saare maakond, 93001",
+                "kirje_id": 3404810,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Antsu, Ruhnu küla, Ruhnu vald, Saare maakond, 93001",
+                "kirje_id": 3109585,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Antsu, Ruhnu küla, Ruhnu vald, Saare maakond, 93001",
                 "kirje_id": 2830401,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -418,36 +456,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.05.2018",
-                "emtak_kood": "55202",
-                "emtak_tekstina": "Puhkemaja",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000354651,
-                "lopp_kpv": null,
-                "nace_kood": "55.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.06.2022",
-                "emtak_kood": "41201",
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623325,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000902394,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.06.2022",
-                "emtak_kood": "01451",
-                "emtak_tekstina": "Lamba- ja kitsekasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000623324,
-                "lopp_kpv": null,
-                "nace_kood": "01.45",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

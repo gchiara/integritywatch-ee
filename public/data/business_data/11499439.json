@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Anti",
-            "isikukood": "37406212769",
+            "isikukood": null,
+            "isikukood_hash": "b3ac9384-c2fe-5a38-bd63-caff8eba5329",
             "kirje_id": 9000665746,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37406212769",
+            "isikukood_hash": "b3ac9384-c2fe-5a38-bd63-caff8eba5329",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vasara tn 50, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3833362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68121",
+                "tegevusala_emtak_tekstina": "Hoonestusprojektide arendus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.12",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vasara tn 50, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3570741,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vasara tn 50, Tartu linn, Tartu linn, Tartu maakond, 50113",
+                "kirje_id": 3267675,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vasara tn 50, Tartu linn, Tartu linn, Tartu maakond, 50113",
                 "kirje_id": 2968724,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -408,15 +446,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "41201",
-                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000567345,
+                "algus_kpv": "18.09.2026",
+                "emtak_kood": "68121",
+                "emtak_tekstina": "Hoonestusprojektide arendus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001151068,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "68.12",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "18.09.2026",
+                "emtak_kood": "68111",
+                "emtak_tekstina": "Enda kinnisvara ost ja müük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001151069,
+                "lopp_kpv": null,
+                "nace_kood": "68.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.09.2026",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001151070,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.12.2025",
+                "emtak_kood": "42211",
+                "emtak_tekstina": "Vee-, gaasi- ja kanalisatsioonitrasside ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001070381,
+                "lopp_kpv": null,
+                "nace_kood": "42.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "10.12.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001070382,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

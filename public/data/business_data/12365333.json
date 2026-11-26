@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.04.2023",
             "eesnimi": "Nikita",
-            "isikukood": "38405290272",
+            "isikukood": null,
+            "isikukood_hash": "1eaad59e-ebac-588c-a900-577552bfa1c7",
             "kirje_id": 9001566076,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38405290272",
+            "isikukood_hash": "1eaad59e-ebac-588c-a900-577552bfa1c7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Läike tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3542816,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Läike tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3541655,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43241",
+                "tegevusala_emtak_tekstina": "Muud ehituspaigaldustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.24",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Läike tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3541217,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Läike tee 16, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2732070,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -295,6 +333,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "29.10.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "kirje_id": 13392380,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 29.10.2025.a kohtumäärusega tsiviilasjas nr 2-25-7003 kuulutati välja Fagel Automaatika OÜ pankrot 29. oktoobril 2025. a kell 15.00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -308,8 +360,8 @@
                 "sisu": "automaatika@fagel.ee"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "19.10.2012",
@@ -319,22 +371,31 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "29.10.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 9,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.07.2017",
-                "emtak_kood": "46721",
-                "emtak_tekstina": "Metallide ja metallimaakide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000315768,
+                "algus_kpv": "25.07.2025",
+                "emtak_kood": "43241",
+                "emtak_tekstina": "Muud ehituspaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001037285,
                 "lopp_kpv": null,
-                "nace_kood": "46.72",
+                "nace_kood": "43.24",
                 "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

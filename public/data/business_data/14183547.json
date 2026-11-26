@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "15.10.2022",
             "eesnimi": "Kalev",
-            "isikukood": "38108190217",
+            "isikukood": null,
+            "isikukood_hash": "e1483966-1725-5b52-b416-d9aec17507af",
             "kirje_id": 9001487782,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38108190217",
+            "isikukood_hash": "e1483966-1725-5b52-b416-d9aec17507af",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,66 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tuulemurru tn 3a/1, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3706676,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuulemurru tn 3a/1, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3470426,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuulemurru tn 3a/1, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3254582,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuulemurru tn 3a/1, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3032162,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tuulemurru tn 3a/1, Laagri alevik, Saue vald, Harju maakond, 76401",
+                "kirje_id": 3032104,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tuulemaa tn 14-19, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10313",
                 "kirje_id": 2492549,
@@ -167,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -246,6 +308,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@provent.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000740907,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.provent.ee"
             }
         ],
         "staatus": "R",
@@ -263,23 +336,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "23.06.2018",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000362199,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000967081,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "23.06.2018",
+                "algus_kpv": "29.06.2025",
                 "emtak_kood": "33201",
                 "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000362200,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000967082,
                 "lopp_kpv": null,
                 "nace_kood": "33.20",
                 "on_pohitegevusala": false

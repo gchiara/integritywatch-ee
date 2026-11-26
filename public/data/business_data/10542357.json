@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Peeter",
-            "isikukood": "35302020253",
+            "isikukood": null,
+            "isikukood_hash": "561825d3-622c-54ff-a385-3f5b36046bb0",
             "kirje_id": 9000684274,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35302020253",
+            "isikukood_hash": "561825d3-622c-54ff-a385-3f5b36046bb0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 23a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3724171,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 23a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3414594,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vabriku tn 23a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
+                "kirje_id": 3193003,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vabriku tn 23a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10411",
                 "kirje_id": 2898860,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -527,26 +565,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2012",
-                "emtak_kood": "4399",
-                "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000189844,
-                "lopp_kpv": null,
-                "nace_kood": "43.99",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.06.2012",
+                "algus_kpv": "14.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000189843,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000913411,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "14.06.2025",
+                "emtak_kood": "4399",
+                "emtak_tekstina": "Muud mujal liigitamata eriehitustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000913412,
+                "lopp_kpv": null,
+                "nace_kood": "43.99",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

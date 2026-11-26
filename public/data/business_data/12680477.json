@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.10.2018",
             "eesnimi": "Kristel",
-            "isikukood": "48205100362",
+            "isikukood": null,
+            "isikukood_hash": "ef29b4fa-e7f5-5488-8322-f1cce47053c6",
             "kirje_id": 9000746207,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38111100386",
+            "isikukood_hash": "bcf4ac26-218d-5545-8f8a-f9aae46e655d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -58,42 +60,42 @@
             "volituste_loppemise_kpv": ""
         }
     ],
-    "nimi": "VLM INVEST OÜ",
+    "nimi": "VLM Ehituse OÜ",
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9939442",
-                "aadress_ads__adr_id": 2264612,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Gonsiori tn 3-27",
+                "aadress_ads__adob_id": "10558675",
+                "aadress_ads__adr_id": 2266911,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Rotermanni tn 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01317866",
-                "aadress_ads__koodaadress": "377840298000005Y200001FN035TF0000",
+                "aadress_ads__ads_oid": "ME01090410",
+                "aadress_ads__koodaadress": "377840298000009YY00002RM700000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "07.12.2017",
+                "algus_kpv": "18.09.2024",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7324357,
+                "kande_nr": 9,
+                "kirje_id": 12698680,
                 "lopp_kpv": null,
-                "postiindeks": "10117",
+                "postiindeks": "10111",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Gonsiori tn 3-27"
+                "tanav_maja_korter": "Rotermanni tn 6"
             }
         ],
         "arinimed": [
             {
-                "algus_kpv": "27.06.2014",
+                "algus_kpv": "18.09.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 5237164,
+                "kande_nr": 9,
+                "kirje_id": 12698682,
                 "lopp_kpv": null,
-                "sisu": "VLM INVEST OÜ"
+                "sisu": "VLM Ehituse OÜ"
             }
         ],
         "asutatud_sissemakset_tegemata": false,
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 6, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3406759,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Gonsiori tn 3-27, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
+                "kirje_id": 3175904,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Gonsiori tn 3-27, Kesklinna linnaosa, Tallinn, Harju maakond, 10117",
                 "kirje_id": 2814436,
@@ -227,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
@@ -282,13 +308,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "25.10.2022",
+                "algus_kpv": "18.09.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 8,
-                "kinnitamise_kpv": "21.10.2022",
-                "kirje_id": 10319986,
+                "kande_nr": 9,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12698681,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -300,12 +326,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 9461091,
+                "kande_nr": 9,
+                "kirje_id": 12698683,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "vlminvest@outlook.com"
+                "sisu": "info@vlmehitus.ee"
             },
             {
                 "kaardi_nr": null,
@@ -317,6 +343,17 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5140156"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000713887,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "http://www.vlmehitus.ee"
             }
         ],
         "staatus": "R",
@@ -334,14 +371,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.05.2023",
-                "emtak_kood": "41201",
+                "algus_kpv": "10.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683831,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000904199,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

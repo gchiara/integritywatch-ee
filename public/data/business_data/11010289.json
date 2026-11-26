@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "38107055218",
+            "isikukood": null,
+            "isikukood_hash": "2beae4d7-b351-5337-aa11-0c88e8542abc",
             "kirje_id": 9000848630,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38107055218",
+            "isikukood_hash": "2beae4d7-b351-5337-aa11-0c88e8542abc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Torupilli ots 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3793216,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Torupilli ots 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3479149,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Torupilli ots 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3122179,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62031",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.03",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Torupilli ots 2, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
                 "kirje_id": 2862678,
@@ -347,7 +385,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -489,26 +527,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.06.2022",
-                "emtak_kood": "47411",
-                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000622714,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62202",
+                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975511,
                 "lopp_kpv": null,
-                "nace_kood": "47.41",
-                "on_pohitegevusala": false
+                "nace_kood": "62.20",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "03.06.2022",
-                "emtak_kood": "62031",
-                "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000622713,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47401",
+                "emtak_tekstina": "Arvutite, arvuti välisseadmete ja tarkvara jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000975512,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
-                "on_pohitegevusala": true
+                "nace_kood": "47.40",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

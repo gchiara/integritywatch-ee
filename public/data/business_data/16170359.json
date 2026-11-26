@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.08.2023",
             "eesnimi": "Innart",
-            "isikukood": "37706172737",
+            "isikukood": null,
+            "isikukood_hash": "a8d14e06-c3d0-5b40-9ba1-699f848200c0",
             "kirje_id": 9001635494,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37706172737",
+            "isikukood_hash": "a8d14e06-c3d0-5b40-9ba1-699f848200c0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -60,30 +62,6 @@
     ],
     "nimi": "Planeedi Ehitus OÜ",
     "yldandmed": {
-        "aadressid": [
-            {
-                "aadress_ads__adob_id": "6486220",
-                "aadress_ads__adr_id": 2158712,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, A. Lauteri tn 8-75",
-                "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01270440",
-                "aadress_ads__koodaadress": "377840298000005VY00002ZRI268E0000",
-                "aadress_ads__tyyp": null,
-                "algus_kpv": "25.04.2023",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 10613659,
-                "lopp_kpv": null,
-                "postiindeks": "10114",
-                "riik": "EST",
-                "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "A. Lauteri tn 8-75"
-            }
-        ],
         "arinimed": [
             {
                 "algus_kpv": "08.07.2021",
@@ -103,6 +81,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. Lauteri tn 8-75, Kesklinna linnaosa, Tallinn, Harju maakond, 10114",
+                "kirje_id": 3342152,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Planeedi tn 7-43, Kesklinna linnaosa, Tallinn, Harju maakond, 10131",
                 "kirje_id": 2753915,
@@ -230,12 +220,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 10613661,
+                "kande_nr": 9,
+                "kirje_id": 13342883,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "innart@planeedi.ee"
+                "sisu": "riigihankel@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -264,14 +254,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.03.2022",
-                "emtak_kood": "41201",
+                "algus_kpv": "21.03.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000610207,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000838629,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Rasmus",
-            "isikukood": "39105100273",
+            "isikukood": null,
+            "isikukood_hash": "1d6f20f5-467c-5fe9-92c5-f490f134e028",
             "kirje_id": 9000754407,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39105100273",
+            "isikukood_hash": "1d6f20f5-467c-5fe9-92c5-f490f134e028",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7653734",
-                "aadress_ads__adr_id": 2570430,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Järva vald, Järva-Jaani alev, Pärna tn 2a",
+                "aadress_ads__adob_id": "10798457",
+                "aadress_ads__adr_id": 3525941,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Türi vald, Taikse küla, Töökoja",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00878763",
-                "aadress_ads__koodaadress": "522552341000006DB00003E7V00000000",
+                "aadress_ads__ads_oid": "ME02261698",
+                "aadress_ads__koodaadress": "52834807800000000G3RH000000000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "11.12.2017",
-                "ehak": "2341",
-                "ehak_nimetus": "Järva-Jaani alev, Järva vald, Järva maakond",
+                "algus_kpv": "06.12.2023",
+                "ehak": "8078",
+                "ehak_nimetus": "Taikse küla, Türi vald, Järva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7359759,
+                "kande_nr": 10,
+                "kirje_id": 12181958,
                 "lopp_kpv": null,
-                "postiindeks": "73301",
+                "postiindeks": "72309",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pärna tn 2a"
+                "tanav_maja_korter": "Töökoja"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Töökoja, Taikse küla, Türi vald, Järva maakond, 72309",
+                "kirje_id": 3681167,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töökoja, Taikse küla, Türi vald, Järva maakond, 72309",
+                "kirje_id": 3439647,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43129",
+                "tegevusala_emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.12",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Töökoja, Taikse küla, Türi vald, Järva maakond, 72309",
+                "kirje_id": 3145257,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42111",
+                "tegevusala_emtak_tekstina": "Teede ja kiirteede ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.11",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärna tn 2a, Järva-Jaani alev, Järva vald, Järva maakond, 73301",
                 "kirje_id": 2782408,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -282,13 +320,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "20.03.2015",
+                "algus_kpv": "06.12.2023",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kinnitamise_kpv": "20.03.2015",
-                "kirje_id": 5491056,
+                "kande_nr": 10,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12181959,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -334,25 +372,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.08.2014",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000139990,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "43129",
+                "emtak_tekstina": "Muud kaeve- ja mullatööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937327,
                 "lopp_kpv": null,
-                "nace_kood": "42.11",
+                "nace_kood": "43.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "20.03.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000674418,
+                "algus_kpv": "12.06.2026",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001112260,
                 "lopp_kpv": null,
-                "nace_kood": "45.11",
+                "nace_kood": "49.41",
                 "on_pohitegevusala": false
             }
         ],

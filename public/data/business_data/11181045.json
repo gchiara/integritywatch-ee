@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Hans",
-            "isikukood": "37902090214",
+            "isikukood": null,
+            "isikukood_hash": "725feac2-eef3-5a50-87f4-f011d9189591",
             "kirje_id": 9000797358,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37902090214",
+            "isikukood_hash": "725feac2-eef3-5a50-87f4-f011d9189591",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7171386",
-                "aadress_ads__adr_id": 2105444,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Tähetorni tn 21",
+                "aadress_ads__adob_id": "11049587",
+                "aadress_ads__adr_id": 3737319,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Tähetorni tn 23",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01654511",
-                "aadress_ads__koodaadress": "377840524000003NV00001MSG00000000",
+                "aadress_ads__koodaadress": "377840524000003NV0000D8L400000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2017",
+                "algus_kpv": "02.08.2024",
                 "ehak": "0524",
                 "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 14,
-                "kirje_id": 7157732,
+                "kande_nr": 18,
+                "kirje_id": 12627157,
                 "lopp_kpv": null,
                 "postiindeks": "11625",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tähetorni tn 21"
+                "tanav_maja_korter": "Tähetorni tn 23"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tähetorni tn 23, Nõmme linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3730513,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähetorni tn 23, Nõmme linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3434443,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "63911",
+                "tegevusala_emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.91",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tähetorni tn 21, Nõmme linnaosa, Tallinn, Harju maakond, 11625",
+                "kirje_id": 3159687,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "80201",
+                "tegevusala_emtak_tekstina": "Turvasüsteemide käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "80.20",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tähetorni tn 21, Nõmme linnaosa, Tallinn, Harju maakond, 11625",
                 "kirje_id": 2859430,
@@ -334,7 +372,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -463,26 +501,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000129140,
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "47821",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001122754,
                 "lopp_kpv": null,
-                "nace_kood": "68.20",
+                "nace_kood": "47.82",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "80201",
-                "emtak_tekstina": "Turvasüsteemide käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000034117,
+                "algus_kpv": "23.06.2025",
+                "emtak_kood": "63911",
+                "emtak_tekstina": "Veebiotsinguportaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000932309,
                 "lopp_kpv": null,
-                "nace_kood": "80.20",
+                "nace_kood": "63.91",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "23.06.2025",
+                "emtak_kood": "80091",
+                "emtak_tekstina": "Mujal liigitamata turvatöö",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000932310,
+                "lopp_kpv": null,
+                "nace_kood": "80.09",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

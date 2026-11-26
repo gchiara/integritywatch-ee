@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-05",
+                "award_date_conclusion_contract": [
+                    "2023-07-05"
+                ],
                 "award_value": "64000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "IPv4 aadresside ost ja ümberregistreerimine koos konsultatsiooni teenusega",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -39,17 +41,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14366779",
-            "Nominees as company beneficial owners: 38110140256",
-            "Nominees as company beneficial owners: 37507132730",
-            "Nominees as company beneficial owners: 38404210222",
-            "Nominees as company beneficial owners: 37309050279",
-            "Nominees as company board members: 38110140256"
+            "Possible shell company: 14366779"
         ],
         "noticeUid": "613e23ed-9fa2-4e8e-86ca-8da5cb33a934",
         "notice_items": [
@@ -59,6 +55,62 @@
         ],
         "refnum": "264645",
         "total_amount": "64000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-07-10"
+                ],
+                "award_value": "31500.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14366779",
+                        "contractor_name": "Agregaator OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "IPv4 aadresside ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "77001613",
+                "name": "Riigi Info- ja Kommunikatsioonitehnoloogia Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14366779"
+        ],
+        "cpv": "32412110",
+        "date_dispatch_notice": "2024-07-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_83926a5a-4299-4076-b481-373348390109_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14366779"
+        ],
+        "noticeUid": "83926a5a-4299-4076-b481-373348390109",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "279920",
+        "total_amount": "31500.00",
         "total_amount_curr": "EUR"
     }
 ]

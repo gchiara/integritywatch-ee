@@ -267,7 +267,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-21",
+                "award_date_conclusion_contract": [
+                    "2023-06-21"
+                ],
                 "award_value": "8200.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -282,7 +284,7 @@
                 "tenders_received": "2"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Tartu kaasava eelarve 2023 pinkide soetamine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -328,6 +330,62 @@
         ],
         "refnum": "263782",
         "total_amount": "61280.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2021-08-18"
+                ],
+                "award_value": "617313.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10398015",
+                        "contractor_name": "Aktsiaselts VIACON Eesti",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kiirtõkestusvahendite soetamine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70009764",
+                "name": "Riigi Kaitseinvesteeringute Keskus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10398015"
+        ],
+        "cpv": "44312300",
+        "date_dispatch_notice": "2024-12-31",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_5a730a5b-c1f5-4543-9862-26dbc0f63513_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10398015"
+        ],
+        "noticeUid": "5a730a5b-c1f5-4543-9862-26dbc0f63513",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "240153",
+        "total_amount": "617313.00",
         "total_amount_curr": "EUR"
     }
 ]

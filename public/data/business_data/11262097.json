@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.02.2023",
             "eesnimi": "Margus",
-            "isikukood": "37806200300",
+            "isikukood": null,
+            "isikukood_hash": "bfe04b83-e1ab-5b4f-bbe0-3c23cbbc3017",
             "kirje_id": 9001539779,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37806200300",
+            "isikukood_hash": "bfe04b83-e1ab-5b4f-bbe0-3c23cbbc3017",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8760873",
-                "aadress_ads__adr_id": 3084191,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Sarve tn 7",
+                "aadress_ads__adob_id": "11458049",
+                "aadress_ads__adr_id": 3176630,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Alu alevik, Tallinna mnt 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00700466",
-                "aadress_ads__koodaadress": "68624661900000SUX0000BINA00000000",
+                "aadress_ads__ads_oid": "ME00916422",
+                "aadress_ads__koodaadress": "716681230000002EG00001HTU00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.12.2017",
-                "ehak": "6619",
-                "ehak_nimetus": "Pärnu linn, Pärnu linn, Pärnu maakond",
+                "algus_kpv": "22.09.2026",
+                "ehak": "1230",
+                "ehak_nimetus": "Alu alevik, Rapla vald, Rapla maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 7312757,
+                "kande_nr": 13,
+                "kirje_id": 13988048,
                 "lopp_kpv": null,
-                "postiindeks": "80033",
+                "postiindeks": "79601",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Sarve tn 7"
+                "tanav_maja_korter": "Tallinna mnt 3"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sarve tn 7, Pärnu linn, Pärnu linn, Pärnu maakond, 80033",
+                "kirje_id": 3687579,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sarve tn 7, Pärnu linn, Pärnu linn, Pärnu maakond, 80033",
+                "kirje_id": 3446671,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33201",
+                "tegevusala_emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.20",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sarve tn 7, Pärnu linn, Pärnu linn, Pärnu maakond, 80033",
+                "kirje_id": 3128038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sarve tn 7, Pärnu linn, Pärnu linn, Pärnu maakond, 80033",
                 "kirje_id": 2772353,
@@ -323,7 +361,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,13 +401,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "25.01.2013",
+                "algus_kpv": "22.09.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "12.12.2012",
-                "kirje_id": 4735940,
+                "kande_nr": 13,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13988049,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -381,12 +419,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 8025685,
+                "kande_nr": 13,
+                "kirje_id": 13988050,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "margus.maidre@kolmtex.ee"
+                "sisu": "info@kolmtex.ee"
             },
             {
                 "kaardi_nr": null,
@@ -415,14 +453,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2010",
-                "emtak_kood": "42991",
-                "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000046566,
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "33201",
+                "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000944066,
                 "lopp_kpv": null,
-                "nace_kood": "42.99",
+                "nace_kood": "33.20",
                 "on_pohitegevusala": true
             }
         ],

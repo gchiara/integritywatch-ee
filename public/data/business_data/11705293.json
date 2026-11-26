@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "38504046510",
+            "isikukood": null,
+            "isikukood_hash": "cb2bffee-5b67-53c5-89d2-cfcbf7a11191",
             "kirje_id": 9000828604,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "38306086512",
+            "isikukood": null,
+            "isikukood_hash": "707dd3e0-7053-524e-bc1d-4f308e998d78",
             "kirje_id": 9000828603,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38504046510",
+            "isikukood_hash": "cb2bffee-5b67-53c5-89d2-cfcbf7a11191",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38306086512",
+            "isikukood_hash": "707dd3e0-7053-524e-bc1d-4f308e998d78",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vee tn 3, Märja alevik, Tartu linn, Tartu maakond, 61406",
+                "kirje_id": 3710881,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vee tn 3, Märja alevik, Tartu linn, Tartu maakond, 61406",
+                "kirje_id": 3387559,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vee tn 3, Märja alevik, Tartu linn, Tartu maakond, 61406",
+                "kirje_id": 3180617,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31021",
+                "tegevusala_emtak_tekstina": "Köögimööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.02",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vee tn 3, Märja alevik, Tartu linn, Tartu maakond, 61406",
                 "kirje_id": 2884589,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -458,26 +498,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.06.2017",
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "3100",
+                "emtak_tekstina": "Mööblitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886121,
+                "lopp_kpv": null,
+                "nace_kood": "31.00",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "33201",
                 "emtak_tekstina": "Tööstuslike masinate ja seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000299330,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886122,
                 "lopp_kpv": null,
                 "nace_kood": "33.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.09.2009",
-                "emtak_kood": "31021",
-                "emtak_tekstina": "Köögimööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000020811,
-                "lopp_kpv": null,
-                "nace_kood": "31.02",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

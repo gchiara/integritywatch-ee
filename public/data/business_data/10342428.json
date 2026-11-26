@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Anu-Mall",
-            "isikukood": "47208042728",
+            "isikukood": null,
+            "isikukood_hash": "45ede8b9-a118-5c87-8c07-de4560d3ca2e",
             "kirje_id": 9000795316,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47208042728",
+            "isikukood_hash": "45ede8b9-a118-5c87-8c07-de4560d3ca2e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3735039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3510997,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata õpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3245434,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85599",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata koolitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 2, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2923147,
@@ -419,7 +457,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -485,6 +523,18 @@
                 "kirje_id": 3893678,
                 "lopp_kpv": null,
                 "sisu": "Osaühing Marketingi Instituut Estonia (ühendav ühing) ja OÜ Turundusproff (ühendatav ühing, registrikood 11556539, asukoht: Leerimäe tee 17, Järveküla küla, Rae vald, Harjumaa) ühinevad 30.06.2010.a. ühinemislepingu alusel. Ühinemisotsus on vastu võetud 03.08.2010.a. Ühinemine loetakse toimunuks käesoleva kande tegemisega, misjärel ühendatav ühing kustutatakse äriregistrist.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "18.09.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 31,
+                "kirje_id": 12698258,
+                "lopp_kpv": null,
+                "sisu": "Visionest Institute OÜ (ühendav Ühing) ja Osaühing INVICTA (ühendatav Ühing, registrikood 10232486, aadress Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 139c, 11317) ühinevad 22.12.2023 sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 01.02.2024. Ühinemine loetakse toimunuks käesoleva kande tegemisega, misjärel ühendatav ühing kustutatakse.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -577,48 +627,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2018",
-                "emtak_kood": "47621",
-                "emtak_tekstina": "Ajalehtede ja kirjatarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000369463,
-                "lopp_kpv": null,
-                "nace_kood": "47.62",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2018",
-                "emtak_kood": "58141",
-                "emtak_tekstina": "Ajakirjade jm perioodika kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000369462,
-                "lopp_kpv": null,
-                "nace_kood": "58.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "27.06.2011",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000130315,
-                "lopp_kpv": null,
-                "nace_kood": "70.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.03.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "85599",
-                "emtak_tekstina": "Muu mujal liigitamata koolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000006467,
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007986,
                 "lopp_kpv": null,
                 "nace_kood": "85.59",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "73111",
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001007987,
+                "lopp_kpv": null,
+                "nace_kood": "73.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

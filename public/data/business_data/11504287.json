@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Harald",
-            "isikukood": "37302270238",
+            "isikukood": null,
+            "isikukood_hash": "c8c6e628-b011-507a-9f27-b70b57dc4177",
             "kirje_id": 9000731466,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37302270238",
+            "isikukood_hash": "c8c6e628-b011-507a-9f27-b70b57dc4177",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3805833,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "55"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3478257,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "56"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 139f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3249225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "61"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 139f, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2900961,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -420,23 +458,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.09.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "59201",
-                "emtak_tekstina": "Helisalvestiste ja muusika kirjastamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000089873,
+                "emtak_tekstina": "Helisalvestusteenus, k.a muusika salvestamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974560,
                 "lopp_kpv": null,
                 "nace_kood": "59.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "12.05.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "73121",
                 "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000020235,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974559,
                 "lopp_kpv": null,
                 "nace_kood": "73.12",
                 "on_pohitegevusala": true

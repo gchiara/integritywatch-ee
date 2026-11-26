@@ -39,12 +39,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38611052216",
-            "Nominees as company board members: 38611052216"
+            "Possible shell company: 12863924",
+            "Nominees as company beneficial owners: Aleksei_Lebedev_21.10.2018"
         ],
         "noticeUid": "77d55393-eb61-47c5-b825-1e8664b3ed07",
         "notice_items": [
@@ -56,7 +57,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-18",
+                "award_date_conclusion_contract": [
+                    "2023-07-18"
+                ],
                 "award_value": "98425.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -71,7 +74,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Narva mnt 29 õppehoone külmamasina väljavahetus",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -93,12 +96,13 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38611052216",
-            "Nominees as company board members: 38611052216"
+            "Possible shell company: 12863924",
+            "Nominees as company beneficial owners: Aleksei_Lebedev_21.10.2018"
         ],
         "noticeUid": "e884ff5d-93b8-466f-bb13-ae0827488563",
         "notice_items": [
@@ -108,6 +112,63 @@
         ],
         "refnum": "265578",
         "total_amount": "98425.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-04-08"
+                ],
+                "award_value": "141037.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12863924",
+                        "contractor_name": "Refpro OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "3"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Mare hoone 4. ja 5. korruse jahutussüsteemi ehitustööde\ntellimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "74000122",
+                "name": "Tallinna Ülikool",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "12863924"
+        ],
+        "cpv": "45331230",
+        "date_dispatch_notice": "2025-05-28",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_607f7d03-8960-4dd9-bed0-a2fea56292d0_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 12863924",
+            "Nominees as company beneficial owners: Aleksei_Lebedev_21.10.2018"
+        ],
+        "noticeUid": "607f7d03-8960-4dd9-bed0-a2fea56292d0",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "291025-0000",
+        "total_amount": "141037.00",
         "total_amount_curr": "EUR"
     }
 ]

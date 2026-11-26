@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.12.2019",
             "eesnimi": "Kaido",
-            "isikukood": "38109064717",
+            "isikukood": null,
+            "isikukood_hash": "99cf8447-40ca-5c6b-a929-5114917d1d9e",
             "kirje_id": 9001062404,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109064717",
+            "isikukood_hash": "99cf8447-40ca-5c6b-a929-5114917d1d9e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tiigi tn 24, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3826567,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tiigi tn 24, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3511156,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tiigi tn 24, Jüri alevik, Rae vald, Harju maakond, 75301",
+                "kirje_id": 3203354,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tiigi tn 24, Jüri alevik, Rae vald, Harju maakond, 75301",
                 "kirje_id": 2937758,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -429,23 +467,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.07.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "25991",
                 "emtak_tekstina": "Mujal liigitamata metalltoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000078895,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001008157,
                 "lopp_kpv": null,
                 "nace_kood": "25.99",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "17.01.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "7739",
-                "emtak_tekstina": "Mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000459449,
+                "emtak_tekstina": "Muude mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001008158,
                 "lopp_kpv": null,
                 "nace_kood": "77.39",
                 "on_pohitegevusala": false

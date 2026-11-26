@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Anti",
-            "isikukood": "37005140304",
+            "isikukood": null,
+            "isikukood_hash": "3a0702e3-200c-567f-9e3a-96395ff5167a",
             "kirje_id": 9000709115,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Are",
-            "isikukood": "37012122731",
+            "isikukood": null,
+            "isikukood_hash": "a95f764c-7407-5f22-8d2a-3ad48647fe19",
             "kirje_id": 9000709114,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37503035227",
+            "isikukood_hash": "fa651601-55d5-580c-818b-edc3fd1d64ef",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 144, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3827772,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2025",
+                "tegevusala_emtak_kood": "47711",
+                "tegevusala_emtak_tekstina": "Rõivaste jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.71",
+                "tootajate_arv": "96"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 144, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3309663,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2024",
+                "tegevusala_emtak_kood": "47641",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.64",
+                "tootajate_arv": "97"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 144, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3124761,
+                "majandusaasta_perioodi_algus_kpv": "01.05.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.04.2023",
+                "tegevusala_emtak_kood": "4642",
+                "tegevusala_emtak_tekstina": "Rõivaste ja jalatsite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.42",
+                "tootajate_arv": "80"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 144, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2832612,
@@ -436,7 +475,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -531,39 +570,6 @@
                 "sisu": "jalajalg@jalajalg.ee"
             },
             {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 19,
-                "kirje_id": 7650281,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "rainer@jalajalg.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000171150,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 6548401"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000111497,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.jalajalg.ee"
-            },
-            {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
@@ -573,6 +579,17 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 6548434"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000709549,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "http://www.jalajalg.ee"
             }
         ],
         "staatus": "R",
@@ -590,26 +607,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.03.2022",
-                "emtak_kood": "47641",
-                "emtak_tekstina": "Sporditarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000605451,
+                "algus_kpv": "01.09.2026",
+                "emtak_kood": "47711",
+                "emtak_tekstina": "Rõivaste jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001148096,
                 "lopp_kpv": null,
-                "nace_kood": "47.64",
+                "nace_kood": "47.71",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.09.2026",
+                "emtak_kood": "47721",
+                "emtak_tekstina": "Jalatsite ja nahktoodete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001148097,
+                "lopp_kpv": null,
+                "nace_kood": "47.72",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "07.03.2022",
+                "algus_kpv": "01.09.2026",
                 "emtak_kood": "4642",
                 "emtak_tekstina": "Rõivaste ja jalatsite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000605450,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001148098,
                 "lopp_kpv": null,
                 "nace_kood": "46.42",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

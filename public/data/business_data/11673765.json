@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Indrek",
-            "isikukood": "37201250020",
+            "isikukood": null,
+            "isikukood_hash": "fedf60fb-72cd-5acf-ba07-c005f61ebb61",
             "kirje_id": 9000870192,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Laak",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "04.04.2024",
+            "eesnimi": "Tiit",
+            "isikukood": null,
+            "isikukood_hash": "0cc4be8e-6c8e-581d-91d5-98af1245e834",
+            "kirje_id": 9001696829,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Metsare",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37201250020",
+            "isikukood_hash": "fedf60fb-72cd-5acf-ba07-c005f61ebb61",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -60,30 +80,6 @@
     ],
     "nimi": "Tasandusvalu OÜ",
     "yldandmed": {
-        "aadressid": [
-            {
-                "aadress_ads__adob_id": "8706881",
-                "aadress_ads__adr_id": 3084817,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Jakobi tn 27",
-                "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00762187",
-                "aadress_ads__koodaadress": "79793815100000SM20000BISF00000000",
-                "aadress_ads__tyyp": null,
-                "algus_kpv": "05.12.2017",
-                "ehak": "8151",
-                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7286738,
-                "lopp_kpv": null,
-                "postiindeks": "51006",
-                "riik": "EST",
-                "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Jakobi tn 27"
-            }
-        ],
         "arinimed": [
             {
                 "algus_kpv": "13.08.2009",
@@ -103,6 +99,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3499606,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43991",
+                "tegevusala_emtak_tekstina": "Tellingute püstitamine ja demonteerimine, ehitus- ja tõsteseadmete rentimine koos operaatoriga",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3295552,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43991",
+                "tegevusala_emtak_tekstina": "Vundamendi-, betooni- jm müüritööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jakobi tn 27, Tartu linn, Tartu linn, Tartu maakond, 51006",
                 "kirje_id": 2991417,
@@ -303,6 +323,19 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "05.01.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "kirje_id": 12226762,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud ÄRS § 53 lg 2 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 7
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -354,6 +387,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@tasandusvalu.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000702866,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
+                "lopp_kpv": null,
+                "sisu": "+372 5024355"
             }
         ],
         "staatus": "R",
@@ -371,12 +415,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.04.2017",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43991",
-                "emtak_tekstina": "Vundamendi- ja betoonitööd jm müüritööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000286688,
+                "emtak_tekstina": "Tellingute püstitamine ja demonteerimine, ehitus- ja tõsteseadmete rentimine koos operaatoriga",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000996788,
                 "lopp_kpv": null,
                 "nace_kood": "43.99",
                 "on_pohitegevusala": true

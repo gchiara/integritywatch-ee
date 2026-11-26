@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.10.2021",
             "eesnimi": "Dmitri",
-            "isikukood": "37507070224",
+            "isikukood": null,
+            "isikukood_hash": "6d205d74-db33-51de-a56c-3d3cbb7702b9",
             "kirje_id": 9001343608,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37507070224",
+            "isikukood_hash": "6d205d74-db33-51de-a56c-3d3cbb7702b9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9867281",
+                "aadress_ads__adob_id": "11490022",
                 "aadress_ads__adr_id": 2107889,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Paldiski mnt 102",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 102, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3775893,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.29",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 102, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3500062,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.29",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 102, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
+                "kirje_id": 3208373,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "95231",
+                "tegevusala_emtak_tekstina": "Jalatsite ja nahktoodete parandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.23",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 102, Haabersti linnaosa, Tallinn, Harju maakond, 13522",
                 "kirje_id": 2922153,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -480,36 +518,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "95231",
-                "emtak_tekstina": "Jalatsite ja nahktoodete parandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000703774,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "95291",
+                "emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997277,
                 "lopp_kpv": null,
-                "nace_kood": "95.23",
+                "nace_kood": "95.29",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000703775,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997278,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "47.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "09.07.2010",
-                "emtak_kood": "47191",
-                "emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000077572,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "95231",
+                "emtak_tekstina": "Jalatsite ja nahktoodete parandus ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997279,
                 "lopp_kpv": null,
-                "nace_kood": "47.19",
+                "nace_kood": "95.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000997280,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             }
         ],

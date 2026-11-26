@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.03.2022",
             "eesnimi": "Ivo",
-            "isikukood": "36209230238",
+            "isikukood": null,
+            "isikukood_hash": "62f4e579-4121-59cf-b6d2-1dd62909b431",
             "kirje_id": 9001413194,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36209230238",
+            "isikukood_hash": "62f4e579-4121-59cf-b6d2-1dd62909b431",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10462544",
+                "aadress_ads__adob_id": "10418443",
                 "aadress_ads__adr_id": 2114270,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Järvevana tee 9f",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01087546",
+                "aadress_ads__ads_oid": "ME00645654",
                 "aadress_ads__koodaadress": "377840298000003IB00003OT800000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "22.03.2022",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3752954,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47403",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3487383,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47403",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.40",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
+                "kirje_id": 3215626,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47431",
+                "tegevusala_emtak_tekstina": "Heli- ja videoseadmete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.43",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järvevana tee 9f, Kesklinna linnaosa, Tallinn, Harju maakond, 11314",
                 "kirje_id": 2922569,
@@ -215,7 +253,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,14 +384,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2020",
-                "emtak_kood": "47431",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47403",
                 "emtak_tekstina": "Heli- ja videoseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000486599,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984573,
                 "lopp_kpv": null,
-                "nace_kood": "47.43",
+                "nace_kood": "47.40",
                 "on_pohitegevusala": true
             }
         ],

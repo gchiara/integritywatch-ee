@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.09.2018",
             "eesnimi": "Helen",
-            "isikukood": "47803276012",
+            "isikukood": null,
+            "isikukood_hash": "bd45dc65-5aff-5780-a15e-888728f1ff43",
             "kirje_id": 9000702283,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.09.2018",
             "eesnimi": "Sven",
-            "isikukood": "38709290268",
+            "isikukood": null,
+            "isikukood_hash": "71031d7c-86d6-5538-9ada-949669047259",
             "kirje_id": 9000702281,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47803276012",
+            "isikukood_hash": "bd45dc65-5aff-5780-a15e-888728f1ff43",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38709290268",
+            "isikukood_hash": "71031d7c-86d6-5538-9ada-949669047259",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10436903",
+                "aadress_ads__adob_id": "11499113",
                 "aadress_ads__adr_id": 2299156,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 63",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 63, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3720897,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 63, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3407196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 63, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
+                "kirje_id": 3211621,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu mnt 63, Kesklinna linnaosa, Tallinn, Harju maakond, 10115",
                 "kirje_id": 2928327,
@@ -401,7 +441,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -466,6 +506,18 @@
                 "kirje_id": 7030699,
                 "lopp_kpv": null,
                 "sisu": "Imagine AD OÜ(ühendav ühing) on ühendanud endaga Esttbwa OÜ(ühendatav ühing)registrikood 11128588,aadress Tartu mnt 63, Tallinn.\nÜhinemisleping on sõlmitud 22.12.2016.a., heaks kiidetud ühinemisotsusega 08.02.2017.a.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "05.06.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 18,
+                "kirje_id": 13147703,
+                "lopp_kpv": null,
+                "sisu": "Imagine AD OÜ (ühendav ühing, registrikood 10885979, aadress Tallinn, Tartu mnt 63, 10115) ja Offis OÜ (ühendatav ühing, registrikood 11255619, aadress Tallinn, Tartu mnt 63, 10115) ühinevad 20.02.2025 sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 22.04.2025. Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega, misjärel ühendatav ühing kustutatakse.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
             }
@@ -558,12 +610,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.07.2020",
+                "algus_kpv": "11.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000490662,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000904624,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true

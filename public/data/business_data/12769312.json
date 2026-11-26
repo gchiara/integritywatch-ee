@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "38303126023",
+            "isikukood": null,
+            "isikukood_hash": "e016ef45-cd73-5f78-8ac6-62c53cf8a922",
             "kirje_id": 9000840910,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "37901306016",
+            "isikukood": null,
+            "isikukood_hash": "fea66173-b3b4-5efe-ac1c-504a80835c03",
             "kirje_id": 9000840916,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38303126023",
+            "isikukood_hash": "e016ef45-cd73-5f78-8ac6-62c53cf8a922",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37901306016",
+            "isikukood_hash": "fea66173-b3b4-5efe-ac1c-504a80835c03",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9867157",
+                "aadress_ads__adob_id": "10735943",
                 "aadress_ads__adr_id": 3142879,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Undi, Mõnnaste küla, Viljandi vald, Viljandi maakond, 69735",
+                "kirje_id": 3560786,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.03.2025",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Undi, Mõnnaste küla, Viljandi vald, Viljandi maakond, 69735",
+                "kirje_id": 3264304,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01111",
+                "tegevusala_emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.11",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Undi, Mõnnaste küla, Viljandi vald, Viljandi maakond, 69735",
                 "kirje_id": 2961029,
@@ -269,19 +297,19 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "15.12.2014",
+                "algus_kpv": "18.09.2024",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 2,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 5401652,
+                "kande_nr": 8,
+                "kirje_id": 12697432,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.01",
-                "maj_aasta_lopp": "31.12"
+                "maj_aasta_algus": "01.04",
+                "maj_aasta_lopp": "31.03"
             }
         ],
         "markused_kaardil": [
@@ -297,6 +325,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "10.10.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "kirje_id": 12081051,
+                "lopp_kpv": null,
+                "sisu": "Undi Vili OÜ (ühendav ühing), Undi Päike 1 OÜ (ühendatav ühing 1, registrikood 14844003, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi, 69735 ), Undi Päike 2 OÜ (ühendatav ühing 2, registrikood 14844010, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 3 OÜ (ühendatav ühing 3, registrikood 14844061, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 4 OÜ (ühendatav ühing 4, registrikood 14843937, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 5 OÜ (ühendatav ühing 5, registrikood 14844233, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 6 OÜ (ühendatav ühing 6, registrikood 14844249, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 7 OÜ (ühendatav ühing 7, registrikood 14844351, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 8 OÜ (ühendatav ühing 8, registrikood 14844173, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 9 OÜ (ühendatav ühing 9, registrikood 14844256, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735), Undi Päike 10 OÜ (ühendatav ühing 10, registrikood 14844374, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735 ja Undi Päike 11 OÜ (ühendatav ühing 11, registrikood 14844167, aadress: Viljandi maakond, Viljandi vald, Mõnnaste küla, Undi-Kontori, 69735) ühinevad 26.09.2023 sõlmitud ühinemislepingu alusel. Ühinemisotsuste vastuvõtmine ei olnud nõutav.  Ühinemine jõustub käesoleva kande tegemisega, misjärel ühendatavad ühingud kustutatakse.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -324,13 +366,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "19.05.2017",
+                "algus_kpv": "18.09.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 2,
-                "kinnitamise_kpv": "17.05.2017",
-                "kirje_id": 6911476,
+                "kande_nr": 8,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12697431,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -376,69 +418,69 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "01611",
-                "emtak_tekstina": "Taimekasvatuse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634461,
-                "lopp_kpv": null,
-                "nace_kood": "01.61",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634459,
-                "lopp_kpv": null,
-                "nace_kood": "01.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2022",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000634460,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2016",
-                "emtak_kood": "01631",
-                "emtak_tekstina": "Saagikoristusjärgsed tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000245253,
-                "lopp_kpv": null,
-                "nace_kood": "01.63",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2016",
+                "algus_kpv": "02.10.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000245252,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057644,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.06.2020",
-                "emtak_kood": "35119",
-                "emtak_tekstina": "Muu elektrienergia tootmine (sh biomassist)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000486519,
+                "algus_kpv": "02.10.2025",
+                "emtak_kood": "01611",
+                "emtak_tekstina": "Taimekasvatuse abitegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057645,
                 "lopp_kpv": null,
-                "nace_kood": "35.11",
+                "nace_kood": "01.61",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.10.2025",
+                "emtak_kood": "01192",
+                "emtak_tekstina": "Sööda- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057646,
+                "lopp_kpv": null,
+                "nace_kood": "01.19",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.10.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057647,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.10.2025",
+                "emtak_kood": "35129",
+                "emtak_tekstina": "Muu elektrienergia tootmine, k.a biomassist",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057648,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "02.10.2025",
+                "emtak_kood": "01631",
+                "emtak_tekstina": "Saagikoristusjärgsed tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001057649,
+                "lopp_kpv": null,
+                "nace_kood": "01.63",
                 "on_pohitegevusala": false
             }
         ],

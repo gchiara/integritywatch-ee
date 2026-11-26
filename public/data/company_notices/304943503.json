@@ -51,15 +51,12 @@
             "Tenders received low",
             "Too few evaluation criteria",
             "Possible shell company",
-            "Seller is a large political donor",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10078457",
-            "Political donations from beneficial owner of a contractor company: Margus Linnamäe. Company: aktsiaselts SEMETRON(10078457). AMT: 50000",
-            "Nominees as company beneficial owners: 36401052714",
-            "Nominees as company board members: 37907190299"
+            "Nominees as company beneficial owners: Margus_Linnamäe_19.10.2018"
         ],
         "noticeUid": "125ae754-d932-4eb1-be70-21ca997f7a1e",
         "notice_items": [
@@ -67,5 +64,63 @@
         ],
         "notice_items_num": 1,
         "refnum": "203151"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-11-27"
+                ],
+                "award_value": "96994.50",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "304943503",
+                        "contractor_name": "UAB Biomedikos centras",
+                        "country": "LTU"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Dermatoloogilise laseri ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90004527",
+                "name": "Sihtasutus Pärnu Haigla",
+                "town": "Pärnu linn"
+            }
+        ],
+        "contractors": [
+            "304943503"
+        ],
+        "cpv": "33128000",
+        "date_dispatch_notice": "2023-12-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_3fef3169-d9c1-48ba-9258-e7358002ed5b_0.json",
+        "flags": [
+            "Tenders received low",
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Long duration: 62 MONTH"
+        ],
+        "noticeUid": "3fef3169-d9c1-48ba-9258-e7358002ed5b",
+        "notice_items": [
+            {
+                "duration": "62 MONTH"
+            }
+        ],
+        "refnum": "269125",
+        "total_amount": "96994.50",
+        "total_amount_curr": "EUR"
     }
 ]

@@ -181,13 +181,10 @@
         "filename": "award_8881edcf-60b2-4045-a46a-510d7a926907_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38509110375",
-            "Nominees as company board members: 38509110375"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "8881edcf-60b2-4045-a46a-510d7a926907",
         "notice_items": [
@@ -351,7 +348,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-09",
+                "award_date_conclusion_contract": [
+                    "2023-06-09"
+                ],
                 "award_value": "38900.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -366,7 +365,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Veealuse fluoromeetri ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -400,6 +399,116 @@
         ],
         "refnum": "263383",
         "total_amount": "38900.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-10-16"
+                ],
+                "award_value": "42600.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "50103720111",
+                        "contractor_name": "Optek Ltd.",
+                        "country": "LVA"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kahe üksikute footonite laviindetektori (SPAD) mooduli ost/ Purchase of two Single Photon Avalanche Diode (SPAD) modules",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "10397748",
+                "name": "Aktsiaselts Metrosert",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "50103720111"
+        ],
+        "cpv": "38430000",
+        "date_dispatch_notice": "2023-10-27",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_1802d096-8f7c-41af-9190-ebb7e6803e15_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "1802d096-8f7c-41af-9190-ebb7e6803e15",
+        "notice_items": [
+            {
+                "endDate": "2023-12-15"
+            }
+        ],
+        "refnum": "270641",
+        "total_amount": "42600.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-08-07"
+                ],
+                "award_value": "8180.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "50103720111",
+                        "contractor_name": "Optek Ltd.",
+                        "country": "LVA"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Pikosekundilise laseri ja impulssgeneraatori ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "74001073",
+                "name": "Tartu Ülikool",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "50103720111"
+        ],
+        "cpv": "38000000",
+        "date_dispatch_notice": "2025-08-21",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_773c1b87-fc07-4dca-8afe-ec72429b339f_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "773c1b87-fc07-4dca-8afe-ec72429b339f",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "295709-0000",
+        "total_amount": "101880.00",
         "total_amount_curr": "EUR"
     }
 ]

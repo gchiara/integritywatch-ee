@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Jaak",
-            "isikukood": "36006112727",
+            "isikukood": null,
+            "isikukood_hash": "5e587c73-c40b-5f36-b3c1-5e6300f4a227",
             "kirje_id": 9000744916,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36006112727",
+            "isikukood_hash": "5e587c73-c40b-5f36-b3c1-5e6300f4a227",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 45c, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3675405,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "13929",
+                "tegevusala_emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 45c, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3423563,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "13929",
+                "tegevusala_emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Teguri tn 45c, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3174153,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "13929",
+                "tegevusala_emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Teguri tn 45c, Tartu linn, Tartu linn, Tartu maakond, 51013",
                 "kirje_id": 2861672,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,47 +626,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "68201",
-                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000054108,
-                "lopp_kpv": null,
-                "nace_kood": "68.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000054106,
-                "lopp_kpv": null,
-                "nace_kood": "46.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.06.2020",
+                "algus_kpv": "18.06.2025",
                 "emtak_kood": "13929",
                 "emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000483376,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922005,
                 "lopp_kpv": null,
                 "nace_kood": "13.92",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "17.06.2020",
-                "emtak_kood": "14121",
-                "emtak_tekstina": "Töörõivaste tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000483377,
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922006,
                 "lopp_kpv": null,
-                "nace_kood": "14.12",
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "14231",
+                "emtak_tekstina": "Töörõivaste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000922008,
+                "lopp_kpv": null,
+                "nace_kood": "14.23",
                 "on_pohitegevusala": false
             }
         ],

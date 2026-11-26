@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.07.2019",
             "eesnimi": "Tuuli",
-            "isikukood": "48003262714",
+            "isikukood": null,
+            "isikukood_hash": "9529a7e3-04d1-5760-bc9e-b4eecaebf6f0",
             "kirje_id": 9001001604,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48003262714",
+            "isikukood_hash": "9529a7e3-04d1-5760-bc9e-b4eecaebf6f0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lõõtsa tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3593887,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõõtsa tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3347672,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõõtsa tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3232456,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõõtsa tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2794194,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -455,36 +493,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "74301",
-                "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000069059,
+                "algus_kpv": "31.03.2025",
+                "emtak_kood": "85591",
+                "emtak_tekstina": "Keeleõpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844402,
                 "lopp_kpv": null,
-                "nace_kood": "74.30",
+                "nace_kood": "85.59",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "85591",
-                "emtak_tekstina": "Keeleõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000069060,
+                "algus_kpv": "31.03.2025",
+                "emtak_kood": "74301",
+                "emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000844403,
                 "lopp_kpv": null,
-                "nace_kood": "85.59",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "74901",
-                "emtak_tekstina": "Muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000018453,
-                "lopp_kpv": null,
-                "nace_kood": "74.90",
+                "nace_kood": "74.30",
                 "on_pohitegevusala": false
             }
         ],

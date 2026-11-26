@@ -37,13 +37,10 @@
         "docType2": "default",
         "filename": "award_1c93f108-34ed-4f6f-92ce-0bbcf0c8bb7b_0.json",
         "flags": [
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38806120278",
-            "Nominees as company board members: 38806120278"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "1c93f108-34ed-4f6f-92ce-0bbcf0c8bb7b",
         "notice_items": [
@@ -301,10 +298,12 @@
         "docType2": "default",
         "filename": "award_ab646d03-8606-4f82-83b3-9628fe637002_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 14717670"
         ],
         "noticeUid": "ab646d03-8606-4f82-83b3-9628fe637002",
         "notice_items": [
@@ -348,9 +347,12 @@
         "docType2": "default",
         "filename": "award_ab646d03-8606-4f82-83b3-9628fe637002_1.json",
         "flags": [
-            "Tenders received info missing"
+            "Tenders received info missing",
+            "Possible shell company"
         ],
-        "flagsNotes": [],
+        "flagsNotes": [
+            "Possible shell company: 14717670"
+        ],
         "modifications_contract": true,
         "noticeUid": "ab646d03-8606-4f82-83b3-9628fe637002",
         "notice_items": [
@@ -585,23 +587,14 @@
         "flags": [
             "Tenders received low",
             "Possible shell company",
-            "Nominees as company board members or beneficial owners",
-            "Seller is a large political donor"
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10382882",
-            "Nominees as company beneficial owners: 37204230239",
-            "Nominees as company board members: 37204230239",
+            "Nominees as company beneficial owners: Martin_Lill_05.10.2018",
             "Possible shell company: 10039055",
-            "Political donations from beneficial owner of a contractor company: Imre Freiberg. Company: Mayeri Industries AS(10039055). AMT: 1000",
-            "Nominees as company beneficial owners: 36909092710",
-            "Nominees as company board members: 36909092710",
-            "Nominees as company beneficial owners: 36708210279",
-            "Nominees as company beneficial owners: 37202150264",
-            "Nominees as company beneficial owners: 46812110317",
-            "Nominees as company beneficial owners: 35906260319",
-            "Nominees as company board members: 46812110317"
+            "Nominees as company beneficial owners: Liina_Kikas_11.09.2018"
         ],
         "noticeUid": "e1a6d28f-d264-44fb-a3f2-907d54036818",
         "notice_items": [
@@ -629,7 +622,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-07-26",
+                "award_date_conclusion_contract": [
+                    "2023-07-26"
+                ],
                 "award_value": "6420.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -644,7 +639,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Puhastusained. Olmekemikaalid. Hügieenivahendid",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -664,16 +659,11 @@
         "docType2": "",
         "filename": "award_0132b25e-5a55-4ba6-b641-c940e0e1035c_0.json",
         "flags": [
-            "Possible shell company",
-            "Seller is a large political donor",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 10039055",
-            "Political donations from beneficial owner of a contractor company: Imre Freiberg. Company: Mayeri Industries AS(10039055). AMT: 1000",
-            "Nominees as company beneficial owners: 36909092710",
-            "Nominees as company board members: 36909092710"
+            "Possible shell company: 10039055"
         ],
         "noticeUid": "0132b25e-5a55-4ba6-b641-c940e0e1035c",
         "notice_items": [
@@ -687,5 +677,337 @@
         "refnum": "260937",
         "total_amount": "89200.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-12-19"
+                ],
+                "award_value": "2274.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10844696",
+                        "contractor_name": "Pireka Eesti OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "5"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Puhastusained- ja tarvikud",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            }
+        ],
+        "contractors": [
+            "10766559",
+            "10382882",
+            "14073132",
+            "10239788",
+            "10844696",
+            "10039055"
+        ],
+        "cpv": "39830000",
+        "date_dispatch_notice": "2024-12-31",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_54714ed5-93d0-4658-a125-153550c9cc53_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 10844696"
+        ],
+        "noticeUid": "54714ed5-93d0-4658-a125-153550c9cc53",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "284640"
+    },
+    {
+        "contract_title": "Tööstuslik elektrienergia salvestussüsteem konteineris",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "cpv": "45315300",
+        "date_dispatch_notice": "2026-04-29",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_6e8de953-0468-48b9-9aab-4f713a4d4f24_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "6e8de953-0468-48b9-9aab-4f713a4d4f24",
+        "notice_items": [
+            {
+                "duration": "6 MONTH"
+            }
+        ],
+        "refnum": "309793-0000"
+    },
+    {
+        "contract_title": "Elektritaristu (sh alajaama) rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "cpv": "45311000",
+        "date_dispatch_notice": "2026-06-12",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_2a57470e-f9ca-4cee-9aec-f5c15cef3591_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "2a57470e-f9ca-4cee-9aec-f5c15cef3591",
+        "notice_items": [
+            {
+                "duration": "6 MONTH"
+            }
+        ],
+        "refnum": "312059-0000"
+    },
+    {
+        "contract_title": "Elektritaristu (sh alajaama) rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "cpv": "45311000",
+        "date_dispatch_notice": "2026-07-08",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_c7a8197d-72e8-46a8-891a-95ca551d6838_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "c7a8197d-72e8-46a8-891a-95ca551d6838",
+        "notice_items": [
+            {
+                "duration": "6 MONTH"
+            }
+        ],
+        "refnum": "312975-0000"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "result": "clos-nw"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Elektritaristu (sh alajaama) rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "contractors": [],
+        "cpv": "45311000",
+        "date_dispatch_notice": "2026-07-27",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_926777b7-6e49-4df4-82d6-6f5b1da9e8f1_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "926777b7-6e49-4df4-82d6-6f5b1da9e8f1",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "312059-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-07-26"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "CN Sunket",
+                        "contractor_name": "Jesse",
+                        "country": "CHN"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Tööstuslik elektrienergia salvestussüsteem konteineris",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "contractors": [
+            "CN Sunket"
+        ],
+        "cpv": "45315300",
+        "date_dispatch_notice": "2026-08-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_4e8a3afd-51ef-439f-8101-783cd47d2c2e_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "4e8a3afd-51ef-439f-8101-783cd47d2c2e",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "309793-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-08-05"
+                ],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14627636",
+                        "contractor_name": "Sõbra Elekter OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Elektritaristu (sh alajaama) rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "contractors": [
+            "14627636"
+        ],
+        "cpv": "45311000",
+        "date_dispatch_notice": "2026-08-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_6c8f64db-3176-4f95-841e-c4e8ea3b3490_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14627636",
+            "Nominees as company beneficial owners: Aare_Sõber_17.12.2018",
+            "Nominees as company board members: Aare_Sõber_17.12.2018"
+        ],
+        "noticeUid": "6c8f64db-3176-4f95-841e-c4e8ea3b3490",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "312975-0000"
+    },
+    {
+        "contract_title": "Veetaristu sh pumpla rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10039055",
+                "name": "Mayeri Industries AS",
+                "town": "Tartu vald"
+            }
+        ],
+        "cpv": "45240000",
+        "date_dispatch_notice": "2026-09-14",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_33c03305-fb48-4557-89e0-8a7469c7e8fb_0.json",
+        "flags": [
+            "Term of contract (long or indefinite)",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Start date present but end date missing."
+        ],
+        "noticeUid": "33c03305-fb48-4557-89e0-8a7469c7e8fb",
+        "notice_items": [
+            {
+                "duration": "12 MONTH"
+            }
+        ],
+        "refnum": "312231-0000"
     }
 ]

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Kain",
-            "isikukood": "36608126510",
+            "isikukood": null,
+            "isikukood_hash": "05eb9df1-b43c-59f3-bc0c-5d45c88eadb5",
             "kirje_id": 9000662910,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Keiri",
-            "isikukood": "49204296551",
+            "isikukood": null,
+            "isikukood_hash": "2c54a23f-617b-5f6d-a641-9650cdaf247e",
             "kirje_id": 9000662912,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608126510",
+            "isikukood_hash": "05eb9df1-b43c-59f3-bc0c-5d45c88eadb5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "49204296551",
+            "isikukood_hash": "2c54a23f-617b-5f6d-a641-9650cdaf247e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,15 +120,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9387483",
-                "aadress_ads__adr_id": 3358554,
+                "aadress_ads__adob_id": "10747489",
+                "aadress_ads__adr_id": 3701324,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Setomaa vald, Mikitamäe küla, Kooli tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00828959",
-                "aadress_ads__koodaadress": "87732495100000MCB0000717N00000000",
+                "aadress_ads__koodaadress": "87732495200000VPY0000D59Q00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "20.12.2017",
-                "ehak": "4951",
+                "ehak": "4952",
                 "ehak_nimetus": "Mikitamäe küla, Setomaa vald, Võru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 10, Mikitamäe küla, Setomaa vald, Võru maakond, 64301",
+                "kirje_id": 3527361,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kooli tn 10, Mikitamäe küla, Setomaa vald, Võru maakond, 64301",
+                "kirje_id": 3222751,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02401",
+                "tegevusala_emtak_tekstina": "Metsamajandust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.40",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kooli tn 10, Mikitamäe küla, Setomaa vald, Võru maakond, 64301",
                 "kirje_id": 2785567,
@@ -245,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,26 +391,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2019",
-                "emtak_kood": "69202",
-                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000429148,
-                "lopp_kpv": null,
-                "nace_kood": "69.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.09.2020",
+                "algus_kpv": "05.07.2025",
                 "emtak_kood": "02401",
                 "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000501603,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001023444,
                 "lopp_kpv": null,
                 "nace_kood": "02.40",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "05.07.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001023445,
+                "lopp_kpv": null,
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

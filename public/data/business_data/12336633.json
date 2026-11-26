@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.12.2022",
             "eesnimi": "Madis",
-            "isikukood": "38910040296",
+            "isikukood": null,
+            "isikukood_hash": "9511caad-d00a-5314-abb1-8995715fb8db",
             "kirje_id": 9001514298,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38910040296",
+            "isikukood_hash": "9511caad-d00a-5314-abb1-8995715fb8db",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10496778",
-                "aadress_ads__adr_id": 2111186,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 154",
+                "aadress_ads__adob_id": "7282726",
+                "aadress_ads__adr_id": 2112592,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Paneeli tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00640623",
-                "aadress_ads__koodaadress": "377840298000001L90000294500000000",
+                "aadress_ads__ads_oid": "ME00642276",
+                "aadress_ads__koodaadress": "377840387000004BJ00000RVY00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.12.2017",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "15.07.2026",
+                "ehak": "0387",
+                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7240324,
+                "kande_nr": 9,
+                "kirje_id": 13868852,
                 "lopp_kpv": null,
-                "postiindeks": "11317",
+                "postiindeks": "13816",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Pärnu mnt 154"
+                "tanav_maja_korter": "Paneeli tn 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 154, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3587904,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16251",
+                "tegevusala_emtak_tekstina": "Puituste ja -akende tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.25",
+                "tootajate_arv": "50"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 154, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3326499,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16231",
+                "tegevusala_emtak_tekstina": "Kokkupandavate puitehitiste ja nende elementide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.23",
+                "tootajate_arv": "76"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 154, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
+                "kirje_id": 3149210,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16231",
+                "tegevusala_emtak_tekstina": "Puidust uste, akende, aknaluukide ja nende raamide tootmine (k.a väravad)",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.23",
+                "tootajate_arv": "72"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 154, Kesklinna linnaosa, Tallinn, Harju maakond, 11317",
                 "kirje_id": 2850311,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -325,12 +363,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7727850,
+                "kande_nr": 9,
+                "kirje_id": 13868853,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "madistarum@hotmail.com"
+                "sisu": "info@scandinor.ee"
             }
         ],
         "staatus": "R",
@@ -348,14 +386,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "16231",
-                "emtak_tekstina": "Puidust uste, akende, aknaluukide ja nende raamide tootmine (k.a väravad)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000567517,
+                "algus_kpv": "13.02.2026",
+                "emtak_kood": "16251",
+                "emtak_tekstina": "Puituste ja -akende tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001082015,
                 "lopp_kpv": null,
-                "nace_kood": "16.23",
+                "nace_kood": "16.25",
                 "on_pohitegevusala": true
             }
         ],

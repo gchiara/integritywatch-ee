@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Dmitri",
-            "isikukood": "37304140298",
+            "isikukood": null,
+            "isikukood_hash": "0fd932e9-b6e8-5d22-ba80-cd3b6fad504f",
             "kirje_id": 9000807022,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37304140298",
+            "isikukood_hash": "0fd932e9-b6e8-5d22-ba80-cd3b6fad504f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vikerlase tn 15-61, Lasnamäe linnaosa, Tallinn, Harju maakond, 13616",
+                "kirje_id": 3689196,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vikerlase tn 15-61, Lasnamäe linnaosa, Tallinn, Harju maakond, 13616",
+                "kirje_id": 3455110,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vikerlase tn 15-61, Lasnamäe linnaosa, Tallinn, Harju maakond, 13616",
+                "kirje_id": 3149226,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "8"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vikerlase tn 15-61, Lasnamäe linnaosa, Tallinn, Harju maakond, 13616",
                 "kirje_id": 2843507,
@@ -395,7 +433,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -504,37 +542,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "43222",
-                "emtak_tekstina": "Veetorustiku  ja sanitaarseadmete paigaldus ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000057421,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000952289,
                 "lopp_kpv": null,
-                "nace_kood": "43.22",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "21.06.2013",
-                "emtak_kood": "43391",
-                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000038185,
-                "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "08.06.2023",
-                "emtak_kood": "46732",
-                "emtak_tekstina": "Sanitaarseadmete jm ehitusmaterjalide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000689897,
-                "lopp_kpv": null,
-                "nace_kood": "46.73",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

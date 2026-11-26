@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2022",
             "eesnimi": "Allan",
-            "isikukood": "38509146528",
+            "isikukood": null,
+            "isikukood_hash": "136d945a-6147-50b9-980a-a3cf89aec215",
             "kirje_id": 9001489651,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.10.2022",
             "eesnimi": "Kaido",
-            "isikukood": "37507045711",
+            "isikukood": null,
+            "isikukood_hash": "ce37437f-85cd-5379-a9ea-6d8a79308040",
             "kirje_id": 9001489652,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46510226522",
+            "isikukood_hash": "cd84669f-7ccf-5ebf-840d-ee31c1ffbcc8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38509146528",
+            "isikukood_hash": "136d945a-6147-50b9-980a-a3cf89aec215",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -131,7 +135,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37507045711",
+            "isikukood_hash": "ce37437f-85cd-5379-a9ea-6d8a79308040",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -193,6 +198,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Krabi kool, Krabi küla, Rõuge vald, Võru maakond, 66102",
+                "kirje_id": 3775772,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "24"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Krabi kool, Krabi küla, Rõuge vald, Võru maakond, 66102",
+                "kirje_id": 3494226,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "87301",
+                "tegevusala_emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.30",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Krabi kool, Krabi küla, Rõuge vald, Võru maakond, 66102",
+                "kirje_id": 3239271,
+                "majandusaasta_perioodi_algus_kpv": "20.10.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68101",
+                "tegevusala_emtak_tekstina": "Enda kinnisvara ost ja müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.10",
+                "tootajate_arv": "2"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "20.10.2022",
@@ -208,7 +251,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -304,14 +347,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.10.2022",
-                "emtak_kood": "55201",
-                "emtak_tekstina": "Hostelid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000655027,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "87301",
+                "emtak_tekstina": "Eakate või füüsilise puudega inimeste hoolekandeasutuste tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991378,
                 "lopp_kpv": null,
-                "nace_kood": "55.20",
+                "nace_kood": "87.30",
                 "on_pohitegevusala": true
             }
         ],

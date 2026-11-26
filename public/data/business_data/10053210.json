@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Janno",
-            "isikukood": "38508144215",
+            "isikukood": null,
+            "isikukood_hash": "1aef0238-0faf-5f3f-bfbc-8d1898cc5493",
             "kirje_id": 9000771655,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "34503224229",
+            "isikukood": null,
+            "isikukood_hash": "4b55f53e-fc34-58fc-91f5-63f2e348402b",
             "kirje_id": 9000771664,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38508144215",
+            "isikukood_hash": "1aef0238-0faf-5f3f-bfbc-8d1898cc5493",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34503224229",
+            "isikukood_hash": "4b55f53e-fc34-58fc-91f5-63f2e348402b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jalaka tn 2/1-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80019",
+                "kirje_id": 3627315,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46381",
+                "tegevusala_emtak_tekstina": "Muude toidukaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.38",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jalaka tn 2/1-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80019",
+                "kirje_id": 3398282,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46381",
+                "tegevusala_emtak_tekstina": "Muude toidukaupade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.38",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jalaka tn 2/1-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80019",
+                "kirje_id": 3086896,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46381",
+                "tegevusala_emtak_tekstina": "Kalade, vähilaadsete ja kalatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.38",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jalaka tn 2/1-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80019",
                 "kirje_id": 2830682,
@@ -497,7 +537,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -597,12 +637,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
-                "kirje_id": 7745918,
+                "kande_nr": 15,
+                "kirje_id": 12156187,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "urves66@hot.ee"
+                "sisu": "info@urves.ee"
             },
             {
                 "kaardi_nr": null,
@@ -642,12 +682,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.04.2013",
+                "algus_kpv": "05.06.2025",
                 "emtak_kood": "46381",
-                "emtak_tekstina": "Kalade, vähilaadsete ja kalatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000023329,
+                "emtak_tekstina": "Muude toidukaupade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896129,
                 "lopp_kpv": null,
                 "nace_kood": "46.38",
                 "on_pohitegevusala": true

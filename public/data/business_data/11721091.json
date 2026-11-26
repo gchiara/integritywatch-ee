@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2018",
             "eesnimi": "Raido",
-            "isikukood": "38701024711",
+            "isikukood": null,
+            "isikukood_hash": "e620e105-3974-5d94-a36a-cd2adf48f1e8",
             "kirje_id": 9000698621,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.09.2018",
             "eesnimi": "Teet",
-            "isikukood": "38702120266",
+            "isikukood": null,
+            "isikukood_hash": "67ef5925-e542-5737-8072-51cf18a2dc41",
             "kirje_id": 9000698622,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38701024711",
+            "isikukood_hash": "e620e105-3974-5d94-a36a-cd2adf48f1e8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38702120266",
+            "isikukood_hash": "67ef5925-e542-5737-8072-51cf18a2dc41",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10667655",
+                "aadress_ads__adob_id": "11092875",
                 "aadress_ads__adr_id": 2120496,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Laki tn 30",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3568310,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3267408,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laki tn 30, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2952513,
@@ -329,19 +357,19 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "23.09.2009",
+                "algus_kpv": "01.04.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 3,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 3451547,
+                "kande_nr": 13,
+                "kirje_id": 13652251,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.01",
-                "maj_aasta_lopp": "31.12"
+                "maj_aasta_algus": "01.07",
+                "maj_aasta_lopp": "30.06"
             }
         ],
         "markused_kaardil": [
@@ -397,15 +425,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.10.2012",
+                "algus_kpv": "01.04.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 3,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
+                "kande_nr": 13,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4605830,
+                "kirje_id": 13652250,
                 "lopp_kpv": null,
-                "muutmise_kpv": "01.10.2012",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -449,14 +477,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.02.2013",
-                "emtak_kood": "41201",
+                "algus_kpv": "21.11.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000015952,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001067298,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
             }
         ],

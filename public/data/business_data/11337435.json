@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.11.2018",
             "eesnimi": "Argo",
-            "isikukood": "38106276541",
+            "isikukood": null,
+            "isikukood_hash": "3e6ec11f-ec9b-5c3e-93f5-642360008cd1",
             "kirje_id": 9000885387,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38106276541",
+            "isikukood_hash": "3e6ec11f-ec9b-5c3e-93f5-642360008cd1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8622816",
-                "aadress_ads__adr_id": 3027944,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Papsaare küla, Lõvi tee 20",
+                "aadress_ads__adob_id": "11121287",
+                "aadress_ads__adr_id": 3057871,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Õuna tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE03348248",
-                "aadress_ads__koodaadress": "68624598600000CD100002VDM00000000",
+                "aadress_ads__ads_oid": "EE04101732",
+                "aadress_ads__koodaadress": "68624661900000SJ70000BBSM00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.12.2017",
-                "ehak": "5986",
-                "ehak_nimetus": "Papsaare küla, Pärnu linn, Pärnu maakond",
+                "algus_kpv": "09.10.2024",
+                "ehak": "6619",
+                "ehak_nimetus": "Pärnu linn, Pärnu linn, Pärnu maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7306133,
+                "kande_nr": 8,
+                "kirje_id": 12731658,
                 "lopp_kpv": null,
-                "postiindeks": "88317",
+                "postiindeks": "80039",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Lõvi tee 20"
+                "tanav_maja_korter": "Õuna tn 2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Õuna tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
+                "kirje_id": 3754475,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Õuna tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
+                "kirje_id": 3483270,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lõvi tee 20, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
+                "kirje_id": 3217917,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lõvi tee 20, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
                 "kirje_id": 2916540,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -410,12 +448,12 @@
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7748674,
+                "kande_nr": 8,
+                "kirje_id": 12731659,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "argo.heinla001@mail.ee"
+                "sisu": "meriluxehitus@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -444,14 +482,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.06.2016",
-                "emtak_kood": "43391",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000233713,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980131,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

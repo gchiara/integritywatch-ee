@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2020",
             "eesnimi": "Heiki",
-            "isikukood": "36706202257",
+            "isikukood": null,
+            "isikukood_hash": "63ec03c5-15b9-5d51-a4d5-c5daebdc96b3",
             "kirje_id": 9001138522,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36706202257",
+            "isikukood_hash": "63ec03c5-15b9-5d51-a4d5-c5daebdc96b3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9245255",
-                "aadress_ads__adr_id": 3321118,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Keskväljak 1",
+                "aadress_ads__adob_id": "11160056",
+                "aadress_ads__adr_id": 3804811,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Pargi tn 15",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00679373",
-                "aadress_ads__koodaadress": "452512270000000AE00002W8D00000000",
+                "aadress_ads__ads_oid": "ME00664781",
+                "aadress_ads__koodaadress": "4525022700000009F00003A2I00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "15.06.2020",
+                "algus_kpv": "15.05.2026",
                 "ehak": "2270",
                 "ehak_nimetus": "Jõhvi linn, Jõhvi vald, Ida-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 6,
-                "kirje_id": 9103357,
+                "kande_nr": 8,
+                "kirje_id": 13729991,
                 "lopp_kpv": null,
-                "postiindeks": "41531",
+                "postiindeks": "41537",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Keskväljak 1"
+                "tanav_maja_korter": "Pargi tn 15"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Keskväljak 1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41531",
+                "kirje_id": 3629712,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4931",
+                "tegevusala_emtak_tekstina": "Sõitjate liinivedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskväljak 1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41531",
+                "kirje_id": 3375039,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4931",
+                "tegevusala_emtak_tekstina": "Sõitjate liinivedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Keskväljak 1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41531",
+                "kirje_id": 3136869,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4931",
+                "tegevusala_emtak_tekstina": "Sõitjate asulasisene ja linnalähitransport",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Keskväljak 1, Jõhvi linn, Jõhvi vald, Ida-Viru maakond, 41531",
                 "kirje_id": 2825339,
@@ -165,7 +203,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -259,12 +297,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2019",
+                "algus_kpv": "16.05.2025",
                 "emtak_kood": "4931",
-                "emtak_tekstina": "Sõitjate asulasisene ja linnalähitransport",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000422628,
+                "emtak_tekstina": "Sõitjate liinivedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000873524,
                 "lopp_kpv": null,
                 "nace_kood": "49.31",
                 "on_pohitegevusala": true

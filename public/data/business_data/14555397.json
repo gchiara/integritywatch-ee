@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.03.2019",
             "eesnimi": "Merle",
-            "isikukood": "48911196025",
+            "isikukood": null,
+            "isikukood_hash": "64699cf8-4a71-566c-9f02-44ca2f2f136f",
             "kirje_id": 9000947326,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48911196025",
+            "isikukood_hash": "64699cf8-4a71-566c-9f02-44ca2f2f136f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946604",
+                "aadress_ads__adob_id": "10890034",
                 "aadress_ads__adr_id": 2351544,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Peterburi tee 81",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3644482,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3425789,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3064298,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 81, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
                 "kirje_id": 2780293,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -299,12 +337,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.08.2018",
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "82991",
                 "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000381722,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000924117,
                 "lopp_kpv": null,
                 "nace_kood": "82.99",
                 "on_pohitegevusala": true

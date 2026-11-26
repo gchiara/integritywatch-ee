@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Ago",
-            "isikukood": "36710110282",
+            "isikukood": null,
+            "isikukood_hash": "4d79d221-7a72-51a0-8d48-9eb3b4b56250",
             "kirje_id": 9000736518,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.02.2020",
             "eesnimi": "Jaak",
-            "isikukood": "36710156019",
+            "isikukood": null,
+            "isikukood_hash": "345adc5f-8d7f-5bd8-81c5-478cf7a9a6c4",
             "kirje_id": 9001091810,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36710110282",
+            "isikukood_hash": "4d79d221-7a72-51a0-8d48-9eb3b4b56250",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 21, Pärnu linn, Pärnu linn, Pärnu maakond, 80014",
+                "kirje_id": 3796038,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "26111",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 21, Pärnu linn, Pärnu linn, Pärnu maakond, 80014",
+                "kirje_id": 3527766,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "26111",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Roosi tn 21, Pärnu linn, Pärnu linn, Pärnu maakond, 80014",
+                "kirje_id": 3103640,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "2611",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Roosi tn 21, Pärnu linn, Pärnu linn, Pärnu maakond, 80014",
                 "kirje_id": 2820627,
@@ -268,7 +307,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -364,12 +403,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.05.2022",
-                "emtak_kood": "2611",
+                "algus_kpv": "06.07.2025",
+                "emtak_kood": "26111",
                 "emtak_tekstina": "Elektronkomponentide tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000620897,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001023810,
                 "lopp_kpv": null,
                 "nace_kood": "26.11",
                 "on_pohitegevusala": true

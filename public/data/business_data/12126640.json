@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "37307310303",
+            "isikukood": null,
+            "isikukood_hash": "39891eab-b547-5bfc-9368-11fc357f1169",
             "kirje_id": 9000820107,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Kirke Britt",
-            "isikukood": "60005181416",
+            "isikukood": null,
+            "isikukood_hash": "c24f7970-5b9e-5834-b0cd-32ceaac33c1a",
             "kirje_id": 9000820113,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37307310303",
+            "isikukood_hash": "39891eab-b547-5bfc-9368-11fc357f1169",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -120,6 +123,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Juhtme tn 27-22, Peetri alevik, Rae vald, Harju maakond, 10112",
+                "kirje_id": 3364530,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2024",
+                "tegevusala_emtak_kood": "14211",
+                "tegevusala_emtak_tekstina": "Pealisrõivaste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Juhtme tn 27-22, Peetri alevik, Rae vald, Harju maakond, 10112",
+                "kirje_id": 3076395,
+                "majandusaasta_perioodi_algus_kpv": "01.11.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.10.2023",
+                "tegevusala_emtak_kood": "14131",
+                "tegevusala_emtak_tekstina": "Muude pealisrõivaste tootmine, k.a rätsepatöö",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.13",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Juhtme tn 27-22, Peetri alevik, Rae vald, Harju maakond, 10112",
                 "kirje_id": 2811711,
@@ -268,7 +295,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -362,6 +389,20 @@
                 "sisaldab_erioigusi": false
             }
         ],
+        "seisundi_muutused": [
+            {
+                "algus_kpv": "08.10.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "kirje_id": 13353902,
+                "lopp_kpv": null,
+                "sisu": "Harju Maakohtu 19.09.2025 a. kohtumäärusega tsiviilasjas nr 2-25-5696 kuulutati välja K.B. PASSAGE OÜ pankrot 19.09.2025.a kell 10:00.",
+                "tyyp": "PANKV",
+                "tyyp_tekstina": "Pankroti väljakuulutamine"
+            }
+        ],
         "sidevahendid": [
             {
                 "kaardi_nr": 1,
@@ -386,8 +427,8 @@
                 "sisu": "+372 5029298"
             }
         ],
-        "staatus": "R",
-        "staatus_tekstina": "Registrisse kantud",
+        "staatus": "N",
+        "staatus_tekstina": "Pankrotis",
         "staatused": [
             {
                 "algus_kpv": "29.06.2011",
@@ -397,22 +438,31 @@
                 "kande_nr": 1,
                 "staatus": "R",
                 "staatus_tekstina": "Registrisse kantud"
+            },
+            {
+                "algus_kpv": "08.10.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 10,
+                "staatus": "N",
+                "staatus_tekstina": "Pankrotis"
             }
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.12.2012",
-                "emtak_kood": "14131",
-                "emtak_tekstina": "Muude pealisrõivaste tootmine, k.a rätsepatöö",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000220991,
+                "algus_kpv": "30.04.2025",
+                "emtak_kood": "14211",
+                "emtak_tekstina": "Pealisrõivaste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000862219,
                 "lopp_kpv": null,
-                "nace_kood": "14.13",
+                "nace_kood": "14.21",
                 "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,
-        "tegutseb_tekstina": "Jah"
+        "tegutseb_tekstina": "Ei"
     }
 }

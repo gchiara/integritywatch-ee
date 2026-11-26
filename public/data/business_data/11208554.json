@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.03.2023",
             "eesnimi": "Marek",
-            "isikukood": "37507060294",
+            "isikukood": null,
+            "isikukood_hash": "7fba81d8-b801-5bc4-9ffe-8c8121dc0dd1",
             "kirje_id": 9001548122,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003132728",
+            "isikukood_hash": "e9a20f50-49fc-5793-8cc0-6d06c3e34aad",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37507060294",
+            "isikukood_hash": "7fba81d8-b801-5bc4-9ffe-8c8121dc0dd1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -113,7 +116,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36712234713",
+            "isikukood_hash": "0af1df57-b055-5b06-a42c-866d3710ce80",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -176,6 +180,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 10/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3586203,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 10/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3316251,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "46721",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.72",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäealuse tn 10/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3028912,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "45311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.31",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäealuse tn 10/2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2750152,
@@ -372,7 +412,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": true,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -528,14 +568,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "45311",
+                "algus_kpv": "09.01.2025",
+                "emtak_kood": "46721",
                 "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000035259,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000809508,
                 "lopp_kpv": null,
-                "nace_kood": "45.31",
+                "nace_kood": "46.72",
                 "on_pohitegevusala": true
             }
         ],

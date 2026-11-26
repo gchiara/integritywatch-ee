@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Jevgeni",
-            "isikukood": "36804270294",
+            "isikukood": null,
+            "isikukood_hash": "3852def8-7c9f-513d-bdd7-52b97ea964b0",
             "kirje_id": 9000685580,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Valli",
-            "isikukood": "47110142750",
+            "isikukood": null,
+            "isikukood_hash": "7cf879f8-6d3e-521c-b1cc-b806a1eb98b4",
             "kirje_id": 9000685585,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36804270294",
+            "isikukood_hash": "3852def8-7c9f-513d-bdd7-52b97ea964b0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47110142750",
+            "isikukood_hash": "7cf879f8-6d3e-521c-b1cc-b806a1eb98b4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -114,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9475887",
+                "aadress_ads__adob_id": "10971449",
                 "aadress_ads__adr_id": 2109437,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Kadaka tee 86a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 86a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3619570,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46141",
+                "tegevusala_emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.14",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 86a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3332488,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46141",
+                "tegevusala_emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.14",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 86a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3081712,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46141",
+                "tegevusala_emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.14",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 86a, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2784920,
@@ -411,7 +451,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -545,12 +585,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "28.02.2025",
                 "emtak_kood": "46141",
-                "emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000044400,
+                "emtak_tekstina": "Masinate, tööstusseadmete, laevade ja õhusõidukite hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000827857,
                 "lopp_kpv": null,
                 "nace_kood": "46.14",
                 "on_pohitegevusala": true

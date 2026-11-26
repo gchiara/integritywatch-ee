@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Madis",
-            "isikukood": "34211220259",
+            "isikukood": null,
+            "isikukood_hash": "ec53f454-2f69-5a85-88aa-cd4efe2461d8",
             "kirje_id": 9000742151,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Riina",
-            "isikukood": "45204160350",
+            "isikukood": null,
+            "isikukood_hash": "32fcae27-3123-5085-87f1-0f9104fce1df",
             "kirje_id": 9000742149,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45204160350",
+            "isikukood_hash": "32fcae27-3123-5085-87f1-0f9104fce1df",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37610160294",
+            "isikukood_hash": "479103bc-7f72-5d0d-879f-47027efdfae3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -115,7 +119,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10383086",
+                "aadress_ads__adob_id": "10980331",
                 "aadress_ads__adr_id": 3167283,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Rapla maakond, Rapla vald, Rapla linn, Viljandi mnt 72e",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 72e, Rapla linn, Rapla vald, Rapla maakond, 79514",
+                "kirje_id": 3632539,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "22211",
+                "tegevusala_emtak_tekstina": "Plastplaatide, -lehtede, -torude ja -profiilide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.21",
+                "tootajate_arv": "34"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 72e, Rapla linn, Rapla vald, Rapla maakond, 79514",
+                "kirje_id": 3357803,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "22211",
+                "tegevusala_emtak_tekstina": "Plastplaatide, -lehtede, -torude ja -profiilide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.21",
+                "tootajate_arv": "34"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Viljandi mnt 72e, Rapla linn, Rapla vald, Rapla maakond, 79514",
+                "kirje_id": 3111343,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "22211",
+                "tegevusala_emtak_tekstina": "Plastplaatide, -lehtede, -profiilide, -torude, -voolikute, -liitmike jms toodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "22.21",
+                "tootajate_arv": "32"
+            },
             {
                 "ettevotja_aadress_aruandes": "Viljandi mnt 72e, Rapla linn, Rapla vald, Rapla maakond, 79514",
                 "kirje_id": 2780464,
@@ -496,7 +536,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -688,26 +728,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2010",
-                "emtak_kood": "46492",
-                "emtak_tekstina": "Spordikaupade hulgimüük (v.a spordirõivad ja -jalatsid)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000042868,
-                "lopp_kpv": null,
-                "nace_kood": "46.49",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "21.04.2025",
                 "emtak_kood": "22211",
-                "emtak_tekstina": "Plastplaatide, -lehtede, -profiilide, -torude, -voolikute, -liitmike jms toodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000025981,
+                "emtak_tekstina": "Plastplaatide, -lehtede, -torude ja -profiilide tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855275,
                 "lopp_kpv": null,
                 "nace_kood": "22.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "21.04.2025",
+                "emtak_kood": "46492",
+                "emtak_tekstina": "Spordikaupade hulgimüük (v.a spordirõivad ja vabaajajalatsid)",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000855276,
+                "lopp_kpv": null,
+                "nace_kood": "46.49",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

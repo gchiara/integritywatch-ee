@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45910285718",
+            "isikukood_hash": "4a2c9b9c-49be-504c-9908-7a755af6726b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -59,7 +60,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47904095733",
+            "isikukood_hash": "27e1b120-5be4-5736-ab61-4aac973fe36d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -96,7 +98,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "43606215726",
+            "isikukood_hash": "8b715d00-2d52-5929-ad6f-a28e3f21d317",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -135,6 +138,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3778469,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3458531,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3278747,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2941831,
@@ -308,10 +347,10 @@
         "ky_kinnistu_aadressid": [
             {
                 "adr_id": 3009320,
-                "ads_koodaadress": "81824852900000SBH0000B2ZB0000",
+                "ads_koodaadress": "81824852900000SBH0000B2ZB00000000",
                 "ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Tõrva linn, Metsa tn 1",
                 "ads_oid": "CU00515940",
-                "laadimise_kpv": "22.12.2022"
+                "laadimise_kpv": "17.06.2026"
             }
         ],
         "lahknevusteade_puudumisest": null,
@@ -390,17 +429,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 55618507"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000664018,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 58099101"
             }
         ],
         "staatus": "R",
@@ -434,7 +462,7 @@
                 "emtak_kood": "68321",
                 "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000021992,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",

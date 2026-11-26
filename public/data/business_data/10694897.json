@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Liidia",
-            "isikukood": "45310065729",
+            "isikukood": null,
+            "isikukood_hash": "5375388f-c345-5fd7-898c-d0b06dfa9c40",
             "kirje_id": 9000830514,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37712315726",
+            "isikukood": null,
+            "isikukood_hash": "737ff7dc-0069-58c2-ad86-d672552163f8",
             "kirje_id": 9000830517,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45310065729",
+            "isikukood_hash": "5375388f-c345-5fd7-898c-d0b06dfa9c40",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -78,12 +81,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8606726",
-                "aadress_ads__adr_id": 3019034,
+                "aadress_ads__adob_id": "10821414",
+                "aadress_ads__adr_id": 3718467,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, E. Enno tn 42-1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01585582",
-                "aadress_ads__koodaadress": "81855891800000SF40000B4S1HRY30000",
+                "aadress_ads__koodaadress": "81857891800000SF40000B4S1HRY30000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
                 "ehak": "8918",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "E. Enno tn 42-1, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3654073,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "E. Enno tn 42-1, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3507132,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56221",
+                "tegevusala_emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "E. Enno tn 42-1, Valga linn, Valga vald, Valga maakond, 68207",
+                "kirje_id": 3191302,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56291",
+                "tegevusala_emtak_tekstina": "Muu toitlustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.29",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "E. Enno tn 42-1, Valga linn, Valga vald, Valga maakond, 68207",
                 "kirje_id": 2949668,
@@ -399,7 +438,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -517,14 +556,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2010",
-                "emtak_kood": "56291",
-                "emtak_tekstina": "Muu toitlustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000056660,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "56221",
+                "emtak_tekstina": "Lepinguline toitlustusteenus jm toitlustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001004204,
                 "lopp_kpv": null,
-                "nace_kood": "56.29",
+                "nace_kood": "56.22",
                 "on_pohitegevusala": true
             }
         ],

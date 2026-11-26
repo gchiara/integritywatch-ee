@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Indrek",
-            "isikukood": "37704282239",
+            "isikukood": null,
+            "isikukood_hash": "6fc1783c-4a01-5b4c-b499-47bdc0d01d02",
             "kirje_id": 9000727501,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37411204911",
+            "isikukood": null,
+            "isikukood_hash": "a11f9338-4541-5727-86a0-e7ae50ae15df",
             "kirje_id": 9000727502,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37704282239",
+            "isikukood_hash": "6fc1783c-4a01-5b4c-b499-47bdc0d01d02",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37411204911",
+            "isikukood_hash": "a11f9338-4541-5727-86a0-e7ae50ae15df",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pruuna mõis, Tõõrakõrve küla, Tapa vald, Lääne-Viru maakond, 73615",
+                "kirje_id": 3670344,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pruuna mõis, Tõõrakõrve küla, Tapa vald, Lääne-Viru maakond, 73615",
+                "kirje_id": 3419239,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pruuna mõis, Tõõrakõrve küla, Tapa vald, Lääne-Viru maakond, 73615",
+                "kirje_id": 3233927,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pruuna mõis, Tõõrakõrve küla, Tapa vald, Lääne-Viru maakond, 73615",
                 "kirje_id": 2925699,
@@ -245,7 +285,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -363,15 +403,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.09.2018",
+                "algus_kpv": "17.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000385155,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000917808,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "08.06.2026",
+                "emtak_kood": "43211",
+                "emtak_tekstina": "Elektripaigaldustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109672,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.06.2026",
+                "emtak_kood": "35151",
+                "emtak_tekstina": "Elektrienergia müük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109673,
+                "lopp_kpv": null,
+                "nace_kood": "35.15",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

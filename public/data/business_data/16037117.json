@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Portugal",
             "algus_kpv": "26.08.2020",
             "eesnimi": "Paul Wade",
-            "isikukood": "38508160383",
+            "isikukood": null,
+            "isikukood_hash": "a66ea4f6-c183-5223-aa93-401a31a5b409",
             "kirje_id": 9001159981,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38508160383",
+            "isikukood_hash": "a66ea4f6-c183-5223-aa93-401a31a5b409",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Sepapaja tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 15551",
+                "kirje_id": 3655206,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62201",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepapaja tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 15551",
+                "kirje_id": 3368444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepapaja tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 15551",
+                "kirje_id": 3129605,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sepapaja tn 6, Lasnamäe linnaosa, Tallinn, Harju maakond, 15551",
                 "kirje_id": 2847966,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -154,32 +192,8 @@
                 "lopp_kpv": null
             }
         ],
-        "kontaktisiku_aadressid": [
-            {
-                "aadress_ads__adob_id": "7145735",
-                "aadress_ads__adr_id": 2107288,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Sepapaja tn 6",
-                "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00646115",
-                "aadress_ads__koodaadress": "377840387000004JS00003A3900000000",
-                "aadress_ads__tyyp": null,
-                "algus_kpv": "26.08.2020",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9193090,
-                "lopp_kpv": null,
-                "postiindeks": "15551",
-                "riik": "EST",
-                "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Sepapaja tn 6"
-            }
-        ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -204,6 +218,19 @@
                 "kirje_id": 11142688,
                 "lopp_kpv": null,
                 "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "02.10.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 4,
+                "kirje_id": 13340461,
+                "lopp_kpv": null,
+                "sisu": "Kontaktisik kustutatud automaatselt äriregistri seaduse § 69, § 24 lg 6 ning § 54 lg 3 p 4 alusel",
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
@@ -286,14 +313,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.08.2020",
-                "emtak_kood": "62011",
-                "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000498111,
+                "algus_kpv": "29.05.2026",
+                "emtak_kood": "62201",
+                "emtak_tekstina": "Arvutialased konsultatsioonid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106251,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

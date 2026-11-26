@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Ilmar",
-            "isikukood": "35403182749",
+            "isikukood": null,
+            "isikukood_hash": "21aa09e9-ac0a-5ad0-aa1b-249711dc55df",
             "kirje_id": 9000674985,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38008084919",
+            "isikukood_hash": "c9f21817-16e8-510a-9f07-74ee406a578b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 4,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10342436",
-                "aadress_ads__adr_id": 2659553,
+                "aadress_ads__adob_id": "11188463",
+                "aadress_ads__adr_id": 3745947,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Karja tn 19",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME03734101",
-                "aadress_ads__koodaadress": "52567586000000RSA0000ATY800000000",
+                "aadress_ads__koodaadress": "52567586100000W2U0000DAH900000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.02.2018",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 4,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Karja tn 19, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3620269,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "76"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karja tn 19, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3337147,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "77"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Karja tn 19, Paide linn, Paide linn, Järva maakond, 72720",
+                "kirje_id": 3061059,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "81"
+            },
             {
                 "ettevotja_aadress_aruandes": "Karja tn 19, Paide linn, Paide linn, Järva maakond, 72720",
                 "kirje_id": 2777329,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -535,23 +573,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.04.2014",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000104644,
-                "lopp_kpv": null,
-                "nace_kood": "46.90",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "11.03.2025",
                 "emtak_kood": "10711",
-                "emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000009910,
+                "emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000832988,
                 "lopp_kpv": null,
                 "nace_kood": "10.71",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "38305205213",
+            "isikukood": null,
+            "isikukood_hash": "1d1bfef7-c262-55da-88f9-5fbc738b95f1",
             "kirje_id": 9000730595,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36110230218",
+            "isikukood": null,
+            "isikukood_hash": "9cc2aa2b-9969-5fc5-b70e-0c82e8a454b9",
             "kirje_id": 9000730594,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38305205213",
+            "isikukood_hash": "1d1bfef7-c262-55da-88f9-5fbc738b95f1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36110230218",
+            "isikukood_hash": "9cc2aa2b-9969-5fc5-b70e-0c82e8a454b9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 14a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3804961,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 14a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3465103,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 14a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3085799,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4321",
+                "tegevusala_emtak_tekstina": "Elektriinstallatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.21",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laki tn 14a, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2821191,
@@ -437,7 +477,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -529,26 +569,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.02.2012",
-                "emtak_kood": "4321",
-                "emtak_tekstina": "Elektriinstallatsioon",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000164837,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
-                "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "03.02.2012",
+                "algus_kpv": "28.06.2025",
                 "emtak_kood": "68329",
                 "emtak_tekstina": "Muu kinnisvarahaldus või haldusega seotud tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000164838,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000961828,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "4321",
+                "emtak_tekstina": "Elektriinstallatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000961827,
+                "lopp_kpv": null,
+                "nace_kood": "43.21",
+                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

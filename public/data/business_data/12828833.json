@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "37001245221",
+            "isikukood": null,
+            "isikukood_hash": "012cf978-4c4f-5958-9a20-024a0dc4229f",
             "kirje_id": 9000684895,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37001245221",
+            "isikukood_hash": "012cf978-4c4f-5958-9a20-024a0dc4229f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kostivere alevik, Jõelähtme vald, Harju maakond, 74204",
+                "kirje_id": 3571563,
+                "majandusaasta_perioodi_algus_kpv": "01.06.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.05.2025",
+                "tegevusala_emtak_kood": "72101",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kostivere alevik, Jõelähtme vald, Harju maakond, 74204",
+                "kirje_id": 3257414,
+                "majandusaasta_perioodi_algus_kpv": "01.06.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.05.2024",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kostivere alevik, Jõelähtme vald, Harju maakond, 74204",
+                "kirje_id": 3063533,
+                "majandusaasta_perioodi_algus_kpv": "01.06.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.05.2023",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jõe tn 3, Kostivere alevik, Jõelähtme vald, Harju maakond, 74204",
+                "kirje_id": 3063519,
+                "majandusaasta_perioodi_algus_kpv": "01.06.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.05.2022",
+                "tegevusala_emtak_kood": "72191",
+                "tegevusala_emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "72.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jõe tn 3, Kostivere alevik, Jõelähtme vald, Harju maakond, 74204",
                 "kirje_id": 2639174,
@@ -191,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -264,12 +314,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7788324,
+                "kande_nr": 6,
+                "kirje_id": 12671933,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "forcemil001@gmail.com"
+                "sisu": "forcemil.grx@outlook.com"
             },
             {
                 "kaardi_nr": null,
@@ -298,14 +348,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.04.2015",
-                "emtak_kood": "72191",
-                "emtak_tekstina": "Teadus- ja arendustegevus muude loodus- ja tehnikateaduste vallas",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000161525,
+                "algus_kpv": "17.12.2025",
+                "emtak_kood": "72101",
+                "emtak_tekstina": "Teadus- ja arendustegevus loodus- ja tehnikateaduste vallas",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001071419,
                 "lopp_kpv": null,
-                "nace_kood": "72.19",
+                "nace_kood": "72.10",
                 "on_pohitegevusala": true
             }
         ],

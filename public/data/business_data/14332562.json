@@ -7,6 +7,7 @@
             "algus_kpv": "29.10.2018",
             "eesnimi": "Eero Juhani",
             "isikukood": null,
+            "isikukood_hash": "bcc2c84c-5a0f-5113-aaba-f1166df9c865",
             "kirje_id": 9000836969,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Ehanti",
             "synniaeg": null,
-            "valis_kood": "37701240115",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "29.10.2018",
             "eesnimi": "Heikki Tapio",
             "isikukood": null,
+            "isikukood_hash": "ee00d07e-d5a3-5d45-b7b6-725687e18d41",
             "kirje_id": 9000836962,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Häyhä",
             "synniaeg": null,
-            "valis_kood": "36005090168",
+            "valis_kood": null,
             "valis_kood_riik": "FIN",
             "valis_kood_riik_tekstina": "Soome"
         }
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37701240115",
+            "isikukood_hash": "bcc2c84c-5a0f-5113-aaba-f1166df9c865",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36005090168",
+            "isikukood_hash": "ee00d07e-d5a3-5d45-b7b6-725687e18d41",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9605233",
+                "aadress_ads__adob_id": "10709156",
                 "aadress_ads__adr_id": 3427284,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Pikaliiva tn 90/2-32",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pikaliiva tn 90/2-32, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3685553,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikaliiva tn 90/2-32, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3440796,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pikaliiva tn 90/2-32, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3225719,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43999",
+                "tegevusala_emtak_tekstina": "Muud eriehitustööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pikaliiva tn 90/2-32, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
                 "kirje_id": 2856217,
@@ -245,7 +285,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -366,14 +406,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2019",
-                "emtak_kood": "90031",
-                "emtak_tekstina": "Kunstialane loometegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000429319,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "43999",
+                "emtak_tekstina": "Muud eriehitustööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938440,
                 "lopp_kpv": null,
-                "nace_kood": "90.03",
+                "nace_kood": "43.99",
                 "on_pohitegevusala": true
             }
         ],

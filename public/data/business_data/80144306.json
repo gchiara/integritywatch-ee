@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36402232728",
+            "isikukood_hash": "5d3cb187-9ce8-533a-a389-87d688fa7182",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -59,7 +60,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36507056528",
+            "isikukood_hash": "a8119cd0-d66a-559a-867d-9c2f7e843f4c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -98,6 +100,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3598571,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3366788,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3132110,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2975303,
@@ -298,11 +336,24 @@
                 "ads_koodaadress": "64622653600000PYF00009QZT0000",
                 "ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Piiri tn 2",
                 "ads_oid": "CU00334771",
-                "laadimise_kpv": "15.09.2022"
+                "laadimise_kpv": "23.06.2026"
             }
         ],
         "lahknevusteade_puudumisest": null,
         "loobunud_vorminouetest": null,
+        "majandusaastad": [
+            {
+                "algus_kpv": "20.06.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "KÜ",
+                "kande_nr": 5,
+                "kirje_id": 12557562,
+                "lopp_kpv": null,
+                "maj_aasta_algus": "01.01",
+                "maj_aasta_lopp": "31.12"
+            }
+        ],
         "markused_kaardil": [],
         "oiguslik_vorm": "KÜ",
         "oiguslik_vorm_nr": 23,
@@ -419,7 +470,7 @@
                 "emtak_kood": "68321",
                 "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000019143,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",

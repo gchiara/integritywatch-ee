@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.12.2018",
             "eesnimi": "Hendry",
-            "isikukood": "38103100272",
+            "isikukood": null,
+            "isikukood_hash": "a88b7cad-adf9-5826-9c44-cd341bd14c36",
             "kirje_id": 9000907566,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38103100272",
+            "isikukood_hash": "a88b7cad-adf9-5826-9c44-cd341bd14c36",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 225, Haabersti linnaosa, Tallinn, Harju maakond, 13515",
+                "kirje_id": 3751455,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 225, Haabersti linnaosa, Tallinn, Harju maakond, 13515",
+                "kirje_id": 3483254,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Paldiski mnt 225, Haabersti linnaosa, Tallinn, Harju maakond, 13515",
+                "kirje_id": 3216444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81221",
+                "tegevusala_emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.22",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Paldiski mnt 225, Haabersti linnaosa, Tallinn, Harju maakond, 13515",
                 "kirje_id": 2814755,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -372,26 +410,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.05.2023",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "81221",
                 "emtak_tekstina": "Hoonete muu puhastus ja tööstuslik puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683930,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980115,
                 "lopp_kpv": null,
                 "nace_kood": "81.22",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "16.05.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000683931,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Alo",
-            "isikukood": "36809020261",
+            "isikukood": null,
+            "isikukood_hash": "72eb1a34-2b52-5888-8caf-e6a8ee3cbf6e",
             "kirje_id": 9000731794,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36808190245",
+            "isikukood": null,
+            "isikukood_hash": "c812ee18-7f13-50fd-a409-fb87fa0da66f",
             "kirje_id": 9000731796,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.10.2018",
             "eesnimi": "Vladimir",
-            "isikukood": "35908180217",
+            "isikukood": null,
+            "isikukood_hash": "f2a74aac-05e5-5f68-adcc-6621e56c3cb6",
             "kirje_id": 9000731795,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -73,7 +76,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36808190245",
+            "isikukood_hash": "c812ee18-7f13-50fd-a409-fb87fa0da66f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -109,7 +113,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35908180217",
+            "isikukood_hash": "f2a74aac-05e5-5f68-adcc-6621e56c3cb6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -172,6 +177,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järsi tee 1, Aruküla alevik, Raasiku vald, Harju maakond, 75201",
+                "kirje_id": 3584558,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "63"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järsi tee 1, Aruküla alevik, Raasiku vald, Harju maakond, 75201",
+                "kirje_id": 3333576,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "62"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järsi tee 1, Aruküla alevik, Raasiku vald, Harju maakond, 75201",
+                "kirje_id": 3054461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "3109",
+                "tegevusala_emtak_tekstina": "Muu mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "63"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järsi tee 1, Aruküla alevik, Raasiku vald, Harju maakond, 75201",
                 "kirje_id": 2768349,
@@ -476,7 +517,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -534,12 +575,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 7661811,
+                "kande_nr": 12,
+                "kirje_id": 13702685,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "alla@falkonet.ee"
+                "sisu": "info@falkonet.ee"
             },
             {
                 "kaardi_nr": null,
@@ -568,11 +609,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000034298,
+                "kirje_id": 9000742676,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "www.falkonet.ee"
+                "sisu": "http://www.falkonet.ee"
             }
         ],
         "staatus": "R",
@@ -590,14 +631,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.04.2010",
-                "emtak_kood": "3109",
-                "emtak_tekstina": "Muu mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000012834,
+                "algus_kpv": "03.03.2025",
+                "emtak_kood": "3100",
+                "emtak_tekstina": "Mööblitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000829005,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

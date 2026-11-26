@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Lana",
-            "isikukood": "46602020221",
+            "isikukood": null,
+            "isikukood_hash": "d88b183d-f0d9-5c9e-9e45-f7b45ea9a009",
             "kirje_id": 9000821669,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46602020221",
+            "isikukood_hash": "d88b183d-f0d9-5c9e-9e45-f7b45ea9a009",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36411030242",
+            "isikukood_hash": "55222141-ccbf-5e3e-945a-786361542f43",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -98,7 +101,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10082572",
+                "aadress_ads__adob_id": "10950412",
                 "aadress_ads__adr_id": 2125722,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt 356",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 356, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3631085,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 356, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3362514,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 356, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
+                "kirje_id": 3106024,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 356, Nõmme linnaosa, Tallinn, Harju maakond, 11612",
                 "kirje_id": 2851723,
@@ -383,7 +422,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -516,12 +555,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.06.2010",
+                "algus_kpv": "28.04.2025",
                 "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000035606,
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000860198,
                 "lopp_kpv": null,
                 "nace_kood": "46.18",
                 "on_pohitegevusala": true

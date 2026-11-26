@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Rasmus",
-            "isikukood": "37412180290",
+            "isikukood": null,
+            "isikukood_hash": "81d8ebfe-8607-5641-b2df-bb5761ea3f22",
             "kirje_id": 9000811561,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36002210360",
+            "isikukood": null,
+            "isikukood_hash": "c7bb7fad-5d3d-5808-864c-fc73fd25265e",
             "kirje_id": 9000811567,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37412180290",
+            "isikukood_hash": "81d8ebfe-8607-5641-b2df-bb5761ea3f22",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3721678,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "2920",
+                "tegevusala_emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3473201,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "2920",
+                "tegevusala_emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "29.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3220549,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45191",
+                "tegevusala_emtak_tekstina": "Muude mootorsõidukite müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.19",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 27, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
                 "kirje_id": 2936973,
@@ -208,7 +247,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -233,6 +272,19 @@
                 "kirje_id": 11276256,
                 "lopp_kpv": null,
                 "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "12.10.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 6,
+                "kirje_id": 12085536,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud äriregistri andmete ja ÄRS § 54 lg 6 alusel.",
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
@@ -326,15 +378,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.08.2016",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000254773,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "2920",
+                "emtak_tekstina": "Mootorsõidukikerede tootmine; haagiste ja poolhaagiste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000969616,
                 "lopp_kpv": null,
-                "nace_kood": "45.19",
+                "nace_kood": "29.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "46711",
+                "emtak_tekstina": "Mootorsõidukite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000969617,
+                "lopp_kpv": null,
+                "nace_kood": "46.71",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

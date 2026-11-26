@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.01.2019",
             "eesnimi": "Alo",
-            "isikukood": "36809020261",
+            "isikukood": null,
+            "isikukood_hash": "72eb1a34-2b52-5888-8caf-e6a8ee3cbf6e",
             "kirje_id": 9000926437,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.01.2019",
             "eesnimi": "Toomas",
-            "isikukood": "36808190245",
+            "isikukood": null,
+            "isikukood_hash": "c812ee18-7f13-50fd-a409-fb87fa0da66f",
             "kirje_id": 9000926438,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47008280212",
+            "isikukood_hash": "9cd8b4a8-01e8-5cb4-9193-92d33596cd96",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9993997",
+                "aadress_ads__adob_id": "10873362",
                 "aadress_ads__adr_id": 3508772,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Mehaanika tn 12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mehaanika tn 12, Kristiine linnaosa, Tallinn, Harju maakond, 10616",
+                "kirje_id": 3624741,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "181"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mehaanika tn 12, Kristiine linnaosa, Tallinn, Harju maakond, 10616",
+                "kirje_id": 3387903,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "185"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mehaanika tn 12, Kristiine linnaosa, Tallinn, Harju maakond, 10616",
+                "kirje_id": 3081375,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "198"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mehaanika tn 12, Kristiine linnaosa, Tallinn, Harju maakond, 10616",
                 "kirje_id": 2800165,
@@ -364,7 +403,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -405,6 +444,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "04.02.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "kirje_id": 12291909,
+                "lopp_kpv": null,
+                "sisu": "05.12.2023.a. sõlmitud jagunemiskava alusel Arkaadia Puhastuse OÜ, registrikood 10981157, asukoht \nMehaanika tn 12, Tallinn, 10616.  jaguneb eraldumise teel ja omandavaks ühinguks on uus äriühing - asutatav Shareman OÜ, 16913429\t.Jagunemine loetakse toimunuks käesoleva konstitutiivse kande tegemisega.Jagunemisotsus on vastu võetud 28.12.2023.a.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -506,26 +559,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2010",
-                "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000064157,
-                "lopp_kpv": null,
-                "nace_kood": "46.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000039858,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886499,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.05.2025",
+                "emtak_kood": "46191",
+                "emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000886500,
+                "lopp_kpv": null,
+                "nace_kood": "46.19",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

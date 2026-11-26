@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Toomas",
-            "isikukood": "35806070322",
+            "isikukood": null,
+            "isikukood_hash": "2c49d8c7-37b1-5139-b0bc-3ec6c3b6536c",
             "kirje_id": 9000662035,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "04.09.2018",
             "eesnimi": "Urmas",
-            "isikukood": "36505090270",
+            "isikukood": null,
+            "isikukood_hash": "4b06a2f8-1e8e-5bf8-bd75-f8097aedbbd4",
             "kirje_id": 9000662036,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38605114912",
+            "isikukood_hash": "584be726-21fd-5427-a960-2a43bd3e749c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mööblitööstuse, Mäo küla, Paide linn, Järva maakond, 72751",
+                "kirje_id": 3770400,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "57"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mööblitööstuse, Mäo küla, Paide linn, Järva maakond, 72751",
+                "kirje_id": 3485913,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "31001",
+                "tegevusala_emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "61"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mööblitööstuse, Mäo küla, Paide linn, Järva maakond, 72751",
+                "kirje_id": 3234021,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "59"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mööblitööstuse, Mäo küla, Paide linn, Järva maakond, 72751",
                 "kirje_id": 2958918,
@@ -352,7 +391,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -489,22 +528,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000169691,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
+                "kirje_id": 9000725794,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "www.woodman.ee"
+                "sisu": "+372 53438736"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000573882,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
+                "kirje_id": 9000725795,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
-                "sisu": "+372 5050758"
+                "sisu": "https://woodman.ee/"
             }
         ],
         "staatus": "R",
@@ -522,14 +561,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.05.2018",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000355333,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "31001",
+                "emtak_tekstina": "Mööbli (v.a madratsite) tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000983039,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

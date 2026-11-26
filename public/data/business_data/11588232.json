@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 11588232,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "03.12.2024",
+            "eesnimi": "Kristjan",
+            "isikukood": null,
+            "isikukood_hash": "f858aeda-311d-533e-aa40-d2612f98f2e7",
+            "kirje_id": 9003399289,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Konks",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712120224",
+            "isikukood_hash": "f858aeda-311d-533e-aa40-d2612f98f2e7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saeveski tn 3-29, Nõmme linnaosa, Tallinn, Harju maakond, 11214",
+                "kirje_id": 3754197,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47821",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.82",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saeveski tn 3-29, Nõmme linnaosa, Tallinn, Harju maakond, 11214",
+                "kirje_id": 3480248,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47821",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.82",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saeveski tn 3-29, Nõmme linnaosa, Tallinn, Harju maakond, 11214",
+                "kirje_id": 3066769,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45321",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.32",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Saeveski tn 3-29, Nõmme linnaosa, Tallinn, Harju maakond, 11214",
                 "kirje_id": 2946206,
@@ -269,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -400,14 +456,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2013",
-                "emtak_kood": "63121",
-                "emtak_tekstina": "Veebiportaalide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000040685,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47821",
+                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000976687,
                 "lopp_kpv": null,
-                "nace_kood": "63.12",
+                "nace_kood": "47.82",
                 "on_pohitegevusala": true
             }
         ],

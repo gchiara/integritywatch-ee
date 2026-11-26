@@ -7,6 +7,7 @@
             "algus_kpv": "24.09.2018",
             "eesnimi": "Andris",
             "isikukood": null,
+            "isikukood_hash": "f6bec73f-bf8c-5a8f-9741-c9c1c4bb94df",
             "kirje_id": 9000706672,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Blaka",
             "synniaeg": null,
-            "valis_kood": "270771-10137",
+            "valis_kood": null,
             "valis_kood_riik": "LVA",
             "valis_kood_riik_tekstina": "Läti"
         },
@@ -24,6 +25,7 @@
             "algus_kpv": "24.09.2018",
             "eesnimi": "Rauls",
             "isikukood": null,
+            "isikukood_hash": "ff351840-6a91-5d8b-a87b-39e074d4822b",
             "kirje_id": 9000706678,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -31,7 +33,7 @@
             "lopp_kpv": null,
             "nimi": "Viktorovs",
             "synniaeg": null,
-            "valis_kood": "080266-13056",
+            "valis_kood": null,
             "valis_kood_riik": "LVA",
             "valis_kood_riik_tekstina": "Läti"
         }
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36707290374",
+            "isikukood_hash": "42f7a4b7-439f-5f8c-9b0a-d42f9acfd718",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metalli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3635799,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metalli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3372214,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metalli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3104484,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metalli tn 3, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
                 "kirje_id": 2798203,
@@ -364,7 +403,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,6 +428,19 @@
                 "kirje_id": 6225582,
                 "lopp_kpv": null,
                 "sisu": "Aadressiandmed on muudetud äriseadustiku § 511¹ alusel.",
+                "tyyp": "MARK",
+                "tyyp_tekstina": "Märkus",
+                "veerg_nr": 6
+            },
+            {
+                "algus_kpv": "07.08.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 15,
+                "kirje_id": 12631303,
+                "lopp_kpv": null,
+                "sisu": "Kanne on tehtud äriregistri seaduse § 70 lõike 1 alusel.",
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
@@ -482,12 +534,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.06.2010",
+                "algus_kpv": "13.05.2025",
                 "emtak_kood": "73121",
                 "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000024802,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000870376,
                 "lopp_kpv": null,
                 "nace_kood": "73.12",
                 "on_pohitegevusala": true

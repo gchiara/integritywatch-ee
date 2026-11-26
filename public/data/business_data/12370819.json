@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Eliisa",
-            "isikukood": "48902070269",
+            "isikukood": null,
+            "isikukood_hash": "c2dd5ecb-2286-571b-b27d-aadd1ce615bc",
             "kirje_id": 9000862999,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Raigo",
-            "isikukood": "37107050220",
+            "isikukood": null,
+            "isikukood_hash": "fd89a0c8-9498-50ba-82f0-8283b130a578",
             "kirje_id": 9000862996,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37107050220",
+            "isikukood_hash": "fd89a0c8-9498-50ba-82f0-8283b130a578",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,26 +82,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7253617",
-                "aadress_ads__adr_id": 2182253,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Kodu tn 16-3",
+                "aadress_ads__adob_id": "10455515",
+                "aadress_ads__adr_id": 590838,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Viimsi vald, Püünsi küla, Arukase tee 6",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01357831",
-                "aadress_ads__koodaadress": "377840298000005WL00001EI340JG0000",
+                "aadress_ads__ads_oid": "EE01074783",
+                "aadress_ads__koodaadress": "3789066720000080400003PVB00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "02.12.2017",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "07.10.2025",
+                "ehak": "6672",
+                "ehak_nimetus": "Püünsi küla, Viimsi vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7242563,
+                "kande_nr": 7,
+                "kirje_id": 13349937,
                 "lopp_kpv": null,
-                "postiindeks": "10138",
+                "postiindeks": "74013",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kodu tn 16-3"
+                "tanav_maja_korter": "Arukase tee 6"
             }
         ],
         "arinimed": [
@@ -120,6 +123,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kodu tn 16-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3491515,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74201",
+                "tegevusala_emtak_tekstina": "Fotograafia",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kodu tn 16-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3259292,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "9609",
+                "tegevusala_emtak_tekstina": "Muu mujal liigitamata teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kodu tn 16-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2966938,
@@ -256,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -324,13 +351,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "31.10.2012",
+                "algus_kpv": "07.10.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "30.10.2012",
-                "kirje_id": 4630528,
+                "kande_nr": 7,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13349938,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -348,17 +375,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "pajulafoto@gmail.com"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7733431,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "raigog@gmail.com"
             }
         ],
         "staatus": "R",
@@ -376,14 +392,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2014",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000121319,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "74201",
+                "emtak_tekstina": "Fotograafia",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000988675,
                 "lopp_kpv": null,
-                "nace_kood": "96.09",
+                "nace_kood": "74.20",
                 "on_pohitegevusala": true
             }
         ],

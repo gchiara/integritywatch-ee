@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Andi",
-            "isikukood": "37001256018",
+            "isikukood": null,
+            "isikukood_hash": "0a578943-513e-5689-a5b3-9e3d98fc3adc",
             "kirje_id": 9000845428,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -24,7 +25,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6833421",
+                "aadress_ads__adob_id": "11141710",
                 "aadress_ads__adr_id": 465862,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi linn, Tartu tn 55",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -65,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 55, Viljandi linn, Viljandi maakond, 71004",
+                "kirje_id": 3759546,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 55, Viljandi linn, Viljandi maakond, 71004",
+                "kirje_id": 3465623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tartu tn 55, Viljandi linn, Viljandi maakond, 71004",
+                "kirje_id": 3211337,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tartu tn 55, Viljandi linn, Viljandi maakond, 71004",
                 "kirje_id": 2898842,
@@ -211,7 +248,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -303,25 +340,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "93121",
-                "emtak_tekstina": "Spordiklubide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699698,
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "02101",
+                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000962309,
                 "lopp_kpv": null,
-                "nace_kood": "93.12",
+                "nace_kood": "02.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "28.06.2023",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000699699,
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "93121",
+                "emtak_tekstina": "Spordiklubide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000962310,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
+                "nace_kood": "93.12",
                 "on_pohitegevusala": false
             }
         ],

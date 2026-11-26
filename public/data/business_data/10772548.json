@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Nikolai",
-            "isikukood": "36503242220",
+            "isikukood": null,
+            "isikukood_hash": "2efbcac0-f1d1-5949-bdba-caa103fb202a",
             "kirje_id": 9000871062,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36503242220",
+            "isikukood_hash": "2efbcac0-f1d1-5949-bdba-caa103fb202a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sakala tn 9, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30326",
+                "kirje_id": 3628419,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "61901",
+                "tegevusala_emtak_tekstina": "Muud elektroonilise side teenused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "61.90",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sakala tn 9, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30326",
+                "kirje_id": 3413633,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "61901",
+                "tegevusala_emtak_tekstina": "Muud elektroonilise side teenused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "61.90",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sakala tn 9, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30326",
+                "kirje_id": 3258560,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "61901",
+                "tegevusala_emtak_tekstina": "Elektroonilise side muud teenused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "61.90",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sakala tn 9, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30326",
                 "kirje_id": 2935612,
@@ -369,20 +407,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "02.07.2001",
+                "algus_kpv": "13.01.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 4,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kapitali_suurus": "40000.00",
-                "kapitali_valuuta": "EEK",
-                "kapitali_valuuta_tekstina": "Eesti kroon",
-                "kirje_id": 3475163,
+                "kande_nr": 7,
+                "kapitali_suurus": "2556.47",
+                "kapitali_valuuta": "EUR",
+                "kapitali_valuuta_tekstina": "euro",
+                "kirje_id": 13511935,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -437,13 +475,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "02.07.2001",
+                "algus_kpv": "13.01.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 4,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kinnitamise_kpv": "26.06.2001",
-                "kirje_id": 3475164,
+                "kande_nr": 7,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13511936,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -455,23 +493,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7752343,
+                "kande_nr": 6,
+                "kirje_id": 13219655,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "katerina.soone@hotmail.com"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000025225,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 3350797"
+                "sisu": "nikolai.tjagur@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -483,17 +510,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5067117"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000032082,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 3350797"
             }
         ],
         "staatus": "R",
@@ -511,12 +527,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.10.2010",
+                "algus_kpv": "13.06.2025",
                 "emtak_kood": "61901",
-                "emtak_tekstina": "Elektroonilise side muud teenused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000094975,
+                "emtak_tekstina": "Muud elektroonilise side teenused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000912522,
                 "lopp_kpv": null,
                 "nace_kood": "61.90",
                 "on_pohitegevusala": true

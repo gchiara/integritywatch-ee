@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2018",
             "eesnimi": "Andres",
-            "isikukood": "38409170370",
+            "isikukood": null,
+            "isikukood_hash": "7ebcba66-10dc-54d8-94e9-852e626a5337",
             "kirje_id": 9000733637,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2018",
             "eesnimi": "Janis",
-            "isikukood": "38312136018",
+            "isikukood": null,
+            "isikukood_hash": "c6a65ebe-3508-520a-8545-6a39e4453503",
             "kirje_id": 9000733636,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2018",
             "eesnimi": "Kristo",
-            "isikukood": "38311280257",
+            "isikukood": null,
+            "isikukood_hash": "e8db7fd3-6ba4-5d60-85fb-f87767c03355",
             "kirje_id": 9000733635,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38409170370",
+            "isikukood_hash": "7ebcba66-10dc-54d8-94e9-852e626a5337",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -111,7 +115,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38312136018",
+            "isikukood_hash": "c6a65ebe-3508-520a-8545-6a39e4453503",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -148,7 +153,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38311280257",
+            "isikukood_hash": "e8db7fd3-6ba4-5d60-85fb-f87767c03355",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -211,6 +217,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 105, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3768849,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 105, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3454691,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 105, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
+                "kirje_id": 3087049,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 105, Kesklinna linnaosa, Tallinn, Harju maakond, 11312",
                 "kirje_id": 2960089,
@@ -419,7 +461,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -460,6 +502,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "19.02.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 11,
+                "kirje_id": 12317951,
+                "lopp_kpv": null,
+                "sisu": "Estlander Grupp OÜ (jagunev äriühing) jaguneb eraldumise teel, andes osa oma varast üle jagunemise käigus omandavale äriühingule Estlander Haldus OÜ (registrikood 16662708, asukoht ja aadress Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 105, 11312). Jagunemisleping (notari ametitegevuse raamatu registri nr 3431) sõlmiti 12.10.2023. a. Jagunemisotsus võeti vastu 18.12.2023. a. ",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -539,37 +595,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.07.2023",
-                "emtak_kood": "41201",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "41001",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000711055,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951846,
                 "lopp_kpv": null,
-                "nace_kood": "41.20",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "11.07.2023",
-                "emtak_kood": "43311",
-                "emtak_tekstina": "Krohvimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000711056,
-                "lopp_kpv": null,
-                "nace_kood": "43.31",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "11.07.2017",
-                "emtak_kood": "43911",
-                "emtak_tekstina": "Katusetööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000315222,
-                "lopp_kpv": null,
-                "nace_kood": "43.91",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

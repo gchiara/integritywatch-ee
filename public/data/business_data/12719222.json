@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.01.2019",
             "eesnimi": "Kristel",
-            "isikukood": "47901270296",
+            "isikukood": null,
+            "isikukood_hash": "c64111a1-e436-5a22-8a29-7a3902f2ae72",
             "kirje_id": 9000919726,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47901270296",
+            "isikukood_hash": "c64111a1-e436-5a22-8a29-7a3902f2ae72",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 217-16, Mustamäe linnaosa, Tallinn, Harju maakond, 13422",
+                "kirje_id": 3734776,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 217-16, Mustamäe linnaosa, Tallinn, Harju maakond, 13422",
+                "kirje_id": 3373933,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sõpruse pst 217-16, Mustamäe linnaosa, Tallinn, Harju maakond, 13422",
+                "kirje_id": 3225425,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sõpruse pst 217-16, Mustamäe linnaosa, Tallinn, Harju maakond, 13422",
                 "kirje_id": 2982929,
@@ -313,12 +351,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 9647014,
+                "kande_nr": 8,
+                "kirje_id": 12226294,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kristelkalde@gmail.com"
+                "sisu": "kanella@restoranmets.ee"
             },
             {
                 "kaardi_nr": null,
@@ -347,15 +385,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2019",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000423300,
+                "algus_kpv": "15.05.2025",
+                "emtak_kood": "56211",
+                "emtak_tekstina": "Toitlustamine üritustel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000872050,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.21",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "15.05.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000872051,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

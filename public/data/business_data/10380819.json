@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.12.2022",
             "eesnimi": "Rain",
-            "isikukood": "38002190315",
+            "isikukood": null,
+            "isikukood_hash": "b866ac8d-5a9c-56db-95a9-b1bcf833b53d",
             "kirje_id": 9001509501,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38002190315",
+            "isikukood_hash": "b866ac8d-5a9c-56db-95a9-b1bcf833b53d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vaela tee 57a, Vaela küla, Kiili vald, Harju maakond, 75413",
+                "kirje_id": 3567285,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "29"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaela tee 57a, Vaela küla, Kiili vald, Harju maakond, 75413",
+                "kirje_id": 3272000,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "30"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaela tee 57a, Vaela küla, Kiili vald, Harju maakond, 75413",
+                "kirje_id": 3024339,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "23619",
+                "tegevusala_emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "23.61",
+                "tootajate_arv": "32"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vaela tee 57, Vaela küla, Kiili vald, Harju maakond, 75401",
                 "kirje_id": 2671504,
@@ -407,19 +445,19 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
-                "algus_kpv": "12.02.1998",
+                "algus_kpv": "29.12.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 239281,
+                "kande_nr": 14,
+                "kirje_id": 13489071,
                 "lopp_kpv": null,
-                "maj_aasta_algus": "01.01",
-                "maj_aasta_lopp": "31.12"
+                "maj_aasta_algus": "01.07",
+                "maj_aasta_lopp": "30.06"
             }
         ],
         "markused_kaardil": [
@@ -488,15 +526,15 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "17.02.2012",
+                "algus_kpv": "29.12.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
+                "kande_nr": 14,
                 "kinnitamise_kpv": null,
-                "kirje_id": 4400312,
+                "kirje_id": 13489070,
                 "lopp_kpv": null,
-                "muutmise_kpv": "01.01.2011",
+                "muutmise_kpv": null,
                 "selgitus": null,
                 "sisaldab_erioigusi": false
             }
@@ -506,23 +544,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7659265,
+                "kande_nr": 13,
+                "kirje_id": 12638830,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@kiilibetoon.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 2000035928,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 6393080"
+                "sisu": "rain@kiilibetoon.ee"
             },
             {
                 "kaardi_nr": null,
@@ -562,12 +589,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "13.11.2025",
                 "emtak_kood": "23619",
                 "emtak_tekstina": "Betoonist muude ehitustoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000047108,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001065899,
                 "lopp_kpv": null,
                 "nace_kood": "23.61",
                 "on_pohitegevusala": true

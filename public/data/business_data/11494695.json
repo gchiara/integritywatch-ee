@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.11.2019",
             "eesnimi": "Herki",
-            "isikukood": "38405040029",
+            "isikukood": null,
+            "isikukood_hash": "29d99919-cca1-5c64-8a71-17ec53d94315",
             "kirje_id": 9001050861,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38405040029",
+            "isikukood_hash": "29d99919-cca1-5c64-8a71-17ec53d94315",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metalli, Sikassaare küla, Saaremaa vald, Saare maakond, 93876",
+                "kirje_id": 3665362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metalli, Sikassaare küla, Saaremaa vald, Saare maakond, 93876",
+                "kirje_id": 3398653,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metalli, Sikassaare küla, Saaremaa vald, Saare maakond, 93876",
+                "kirje_id": 3118532,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46181",
+                "tegevusala_emtak_tekstina": "Muude kindlate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.18",
+                "tootajate_arv": "21"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metalli, Sikassaare küla, Saaremaa vald, Saare maakond, 93876",
                 "kirje_id": 2946074,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -481,48 +519,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.05.2022",
-                "emtak_kood": "35119",
-                "emtak_tekstina": "Muu elektrienergia tootmine (sh biomassist)",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000617249,
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "46181",
+                "emtak_tekstina": "Muude kindlate kaupade hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896481,
                 "lopp_kpv": null,
-                "nace_kood": "35.11",
-                "on_pohitegevusala": false
+                "nace_kood": "46.18",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "06.06.2016",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000231219,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2017",
+                "algus_kpv": "05.06.2025",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000313916,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896482,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "05.07.2017",
-                "emtak_kood": "46181",
-                "emtak_tekstina": "Muude kindlate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000313915,
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896483,
                 "lopp_kpv": null,
-                "nace_kood": "46.18",
-                "on_pohitegevusala": true
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "05.06.2025",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000896484,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Allan",
-            "isikukood": "37604142736",
+            "isikukood": null,
+            "isikukood_hash": "122239ac-cc02-5069-ae6b-f7901976d233",
             "kirje_id": 9000758931,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "37011076536",
+            "isikukood": null,
+            "isikukood_hash": "201cdfd8-e144-5fcb-8d4a-96e13c946eb6",
             "kirje_id": 9000758929,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37011076536",
+            "isikukood_hash": "201cdfd8-e144-5fcb-8d4a-96e13c946eb6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -119,6 +122,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ülejõe tn 14, Puurmani alevik, Põltsamaa vald, Jõgeva maakond, 49014",
+                "kirje_id": 3192722,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ülejõe tn 14, Puurmani alevik, Põltsamaa vald, Jõgeva maakond, 49014",
                 "kirje_id": 2704115,
@@ -339,7 +354,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -461,7 +476,7 @@
                 "emtak_kood": "41201",
                 "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000087929,
                 "lopp_kpv": null,
                 "nace_kood": "41.20",

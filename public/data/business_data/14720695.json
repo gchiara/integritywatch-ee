@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.12.2019",
             "eesnimi": "Indrek",
-            "isikukood": "37912050267",
+            "isikukood": null,
+            "isikukood_hash": "bcc5d46b-61d3-50aa-ad15-33eb6fec23ff",
             "kirje_id": 9001056570,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.12.2019",
             "eesnimi": "Riho",
-            "isikukood": "38111084238",
+            "isikukood": null,
+            "isikukood_hash": "2d8d9e6a-30ab-5a2c-8851-66cde57fb75d",
             "kirje_id": 9001056569,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912050267",
+            "isikukood_hash": "bcc5d46b-61d3-50aa-ad15-33eb6fec23ff",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38111084238",
+            "isikukood_hash": "2d8d9e6a-30ab-5a2c-8851-66cde57fb75d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10685529",
+                "aadress_ads__adob_id": "10698441",
                 "aadress_ads__adr_id": 3688658,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kursi tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3779664,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3522507,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3240960,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62091",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.09",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
                 "kirje_id": 2960095,
@@ -221,7 +261,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -339,14 +379,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.10.2020",
-                "emtak_kood": "62091",
+                "algus_kpv": "02.07.2025",
+                "emtak_kood": "62901",
                 "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000508705,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001018987,
                 "lopp_kpv": null,
-                "nace_kood": "62.09",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
             }
         ],

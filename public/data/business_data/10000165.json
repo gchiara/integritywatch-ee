@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "36208222244",
+            "isikukood": null,
+            "isikukood_hash": "2a0eb4c8-5ee9-5b44-8b36-18241e2db086",
             "kirje_id": 9000821810,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -65,6 +66,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 3, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3680752,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 3, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3394591,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47789",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kauba tn 3, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
+                "kirje_id": 3136576,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47191",
+                "tegevusala_emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.19",
+                "tootajate_arv": "37"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kauba tn 3, Kiviõli linn, Lüganuse vald, Ida-Viru maakond, 43125",
                 "kirje_id": 2806129,
@@ -417,7 +454,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -535,26 +572,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.06.2012",
+                "algus_kpv": "03.06.2025",
+                "emtak_kood": "47789",
+                "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000892649,
+                "lopp_kpv": null,
+                "nace_kood": "47.78",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "03.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000182836,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000892650,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "10.06.2019",
-                "emtak_kood": "47191",
-                "emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000419771,
-                "lopp_kpv": null,
-                "nace_kood": "47.19",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -2,11 +2,29 @@
     {
         "contract_title": "Pudelivee ostmine",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "Päästeamet",
+        "contracting_bodies": [
+            {
+                "id": "70000585",
+                "name": "Päästeamet",
+                "town": "Tallinn"
+            },
+            {
+                "id": "70008747",
+                "name": "Politsei- ja Piirivalveamet",
+                "town": "Tallinn"
+            },
+            {
+                "id": "70004465",
+                "name": "Sisekaitseakadeemia",
+                "town": "Tallinn"
+            }
+        ],
         "date_dispatch_notice": "2021-08-24",
         "filename": "award_ee8ced14-e109-4db1-9751-fb412187b560_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ]
     }
 ]

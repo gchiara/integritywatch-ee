@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.02.2022",
             "eesnimi": "OLIVER",
-            "isikukood": "38005172713",
+            "isikukood": null,
+            "isikukood_hash": "32d6febd-11fe-561b-8ac5-1411bb89206d",
             "kirje_id": 9001402640,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38005172713",
+            "isikukood_hash": "32d6febd-11fe-561b-8ac5-1411bb89206d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 100-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10127",
+                "kirje_id": 3804996,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90121",
+                "tegevusala_emtak_tekstina": "Visuaalkunstiloome",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 100-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10127",
+                "kirje_id": 3535177,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90121",
+                "tegevusala_emtak_tekstina": "Visuaalkunstiloome",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Narva mnt 100-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10127",
+                "kirje_id": 3291136,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90031",
+                "tegevusala_emtak_tekstina": "Kunstialane loometegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.03",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Narva mnt 100-3, Kesklinna linnaosa, Tallinn, Harju maakond, 10127",
                 "kirje_id": 2976439,
@@ -313,12 +351,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10665201,
+                "kande_nr": 8,
+                "kirje_id": 13943731,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "oliver.soomets@allianss.eu"
+                "sisu": "oliver@oliversoomets.ee"
             },
             {
                 "kaardi_nr": null,
@@ -347,26 +385,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.06.2016",
-                "emtak_kood": "90031",
-                "emtak_tekstina": "Kunstialane loometegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000231921,
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "90121",
+                "emtak_tekstina": "Visuaalkunstiloome",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031011,
                 "lopp_kpv": null,
-                "nace_kood": "90.03",
+                "nace_kood": "90.12",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "01.02.2023",
-                "emtak_kood": "85519",
-                "emtak_tekstina": "Muu spordi- ja vabaajakoolitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000667365,
-                "lopp_kpv": null,
-                "nace_kood": "85.51",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

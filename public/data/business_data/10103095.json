@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.06.2019",
             "eesnimi": "Reet",
-            "isikukood": "43903180342",
+            "isikukood": null,
+            "isikukood_hash": "fe5b88d2-1d42-54ca-9c07-f09870ae2515",
             "kirje_id": 9000984341,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36802220303",
+            "isikukood_hash": "0661b189-811f-53b5-8f3c-1e628d987a56",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kungla tn 41, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10413",
+                "kirje_id": 3809832,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "32201",
+                "tegevusala_emtak_tekstina": "Muusikariistade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "32.20",
+                "tootajate_arv": "27"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kungla tn 41, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10413",
+                "kirje_id": 3441235,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "32201",
+                "tegevusala_emtak_tekstina": "Muusikariistade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "32.20",
+                "tootajate_arv": "35"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kungla tn 41, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10413",
+                "kirje_id": 3261485,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "32201",
+                "tegevusala_emtak_tekstina": "Muusikariistade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "32.20",
+                "tootajate_arv": "35"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kungla tn 41, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10413",
                 "kirje_id": 2825109,
@@ -455,7 +493,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,23 +626,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.05.2010",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000015732,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938858,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "32201",
                 "emtak_tekstina": "Muusikariistade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000042701,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938857,
                 "lopp_kpv": null,
                 "nace_kood": "32.20",
                 "on_pohitegevusala": true

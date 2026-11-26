@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Jaanus",
-            "isikukood": "37808012713",
+            "isikukood": null,
+            "isikukood_hash": "3df38639-1840-5705-891f-30f2a7396a58",
             "kirje_id": 9000851805,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37808012713",
+            "isikukood_hash": "3df38639-1840-5705-891f-30f2a7396a58",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9491307",
-                "aadress_ads__adr_id": 2331094,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Akadeemia tee 21/4",
+                "aadress_ads__adob_id": "11137980",
+                "aadress_ads__adr_id": 2113532,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Tähetorni tn 21h",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00641702",
-                "aadress_ads__koodaadress": "377840482000003WB00009L9L00000000",
+                "aadress_ads__ads_oid": "ME01654505",
+                "aadress_ads__koodaadress": "377840524000003NV00001L0900000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "10.03.2023",
-                "ehak": "0482",
-                "ehak_nimetus": "Mustamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "03.11.2025",
+                "ehak": "0524",
+                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 10553964,
+                "kande_nr": 8,
+                "kirje_id": 13397426,
                 "lopp_kpv": null,
-                "postiindeks": "12618",
+                "postiindeks": "11625",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Akadeemia tee 21/4"
+                "tanav_maja_korter": "Tähetorni tn 21h"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3384444,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "28991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.99",
+                "tootajate_arv": "65"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3102048,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "28991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.99",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 21/4, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3009824,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "28991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "28.99",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Akadeemia tee 21/6, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2696831,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": true,
         "majandusaastad": [
             {
@@ -207,13 +245,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "05.05.2021",
+                "algus_kpv": "31.12.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kinnitamise_kpv": "30.03.2021",
-                "kirje_id": 9574574,
+                "kande_nr": 9,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13492455,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -259,12 +297,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.06.2021",
+                "algus_kpv": "28.05.2025",
                 "emtak_kood": "28991",
                 "emtak_tekstina": "Mujal liigitamata erimasinate tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000560509,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000882988,
                 "lopp_kpv": null,
                 "nace_kood": "28.99",
                 "on_pohitegevusala": true

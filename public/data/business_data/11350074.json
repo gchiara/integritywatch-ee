@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.10.2018",
             "eesnimi": "Dagmar",
-            "isikukood": "47008162753",
+            "isikukood": null,
+            "isikukood_hash": "0f90411a-5066-5881-b90b-c03ab520b29f",
             "kirje_id": 9000823699,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47008162753",
+            "isikukood_hash": "0f90411a-5066-5881-b90b-c03ab520b29f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9658458",
+                "aadress_ads__adob_id": "11134983",
                 "aadress_ads__adr_id": 3088331,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Soola tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 2, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3740489,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 2, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3464246,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "88991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "88.99",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Soola tn 2, Tartu linn, Tartu linn, Tartu maakond, 51013",
+                "kirje_id": 3183765,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86909",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Soola tn 2, Tartu linn, Tartu linn, Tartu maakond, 51013",
                 "kirje_id": 2887226,
@@ -311,7 +349,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -451,48 +489,70 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2017",
-                "emtak_kood": "96041",
-                "emtak_tekstina": "Saunade, solaariumite ja massaažisalongide tegevus jm füüsilise heaoluga seotud teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000305917,
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "88101",
+                "emtak_tekstina": "Eakate ja puuetega inimeste sotsiaalhoolekanne majutuseta",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960995,
                 "lopp_kpv": null,
-                "nace_kood": "96.04",
+                "nace_kood": "88.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "86909",
-                "emtak_tekstina": "Mujal liigitamata tervishoiualad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697739,
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "96231",
+                "emtak_tekstina": "Päevaspaa, massaažisalongide ja saunade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960996,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "96.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "86951",
+                "emtak_tekstina": "Taastusravi",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960998,
+                "lopp_kpv": null,
+                "nace_kood": "86.95",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "93131",
+                "emtak_tekstina": "Spordi- ja jõusaalide tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960997,
+                "lopp_kpv": null,
+                "nace_kood": "93.13",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "86992",
+                "emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960999,
+                "lopp_kpv": null,
+                "nace_kood": "86.99",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "88991",
+                "emtak_tekstina": "Mujal liigitamata sotsiaalhoolekanne ilma majutuseta",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960994,
+                "lopp_kpv": null,
+                "nace_kood": "88.99",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "87101",
-                "emtak_tekstina": "Hooldusraviasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697740,
-                "lopp_kpv": null,
-                "nace_kood": "87.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "16.06.2010",
-                "emtak_kood": "47751",
-                "emtak_tekstina": "Kosmeetika ja tualetitarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000034808,
-                "lopp_kpv": null,
-                "nace_kood": "47.75",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

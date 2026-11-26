@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.09.2018",
             "eesnimi": "Arne",
-            "isikukood": "35011086550",
+            "isikukood": null,
+            "isikukood_hash": "95125433-0861-5572-bd5e-6c7ea0058eee",
             "kirje_id": 9000676425,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.09.2018",
             "eesnimi": "Kadi",
-            "isikukood": "45110196518",
+            "isikukood": null,
+            "isikukood_hash": "ddbfeee5-0d6f-5368-8437-a501cb085dda",
             "kirje_id": 9000676426,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35011086550",
+            "isikukood_hash": "95125433-0861-5572-bd5e-6c7ea0058eee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -78,7 +81,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10220665",
+                "aadress_ads__adob_id": "10726093",
                 "aadress_ads__adr_id": 3147396,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Kanepi vald, Piigaste küla, Kaha",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaha, Piigaste küla, Kanepi vald, Põlva maakond, 63507",
+                "kirje_id": 3588962,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaha, Piigaste küla, Kanepi vald, Põlva maakond, 63507",
+                "kirje_id": 3320863,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaha, Piigaste küla, Kanepi vald, Põlva maakond, 63507",
+                "kirje_id": 3040680,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kahja, Piigaste küla, Kanepi vald, Põlva maakond, 63501",
                 "kirje_id": 2768878,
@@ -411,7 +450,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -529,48 +568,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.02.2023",
-                "emtak_kood": "16109",
-                "emtak_tekstina": "Muude puidutöötlemissaaduste tootmine, sh hakkepuit, puitvill jms",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000669847,
-                "lopp_kpv": null,
-                "nace_kood": "16.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.02.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000669848,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.02.2023",
-                "emtak_kood": "35141",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000669849,
-                "lopp_kpv": null,
-                "nace_kood": "35.14",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "27.01.2025",
                 "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000008250,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814871,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.01.2025",
+                "emtak_kood": "16111",
+                "emtak_tekstina": "Puidu saagimine ja hööveldamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814872,
+                "lopp_kpv": null,
+                "nace_kood": "16.11",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "27.01.2025",
+                "emtak_kood": "35141",
+                "emtak_tekstina": "Elektrienergia jaotus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000814873,
+                "lopp_kpv": null,
+                "nace_kood": "35.14",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

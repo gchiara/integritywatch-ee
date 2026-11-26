@@ -7,6 +7,7 @@
             "algus_kpv": "24.01.2023",
             "eesnimi": "Dagnis",
             "isikukood": null,
+            "isikukood_hash": "0bfc5db6-4ec6-5762-b4eb-00be6670170e",
             "kirje_id": 9001525698,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Cakurs",
             "synniaeg": null,
-            "valis_kood": "05.03.1967",
+            "valis_kood": null,
             "valis_kood_riik": "LVA",
             "valis_kood_riik_tekstina": "Läti"
         }
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38710150019",
+            "isikukood_hash": "aa154c9f-929f-5011-a878-79957f87c95a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -77,6 +79,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "b5453da5-dba4-5bca-baf1-ee3a27705e66",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
@@ -89,7 +92,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "05.03.1967",
-            "valis_kood": "050367-11350",
+            "valis_kood": null,
             "valis_kood_riik": null,
             "valis_kood_riik_tekstina": null,
             "volituste_loppemise_kpv": ""
@@ -140,6 +143,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Reiva, Reiu küla, Häädemeeste vald, Pärnu maakond, 86508",
+                "kirje_id": 3826159,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46391",
+                "tegevusala_emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete spetsialiseerimata hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.39",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reiva, Reiu küla, Häädemeeste vald, Pärnu maakond, 86508",
+                "kirje_id": 3544631,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46391",
+                "tegevusala_emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete spetsialiseerimata hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.39",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reiva, Reiu küla, Häädemeeste vald, Pärnu maakond, 86508",
+                "kirje_id": 3294484,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reiva, Reiu küla, Häädemeeste vald, Pärnu maakond, 86508",
+                "kirje_id": 3011294,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Reiva, Reiu küla, Häädemeeste vald, Pärnu maakond, 86508",
                 "kirje_id": 2743311,
@@ -300,7 +351,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -420,36 +471,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2016",
-                "emtak_kood": "82991",
-                "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000247285,
+                "algus_kpv": "01.08.2025",
+                "emtak_kood": "10711",
+                "emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001040124,
                 "lopp_kpv": null,
-                "nace_kood": "82.99",
+                "nace_kood": "10.71",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "24.08.2021",
+                "algus_kpv": "01.08.2025",
                 "emtak_kood": "46391",
                 "emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete spetsialiseerimata hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000579780,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001040123,
                 "lopp_kpv": null,
                 "nace_kood": "46.39",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "24.08.2021",
-                "emtak_kood": "10711",
-                "emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000579781,
+                "algus_kpv": "01.08.2025",
+                "emtak_kood": "82991",
+                "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001040125,
                 "lopp_kpv": null,
-                "nace_kood": "10.71",
+                "nace_kood": "82.99",
                 "on_pohitegevusala": false
             }
         ],

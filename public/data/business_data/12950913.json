@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.04.2023",
             "eesnimi": "Edgar",
-            "isikukood": "38410195712",
+            "isikukood": null,
+            "isikukood_hash": "1c5c2105-5d26-5fac-a51c-f98fb180160f",
             "kirje_id": 9001561521,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.04.2023",
             "eesnimi": "Marko",
-            "isikukood": "38704125718",
+            "isikukood": null,
+            "isikukood_hash": "4e9b9f4b-5c31-5c12-a29e-014213620291",
             "kirje_id": 9001561520,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38704125718",
+            "isikukood_hash": "4e9b9f4b-5c31-5c12-a29e-014213620291",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,12 +82,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10405668",
-                "aadress_ads__adr_id": 3620253,
+                "aadress_ads__adob_id": "10821674",
+                "aadress_ads__adr_id": 3718635,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Londi küla, Lekto/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME03821197",
-                "aadress_ads__koodaadress": "8185544930000000098CACTOI00000000",
+                "aadress_ads__koodaadress": "8185744930000000098CACTOI00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "03.12.2021",
                 "ehak": "4493",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lekto/1, Londi küla, Valga vald, Valga maakond, 68103",
+                "kirje_id": 3823399,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lekto/1, Londi küla, Valga vald, Valga maakond, 68103",
+                "kirje_id": 3535656,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "38111",
+                "tegevusala_emtak_tekstina": "Tavajäätmete kogumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.11",
+                "tootajate_arv": "19"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lekto/1, Londi küla, Valga vald, Valga maakond, 68103",
+                "kirje_id": 3535599,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "38321",
+                "tegevusala_emtak_tekstina": "Prügilasse ladestamine või püsiv ladustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "38.32",
+                "tootajate_arv": "27"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lekto/1, Londi küla, Valga vald, Valga maakond, 68103",
                 "kirje_id": 2928922,
@@ -220,7 +259,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -327,15 +366,59 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "04.09.2019",
-                "emtak_kood": "38321",
-                "emtak_tekstina": "Sorteeritud materjali taaskasutusele võtmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000444400,
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "38111",
+                "emtak_tekstina": "Tavajäätmete kogumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031456,
                 "lopp_kpv": null,
-                "nace_kood": "38.32",
+                "nace_kood": "38.11",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "38211",
+                "emtak_tekstina": "Materjalide taaskasutusele võtmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031457,
+                "lopp_kpv": null,
+                "nace_kood": "38.21",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "38231",
+                "emtak_tekstina": "Muu jäätmete taaskasutamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031458,
+                "lopp_kpv": null,
+                "nace_kood": "38.23",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "46871",
+                "emtak_tekstina": "Jäätmete ja jääkide hulgikaubandus, taara ja pakendite kokkuost",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031459,
+                "lopp_kpv": null,
+                "nace_kood": "46.87",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "14.07.2025",
+                "emtak_kood": "49411",
+                "emtak_tekstina": "Kaubavedu maanteel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001031395,
+                "lopp_kpv": null,
+                "nace_kood": "49.41",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

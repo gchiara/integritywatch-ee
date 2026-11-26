@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Alari",
-            "isikukood": "37712210387",
+            "isikukood": null,
+            "isikukood_hash": "c5281f95-393b-5f88-a9f6-984d4dd31ac5",
             "kirje_id": 9000735402,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Uku-Kristjan",
-            "isikukood": "38212230279",
+            "isikukood": null,
+            "isikukood_hash": "a9f5f80f-0f26-5b0e-8da6-48e0f06ad9a1",
             "kirje_id": 9000735405,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712210387",
+            "isikukood_hash": "c5281f95-393b-5f88-a9f6-984d4dd31ac5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38212230279",
+            "isikukood_hash": "a9f5f80f-0f26-5b0e-8da6-48e0f06ad9a1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7059743",
+                "aadress_ads__adob_id": "10708876",
                 "aadress_ads__adr_id": 2337308,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pagari tn 1-4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pagari tn 1-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3593921,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74141",
+                "tegevusala_emtak_tekstina": "Muu disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.14",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pagari tn 1-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3345925,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74141",
+                "tegevusala_emtak_tekstina": "Muu disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.14",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pagari tn 1-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
+                "kirje_id": 3047301,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74101",
+                "tegevusala_emtak_tekstina": "Disainerite tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.10",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pagari tn 1-4, Kesklinna linnaosa, Tallinn, Harju maakond, 10133",
                 "kirje_id": 2767796,
@@ -305,7 +345,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -412,14 +452,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.01.2012",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000163801,
+                "algus_kpv": "28.03.2025",
+                "emtak_kood": "74141",
+                "emtak_tekstina": "Muu disainerite tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000842594,
                 "lopp_kpv": null,
-                "nace_kood": "74.10",
+                "nace_kood": "74.14",
                 "on_pohitegevusala": true
             }
         ],

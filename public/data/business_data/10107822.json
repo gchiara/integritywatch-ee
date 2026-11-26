@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Ines",
-            "isikukood": "47407135218",
+            "isikukood": null,
+            "isikukood_hash": "d090b3dd-be00-5110-b491-15d5bad5faf5",
             "kirje_id": 9000832173,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Neeme-Jaak",
-            "isikukood": "36309225210",
+            "isikukood": null,
+            "isikukood_hash": "640b112d-84ba-524b-b3b5-5d14268df71b",
             "kirje_id": 9000832170,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47407135218",
+            "isikukood_hash": "d090b3dd-be00-5110-b491-15d5bad5faf5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10430831",
+                "aadress_ads__adob_id": "11196252",
                 "aadress_ads__adr_id": 2690724,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, F. R. Kreutzwaldi tn 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -122,12 +125,48 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 9, Rakvere linn, Lääne-Viru maakond, 44314",
-                "kirje_id": 2889721,
+                "kirje_id": 3817899,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 9, Rakvere linn, Lääne-Viru maakond, 44314",
+                "kirje_id": 3559610,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 9, Rakvere linn, Lääne-Viru maakond, 44314",
+                "kirje_id": 3559198,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "F. R. Kreutzwaldi tn 9, Rakvere linn, Lääne-Viru maakond, 44314",
+                "kirje_id": 3559608,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
                 "tegevusala_emtak_kood": "68201",
                 "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
                 "tegevusala_emtak_versioon_tekstina": null,
                 "tegevusala_nace_kood": "68.20",
                 "tootajate_arv": "2"
@@ -448,7 +487,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -629,26 +668,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000698153,
-                "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000005440,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951388,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951389,
+                "lopp_kpv": null,
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

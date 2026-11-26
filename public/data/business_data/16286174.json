@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "06.08.2021",
             "eesnimi": "Alex",
-            "isikukood": "37012030226",
+            "isikukood": null,
+            "isikukood_hash": "f8744b7d-8fd6-5173-8610-d905be540c08",
             "kirje_id": 9001313598,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37012030226",
+            "isikukood_hash": "f8744b7d-8fd6-5173-8610-d905be540c08",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -102,6 +104,32 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 8-6, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3053850,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lossi tn 8-6, Põltsamaa linn, Põltsamaa vald, Jõgeva maakond, 48104",
+                "kirje_id": 3032975,
+                "majandusaasta_perioodi_algus_kpv": "06.08.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "85601",
+                "tegevusala_emtak_tekstina": "Haridust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.60",
+                "tootajate_arv": "0"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "06.08.2021",
@@ -117,7 +145,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -217,7 +245,7 @@
                 "emtak_kood": "85601",
                 "emtak_tekstina": "Haridust abistavad tegevused",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 9000577588,
                 "lopp_kpv": null,
                 "nace_kood": "85.60",

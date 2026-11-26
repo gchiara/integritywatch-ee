@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.09.2018",
             "eesnimi": "Kaido",
-            "isikukood": "36303170017",
+            "isikukood": null,
+            "isikukood_hash": "c5f7d34d-b75b-5f8a-ba3e-579b096df0e4",
             "kirje_id": 9000692314,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36303170017",
+            "isikukood_hash": "c5f7d34d-b75b-5f8a-ba3e-579b096df0e4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mere tn 3, Nasva alevik, Saaremaa vald, Saare maakond, 93872",
+                "kirje_id": 3610664,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33151",
+                "tegevusala_emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.15",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mere tn 3, Nasva alevik, Saaremaa vald, Saare maakond, 93872",
+                "kirje_id": 3358784,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49391",
+                "tegevusala_emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mere tn 3, Nasva alevik, Saaremaa vald, Saare maakond, 93872",
+                "kirje_id": 3105395,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49399",
+                "tegevusala_emtak_tekstina": "Sõitjate muu maismaavedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.39",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mere tn 3, Nasva alevik, Saaremaa vald, Saare maakond, 93872",
                 "kirje_id": 2773554,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -268,6 +306,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "20.05.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 7,
+                "kirje_id": 13755721,
+                "lopp_kpv": null,
+                "sisu": "Nasva Paadiehitus OÜ (ühendav ühing, registrikood 12703155, aadress Saare maakond, Saaremaa vald, Nasva alevik, Mere tn 3, 93872), Nasva Forell OÜ (ühendatav ühing, registrikood 12170960, aadress Saare maakond, Saaremaa vald, Nasva alevik, Mere tn 3, 93872) ühinevad 31.03.2026.a. sõlmitud ühinemislepingu alusel. Ühinemisotsused võeti vastu 16.04.2026.a. (Nasva Forell OÜ) ja 16.04.2026.a. (Nasva Paadiehitus OÜ). Ühinemine loetakse toimunuks käesoleva ühinemiskande tegemisega.",
+                "tyyp": "YHIN",
+                "tyyp_tekstina": "Ühinemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -313,12 +365,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7825772,
+                "kande_nr": 6,
+                "kirje_id": 12503298,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kaits39@hot.ee"
+                "sisu": "nasvapaadiehitus@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -347,58 +399,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.02.2023",
-                "emtak_kood": "3511",
-                "emtak_tekstina": "Elektrienergia tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000671376,
+                "algus_kpv": "30.03.2026",
+                "emtak_kood": "33151",
+                "emtak_tekstina": "Tsiviillaevade ja -paatide remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091597,
                 "lopp_kpv": null,
-                "nace_kood": "35.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.02.2023",
-                "emtak_kood": "4511",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000671377,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "25.02.2021",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000532881,
-                "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "33.15",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "21.02.2020",
-                "emtak_kood": "33151",
-                "emtak_tekstina": "Laevade ja paatide remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000464577,
+                "algus_kpv": "30.03.2026",
+                "emtak_kood": "49391",
+                "emtak_tekstina": "Sõitjate muu mujal liigitamata maismaavedu",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091598,
                 "lopp_kpv": null,
-                "nace_kood": "33.15",
+                "nace_kood": "49.39",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.02.2020",
-                "emtak_kood": "52101",
-                "emtak_tekstina": "Kaubaladude töö",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000464579,
+                "algus_kpv": "30.03.2026",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091599,
                 "lopp_kpv": null,
-                "nace_kood": "52.10",
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "22.04.2025",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000856332,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
                 "on_pohitegevusala": false
             }
         ],

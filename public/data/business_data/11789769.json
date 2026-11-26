@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Raido",
-            "isikukood": "37105290261",
+            "isikukood": null,
+            "isikukood_hash": "bf3859a6-bc2f-5e31-a68d-d52d3d339010",
             "kirje_id": 9000761776,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37105290261",
+            "isikukood_hash": "bf3859a6-bc2f-5e31-a68d-d52d3d339010",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustjõe tn 22, Haabersti linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3763179,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustjõe tn 22, Haabersti linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3487908,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46503",
+                "tegevusala_emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.50",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustjõe tn 22, Haabersti linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3265811,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46661",
+                "tegevusala_emtak_tekstina": "Muude kontorimasinate ja -seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.66",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustjõe tn 22, Haabersti linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3005602,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "46661",
+                "tegevusala_emtak_tekstina": "Muude kontorimasinate ja -seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.66",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustjõe tn 22, Haabersti linnaosa, Tallinn, Harju maakond, 10617",
                 "kirje_id": 2647675,
@@ -263,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -394,26 +444,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.02.2012",
-                "emtak_kood": "46661",
-                "emtak_tekstina": "Muude kontorimasinate ja -seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000166655,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46503",
+                "emtak_tekstina": "Elektroonika- ja sideseadmete ning nende osade hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000985068,
                 "lopp_kpv": null,
-                "nace_kood": "46.66",
+                "nace_kood": "46.50",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "17.06.2021",
-                "emtak_kood": "77331",
-                "emtak_tekstina": "Kontorimasinate ja -seadmete rentimine ja kasutusrent, k.a arvutid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558112,
-                "lopp_kpv": null,
-                "nace_kood": "77.33",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

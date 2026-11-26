@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.04.2022",
             "eesnimi": "Rainer",
-            "isikukood": "36803050361",
+            "isikukood": null,
+            "isikukood_hash": "918e7c0b-a32f-5c23-af35-6df0c10ead90",
             "kirje_id": 9001420938,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36803050361",
+            "isikukood_hash": "918e7c0b-a32f-5c23-af35-6df0c10ead90",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7404642",
-                "aadress_ads__adr_id": 2114982,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Pirni tn 7",
+                "aadress_ads__adob_id": "11097278",
+                "aadress_ads__adr_id": 3789646,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Pirni tn 7/1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME03573757",
-                "aadress_ads__koodaadress": "37784033900000JV900001RLJ00000000",
+                "aadress_ads__koodaadress": "37784033900000JV90000DDNB00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "30.12.2021",
+                "algus_kpv": "24.05.2025",
                 "ehak": "0339",
                 "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9902729,
+                "kande_nr": 5,
+                "kirje_id": 13126701,
                 "lopp_kpv": null,
                 "postiindeks": "10617",
                 "riik": null,
                 "riik_tekstina": null,
-                "tanav_maja_korter": "Pirni tn 7"
+                "tanav_maja_korter": "Pirni tn 7/1"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pirni tn 7/1, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3680093,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirni tn 7/1, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3402822,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirni tn 7, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
+                "kirje_id": 3135277,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "11"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pirni tn 7, Kristiine linnaosa, Tallinn, Harju maakond, 10617",
                 "kirje_id": 2917200,
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -265,12 +303,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.12.2021",
+                "algus_kpv": "09.06.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000596450,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000900462,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true

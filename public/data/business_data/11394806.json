@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Janar",
-            "isikukood": "38011264222",
+            "isikukood": null,
+            "isikukood_hash": "4b91151d-1829-5495-8d61-dcf85a1d659c",
             "kirje_id": 9000659886,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Silver",
-            "isikukood": "38208164214",
+            "isikukood": null,
+            "isikukood_hash": "4d18b959-6d92-5502-bd5b-e89f4cfb8d58",
             "kirje_id": 9000659885,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38011264222",
+            "isikukood_hash": "4b91151d-1829-5495-8d61-dcf85a1d659c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38208164214",
+            "isikukood_hash": "4d18b959-6d92-5502-bd5b-e89f4cfb8d58",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 46, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3781972,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "16"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 46, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3507212,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustamäe tee 46, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3160123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81211",
+                "tegevusala_emtak_tekstina": "Hoonete üldpuhastus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.21",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustamäe tee 46, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2931765,
@@ -353,7 +393,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -444,6 +484,18 @@
                 "kirje_id": 9602551,
                 "lopp_kpv": null,
                 "sisu": "SPS Grupp OÜ (jagunev ühing) jaguneb eraldumisega, andes osa oma varast üle SPS INVESTEERINGUTE OÜ-le (omandav ühing, registrikood 11681517, aadress Harju maakond, Tallinn, Mustamäe linnaosa, Laki tn 11, 10621) ja OÜ-le Wahwik (omandav ühing, registrikood 12829956, aadress Harju maakond, Tallinn, Mustamäe linnaosa, Laki tn 11, 12915). Jagunemisleping on sõlmitud 26.02.2021.a (notari ametitegevuse raamatu registri number 401), jagunemisotsused on vastu võetud 15.04.2021.a. ",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            },
+            {
+                "algus_kpv": "25.04.2025",
+                "kaardi_nr": 2,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 17,
+                "kirje_id": 13080617,
+                "lopp_kpv": null,
+                "sisu": "SPS Grupp OÜ jaguneb eraldumise teel andes osa oma varast omandavatele ühingutele SPS INVESTEERINGUTE OÜ (registrikood 11681517, aadress Harju maakond, Tallinn, Mustamäe tee 46) ja OÜ Wahwik (registrikood 12829956, aadress Harju maakond, Tallinn, Mustamäe tee 46). Jagunemisleping on sõlmitud 08.10.2024.a. Jagunemisotsus on vastu võetud 23.10.2024.a. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
                 "tyyp": "JAGUN",
                 "tyyp_tekstina": "Jagunemine tekstina"
             }
@@ -547,12 +599,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.07.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "81211",
                 "emtak_tekstina": "Hoonete üldpuhastus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000081008,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001004286,
                 "lopp_kpv": null,
                 "nace_kood": "81.21",
                 "on_pohitegevusala": true

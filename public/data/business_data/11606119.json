@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "38001070356",
+            "isikukood": null,
+            "isikukood_hash": "058cc4cf-f0d7-5e46-89ae-518704af5d50",
             "kirje_id": 9000728796,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38001070356",
+            "isikukood_hash": "058cc4cf-f0d7-5e46-89ae-518704af5d50",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946138",
-                "aadress_ads__adr_id": 3498880,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Peetri alevik, Treiali tee 2-7",
+                "aadress_ads__adob_id": "10929560",
+                "aadress_ads__adr_id": 2549497,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Peetri alevik, Valguse tee 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "MR03818282",
-                "aadress_ads__koodaadress": "37653608600000PDR00009HLYK9G10000",
+                "aadress_ads__ads_oid": "EE04132457",
+                "aadress_ads__koodaadress": "37653608600000RJ50000API200000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "28.01.2020",
+                "algus_kpv": "16.06.2026",
                 "ehak": "6086",
                 "ehak_nimetus": "Peetri alevik, Rae vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 8922608,
+                "kande_nr": 13,
+                "kirje_id": 13809474,
                 "lopp_kpv": null,
                 "postiindeks": "75312",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Treiali tee 2-7"
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Valguse tee 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valguse tee 4, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3827423,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Treiali tee 2-7, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3544501,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Treiali tee 2-7, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3149369,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Treiali tee 2-7, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2851829,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -360,23 +398,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 10,
-                "kirje_id": 7690024,
+                "kande_nr": 13,
+                "kirje_id": 13809475,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "info@eurosec.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 3000197857,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.eurosec.ee"
+                "sisu": "info@eurosec.eu"
             },
             {
                 "kaardi_nr": null,
@@ -388,6 +415,17 @@
                 "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
                 "sisu": "+372 687119"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000745197,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://www.eurosec.eu"
             }
         ],
         "staatus": "R",
@@ -405,12 +443,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.04.2019",
+                "algus_kpv": "01.08.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000412237,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001039985,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": true

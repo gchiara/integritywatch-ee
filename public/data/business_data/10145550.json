@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.09.2018",
             "eesnimi": "Toivo",
-            "isikukood": "34410080300",
+            "isikukood": null,
+            "isikukood_hash": "4698a7df-3a68-5432-820c-5eeed12f2498",
             "kirje_id": 9000714356,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34410080300",
+            "isikukood_hash": "4698a7df-3a68-5432-820c-5eeed12f2498",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 74-73, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3635875,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 74-73, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3360965,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ehitajate tee 74-73, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
+                "kirje_id": 3107800,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46191",
+                "tegevusala_emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.19",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ehitajate tee 74-73, Mustamäe linnaosa, Tallinn, Harju maakond, 12915",
                 "kirje_id": 2806204,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -598,25 +636,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.05.2023",
+                "algus_kpv": "25.04.2025",
                 "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000681576,
+                "emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858518,
                 "lopp_kpv": null,
                 "nace_kood": "46.19",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.05.2023",
-                "emtak_kood": "33131",
-                "emtak_tekstina": "Elektroonika- ja optikaseadmete remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000681577,
+                "algus_kpv": "25.04.2025",
+                "emtak_kood": "74991",
+                "emtak_tekstina": "Kogu muu mujal liigitamata kutse-, teadus- ja tehnikaalane tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858519,
                 "lopp_kpv": null,
-                "nace_kood": "33.13",
+                "nace_kood": "74.99",
                 "on_pohitegevusala": false
             }
         ],

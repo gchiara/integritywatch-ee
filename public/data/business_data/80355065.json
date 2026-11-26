@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.06.2019",
             "eesnimi": "Joonas",
-            "isikukood": "39006044225",
+            "isikukood": null,
+            "isikukood_hash": "8d2dc9da-cf2a-5a54-acb3-dc3363361d0f",
             "kirje_id": 9000987405,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.06.2019",
             "eesnimi": "Martin",
-            "isikukood": "38911104212",
+            "isikukood": null,
+            "isikukood_hash": "6bd96bee-824a-518f-b80f-d0ebd130c5af",
             "kirje_id": 9000987406,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39006044225",
+            "isikukood_hash": "8d2dc9da-cf2a-5a54-acb3-dc3363361d0f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38911104212",
+            "isikukood_hash": "6bd96bee-824a-518f-b80f-d0ebd130c5af",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -131,7 +135,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39202294306",
+            "isikukood_hash": "f0c42fdf-ad71-559d-9e2e-7ee6631e0d46",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "MTÜ",
@@ -153,7 +158,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8786212",
+                "aadress_ads__adob_id": "11187645",
                 "aadress_ads__adr_id": 3044135,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Lembitu tn 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -194,6 +199,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lembitu tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80028",
+                "kirje_id": 3783604,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lembitu tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80028",
+                "kirje_id": 3454040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lembitu tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80028",
+                "kirje_id": 3186169,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93121",
+                "tegevusala_emtak_tekstina": "Spordiklubide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.12",
+                "tootajate_arv": "10"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lembitu tn 1, Pärnu linn, Pärnu linn, Pärnu maakond, 80028",
                 "kirje_id": 2876968,
@@ -316,7 +357,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -443,12 +484,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.03.2013",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "93121",
                 "emtak_tekstina": "Spordiklubide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000020707,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951173,
                 "lopp_kpv": null,
                 "nace_kood": "93.12",
                 "on_pohitegevusala": true

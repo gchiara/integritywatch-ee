@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Merike",
-            "isikukood": "46404216517",
+            "isikukood": null,
+            "isikukood_hash": "714b504c-aa32-59dc-b9a9-cdd2ef099f7a",
             "kirje_id": 9000680130,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2022",
             "eesnimi": "Andrus",
-            "isikukood": "38703216513",
+            "isikukood": null,
+            "isikukood_hash": "869e10df-76e1-518d-9e86-2683396b6c8c",
             "kirje_id": 9001483425,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2022",
             "eesnimi": "Merilin",
-            "isikukood": "48903316515",
+            "isikukood": null,
+            "isikukood_hash": "de9af4ae-d8a6-5195-8a12-e1787616b9b8",
             "kirje_id": 9001483424,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -74,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46404216517",
+            "isikukood_hash": "714b504c-aa32-59dc-b9a9-cdd2ef099f7a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -137,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 8-62, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3796362,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 8-62, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3529425,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Priisle tee 8-62, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
+                "kirje_id": 3262920,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "69201",
+                "tegevusala_emtak_tekstina": "Auditeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Priisle tee 8-62, Lasnamäe linnaosa, Tallinn, Harju maakond, 13914",
                 "kirje_id": 2968401,
@@ -489,7 +529,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -609,26 +649,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.07.2013",
-                "emtak_kood": "69202",
-                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000078769,
-                "lopp_kpv": null,
-                "nace_kood": "69.20",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "18.07.2013",
+                "algus_kpv": "07.07.2025",
                 "emtak_kood": "69201",
                 "emtak_tekstina": "Auditeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000078768,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025419,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "07.07.2025",
+                "emtak_kood": "69202",
+                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025420,
+                "lopp_kpv": null,
+                "nace_kood": "69.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

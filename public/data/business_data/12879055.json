@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Janar",
-            "isikukood": "38005074919",
+            "isikukood": null,
+            "isikukood_hash": "60046a7c-35a0-5f65-9e0f-3b8ead41e7c4",
             "kirje_id": 9000781031,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38005074919",
+            "isikukood_hash": "60046a7c-35a0-5f65-9e0f-3b8ead41e7c4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10668632",
+                "aadress_ads__adob_id": "11517806",
                 "aadress_ads__adr_id": 2650979,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Nurmsi küla, Nõo",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nõo, Nurmsi küla, Paide linn, Järva maakond, 72603",
+                "kirje_id": 3693639,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nõo, Nurmsi küla, Paide linn, Järva maakond, 72603",
+                "kirje_id": 3432379,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Nõo, Nurmsi küla, Paide linn, Järva maakond, 72603",
+                "kirje_id": 3185066,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01131",
+                "tegevusala_emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.13",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nõo, Nurmsi küla, Paide linn, Järva maakond, 72603",
                 "kirje_id": 2866698,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,37 +348,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "20.06.2023",
-                "emtak_kood": "81291",
-                "emtak_tekstina": "Muu puhastustegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000694215,
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "01131",
+                "emtak_tekstina": "Köögivilja- ja melonikasvatus, juurvilja- ja mugulviljakasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930453,
                 "lopp_kpv": null,
-                "nace_kood": "81.29",
-                "on_pohitegevusala": false
+                "nace_kood": "01.13",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "17.09.2018",
+                "algus_kpv": "21.06.2025",
                 "emtak_kood": "01111",
-                "emtak_tekstina": "Teravilja- (v.a riis) ja kaunviljakasvatus; õlitaimeseemnete kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000384146,
+                "emtak_tekstina": "Teravilja- (v.a riis), kaunvilja- ja õlitaimeseemnete kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930454,
                 "lopp_kpv": null,
                 "nace_kood": "01.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "14.07.2015",
-                "emtak_kood": "01131",
-                "emtak_tekstina": "Köögivilja- (sh kõrvitsaliste), juurvilja- ja mugulviljakasvatus, k.a seenekasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000191316,
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "81231",
+                "emtak_tekstina": "Muu puhastustegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930455,
                 "lopp_kpv": null,
-                "nace_kood": "01.13",
-                "on_pohitegevusala": true
+                "nace_kood": "81.23",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

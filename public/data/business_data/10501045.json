@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "36507250231",
+            "isikukood": null,
+            "isikukood_hash": "83c56c54-20a7-5c14-a6d0-aa3fd3e2e9d0",
             "kirje_id": 9000757021,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Kristel",
-            "isikukood": "46503210242",
+            "isikukood": null,
+            "isikukood_hash": "04dbaf03-3780-5529-a507-32adedeaf1b7",
             "kirje_id": 9000757024,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36507250231",
+            "isikukood_hash": "83c56c54-20a7-5c14-a6d0-aa3fd3e2e9d0",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46503210242",
+            "isikukood_hash": "04dbaf03-3780-5529-a507-32adedeaf1b7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -114,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "4974352",
+                "aadress_ads__adob_id": "10989179",
                 "aadress_ads__adr_id": 774271,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Harku vald, Tabasalu alevik, Pihlaka tn 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tn 13, Tabasalu alevik, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3742568,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tn 13, Tabasalu alevik, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3497339,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pihlaka tn 13, Tabasalu alevik, Harku vald, Harju maakond, 76901",
+                "kirje_id": 3180149,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pihlaka tn 13, Tabasalu alevik, Harku vald, Harju maakond, 76901",
                 "kirje_id": 2879663,
@@ -459,7 +499,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -588,36 +628,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2023",
-                "emtak_kood": "62091",
-                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000696442,
-                "lopp_kpv": null,
-                "nace_kood": "62.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "24.06.2011",
-                "emtak_kood": "62031",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62202",
                 "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000128629,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000994541,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "24.06.2011",
-                "emtak_kood": "62011",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000128628,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000994540,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

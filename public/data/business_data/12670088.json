@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Valentina",
-            "isikukood": "45904092215",
+            "isikukood": null,
+            "isikukood_hash": "908341e5-fcc2-5826-bb77-d828c492321a",
             "kirje_id": 9000741581,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45904092215",
+            "isikukood_hash": "908341e5-fcc2-5826-bb77-d828c492321a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -63,11 +65,11 @@
         "aadressid": [
             {
                 "aadress_ads__adob_id": "10628274",
-                "aadress_ads__adr_id": 2787792,
+                "aadress_ads__adr_id": 3677231,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Sillamäe linn, Geoloogia tn 24-30",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01589921",
-                "aadress_ads__koodaadress": "457350000000003E800002BHF8OG10000",
+                "aadress_ads__koodaadress": "45736000000000VJ00000D235LED90000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "07.12.2017",
                 "ehak": "0736",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Geoloogia tn 24-30, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3662388,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Geoloogia tn 24-30, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3363872,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Geoloogia tn 24-30, Sillamäe linn, Ida-Viru maakond, 40233",
+                "kirje_id": 3109672,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Geoloogia tn 24-30, Sillamäe linn, Ida-Viru maakond, 40233",
                 "kirje_id": 2816629,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -356,23 +394,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2015",
+                "algus_kpv": "29.04.2025",
                 "emtak_kood": "46331",
                 "emtak_tekstina": "Piimatoodete, munade, toiduõli ja -rasva hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000178698,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000861577,
                 "lopp_kpv": null,
                 "nace_kood": "46.33",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "26.06.2015",
+                "algus_kpv": "29.04.2025",
                 "emtak_kood": "10711",
-                "emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000178697,
+                "emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000861576,
                 "lopp_kpv": null,
                 "nace_kood": "10.71",
                 "on_pohitegevusala": true

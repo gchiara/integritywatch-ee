@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.10.2018",
             "eesnimi": "Ergo",
-            "isikukood": "38008240327",
+            "isikukood": null,
+            "isikukood_hash": "4fe8102f-6457-5631-8fd0-3d3cd8b8273e",
             "kirje_id": 9000831673,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.05.2023",
             "eesnimi": "Mart",
-            "isikukood": "39709151919",
+            "isikukood": null,
+            "isikukood_hash": "1f48d95d-a13d-5253-9b36-ee38da4608db",
             "kirje_id": 9001574955,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38008240327",
+            "isikukood_hash": "4fe8102f-6457-5631-8fd0-3d3cd8b8273e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39709151919",
+            "isikukood_hash": "1f48d95d-a13d-5253-9b36-ee38da4608db",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -171,6 +175,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Pae tn 6-12, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3706931,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pae tn 6-12, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3511756,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pae tn 6-12, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
+                "kirje_id": 3229971,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01421",
+                "tegevusala_emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pae tn 6-12, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92414",
                 "kirje_id": 2933206,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -243,7 +283,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -348,15 +388,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "18.10.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "01421",
                 "emtak_tekstina": "Muu veislaste ja pühvlikasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000263851,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001008747,
                 "lopp_kpv": null,
                 "nace_kood": "01.42",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "23.06.2026",
+                "emtak_kood": "81301",
+                "emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117782,
+                "lopp_kpv": null,
+                "nace_kood": "81.30",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

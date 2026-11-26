@@ -7,6 +7,7 @@
             "algus_kpv": "06.12.2018",
             "eesnimi": "Lyda",
             "isikukood": null,
+            "isikukood_hash": "2103d79e-b199-5170-9bf1-7fbf235f9ec1",
             "kirje_id": 9000903369,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Lubiene",
             "synniaeg": null,
-            "valis_kood": "45711200176",
+            "valis_kood": null,
             "valis_kood_riik": "LTU",
             "valis_kood_riik_tekstina": "Leedu"
         }
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36604022747",
+            "isikukood_hash": "b352871b-4f0e-527b-bea7-33677acf80ca",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 7a, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3791292,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46211",
+                "tegevusala_emtak_tekstina": "Teravilja, töötlemata tubaka, seemnete ja loomasööda hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.21",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 7a, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3497842,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5226",
+                "tegevusala_emtak_tekstina": "Muud veondust abistavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.26",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Turu tn 7a, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
+                "kirje_id": 3176087,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "52299",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata veondust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Turu tn 7a, Jõgeva linn, Jõgeva vald, Jõgeva maakond, 48303",
                 "kirje_id": 2887287,
@@ -335,7 +373,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -464,25 +502,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "52299",
-                "emtak_tekstina": "Mujal liigitamata veondust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697748,
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "46211",
+                "emtak_tekstina": "Teravilja, töötlemata tubaka, seemnete ja loomasööda hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135216,
                 "lopp_kpv": null,
-                "nace_kood": "52.29",
+                "nace_kood": "46.21",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "27.06.2023",
-                "emtak_kood": "46751",
-                "emtak_tekstina": "Väetise ja agrokeemiatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000697749,
+                "algus_kpv": "01.07.2026",
+                "emtak_kood": "5226",
+                "emtak_tekstina": "Muud veondust abistavad tegevusalad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001135217,
                 "lopp_kpv": null,
-                "nace_kood": "46.75",
+                "nace_kood": "52.26",
                 "on_pohitegevusala": false
             }
         ],

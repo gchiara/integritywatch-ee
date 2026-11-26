@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.08.2018",
             "eesnimi": "Jaan",
-            "isikukood": "38506190296",
+            "isikukood": null,
+            "isikukood_hash": "9291d303-d68a-5237-b387-58b040b802e3",
             "kirje_id": 9000651331,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.08.2018",
             "eesnimi": "Kaarel",
-            "isikukood": "38506060247",
+            "isikukood": null,
+            "isikukood_hash": "fa936dee-49e1-5a5f-a379-5e89eff2bdd4",
             "kirje_id": 9000651332,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38506190296",
+            "isikukood_hash": "9291d303-d68a-5237-b387-58b040b802e3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38506060247",
+            "isikukood_hash": "fa936dee-49e1-5a5f-a379-5e89eff2bdd4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10640262",
+                "aadress_ads__adob_id": "11515269",
                 "aadress_ads__adr_id": 3457934,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pirita tee 20/4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 20/4, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3713842,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 20/4, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3401536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pirita tee 20/4, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
+                "kirje_id": 3102672,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68311",
+                "tegevusala_emtak_tekstina": "Kinnisvarabüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.31",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pirita tee 20/4, Kesklinna linnaosa, Tallinn, Harju maakond, 12011",
                 "kirje_id": 2876643,
@@ -305,7 +345,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -427,12 +467,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.05.2015",
+                "algus_kpv": "08.06.2025",
                 "emtak_kood": "68311",
-                "emtak_tekstina": "Kinnisvarabüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000168675,
+                "emtak_tekstina": "Kinnisvarateenuste vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899224,
                 "lopp_kpv": null,
                 "nace_kood": "68.31",
                 "on_pohitegevusala": true

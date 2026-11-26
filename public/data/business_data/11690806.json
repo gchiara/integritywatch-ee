@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Jaanis",
-            "isikukood": "37808182245",
+            "isikukood": null,
+            "isikukood_hash": "1dc7733b-c018-595b-ad29-39a7d0be6d88",
             "kirje_id": 9000722758,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37808182245",
+            "isikukood_hash": "1dc7733b-c018-595b-ad29-39a7d0be6d88",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9823311",
-                "aadress_ads__adr_id": 3473106,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Juubelitammede tee 12-4",
+                "aadress_ads__adob_id": "10783073",
+                "aadress_ads__adr_id": 3708537,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Kannikese tn 14-15",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ER01563604",
-                "aadress_ads__koodaadress": "3771973610000072M00003SNH85S10000",
+                "aadress_ads__ads_oid": "ER01560304",
+                "aadress_ads__koodaadress": "37719736200000VRD0000D6M7LLJD0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "01.12.2017",
-                "ehak": "7361",
+                "algus_kpv": "09.06.2025",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7206420,
+                "kande_nr": 9,
+                "kirje_id": 13151417,
                 "lopp_kpv": null,
                 "postiindeks": "75501",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Juubelitammede tee 12-4"
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Kannikese tn 14-15"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kannikese tn 14-15, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3694664,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.29",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Juubelitammede tee 12-4, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3401354,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95291",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.29",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Juubelitammede tee 12-4, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3218669,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "95291",
+                "tegevusala_emtak_tekstina": "Muude tarbeesemete ja kodutarvete parandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.29",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Juubelitammede tee 12-4, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2893547,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -382,26 +420,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.05.2014",
+                "algus_kpv": "08.06.2025",
                 "emtak_kood": "95291",
-                "emtak_tekstina": "Muude tarbeesemete ja kodutarvete parandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000110555,
+                "emtak_tekstina": "Mujal liigitamata tarbeesemete ja kodutarvete parandus ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000899052,
                 "lopp_kpv": null,
                 "nace_kood": "95.29",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "24.05.2021",
-                "emtak_kood": "69202",
-                "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000551039,
-                "lopp_kpv": null,
-                "nace_kood": "69.20",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

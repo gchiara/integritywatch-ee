@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Veiko",
-            "isikukood": "38104036056",
+            "isikukood": null,
+            "isikukood_hash": "d56fd21b-8aa3-55d2-befc-5b2c8a721e7e",
             "kirje_id": 9000756877,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38104036056",
+            "isikukood_hash": "d56fd21b-8aa3-55d2-befc-5b2c8a721e7e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 31-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3680123,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 31-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3330272,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62901",
+                "tegevusala_emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. V. Jannseni tn 31-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3074583,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "63991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata infoalane tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "63.99",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. V. Jannseni tn 31-3, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
                 "kirje_id": 2754499,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -372,26 +410,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.01.2023",
-                "emtak_kood": "63991",
-                "emtak_tekstina": "Mujal liigitamata infoalane tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664341,
+                "algus_kpv": "23.02.2025",
+                "emtak_kood": "62901",
+                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000825281,
                 "lopp_kpv": null,
-                "nace_kood": "63.99",
+                "nace_kood": "62.90",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "12.01.2023",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000664342,
-                "lopp_kpv": null,
-                "nace_kood": "02.40",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

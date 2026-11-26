@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "37102062730",
+            "isikukood": null,
+            "isikukood_hash": "e8cf05db-d80e-50bd-8f76-83921102b467",
             "kirje_id": 9000790395,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37102062730",
+            "isikukood_hash": "e8cf05db-d80e-50bd-8f76-83921102b467",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8703440",
+                "aadress_ads__adob_id": "11054628",
                 "aadress_ads__adr_id": 3082028,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Varju tn 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Varju tn 8, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3683061,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Varju tn 8, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3351007,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Varju tn 8, Tartu linn, Tartu linn, Tartu maakond, 50412",
+                "kirje_id": 3047194,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62031",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.03",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Varju tn 8, Tartu linn, Tartu linn, Tartu maakond, 50412",
                 "kirje_id": 2941661,
@@ -418,7 +456,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -514,14 +552,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2016",
-                "emtak_kood": "62031",
+                "algus_kpv": "07.04.2025",
+                "emtak_kood": "62202",
                 "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000246297,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000848011,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

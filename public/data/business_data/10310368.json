@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "18.10.2018",
             "eesnimi": "Priit",
-            "isikukood": "36207150293",
+            "isikukood": null,
+            "isikukood_hash": "6bb38f28-9315-547d-861a-5b33c7ef83fd",
             "kirje_id": 9000757124,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37009260322",
+            "isikukood_hash": "a8a6fa10-4caa-5687-a244-ce8bafcca3a5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -75,7 +77,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37207240283",
+            "isikukood_hash": "c034a63d-05b9-538d-9d23-4a7c8532e21d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -138,6 +141,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 92g, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3569453,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "46341",
+                "tegevusala_emtak_tekstina": "Alkohoolsete jookide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.34",
+                "tootajate_arv": "83"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 92g, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3306643,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "46341",
+                "tegevusala_emtak_tekstina": "Alkohoolsete jookide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.34",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 92g, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
+                "kirje_id": 3006301,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "46341",
+                "tegevusala_emtak_tekstina": "Alkohoolsete jookide hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.34",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 92g, Lasnamäe linnaosa, Tallinn, Harju maakond, 13816",
                 "kirje_id": 2731993,
@@ -442,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -537,13 +576,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "03.11.2021",
+                "algus_kpv": "04.11.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 23,
-                "kinnitamise_kpv": "01.11.2021",
-                "kirje_id": 9835904,
+                "kande_nr": 24,
+                "kinnitamise_kpv": null,
+                "kirje_id": 12773955,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -611,26 +650,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.11.2012",
-                "emtak_kood": "46351",
-                "emtak_tekstina": "Tubakatoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000219512,
-                "lopp_kpv": null,
-                "nace_kood": "46.35",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "15.11.2012",
+                "algus_kpv": "01.12.2025",
                 "emtak_kood": "46341",
-                "emtak_tekstina": "Alkoholjookide hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000219511,
+                "emtak_tekstina": "Alkohoolsete jookide hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001068666,
                 "lopp_kpv": null,
                 "nace_kood": "46.34",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.12.2025",
+                "emtak_kood": "46351",
+                "emtak_tekstina": "Tubakatoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001068667,
+                "lopp_kpv": null,
+                "nace_kood": "46.35",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

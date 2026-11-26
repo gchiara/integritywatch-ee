@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Helle",
-            "isikukood": "45006102719",
+            "isikukood": null,
+            "isikukood_hash": "2faa4096-f815-5010-ad2b-30077b5de86b",
             "kirje_id": 9000844728,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45006102719",
+            "isikukood_hash": "2faa4096-f815-5010-ad2b-30077b5de86b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -115,6 +117,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 8, Tartu linn, Tartu linn, Tartu maakond, 50211",
+                "kirje_id": 3685797,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94997",
+                "tegevusala_emtak_tekstina": "Tervisehäiretega, puuetega või erivajadustega isikute ühendused ja nende liidud",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 8, Tartu linn, Tartu linn, Tartu maakond, 50211",
+                "kirje_id": 3382803,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94997",
+                "tegevusala_emtak_tekstina": "Tervisehäiretega, puuetega või erivajadustega isikute ühendused ja nende liidud",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rahu tn 8, Tartu linn, Tartu linn, Tartu maakond, 50211",
+                "kirje_id": 3146465,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94997",
+                "tegevusala_emtak_tekstina": "Tervisehäiretega isikute ühendused ja nende liidud; puuetega inimeste ühendused ja nende liidud, erivajadustega inimeste kaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rahu tn 8, Tartu linn, Tartu linn, Tartu maakond, 50211",
                 "kirje_id": 2796262,
@@ -213,7 +251,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -318,12 +356,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2016",
+                "algus_kpv": "26.05.2025",
                 "emtak_kood": "94997",
-                "emtak_tekstina": "Tervisehäiretega isikute ühendused ja nende liidud; puuetega inimeste ühendused ja nende liidud, erigruppide kaitsega seotud ühendused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000237537,
+                "emtak_tekstina": "Tervisehäiretega, puuetega või erivajadustega isikute ühendused ja nende liidud",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000881313,
                 "lopp_kpv": null,
                 "nace_kood": "94.99",
                 "on_pohitegevusala": true

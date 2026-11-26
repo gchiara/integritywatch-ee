@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Anita",
-            "isikukood": "45805114913",
+            "isikukood": null,
+            "isikukood_hash": "cdd266ab-1df3-5327-9068-6950aacd1c57",
             "kirje_id": 9000657556,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Tiit",
-            "isikukood": "35905244910",
+            "isikukood": null,
+            "isikukood_hash": "dd239014-1040-524e-bf0f-f160664ef4b9",
             "kirje_id": 9000657552,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45805114913",
+            "isikukood_hash": "cdd266ab-1df3-5327-9068-6950aacd1c57",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35905244910",
+            "isikukood_hash": "dd239014-1040-524e-bf0f-f160664ef4b9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10378622",
+                "aadress_ads__adob_id": "11507976",
                 "aadress_ads__adr_id": 3593923,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Pärnu mnt 21/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 21/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3589465,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "85699",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata haridust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.69",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 21/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3327978,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "85699",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata haridust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.69",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 21/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
+                "kirje_id": 3127651,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "85591",
+                "tegevusala_emtak_tekstina": "Keeleõpe",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "85.59",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 21/2, Kesklinna linnaosa, Tallinn, Harju maakond, 10141",
                 "kirje_id": 2830257,
@@ -327,7 +367,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -455,14 +495,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.07.2022",
-                "emtak_kood": "85591",
-                "emtak_tekstina": "Keeleõpe",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000641639,
+                "algus_kpv": "17.02.2025",
+                "emtak_kood": "85699",
+                "emtak_tekstina": "Muud mujal liigitamata haridust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000822816,
                 "lopp_kpv": null,
-                "nace_kood": "85.59",
+                "nace_kood": "85.69",
                 "on_pohitegevusala": true
             }
         ],

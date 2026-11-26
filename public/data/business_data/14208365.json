@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "28.06.2022",
             "eesnimi": "Maikol",
-            "isikukood": "38708116510",
+            "isikukood": null,
+            "isikukood_hash": "ff523192-735a-50a9-85c9-05ecddc428ee",
             "kirje_id": 9001447633,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38708116510",
+            "isikukood_hash": "ff523192-735a-50a9-85c9-05ecddc428ee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8718948",
-                "aadress_ads__adr_id": 3076223,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Puiestee tn 13b",
+                "aadress_ads__adob_id": "11109594",
+                "aadress_ads__adr_id": 2837346,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Ülenurme alevik, Tartu mnt 54",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00752221",
-                "aadress_ads__koodaadress": "79793815100000SZI0000BHF000000000",
+                "aadress_ads__ads_oid": "ME03474027",
+                "aadress_ads__koodaadress": "79283983500000LTY00009Y8X00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "10.07.2018",
-                "ehak": "8151",
-                "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
+                "algus_kpv": "20.03.2025",
+                "ehak": "9835",
+                "ehak_nimetus": "Ülenurme alevik, Kambja vald, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 8156637,
+                "kande_nr": 9,
+                "kirje_id": 13017193,
                 "lopp_kpv": null,
-                "postiindeks": "50303",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Puiestee tn 13b"
+                "postiindeks": "61714",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Tartu mnt 54"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tartu mnt 54, Ülenurme alevik, Kambja vald, Tartu maakond, 61714",
+                "kirje_id": 3609536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "27"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3334699,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "25"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
+                "kirje_id": 3081779,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42991",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.99",
+                "tootajate_arv": "21"
+            },
             {
                 "ettevotja_aadress_aruandes": "Puiestee tn 13b, Tartu linn, Tartu linn, Tartu maakond, 50303",
                 "kirje_id": 2830264,
@@ -191,7 +229,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -221,6 +259,20 @@
                 "veerg_nr": 6
             }
         ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "28.09.2026",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 12,
+                "kirje_id": 13998808,
+                "lopp_kpv": null,
+                "sisu": "Lars Laj Eesti OÜ (jagunev ühing, registrikood 14208365, aadress Tartu maakond, Kambja vald, Ülenurme alevik, Tartu mnt 54, 61714) jaguneb eraldumise teel andes osa oma varast omandavale ühingule Suvi Kinnisvara OÜ (registrikood 17558350, aadress Tartu maakond, Kambja vald, Ülenurme alevik, Tartu mnt 54, 61714). Jagunemisleping on sõlmitud 19.08.2026. Jagunemisotsused võeti vastu 19.08.2026. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
+            }
+        ],
         "oiguslik_vorm": "OÜ",
         "oiguslik_vorm_nr": 5,
         "oiguslik_vorm_tekstina": "Osaühing",
@@ -246,13 +298,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "10.07.2018",
+                "algus_kpv": "04.06.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kinnitamise_kpv": "02.07.2018",
-                "kirje_id": 8156638,
+                "kande_nr": 11,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13785203,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -270,17 +322,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@larslaj.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 9000667586,
-                "liik": "MOB",
-                "liik_tekstina": "Mobiiltelefon",
-                "lopp_kpv": null,
-                "sisu": "+372 56777737"
             },
             {
                 "kaardi_nr": null,
@@ -309,15 +350,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2018",
+                "algus_kpv": "27.03.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001091209,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "05.03.2025",
                 "emtak_kood": "42991",
                 "emtak_tekstina": "Mujal liigitamata rajatiste ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000364810,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830268,
                 "lopp_kpv": null,
                 "nace_kood": "42.99",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "05.03.2025",
+                "emtak_kood": "46901",
+                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830269,
+                "lopp_kpv": null,
+                "nace_kood": "46.90",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "05.03.2025",
+                "emtak_kood": "77321",
+                "emtak_tekstina": "Ehitusmasinate ja -seadmete rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000830270,
+                "lopp_kpv": null,
+                "nace_kood": "77.32",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

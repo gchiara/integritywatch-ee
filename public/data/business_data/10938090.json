@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.09.2018",
             "eesnimi": "Külli",
-            "isikukood": "47302122768",
+            "isikukood": null,
+            "isikukood_hash": "3f573099-da5c-5b32-af34-735cf50b9ec3",
             "kirje_id": 9000705348,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.09.2018",
             "eesnimi": "Raivo",
-            "isikukood": "36911032728",
+            "isikukood": null,
+            "isikukood_hash": "7ff02eac-9224-5307-958f-60997c19452e",
             "kirje_id": 9000705346,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47302122768",
+            "isikukood_hash": "3f573099-da5c-5b32-af34-735cf50b9ec3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36911032728",
+            "isikukood_hash": "7ff02eac-9224-5307-958f-60997c19452e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10507455",
+                "aadress_ads__adob_id": "11516973",
                 "aadress_ads__adr_id": 3636069,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu vald, Kõrveküla alevik, Vasula tee 24",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vasula tee 24, Kõrveküla alevik, Tartu vald, Tartu maakond, 60512",
+                "kirje_id": 3636022,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "69109",
+                "tegevusala_emtak_tekstina": "Muud juriidilised toimingud",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.10",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vasula tee 24, Kõrveküla alevik, Tartu vald, Tartu maakond, 60512",
+                "kirje_id": 3416263,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "69102",
+                "tegevusala_emtak_tekstina": "Õigusnõustajate ja õigusbüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vasula tee 24, Kõrveküla alevik, Tartu vald, Tartu maakond, 60512",
+                "kirje_id": 3234283,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "69102",
+                "tegevusala_emtak_tekstina": "Õigusnõustajate ja õigusbüroode tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.10",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vasula tee 24, Kõrveküla alevik, Tartu vald, Tartu maakond, 60512",
                 "kirje_id": 2947205,
@@ -425,7 +465,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -609,12 +649,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.06.2018",
-                "emtak_kood": "69102",
-                "emtak_tekstina": "Õigusnõustajate ja õigusbüroode tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000357186,
+                "algus_kpv": "08.05.2026",
+                "emtak_kood": "69109",
+                "emtak_tekstina": "Muud juriidilised toimingud",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001100647,
                 "lopp_kpv": null,
                 "nace_kood": "69.10",
                 "on_pohitegevusala": true

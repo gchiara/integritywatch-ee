@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.05.2019",
             "eesnimi": "Ruth",
-            "isikukood": "48906270279",
+            "isikukood": null,
+            "isikukood_hash": "9202ab13-6fad-5033-8ce5-05dd26d3374d",
             "kirje_id": 9000967367,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48906270279",
+            "isikukood_hash": "9202ab13-6fad-5033-8ce5-05dd26d3374d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Tedre tn 10, Kristiine linnaosa, Tallinn, Harju maakond, 11315",
+                "kirje_id": 3671070,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tedre tn 10, Kristiine linnaosa, Tallinn, Harju maakond, 11315",
+                "kirje_id": 3441839,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "41001",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.00",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tedre tn 10, Kristiine linnaosa, Tallinn, Harju maakond, 11315",
+                "kirje_id": 3163295,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tedre tn 10, Kristiine linnaosa, Tallinn, Harju maakond, 11315",
                 "kirje_id": 2890748,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -287,15 +325,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.02.2019",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000400025,
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000939418,
                 "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "41.00",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "08.06.2026",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001109876,
+                "lopp_kpv": null,
+                "nace_kood": "71.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

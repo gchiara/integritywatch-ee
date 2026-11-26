@@ -7,6 +7,7 @@
             "algus_kpv": "22.07.2019",
             "eesnimi": "Andrzej",
             "isikukood": null,
+            "isikukood_hash": "52e9adcd-1c54-517f-a00c-706f6f567562",
             "kirje_id": 9000999698,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -14,7 +15,7 @@
             "lopp_kpv": null,
             "nimi": "Pawlow",
             "synniaeg": null,
-            "valis_kood": "101265-10524",
+            "valis_kood": null,
             "valis_kood_riik": "LVA",
             "valis_kood_riik_tekstina": "Läti"
         }
@@ -40,6 +41,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "0d9d7609-4ac0-5973-9f96-e0e8c364b144",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
@@ -52,7 +54,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "10.12.1965",
-            "valis_kood": "65121012893",
+            "valis_kood": null,
             "valis_kood_riik": "POL",
             "valis_kood_riik_tekstina": "Poola",
             "volituste_loppemise_kpv": ""
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34101080271",
+            "isikukood_hash": "dffccd90-403b-508d-a30a-44cc27203cf5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -98,15 +101,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10256630",
-                "aadress_ads__adr_id": 3471589,
+                "aadress_ads__adob_id": "10779854",
+                "aadress_ads__adr_id": 3705851,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Saale",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME01837442",
-                "aadress_ads__koodaadress": "37719736100000000AJ2R000000000000",
+                "aadress_ads__koodaadress": "37719736200000000GVLN000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "07.11.2017",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -139,6 +142,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Saale, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3689795,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "11071",
+                "tegevusala_emtak_tekstina": "Alkoholivaba joogi ja villitud vee tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "11.07",
+                "tootajate_arv": "103"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saale, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3518274,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77221",
+                "tegevusala_emtak_tekstina": "Muude tarbeesemete ja kodumasinate väljaüürimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.22",
+                "tootajate_arv": "105"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Saale, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3255011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77291",
+                "tegevusala_emtak_tekstina": "Muude tarbeesemete ja kodumasinate väljaüürimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.29",
+                "tootajate_arv": "104"
+            },
             {
                 "ettevotja_aadress_aruandes": "Saale, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2908247,
@@ -443,7 +482,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -598,36 +637,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2019",
-                "emtak_kood": "46371",
-                "emtak_tekstina": "Kohvi, tee, kakao ja maitseainete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000430267,
+                "algus_kpv": "16.06.2026",
+                "emtak_kood": "11071",
+                "emtak_tekstina": "Alkoholivaba joogi ja villitud vee tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114222,
                 "lopp_kpv": null,
-                "nace_kood": "46.37",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "09.08.2021",
-                "emtak_kood": "77291",
-                "emtak_tekstina": "Muude tarbeesemete ja kodumasinate väljaüürimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000577801,
-                "lopp_kpv": null,
-                "nace_kood": "77.29",
+                "nace_kood": "11.07",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "09.08.2021",
-                "emtak_kood": "11071",
-                "emtak_tekstina": "Alkoholivaba joogi tootmine; mineraalvee ja muu villitud vee tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000577802,
+                "algus_kpv": "16.06.2026",
+                "emtak_kood": "77399",
+                "emtak_tekstina": "Muu mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114223,
                 "lopp_kpv": null,
-                "nace_kood": "11.07",
+                "nace_kood": "77.39",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "16.06.2026",
+                "emtak_kood": "77331",
+                "emtak_tekstina": "Kontorimasinate ja -seadmete ning arvutite rentimine ja kasutusrent",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114224,
+                "lopp_kpv": null,
+                "nace_kood": "77.33",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "46371",
+                "emtak_tekstina": "Kohvi, tee, kakao ja maitseainete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015085,
+                "lopp_kpv": null,
+                "nace_kood": "46.37",
                 "on_pohitegevusala": false
             }
         ],

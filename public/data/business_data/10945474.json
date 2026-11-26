@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.10.2018",
             "eesnimi": "Peedo",
-            "isikukood": "36708192781",
+            "isikukood": null,
+            "isikukood_hash": "80ffdd6e-3683-5086-8652-57810b667399",
             "kirje_id": 9000815014,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38404260420",
+            "isikukood_hash": "0210d039-40ae-5745-b9dc-e6fe56603a88",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -76,7 +78,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36705202742",
+            "isikukood_hash": "b241edaa-d8dd-53da-80c2-decbc80c89aa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -139,6 +142,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3-4, Tartu linn, Tartu linn, Tartu maakond, 51005",
+                "kirje_id": 3832358,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "16261",
+                "tegevusala_emtak_tekstina": "Taimsest biomassist tahkekütuste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.26",
+                "tootajate_arv": "81"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3-4, Tartu linn, Tartu linn, Tartu maakond, 51005",
+                "kirje_id": 3502040,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "16261",
+                "tegevusala_emtak_tekstina": "Taimsest biomassist tahkekütuste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.26",
+                "tootajate_arv": "82"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3-4, Tartu linn, Tartu linn, Tartu maakond, 51005",
+                "kirje_id": 3306213,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "16291",
+                "tegevusala_emtak_tekstina": "Puidust tarbe- ja dekoratiivesemete jm puittoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.29",
+                "tootajate_arv": "85"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Magasini tn 3-4, Tartu linn, Tartu linn, Tartu maakond, 51005",
+                "kirje_id": 3004432,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "16291",
+                "tegevusala_emtak_tekstina": "Puidust tarbe- ja dekoratiivesemete jm puittoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "16.29",
+                "tootajate_arv": "85"
+            },
             {
                 "ettevotja_aadress_aruandes": "Magasini tn 3-4, Tartu linn, Tartu linn, Tartu maakond, 51005",
                 "kirje_id": 2736616,
@@ -358,20 +409,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "17.09.2020",
+                "algus_kpv": "18.06.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 12,
+                "kande_nr": 14,
                 "kapitali_suurus": "3000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 9227708,
+                "kirje_id": 13168394,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -449,28 +500,6 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "info@warmeston.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000079995,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7425002"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000093107,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
-                "lopp_kpv": null,
-                "sisu": "+372 7425696"
             }
         ],
         "staatus": "R",
@@ -488,14 +517,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "16291",
-                "emtak_tekstina": "Puidust tarbe- ja dekoratiivesemete jm puittoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000308165,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "16261",
+                "emtak_tekstina": "Taimsest biomassist tahkekütuste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000999207,
                 "lopp_kpv": null,
-                "nace_kood": "16.29",
+                "nace_kood": "16.26",
                 "on_pohitegevusala": true
             }
         ],

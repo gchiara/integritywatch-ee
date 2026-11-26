@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2018",
             "eesnimi": "Timur",
-            "isikukood": "38804022223",
+            "isikukood": null,
+            "isikukood_hash": "36ab788e-ed54-54b4-8572-8a84997cc13a",
             "kirje_id": 9000754769,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38804022223",
+            "isikukood_hash": "36ab788e-ed54-54b4-8572-8a84997cc13a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 2, Narva linn, Ida-Viru maakond, 20605",
+                "kirje_id": 3716867,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 2, Narva linn, Ida-Viru maakond, 20605",
+                "kirje_id": 3487167,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kangelaste prospekt 2, Narva linn, Ida-Viru maakond, 20605",
+                "kirje_id": 3139996,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43321",
+                "tegevusala_emtak_tekstina": "Mistahes materjalist akende, uste ja treppide paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.32",
+                "tootajate_arv": "23"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kangelaste prospekt 2, Narva linn, Ida-Viru maakond, 20605",
                 "kirje_id": 2930132,
@@ -227,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -334,15 +372,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.06.2015",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984354,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43321",
-                "emtak_tekstina": "Mistahes materjalist akende, uste ja treppide paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000174895,
+                "emtak_tekstina": "Puidust jm materjalist uste, akende ja treppide paigaldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000984355,
                 "lopp_kpv": null,
                 "nace_kood": "43.32",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

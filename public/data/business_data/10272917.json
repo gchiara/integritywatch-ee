@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Juri",
-            "isikukood": "35908215715",
+            "isikukood": null,
+            "isikukood_hash": "3406990c-1e4d-52c6-acf2-e1bebf47c2d0",
             "kirje_id": 9000683216,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.09.2018",
             "eesnimi": "Valeri",
-            "isikukood": "35408205715",
+            "isikukood": null,
+            "isikukood_hash": "e15ff701-d6fb-5a73-893e-3e9b58308de5",
             "kirje_id": 9000683215,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712145713",
+            "isikukood_hash": "1ad3eb46-addb-5cd5-8df3-8e46e606db3f",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,12 +82,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9987524",
-                "aadress_ads__adr_id": 3007243,
+                "aadress_ads__adob_id": "10853944",
+                "aadress_ads__adr_id": 3719849,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Jaama pst 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME00939200",
-                "aadress_ads__koodaadress": "81855891800000S8Z0000B1W900000000",
+                "aadress_ads__koodaadress": "81857891800000S8Z0000B1W900000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "05.12.2017",
                 "ehak": "8918",
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jaama pst 8, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3713266,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42121",
+                "tegevusala_emtak_tekstina": "Raudteede ja metroo ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaama pst 8, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3494453,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42121",
+                "tegevusala_emtak_tekstina": "Raudteede ja metroo ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.12",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Jaama pst 8, Valga linn, Valga vald, Valga maakond, 68204",
+                "kirje_id": 3107958,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42121",
+                "tegevusala_emtak_tekstina": "Raudteede ja metroo ehitus, hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.12",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jaama pst 8, Valga linn, Valga vald, Valga maakond, 68204",
                 "kirje_id": 2895484,
@@ -448,7 +487,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -604,12 +643,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "42121",
-                "emtak_tekstina": "Raudteede ja metroo ehitus, hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000010584,
+                "emtak_tekstina": "Raudteede ja metroo ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991623,
                 "lopp_kpv": null,
                 "nace_kood": "42.12",
                 "on_pohitegevusala": true

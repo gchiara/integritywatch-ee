@@ -74,10 +74,10 @@
             "Date receipt tenders missing",
             "Company Taristu Grupp OÜ(14655638) was first registered on 05.02.2019, 314 days before the notice dispatch.",
             "Possible shell company: 14655638",
-            "Nominees as company beneficial owners: 38003036516",
-            "Nominees as company beneficial owners: 38902136533",
-            "Nominees as company board members: 38003036516",
-            "Nominees as company board members: 38902136533"
+            "Nominees as company beneficial owners: Anti_Mõttus_05.02.2019",
+            "Nominees as company beneficial owners: Marti_Pungits_05.02.2019",
+            "Nominees as company board members: Anti_Mõttus_05.02.2019",
+            "Nominees as company board members: Marti_Pungits_05.02.2019"
         ],
         "noticeUid": "a0e7a9cf-79f2-424c-b6be-848c10ff4288",
         "notice_items": [
@@ -141,14 +141,15 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Nominees as company board members or beneficial owners",
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 37609242712",
-            "Nominees as company board members: 37609242712",
-            "Nominees as company beneficial owners: 37010156512",
-            "Nominees as company board members: 37010156512"
+            "Nominees as company beneficial owners: Armo_Raag_22.10.2018",
+            "Possible shell company: 10353308",
+            "Nominees as company beneficial owners: Jüri_Kukk_02.05.2023",
+            "Nominees as company board members: Jüri_Kukk_02.05.2023"
         ],
         "noticeUid": "501d5647-c91e-48b2-8201-e63eab6b128c",
         "notice_items": [
@@ -189,5 +190,60 @@
             }
         ],
         "refnum": "267593"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-09-28"
+                ],
+                "award_value": "270917.50",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "11937589",
+                        "contractor_name": "MPI Kivipaigaldus OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "4"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Rõuge aleviku Hariduse tänava vee- ja reoveekanalisatsiooni taristu rekonstrueerimine",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10353308",
+                "name": "OÜ Rõuge Kommunaalteenus",
+                "town": "Rõuge vald"
+            }
+        ],
+        "contractors": [
+            "11937589"
+        ],
+        "cpv": "45232411",
+        "date_dispatch_notice": "2023-10-18",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_b7f89d3b-c227-4415-a71f-f26f884ed0da_0.json",
+        "flags": [
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "b7f89d3b-c227-4415-a71f-f26f884ed0da",
+        "notice_items": [
+            {
+                "duration": "3 MONTH"
+            }
+        ],
+        "refnum": "267593",
+        "total_amount": "270917.50",
+        "total_amount_curr": "EUR"
     }
 ]

@@ -54,13 +54,10 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners",
             "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company board members: 46805090345",
-            "Nominees as company board members: 37203180219",
             "Possible shell company: 14165791"
         ],
         "noticeUid": "aa7b63a3-b765-459c-b74d-5eb7919b857d",
@@ -126,14 +123,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14165791",
-            "Nominees as company board members: 46805090345",
-            "Nominees as company board members: 37203180219"
+            "Possible shell company: 14165791"
         ],
         "noticeUid": "52f76490-7c0a-452c-bc19-163a290c6c63",
         "notice_items": [
@@ -198,14 +192,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Possible shell company",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Possible shell company: 14165791",
-            "Nominees as company board members: 46805090345",
-            "Nominees as company board members: 37203180219"
+            "Possible shell company: 14165791"
         ],
         "noticeUid": "10b99eb3-5d91-4548-8b63-6113bfee18c9",
         "notice_items": [
@@ -218,7 +209,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-26",
+                "award_date_conclusion_contract": [
+                    "2023-06-26"
+                ],
                 "award_value": "60000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -233,7 +226,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Hambaimplantaatide ostmine (Ankylos)",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -254,13 +247,10 @@
         "filename": "award_0fd9c9d9-fbc2-4ac8-b94c-dfa7074deb42_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Too few evaluation criteria"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing",
-            "Nominees as company board members: 46805090345",
-            "Nominees as company board members: 37203180219"
+            "Date receipt tenders missing"
         ],
         "noticeUid": "0fd9c9d9-fbc2-4ac8-b94c-dfa7074deb42",
         "notice_items": [
@@ -280,7 +270,7 @@
                 "result": "clos-nw"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kruvikeerajate, igemeformeerijate ja abivahendite ostmine 2023-2024",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -325,7 +315,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "2118.30",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -340,7 +332,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Luu asendusmaterjalide ostmine",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -370,10 +362,8 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12043641",
-            "Nominees as company beneficial owners: 46602020221",
-            "Nominees as company beneficial owners: 38904250308",
-            "Nominees as company board members: 38904250308",
-            "Nominees as company board members: 46602020221"
+            "Nominees as company beneficial owners: Lana_Paabumets_18.10.2018",
+            "Nominees as company board members: Lana_Paabumets_05.09.2017"
         ],
         "noticeUid": "5937c38f-14f7-4d9a-96eb-daba83c16b76",
         "notice_items": [
@@ -390,5 +380,49 @@
         "refnum": "267326",
         "total_amount": "22616.92",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "contract_awarded": false,
+                "contractors": [],
+                "result": "clos-nw"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Hambaimplantaatide ostmine (Ankylos, Straumann, Megagen, Global D)",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90008465",
+                "name": "Sihtasutus Tallinna Hambakliinik",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10634036",
+            "14165791"
+        ],
+        "cpv": "33132000",
+        "date_dispatch_notice": "2024-08-05",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_7a81a277-6afa-403e-abe6-69c8462557af_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "7a81a277-6afa-403e-abe6-69c8462557af",
+        "notice_items": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "refnum": "281787"
     }
 ]

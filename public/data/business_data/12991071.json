@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Olga",
-            "isikukood": "47502140284",
+            "isikukood": null,
+            "isikukood_hash": "7e63d66d-a4e1-54eb-8a7d-9acba8a176e6",
             "kirje_id": 9000773198,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47502140284",
+            "isikukood_hash": "7e63d66d-a4e1-54eb-8a7d-9acba8a176e6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9797346",
-                "aadress_ads__adr_id": 2287717,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Linnamäe tee 3",
+                "aadress_ads__adob_id": "6544871",
+                "aadress_ads__adr_id": 2116422,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kristiine linnaosa, Keemia tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME03580628",
-                "aadress_ads__koodaadress": "377840387000004B800006V3P00000000",
+                "aadress_ads__ads_oid": "ME00655974",
+                "aadress_ads__koodaadress": "3778403390000045J00001RJL00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.08.2019",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "28.04.2025",
+                "ehak": "0339",
+                "ehak_nimetus": "Kristiine linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 8702333,
+                "kande_nr": 7,
+                "kirje_id": 13082414,
                 "lopp_kpv": null,
-                "postiindeks": "13912",
+                "postiindeks": "10616",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Linnamäe tee 3"
+                "tanav_maja_korter": "Keemia tn 4"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Keemia tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10616",
+                "kirje_id": 3596623,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86941",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.94",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 3, Lasnamäe linnaosa, Tallinn, Harju maakond, 13912",
+                "kirje_id": 3361347,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86941",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.94",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 3, Lasnamäe linnaosa, Tallinn, Harju maakond, 13912",
+                "kirje_id": 3191492,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86903",
+                "tegevusala_emtak_tekstina": "Õendusabi osutamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "17"
+            },
             {
                 "ettevotja_aadress_aruandes": "Linnamäe tee 3, Lasnamäe linnaosa, Tallinn, Harju maakond, 13912",
                 "kirje_id": 2829134,
@@ -203,7 +241,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -310,14 +348,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2023",
-                "emtak_kood": "86903",
+                "algus_kpv": "25.04.2025",
+                "emtak_kood": "86941",
                 "emtak_tekstina": "Õendusabi osutamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000687174,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858918,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.94",
                 "on_pohitegevusala": true
             }
         ],

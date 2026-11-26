@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Natalja",
-            "isikukood": "45306230258",
+            "isikukood": null,
+            "isikukood_hash": "42d047fb-ee0f-59c5-89ea-3a79dfe0fd00",
             "kirje_id": 9000868813,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.12.2022",
             "eesnimi": "Aleksander",
-            "isikukood": "35910210346",
+            "isikukood": null,
+            "isikukood_hash": "abdf582d-13df-5316-905a-74f8496d3d55",
             "kirje_id": 9001508173,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35910210346",
+            "isikukood_hash": "abdf582d-13df-5316-905a-74f8496d3d55",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45306230258",
+            "isikukood_hash": "42d047fb-ee0f-59c5-89ea-3a79dfe0fd00",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Treiali tee 2-2, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3663724,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Treiali tee 2-2, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3360766,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "33121",
+                "tegevusala_emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "33.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Treiali tee 2-2, Peetri alevik, Rae vald, Harju maakond, 75312",
+                "kirje_id": 3121945,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "96099",
+                "tegevusala_emtak_tekstina": "Muu teenindus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "96.09",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Treiali tee 2-2, Peetri alevik, Rae vald, Harju maakond, 75312",
                 "kirje_id": 2853778,
@@ -317,7 +357,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -448,26 +488,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.06.2013",
+                "algus_kpv": "25.04.2025",
+                "emtak_kood": "33121",
+                "emtak_tekstina": "Masinate ja seadmete remont ning hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858311,
+                "lopp_kpv": null,
+                "nace_kood": "33.12",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.04.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000032338,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858312,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.11.2011",
-                "emtak_kood": "96099",
-                "emtak_tekstina": "Muu  teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000157732,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

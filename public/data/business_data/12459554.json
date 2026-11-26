@@ -2,21 +2,22 @@
     "ariregistri_kood": 12459554,
     "beneficial_owners": [
         {
-            "aadress_riik": "LTU",
-            "aadress_riik_tekstina": "Leedu",
-            "algus_kpv": "20.04.2020",
-            "eesnimi": "Audra",
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "02.09.2025",
+            "eesnimi": "Riho",
             "isikukood": null,
-            "kirje_id": 9001110446,
-            "kontrolli_teostamise_viis": "K",
-            "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
+            "isikukood_hash": "b1ea1c42-9043-55e1-9d8b-82676ba6ddff",
+            "kirje_id": 9003475830,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Stanioniene",
+            "nimi": "Harma",
             "synniaeg": null,
-            "valis_kood": "45501150968",
-            "valis_kood_riik": "LTU",
-            "valis_kood_riik_tekstina": "Leedu"
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
         }
     ],
     "board_members": [
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37401154215",
+            "isikukood_hash": "b1ea1c42-9043-55e1-9d8b-82676ba6ddff",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3803487,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46859",
+                "tegevusala_emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.85",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3441928,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laki tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3235439,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laki tn 4, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2828383,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,15 +408,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.04.2013",
-                "emtak_kood": "46901",
-                "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000024193,
+                "algus_kpv": "09.07.2026",
+                "emtak_kood": "46859",
+                "emtak_tekstina": "Muude keemiatoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001138505,
                 "lopp_kpv": null,
-                "nace_kood": "46.90",
+                "nace_kood": "46.85",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "09.07.2026",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001138506,
+                "lopp_kpv": null,
+                "nace_kood": "46.64",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

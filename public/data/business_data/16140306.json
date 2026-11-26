@@ -4,12 +4,13 @@
         {
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "15.01.2021",
+            "algus_kpv": "30.07.2026",
             "eesnimi": "Taavi",
-            "isikukood": "38303310275",
-            "kirje_id": 9001223449,
-            "kontrolli_teostamise_viis": "J",
-            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "isikukood": null,
+            "isikukood_hash": "b8d8ba46-5059-5904-951f-9168e176f4ef",
+            "kirje_id": 9003571330,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Helde",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38303310275",
+            "isikukood_hash": "b8d8ba46-5059-5904-951f-9168e176f4ef",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -96,13 +98,49 @@
                 "sisu": "LAYOUT OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "15.01.2021",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 10, Keila linn, Harju maakond, 76605",
+                "kirje_id": 3685511,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 10, Keila linn, Harju maakond, 76605",
+                "kirje_id": 3567348,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Linnamäe tee 10, Keila linn, Harju maakond, 76605",
+                "kirje_id": 3264756,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Linnamäe tee 10, Keila linn, Harju maakond, 76605",
                 "kirje_id": 2959447,
@@ -143,7 +181,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -171,6 +209,20 @@
                 "tyyp": "MARK",
                 "tyyp_tekstina": "Märkus",
                 "veerg_nr": 6
+            }
+        ],
+        "oigusjargsused": [
+            {
+                "algus_kpv": "30.05.2024",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 4,
+                "kirje_id": 12521775,
+                "lopp_kpv": null,
+                "sisu": "LAYOUT OÜ (jagunev ühing) jaguneb eraldumise teel andes osa oma varast üle omandavale ühingule OÜ Setout Assets (registrikood 16930899, aadress Harju maakond, Keila linn, Linnamäe tee 10). Jagunemisleping on sõlmitud 14.03.2024, jagunemisotsused on vastu võetud 01.04.2024. Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -239,12 +291,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.01.2021",
+                "algus_kpv": "13.11.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000526921,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001065972,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true

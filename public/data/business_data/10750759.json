@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.10.2018",
             "eesnimi": "Erkki",
-            "isikukood": "37102200369",
+            "isikukood": null,
+            "isikukood_hash": "db825906-a155-546f-b156-abc7e18bda7b",
             "kirje_id": 9000726525,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.10.2018",
             "eesnimi": "Urmas",
-            "isikukood": "37701234216",
+            "isikukood": null,
+            "isikukood_hash": "f0c32449-0602-5bd6-ab3d-099aab13b857",
             "kirje_id": 9000726523,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37102200369",
+            "isikukood_hash": "db825906-a155-546f-b156-abc7e18bda7b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37701234216",
+            "isikukood_hash": "f0c32449-0602-5bd6-ab3d-099aab13b857",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kassi tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3711564,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "36001",
+                "tegevusala_emtak_tekstina": "Veekogumine, -töötlus ja -varustus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "36.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassi tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3494714,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "36001",
+                "tegevusala_emtak_tekstina": "Veekogumine, -töötlus ja -varustus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "36.00",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassi tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3185016,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "36001",
+                "tegevusala_emtak_tekstina": "Veekogumine, -töötlus ja -varustus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "36.00",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kassi tn 12, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2900177,
@@ -436,7 +476,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -556,12 +596,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.06.2011",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "36001",
                 "emtak_tekstina": "Veekogumine, -töötlus ja -varustus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000126969,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000991901,
                 "lopp_kpv": null,
                 "nace_kood": "36.00",
                 "on_pohitegevusala": true

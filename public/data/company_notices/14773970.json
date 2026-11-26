@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-06-18",
+                "award_date_conclusion_contract": [
+                    "2023-06-18"
+                ],
                 "award_value": "171155.45",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Elektrigeneraatorite ostmine, paigaldamine ja elektri varustuskindluse tagamisega seotud ehitustööd",
         "contract_type": "WORKS",
         "contracting_bodies": [
@@ -38,10 +40,13 @@
         "filename": "award_cdd1a9e5-afb6-4f54-8e7b-c17aae4271a6_0.json",
         "flags": [
             "Tenders received low",
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Nominees as company beneficial owners: Tarmo_Moones_02.08.2019",
+            "Nominees as company board members: Tarmo_Moones_02.08.2019"
         ],
         "noticeUid": "cdd1a9e5-afb6-4f54-8e7b-c17aae4271a6",
         "notice_items": [
@@ -52,5 +57,57 @@
         "refnum": "265007",
         "total_amount": "171155.45",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-06-18"
+                ],
+                "award_value": "171155.45",
+                "award_value_curr": "EUR",
+                "contract_awarded": false,
+                "contractors": [
+                    {
+                        "contractor_id": "14773970",
+                        "contractor_name": "META INVEST OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "n/a"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Elektrigeneraatorite ostmine, paigaldamine ja elektri varustuskindluse tagamisega seotud ehitustööd",
+        "contract_type": "WORKS",
+        "contracting_bodies": [
+            {
+                "id": "10856624",
+                "name": "Aktsiaselts Rakvere Haigla",
+                "town": "Rakvere linn"
+            }
+        ],
+        "contractors": [
+            "14773970"
+        ],
+        "cpv": "45215100",
+        "date_dispatch_notice": "2023-11-01",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_3a542d2f-e80f-49a6-b8a8-081986c9bb38_0.json",
+        "flags": [
+            "Tenders received info missing"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "3a542d2f-e80f-49a6-b8a8-081986c9bb38",
+        "notice_items": [
+            {
+                "endDate": "2023-10-30"
+            }
+        ],
+        "refnum": "265007"
     }
 ]

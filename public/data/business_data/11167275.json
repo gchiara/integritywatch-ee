@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.07.2019",
             "eesnimi": "Andres",
-            "isikukood": "37309170278",
+            "isikukood": null,
+            "isikukood_hash": "5f1b1e3f-2e3d-5f5c-9cd0-fca58ce086ec",
             "kirje_id": 9000993630,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37309170278",
+            "isikukood_hash": "5f1b1e3f-2e3d-5f5c-9cd0-fca58ce086ec",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Laine tee 26, Vääna-Jõesuu küla, Harku vald, Harju maakond, 76909",
+                "kirje_id": 3805670,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laine tee 26, Vääna-Jõesuu küla, Harku vald, Harju maakond, 76909",
+                "kirje_id": 3529518,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "6220",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Laine tee 26, Vääna-Jõesuu küla, Harku vald, Harju maakond, 76909",
+                "kirje_id": 3249098,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62021",
+                "tegevusala_emtak_tekstina": "Arvutialased konsultatsioonid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.02",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Laine tee 26, Vääna-Jõesuu küla, Harku vald, Harju maakond, 76909",
                 "kirje_id": 2952385,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -453,37 +491,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2009",
-                "emtak_kood": "63111",
-                "emtak_tekstina": "Andmetöötlus, veebihosting jms tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000063574,
+                "algus_kpv": "07.07.2025",
+                "emtak_kood": "6220",
+                "emtak_tekstina": "Arvutialased konsultatsioonid ning arvutisüsteemide ja andmebaaside haldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025504,
                 "lopp_kpv": null,
-                "nace_kood": "63.11",
+                "nace_kood": "62.20",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "07.07.2025",
+                "emtak_kood": "63101",
+                "emtak_tekstina": "Andmetöötlustaristu, andmemajutus jms tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025505,
+                "lopp_kpv": null,
+                "nace_kood": "63.10",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "05.07.2021",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000571973,
-                "lopp_kpv": null,
-                "nace_kood": "62.02",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "05.07.2021",
+                "algus_kpv": "07.07.2025",
                 "emtak_kood": "7112",
-                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000571972,
+                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001025506,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

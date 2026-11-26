@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.03.2019",
             "eesnimi": "Jaan",
-            "isikukood": "35804034218",
+            "isikukood": null,
+            "isikukood_hash": "50be6746-1bdc-5346-bb83-c2688412e014",
             "kirje_id": 9000951071,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35804034218",
+            "isikukood_hash": "50be6746-1bdc-5346-bb83-c2688412e014",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "A. Kapi tn 1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3818643,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "90201",
+                "tegevusala_emtak_tekstina": "Näitlejate ja tantsijate lavaline tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. Kapi tn 1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3541963,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "90201",
+                "tegevusala_emtak_tekstina": "Näitlejate ja tantsijate lavaline tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.20",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "A. Kapi tn 1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
+                "kirje_id": 3253831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "90011",
+                "tegevusala_emtak_tekstina": "Teatri- ja tantsuetenduste lavastamine ja esitamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "90.01",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "A. Kapi tn 1-1, Kesklinna linnaosa, Tallinn, Harju maakond, 10136",
                 "kirje_id": 2969246,
@@ -370,7 +408,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -477,26 +515,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2009",
-                "emtak_kood": "90011",
-                "emtak_tekstina": "Teatri ja tantsuetenduste lavastamine ja esitamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000015863,
+                "algus_kpv": "27.07.2025",
+                "emtak_kood": "90201",
+                "emtak_tekstina": "Näitlejate ja tantsijate lavaline tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001037529,
                 "lopp_kpv": null,
-                "nace_kood": "90.01",
+                "nace_kood": "90.20",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "22.07.2023",
-                "emtak_kood": "02201",
-                "emtak_tekstina": "Metsavarumine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000713215,
-                "lopp_kpv": null,
-                "nace_kood": "02.20",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

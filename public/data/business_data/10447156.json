@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Kaia",
-            "isikukood": "46205050293",
+            "isikukood": null,
+            "isikukood_hash": "ff2d8e22-9fc5-5dde-b81e-4e852317f0ce",
             "kirje_id": 9000801524,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Mihkel",
-            "isikukood": "37506060292",
+            "isikukood": null,
+            "isikukood_hash": "31afeaaf-b616-5203-a01d-f27070d35420",
             "kirje_id": 9000801526,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46205050293",
+            "isikukood_hash": "ff2d8e22-9fc5-5dde-b81e-4e852317f0ce",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37506060292",
+            "isikukood_hash": "31afeaaf-b616-5203-a01d-f27070d35420",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Iru tee 5, Iru küla, Jõelähtme vald, Harju maakond",
+                "kirje_id": 3774632,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Iru tee 5, Iru küla, Jõelähtme vald, Harju maakond",
+                "kirje_id": 3528157,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62202",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Iru tee 5, Iru küla, Jõelähtme vald, Harju maakond",
+                "kirje_id": 3210838,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62031",
+                "tegevusala_emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.03",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Iru tee 5, Iru küla, Jõelähtme vald, Harju maakond",
                 "kirje_id": 2920462,
@@ -471,7 +511,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -602,14 +642,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.06.2015",
-                "emtak_kood": "62031",
+                "algus_kpv": "06.07.2025",
+                "emtak_kood": "62202",
                 "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000177301,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001024158,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
+                "nace_kood": "62.20",
                 "on_pohitegevusala": true
             }
         ],

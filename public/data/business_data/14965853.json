@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.05.2020",
             "eesnimi": "Vitaly",
-            "isikukood": "38410132219",
+            "isikukood": null,
+            "isikukood_hash": "10e01aec-a916-5ad9-8f78-45dd6b17e836",
             "kirje_id": 9001117076,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38410132219",
+            "isikukood_hash": "10e01aec-a916-5ad9-8f78-45dd6b17e836",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -105,6 +107,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Põhja allee 7-16, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30324",
+                "kirje_id": 3821888,
+                "majandusaasta_perioodi_algus_kpv": "11.05.2025",
+                "majandusaasta_perioodi_lopp_kpv": "10.05.2026",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põhja allee 7-16, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30324",
+                "kirje_id": 3544071,
+                "majandusaasta_perioodi_algus_kpv": "11.05.2024",
+                "majandusaasta_perioodi_lopp_kpv": "10.05.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põhja allee 7-16, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30324",
+                "kirje_id": 3158951,
+                "majandusaasta_perioodi_algus_kpv": "11.05.2023",
+                "majandusaasta_perioodi_lopp_kpv": "10.05.2024",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Põhja allee 7-16, Järve linnaosa, Kohtla-Järve linn, Ida-Viru maakond, 30324",
                 "kirje_id": 2955543,
                 "majandusaasta_perioodi_algus_kpv": "11.05.2022",
                 "majandusaasta_perioodi_lopp_kpv": "10.05.2023",
@@ -155,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -262,15 +300,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.05.2020",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000475628,
+                "algus_kpv": "13.08.2026",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001145451,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
+                "nace_kood": "02.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "13.08.2026",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001145452,
+                "lopp_kpv": null,
+                "nace_kood": "47.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

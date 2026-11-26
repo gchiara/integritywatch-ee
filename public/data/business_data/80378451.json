@@ -1,6 +1,43 @@
 {
     "ariregistri_kood": 80378451,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "01.10.2025",
+            "eesnimi": "Gabriel",
+            "isikukood": null,
+            "isikukood_hash": "6fb2e134-489f-57cc-b7a7-7265887221e8",
+            "kirje_id": 9003483635,
+            "kontrolli_teostamise_viis": "C",
+            "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Vaarman",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "01.10.2025",
+            "eesnimi": "Peeter",
+            "isikukood": null,
+            "isikukood_hash": "e016ef45-cd73-5f78-8ac6-62c53cf8a922",
+            "kirje_id": 9003483636,
+            "kontrolli_teostamise_viis": "C",
+            "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Peek",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37405176025",
+            "isikukood_hash": "6fb2e134-489f-57cc-b7a7-7265887221e8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -59,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38303126023",
+            "isikukood_hash": "e016ef45-cd73-5f78-8ac6-62c53cf8a922",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "MTÜ",
@@ -81,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8803654",
+                "aadress_ads__adob_id": "10735867",
                 "aadress_ads__adr_id": 3142535,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Viljandi maakond, Viljandi vald, Ülensi küla, Kupataja",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -134,6 +173,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kupataja, Ülensi küla, Viljandi vald, Viljandi maakond, 69720",
+                "kirje_id": 3754831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordiehitiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kupataja, Ülensi küla, Viljandi vald, Viljandi maakond, 69720",
+                "kirje_id": 3483891,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordiehitiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kupataja, Ülensi küla, Viljandi vald, Viljandi maakond, 69720",
+                "kirje_id": 3255396,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "93111",
+                "tegevusala_emtak_tekstina": "Spordirajatiste käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "93.11",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kupataja, Ülensi küla, Viljandi vald, Viljandi maakond, 69720",
                 "kirje_id": 2931457,
@@ -232,7 +307,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -303,12 +378,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 4,
-                "kirje_id": 10489322,
+                "kande_nr": 5,
+                "kirje_id": 13571587,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "tarvastumotoklubi@gmail.com"
+                "sisu": "info@raassillarx.ee"
             },
             {
                 "kaardi_nr": null,
@@ -348,12 +423,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "93111",
-                "emtak_tekstina": "Spordirajatiste käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000245262,
+                "emtak_tekstina": "Spordiehitiste käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000980829,
                 "lopp_kpv": null,
                 "nace_kood": "93.11",
                 "on_pohitegevusala": true

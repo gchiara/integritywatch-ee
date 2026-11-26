@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Liis",
-            "isikukood": "48706146522",
+            "isikukood": null,
+            "isikukood_hash": "a61eb368-ba66-59f8-b2eb-71985efa3e44",
             "kirje_id": 9000688630,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Mart",
-            "isikukood": "35704126535",
+            "isikukood": null,
+            "isikukood_hash": "12eb1c6c-655e-5c9c-b96b-ffee456f8738",
             "kirje_id": 9000688627,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35704126535",
+            "isikukood_hash": "12eb1c6c-655e-5c9c-b96b-ffee456f8738",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -119,6 +122,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vilja tn 4-24, Võru linn, Võru maakond, 65606",
+                "kirje_id": 3663887,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "01291",
+                "tegevusala_emtak_tekstina": "Muude mitmeaastaste taimede kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.29",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vilja tn 4-24, Võru linn, Võru maakond, 65606",
+                "kirje_id": 3440872,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "01291",
+                "tegevusala_emtak_tekstina": "Muude mitmeaastaste taimede kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.29",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vilja tn 4-24, Võru linn, Võru maakond, 65606",
+                "kirje_id": 3133441,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "01291",
+                "tegevusala_emtak_tekstina": "Muude mitmeaastaste taimede kasvatus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "01.29",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vilja tn 4-24, Võru linn, Võru maakond, 65606",
                 "kirje_id": 2803814,
@@ -363,7 +402,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -470,37 +509,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.04.2023",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "01291",
                 "emtak_tekstina": "Muude mitmeaastaste taimede kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000680972,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938518,
                 "lopp_kpv": null,
                 "nace_kood": "01.29",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "27.04.2023",
-                "emtak_kood": "9609",
-                "emtak_tekstina": "Muu mujal liigitamata teenindus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000680973,
-                "lopp_kpv": null,
-                "nace_kood": "96.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "01.07.2022",
-                "emtak_kood": "02401",
-                "emtak_tekstina": "Metsamajandust abistavad tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000639407,
-                "lopp_kpv": null,
-                "nace_kood": "02.40",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

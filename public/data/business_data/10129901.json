@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "13.09.2018",
             "eesnimi": "Rain",
-            "isikukood": "36607260034",
+            "isikukood": null,
+            "isikukood_hash": "e31e7780-228f-5310-b510-cc391e7f30d5",
             "kirje_id": 9000688061,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36607260034",
+            "isikukood_hash": "e31e7780-228f-5310-b510-cc391e7f30d5",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 26, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3613028,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 26, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3477568,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47121",
+                "tegevusala_emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.12",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pargi tn 26, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
+                "kirje_id": 3104188,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47191",
+                "tegevusala_emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.19",
+                "tootajate_arv": "15"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pargi tn 26, Orissaare alevik, Saaremaa vald, Saare maakond, 94601",
                 "kirje_id": 2799555,
@@ -454,7 +492,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -540,12 +578,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7745720,
+                "kande_nr": 9,
+                "kirje_id": 13336721,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "rehvikeskus@hot.ee"
+                "sisu": "traxrehvikeskus@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -574,17 +612,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 8000158295,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.rehvikeskus.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 8000203156,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
@@ -607,23 +634,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "15.05.2020",
-                "emtak_kood": "47191",
-                "emtak_tekstina": "Jaemüük muudes spetsialiseerimata kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000477184,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "47121",
+                "emtak_tekstina": "Muu spetsialiseerimata jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973834,
                 "lopp_kpv": null,
-                "nace_kood": "47.19",
+                "nace_kood": "47.12",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "15.05.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "43129",
                 "emtak_tekstina": "Muud kaeve- ja mullatööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000477185,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000973835,
                 "lopp_kpv": null,
                 "nace_kood": "43.12",
                 "on_pohitegevusala": false

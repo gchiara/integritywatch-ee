@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.12.2018",
             "eesnimi": "Lauri",
-            "isikukood": "37903160292",
+            "isikukood": null,
+            "isikukood_hash": "866a4239-106d-5ddb-ad05-f2e1a066ecac",
             "kirje_id": 9000912687,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37903160292",
+            "isikukood_hash": "866a4239-106d-5ddb-ad05-f2e1a066ecac",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lapa, Aravu küla, Räpina vald, Põlva maakond, 62503",
+                "kirje_id": 3544260,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lapa, Aravu küla, Räpina vald, Põlva maakond, 62503",
+                "kirje_id": 3307493,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lapa, Aravu küla, Räpina vald, Põlva maakond, 62503",
                 "kirje_id": 2980158,
@@ -359,25 +385,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.08.2023",
-                "emtak_kood": "62011",
+                "algus_kpv": "31.07.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000716702,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001039721,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.07.2023",
-                "emtak_kood": "62021",
-                "emtak_tekstina": "Arvutialased konsultatsioonid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709031,
-                "lopp_kpv": null,
-                "nace_kood": "62.02",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             }
         ],

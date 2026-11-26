@@ -44,12 +44,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38009175212",
-            "Nominees as company board members: 38009175212"
+            "Possible shell company: 11503141"
         ],
         "noticeUid": "f8b6bf63-ce1e-4f53-8bfc-8ec3a8d191a5",
         "notice_items": [
@@ -98,12 +97,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38009175212",
-            "Nominees as company board members: 38009175212"
+            "Possible shell company: 11503141"
         ],
         "noticeUid": "95d2c454-211b-4b8e-8daa-6d40805df079",
         "notice_items": [
@@ -152,12 +150,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38009175212",
-            "Nominees as company board members: 38009175212"
+            "Possible shell company: 11503141"
         ],
         "noticeUid": "7ad2d77d-5011-40f0-adf4-0f0afdb90d6b",
         "notice_items": [
@@ -206,12 +203,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38009175212",
-            "Nominees as company board members: 38009175212"
+            "Possible shell company: 11503141"
         ],
         "noticeUid": "66f4dcfe-60c1-4237-bf3b-c8ed445db042",
         "notice_items": [
@@ -223,7 +219,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-28",
+                "award_date_conclusion_contract": [
+                    "2023-08-28"
+                ],
                 "award_value": "26559.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -238,7 +236,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Kadrioru Pargi oranžerii ehitustöödele projekteerija järelevalve teenuse tellimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -260,12 +258,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Nominees as company board members or beneficial owners"
+            "Possible shell company"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 38009175212",
-            "Nominees as company board members: 38009175212"
+            "Possible shell company: 11503141"
         ],
         "noticeUid": "4a75ba97-1c46-482b-9d12-d879a8bc25c1",
         "notice_items": [
@@ -276,5 +273,75 @@
         "refnum": "266462",
         "total_amount": "26559.00",
         "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [],
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14275781",
+                        "contractor_name": "molumba osaühing",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10907126",
+                        "contractor_name": "KAVAKAVA OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12070262",
+                        "contractor_name": "KUU OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "12073665",
+                        "contractor_name": "PIN ARHITEKTID OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "11503141",
+                        "contractor_name": "KARISMA arhitektid OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "23"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Kajamaa Kooli arhitektuurivõistlus",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75019738",
+                "name": "Saku Vallavalitsus",
+                "town": "Saku vald"
+            }
+        ],
+        "contractors": [
+            "14275781",
+            "10907126",
+            "12070262",
+            "12073665",
+            "11503141"
+        ],
+        "cpv": "71240000",
+        "date_dispatch_notice": "2025-01-10",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_6aab1400-29f9-41cb-95f8-230b6ee152f7_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Succesful procedure without contracting"
+        ],
+        "flagsNotes": [],
+        "noticeUid": "6aab1400-29f9-41cb-95f8-230b6ee152f7",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "284454"
     }
 ]

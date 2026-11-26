@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.05.2019",
             "eesnimi": "Mart",
-            "isikukood": "38301020330",
+            "isikukood": null,
+            "isikukood_hash": "e0693044-5fda-5054-a05c-09b6f153e0e0",
             "kirje_id": 9000970472,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47403140013",
+            "isikukood_hash": "91cc3533-30a1-5417-b44b-b914de382dbe",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9679284",
+                "aadress_ads__adob_id": "10872861",
                 "aadress_ads__adr_id": 2249668,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Haabersti linnaosa, Mustjuure tn 9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mustjuure tn 9, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3737376,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustjuure tn 9, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3441318,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "62101",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.10",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mustjuure tn 9, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
+                "kirje_id": 3175536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "62011",
+                "tegevusala_emtak_tekstina": "Programmeerimine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "62.01",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mustjuure tn 9, Haabersti linnaosa, Tallinn, Harju maakond, 10618",
                 "kirje_id": 2866139,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -408,36 +446,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2020",
-                "emtak_kood": "62091",
-                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000485294,
-                "lopp_kpv": null,
-                "nace_kood": "62.09",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "26.06.2020",
-                "emtak_kood": "62011",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62101",
                 "emtak_tekstina": "Programmeerimine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000485293,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938924,
                 "lopp_kpv": null,
-                "nace_kood": "62.01",
+                "nace_kood": "62.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "26.06.2020",
-                "emtak_kood": "62031",
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62202",
                 "emtak_tekstina": "Arvutisüsteemide ja andmebaaside haldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000485295,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938925,
                 "lopp_kpv": null,
-                "nace_kood": "62.03",
+                "nace_kood": "62.20",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "62901",
+                "emtak_tekstina": "Muud infotehnoloogia- ja arvutialased tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938926,
+                "lopp_kpv": null,
+                "nace_kood": "62.90",
                 "on_pohitegevusala": false
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "23.10.2018",
             "eesnimi": "Sander",
-            "isikukood": "39206306819",
+            "isikukood": null,
+            "isikukood_hash": "6d81e71f-bec7-50d4-b115-a1bc189815d1",
             "kirje_id": 9000804069,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39206306819",
+            "isikukood_hash": "6d81e71f-bec7-50d4-b115-a1bc189815d1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9611685",
-                "aadress_ads__adr_id": 3188131,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Kesk tn 20",
+                "aadress_ads__adob_id": "10913910",
+                "aadress_ads__adr_id": 3168612,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Võru tn 12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01688200",
-                "aadress_ads__koodaadress": "64622653600000PY200009REJ00000000",
+                "aadress_ads__ads_oid": "ME00840297",
+                "aadress_ads__koodaadress": "64622653600000PYQ00009QZ500000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "14.12.2017",
+                "algus_kpv": "28.05.2026",
                 "ehak": "6536",
                 "ehak_nimetus": "Põlva linn, Põlva vald, Põlva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "MTÜ",
-                "kande_nr": 2,
-                "kirje_id": 7406716,
+                "kande_nr": 7,
+                "kirje_id": 13769304,
                 "lopp_kpv": null,
                 "postiindeks": "63308",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kesk tn 20"
+                "tanav_maja_korter": "Võru tn 12"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 12, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3734484,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 20, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3501278,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kesk tn 20, Põlva linn, Põlva vald, Põlva maakond, 63308",
+                "kirje_id": 3174035,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "5221",
+                "tegevusala_emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "52.21",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesk tn 20, Põlva linn, Põlva vald, Põlva maakond, 63308",
                 "kirje_id": 2908300,
@@ -165,7 +203,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -270,12 +308,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.10.2017",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "5221",
                 "emtak_tekstina": "Maismaaveondust teenindavad tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000326694,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000998431,
                 "lopp_kpv": null,
                 "nace_kood": "52.21",
                 "on_pohitegevusala": true

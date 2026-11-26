@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 12090505,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "15.09.2025",
+            "eesnimi": "Hardo",
+            "isikukood": null,
+            "isikukood_hash": "0effba3e-9ea4-5134-a2aa-aa58a722d79c",
+            "kirje_id": 9003479177,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Pajur",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -22,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38408112731",
+            "isikukood_hash": "0effba3e-9ea4-5134-a2aa-aa58a722d79c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -44,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8537003",
-                "aadress_ads__adr_id": 2993648,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Elva vald, Ervu küla, Marguse",
+                "aadress_ads__adob_id": "11210884",
+                "aadress_ads__adr_id": 2980465,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Elva vald, Rannu alevik, Ringtee tn 17",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00744556",
-                "aadress_ads__koodaadress": "791711643000000000BSM000000000000",
+                "aadress_ads__ads_oid": "CU04228303",
+                "aadress_ads__koodaadress": "79171682200000QR50000A76K00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "14.02.2018",
-                "ehak": "1643",
-                "ehak_nimetus": "Ervu küla, Elva vald, Tartu maakond",
+                "algus_kpv": "16.09.2025",
+                "ehak": "6822",
+                "ehak_nimetus": "Rannu alevik, Elva vald, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kirje_id": 7928899,
+                "kande_nr": 6,
+                "kirje_id": 13312324,
                 "lopp_kpv": null,
-                "postiindeks": "61102",
+                "postiindeks": "61101",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Marguse"
+                "tanav_maja_korter": "Ringtee tn 17"
             }
         ],
         "arinimed": [
@@ -85,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 17, Rannu alevik, Elva vald, Tartu maakond, 61101",
+                "kirje_id": 3776056,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Marguse, Ervu küla, Elva vald, Tartu maakond, 61102",
+                "kirje_id": 3432761,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Marguse, Ervu küla, Elva vald, Tartu maakond, 61102",
+                "kirje_id": 3134411,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Marguse, Ervu küla, Elva vald, Tartu maakond, 61102",
                 "kirje_id": 2900147,
@@ -245,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -318,23 +374,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7716250,
+                "kande_nr": 6,
+                "kirje_id": 13312325,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "hardo.pajur@gmail.com"
+                "sisu": "hardo@dynamo.ee"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000164880,
+                "kirje_id": 9000731736,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 53907187"
+                "sisu": "+372 56982881"
             }
         ],
         "staatus": "R",
@@ -352,12 +408,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.04.2011",
+                "algus_kpv": "21.06.2025",
                 "emtak_kood": "81101",
-                "emtak_tekstina": "Hoonehalduse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000109973,
+                "emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930776,
                 "lopp_kpv": null,
                 "nace_kood": "81.10",
                 "on_pohitegevusala": true

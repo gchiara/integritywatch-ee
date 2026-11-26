@@ -6,13 +6,32 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.10.2018",
             "eesnimi": "Tarvo",
-            "isikukood": "36811200234",
+            "isikukood": null,
+            "isikukood_hash": "77a28919-2812-57b5-a561-4966f71a3d3a",
             "kirje_id": 9000788557,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Vau",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        },
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "15.07.2025",
+            "eesnimi": "Taavi",
+            "isikukood": null,
+            "isikukood_hash": "b81de610-3428-5d33-a07a-6538fd0461fe",
+            "kirje_id": 9003462608,
+            "kontrolli_teostamise_viis": "J",
+            "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Ilu",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39106200240",
+            "isikukood_hash": "b81de610-3428-5d33-a07a-6538fd0461fe",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36811200234",
+            "isikukood_hash": "77a28919-2812-57b5-a561-4966f71a3d3a",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -99,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9689125",
+                "aadress_ads__adob_id": "10979829",
                 "aadress_ads__adr_id": 258140,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Rae vald, Lehmja küla, Loomäe tee 8",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -140,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 8, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3815274,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 8, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3448969,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Loomäe tee 8, Lehmja küla, Rae vald, Harju maakond, 75306",
+                "kirje_id": 3198374,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Loomäe tee 8, Lehmja küla, Rae vald, Harju maakond, 75306",
                 "kirje_id": 2938277,
@@ -456,7 +513,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -576,14 +633,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2015",
-                "emtak_kood": "43391",
+                "algus_kpv": "26.06.2025",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000179606,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000946272,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "38310200233",
+            "isikukood": null,
+            "isikukood_hash": "d5c57cee-7955-5b9f-b14f-1b7411a995f3",
             "kirje_id": 9000840541,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Laura",
-            "isikukood": "48505256045",
+            "isikukood": null,
+            "isikukood_hash": "fc93b3c6-83c2-5db5-a117-69d5b4285151",
             "kirje_id": 9000840576,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38310200233",
+            "isikukood_hash": "d5c57cee-7955-5b9f-b14f-1b7411a995f3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,15 +82,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9819108",
-                "aadress_ads__adr_id": 3470635,
+                "aadress_ads__adob_id": "10955576",
+                "aadress_ads__adr_id": 3705764,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Üksnurme küla, Lepatoa",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01024505",
-                "aadress_ads__koodaadress": "377199820000000009463000000000000",
+                "aadress_ads__koodaadress": "37719982100000000GVJ9000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "13.12.2017",
-                "ehak": "9820",
+                "ehak": "9821",
                 "ehak_nimetus": "Üksnurme küla, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lepatoa, Üksnurme küla, Saku vald, Harju maakond, 75513",
+                "kirje_id": 3780538,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepatoa, Üksnurme küla, Saku vald, Harju maakond, 75513",
+                "kirje_id": 3454218,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lepatoa, Üksnurme küla, Saku vald, Harju maakond, 75513",
+                "kirje_id": 3223273,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43391",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lepatoa, Üksnurme küla, Saku vald, Harju maakond, 75513",
                 "kirje_id": 2928308,
@@ -208,7 +247,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -315,14 +354,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "08.02.2017",
-                "emtak_kood": "43391",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000278677,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951376,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

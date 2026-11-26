@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "24.09.2018",
             "eesnimi": "Grete",
-            "isikukood": "46209070377",
+            "isikukood": null,
+            "isikukood_hash": "14f7454b-4d21-576f-b589-d1363e8a1cdc",
             "kirje_id": 9000707491,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46209070377",
+            "isikukood_hash": "14f7454b-4d21-576f-b589-d1363e8a1cdc",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7435928",
+                "aadress_ads__adob_id": "11499316",
                 "aadress_ads__adr_id": 2107693,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Mustamäe linnaosa, Kadaka tee 153",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 153, Mustamäe linnaosa, Tallinn, Harju maakond, 12615",
+                "kirje_id": 3807861,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 153, Mustamäe linnaosa, Tallinn, Harju maakond, 12615",
+                "kirje_id": 3522712,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kadaka tee 153, Mustamäe linnaosa, Tallinn, Harju maakond, 12615",
+                "kirje_id": 3242393,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "56211",
+                "tegevusala_emtak_tekstina": "Toitlustamine üritustel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "56.21",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kadaka tee 153, Mustamäe linnaosa, Tallinn, Harju maakond, 12615",
                 "kirje_id": 2953050,
@@ -394,7 +432,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -514,12 +552,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.04.2012",
+                "algus_kpv": "02.07.2025",
                 "emtak_kood": "56211",
                 "emtak_tekstina": "Toitlustamine üritustel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000174176,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001019139,
                 "lopp_kpv": null,
                 "nace_kood": "56.21",
                 "on_pohitegevusala": true

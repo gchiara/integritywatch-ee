@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.09.2018",
             "eesnimi": "Virge",
-            "isikukood": "47710040289",
+            "isikukood": null,
+            "isikukood_hash": "f230ce20-14b5-52cf-9358-4001e882fcf6",
             "kirje_id": 9000674075,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "16.01.2023",
             "eesnimi": "Lauri",
-            "isikukood": "36712186518",
+            "isikukood": null,
+            "isikukood_hash": "604e8b5d-8c50-508f-959f-80d958edb12d",
             "kirje_id": 9001521986,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36712186518",
+            "isikukood_hash": "604e8b5d-8c50-508f-959f-80d958edb12d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47710040289",
+            "isikukood_hash": "f230ce20-14b5-52cf-9358-4001e882fcf6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "MTÜ",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vaikne tn 50, Keila linn, Harju maakond, 76607",
+                "kirje_id": 3680993,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "94119",
+                "tegevusala_emtak_tekstina": "Muude ettevõtjate ja tööandjate organisatsioonide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaikne tn 50, Keila linn, Harju maakond, 76607",
+                "kirje_id": 3454434,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "94119",
+                "tegevusala_emtak_tekstina": "Muude ettevõtjate ja tööandjate organisatsioonide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.11",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vaikne tn 50, Keila linn, Harju maakond, 76607",
+                "kirje_id": 3217620,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94119",
+                "tegevusala_emtak_tekstina": "Muude ettevõtjate ja tööandjate organisatsioonide tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vaikne tn 50, Keila linn, Harju maakond, 76607",
                 "kirje_id": 2921181,
@@ -303,7 +343,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -408,12 +448,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.08.2021",
+                "algus_kpv": "27.06.2025",
                 "emtak_kood": "94119",
                 "emtak_tekstina": "Muude ettevõtjate ja tööandjate organisatsioonide tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000578318,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951589,
                 "lopp_kpv": null,
                 "nace_kood": "94.11",
                 "on_pohitegevusala": true

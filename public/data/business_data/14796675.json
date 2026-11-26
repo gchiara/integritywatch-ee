@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.07.2023",
             "eesnimi": "Astrid",
-            "isikukood": "47509270214",
+            "isikukood": null,
+            "isikukood_hash": "ba6eb60f-056f-575c-bc36-9a73bf221b35",
             "kirje_id": 9001601268,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47509270214",
+            "isikukood_hash": "ba6eb60f-056f-575c-bc36-9a73bf221b35",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,11 +64,11 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8594922",
+                "aadress_ads__adob_id": "10961404",
                 "aadress_ads__adr_id": 3012607,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Tõrva vald, Tõrva linn, Tööstuse tn 10",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "CU00516087",
+                "aadress_ads__ads_oid": "ME00939906",
                 "aadress_ads__koodaadress": "81824852900000S5P0000B4GG00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "24.07.2023",
@@ -103,6 +105,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 10, Tõrva linn, Tõrva vald, Valga maakond, 68607",
+                "kirje_id": 3821393,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 10, Tõrva linn, Tõrva vald, Valga maakond, 68607",
+                "kirje_id": 3515029,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "3100",
+                "tegevusala_emtak_tekstina": "Mööblitootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.00",
+                "tootajate_arv": "21"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 10, Tõrva linn, Tõrva vald, Valga maakond, 68607",
+                "kirje_id": 3259744,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "20"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 10, Tõrva linn, Tõrva vald, Valga maakond, 68607",
+                "kirje_id": 3000083,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": "31091",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata mööbli tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "31.09",
+                "tootajate_arv": "20"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kesk tn 38-45, Põlva linn, Põlva vald, Põlva maakond, 63304",
                 "kirje_id": 2731726,
@@ -143,7 +193,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -264,14 +314,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.10.2019",
-                "emtak_kood": "31091",
-                "emtak_tekstina": "Mujal liigitamata mööbli tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000451504,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "3100",
+                "emtak_tekstina": "Mööblitootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001012027,
                 "lopp_kpv": null,
-                "nace_kood": "31.09",
+                "nace_kood": "31.00",
                 "on_pohitegevusala": true
             }
         ],

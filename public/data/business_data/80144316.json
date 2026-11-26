@@ -22,7 +22,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47002276539",
+            "isikukood_hash": "bb057998-8176-58b6-b17d-bfe0d261d282",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -59,7 +60,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37805316522",
+            "isikukood_hash": "c01a00ea-49f4-5861-b732-d665f3c95188",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -96,7 +98,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37107202758",
+            "isikukood_hash": "52b2d505-6571-5ad4-b9c9-b916dde39164",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "KÜ",
@@ -135,6 +138,54 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3811825,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3357673,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3172359,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3007307,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2579113,
@@ -296,14 +347,27 @@
         "ky_kinnistu_aadressid": [
             {
                 "adr_id": 3166834,
-                "ads_koodaadress": "64622653600000PYR00009RB90000",
+                "ads_koodaadress": "64622653600000PYR00009RB900000000",
                 "ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Jaama tn 24a",
                 "ads_oid": "CU00335219",
-                "laadimise_kpv": "26.03.2021"
+                "laadimise_kpv": "29.12.2025"
             }
         ],
         "lahknevusteade_puudumisest": null,
         "loobunud_vorminouetest": null,
+        "majandusaastad": [
+            {
+                "algus_kpv": "01.11.2023",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "KÜ",
+                "kande_nr": 5,
+                "kirje_id": 12118081,
+                "lopp_kpv": null,
+                "maj_aasta_algus": "01.01",
+                "maj_aasta_lopp": "31.12"
+            }
+        ],
         "markused_kaardil": [],
         "oiguslik_vorm": "KÜ",
         "oiguslik_vorm_nr": 23,
@@ -398,7 +462,7 @@
                 "emtak_kood": "68321",
                 "emtak_tekstina": "Hoonete ja üürimajade haldus (korteriühistud, elamuühistud, hooneühistud jms)",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
+                "emtak_versioon_tekstina": "EMTAK 2008",
                 "kirje_id": 3000043342,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",

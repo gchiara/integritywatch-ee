@@ -4,15 +4,16 @@
         {
             "aadress_riik": "EST",
             "aadress_riik_tekstina": "Eesti",
-            "algus_kpv": "30.10.2018",
-            "eesnimi": "Kiira",
-            "isikukood": "47501032216",
-            "kirje_id": 9000860170,
+            "algus_kpv": "05.10.2023",
+            "eesnimi": "Sergei",
+            "isikukood": null,
+            "isikukood_hash": "0724152d-6b1b-5cdc-a6db-dec045df48aa",
+            "kirje_id": 9001645970,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
-            "nimi": "Berezovskaja",
+            "nimi": "Berezovski",
             "synniaeg": null,
             "valis_kood": null,
             "valis_kood_riik": null,
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47304092223",
+            "isikukood_hash": "92514fc6-3ec1-5225-8eec-f9e7133d81ee",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9946380",
-                "aadress_ads__adr_id": 3307797,
+                "aadress_ads__adob_id": "11155144",
+                "aadress_ads__adr_id": 3800808,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Edise küla, Hundi",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "CU02173912",
-                "aadress_ads__koodaadress": "45251152400000000AM1A000000000000",
+                "aadress_ads__koodaadress": "45250152400000000AM1A000000000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "01.12.2017",
                 "ehak": "1524",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Hundi, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
+                "kirje_id": 3778172,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hundi, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
+                "kirje_id": 3517117,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Hundi, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
+                "kirje_id": 3204461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49411",
+                "tegevusala_emtak_tekstina": "Kaubavedu maanteel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.41",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Hundi, Edise küla, Jõhvi vald, Ida-Viru maakond, 41543",
                 "kirje_id": 2907342,
@@ -275,7 +313,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -367,6 +405,17 @@
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
                 "sisu": "skveod@gmail.com"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000721775,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
+                "lopp_kpv": null,
+                "sisu": "+372 53090888"
             }
         ],
         "staatus": "R",
@@ -384,26 +433,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2017",
+                "algus_kpv": "30.06.2026",
                 "emtak_kood": "49411",
                 "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000310879,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001132350,
                 "lopp_kpv": null,
                 "nace_kood": "49.41",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2016",
-                "emtak_kood": "42111",
-                "emtak_tekstina": "Teede ja kiirteede ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000246721,
-                "lopp_kpv": null,
-                "nace_kood": "42.11",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.06.2021",
             "eesnimi": "Karin",
-            "isikukood": "48103044925",
+            "isikukood": null,
+            "isikukood_hash": "53ef4915-2e5c-5ec0-8786-18ee459afe29",
             "kirje_id": 9001297671,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -24,6 +25,7 @@
             "algus_kpv": "30.06.2021",
             "eesnimi": "Miroslaw",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9001298394,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48103044925",
+            "isikukood_hash": "53ef4915-2e5c-5ec0-8786-18ee459afe29",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,6 +97,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3766938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "86992",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.99",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3518483,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "86992",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.99",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
+                "kirje_id": 3196772,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "86909",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata tervishoiualad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "86.90",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 51, Kesklinna linnaosa, Tallinn, Harju maakond, 10138",
                 "kirje_id": 2868631,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -462,14 +502,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.07.2011",
-                "emtak_kood": "86909",
-                "emtak_tekstina": "Mujal liigitamata tervishoiualad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000145323,
+                "algus_kpv": "01.07.2025",
+                "emtak_kood": "86992",
+                "emtak_tekstina": "Muud mujal liigitamata tervishoiualad",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001015253,
                 "lopp_kpv": null,
-                "nace_kood": "86.90",
+                "nace_kood": "86.99",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.10.2018",
             "eesnimi": "Erki",
-            "isikukood": "37003102729",
+            "isikukood": null,
+            "isikukood_hash": "b762bbd4-5cb9-51c6-8796-e4a2b7d6fc1e",
             "kirje_id": 9000827704,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37003102729",
+            "isikukood_hash": "b762bbd4-5cb9-51c6-8796-e4a2b7d6fc1e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8658538",
-                "aadress_ads__adr_id": 3044416,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Ringtee tn 25",
+                "aadress_ads__adob_id": "10910148",
+                "aadress_ads__adr_id": 3739807,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Tartu linn, Tartu linn, Aardla tn 23/2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00751718",
-                "aadress_ads__koodaadress": "79793815100000SHM0000B7L400000000",
+                "aadress_ads__ads_oid": "EE04119592",
+                "aadress_ads__koodaadress": "79793815100000SPK0000D93T00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "22.12.2017",
+                "algus_kpv": "16.07.2025",
                 "ehak": "8151",
                 "ehak_nimetus": "Tartu linn, Tartu linn, Tartu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 15,
-                "kirje_id": 7454142,
+                "kande_nr": 18,
+                "kirje_id": 13215609,
                 "lopp_kpv": null,
-                "postiindeks": "50105",
+                "postiindeks": "50110",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Ringtee tn 25"
+                "tanav_maja_korter": "Aardla tn 23/2"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aardla tn 23/2, Tartu linn, Tartu linn, Tartu maakond, 50110",
+                "kirje_id": 3733694,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46861",
+                "tegevusala_emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.86",
+                "tootajate_arv": "15"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3430893,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46861",
+                "tegevusala_emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.86",
+                "tootajate_arv": "17"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
+                "kirje_id": 3135543,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46761",
+                "tegevusala_emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.76",
+                "tootajate_arv": "16"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ringtee tn 25, Tartu linn, Tartu linn, Tartu maakond, 50105",
                 "kirje_id": 2836921,
@@ -443,7 +481,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -539,17 +577,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000004585,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7366645"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 9000440107,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
@@ -572,37 +599,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.05.2021",
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "46442",
                 "emtak_tekstina": "Puhastusvahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000550579,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929112,
                 "lopp_kpv": null,
                 "nace_kood": "46.44",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "07.09.2010",
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "46861",
+                "emtak_tekstina": "Muude vahetoodete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929110,
+                "lopp_kpv": null,
+                "nace_kood": "46.86",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "20.06.2025",
                 "emtak_kood": "46499",
                 "emtak_tekstina": "Mujal liigitamata kodutarvete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000088798,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929111,
                 "lopp_kpv": null,
                 "nace_kood": "46.49",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "46761",
-                "emtak_tekstina": "Muude vahetoodete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000010670,
-                "lopp_kpv": null,
-                "nace_kood": "46.76",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Aarne",
-            "isikukood": "36702245223",
+            "isikukood": null,
+            "isikukood_hash": "73c81bf5-6343-5b0e-b00d-626bc8d24728",
             "kirje_id": 9000838278,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Rein",
-            "isikukood": "36408145227",
+            "isikukood": null,
+            "isikukood_hash": "fb84f1bb-44a8-5629-893e-b8493625b161",
             "kirje_id": 9000838285,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Siiri",
-            "isikukood": "45009245214",
+            "isikukood": null,
+            "isikukood_hash": "535869e8-3b7a-5d74-8128-ebb3eeb9c25b",
             "kirje_id": 9000838282,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +60,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Virve",
-            "isikukood": "45301285211",
+            "isikukood": null,
+            "isikukood_hash": "50c7ac78-2e92-5b0e-b289-08ff63409e59",
             "kirje_id": 9000838291,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -91,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36702245223",
+            "isikukood_hash": "73c81bf5-6343-5b0e-b00d-626bc8d24728",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -113,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10495150",
+                "aadress_ads__adob_id": "11491924",
                 "aadress_ads__adr_id": 2116720,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Liivalaia tn 32",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -154,6 +159,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 32, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
+                "kirje_id": 3539022,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Liivalaia tn 32, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
+                "kirje_id": 3274921,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "68201",
+                "tegevusala_emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Liivalaia tn 32, Kesklinna linnaosa, Tallinn, Harju maakond, 10118",
                 "kirje_id": 2949689,
@@ -506,7 +535,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -653,47 +682,47 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "19.06.2015",
-                "emtak_kood": "81101",
-                "emtak_tekstina": "Hoonehalduse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000175796,
-                "lopp_kpv": null,
-                "nace_kood": "81.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "14.06.2017",
-                "emtak_kood": "01199",
-                "emtak_tekstina": "Söödakultuuri- ja heintaimekasvatus jm üheaastaste põllukultuuride kasvatus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000299151,
-                "lopp_kpv": null,
-                "nace_kood": "01.19",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "21.07.2025",
                 "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708971,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034766,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "04.07.2023",
+                "algus_kpv": "21.07.2025",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000708972,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034767,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "0119",
+                "emtak_tekstina": "Muude üheaastaste põllukultuuride kasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034768,
+                "lopp_kpv": null,
+                "nace_kood": "01.19",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "21.07.2025",
+                "emtak_kood": "81101",
+                "emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001034769,
+                "lopp_kpv": null,
+                "nace_kood": "81.10",
                 "on_pohitegevusala": false
             }
         ],

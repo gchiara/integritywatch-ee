@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Vjatšeslav",
-            "isikukood": "37204055716",
+            "isikukood": null,
+            "isikukood_hash": "3bfc8e8f-be16-5c40-99d0-5103271c961c",
             "kirje_id": 9000857315,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "12.07.2022",
             "eesnimi": "Vesa Anton",
-            "isikukood": "37212110083",
+            "isikukood": null,
+            "isikukood_hash": "7f2c8553-be5c-5553-b8bd-dbf081d1c396",
             "kirje_id": 9001454462,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37212110083",
+            "isikukood_hash": "7f2c8553-be5c-5553-b8bd-dbf081d1c396",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37204055716",
+            "isikukood_hash": "3bfc8e8f-be16-5c40-99d0-5103271c961c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9692764",
-                "aadress_ads__adr_id": 3285411,
+                "aadress_ads__adob_id": "10868236",
+                "aadress_ads__adr_id": 3724813,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Võru maakond, Antsla vald, Kobela alevik, Lusti tee 1",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ME03730917",
-                "aadress_ads__koodaadress": "87142321400000QEI0000A4W200000000",
+                "aadress_ads__koodaadress": "87145321400000QEI0000A4W200000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "03.05.2022",
                 "ehak": "3214",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Lusti tee 1, Kobela alevik, Antsla vald, Võru maakond, 66407",
+                "kirje_id": 3830723,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "32"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lusti tee 1, Kobela alevik, Antsla vald, Võru maakond, 66407",
+                "kirje_id": 3367322,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "32"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Lusti tee 1, Kobela alevik, Antsla vald, Võru maakond, 66407",
+                "kirje_id": 3239864,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "25119",
+                "tegevusala_emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "25.11",
+                "tootajate_arv": "31"
+            },
             {
                 "ettevotja_aadress_aruandes": "Lusti tee 1, Kobela alevik, Antsla vald, Võru maakond, 66407",
                 "kirje_id": 2858165,
@@ -293,7 +333,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -389,12 +429,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "09.09.2019",
+                "algus_kpv": "05.05.2025",
                 "emtak_kood": "25119",
                 "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000444969,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000865169,
                 "lopp_kpv": null,
                 "nace_kood": "25.11",
                 "on_pohitegevusala": true

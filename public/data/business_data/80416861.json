@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.09.2018",
             "eesnimi": "Bert",
-            "isikukood": "37710310023",
+            "isikukood": null,
+            "isikukood_hash": "8c1b7e04-1015-5384-ab3c-2d9b850e5ac9",
             "kirje_id": 9000703362,
             "kontrolli_teostamise_viis": "C",
             "kontrolli_teostamise_viis_tekstina": "Juhatuse liige või liikmed",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37710310023",
+            "isikukood_hash": "8c1b7e04-1015-5384-ab3c-2d9b850e5ac9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "MTÜ",
@@ -117,6 +119,42 @@
         "info_majandusaasta_aruannetest": [
             {
                 "ettevotja_aadress_aruandes": "Aljavalauda, Nurme küla, Muhu vald, Saare maakond, 94729",
+                "kirje_id": 3658407,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "91421",
+                "tegevusala_emtak_tekstina": "Looduskaitsealade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aljavalauda, Nurme küla, Muhu vald, Saare maakond, 94729",
+                "kirje_id": 3431538,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "91421",
+                "tegevusala_emtak_tekstina": "Looduskaitsealade tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "91.42",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aljavalauda, Nurme küla, Muhu vald, Saare maakond, 94729",
+                "kirje_id": 3145492,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "94996",
+                "tegevusala_emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "94.99",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aljavalauda, Nurme küla, Muhu vald, Saare maakond, 94729",
                 "kirje_id": 2911548,
                 "majandusaasta_perioodi_algus_kpv": "01.01.2022",
                 "majandusaasta_perioodi_lopp_kpv": "31.12.2022",
@@ -189,7 +227,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -283,15 +321,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "25.04.2017",
-                "emtak_kood": "94996",
-                "emtak_tekstina": "Keskkonna- ja looduskaitseühendused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000289728,
+                "algus_kpv": "20.06.2025",
+                "emtak_kood": "91421",
+                "emtak_tekstina": "Looduskaitsealade tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000929728,
                 "lopp_kpv": null,
-                "nace_kood": "94.99",
+                "nace_kood": "91.42",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "01.06.2026",
+                "emtak_kood": "01451",
+                "emtak_tekstina": "Lamba- ja kitsekasvatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001106881,
+                "lopp_kpv": null,
+                "nace_kood": "01.45",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

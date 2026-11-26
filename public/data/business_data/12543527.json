@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2021",
             "eesnimi": "Kadi",
-            "isikukood": "47611110298",
+            "isikukood": null,
+            "isikukood_hash": "35f0b5ab-9894-5b15-98cb-2cd311345bc3",
             "kirje_id": 9001298631,
             "kontrolli_teostamise_viis": "J",
             "kontrolli_teostamise_viis_tekstina": "kõrgema juhtorgani liige. s.o juhatuse liige või nõukogu liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47611110298",
+            "isikukood_hash": "35f0b5ab-9894-5b15-98cb-2cd311345bc3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3733919,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3464057,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
+                "kirje_id": 3204753,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "7112",
+                "tegevusala_emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Sadama tn 15, Kärdla linn, Hiiumaa vald, Hiiu maakond, 92412",
                 "kirje_id": 2935585,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -348,26 +386,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2023",
-                "emtak_kood": "71111",
-                "emtak_tekstina": "Arhitektitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000706217,
+                "algus_kpv": "28.06.2025",
+                "emtak_kood": "7112",
+                "emtak_tekstina": "Inseneritegevused ning nendega seotud tehniline konsultatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000960828,
                 "lopp_kpv": null,
-                "nace_kood": "71.11",
+                "nace_kood": "71.12",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "30.06.2015",
-                "emtak_kood": "7739",
-                "emtak_tekstina": "Mujal liigitamata masinate, seadmete jm materiaalse vara rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000186347,
-                "lopp_kpv": null,
-                "nace_kood": "77.39",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

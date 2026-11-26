@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "rainer",
-            "isikukood": "37605190215",
+            "isikukood": null,
+            "isikukood_hash": "3654b56e-86c1-531b-994e-295ea9e14191",
             "kirje_id": 9000679572,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.09.2018",
             "eesnimi": "Tarmo",
-            "isikukood": "37009240232",
+            "isikukood": null,
+            "isikukood_hash": "ded90504-e6b8-5de9-87af-b05806f643d9",
             "kirje_id": 9000679577,
             "kontrolli_teostamise_viis": "Y",
             "kontrolli_teostamise_viis_tekstina": "Õigus nimetada või tagasi kutsuda enamikku tegevjuhtkonnast või kõrgema juhtorgani liikmeist",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37605190215",
+            "isikukood_hash": "3654b56e-86c1-531b-994e-295ea9e14191",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37009240232",
+            "isikukood_hash": "ded90504-e6b8-5de9-87af-b05806f643d9",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 47, Mustamäe linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 3709225,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "59"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 47, Mustamäe linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 3454567,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "58"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Akadeemia tee 47, Mustamäe linnaosa, Tallinn, Harju maakond, 13520",
+                "kirje_id": 3194770,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "55"
+            },
             {
                 "ettevotja_aadress_aruandes": "Akadeemia tee 47, Mustamäe linnaosa, Tallinn, Harju maakond, 13520",
                 "kirje_id": 2951908,
@@ -459,20 +499,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "18.11.2011",
+                "algus_kpv": "11.09.2025",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kapitali_suurus": "9920.00",
+                "kande_nr": 23,
+                "kapitali_suurus": "7958.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 4271328,
+                "kirje_id": 13305913,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -527,6 +567,18 @@
                 "sisu": "osaühing Windrox, kui ühendav ühing, Klaasiteeninduse aktsiaselts, kui ühendatav ühing (registrikood 10025917, aadress Gildi 1, Tartu linn, Tartu maakond, 50095) ja BALTIC AUTO GLASS OÜ, kui ühendatav ühing (registrikood 11326667, aadress Kadaka tee 70f, Tallinna linn, Harju maakond, 12618) ühinevad 04.08.2015. aastal sõlmitud ja 07.09.2015. aastal heaks kiidetud ühinemislepingu alusel. Ühinemine jõustub käesoleva kande tegemisega, misjärel ühendatavad ühingud kustutatakse.",
                 "tyyp": "YHIN",
                 "tyyp_tekstina": "Ühinemine tekstina"
+            },
+            {
+                "algus_kpv": "28.01.2025",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 22,
+                "kirje_id": 12930305,
+                "lopp_kpv": null,
+                "sisu": "osaühing Windrox  (jagunev ühing) jaguneb eraldumise teel,  andes osa oma varast järgmistele osaühingutele: Windrox Investeeringud OÜ (omandav ühing, registrikood 16458706, aadress Akadeemia tee 47, Tallinn ), Windrox Grupp OÜ (omandav ühing, registrikood 11966473, aadress Akadeemia tee 47, Tallinn),  Baltic Auto Glass OÜ (omandav ühing, registrikood 12968927, aadress Akadeemia tee 47, Tallinn ), Windrox Haldus OÜ  (omandav ühing, registrikood 16246921, aadress Akadeemia tee 47, Tallinn),  Klaasiteenindus OÜ (jagunemise käigus asutatud ühing, registrikood 17165538, aadress Akadeemia tee 47, Tallinn). Jagunemisleping on notariaalselt tõestatud 01.11.2024. a. Jagunemisotsused võeti vastu 16.11.2024.a.  Jagunemine loetakse toimunuks käesoleva jagunemiskande tegemisega.",
+                "tyyp": "JAGUN",
+                "tyyp_tekstina": "Jagunemine tekstina"
             }
         ],
         "oiguslik_vorm": "OÜ",
@@ -554,13 +606,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "26.10.2021",
+                "algus_kpv": "11.09.2025",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 21,
-                "kinnitamise_kpv": "19.10.2021",
-                "kirje_id": 9823388,
+                "kande_nr": 23,
+                "kinnitamise_kpv": null,
+                "kirje_id": 13305914,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -639,14 +691,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "05.07.2023",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709396,
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000951737,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

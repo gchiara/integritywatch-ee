@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Kaido",
-            "isikukood": "36904290223",
+            "isikukood": null,
+            "isikukood_hash": "498920df-f007-5ba4-bd27-7f5ed9c9b672",
             "kirje_id": 9000735919,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "08.10.2018",
             "eesnimi": "Veikko",
-            "isikukood": "38007012763",
+            "isikukood": null,
+            "isikukood_hash": "415a0321-9bb2-5078-a805-cde23406d820",
             "kirje_id": 9000735920,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36904290223",
+            "isikukood_hash": "498920df-f007-5ba4-bd27-7f5ed9c9b672",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38007012763",
+            "isikukood_hash": "415a0321-9bb2-5078-a805-cde23406d820",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rohuneeme tee 1, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3754973,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rohuneeme tee 1, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3416938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rohuneeme tee 1, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
+                "kirje_id": 3158029,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42911",
+                "tegevusala_emtak_tekstina": "Vesiehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.91",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rohuneeme tee 1, Haabneeme alevik, Viimsi vald, Harju maakond, 74001",
                 "kirje_id": 2872124,
@@ -257,7 +297,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -356,12 +396,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7840219,
+                "kande_nr": 9,
+                "kirje_id": 12233018,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "kaido.pahn@eesti.ee"
+                "sisu": "kaidokas@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -390,15 +430,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.10.2015",
+                "algus_kpv": "16.06.2025",
                 "emtak_kood": "42911",
                 "emtak_tekstina": "Vesiehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000201390,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915718,
                 "lopp_kpv": null,
                 "nace_kood": "42.91",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "16.06.2025",
+                "emtak_kood": "25119",
+                "emtak_tekstina": "Muude metallkonstruktsioonide ja nende osade tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000915719,
+                "lopp_kpv": null,
+                "nace_kood": "25.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

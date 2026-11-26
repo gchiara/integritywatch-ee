@@ -7,6 +7,7 @@
             "algus_kpv": "29.10.2018",
             "eesnimi": "Juha Taito Antero",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000844219,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,6 +41,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": "e87fd670-0138-501d-9419-7bf237b96ec8",
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
@@ -52,7 +54,7 @@
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
             "synniaeg": "24.04.1957",
-            "valis_kood": "240457-1132",
+            "valis_kood": null,
             "valis_kood_riik": null,
             "valis_kood_riik_tekstina": null,
             "volituste_loppemise_kpv": ""
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "39508220014",
+            "isikukood_hash": "38c3f1d7-3cfc-502e-b3b6-f740a7a35297",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -99,7 +102,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7612272",
+                "aadress_ads__adob_id": "10707316",
                 "aadress_ads__adr_id": 2323538,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, J. Poska tn 5-12",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "J. Poska tn 5-12, Kesklinna linnaosa, Tallinn, Harju maakond, 10152",
+                "kirje_id": 3747197,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Poska tn 5-12, Kesklinna linnaosa, Tallinn, Harju maakond, 10152",
+                "kirje_id": 3370793,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "J. Poska tn 5-12, Kesklinna linnaosa, Tallinn, Harju maakond, 10152",
+                "kirje_id": 3095672,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46462",
+                "tegevusala_emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.46",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "J. Poska tn 5-12, Kesklinna linnaosa, Tallinn, Harju maakond, 10152",
                 "kirje_id": 2853459,
@@ -312,7 +351,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -445,12 +484,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "16.06.2014",
+                "algus_kpv": "10.05.2025",
                 "emtak_kood": "46462",
                 "emtak_tekstina": "Meditsiiniseadmete ja kirurgiriistade ning ortopeediliste abivahendite hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000116432,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000868878,
                 "lopp_kpv": null,
                 "nace_kood": "46.46",
                 "on_pohitegevusala": true

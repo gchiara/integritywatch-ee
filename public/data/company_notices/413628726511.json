@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-24",
+                "award_date_conclusion_contract": [
+                    "2023-08-24"
+                ],
                 "award_value": "7602.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "IT equipment for the office of the E-Government Academy in Kyiv (Ukraine)",
         "contract_type": "SUPPLIES",
         "contracting_bodies": [
@@ -54,6 +56,60 @@
         ],
         "refnum": "267952",
         "total_amount": "46720.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2024-12-04"
+                ],
+                "award_value": "31712.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "413628726511",
+                        "contractor_name": "ASAP DEMO Limited Liability Company",
+                        "country": "UKR"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "2"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Procurement of laptops and smartphones for experts of EU support for digital transformation of Ukraine project",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "90007000",
+                "name": "E-riigi Akadeemia Sihtasutus",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "413628726511"
+        ],
+        "cpv": "30213100",
+        "date_dispatch_notice": "2024-12-06",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_045a0b57-ef86-40ea-9378-2e9de96e47c9_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "045a0b57-ef86-40ea-9378-2e9de96e47c9",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "285708",
+        "total_amount": "31712.00",
         "total_amount_curr": "EUR"
     }
 ]

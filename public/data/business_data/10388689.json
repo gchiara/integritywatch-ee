@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.10.2018",
             "eesnimi": "Silje",
-            "isikukood": "48808192756",
+            "isikukood": null,
+            "isikukood_hash": "a243895e-7bc6-54f4-b529-9b003242336e",
             "kirje_id": 9000732379,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48808192756",
+            "isikukood_hash": "a243895e-7bc6-54f4-b529-9b003242336e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/2, Tartu linn, Tartu linn, Tartu maakond, 50411",
+                "kirje_id": 3671953,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "55102",
+                "tegevusala_emtak_tekstina": "Motellid ja muu sarnane majutus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "7"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/2, Tartu linn, Tartu linn, Tartu maakond, 50411",
+                "kirje_id": 3395624,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "55102",
+                "tegevusala_emtak_tekstina": "Motellid ja muu sarnane majutus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "6"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Riia tn 130b/2, Tartu linn, Tartu linn, Tartu maakond, 50411",
+                "kirje_id": 3117284,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "55102",
+                "tegevusala_emtak_tekstina": "Motellid jms majutus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "55.10",
+                "tootajate_arv": "7"
+            },
             {
                 "ettevotja_aadress_aruandes": "Riia tn 130b/2, Tartu linn, Tartu linn, Tartu maakond, 50411",
                 "kirje_id": 2866279,
@@ -419,7 +457,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -504,22 +542,22 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000010686,
-                "liik": "TEL",
-                "liik_tekstina": "Telefon",
+                "kirje_id": 6000010687,
+                "liik": "FAX",
+                "liik_tekstina": "Faks",
                 "lopp_kpv": null,
-                "sisu": "+372 7390201"
+                "sisu": "+372 7390101"
             },
             {
                 "kaardi_nr": null,
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 6000010687,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
+                "kirje_id": 9000707982,
+                "liik": "TEL",
+                "liik_tekstina": "Telefon",
                 "lopp_kpv": null,
-                "sisu": "+372 7390101"
+                "sisu": "+372 7390220"
             }
         ],
         "staatus": "R",
@@ -537,36 +575,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.04.2020",
+                "algus_kpv": "04.06.2025",
                 "emtak_kood": "55102",
-                "emtak_tekstina": "Motellid jms majutus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000474432,
+                "emtak_tekstina": "Motellid ja muu sarnane majutus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000893629,
                 "lopp_kpv": null,
                 "nace_kood": "55.10",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "30.04.2020",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000474433,
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000893630,
                 "lopp_kpv": null,
-                "nace_kood": "56.10",
+                "nace_kood": "56.11",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "15.04.2015",
-                "emtak_kood": "70221",
-                "emtak_tekstina": "Ärinõustamine jm juhtimisalane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000162951,
+                "algus_kpv": "04.06.2025",
+                "emtak_kood": "70201",
+                "emtak_tekstina": "Äri- ja muu juhtimisalane nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000893631,
                 "lopp_kpv": null,
-                "nace_kood": "70.22",
+                "nace_kood": "70.20",
                 "on_pohitegevusala": false
             }
         ],

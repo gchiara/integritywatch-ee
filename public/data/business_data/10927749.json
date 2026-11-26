@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "29.10.2018",
             "eesnimi": "Toomas",
-            "isikukood": "36906135214",
+            "isikukood": null,
+            "isikukood_hash": "fb326644-cb5c-5f2f-bd88-0e707eb3e423",
             "kirje_id": 9000842218,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36906135214",
+            "isikukood_hash": "fb326644-cb5c-5f2f-bd88-0e707eb3e423",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vahtra pst 91, Rakvere linn, Lääne-Viru maakond, 44306",
+                "kirje_id": 3639431,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra pst 91, Rakvere linn, Lääne-Viru maakond, 44306",
+                "kirje_id": 3345374,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vahtra pst 91, Rakvere linn, Lääne-Viru maakond, 44306",
+                "kirje_id": 3095947,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vahtra pst 91, Rakvere linn, Lääne-Viru maakond, 44306",
                 "kirje_id": 2784539,
@@ -358,7 +396,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -465,14 +503,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
-                "emtak_kood": "43911",
+                "algus_kpv": "27.03.2025",
+                "emtak_kood": "43411",
                 "emtak_tekstina": "Katusetööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000005141,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000842006,
                 "lopp_kpv": null,
-                "nace_kood": "43.91",
+                "nace_kood": "43.41",
                 "on_pohitegevusala": true
             }
         ],

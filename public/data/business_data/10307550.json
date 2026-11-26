@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Vello",
-            "isikukood": "35205260315",
+            "isikukood": null,
+            "isikukood_hash": "7dd84fe6-b5b4-5359-a05a-d52f3c0cf74a",
             "kirje_id": 9000723212,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38005306011",
+            "isikukood_hash": "167de515-e415-52be-8285-5598f22698b3",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 238, Nõmme linnaosa, Tallinn, Harju maakond, 11624",
+                "kirje_id": 3645461,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "6832",
+                "tegevusala_emtak_tekstina": "Muu kinnisvaraalane tegevus tasu eest või lepingu alusel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "26"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 238, Nõmme linnaosa, Tallinn, Harju maakond, 11624",
+                "kirje_id": 3363568,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "6832",
+                "tegevusala_emtak_tekstina": "Muu kinnisvaraalane tegevus tasu eest või lepingu alusel",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "26"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu mnt 238, Nõmme linnaosa, Tallinn, Harju maakond, 11624",
+                "kirje_id": 3080364,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "6832",
+                "tegevusala_emtak_tekstina": "Kinnisvara haldus tasu eest või lepingu alusel",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.32",
+                "tootajate_arv": "26"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu mnt 238, Nõmme linnaosa, Tallinn, Harju maakond, 11624",
                 "kirje_id": 2818660,
@@ -431,7 +469,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -551,23 +589,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.04.2022",
-                "emtak_kood": "6820",
+                "algus_kpv": "29.04.2025",
+                "emtak_kood": "68201",
                 "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000612117,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000861251,
                 "lopp_kpv": null,
                 "nace_kood": "68.20",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "29.04.2025",
                 "emtak_kood": "6832",
-                "emtak_tekstina": "Kinnisvara haldus tasu eest või lepingu alusel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 2000045740,
+                "emtak_tekstina": "Muu kinnisvaraalane tegevus tasu eest või lepingu alusel",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000861250,
                 "lopp_kpv": null,
                 "nace_kood": "68.32",
                 "on_pohitegevusala": true

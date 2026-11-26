@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Aiko",
-            "isikukood": "38311015715",
+            "isikukood": null,
+            "isikukood_hash": "61742e48-94ff-5a55-ade8-778da3360376",
             "kirje_id": 9000724250,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.10.2018",
             "eesnimi": "Ever",
-            "isikukood": "38609125729",
+            "isikukood": null,
+            "isikukood_hash": "13010aac-1723-5dae-978b-dd26561af549",
             "kirje_id": 9000724248,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38311015715",
+            "isikukood_hash": "61742e48-94ff-5a55-ade8-778da3360376",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38609125729",
+            "isikukood_hash": "13010aac-1723-5dae-978b-dd26561af549",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -116,12 +120,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9945056",
-                "aadress_ads__adr_id": 3015524,
+                "aadress_ads__adob_id": "10860879",
+                "aadress_ads__adr_id": 3714509,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Valga maakond, Valga vald, Valga linn, Pääsusilma tn 2a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00949760",
-                "aadress_ads__koodaadress": "81855891800000S8D0000B5BH00000000",
+                "aadress_ads__koodaadress": "81857891800000S8D0000B5BH00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "28.05.2018",
                 "ehak": "8918",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pääsusilma tn 2a, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3598501,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pääsusilma tn 2a, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3424831,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43221",
+                "tegevusala_emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pääsusilma tn 2a, Valga linn, Valga vald, Valga maakond, 68208",
+                "kirje_id": 3094155,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4322",
+                "tegevusala_emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.22",
+                "tootajate_arv": "3"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pääsusilma tn 2a, Valga linn, Valga vald, Valga maakond, 68208",
                 "kirje_id": 2812294,
@@ -233,7 +273,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -340,15 +380,48 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.10.2020",
-                "emtak_kood": "4322",
-                "emtak_tekstina": "Torustiku, kütte- ja kliimaseadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000505867,
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "43221",
+                "emtak_tekstina": "Kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000923253,
                 "lopp_kpv": null,
                 "nace_kood": "43.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "18.06.2025",
+                "emtak_kood": "43222",
+                "emtak_tekstina": "Veetorustiku ja sanitaarseadmete paigaldus, remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000923254,
+                "lopp_kpv": null,
+                "nace_kood": "43.22",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.03.2026",
+                "emtak_kood": "41001",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001086603,
+                "lopp_kpv": null,
+                "nace_kood": "41.00",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "08.03.2026",
+                "emtak_kood": "68201",
+                "emtak_tekstina": "Enda või renditud kinnisvara üürileandmine ja käitus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001086604,
+                "lopp_kpv": null,
+                "nace_kood": "68.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

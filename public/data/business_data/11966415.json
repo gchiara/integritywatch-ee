@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Kätriin",
-            "isikukood": "47912040348",
+            "isikukood": null,
+            "isikukood_hash": "41e3be39-b159-5138-921d-62573e7a378c",
             "kirje_id": 9000865111,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "31.10.2018",
             "eesnimi": "Merike",
-            "isikukood": "47305060290",
+            "isikukood": null,
+            "isikukood_hash": "7ca8333b-f032-581a-ae4d-9332f99322bf",
             "kirje_id": 9000865116,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47912040348",
+            "isikukood_hash": "41e3be39-b159-5138-921d-62573e7a378c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "47305060290",
+            "isikukood_hash": "7ca8333b-f032-581a-ae4d-9332f99322bf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -116,7 +120,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9910920",
+                "aadress_ads__adob_id": "11125147",
                 "aadress_ads__adr_id": 2292328,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Vana-Lõuna tn 39",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3746917,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "14211",
+                "tegevusala_emtak_tekstina": "Pealisrõivaste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.21",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3505789,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "14211",
+                "tegevusala_emtak_tekstina": "Pealisrõivaste tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.21",
+                "tootajate_arv": "9"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
+                "kirje_id": 3194585,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "14131",
+                "tegevusala_emtak_tekstina": "Muude pealisrõivaste tootmine, k.a rätsepatöö",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "14.13",
+                "tootajate_arv": "9"
+            },
             {
                 "ettevotja_aadress_aruandes": "Vana-Lõuna tn 39, Kesklinna linnaosa, Tallinn, Harju maakond, 10134",
                 "kirje_id": 2875908,
@@ -329,7 +369,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -460,14 +500,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2011",
-                "emtak_kood": "14131",
-                "emtak_tekstina": "Muude pealisrõivaste tootmine, k.a rätsepatöö",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000136053,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "14211",
+                "emtak_tekstina": "Pealisrõivaste tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001002916,
                 "lopp_kpv": null,
-                "nace_kood": "14.13",
+                "nace_kood": "14.21",
                 "on_pohitegevusala": true
             }
         ],

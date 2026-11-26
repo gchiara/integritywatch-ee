@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Allan",
-            "isikukood": "37608260215",
+            "isikukood": null,
+            "isikukood_hash": "f1111352-5a8d-5eab-8378-62a418b82ffa",
             "kirje_id": 9000768338,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37608260215",
+            "isikukood_hash": "f1111352-5a8d-5eab-8378-62a418b82ffa",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 19, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3685450,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "82991",
+                "tegevusala_emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "82.99",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 19, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3442594,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "13929",
+                "tegevusala_emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kalda tn 19, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
+                "kirje_id": 3175704,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "13921",
+                "tegevusala_emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, akna sisekatted jm eesriided",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "13.92",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kalda tn 19, Kuusalu alevik, Kuusalu vald, Harju maakond, 74601",
                 "kirje_id": 2852010,
@@ -299,7 +337,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -417,36 +455,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "21.09.2016",
-                "emtak_kood": "13921",
-                "emtak_tekstina": "Kodutekstiili tootmine, sh voodipesu, köögirätikud, kardinad, aknasisekatted jm eesriided",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000260462,
+                "algus_kpv": "15.06.2026",
+                "emtak_kood": "82991",
+                "emtak_tekstina": "Muud mujal liigitamata äritegevust abistavad tegevused",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113228,
                 "lopp_kpv": null,
-                "nace_kood": "13.92",
+                "nace_kood": "82.99",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "13.06.2023",
-                "emtak_kood": "43391",
-                "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000691537,
+                "algus_kpv": "15.06.2026",
+                "emtak_kood": "13929",
+                "emtak_tekstina": "Muude valmis tekstiiltoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113229,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "13.06.2023",
-                "emtak_kood": "45111",
-                "emtak_tekstina": "Sõiduautode ja väikebusside (täismassiga alla 3,5 t) müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000691538,
-                "lopp_kpv": null,
-                "nace_kood": "45.11",
+                "nace_kood": "13.92",
                 "on_pohitegevusala": false
             }
         ],

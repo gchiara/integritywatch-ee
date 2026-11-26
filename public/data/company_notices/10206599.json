@@ -134,14 +134,11 @@
         "flags": [
             "Tenders received low",
             "Too few evaluation criteria",
-            "Seller is a large political donor",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Political donations from beneficial owner of a contractor company: Neeme Tammis. Company: Aktsiaselts Iv Pluss(10048383). AMT: 20000",
-            "Nominees as company beneficial owners: 37401170241",
-            "Nominees as company board members: 37705274928"
+            "Nominees as company beneficial owners: Neeme_Tammis_20.09.2018"
         ],
         "noticeUid": "01a14210-68c7-45eb-bc3e-6408ba70a72e",
         "notice_items": [
@@ -153,5 +150,83 @@
         ],
         "notice_items_num": 5,
         "refnum": "237955"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2023-10-11"
+                ],
+                "award_value": "400000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12282481",
+                        "contractor_name": "ELER Hydraulic OÜ",
+                        "country": "EE"
+                    },
+                    {
+                        "contractor_id": "10206599",
+                        "contractor_name": "osaühing Alniest",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Eritehnika (sh traktorid, liikurmasinad, lisa- ja eriseadmed) hooldus, remont ja varuosad (kordushange)",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "10349560",
+                "name": "Aktsiaselts Tallinna Lennujaam",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10103801",
+            "12282481",
+            "10206599",
+            "10025219"
+        ],
+        "cpv": "50111000",
+        "date_dispatch_notice": "2023-10-19",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_7e04cecf-3220-4009-9021-7e1be9ce6d4f_0.json",
+        "flags": [
+            "Tenders received low",
+            "Term of contract (long or indefinite)",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Long duration: 60 MONTH",
+            "Possible shell company: 12282481",
+            "Nominees as company beneficial owners: Erko_Vallbaum_07.12.2020"
+        ],
+        "noticeUid": "7e04cecf-3220-4009-9021-7e1be9ce6d4f",
+        "notice_items": [
+            {
+                "duration": "60 MONTH"
+            },
+            {
+                "duration": "60 MONTH"
+            },
+            {
+                "duration": "60 MONTH"
+            },
+            {
+                "duration": "60 MONTH"
+            }
+        ],
+        "refnum": "268064",
+        "total_amount": "400000.00",
+        "total_amount_curr": "EUR"
     }
 ]

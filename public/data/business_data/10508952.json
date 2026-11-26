@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Ville",
-            "isikukood": "37303266044",
+            "isikukood": null,
+            "isikukood_hash": "eacc9646-60d9-54f7-800b-2a216d914112",
             "kirje_id": 9000667021,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37303266044",
+            "isikukood_hash": "eacc9646-60d9-54f7-800b-2a216d914112",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -61,15 +63,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7862386",
-                "aadress_ads__adr_id": 2661604,
+                "aadress_ads__adob_id": "10947566",
+                "aadress_ads__adr_id": 3749698,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Parkali tn 35/1-9",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01673343",
-                "aadress_ads__koodaadress": "52567586000000RU30000AURMH86O0000",
+                "aadress_ads__koodaadress": "52567586100000W3O0000DBBHLT000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "16.04.2019",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 2,
                 "kaardi_piirkond": 5,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Parkali tn 35/1-9, Paide linn, Paide linn, Järva maakond, 72717",
+                "kirje_id": 3703034,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Parkali tn 35/1-9, Paide linn, Paide linn, Järva maakond, 72717",
+                "kirje_id": 3387071,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Parkali tn 35/1-9, Paide linn, Paide linn, Järva maakond, 72717",
+                "kirje_id": 3126008,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "71122",
+                "tegevusala_emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.12",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Parkali tn 35/1-9, Paide linn, Paide linn, Järva maakond, 72717",
                 "kirje_id": 2787759,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -513,12 +551,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "30.05.2025",
                 "emtak_kood": "71122",
-                "emtak_tekstina": "Ehitusgeoloogilised ja -geodeetilised uurimistööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 8000007676,
+                "emtak_tekstina": "Geoloogilised ja geodeetilised uurimistööd",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000885619,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": true

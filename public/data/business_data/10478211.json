@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Raivo",
-            "isikukood": "35410190217",
+            "isikukood": null,
+            "isikukood_hash": "07bb3f7c-ff72-5776-8e62-15951b499064",
             "kirje_id": 9000794157,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "09.12.2022",
             "eesnimi": "Kalle",
-            "isikukood": "38204050319",
+            "isikukood": null,
+            "isikukood_hash": "a03bf538-f627-5145-b69f-67f6b4194117",
             "kirje_id": 9001508120,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38204050319",
+            "isikukood_hash": "a03bf538-f627-5145-b69f-67f6b4194117",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -79,7 +82,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10664040",
+                "aadress_ads__adob_id": "11501553",
                 "aadress_ads__adr_id": 576214,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Viimsi vald, Pringi küla, Reinu tee 7a",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Reinu tee 7a, Pringi küla, Viimsi vald, Harju maakond, 74011",
+                "kirje_id": 3687714,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47631",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.63",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reinu tee 7a, Pringi küla, Viimsi vald, Harju maakond, 74011",
+                "kirje_id": 3458265,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47631",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.63",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Reinu tee 7a, Pringi küla, Viimsi vald, Harju maakond, 74011",
+                "kirje_id": 3193963,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "47641",
+                "tegevusala_emtak_tekstina": "Sporditarvete jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.64",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Reinu tee 7a, Pringi küla, Viimsi vald, Harju maakond, 74011",
                 "kirje_id": 2877896,
@@ -472,7 +511,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -592,15 +631,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.05.2010",
-                "emtak_kood": "47641",
+                "algus_kpv": "27.06.2025",
+                "emtak_kood": "47631",
                 "emtak_tekstina": "Sporditarvete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000018606,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000955315,
                 "lopp_kpv": null,
-                "nace_kood": "47.64",
+                "nace_kood": "47.63",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "16.06.2026",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001113730,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

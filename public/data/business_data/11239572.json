@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Miguel",
-            "isikukood": "36611090279",
+            "isikukood": null,
+            "isikukood_hash": "f0cf8f8d-dbdf-549f-8670-c09b1eb6413c",
             "kirje_id": 9000668246,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36611090279",
+            "isikukood_hash": "f0cf8f8d-dbdf-549f-8670-c09b1eb6413c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3651435,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3435043,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
+                "kirje_id": 3160555,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81101",
+                "tegevusala_emtak_tekstina": "Hoonehalduse abitegevused",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.10",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10612",
                 "kirje_id": 2868013,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -442,12 +480,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2010",
+                "algus_kpv": "23.06.2025",
                 "emtak_kood": "81101",
-                "emtak_tekstina": "Hoonehalduse abitegevused",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000047442,
+                "emtak_tekstina": "Hoonehalduse kombineeritud teenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000932855,
                 "lopp_kpv": null,
                 "nace_kood": "81.10",
                 "on_pohitegevusala": true

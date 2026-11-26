@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Heikki",
-            "isikukood": "37002100218",
+            "isikukood": null,
+            "isikukood_hash": "1210fbb9-84ef-5d59-b256-536d6e3a8b3b",
             "kirje_id": 9000770531,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Tõnu",
-            "isikukood": "36110230284",
+            "isikukood": null,
+            "isikukood_hash": "bb0bee1e-8d8d-55c9-b55c-419408ecbe97",
             "kirje_id": 9000770540,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37002100218",
+            "isikukood_hash": "1210fbb9-84ef-5d59-b256-536d6e3a8b3b",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36110230284",
+            "isikukood_hash": "bb0bee1e-8d8d-55c9-b55c-419408ecbe97",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Leete tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3649556,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Leete tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3383832,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Leete tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
+                "kirje_id": 3115447,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "18129",
+                "tegevusala_emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "18.12",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Leete tn 18, Kesklinna linnaosa, Tallinn, Harju maakond, 11313",
                 "kirje_id": 2819332,
@@ -447,7 +487,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -622,12 +662,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.06.2010",
+                "algus_kpv": "27.05.2025",
                 "emtak_kood": "18129",
                 "emtak_tekstina": "Mujal liigitamata trükkimine, k.a siiditrükk",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000024151,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000882381,
                 "lopp_kpv": null,
                 "nace_kood": "18.12",
                 "on_pohitegevusala": true

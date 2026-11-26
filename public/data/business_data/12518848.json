@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "20.12.2018",
             "eesnimi": "Silver",
-            "isikukood": "37912175239",
+            "isikukood": null,
+            "isikukood_hash": "63ff879a-b73a-5493-bc7a-a4a231eb0a64",
             "kirje_id": 9000910967,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37912175239",
+            "isikukood_hash": "63ff879a-b73a-5493-bc7a-a4a231eb0a64",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9669057",
-                "aadress_ads__adr_id": 2882005,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Vinni vald, Roela alevik, Järve tn 6",
+                "aadress_ads__adob_id": "8249718",
+                "aadress_ads__adr_id": 2880644,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Vinni vald, Viru-Jaagupi alevik, Pärna tn 2-5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00947679",
-                "aadress_ads__koodaadress": "609017028000006ZL000012O600000000",
+                "aadress_ads__ads_oid": "ER01492838",
+                "aadress_ads__koodaadress": "609019394000007F400003XMP6Q4C0000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "06.12.2017",
-                "ehak": "7028",
-                "ehak_nimetus": "Roela alevik, Vinni vald, Lääne-Viru maakond",
+                "algus_kpv": "19.01.2026",
+                "ehak": "9394",
+                "ehak_nimetus": "Viru-Jaagupi alevik, Vinni vald, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 3,
-                "kirje_id": 7303174,
+                "kande_nr": 6,
+                "kirje_id": 13521248,
                 "lopp_kpv": null,
-                "postiindeks": "46602",
+                "postiindeks": "46604",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Järve tn 6"
+                "tanav_maja_korter": "Pärna tn 2-5"
             }
         ],
         "arinimed": [
@@ -103,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Järve tn 6, Roela alevik, Vinni vald, Lääne-Viru maakond, 46602",
+                "kirje_id": 3384612,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Järve tn 6, Roela alevik, Vinni vald, Lääne-Viru maakond, 46602",
+                "kirje_id": 3136751,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Järve tn 6, Roela alevik, Vinni vald, Lääne-Viru maakond, 46602",
                 "kirje_id": 2857888,
@@ -239,7 +265,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,12 +372,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "07.04.2021",
+                "algus_kpv": "28.05.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000540800,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000883154,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true

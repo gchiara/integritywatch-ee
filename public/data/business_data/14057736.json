@@ -7,6 +7,7 @@
             "algus_kpv": "10.10.2018",
             "eesnimi": "Panu Erkki Samuli",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000740856,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "36005290245",
+            "isikukood": null,
+            "isikukood_hash": "4d4ac0c6-32af-5008-aef2-81500ff53fff",
             "kirje_id": 9000740853,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36005290245",
+            "isikukood_hash": "4d4ac0c6-32af-5008-aef2-81500ff53fff",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3796526,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "26111",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3411536,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "26111",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
+                "kirje_id": 3261215,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "26111",
+                "tegevusala_emtak_tekstina": "Elektronkomponentide tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "26.11",
+                "tootajate_arv": "12"
+            },
             {
                 "ettevotja_aadress_aruandes": "Värvi tn 5, Kristiine linnaosa, Tallinn, Harju maakond, 10621",
                 "kirje_id": 2969046,
@@ -244,20 +284,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "10.01.2017",
+                "algus_kpv": "02.03.2026",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 4,
-                "kapitali_suurus": "3135.00",
+                "kande_nr": 9,
+                "kapitali_suurus": "3300.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 6637794,
+                "kirje_id": 13594831,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -378,12 +418,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "03.07.2017",
+                "algus_kpv": "12.06.2025",
                 "emtak_kood": "26111",
-                "emtak_tekstina": "Elektronkomponentide tootmine ",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000312982,
+                "emtak_tekstina": "Elektronkomponentide tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000910489,
                 "lopp_kpv": null,
                 "nace_kood": "26.11",
                 "on_pohitegevusala": true

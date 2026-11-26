@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Ellen",
-            "isikukood": "45010214210",
+            "isikukood": null,
+            "isikukood_hash": "37048fd1-185c-5029-b821-f9db594c7a96",
             "kirje_id": 9000771571,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45010214210",
+            "isikukood_hash": "37048fd1-185c-5029-b821-f9db594c7a96",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 47, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
+                "kirje_id": 3687905,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 47, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
+                "kirje_id": 3438513,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "22"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Oja tn 47, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
+                "kirje_id": 3170054,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "10711",
+                "tegevusala_emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "10.71",
+                "tootajate_arv": "22"
+            },
             {
                 "ettevotja_aadress_aruandes": "Oja tn 47, Pärnu linn, Pärnu linn, Pärnu maakond, 80039",
                 "kirje_id": 2877977,
@@ -371,7 +409,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -444,12 +482,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7743336,
+                "kande_nr": 8,
+                "kirje_id": 12165308,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "ellenipagariari@hot.ee"
+                "sisu": "info@ellenipagariari.ee"
             },
             {
                 "kaardi_nr": null,
@@ -472,17 +510,6 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5038047"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 8000202937,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 4436869"
             }
         ],
         "staatus": "R",
@@ -500,26 +527,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "26.06.2023",
-                "emtak_kood": "56101",
-                "emtak_tekstina": "Restoranid jm toitlustuskohad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000696164,
-                "lopp_kpv": null,
-                "nace_kood": "56.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.12.2022",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "10711",
-                "emtak_tekstina": "Leiva- ja saiatootmine; säilitusaineteta pagaritoodete tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000660052,
+                "emtak_tekstina": "Leiva- ja saiatootmine; lühikese realiseerimisajaga pagaritoodete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000936177,
                 "lopp_kpv": null,
                 "nace_kood": "10.71",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "25.06.2025",
+                "emtak_kood": "56111",
+                "emtak_tekstina": "Restoranide ja kohvikute tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000936178,
+                "lopp_kpv": null,
+                "nace_kood": "56.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

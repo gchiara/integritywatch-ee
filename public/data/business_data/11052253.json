@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "07.05.2021",
             "eesnimi": "Janek",
-            "isikukood": "37803290304",
+            "isikukood": null,
+            "isikukood_hash": "d64d4d8d-755b-50a8-918c-4f2587592b4c",
             "kirje_id": 9001274600,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37803290304",
+            "isikukood_hash": "d64d4d8d-755b-50a8-918c-4f2587592b4c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,26 +63,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10339620",
-                "aadress_ads__adr_id": 2303429,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Lasnamäe linnaosa, Peterburi tee 46",
+                "aadress_ads__adob_id": "6547560",
+                "aadress_ads__adr_id": 2218149,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Valge tn 13",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00633701",
-                "aadress_ads__koodaadress": "377840387000004BK00001RW700000000",
+                "aadress_ads__ads_oid": "EE00652469",
+                "aadress_ads__koodaadress": "37784029800000KGG00006MX700000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "08.11.2017",
-                "ehak": "0387",
-                "ehak_nimetus": "Lasnamäe linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "05.05.2026",
+                "ehak": "0298",
+                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7153780,
+                "kande_nr": 10,
+                "kirje_id": 13711550,
                 "lopp_kpv": null,
                 "postiindeks": "11415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Peterburi tee 46"
+                "tanav_maja_korter": "Valge tn 13"
             }
         ],
         "arinimed": [
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valge tn 13, Kesklinna linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3746644,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43351",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.35",
+                "tootajate_arv": "10"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 46, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3514131,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43341",
+                "tegevusala_emtak_tekstina": "Värvimine ja klaasimine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.34",
+                "tootajate_arv": "14"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peterburi tee 46, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
+                "kirje_id": 3219876,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4339",
+                "tegevusala_emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.39",
+                "tootajate_arv": "14"
+            },
             {
                 "ettevotja_aadress_aruandes": "Peterburi tee 46, Lasnamäe linnaosa, Tallinn, Harju maakond, 11415",
                 "kirje_id": 2941883,
@@ -346,7 +384,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -455,17 +493,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 3000208455,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "www.perfectdeal.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 3000208571,
                 "liik": "TEL",
                 "liik_tekstina": "Telefon",
@@ -482,6 +509,17 @@
                 "liik_tekstina": "Faks",
                 "lopp_kpv": null,
                 "sisu": "+372 6825664"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000742940,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "http://perfectdeal.ee"
             }
         ],
         "staatus": "R",
@@ -499,14 +537,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.10.2020",
-                "emtak_kood": "4339",
+                "algus_kpv": "29.06.2026",
+                "emtak_kood": "43351",
                 "emtak_tekstina": "Muu ehitiste viimistlus ja lõpetamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000513408,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001126042,
                 "lopp_kpv": null,
-                "nace_kood": "43.39",
+                "nace_kood": "43.35",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Edy-Tauri",
-            "isikukood": "37509020265",
+            "isikukood": null,
+            "isikukood_hash": "f0a01fd0-dadc-5834-b134-d35f69ce1379",
             "kirje_id": 9000744364,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Ennu",
-            "isikukood": "35202080324",
+            "isikukood": null,
+            "isikukood_hash": "2cd519c8-b6aa-5cf4-bbf9-0fc5d9d30da8",
             "kirje_id": 9000744361,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +42,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "11.10.2018",
             "eesnimi": "Karl-Enre",
-            "isikukood": "38508280381",
+            "isikukood": null,
+            "isikukood_hash": "6dea5787-e90b-58d2-b23f-3925b9921263",
             "kirje_id": 9000744360,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -73,7 +76,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35202080324",
+            "isikukood_hash": "2cd519c8-b6aa-5cf4-bbf9-0fc5d9d30da8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -95,7 +99,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "6338497",
+                "aadress_ads__adob_id": "11517911",
                 "aadress_ads__adr_id": 2078735,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Kuusalu vald, Vanaküla, Aaviku",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -136,6 +140,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Aaviku, Vanaküla, Kuusalu vald, Harju maakond, 74711",
+                "kirje_id": 3576029,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2024",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2025",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aaviku, Vanaküla, Kuusalu vald, Harju maakond, 74711",
+                "kirje_id": 3317525,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2023",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2024",
+                "tegevusala_emtak_kood": "02201",
+                "tegevusala_emtak_tekstina": "Metsavarumine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.20",
+                "tootajate_arv": "12"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Aaviku, Vanaküla, Kuusalu vald, Harju maakond, 74711",
+                "kirje_id": 3034530,
+                "majandusaasta_perioodi_algus_kpv": "01.07.2022",
+                "majandusaasta_perioodi_lopp_kpv": "30.06.2023",
+                "tegevusala_emtak_kood": "02101",
+                "tegevusala_emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "02.10",
+                "tootajate_arv": "13"
+            },
             {
                 "ettevotja_aadress_aruandes": "Aaviku, Vanaküla, Kuusalu vald, Harju maakond, 74711",
                 "kirje_id": 2761692,
@@ -404,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -491,23 +531,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 7658157,
+                "kande_nr": 12,
+                "kirje_id": 12465301,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "ennuts@hot.ee"
-            },
-            {
-                "kaardi_nr": 1,
-                "kaardi_piirkond": 5,
-                "kaardi_tyyp": "R",
-                "kande_nr": 11,
-                "kirje_id": 7658158,
-                "liik": "EMAIL",
-                "liik_tekstina": "Elektronposti aadress",
-                "lopp_kpv": null,
-                "sisu": "urveu@hot.ee"
+                "sisu": "kuusalusylvester@gmail.com"
             }
         ],
         "staatus": "R",
@@ -525,15 +554,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.01.2023",
+                "algus_kpv": "13.01.2026",
                 "emtak_kood": "02101",
                 "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000667181,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001075424,
                 "lopp_kpv": null,
                 "nace_kood": "02.10",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "13.01.2026",
+                "emtak_kood": "02201",
+                "emtak_tekstina": "Metsavarumine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001075425,
+                "lopp_kpv": null,
+                "nace_kood": "02.20",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

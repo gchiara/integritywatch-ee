@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.11.2021",
             "eesnimi": "Martin",
-            "isikukood": "38909252240",
+            "isikukood": null,
+            "isikukood_hash": "cefe4a00-bf52-57da-9631-8ede8b7e4d46",
             "kirje_id": 9001362178,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38909252240",
+            "isikukood_hash": "cefe4a00-bf52-57da-9631-8ede8b7e4d46",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,21 +64,21 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7714936",
-                "aadress_ads__adr_id": 2593296,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Toila vald, Kohtla-Nõmme alev, Kaasiku tn 14",
+                "aadress_ads__adob_id": "11184849",
+                "aadress_ads__adr_id": 3803766,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Ida-Viru maakond, Jõhvi vald, Kohtla-Nõmme alev, Kaasiku tn 14",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00676151",
-                "aadress_ads__koodaadress": "458033270000005M10000349A00000000",
+                "aadress_ads__koodaadress": "45250326500000VL40000D3A300000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "26.11.2021",
-                "ehak": "3270",
-                "ehak_nimetus": "Kohtla-Nõmme alev, Toila vald, Ida-Viru maakond",
+                "algus_kpv": "29.11.2025",
+                "ehak": "3265",
+                "ehak_nimetus": "Kohtla-Nõmme alev, Jõhvi vald, Ida-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9870224,
+                "kande_nr": 4,
+                "kirje_id": 13445738,
                 "lopp_kpv": null,
                 "postiindeks": "30503",
                 "riik": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaasiku tn 14, Kohtla-Nõmme alev, Jõhvi vald, Ida-Viru maakond, 30503",
+                "kirje_id": 3625155,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaasiku tn 14, Kohtla-Nõmme alev, Toila vald, Ida-Viru maakond, 30503",
+                "kirje_id": 3426540,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaasiku tn 14, Kohtla-Nõmme alev, Toila vald, Ida-Viru maakond, 30503",
+                "kirje_id": 3089832,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaasiku tn 14, Kohtla-Nõmme alev, Toila vald, Ida-Viru maakond, 30503",
                 "kirje_id": 2926586,
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -204,12 +242,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 9870230,
+                "kande_nr": 3,
+                "kirje_id": 12210346,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "martin@firelli.ee"
+                "sisu": "teenuseekspertou@gmail.com"
             },
             {
                 "kaardi_nr": null,
@@ -238,12 +276,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "24.11.2021",
+                "algus_kpv": "19.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000591845,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000924857,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true

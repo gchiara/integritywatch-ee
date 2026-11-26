@@ -51,10 +51,12 @@
         "docType2": "default",
         "filename": "award_ab646d03-8606-4f82-83b3-9628fe637002_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 14717670"
         ],
         "noticeUid": "ab646d03-8606-4f82-83b3-9628fe637002",
         "notice_items": [
@@ -98,9 +100,12 @@
         "docType2": "default",
         "filename": "award_ab646d03-8606-4f82-83b3-9628fe637002_1.json",
         "flags": [
-            "Tenders received info missing"
+            "Tenders received info missing",
+            "Possible shell company"
         ],
-        "flagsNotes": [],
+        "flagsNotes": [
+            "Possible shell company: 14717670"
+        ],
         "modifications_contract": true,
         "noticeUid": "ab646d03-8606-4f82-83b3-9628fe637002",
         "notice_items": [
@@ -149,10 +154,12 @@
         "docType2": "default",
         "filename": "award_1ec0357f-ce7c-4d3e-a3fd-acefdd8164d8_0.json",
         "flags": [
-            "Tenders received low"
+            "Tenders received low",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 14717670"
         ],
         "noticeUid": "1ec0357f-ce7c-4d3e-a3fd-acefdd8164d8",
         "notice_items": [
@@ -160,5 +167,60 @@
         ],
         "notice_items_num": 1,
         "refnum": "236287"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2026-09-01"
+                ],
+                "award_value": "85263.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "14717670",
+                        "contractor_name": "TÖÖSTUSPUMBAD OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Vahuaine vaadipumpade ostmine",
+        "contract_type": "SUPPLIES",
+        "contracting_bodies": [
+            {
+                "id": "70000585",
+                "name": "Päästeamet",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "14717670"
+        ],
+        "cpv": "42122300",
+        "date_dispatch_notice": "2026-09-02",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_f0f5a3c6-12d3-4d4c-a8b1-da0844a1fc33_0.json",
+        "flags": [
+            "Tenders received info missing",
+            "Too few evaluation criteria",
+            "Possible shell company"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 14717670"
+        ],
+        "noticeUid": "f0f5a3c6-12d3-4d4c-a8b1-da0844a1fc33",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "310994-0000",
+        "total_amount": "85263.00",
+        "total_amount_curr": "EUR"
     }
 ]

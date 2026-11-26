@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Ain",
-            "isikukood": "37006200429",
+            "isikukood": null,
+            "isikukood_hash": "1bc36de1-58c3-520d-8598-6e6616cd4225",
             "kirje_id": 9000775112,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Marko",
-            "isikukood": "36705046517",
+            "isikukood": null,
+            "isikukood_hash": "fa670be8-f55c-5d54-a977-f6ca679601e1",
             "kirje_id": 9000775109,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36705046517",
+            "isikukood_hash": "fa670be8-f55c-5d54-a977-f6ca679601e1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -119,6 +122,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Jaama tn 69, Võru linn, Võru maakond, 65604",
+                "kirje_id": 3325643,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2021",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2021",
+                "tegevusala_emtak_kood": "46391",
+                "tegevusala_emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete spetsialiseerimata hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.39",
+                "tootajate_arv": "18"
+            },
             {
                 "ettevotja_aadress_aruandes": "Jaama tn 69, Võru linn, Võru maakond, 65604",
                 "kirje_id": 2745766,
@@ -387,7 +402,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -505,12 +520,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.10.2010",
+                "algus_kpv": "10.02.2025",
                 "emtak_kood": "46391",
                 "emtak_tekstina": "Toidukaupade, jookide ja tubakatoodete spetsialiseerimata hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000095591,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000820203,
                 "lopp_kpv": null,
                 "nace_kood": "46.39",
                 "on_pohitegevusala": true

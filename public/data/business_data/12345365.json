@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Peeter",
-            "isikukood": "36802070217",
+            "isikukood": null,
+            "isikukood_hash": "4786d0d7-0dda-5073-940a-5dfc47b092c6",
             "kirje_id": 9000653771,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36802070217",
+            "isikukood_hash": "4786d0d7-0dda-5073-940a-5dfc47b092c6",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Silgu tn 18, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3602950,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Silgu tn 18, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3389635,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46649",
+                "tegevusala_emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Silgu tn 18, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
+                "kirje_id": 3167670,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46699",
+                "tegevusala_emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Silgu tn 18, Haabersti linnaosa, Tallinn, Harju maakond, 13516",
                 "kirje_id": 2839971,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,14 +384,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "13.09.2012",
-                "emtak_kood": "46699",
-                "emtak_tekstina": "Muude üld- ja eriotstarbeliste masinate ja seadmete hulgimüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000214043,
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "33131",
+                "emtak_tekstina": "Elektroonika- ja optikaseadmete remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888055,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "33.13",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "31.05.2025",
+                "emtak_kood": "46649",
+                "emtak_tekstina": "Muude masinate ja seadmete hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000888054,
+                "lopp_kpv": null,
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

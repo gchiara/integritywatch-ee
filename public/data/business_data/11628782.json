@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Jüri",
-            "isikukood": "37511260312",
+            "isikukood": null,
+            "isikukood_hash": "f406818f-67bd-5c7a-acd7-4007f0e61d04",
             "kirje_id": 9000767362,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37511260312",
+            "isikukood_hash": "f406818f-67bd-5c7a-acd7-4007f0e61d04",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7430252",
-                "aadress_ads__adr_id": 2259213,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Veerenni tn 24",
+                "aadress_ads__adob_id": "10698441",
+                "aadress_ads__adr_id": 3688658,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kursi tn 3",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01112556",
-                "aadress_ads__koodaadress": "3778402980000060Q00003ENY00000000",
+                "aadress_ads__ads_oid": "ME00642985",
+                "aadress_ads__koodaadress": "37784061400000TG30000D3T200000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "01.12.2017",
-                "ehak": "0298",
-                "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
+                "algus_kpv": "05.11.2025",
+                "ehak": "0614",
+                "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7204861,
+                "kande_nr": 10,
+                "kirje_id": 13404380,
                 "lopp_kpv": null,
-                "postiindeks": "10135",
+                "postiindeks": "10415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Veerenni tn 24"
+                "tanav_maja_korter": "Kursi tn 3"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3667247,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3432438,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3188411,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73111",
+                "tegevusala_emtak_tekstina": "Reklaamiagentuurid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.11",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 24, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
                 "kirje_id": 2865197,
@@ -287,7 +325,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -407,25 +445,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2022",
+                "algus_kpv": "21.06.2025",
                 "emtak_kood": "73111",
-                "emtak_tekstina": "Reklaamiagentuurid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000635071,
+                "emtak_tekstina": "Reklaamiagentuuride tegevus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930497,
                 "lopp_kpv": null,
                 "nace_kood": "73.11",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "10.06.2019",
-                "emtak_kood": "74101",
-                "emtak_tekstina": "Disainerite tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000419871,
+                "algus_kpv": "21.06.2025",
+                "emtak_kood": "74121",
+                "emtak_tekstina": "Graafiline disain ja visuaalne kommunikatsioon",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000930498,
                 "lopp_kpv": null,
-                "nace_kood": "74.10",
+                "nace_kood": "74.12",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "05.06.2026",
+                "emtak_kood": "85599",
+                "emtak_tekstina": "Muu mujal liigitamata õpe",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001108973,
+                "lopp_kpv": null,
+                "nace_kood": "85.59",
                 "on_pohitegevusala": false
             }
         ],

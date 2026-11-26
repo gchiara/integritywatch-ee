@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "26.09.2018",
             "eesnimi": "Liivi",
-            "isikukood": "46904194914",
+            "isikukood": null,
+            "isikukood_hash": "c3e00082-e6ad-596d-ab80-5506c0e38739",
             "kirje_id": 9000712692,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "46904194914",
+            "isikukood_hash": "c3e00082-e6ad-596d-ab80-5506c0e38739",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,15 +64,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7870592",
-                "aadress_ads__adr_id": 2667162,
+                "aadress_ads__adob_id": "10944138",
+                "aadress_ads__adr_id": 3747835,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Järva maakond, Paide linn, Paide linn, Pärnu tn 9-38",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "ER01673609",
-                "aadress_ads__koodaadress": "52567586000000RU90000AWD1HAVB0000",
+                "aadress_ads__koodaadress": "52567586100000W3M0000DB1PLRU20000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "19.12.2017",
-                "ehak": "5860",
+                "ehak": "5861",
                 "ehak_nimetus": "Paide linn, Paide linn, Järva maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Pärnu tn 9-38, Paide linn, Paide linn, Järva maakond, 72712",
+                "kirje_id": 3795060,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu tn 9-38, Paide linn, Paide linn, Järva maakond, 72712",
+                "kirje_id": 3439668,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Pärnu tn 9-38, Paide linn, Paide linn, Järva maakond, 72712",
+                "kirje_id": 3130318,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "69202",
+                "tegevusala_emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "69.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Pärnu tn 9-38, Paide linn, Paide linn, Järva maakond, 72712",
                 "kirje_id": 2899944,
@@ -251,7 +289,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -358,26 +396,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.05.2022",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000621793,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937349,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "21.03.2019",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "69202",
                 "emtak_tekstina": "Raamatupidamine, maksualane nõustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000406118,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000937348,
                 "lopp_kpv": null,
                 "nace_kood": "69.20",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "02.07.2026",
+                "emtak_kood": "81211",
+                "emtak_tekstina": "Hoonete üldpuhastus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001136103,
+                "lopp_kpv": null,
+                "nace_kood": "81.21",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.01.2019",
             "eesnimi": "Anneli",
-            "isikukood": "45812300266",
+            "isikukood": null,
+            "isikukood_hash": "dfad1901-8f5c-598d-8776-2dacc38620d2",
             "kirje_id": 9000926467,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45812300266",
+            "isikukood_hash": "dfad1901-8f5c-598d-8776-2dacc38620d2",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10685529",
-                "aadress_ads__adr_id": 3688658,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kursi tn 3",
+                "aadress_ads__adob_id": "10558609",
+                "aadress_ads__adr_id": 2358893,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Peetri tn 7",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME00642985",
-                "aadress_ads__koodaadress": "37784061400000TG30000D3T200000000",
+                "aadress_ads__ads_oid": "ME00641696",
+                "aadress_ads__koodaadress": "37784061400000Q2T00009SGV00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "05.06.2023",
+                "algus_kpv": "24.01.2025",
                 "ehak": "0614",
                 "ehak_nimetus": "Põhja-Tallinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 10687611,
+                "kande_nr": 8,
+                "kirje_id": 12924833,
                 "lopp_kpv": null,
                 "postiindeks": "10415",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Kursi tn 3"
+                "tanav_maja_korter": "Peetri tn 7"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Peetri tn 7, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3610890,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Peetri tn 7, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3352503,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kursi tn 3, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
+                "kirje_id": 3101943,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Põhja pst 27a, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10415",
                 "kirje_id": 2813642,
@@ -167,7 +205,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -252,11 +290,11 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000543305,
+                "kirje_id": 9000720279,
                 "liik": "MOB",
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
-                "sisu": "+372 5655527"
+                "sisu": "+372 56571001"
             }
         ],
         "staatus": "R",
@@ -274,12 +312,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "11.03.2020",
+                "algus_kpv": "09.04.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000467577,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000849650,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

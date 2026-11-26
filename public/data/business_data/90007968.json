@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "10.05.2022",
             "eesnimi": "Väino",
-            "isikukood": "35112192724",
+            "isikukood": null,
+            "isikukood_hash": "efb81796-c695-5ca6-b550-35d3c8e78cf7",
             "kirje_id": 9001429721,
             "kontrolli_teostamise_viis": "Z",
             "kontrolli_teostamise_viis_tekstina": "Asutajaõiguste teostaja, nõukogu liige, juhatuse liige",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35112192724",
+            "isikukood_hash": "efb81796-c695-5ca6-b550-35d3c8e78cf7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "SA",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10537976",
+                "aadress_ads__adob_id": "11109550",
                 "aadress_ads__adr_id": 2839411,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Peipsiääre vald, Alatskivi alevik, Päiksi tee 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -127,6 +129,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Päiksi tee 2, Alatskivi alevik, Peipsiääre vald, Tartu maakond, 60201",
+                "kirje_id": 3646320,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "39"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Päiksi tee 2, Alatskivi alevik, Peipsiääre vald, Tartu maakond, 60201",
+                "kirje_id": 3361351,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "40"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Päiksi tee 2, Alatskivi alevik, Peipsiääre vald, Tartu maakond, 60201",
+                "kirje_id": 3100181,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "87101",
+                "tegevusala_emtak_tekstina": "Hooldusraviasutuste tegevus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "87.10",
+                "tootajate_arv": "38"
+            },
             {
                 "ettevotja_aadress_aruandes": "Päiksi tee 2, Alatskivi alevik, Peipsiääre vald, Tartu maakond, 60201",
                 "kirje_id": 2888606,
@@ -333,7 +371,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -405,23 +443,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "SA",
-                "kande_nr": 8,
-                "kirje_id": 10480973,
+                "kande_nr": 10,
+                "kirje_id": 13586983,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "hoolravi@hot.ee"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
-                "kirje_id": 6000105874,
-                "liik": "FAX",
-                "liik_tekstina": "Faks",
-                "lopp_kpv": null,
-                "sisu": "+372 7452778"
+                "sisu": "juhataja@peipsiveerehooldusravikeskus.ee"
             },
             {
                 "kaardi_nr": null,
@@ -450,12 +477,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "22.06.2010",
+                "algus_kpv": "25.04.2025",
                 "emtak_kood": "87101",
                 "emtak_tekstina": "Hooldusraviasutuste tegevus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000042050,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000858922,
                 "lopp_kpv": null,
                 "nace_kood": "87.10",
                 "on_pohitegevusala": true

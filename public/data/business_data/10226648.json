@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Jüri",
-            "isikukood": "36608240327",
+            "isikukood": null,
+            "isikukood_hash": "0be1d533-2241-5e1e-9da2-fef352e262cf",
             "kirje_id": 9000667921,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608240327",
+            "isikukood_hash": "0be1d533-2241-5e1e-9da2-fef352e262cf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Mäepealse tn 2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3719609,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "46643",
+                "tegevusala_emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "3"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäepealse tn 2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3508218,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46643",
+                "tegevusala_emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.64",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Mäepealse tn 2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
+                "kirje_id": 3223100,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46692",
+                "tegevusala_emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.69",
+                "tootajate_arv": "6"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mäepealse tn 2, Mustamäe linnaosa, Tallinn, Harju maakond, 12618",
                 "kirje_id": 2924534,
@@ -406,7 +444,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -572,25 +610,36 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.06.2018",
-                "emtak_kood": "71129",
-                "emtak_tekstina": "Muud insener-tehnilised tegevusalad",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000364516,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "71121",
+                "emtak_tekstina": "Ehituslik insener-tehniline projekteerimine ja nõustamine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005277,
                 "lopp_kpv": null,
                 "nace_kood": "71.12",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "27.06.2018",
-                "emtak_kood": "46692",
-                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete hulgimüük, sh kaablid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000364515,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "27901",
+                "emtak_tekstina": "Muude elektriseadmete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005278,
                 "lopp_kpv": null,
-                "nace_kood": "46.69",
+                "nace_kood": "27.90",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "46643",
+                "emtak_tekstina": "Elektrimaterjalide, -tarvikute ja -seadmete, k.a kaablite hulgimüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001005276,
+                "lopp_kpv": null,
+                "nace_kood": "46.64",
                 "on_pohitegevusala": true
             }
         ],

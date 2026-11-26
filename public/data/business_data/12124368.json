@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.11.2018",
             "eesnimi": "Kurmet",
-            "isikukood": "36608080335",
+            "isikukood": null,
+            "isikukood_hash": "50187af4-0b5c-552f-8f41-7d94527d7018",
             "kirje_id": 9000874900,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36608080335",
+            "isikukood_hash": "50187af4-0b5c-552f-8f41-7d94527d7018",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 168, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
+                "kirje_id": 3798876,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "43411",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.41",
+                "tootajate_arv": "13"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 168, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
+                "kirje_id": 3522562,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Müüritööd",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "18"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Valdeku tn 168, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
+                "kirje_id": 3160811,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "43911",
+                "tegevusala_emtak_tekstina": "Katusetööd",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "43.91",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Valdeku tn 168, Nõmme linnaosa, Tallinn, Harju maakond, 11217",
                 "kirje_id": 2916583,
@@ -263,7 +301,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -405,14 +443,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.06.2012",
-                "emtak_kood": "43911",
+                "algus_kpv": "06.07.2026",
+                "emtak_kood": "43411",
                 "emtak_tekstina": "Katusetööd",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000193108,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001137100,
                 "lopp_kpv": null,
-                "nace_kood": "43.91",
+                "nace_kood": "43.41",
                 "on_pohitegevusala": true
             }
         ],

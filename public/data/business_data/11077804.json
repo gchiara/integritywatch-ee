@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "25.09.2018",
             "eesnimi": "Marko",
-            "isikukood": "38007012774",
+            "isikukood": null,
+            "isikukood_hash": "36382ffc-0869-5f81-8375-39a4b0877d1c",
             "kirje_id": 9000709923,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38007012774",
+            "isikukood_hash": "36382ffc-0869-5f81-8375-39a4b0877d1c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -61,7 +63,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10557448",
+                "aadress_ads__adob_id": "10763466",
                 "aadress_ads__adr_id": 2880352,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Räni alevik, Kassisilma tn 16",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 16, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3705242,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 16, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3411100,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "68111",
+                "tegevusala_emtak_tekstina": "Enda kinnisvara ost ja müük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "68.11",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kassisilma tn 16, Räni alevik, Kambja vald, Tartu maakond, 61708",
+                "kirje_id": 3159074,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "42221",
+                "tegevusala_emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "42.22",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kassisilma tn 16, Räni alevik, Kambja vald, Tartu maakond, 61708",
                 "kirje_id": 2863477,
@@ -334,7 +372,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -479,26 +517,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.04.2020",
-                "emtak_kood": "68101",
-                "emtak_tekstina": "Enda kinnisvara ost ja müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000472433,
-                "lopp_kpv": null,
-                "nace_kood": "68.10",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "02.12.2008",
+                "algus_kpv": "22.06.2026",
                 "emtak_kood": "42221",
                 "emtak_tekstina": "Elektri- ja sidevõrkude ehitus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 6000010154,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117458,
                 "lopp_kpv": null,
                 "nace_kood": "42.22",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "22.06.2026",
+                "emtak_kood": "68111",
+                "emtak_tekstina": "Enda kinnisvara ost ja müük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001117459,
+                "lopp_kpv": null,
+                "nace_kood": "68.11",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

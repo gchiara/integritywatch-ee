@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "03.09.2018",
             "eesnimi": "Ülari",
-            "isikukood": "37301024218",
+            "isikukood": null,
+            "isikukood_hash": "56bef938-4375-53fc-bda0-51fdfd600c6c",
             "kirje_id": 9000659645,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37301024218",
+            "isikukood_hash": "56bef938-4375-53fc-bda0-51fdfd600c6c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 3,
             "kaardi_tyyp": "R",
@@ -62,12 +64,12 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10552380",
-                "aadress_ads__adr_id": 3393807,
+                "aadress_ads__adob_id": "11024498",
+                "aadress_ads__adr_id": 3770415,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Tori vald, Eametsa küla, Nigula tee 51",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01072824",
-                "aadress_ads__koodaadress": "68809151000000L8V000075C100000000",
+                "aadress_ads__koodaadress": "68806151000000L8V000075C100000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "22.11.2021",
                 "ehak": "1510",
@@ -103,6 +105,18 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Nigula tee 51, Eametsa küla, Tori vald, Pärnu maakond, 85001",
+                "kirje_id": 3035125,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "41201",
+                "tegevusala_emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "41.20",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Nigula tee 51, Eametsa küla, Tori vald, Pärnu maakond, 85001",
                 "kirje_id": 2943259,
@@ -263,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -370,14 +384,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "31.03.2023",
-                "emtak_kood": "02101",
-                "emtak_tekstina": "Metsakasvatus ja muud metsamajanduse tegevusalad",
+                "algus_kpv": "13.01.2024",
+                "emtak_kood": "41201",
+                "emtak_tekstina": "Elamute ja mitteeluhoonete ehitus",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000676666,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000736043,
                 "lopp_kpv": null,
-                "nace_kood": "02.10",
+                "nace_kood": "41.20",
                 "on_pohitegevusala": true
             }
         ],

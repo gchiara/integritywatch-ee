@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Andrus",
-            "isikukood": "38208082746",
+            "isikukood": null,
+            "isikukood_hash": "5d1e4389-c1c2-5a42-ad92-6c6fada21771",
             "kirje_id": 9000863404,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.10.2018",
             "eesnimi": "Kalev",
-            "isikukood": "36012192734",
+            "isikukood": null,
+            "isikukood_hash": "40c613f3-911e-516c-9a63-633842a948b8",
             "kirje_id": 9000863399,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38208082746",
+            "isikukood_hash": "5d1e4389-c1c2-5a42-ad92-6c6fada21771",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -94,7 +97,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36012192734",
+            "isikukood_hash": "40c613f3-911e-516c-9a63-633842a948b8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -157,6 +161,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 9, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3732605,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "71201",
+                "tegevusala_emtak_tekstina": "Autode tehniline ülevaatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 9, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3470906,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "71201",
+                "tegevusala_emtak_tekstina": "Autode tehniline ülevaatus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "71.20",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Raudtee tn 9, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
+                "kirje_id": 3231301,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Raudtee tn 9, Mustvee linn, Mustvee vald, Jõgeva maakond, 49603",
                 "kirje_id": 2939337,
@@ -353,7 +393,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -471,14 +511,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "06.06.2019",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000419063,
+                "algus_kpv": "29.06.2025",
+                "emtak_kood": "71201",
+                "emtak_tekstina": "Autode tehniline ülevaatus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000967517,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "71.20",
                 "on_pohitegevusala": true
             }
         ],

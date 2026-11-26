@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "19.10.2018",
             "eesnimi": "Peeter",
-            "isikukood": "36102080280",
+            "isikukood": null,
+            "isikukood_hash": "aa88921a-c5be-5561-9dea-0830155ba351",
             "kirje_id": 9000774588,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37312250239",
+            "isikukood_hash": "034feaee-7fa4-5542-ac7a-2bcbd47d258c",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -77,7 +79,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38508170313",
+            "isikukood_hash": "d9bb3249-e513-56ea-98f3-6af082516565",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -140,6 +143,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kaare tee 3, Lubja küla, Viimsi vald, Harju maakond, 74010",
+                "kirje_id": 3775501,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "30311",
+                "tegevusala_emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite jms seadmete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "30.31",
+                "tootajate_arv": "174"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tee 3, Lubja küla, Viimsi vald, Harju maakond, 74010",
+                "kirje_id": 3480963,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "30311",
+                "tegevusala_emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite jms seadmete tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "30.31",
+                "tootajate_arv": "133"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kaare tee 3, Lubja küla, Viimsi vald, Harju maakond, 74010",
+                "kirje_id": 3212472,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "30301",
+                "tegevusala_emtak_tekstina": "Õhu- ja kosmosesõidukite jms tootmine",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "30.30",
+                "tootajate_arv": "96"
+            },
             {
                 "ettevotja_aadress_aruandes": "Kaare tee 3, Lubja küla, Viimsi vald, Harju maakond, 74010",
                 "kirje_id": 2917688,
@@ -275,20 +314,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "05.06.2023",
+                "algus_kpv": "13.11.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 26,
+                "kande_nr": 29,
                 "kapitali_suurus": "500000.00",
                 "kapitali_valuuta": "EUR",
                 "kapitali_valuuta_tekstina": "euro",
-                "kirje_id": 10686340,
+                "kirje_id": 12792518,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -357,13 +396,13 @@
         "piirkond_tekstina_pikk": "Tartu Maakohtu registriosakond",
         "pohikirjad": [
             {
-                "algus_kpv": "05.06.2023",
+                "algus_kpv": "13.11.2024",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 26,
+                "kande_nr": 29,
                 "kinnitamise_kpv": null,
-                "kirje_id": 10686361,
+                "kirje_id": 12792519,
                 "lopp_kpv": null,
                 "muutmise_kpv": null,
                 "selgitus": null,
@@ -409,26 +448,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "30311",
+                "emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite jms seadmete tootmine",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977502,
+                "lopp_kpv": null,
+                "nace_kood": "30.31",
+                "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "33161",
-                "emtak_tekstina": "Õhu- ja kosmosesõidukite remont ja hooldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000565168,
+                "emtak_tekstina": "Tsiviilõhusõidukite ja -kosmosesõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000977503,
                 "lopp_kpv": null,
                 "nace_kood": "33.16",
                 "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "30.06.2017",
-                "emtak_kood": "30301",
-                "emtak_tekstina": "Õhu- ja kosmosesõidukite jms tootmine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000309754,
-                "lopp_kpv": null,
-                "nace_kood": "30.30",
-                "on_pohitegevusala": true
             }
         ],
         "tegutseb": null,

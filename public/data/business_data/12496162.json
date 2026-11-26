@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2019",
             "eesnimi": "Indrek",
-            "isikukood": "37712190011",
+            "isikukood": null,
+            "isikukood_hash": "d5b7ee81-90e8-5daa-be06-ed165a04a2c8",
             "kirje_id": 9000990358,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "37712190011",
+            "isikukood_hash": "d5b7ee81-90e8-5daa-be06-ed165a04a2c8",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 4,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Ranna, Sutu küla, Saaremaa vald, Saare maakond, 94123",
+                "kirje_id": 3692973,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "77311",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ranna, Sutu küla, Saaremaa vald, Saare maakond, 94123",
+                "kirje_id": 3441285,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "77311",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.31",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Ranna, Sutu küla, Saaremaa vald, Saare maakond, 94123",
+                "kirje_id": 3162938,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "77311",
+                "tegevusala_emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "77.31",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Ranna, Sutu küla, Saaremaa vald, Saare maakond, 94123",
                 "kirje_id": 2902534,
@@ -239,7 +277,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -346,37 +384,37 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "17.06.2021",
-                "emtak_kood": "43211",
-                "emtak_tekstina": "Elektrijuhtmete ja -seadmete paigaldus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558152,
-                "lopp_kpv": null,
-                "nace_kood": "43.21",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "17.06.2021",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "46191",
-                "emtak_tekstina": "Mitmesuguste erinevate kaupade vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558151,
+                "emtak_tekstina": "Spetsialiseerimata hulgimüügi vahendusteenus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938895,
                 "lopp_kpv": null,
                 "nace_kood": "46.19",
                 "on_pohitegevusala": false
             },
             {
-                "algus_kpv": "17.06.2021",
+                "algus_kpv": "25.06.2025",
                 "emtak_kood": "77311",
                 "emtak_tekstina": "Põllumajandusmasinate ja -seadmete rentimine ja kasutusrent",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000558150,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000938894,
                 "lopp_kpv": null,
                 "nace_kood": "77.31",
                 "on_pohitegevusala": true
+            },
+            {
+                "algus_kpv": "17.06.2026",
+                "emtak_kood": "35123",
+                "emtak_tekstina": "Elektrienergia tootmine päikeseenergiast",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001114874,
+                "lopp_kpv": null,
+                "nace_kood": "35.12",
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

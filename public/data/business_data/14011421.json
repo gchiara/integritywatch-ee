@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "01.09.2018",
             "eesnimi": "Margus",
-            "isikukood": "38109084230",
+            "isikukood": null,
+            "isikukood_hash": "d3dac14d-daf7-599d-a716-7a481d4f46e4",
             "kirje_id": 9000653526,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.08.2019",
             "eesnimi": "Evelin",
-            "isikukood": "48806152736",
+            "isikukood": null,
+            "isikukood_hash": "6255d1c4-7972-5256-b63b-7b53bcf288c8",
             "kirje_id": 9001016095,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109084230",
+            "isikukood_hash": "d3dac14d-daf7-599d-a716-7a481d4f46e4",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -79,26 +82,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9629111",
-                "aadress_ads__adr_id": 3037118,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Papsaare küla, Mauri tee 1",
+                "aadress_ads__adob_id": "10715540",
+                "aadress_ads__adr_id": 3078437,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Kõrtsi tn 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "ME01660521",
-                "aadress_ads__koodaadress": "68624598600000QJ80000A0QR00000000",
+                "aadress_ads__ads_oid": "ME03887974",
+                "aadress_ads__koodaadress": "68624661900000T2W0000BHNR00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "13.02.2018",
-                "ehak": "5986",
-                "ehak_nimetus": "Papsaare küla, Pärnu linn, Pärnu maakond",
+                "algus_kpv": "10.04.2024",
+                "ehak": "6619",
+                "ehak_nimetus": "Pärnu linn, Pärnu linn, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 7,
-                "kirje_id": 7921376,
+                "kande_nr": 10,
+                "kirje_id": 12433687,
                 "lopp_kpv": null,
-                "postiindeks": "88317",
+                "postiindeks": "80010",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Mauri tee 1"
+                "tanav_maja_korter": "Kõrtsi tn 2"
             }
         ],
         "arinimed": [
@@ -120,6 +123,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Kõrtsi tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3603082,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrtsi tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3349920,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "95311",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "95.31",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Kõrtsi tn 2, Pärnu linn, Pärnu linn, Pärnu maakond, 80010",
+                "kirje_id": 3090075,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45201",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite hooldus ja remont",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.20",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Mauri tee 1, Papsaare küla, Pärnu linn, Pärnu maakond, 88317",
                 "kirje_id": 2857292,
@@ -220,7 +259,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -293,12 +332,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 6,
-                "kirje_id": 7800636,
+                "kande_nr": 10,
+                "kirje_id": 12433688,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "alfacar.parnu@gmail.com"
+                "sisu": "info@alfacar.ee"
             },
             {
                 "kaardi_nr": null,
@@ -327,14 +366,25 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.03.2016",
-                "emtak_kood": "45201",
-                "emtak_tekstina": "Mootorsõidukite hooldus ja remont",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000216537,
+                "algus_kpv": "17.03.2026",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001088734,
                 "lopp_kpv": null,
-                "nace_kood": "45.20",
+                "nace_kood": "47.81",
+                "on_pohitegevusala": false
+            },
+            {
+                "algus_kpv": "04.04.2025",
+                "emtak_kood": "95311",
+                "emtak_tekstina": "Mootorsõidukite remont ja hooldus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000846845,
+                "lopp_kpv": null,
+                "nace_kood": "95.31",
                 "on_pohitegevusala": true
             }
         ],

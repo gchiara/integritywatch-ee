@@ -7,6 +7,7 @@
             "algus_kpv": "05.09.2018",
             "eesnimi": "Andris",
             "isikukood": null,
+            "isikukood_hash": null,
             "kirje_id": 9000665470,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "05.09.2018",
             "eesnimi": "Lauri",
-            "isikukood": "38004220249",
+            "isikukood": null,
+            "isikukood_hash": "66b4c708-71ff-5788-9a5b-ba39946ce69d",
             "kirje_id": 9000665471,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,6 +59,7 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
+            "isikukood_hash": null,
             "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
@@ -93,7 +96,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38004220249",
+            "isikukood_hash": "66b4c708-71ff-5788-9a5b-ba39946ce69d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -156,6 +160,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 45a // Tulika tn 31, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3654285,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 45a // Tulika tn 31, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3393467,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Endla tn 45a // Tulika tn 31, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
+                "kirje_id": 3121345,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "73121",
+                "tegevusala_emtak_tekstina": "Reklaami vahendamine meedias",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "73.12",
+                "tootajate_arv": "2"
+            },
             {
                 "ettevotja_aadress_aruandes": "Endla tn 45a // Tulika tn 31, Kristiine linnaosa, Tallinn, Harju maakond, 10615",
                 "kirje_id": 2813829,
@@ -412,7 +452,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -541,12 +581,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "28.03.2016",
+                "algus_kpv": "03.06.2025",
                 "emtak_kood": "73121",
                 "emtak_tekstina": "Reklaami vahendamine meedias",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000218968,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000891626,
                 "lopp_kpv": null,
                 "nace_kood": "73.12",
                 "on_pohitegevusala": true

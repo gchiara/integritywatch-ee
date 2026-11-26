@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "27.07.2022",
             "eesnimi": "Aare",
-            "isikukood": "36610085230",
+            "isikukood": null,
+            "isikukood_hash": "66d8cbf6-339b-57bb-922c-4ae5b92c75ea",
             "kirje_id": 9001459394,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36610085230",
+            "isikukood_hash": "66d8cbf6-339b-57bb-922c-4ae5b92c75ea",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "7937045",
-                "aadress_ads__adr_id": 2709159,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Tööstuse tn 11/1",
+                "aadress_ads__adob_id": "11045094",
+                "aadress_ads__adr_id": 2687221,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Lääne-Viru maakond, Rakvere linn, Tööstuse tn 11",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE00911832",
-                "aadress_ads__koodaadress": "606630000000002AW00009V9900000000",
+                "aadress_ads__koodaadress": "606630000000002AW00002B9G00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "27.07.2022",
+                "algus_kpv": "14.01.2025",
                 "ehak": "0663",
                 "ehak_nimetus": "Rakvere linn, Lääne-Viru maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 10204639,
+                "kande_nr": 3,
+                "kirje_id": 12905156,
                 "lopp_kpv": null,
                 "postiindeks": "44311",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Tööstuse tn 11/1"
+                "tanav_maja_korter": "Tööstuse tn 11"
             }
         ],
         "arinimed": [
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 11, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3740895,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 11, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3444469,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": null,
+                "tegevusala_emtak_tekstina": null,
+                "tegevusala_emtak_versioon": null,
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": null,
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Tööstuse tn 11/1, Rakvere linn, Lääne-Viru maakond, 44311",
+                "kirje_id": 3206666,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Tööstuse tn 11/1, Rakvere linn, Lääne-Viru maakond, 44311",
                 "kirje_id": 2808532,
@@ -131,7 +169,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -227,14 +265,14 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "27.07.2022",
-                "emtak_kood": "49399",
-                "emtak_tekstina": "Sõitjate muu maismaavedu",
+                "algus_kpv": "29.06.2024",
+                "emtak_kood": "49319",
+                "emtak_tekstina": "Sõitjate muu kohalik liinivedu",
                 "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000644683,
+                "emtak_versioon_tekstina": "EMTAK 2008",
+                "kirje_id": 9000776250,
                 "lopp_kpv": null,
-                "nace_kood": "49.39",
+                "nace_kood": "49.31",
                 "on_pohitegevusala": true
             }
         ],

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.07.2019",
             "eesnimi": "Maie",
-            "isikukood": "45409146511",
+            "isikukood": null,
+            "isikukood_hash": "1792dbe5-9918-5e0e-b4b7-d8161252b5b1",
             "kirje_id": 9000992102,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "02.07.2019",
             "eesnimi": "Sulev",
-            "isikukood": "35312266518",
+            "isikukood": null,
+            "isikukood_hash": "ad75d61e-3cff-5a57-a4db-3c91c848e4cf",
             "kirje_id": 9000992101,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -56,7 +58,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "45409146511",
+            "isikukood_hash": "1792dbe5-9918-5e0e-b4b7-d8161252b5b1",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -92,7 +95,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "35312266518",
+            "isikukood_hash": "ad75d61e-3cff-5a57-a4db-3c91c848e4cf",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -114,7 +118,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8866705",
+                "aadress_ads__adob_id": "10914455",
                 "aadress_ads__adr_id": 3165801,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Põlva maakond, Põlva vald, Põlva linn, Võru tn 32",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -155,6 +159,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 32, Põlva linn, Põlva vald, Põlva maakond, 63305",
+                "kirje_id": 3781742,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "5"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 32, Põlva linn, Põlva vald, Põlva maakond, 63305",
+                "kirje_id": 3478176,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Võru tn 32, Põlva linn, Põlva vald, Põlva maakond, 63305",
+                "kirje_id": 3224002,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "4778",
+                "tegevusala_emtak_tekstina": "Muude uute kaupade jaemüük spetsialiseeritud kauplustes",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.78",
+                "tootajate_arv": "5"
+            },
             {
                 "ettevotja_aadress_aruandes": "Võru tn 32, Põlva linn, Põlva vald, Põlva maakond, 63305",
                 "kirje_id": 2884116,
@@ -507,7 +547,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -667,23 +707,23 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "29.06.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "4778",
-                "emtak_tekstina": "Muude uute kaupade jaemüük spetsialiseeritud kauplustes",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000195232,
+                "emtak_tekstina": "Muude uute kaupade jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974492,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "29.06.2012",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "47789",
                 "emtak_tekstina": "Mujal liigitamata kaupade jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000195233,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000974493,
                 "lopp_kpv": null,
                 "nace_kood": "47.78",
                 "on_pohitegevusala": false

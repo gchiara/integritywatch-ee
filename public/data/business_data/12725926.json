@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "21.01.2019",
             "eesnimi": "Külli",
-            "isikukood": "48108162736",
+            "isikukood": null,
+            "isikukood_hash": "1b6675b3-b125-570d-8df4-b8d9c5358f20",
             "kirje_id": 9000922266,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -23,7 +24,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "30.06.2023",
             "eesnimi": "Minni",
-            "isikukood": "48505170398",
+            "isikukood": null,
+            "isikukood_hash": "c405f155-2299-5f79-bd29-92f78add6e3e",
             "kirje_id": 9001591040,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -57,7 +59,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "48108162736",
+            "isikukood_hash": "1b6675b3-b125-570d-8df4-b8d9c5358f20",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 2,
             "kaardi_tyyp": "R",
@@ -79,26 +82,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "10338523",
-                "aadress_ads__adr_id": 3603997,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Veerenni tn 24-306",
+                "aadress_ads__adob_id": "10502800",
+                "aadress_ads__adr_id": 2266617,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Kesklinna linnaosa, Toompuiestee 21",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "MR03936965",
-                "aadress_ads__koodaadress": "3778402980000060Q00003ENYKRGJ0000",
+                "aadress_ads__ads_oid": "ME01656761",
+                "aadress_ads__koodaadress": "377840298000003XL00000Q9U00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "26.08.2022",
+                "algus_kpv": "23.01.2026",
                 "ehak": "0298",
                 "ehak_nimetus": "Kesklinna linnaosa, Tallinn, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 9,
-                "kirje_id": 10240278,
+                "kande_nr": 12,
+                "kirje_id": 13532402,
                 "lopp_kpv": null,
-                "postiindeks": "10135",
+                "postiindeks": "10137",
                 "riik": "EST",
                 "riik_tekstina": "Eesti",
-                "tanav_maja_korter": "Veerenni tn 24-306"
+                "tanav_maja_korter": "Toompuiestee 21"
             }
         ],
         "arinimed": [
@@ -113,13 +116,49 @@
                 "sisu": "Välek OÜ"
             }
         ],
-        "asutatud_sissemakset_tegemata": true,
+        "asutatud_sissemakset_tegemata": false,
         "esitab_kasusaajad": true,
         "esmaregistreerimise_kpv": "25.09.2014",
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Toompuiestee 21, Kesklinna linnaosa, Tallinn, Harju maakond, 10137",
+                "kirje_id": 3763022,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "8"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24-306, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3498720,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "11"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Veerenni tn 24-306, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
+                "kirje_id": 3195841,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "74301",
+                "tegevusala_emtak_tekstina": "Kirjalik ja suuline tõlge",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "74.30",
+                "tootajate_arv": "19"
+            },
             {
                 "ettevotja_aadress_aruandes": "Veerenni tn 24-306, Kesklinna linnaosa, Tallinn, Harju maakond, 10135",
                 "kirje_id": 2923890,
@@ -232,7 +271,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -350,17 +389,6 @@
                 "kaardi_piirkond": null,
                 "kaardi_tyyp": null,
                 "kande_nr": null,
-                "kirje_id": 9000635401,
-                "liik": "WWW",
-                "liik_tekstina": "Interneti WWW aadress",
-                "lopp_kpv": null,
-                "sisu": "https://transly.ru"
-            },
-            {
-                "kaardi_nr": null,
-                "kaardi_piirkond": null,
-                "kaardi_tyyp": null,
-                "kande_nr": null,
                 "kirje_id": 9000635402,
                 "liik": "WWW",
                 "liik_tekstina": "Interneti WWW aadress",
@@ -388,6 +416,28 @@
                 "liik_tekstina": "Interneti WWW aadress",
                 "lopp_kpv": null,
                 "sisu": "https://transly.se"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000737888,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://transly.de"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000737889,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "https://tõlkebüroo.eu"
             }
         ],
         "staatus": "R",
@@ -405,12 +455,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "12.09.2016",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "74301",
                 "emtak_tekstina": "Kirjalik ja suuline tõlge",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000259389,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000995890,
                 "lopp_kpv": null,
                 "nace_kood": "74.30",
                 "on_pohitegevusala": true

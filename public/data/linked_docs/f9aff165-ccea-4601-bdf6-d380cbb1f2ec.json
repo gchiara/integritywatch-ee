@@ -2,11 +2,24 @@
     {
         "contract_title": "Meditsiiniliste mittesteriilsete kinnaste ostmine",
         "contract_type": "SUPPLIES",
-        "contracting_body_name": "sihtasutus Tartu Ülikooli Kliinikum",
+        "contracting_bodies": [
+            {
+                "id": "90001478",
+                "name": "sihtasutus Tartu Ülikooli Kliinikum",
+                "town": "Tartu linn"
+            },
+            {
+                "id": "10050157",
+                "name": "aktsiaselts \"Põlva Haigla\"",
+                "town": "Põlva vald"
+            }
+        ],
         "date_dispatch_notice": "2023-07-11",
         "filename": "award_f9aff165-ccea-4601-bdf6-d380cbb1f2ec_0.json",
         "flags": [
-            "Too few evaluation criteria"
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
         ]
     }
 ]

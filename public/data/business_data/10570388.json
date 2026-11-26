@@ -4,19 +4,20 @@
         {
             "aadress_riik": "ESP",
             "aadress_riik_tekstina": "Hispaania",
-            "algus_kpv": "23.10.2018",
+            "algus_kpv": "30.06.2025",
             "eesnimi": "Natalia",
             "isikukood": null,
-            "kirje_id": 9000807777,
+            "isikukood_hash": "c1bc2137-5035-5b66-bb22-b1fe45547fa9",
+            "kirje_id": 9003458220,
             "kontrolli_teostamise_viis": "K",
             "kontrolli_teostamise_viis_tekstina": "kaudne osalus",
             "lahknevusteade_esitatud": null,
             "lopp_kpv": null,
             "nimi": "Levina",
-            "synniaeg": "14.01.1976",
+            "synniaeg": null,
             "valis_kood": null,
-            "valis_kood_riik": "RUS",
-            "valis_kood_riik_tekstina": "Venemaa"
+            "valis_kood_riik": "ESP",
+            "valis_kood_riik_tekstina": "Hispaania"
         }
     ],
     "board_members": [
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36604270266",
+            "isikukood_hash": "9daa22cb-8c59-5c1f-81da-5b5b56300fe7",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 18/1-25, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3719059,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "35131",
+                "tegevusala_emtak_tekstina": "Elektrienergia ülekanne",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.13",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 18/1-25, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3497454,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "35131",
+                "tegevusala_emtak_tekstina": "Elektrienergia ülekanne",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.13",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Rotermanni tn 18/1-25, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
+                "kirje_id": 3287766,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "35131",
+                "tegevusala_emtak_tekstina": "Elektrienergia jaotus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "35.13",
+                "tootajate_arv": "1"
+            },
             {
                 "ettevotja_aadress_aruandes": "Rotermanni tn 18/1-25, Kesklinna linnaosa, Tallinn, Harju maakond, 10111",
                 "kirje_id": 2824577,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -547,26 +585,26 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2021",
-                "emtak_kood": "35301",
-                "emtak_tekstina": "Auru ja konditsioneeritud õhuga varustamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000567115,
+                "algus_kpv": "30.06.2025",
+                "emtak_kood": "35131",
+                "emtak_tekstina": "Elektrienergia ülekanne",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000994654,
                 "lopp_kpv": null,
-                "nace_kood": "35.30",
-                "on_pohitegevusala": false
+                "nace_kood": "35.13",
+                "on_pohitegevusala": true
             },
             {
-                "algus_kpv": "02.07.2010",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "35141",
-                "emtak_tekstina": "Elektrienergia müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 3000073970,
+                "emtak_tekstina": "Elektrienergia jaotus",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000994655,
                 "lopp_kpv": null,
                 "nace_kood": "35.14",
-                "on_pohitegevusala": true
+                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

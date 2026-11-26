@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "22.10.2018",
             "eesnimi": "Heino",
-            "isikukood": "34802200231",
+            "isikukood": null,
+            "isikukood_hash": "f74ca5d2-2254-5a6c-828b-2ed74021827d",
             "kirje_id": 9000800448,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -39,7 +40,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "34802200231",
+            "isikukood_hash": "f74ca5d2-2254-5a6c-828b-2ed74021827d",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -61,15 +63,15 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9834187",
-                "aadress_ads__adr_id": 3471558,
+                "aadress_ads__adob_id": "10782271",
+                "aadress_ads__adr_id": 3708082,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Saku vald, Saku alevik, Metsatuka tn 5",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
                 "aadress_ads__ads_oid": "EE01119987",
-                "aadress_ads__koodaadress": "3771973610000072600005W0Y00000000",
+                "aadress_ads__koodaadress": "37719736200000VSR0000D71A00000000",
                 "aadress_ads__tyyp": null,
                 "algus_kpv": "08.11.2017",
-                "ehak": "7361",
+                "ehak": "7362",
                 "ehak_nimetus": "Saku alevik, Saku vald, Harju maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
@@ -102,6 +104,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Metsatuka tn 5, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3675447,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsatuka tn 5, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3482095,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "4"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Metsatuka tn 5, Saku alevik, Saku vald, Harju maakond, 75501",
+                "kirje_id": 3216095,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "49319",
+                "tegevusala_emtak_tekstina": "Sõitjate muu kohalik liinivedu",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "49.31",
+                "tootajate_arv": "4"
+            },
             {
                 "ettevotja_aadress_aruandes": "Metsatuka tn 5, Saku alevik, Saku vald, Harju maakond, 75501",
                 "kirje_id": 2786939,
@@ -322,7 +360,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -395,12 +433,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7671343,
+                "kande_nr": 7,
+                "kirje_id": 13731826,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "heinsalreisid@hot.ee"
+                "sisu": "info@heinsal.ee"
             },
             {
                 "kaardi_nr": null,
@@ -429,12 +467,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "10.04.2013",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "49319",
-                "emtak_tekstina": "Sõitjate muu kohalik liinivedu",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000022521,
+                "emtak_tekstina": "Sõitjate muu kohalik liinivedu (maakonna- ja vallasisesed liinid)",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000978764,
                 "lopp_kpv": null,
                 "nace_kood": "49.31",
                 "on_pohitegevusala": true

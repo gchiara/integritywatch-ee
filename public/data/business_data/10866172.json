@@ -1,6 +1,25 @@
 {
     "ariregistri_kood": 10866172,
-    "beneficial_owners": [],
+    "beneficial_owners": [
+        {
+            "aadress_riik": "EST",
+            "aadress_riik_tekstina": "Eesti",
+            "algus_kpv": "09.06.2026",
+            "eesnimi": "Robert",
+            "isikukood": null,
+            "isikukood_hash": "f183d058-0071-53a1-81f7-2e33ea710937",
+            "kirje_id": 9003557405,
+            "kontrolli_teostamise_viis": "O",
+            "kontrolli_teostamise_viis_tekstina": "otsene osalus",
+            "lahknevusteade_esitatud": null,
+            "lopp_kpv": null,
+            "nimi": "Tallo",
+            "synniaeg": null,
+            "valis_kood": null,
+            "valis_kood_riik": null,
+            "valis_kood_riik_tekstina": null
+        }
+    ],
     "board_members": [
         {
             "aadress_ads__adob_id": null,
@@ -10,25 +29,27 @@
             "aadress_ads__ads_oid": null,
             "aadress_ads__koodaadress": null,
             "aadress_ads__tyyp": null,
-            "aadress_ehak": "0728",
-            "aadress_ehak_tekstina": "Saue linn, Harju maakond",
-            "aadress_riik": "EST",
-            "aadress_riik_tekstina": "Eesti",
-            "aadress_tanav_maja_korter": "",
-            "algus_kpv": "04.09.2002",
-            "eesnimi": "Madis",
+            "aadress_ehak": null,
+            "aadress_ehak_tekstina": "",
+            "aadress_postiindeks": null,
+            "aadress_riik": null,
+            "aadress_riik_tekstina": null,
+            "aadress_tanav_maja_korter": null,
+            "algus_kpv": "29.07.2026",
+            "eesnimi": "Eva",
             "email": null,
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "36502050254",
+            "isikukood_hash": "eaab47eb-9c1b-55ae-8082-56d068627e60",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
-            "kaardi_piirkond": 1,
+            "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
-            "kande_nr": 2,
-            "kirje_id": 895134,
+            "kande_nr": 8,
+            "kirje_id": 13894011,
             "lopp_kpv": null,
-            "nimi_arinimi": "Kareda",
+            "nimi_arinimi": "Tallo",
             "osamaks": null,
             "osamaksu_valuuta": null,
             "osamaksu_valuuta_tekstina": null,
@@ -41,6 +62,30 @@
     ],
     "nimi": "Osaühing YXUS",
     "yldandmed": {
+        "aadressid": [
+            {
+                "aadress_ads__adob_id": "11067433",
+                "aadress_ads__adr_id": 2250334,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Harju maakond, Tallinn, Nõmme linnaosa, Rõõmu tn 14/6",
+                "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
+                "aadress_ads__ads_oid": "EE03697836",
+                "aadress_ads__koodaadress": "377840524000003TD00000XAJ00000000",
+                "aadress_ads__tyyp": null,
+                "algus_kpv": "29.07.2026",
+                "ehak": "0524",
+                "ehak_nimetus": "Nõmme linnaosa, Tallinn, Harju maakond",
+                "kaardi_nr": 1,
+                "kaardi_piirkond": 5,
+                "kaardi_tyyp": "R",
+                "kande_nr": 8,
+                "kirje_id": 13894010,
+                "lopp_kpv": null,
+                "postiindeks": "10921",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Rõõmu tn 14/6"
+            }
+        ],
         "arinimed": [
             {
                 "algus_kpv": "04.09.2002",
@@ -60,6 +105,30 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3490748,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "",
+                "kirje_id": 3225415,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "46901",
+                "tegevusala_emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "46.90",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "",
                 "kirje_id": 2899652,
@@ -291,20 +360,20 @@
         ],
         "kapitalid": [
             {
-                "algus_kpv": "15.05.2002",
+                "algus_kpv": "29.07.2026",
                 "kaardi_nr": 1,
-                "kaardi_piirkond": 1,
+                "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kapitali_suurus": "40000.00",
-                "kapitali_valuuta": "EEK",
-                "kapitali_valuuta_tekstina": "Eesti kroon",
-                "kirje_id": 855118,
+                "kande_nr": 8,
+                "kapitali_suurus": "2556.47",
+                "kapitali_valuuta": "EUR",
+                "kapitali_valuuta_tekstina": "euro",
+                "kirje_id": 13894016,
                 "lopp_kpv": null
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -377,12 +446,12 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 5,
-                "kirje_id": 7667639,
+                "kande_nr": 8,
+                "kirje_id": 13894012,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "madis@yxus.ee"
+                "sisu": "eva@lighton.ee"
             },
             {
                 "kaardi_nr": null,
@@ -394,6 +463,17 @@
                 "liik_tekstina": "Mobiiltelefon",
                 "lopp_kpv": null,
                 "sisu": "+372 5069399"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000747330,
+                "liik": "MOB",
+                "liik_tekstina": "Mobiiltelefon",
+                "lopp_kpv": null,
+                "sisu": "+372 5088480"
             }
         ],
         "staatus": "R",
@@ -411,12 +491,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "01.11.2020",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "46901",
                 "emtak_tekstina": "Spetsialiseerimata hulgikaubandus",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000515226,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000987893,
                 "lopp_kpv": null,
                 "nace_kood": "46.90",
                 "on_pohitegevusala": true

@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "14.11.2018",
             "eesnimi": "Jürgen",
-            "isikukood": "38109272742",
+            "isikukood": null,
+            "isikukood_hash": "fda300ba-f863-570f-8927-a71c586bc34e",
             "kirje_id": 9000891098,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38109272742",
+            "isikukood_hash": "fda300ba-f863-570f-8927-a71c586bc34e",
+            "isikukood_registrikood": null,
             "kaardi_nr": 2,
             "kaardi_piirkond": 1,
             "kaardi_tyyp": "R",
@@ -62,7 +64,7 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "9616671",
+                "aadress_ads__adob_id": "10877291",
                 "aadress_ads__adr_id": 2824030,
                 "aadress_ads__ads_normaliseeritud_taisaadress": "Tartu maakond, Kambja vald, Külitse alevik, Olevi tee 2",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
@@ -103,6 +105,42 @@
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
         "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Olevi tee 2, Külitse alevik, Kambja vald, Tartu maakond, 61702",
+                "kirje_id": 3809468,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Olevi tee 2, Külitse alevik, Kambja vald, Tartu maakond, 61702",
+                "kirje_id": 3557736,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "47811",
+                "tegevusala_emtak_tekstina": "Mootorsõidukite jaemüük",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "47.81",
+                "tootajate_arv": "0"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Olevi tee 2, Külitse alevik, Kambja vald, Tartu maakond, 61702",
+                "kirje_id": 3303011,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2023",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "45191",
+                "tegevusala_emtak_tekstina": "Muude mootorsõidukite müük",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "45.19",
+                "tootajate_arv": "0"
+            },
             {
                 "ettevotja_aadress_aruandes": "Olevi tee 2, Külitse alevik, Kambja vald, Tartu maakond, 61702",
                 "kirje_id": 2953268,
@@ -407,7 +445,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -562,48 +600,15 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "30.06.2014",
-                "emtak_kood": "46131",
-                "emtak_tekstina": "Puidu ja ehitusmaterjalide vahendamine",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000127716,
+                "algus_kpv": "19.09.2025",
+                "emtak_kood": "47811",
+                "emtak_tekstina": "Mootorsõidukite jaemüük",
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9001054162,
                 "lopp_kpv": null,
-                "nace_kood": "46.13",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "28.06.2021",
-                "emtak_kood": "45321",
-                "emtak_tekstina": "Mootorsõidukite osade ja lisaseadmete jaemüük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000561695,
-                "lopp_kpv": null,
-                "nace_kood": "45.32",
-                "on_pohitegevusala": false
-            },
-            {
-                "algus_kpv": "06.07.2023",
-                "emtak_kood": "45191",
-                "emtak_tekstina": "Muude mootorsõidukite müük",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709667,
-                "lopp_kpv": null,
-                "nace_kood": "45.19",
+                "nace_kood": "47.81",
                 "on_pohitegevusala": true
-            },
-            {
-                "algus_kpv": "06.07.2023",
-                "emtak_kood": "49411",
-                "emtak_tekstina": "Kaubavedu maanteel",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000709668,
-                "lopp_kpv": null,
-                "nace_kood": "49.41",
-                "on_pohitegevusala": false
             }
         ],
         "tegutseb": null,

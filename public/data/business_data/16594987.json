@@ -6,7 +6,8 @@
             "aadress_riik_tekstina": "Eesti",
             "algus_kpv": "17.10.2022",
             "eesnimi": "Märt",
-            "isikukood": "38202114210",
+            "isikukood": null,
+            "isikukood_hash": "cd04eed2-8515-5ef9-b817-a52cbdbb4459",
             "kirje_id": 9001488036,
             "kontrolli_teostamise_viis": "O",
             "kontrolli_teostamise_viis_tekstina": "otsene osalus",
@@ -40,7 +41,8 @@
             "isiku_roll": "JUHL",
             "isiku_roll_tekstina": "Juhatuse liige",
             "isiku_tyyp": "F",
-            "isikukood_registrikood": "38202114210",
+            "isikukood_hash": "cd04eed2-8515-5ef9-b817-a52cbdbb4459",
+            "isikukood_registrikood": null,
             "kaardi_nr": 1,
             "kaardi_piirkond": 5,
             "kaardi_tyyp": "R",
@@ -62,26 +64,26 @@
     "yldandmed": {
         "aadressid": [
             {
-                "aadress_ads__adob_id": "8765497",
-                "aadress_ads__adr_id": 3066412,
-                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Allika tn 11a",
+                "aadress_ads__adob_id": "8721023",
+                "aadress_ads__adr_id": 3045807,
+                "aadress_ads__ads_normaliseeritud_taisaadress": "Pärnu maakond, Pärnu linn, Pärnu linn, Energia tn 4",
                 "aadress_ads__ads_normaliseeritud_taisaadress_tapsustus": null,
-                "aadress_ads__ads_oid": "EE00703072",
-                "aadress_ads__koodaadress": "68624661900000T0F0000BEO300000000",
+                "aadress_ads__ads_oid": "ME00703905",
+                "aadress_ads__koodaadress": "68624661900000T090000B86L00000000",
                 "aadress_ads__tyyp": null,
-                "algus_kpv": "17.10.2022",
+                "algus_kpv": "21.10.2024",
                 "ehak": "6619",
                 "ehak_nimetus": "Pärnu linn, Pärnu linn, Pärnu maakond",
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 10307274,
+                "kande_nr": 4,
+                "kirje_id": 12751427,
                 "lopp_kpv": null,
-                "postiindeks": "80037",
-                "riik": null,
-                "riik_tekstina": null,
-                "tanav_maja_korter": "Allika tn 11a"
+                "postiindeks": "80042",
+                "riik": "EST",
+                "riik_tekstina": "Eesti",
+                "tanav_maja_korter": "Energia tn 4"
             }
         ],
         "arinimed": [
@@ -102,6 +104,44 @@
         "ettevotteregistri_nr": null,
         "evks_registreeritud": null,
         "evks_registreeritud_kande_kpv": null,
+        "info_majandusaasta_aruannetest": [
+            {
+                "ettevotja_aadress_aruandes": "Energia tn 4, Pärnu linn, Pärnu linn, Pärnu maakond, 80042",
+                "kirje_id": 3718289,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2025",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2025",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "2"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Energia tn 4, Pärnu linn, Pärnu linn, Pärnu maakond, 80042",
+                "kirje_id": 3496606,
+                "majandusaasta_perioodi_algus_kpv": "01.01.2024",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2024",
+                "tegevusala_emtak_kood": "81301",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2025",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            },
+            {
+                "ettevotja_aadress_aruandes": "Allika tn 11a, Pärnu linn, Pärnu linn, Pärnu maakond, 80037",
+                "kirje_id": 3065780,
+                "majandusaasta_perioodi_algus_kpv": "17.10.2022",
+                "majandusaasta_perioodi_lopp_kpv": "31.12.2023",
+                "tegevusala_emtak_kood": "8130",
+                "tegevusala_emtak_tekstina": "Maastiku hooldus ja korrashoid",
+                "tegevusala_emtak_versioon": "EMTAK 2008",
+                "tegevusala_emtak_versioon_tekstina": null,
+                "tegevusala_nace_kood": "81.30",
+                "tootajate_arv": "1"
+            }
+        ],
         "kapitalid": [
             {
                 "algus_kpv": "17.10.2022",
@@ -117,7 +157,7 @@
             }
         ],
         "kustutamise_kpv": null,
-        "lahknevusteade_puudumisest": null,
+        "lahknevusteade_puudumisest": false,
         "loobunud_vorminouetest": null,
         "majandusaastad": [
             {
@@ -190,12 +230,23 @@
                 "kaardi_nr": 1,
                 "kaardi_piirkond": 5,
                 "kaardi_tyyp": "R",
-                "kande_nr": 1,
-                "kirje_id": 10307281,
+                "kande_nr": 7,
+                "kirje_id": 13083862,
                 "liik": "EMAIL",
                 "liik_tekstina": "Elektronposti aadress",
                 "lopp_kpv": null,
-                "sisu": "lepiku@hotmail.com"
+                "sisu": "Info@halduskombinaat.ee"
+            },
+            {
+                "kaardi_nr": null,
+                "kaardi_piirkond": null,
+                "kaardi_tyyp": null,
+                "kande_nr": null,
+                "kirje_id": 9000724973,
+                "liik": "WWW",
+                "liik_tekstina": "Interneti WWW aadress",
+                "lopp_kpv": null,
+                "sisu": "http://www.halduskombinaat.ee"
             }
         ],
         "staatus": "R",
@@ -213,12 +264,12 @@
         ],
         "teatatud_tegevusalad": [
             {
-                "algus_kpv": "14.10.2022",
+                "algus_kpv": "30.06.2025",
                 "emtak_kood": "81301",
                 "emtak_tekstina": "Maastiku hooldus ja korrashoid",
-                "emtak_versioon": 2,
-                "emtak_versioon_tekstina": null,
-                "kirje_id": 9000654531,
+                "emtak_versioon": 3,
+                "emtak_versioon_tekstina": "EMTAK 2025",
+                "kirje_id": 9000993782,
                 "lopp_kpv": null,
                 "nace_kood": "81.30",
                 "on_pohitegevusala": true

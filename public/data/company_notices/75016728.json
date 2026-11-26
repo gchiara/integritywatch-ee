@@ -67,10 +67,12 @@
         "docType2": "default",
         "filename": "award_04482cc4-d68c-4c9d-905a-ed66a2721542_0.json",
         "flags": [
-            "Tenders received low"
+            "Tenders received low",
+            "Possible shell company"
         ],
         "flagsNotes": [
-            "Date receipt tenders missing"
+            "Date receipt tenders missing",
+            "Possible shell company: 11716032"
         ],
         "noticeUid": "04482cc4-d68c-4c9d-905a-ed66a2721542",
         "notice_items": [
@@ -5914,6 +5916,7 @@
         "refnum": "267507"
     },
     {
+        "changes_doc": true,
         "contract_title": "ePäeviku raamhange lasteaedadele",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -6577,7 +6580,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "214999.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -6592,7 +6597,7 @@
                 "tenders_received": "4"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Tehnilise valve, evakuatsioonivalgustuse hoolduse ja ATS hoolduse ostmise raamhange Tallinna lasteaedadele",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -7183,10 +7188,8 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 10974803",
-            "Nominees as company beneficial owners: 37901060330",
-            "Nominees as company beneficial owners: 37907040028",
-            "Nominees as company board members: 37901060330",
-            "Nominees as company board members: 37907040028"
+            "Nominees as company beneficial owners: Ilja_Zakareišvili_26.10.2018",
+            "Nominees as company beneficial owners: Yuriy_Herasymov_26.10.2018"
         ],
         "noticeUid": "d72687e8-d463-4f40-9284-1074f9048a25",
         "notice_items": [
@@ -7201,7 +7204,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-31",
+                "award_date_conclusion_contract": [
+                    "2023-08-31"
+                ],
                 "award_value": "390000.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -7221,7 +7226,7 @@
                 "tenders_received": "1"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "ePäeviku raamhange lasteaedadele",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -7885,15 +7890,15 @@
         "flagsNotes": [
             "Date receipt tenders missing",
             "Possible shell company: 12565196",
-            "Nominees as company beneficial owners: 38703260239",
-            "Nominees as company beneficial owners: 38712300377",
-            "Nominees as company beneficial owners: 38107300238",
-            "Nominees as company beneficial owners: 38611110364",
-            "Nominees as company board members: 38107300238",
-            "Nominees as company board members: 38611110364",
+            "Nominees as company beneficial owners: Mart_Raadik_15.10.2018",
             "Company Edukas Education OÜ(16603284) was first registered on 28.10.2022, 308 days before the notice dispatch.",
             "Possible shell company: 16603284",
-            "Nominees as company board members: 38712300377"
+            "Nominees as company beneficial owners: Marek_Rand_28.10.2022",
+            "Nominees as company beneficial owners: Mart_Raadik_28.10.2022",
+            "Nominees as company beneficial owners: Rasmus_Gross_28.10.2022",
+            "Nominees as company board members: Marek_Rand_28.10.2022",
+            "Nominees as company board members: Mart_Raadik_28.10.2022",
+            "Nominees as company board members: Rasmus_Gross_28.10.2022"
         ],
         "noticeUid": "90bc9630-5888-42d5-b9da-c95f812cec2b",
         "notice_items": [
@@ -7903,6 +7908,91 @@
         ],
         "refnum": "266830",
         "total_amount": "390000.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "contract_title": "Toitlustusteenuse osutamine Tallinna Lastesõimele Hellik",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75016728",
+                "name": "Tallinna Lastesõim Hellik",
+                "town": "Tallinn"
+            }
+        ],
+        "cpv": "55520000",
+        "date_dispatch_notice": "2025-05-09",
+        "debugNotes": [],
+        "docType": "notice",
+        "docType2": "",
+        "filename": "notice_ef3291e7-af84-4227-a525-16d9ffe0b28f_0.json",
+        "flags": [
+            "Short notice period",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Short notice period: 11 days."
+        ],
+        "noticeUid": "ef3291e7-af84-4227-a525-16d9ffe0b28f",
+        "notice_items": [
+            {
+                "endDate": "2026-05-30"
+            }
+        ],
+        "refnum": "293179-0000"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-06-11"
+                ],
+                "award_value": "100000.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "10003502",
+                        "contractor_name": "Osaühing Tüdrukud",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "1"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Toitlustusteenuse osutamine Tallinna Lastesõimele Hellik",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "75016728",
+                "name": "Tallinna Lastesõim Hellik",
+                "town": "Tallinn"
+            }
+        ],
+        "contractors": [
+            "10003502"
+        ],
+        "cpv": "55520000",
+        "date_dispatch_notice": "2025-06-25",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_8de56077-b22d-4dc9-938a-3ebd055db417_0.json",
+        "flags": [
+            "Tenders received low",
+            "Too few evaluation criteria"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing"
+        ],
+        "noticeUid": "8de56077-b22d-4dc9-938a-3ebd055db417",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "293179-0000",
+        "total_amount": "100000.00",
         "total_amount_curr": "EUR"
     }
 ]

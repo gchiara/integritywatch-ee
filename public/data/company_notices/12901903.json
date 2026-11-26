@@ -2,7 +2,9 @@
     {
         "award_items": [
             {
-                "award_date_conclusion_contract": "2023-08-04",
+                "award_date_conclusion_contract": [
+                    "2023-08-04"
+                ],
                 "award_value": "5350.00",
                 "award_value_curr": "EUR",
                 "contract_awarded": true,
@@ -17,7 +19,7 @@
                 "tenders_received": "3"
             }
         ],
-        "award_items_num": 0,
+        "award_items_num": 1,
         "contract_title": "Narva karjääri remondi ja laomajanduse plokis söögi- ja puhkeruumi projekteerimine",
         "contract_type": "SERVICES",
         "contracting_bodies": [
@@ -38,14 +40,13 @@
         "filename": "award_eb961bae-7f49-4137-bf3e-91ede4801de3_0.json",
         "flags": [
             "Too few evaluation criteria",
+            "Possible shell company",
             "Nominees as company board members or beneficial owners"
         ],
         "flagsNotes": [
             "Date receipt tenders missing",
-            "Nominees as company beneficial owners: 39003042221",
-            "Nominees as company beneficial owners: 38811165226",
-            "Nominees as company board members: 39003042221",
-            "Nominees as company board members: 38811165226"
+            "Possible shell company: 12901903",
+            "Nominees as company beneficial owners: Rasmus_Kuusemets_01.10.2018"
         ],
         "noticeUid": "eb961bae-7f49-4137-bf3e-91ede4801de3",
         "notice_items": [
@@ -55,6 +56,63 @@
         ],
         "refnum": "267804",
         "total_amount": "5350.00",
+        "total_amount_curr": "EUR"
+    },
+    {
+        "award_items": [
+            {
+                "award_date_conclusion_contract": [
+                    "2025-01-27"
+                ],
+                "award_value": "27850.00",
+                "award_value_curr": "EUR",
+                "contract_awarded": true,
+                "contractors": [
+                    {
+                        "contractor_id": "12901903",
+                        "contractor_name": "Haustec OÜ",
+                        "country": "EE"
+                    }
+                ],
+                "result": "selec-w",
+                "tenders_received": "10"
+            }
+        ],
+        "award_items_num": 1,
+        "contract_title": "Valga Jaamahoone energiatõhususe parandamise projekteerimistööd",
+        "contract_type": "SERVICES",
+        "contracting_bodies": [
+            {
+                "id": "77000507",
+                "name": "Valga Vallavalitsus",
+                "town": "Valga vald"
+            }
+        ],
+        "contractors": [
+            "12901903"
+        ],
+        "cpv": "71220000",
+        "date_dispatch_notice": "2025-02-13",
+        "debugNotes": [],
+        "docType": "award",
+        "docType2": "",
+        "filename": "award_89d21df4-2260-4d28-b9e6-7d3b4e6d890a_0.json",
+        "flags": [
+            "Too few evaluation criteria",
+            "Possible shell company",
+            "Nominees as company board members or beneficial owners"
+        ],
+        "flagsNotes": [
+            "Date receipt tenders missing",
+            "Possible shell company: 12901903",
+            "Nominees as company beneficial owners: Rasmus_Kuusemets_01.10.2018"
+        ],
+        "noticeUid": "89d21df4-2260-4d28-b9e6-7d3b4e6d890a",
+        "notice_items": [
+            {}
+        ],
+        "refnum": "287472",
+        "total_amount": "27850.00",
         "total_amount_curr": "EUR"
     }
 ]
